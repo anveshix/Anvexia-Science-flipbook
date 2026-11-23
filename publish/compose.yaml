@@ -1,0 +1,27 @@
+# Optional Docker path. Host port 8081 avoids clashing with the workspace preview on 8080.
+# No environment variables, secrets, volumes, database, API or backend are required.
+services:
+  eduverse:
+    build: .
+    image: eduverse:1.0.0
+    container_name: eduverse
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+    environment: {}
+    read_only: true
+    init: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - "no-new-privileges:true"
+    pids_limit: 128
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+      - /var/run
+    logging:
+      driver: json-file
+      options:
+        max-size: "1m"
+        max-file: "3"

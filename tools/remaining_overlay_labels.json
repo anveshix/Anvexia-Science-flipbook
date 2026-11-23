@@ -1,0 +1,1872 @@
+{
+  "c9_atom/8-01-element-atoms.jpg": [
+    {
+      "en": "Copper-like sample",
+      "hi": "ताँबे जैसा नमूना",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "An element contains atoms of one element; this generated sample is not verified copper.",
+      "info_hi": "तत्व में एक ही तत्व के परमाणु होते हैं; यह निर्मित नमूना सत्यापित ताँबा नहीं है।",
+      "anchor_x": 470,
+      "anchor_y": 490
+    },
+    {
+      "en": "Atom model",
+      "hi": "परमाणु मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The spheres represent atoms; they are not an image of individual atoms.",
+      "info_hi": "गोले परमाणुओं का मॉडल हैं; वे अलग-अलग परमाणुओं का वास्तविक चित्र नहीं हैं।",
+      "anchor_x": 970,
+      "anchor_y": 280
+    }
+  ],
+  "c9_atom/8-02-electron-discovery.jpg": [
+    {
+      "en": "Tube model",
+      "hi": "नली मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A discharge tube is associated with historical electron studies; this reconstruction is not an experiment.",
+      "info_hi": "विसर्जन नली इलेक्ट्रॉन के ऐतिहासिक अध्ययन से जुड़ी है; यह पुनर्निर्माण प्रयोग नहीं है।",
+      "anchor_x": 840,
+      "anchor_y": 300
+    },
+    {
+      "en": "Electrode model",
+      "hi": "इलेक्ट्रोड मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Electrodes connect a discharge tube to a power supply; the depicted wiring is unverified.",
+      "info_hi": "इलेक्ट्रोड नली को विद्युत स्रोत से जोड़ते हैं; दिखी तार व्यवस्था असत्यापित है।",
+      "anchor_x": 1120,
+      "anchor_y": 325
+    }
+  ],
+  "c9_atom/8-03-proton-neutron.jpg": [
+    {
+      "en": "Nucleus model",
+      "hi": "नाभिक मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A nucleus contains protons and, for most isotopes, neutrons. This color scheme is not a verified particle key.",
+      "info_hi": "नाभिक में प्रोटॉन और अधिकांश समस्थानिकों में न्यूट्रॉन होते हैं। इन रंगों की पहचान सत्यापित नहीं है।",
+      "anchor_x": 700,
+      "anchor_y": 385
+    }
+  ],
+  "c9_atom/8-04-thomson-model.jpg": [
+    {
+      "en": "Historical model",
+      "hi": "ऐतिहासिक मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Thomson proposed electrons within a spread of positive charge; this model was superseded.",
+      "info_hi": "थॉमसन ने धनावेश में इलेक्ट्रॉन होने का मॉडल दिया; बाद में यह मॉडल बदला गया।",
+      "anchor_x": 700,
+      "anchor_y": 385
+    }
+  ],
+  "c9_atom/8-05-rutherford-scattering.jpg": [
+    {
+      "en": "Alpha source",
+      "hi": "ऐल्फ़ा स्रोत",
+      "x": 28,
+      "y": 24,
+      "w": 305,
+      "h": 91,
+      "info_en": "An alpha source supplies alpha particles in the conceptual reconstruction; the drawing is not the historical apparatus.",
+      "info_hi": "सांकेतिक पुनर्निर्माण में स्रोत ऐल्फ़ा कण देता है; चित्र ऐतिहासिक उपकरण नहीं है।"
+    },
+    {
+      "en": "Gold foil",
+      "hi": "सोने की पन्नी",
+      "x": 541,
+      "y": 24,
+      "w": 300,
+      "h": 91,
+      "info_en": "A thin foil scattered some alpha particles in Rutherford-type experiments.",
+      "info_hi": "रदरफोर्ड जैसे प्रयोगों में पतली पन्नी ने कुछ ऐल्फ़ा कणों को प्रकीर्णित किया।"
+    },
+    {
+      "en": "Detector screen",
+      "hi": "संसूचक पर्दा",
+      "x": 1036,
+      "y": 24,
+      "w": 347,
+      "h": 91,
+      "info_en": "A detector records particles; the position and geometry in this reconstruction need review.",
+      "info_hi": "संसूचक कण दर्ज करता है; पुनर्निर्माण में स्थिति और रचना की समीक्षा शेष है।"
+    }
+  ],
+  "c9_atomic_foundations/9-01-mass-conservation.jpg": [
+    {
+      "en": "Closed system",
+      "hi": "बंद तंत्र",
+      "x": 1100,
+      "y": 20,
+      "w": 275,
+      "h": 65,
+      "info_en": "In a closed system, mass is conserved during an ordinary chemical reaction.",
+      "info_hi": "बंद तंत्र में सामान्य रासायनिक अभिक्रिया के दौरान द्रव्यमान संरक्षित रहता है।"
+    },
+    {
+      "en": "Balance",
+      "hi": "तुला",
+      "x": 1100,
+      "y": 450,
+      "w": 275,
+      "h": 65,
+      "info_en": "A balance measures mass; no actual reading is established by this illustration.",
+      "info_hi": "तुला द्रव्यमान मापती है; इस चित्र से कोई वास्तविक माप सिद्ध नहीं होता।"
+    }
+  ],
+  "c9_atomic_foundations/9-02-constant-proportions.jpg": [
+    {
+      "en": "Water model",
+      "hi": "जल मॉडल",
+      "x": 784,
+      "y": 25,
+      "w": 590,
+      "h": 195,
+      "info_en": "H₂O has two hydrogen atoms per oxygen atom; the diagram is schematic.",
+      "info_hi": "H₂O में प्रति ऑक्सीजन परमाणु दो हाइड्रोजन परमाणु होते हैं; आरेख सांकेतिक है।"
+    },
+    {
+      "en": "Water sample",
+      "hi": "जल का नमूना",
+      "x": 1115,
+      "y": 276,
+      "w": 260,
+      "h": 90,
+      "info_en": "A pure compound has a fixed elemental mass ratio; the depicted sample is not verified.",
+      "info_hi": "शुद्ध यौगिक में तत्वों का द्रव्यमान अनुपात निश्चित होता है; दिखा नमूना सत्यापित नहीं है।"
+    }
+  ],
+  "c9_atomic_foundations/9-03-dalton-theory.jpg": [
+    {
+      "en": "Sphere models",
+      "hi": "गोला मॉडल",
+      "x": 895,
+      "y": 34,
+      "w": 460,
+      "h": 95,
+      "info_en": "These spheres represent atoms; they are not photographs of atoms.",
+      "info_hi": "ये गोले परमाणुओं के मॉडल हैं; परमाणुओं की तस्वीर नहीं हैं।"
+    },
+    {
+      "en": "Modern correction",
+      "hi": "आधुनिक संशोधन",
+      "x": 803,
+      "y": 205,
+      "w": 552,
+      "h": 145,
+      "info_en": "Atoms contain smaller particles, and isotopes of an element can have different masses.",
+      "info_hi": "परमाणुओं में छोटे कण होते हैं और एक तत्व के समस्थानिकों के द्रव्यमान भिन्न हो सकते हैं।"
+    }
+  ],
+  "c9_atomic_foundations/9-04-oxygen-element-molecule.jpg": [
+    {
+      "en": "Oxygen atoms",
+      "hi": "ऑक्सीजन परमाणु",
+      "x": 828,
+      "y": 24,
+      "w": 518,
+      "h": 74,
+      "info_en": "O₂ contains two oxygen atoms; the spheres are a teaching model.",
+      "info_hi": "O₂ में दो ऑक्सीजन परमाणु हैं; गोले शिक्षण मॉडल हैं।"
+    },
+    {
+      "en": "Double bond",
+      "hi": "दोहरा बंध",
+      "x": 735,
+      "y": 190,
+      "w": 282,
+      "h": 74,
+      "info_en": "A double covalent bond involves two shared electron pairs.",
+      "info_hi": "दोहरा सहसंयोजक बंध दो साझा इलेक्ट्रॉन युग्मों से बनता है।"
+    }
+  ],
+  "c9_atomic_foundations/9-05-water-compound-molecule.jpg": [
+    {
+      "en": "Oxygen atom",
+      "hi": "ऑक्सीजन परमाणु",
+      "x": 877,
+      "y": 26,
+      "w": 343,
+      "h": 74,
+      "info_en": "Each H₂O molecule has one oxygen atom; the colored sphere is a model.",
+      "info_hi": "प्रत्येक H₂O अणु में एक ऑक्सीजन परमाणु है; रंगीन गोला मॉडल है।"
+    },
+    {
+      "en": "Hydrogen",
+      "hi": "हाइड्रोजन",
+      "x": 709,
+      "y": 265,
+      "w": 240,
+      "h": 74,
+      "info_en": "Each H₂O molecule has two hydrogen atoms.",
+      "info_hi": "प्रत्येक H₂O अणु में दो हाइड्रोजन परमाणु हैं।"
+    },
+    {
+      "en": "Hydrogen",
+      "hi": "हाइड्रोजन",
+      "x": 1160,
+      "y": 265,
+      "w": 227,
+      "h": 74,
+      "info_en": "Each H₂O molecule has two hydrogen atoms.",
+      "info_hi": "प्रत्येक H₂O अणु में दो हाइड्रोजन परमाणु हैं।"
+    }
+  ],
+  "c9_cell/2-01-discovery.jpg": [
+    {
+      "en": "Microscope model",
+      "hi": "सूक्ष्मदर्शी मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Microscopes enabled early observations of cells; this is a conceptual historical scene.",
+      "info_hi": "सूक्ष्मदर्शियों से कोशिकाओं के शुरुआती अवलोकन संभव हुए; दृश्य सांकेतिक है।",
+      "anchor_x": 410,
+      "anchor_y": 385
+    },
+    {
+      "en": "Cork-like view",
+      "hi": "कॉर्क जैसा दृश्य",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Hooke described cell-like compartments in cork; this generated image is not a micrograph.",
+      "info_hi": "हुक ने कॉर्क में कोशिका जैसे खंड वर्णित किए; यह निर्मित चित्र सूक्ष्मचित्र नहीं है।",
+      "anchor_x": 1010,
+      "anchor_y": 310
+    }
+  ],
+  "c9_cell/2-04-membrane.jpg": [
+    {
+      "en": "Lipid bilayer",
+      "hi": "लिपिड द्विपरत",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Cell membranes include a phospholipid bilayer that separates the cell from its surroundings.",
+      "info_hi": "कोशिका झिल्ली में फॉस्फोलिपिड द्विपरत होती है जो कोशिका को परिवेश से अलग करती है।",
+      "anchor_x": 420,
+      "anchor_y": 400
+    },
+    {
+      "en": "Protein model",
+      "hi": "प्रोटीन मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Some membrane proteins help transport substances or relay signals.",
+      "info_hi": "कुछ झिल्ली प्रोटीन पदार्थों के परिवहन या संकेत संचार में मदद करते हैं।",
+      "anchor_x": 990,
+      "anchor_y": 400
+    }
+  ],
+  "c9_cell/2-05-wall-vacuole.jpg": [
+    {
+      "en": "Cell wall model",
+      "hi": "कोशिका भित्ति मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The plant cell wall provides support outside the cell membrane.",
+      "info_hi": "पादप कोशिका भित्ति कोशिका झिल्ली के बाहर सहारा देती है।",
+      "anchor_x": 390,
+      "anchor_y": 485
+    },
+    {
+      "en": "Vacuole model",
+      "hi": "रिक्तिका मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A large central vacuole often stores cell sap and helps maintain turgor.",
+      "info_hi": "बड़ी केंद्रीय रिक्तिका अक्सर कोशिका रस रखती है और स्फीति बनाए रखने में मदद करती है।",
+      "anchor_x": 680,
+      "anchor_y": 380
+    }
+  ],
+  "c9_cell/2-06-nucleus.jpg": [
+    {
+      "en": "Nucleus model",
+      "hi": "केन्द्रक मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The nucleus encloses genetic material in a eukaryotic cell; the illustration is unreviewed.",
+      "info_hi": "यूकैरियोटिक कोशिका का केन्द्रक आनुवंशिक पदार्थ रखता है; चित्र असमीक्षित है।",
+      "anchor_x": 800,
+      "anchor_y": 390
+    },
+    {
+      "en": "Envelope model",
+      "hi": "आवरण मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The nuclear envelope separates the nucleus from the cytoplasm and contains pores.",
+      "info_hi": "केन्द्रक आवरण केन्द्रक को कोशिकाद्रव्य से अलग करता है और उसमें छिद्र होते हैं।",
+      "anchor_x": 1060,
+      "anchor_y": 325
+    }
+  ],
+  "c9_cell/2-08-er-golgi-lysosomes.jpg": [
+    {
+      "en": "ER model",
+      "hi": "अंतःप्रद्रव्यी जालिका",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Endoplasmic reticulum is a membrane network involved in synthesis and transport.",
+      "info_hi": "अंतःप्रद्रव्यी जालिका संश्लेषण और परिवहन में सहायक झिल्ली तंत्र है।",
+      "anchor_x": 450,
+      "anchor_y": 390
+    },
+    {
+      "en": "Golgi model",
+      "hi": "गॉल्जी मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The Golgi apparatus modifies and sorts cellular products.",
+      "info_hi": "गॉल्जी तंत्र कोशिकीय उत्पादों का संशोधन और छँटाई करता है।",
+      "anchor_x": 950,
+      "anchor_y": 470
+    }
+  ],
+  "c9_cell/2-09-cell-division.jpg": [
+    {
+      "en": "Chromosome models",
+      "hi": "गुणसूत्र मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Chromosomes carry DNA; the drawing is a simplified division-stage model.",
+      "info_hi": "गुणसूत्र DNA रखते हैं; चित्र विभाजन की अवस्था का सरल मॉडल है।",
+      "anchor_x": 690,
+      "anchor_y": 400
+    },
+    {
+      "en": "Spindle model",
+      "hi": "तर्कु मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Spindle fibers help separate chromosomes during cell division.",
+      "info_hi": "तर्कु तंतु कोशिका विभाजन में गुणसूत्रों को अलग करने में मदद करते हैं।",
+      "anchor_x": 850,
+      "anchor_y": 290
+    }
+  ],
+  "c9_cell/2-09-meiosis-supplement.jpg": [
+    {
+      "en": "Chromosome models",
+      "hi": "गुणसूत्र मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Meiosis reduces chromosome number through two divisions; this still does not show the complete process.",
+      "info_hi": "अर्धसूत्री विभाजन दो विभाजनों से गुणसूत्र संख्या घटाता है; यह स्थिर चित्र पूरी प्रक्रिया नहीं दिखाता।",
+      "anchor_x": 700,
+      "anchor_y": 385
+    },
+    {
+      "en": "Spindle model",
+      "hi": "तर्कु मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Spindle fibers participate in chromosome separation; stage and pairing need review.",
+      "info_hi": "तर्कु तंतु गुणसूत्र अलग करते हैं; अवस्था और युग्मन की समीक्षा शेष है।",
+      "anchor_x": 840,
+      "anchor_y": 220
+    }
+  ],
+  "c9_cell/2-10-biomolecules-supplement.jpg": [
+    {
+      "en": "Membrane model",
+      "hi": "झिल्ली मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The membrane model shows a lipid bilayer; molecular sizes are illustrative.",
+      "info_hi": "झिल्ली मॉडल लिपिड द्विपरत दिखाता है; अणुओं के आकार सांकेतिक हैं।",
+      "anchor_x": 400,
+      "anchor_y": 385
+    },
+    {
+      "en": "Protein model",
+      "hi": "प्रोटीन मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Proteins can act as channels, receptors or enzymes; the drawing is schematic.",
+      "info_hi": "प्रोटीन चैनल, ग्राही या एंजाइम हो सकते हैं; आरेख सांकेतिक है।",
+      "anchor_x": 820,
+      "anchor_y": 400
+    }
+  ],
+  "c9_cell/2-10-biomolecules.jpg": [
+    {
+      "en": "Ribosome model",
+      "hi": "राइबोसोम मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Ribosomes assemble proteins using information carried by messenger RNA.",
+      "info_hi": "राइबोसोम संदेशवाहक RNA की सूचना से प्रोटीन बनाते हैं।",
+      "anchor_x": 700,
+      "anchor_y": 420
+    },
+    {
+      "en": "Chain model",
+      "hi": "श्रृंखला मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A growing polypeptide is represented as a chain; the illustration is not to scale.",
+      "info_hi": "बढ़ती पॉलीपेप्टाइड श्रृंखला को मोतियों से दर्शाया गया है; चित्र मापानुपाती नहीं है।",
+      "anchor_x": 890,
+      "anchor_y": 100
+    }
+  ],
+  "c9_cell/2-11-division-cancer.jpg": [
+    {
+      "en": "Dividing cell",
+      "hi": "विभाजित कोशिका",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Cell division normally occurs under regulation; the drawn stage is illustrative.",
+      "info_hi": "कोशिका विभाजन सामान्यतः नियंत्रण में होता है; दिखाई गई अवस्था सांकेतिक है।",
+      "anchor_x": 710,
+      "anchor_y": 370
+    },
+    {
+      "en": "Cell cluster model",
+      "hi": "कोशिका समूह मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Cancer involves uncontrolled cell division; a drawing alone cannot diagnose disease.",
+      "info_hi": "कैंसर में अनियंत्रित कोशिका विभाजन होता है; केवल चित्र से रोग का निदान नहीं होता।",
+      "anchor_x": 900,
+      "anchor_y": 470
+    }
+  ],
+  "c9_tissues/3-01-what-tissue.jpg": [
+    {
+      "en": "Supporting tissue",
+      "hi": "सहायक ऊतक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Connective tissue supports and connects body structures; the drawing needs review.",
+      "info_hi": "संयोजी ऊतक शरीर की संरचनाओं को सहारा और जोड़ देता है; चित्र की समीक्षा शेष है।",
+      "anchor_x": 690,
+      "anchor_y": 500
+    },
+    {
+      "en": "Cell layer model",
+      "hi": "कोशिका परत मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A tissue is a group of cells working together; this is a schematic layer.",
+      "info_hi": "ऊतक साथ काम करने वाली कोशिकाओं का समूह है; यह परत सांकेतिक है।",
+      "anchor_x": 700,
+      "anchor_y": 270
+    }
+  ],
+  "c9_tissues/3-02-organisation.jpg": [
+    {
+      "en": "Muscle model",
+      "hi": "मांसपेशी मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Muscle tissue can contract and help move body parts.",
+      "info_hi": "मांसपेशी ऊतक संकुचित होकर शरीर के भागों को चलाने में मदद करता है।",
+      "anchor_x": 470,
+      "anchor_y": 330
+    },
+    {
+      "en": "Fiber inset",
+      "hi": "तंतु चित्र",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The inset represents muscle fibers; anatomy and scale are illustrative.",
+      "info_hi": "छोटा चित्र मांसपेशी तंतुओं को दर्शाता है; रचना और पैमाना सांकेतिक है।",
+      "anchor_x": 900,
+      "anchor_y": 210
+    }
+  ],
+  "c9_tissues/3-03-meristem.jpg": [
+    {
+      "en": "Root-tip model",
+      "hi": "जड़ शीर्ष मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Root-tip meristem contains actively dividing cells that contribute to growth.",
+      "info_hi": "जड़ शीर्ष विभज्योतक में सक्रिय विभाजित कोशिकाएँ वृद्धि में योगदान देती हैं।",
+      "anchor_x": 700,
+      "anchor_y": 525
+    },
+    {
+      "en": "Growing region",
+      "hi": "वृद्धि क्षेत्र",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Cells produced near the tip can elongate and differentiate.",
+      "info_hi": "शीर्ष के निकट बनी कोशिकाएँ लंबी होकर विभेदित हो सकती हैं।",
+      "anchor_x": 710,
+      "anchor_y": 330
+    }
+  ],
+  "c9_tissues/3-04-simple-plant-tissues.jpg": [
+    {
+      "en": "Plant section",
+      "hi": "पादप अनुप्रस्थ काट",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Plant tissues perform storage, support and transport; this section is a model.",
+      "info_hi": "पादप ऊतक भंडारण, सहारा और परिवहन करते हैं; यह काट मॉडल है।",
+      "anchor_x": 700,
+      "anchor_y": 395
+    },
+    {
+      "en": "Bundle model",
+      "hi": "बंडल मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Vascular bundles include conducting tissues; exact identity in this drawing needs review.",
+      "info_hi": "संवहनी बंडलों में परिवहन ऊतक होते हैं; चित्र की सटीक पहचान की समीक्षा शेष है।",
+      "anchor_x": 1000,
+      "anchor_y": 360
+    }
+  ],
+  "c9_tissues/3-05-xylem.jpg": [
+    {
+      "en": "Vessel-like tube",
+      "hi": "वाहिका जैसी नली",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Vessels are conducting elements in many plants; this structure is illustrative.",
+      "info_hi": "कई पौधों में वाहिकाएँ परिवहन घटक हैं; यह रचना सांकेतिक है।",
+      "anchor_x": 520,
+      "anchor_y": 395
+    },
+    {
+      "en": "Xylem model",
+      "hi": "जाइलम मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Xylem conducts water and dissolved minerals and also supports the plant.",
+      "info_hi": "जाइलम जल और घुले खनिजों का परिवहन करता है तथा पौधे को सहारा भी देता है।",
+      "anchor_x": 690,
+      "anchor_y": 390
+    }
+  ],
+  "c9_tissues/3-06-phloem.jpg": [
+    {
+      "en": "Tube model",
+      "hi": "नली मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Sieve tubes are associated with companion cells in flowering plants; this diagram needs review.",
+      "info_hi": "पुष्पी पौधों में चालनी नलिकाएँ सहचर कोशिकाओं से जुड़ी होती हैं; चित्र की समीक्षा शेष है।",
+      "anchor_x": 650,
+      "anchor_y": 400
+    },
+    {
+      "en": "Phloem model",
+      "hi": "फ्लोएम मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Phloem transports sugars and other organic substances in plants.",
+      "info_hi": "फ्लोएम पौधों में शर्करा और अन्य कार्बनिक पदार्थों का परिवहन करता है।",
+      "anchor_x": 730,
+      "anchor_y": 370
+    }
+  ],
+  "c9_tissues/3-07-epithelial.jpg": [
+    {
+      "en": "Epithelial model",
+      "hi": "उपकला मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Epithelial tissue covers surfaces and lines cavities.",
+      "info_hi": "उपकला ऊतक सतहों को ढकता है और गुहाओं का अस्तर बनाता है।",
+      "anchor_x": 700,
+      "anchor_y": 430
+    },
+    {
+      "en": "Lumen model",
+      "hi": "गुहा मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The open central space represents a lumen; the illustration is schematic.",
+      "info_hi": "बीच का खाली स्थान गुहा दर्शाता है; चित्र सांकेतिक है।",
+      "anchor_x": 700,
+      "anchor_y": 300
+    }
+  ],
+  "c9_tissues/3-08-connective.jpg": [
+    {
+      "en": "Connective model",
+      "hi": "संयोजी मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Connective tissues contain cells and extracellular material; the drawing is illustrative.",
+      "info_hi": "संयोजी ऊतकों में कोशिकाएँ और बाह्यकोशिकीय पदार्थ होते हैं; चित्र सांकेतिक है।",
+      "anchor_x": 700,
+      "anchor_y": 420
+    },
+    {
+      "en": "Fiber model",
+      "hi": "तंतु मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Extracellular fibers can provide strength or elasticity.",
+      "info_hi": "बाह्यकोशिकीय तंतु मजबूती या लोच दे सकते हैं।",
+      "anchor_x": 1000,
+      "anchor_y": 460
+    }
+  ],
+  "c9_tissues/3-09-muscle-nervous.jpg": [
+    {
+      "en": "Neuron model",
+      "hi": "न्यूरॉन मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A neuron carries signals through its cell body and processes.",
+      "info_hi": "न्यूरॉन अपने कोशिका काय और प्रवर्धों के माध्यम से संकेत पहुँचाता है।",
+      "anchor_x": 245,
+      "anchor_y": 350
+    },
+    {
+      "en": "Muscle fibers",
+      "hi": "मांसपेशी तंतु",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Muscle fibers contract in response to appropriate signals; the diagram is simplified.",
+      "info_hi": "उचित संकेत मिलने पर मांसपेशी तंतु संकुचित होते हैं; चित्र सरल है।",
+      "anchor_x": 1110,
+      "anchor_y": 520
+    }
+  ],
+  "c9_tissues/3-10-musculoskeletal.jpg": [
+    {
+      "en": "Elbow model",
+      "hi": "कोहनी मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The elbow is a joint; this illustrative anatomy needs review.",
+      "info_hi": "कोहनी एक जोड़ है; सांकेतिक शारीरिक रचना की समीक्षा शेष है।",
+      "anchor_x": 770,
+      "anchor_y": 480
+    },
+    {
+      "en": "Muscle model",
+      "hi": "मांसपेशी मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Skeletal muscles pull on bones to produce movement at joints.",
+      "info_hi": "कंकाली मांसपेशियाँ हड्डियों को खींचकर जोड़ों पर गति उत्पन्न करती हैं।",
+      "anchor_x": 900,
+      "anchor_y": 330
+    }
+  ],
+  "c9_tissues/3-11-care.jpg": [
+    {
+      "en": "Activity scene",
+      "hi": "गतिविधि दृश्य",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Appropriate activity can support musculoskeletal health; choose it for individual needs.",
+      "info_hi": "उपयुक्त गतिविधि मांसपेशी और अस्थि स्वास्थ्य में सहायक हो सकती है; अपनी आवश्यकताओं के अनुसार चुनें।",
+      "anchor_x": 650,
+      "anchor_y": 390
+    },
+    {
+      "en": "Support",
+      "hi": "सहायता",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "For pain or injury, seek appropriate professional advice rather than copying the pose.",
+      "info_hi": "दर्द या चोट में यह मुद्रा न दोहराएँ; उचित विशेषज्ञ सलाह लें।",
+      "anchor_x": 870,
+      "anchor_y": 310
+    }
+  ],
+  "c9_motion/4-01-reference-frame.jpg": [
+    {
+      "en": "Bus passenger",
+      "hi": "बस यात्री",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Motion depends on the chosen reference frame.",
+      "info_hi": "गति चुने हुए निर्देश तंत्र पर निर्भर करती है।",
+      "anchor_x": 340,
+      "anchor_y": 390
+    },
+    {
+      "en": "Outside observer",
+      "hi": "बाहर का प्रेक्षक",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "An observer outside can describe motion relative to the ground.",
+      "info_hi": "बाहर का प्रेक्षक जमीन के सापेक्ष गति वर्णित कर सकता है।",
+      "anchor_x": 1080,
+      "anchor_y": 420
+    }
+  ],
+  "c9_motion/4-02-distance-displacement.jpg": [
+    {
+      "en": "Walker",
+      "hi": "चलता व्यक्ति",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Displacement is the change in position with direction, not the path length.",
+      "info_hi": "विस्थापन दिशा सहित स्थिति में परिवर्तन है, पथ की लंबाई नहीं।",
+      "anchor_x": 490,
+      "anchor_y": 560
+    },
+    {
+      "en": "Curved path",
+      "hi": "वक्र पथ",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Distance is the total length of the path travelled.",
+      "info_hi": "दूरी चली गई पूरी पथ-लंबाई है।",
+      "anchor_x": 750,
+      "anchor_y": 480
+    }
+  ],
+  "c9_motion/4-03-speed.jpg": [
+    {
+      "en": "Cyclist",
+      "hi": "साइकिल चालक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Average speed is total distance divided by total time.",
+      "info_hi": "औसत चाल कुल दूरी को कुल समय से भाग देने पर मिलती है।",
+      "anchor_x": 485,
+      "anchor_y": 390
+    },
+    {
+      "en": "Stopwatch",
+      "hi": "स्टॉपवॉच",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Time measurement needs a reliable clock; this drawing is not measured data.",
+      "info_hi": "समय मापने को विश्वसनीय घड़ी चाहिए; चित्र मापित आँकड़े नहीं है।",
+      "anchor_x": 1110,
+      "anchor_y": 560
+    }
+  ],
+  "c9_motion/4-04-velocity.jpg": [
+    {
+      "en": "Train",
+      "hi": "रेलगाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Velocity describes rate of change of position and includes direction.",
+      "info_hi": "वेग स्थिति के परिवर्तन की दर बताता है और इसमें दिशा शामिल है।",
+      "anchor_x": 520,
+      "anchor_y": 485
+    },
+    {
+      "en": "Track",
+      "hi": "पटरी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A track can provide a reference direction; the still does not establish velocity.",
+      "info_hi": "पटरी संदर्भ दिशा दे सकती है; स्थिर चित्र से वेग निर्धारित नहीं होता।",
+      "anchor_x": 650,
+      "anchor_y": 620
+    }
+  ],
+  "c9_motion/4-05-acceleration.jpg": [
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Acceleration is the rate of change of velocity with time.",
+      "info_hi": "त्वरण समय के साथ वेग परिवर्तन की दर है।",
+      "anchor_x": 640,
+      "anchor_y": 470
+    },
+    {
+      "en": "Sensor model",
+      "hi": "सेंसर मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A sensor may record motion; this illustration provides no measurements.",
+      "info_hi": "सेंसर गति दर्ज कर सकता है; चित्र में कोई माप नहीं है।",
+      "anchor_x": 1050,
+      "anchor_y": 390
+    }
+  ],
+  "c9_motion/4-06-distance-time.jpg": [
+    {
+      "en": "Toy car",
+      "hi": "खिलौना गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A distance–time graph plots distance against time.",
+      "info_hi": "दूरी–समय ग्राफ समय के सापेक्ष दूरी दिखाता है।",
+      "anchor_x": 485,
+      "anchor_y": 500
+    },
+    {
+      "en": "Graph paper",
+      "hi": "ग्राफ कागज",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A graph needs recorded observations; the illustrated sheet has no plotted data.",
+      "info_hi": "ग्राफ के लिए दर्ज प्रेक्षण चाहिए; दिखे कागज पर आँकड़े नहीं बने हैं।",
+      "anchor_x": 900,
+      "anchor_y": 570
+    }
+  ],
+  "c9_motion/4-07-velocity-time.jpg": [
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The slope of a velocity–time graph gives acceleration.",
+      "info_hi": "वेग–समय ग्राफ की ढाल त्वरण देती है।",
+      "anchor_x": 270,
+      "anchor_y": 520
+    },
+    {
+      "en": "Screen",
+      "hi": "स्क्रीन",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The signed area under a velocity–time graph gives displacement. No graph is displayed here.",
+      "info_hi": "वेग–समय ग्राफ के नीचे का चिह्न सहित क्षेत्रफल विस्थापन देता है। यहाँ ग्राफ नहीं दिखा है।",
+      "anchor_x": 1100,
+      "anchor_y": 345
+    }
+  ],
+  "c9_motion/4-08-equations.jpg": [
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The standard motion equations apply to constant acceleration in a chosen direction.",
+      "info_hi": "गति के मानक समीकरण चुनी दिशा में नियत त्वरण के लिए लागू होते हैं।",
+      "anchor_x": 500,
+      "anchor_y": 340
+    },
+    {
+      "en": "Track",
+      "hi": "पटरी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A track can define a line of motion; the still shows no measured acceleration.",
+      "info_hi": "पटरी गति की दिशा निर्धारित कर सकती है; चित्र में मापा त्वरण नहीं है।",
+      "anchor_x": 880,
+      "anchor_y": 475
+    }
+  ],
+  "c9_motion/4-09-circular-motion.jpg": [
+    {
+      "en": "Cyclist",
+      "hi": "साइकिल चालक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "In circular motion velocity changes direction, even when speed is constant.",
+      "info_hi": "वृत्तीय गति में चाल नियत हो तब भी वेग की दिशा बदलती है।",
+      "anchor_x": 690,
+      "anchor_y": 490
+    },
+    {
+      "en": "Circular track",
+      "hi": "वृत्तीय पथ",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "For uniform circular motion, acceleration points toward the center.",
+      "info_hi": "एकसमान वृत्तीय गति में त्वरण केंद्र की ओर होता है।",
+      "anchor_x": 1030,
+      "anchor_y": 400
+    }
+  ],
+  "c9_forces/6-01-push-pull.jpg": [
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A net force can change the motion of a cart; a still image does not prove acceleration.",
+      "info_hi": "परिणामी बल गाड़ी की गति बदल सकता है; स्थिर चित्र त्वरण सिद्ध नहीं करता।",
+      "anchor_x": 470,
+      "anchor_y": 350
+    },
+    {
+      "en": "Person",
+      "hi": "व्यक्ति",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A push or pull is an interaction that can exert a force.",
+      "info_hi": "धक्का या खिंचाव एक अंतःक्रिया है जो बल लगा सकती है।",
+      "anchor_x": 900,
+      "anchor_y": 340
+    }
+  ],
+  "c9_forces/6-02-effects.jpg": [
+    {
+      "en": "Spring",
+      "hi": "स्प्रिंग",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A force may change an object’s shape or motion.",
+      "info_hi": "बल किसी वस्तु का आकार या गति बदल सकता है।",
+      "anchor_x": 330,
+      "anchor_y": 510
+    },
+    {
+      "en": "Hand",
+      "hi": "हाथ",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Contact can apply force; the spring force and its direction require measurement.",
+      "info_hi": "संपर्क से बल लग सकता है; स्प्रिंग बल और उसकी दिशा के लिए माप चाहिए।",
+      "anchor_x": 970,
+      "anchor_y": 365
+    }
+  ],
+  "c9_forces/6-03-balanced.jpg": [
+    {
+      "en": "Block",
+      "hi": "ब्लॉक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "If forces balance, net force is zero; a resting block is one possible example.",
+      "info_hi": "बल संतुलित हों तो परिणामी बल शून्य है; विराम में ब्लॉक एक संभव उदाहरण है।",
+      "anchor_x": 700,
+      "anchor_y": 530
+    },
+    {
+      "en": "Surface",
+      "hi": "सतह",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A surface can exert a normal contact force on a supported block.",
+      "info_hi": "सतह सहारा पाए ब्लॉक पर अभिलंब संपर्क बल लगा सकती है।",
+      "anchor_x": 1000,
+      "anchor_y": 615
+    }
+  ],
+  "c9_forces/6-04-unbalanced.jpg": [
+    {
+      "en": "Hand",
+      "hi": "हाथ",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A still image alone cannot establish the net force or acceleration.",
+      "info_hi": "केवल स्थिर चित्र से परिणामी बल या त्वरण निर्धारित नहीं होता।",
+      "anchor_x": 575,
+      "anchor_y": 500
+    },
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A nonzero net force causes acceleration according to Newton’s second law.",
+      "info_hi": "न्यूटन के दूसरे नियम के अनुसार अशून्य परिणामी बल त्वरण उत्पन्न करता है।",
+      "anchor_x": 890,
+      "anchor_y": 530
+    }
+  ],
+  "c9_forces/6-05-friction.jpg": [
+    {
+      "en": "Block",
+      "hi": "ब्लॉक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Friction opposes relative motion or its tendency at contacting surfaces.",
+      "info_hi": "घर्षण संपर्क सतहों पर सापेक्ष गति या उसकी प्रवृत्ति का विरोध करता है।",
+      "anchor_x": 460,
+      "anchor_y": 420
+    },
+    {
+      "en": "Spring balance",
+      "hi": "स्प्रिंग तुला",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A spring balance can measure force; no numerical reading is verified here.",
+      "info_hi": "स्प्रिंग तुला बल माप सकती है; यहाँ कोई संख्यात्मक माप सत्यापित नहीं है।",
+      "anchor_x": 870,
+      "anchor_y": 370
+    }
+  ],
+  "c9_forces/6-06-inertia.jpg": [
+    {
+      "en": "Card",
+      "hi": "कार्ड",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "In a coin-card demonstration the card can be pulled away; this still does not show motion.",
+      "info_hi": "सिक्का-कार्ड प्रदर्शन में कार्ड खींचा जा सकता है; स्थिर चित्र गति नहीं दिखाता।",
+      "anchor_x": 600,
+      "anchor_y": 340
+    },
+    {
+      "en": "Coin",
+      "hi": "सिक्का",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Inertia is resistance to a change in the state of motion.",
+      "info_hi": "जड़त्व गति की अवस्था में परिवर्तन का प्रतिरोध है।",
+      "anchor_x": 700,
+      "anchor_y": 310
+    }
+  ],
+  "c9_forces/6-07-momentum.jpg": [
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Momentum is mass multiplied by velocity and has direction.",
+      "info_hi": "संवेग द्रव्यमान और वेग का गुणनफल है और इसकी दिशा होती है।",
+      "anchor_x": 530,
+      "anchor_y": 460
+    },
+    {
+      "en": "Track",
+      "hi": "पटरी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A track provides a path; momentum cannot be measured from this still.",
+      "info_hi": "पटरी पथ देती है; इस स्थिर चित्र से संवेग नहीं मापा जा सकता।",
+      "anchor_x": 940,
+      "anchor_y": 530
+    }
+  ],
+  "c9_forces/6-08-third-law.jpg": [
+    {
+      "en": "Skater",
+      "hi": "स्केटर",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Forces in an action–reaction pair are equal and opposite and act on different bodies.",
+      "info_hi": "क्रिया–प्रतिक्रिया युग्म के बल बराबर और विपरीत होते हैं तथा अलग वस्तुओं पर लगते हैं।",
+      "anchor_x": 690,
+      "anchor_y": 400
+    },
+    {
+      "en": "Wall",
+      "hi": "दीवार",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A person and wall can exert forces on each other; the image does not measure those forces.",
+      "info_hi": "व्यक्ति और दीवार एक-दूसरे पर बल लगा सकते हैं; चित्र उन बलों का माप नहीं है।",
+      "anchor_x": 880,
+      "anchor_y": 340
+    }
+  ],
+  "c9_forces/6-09-momentum-conservation.jpg": [
+    {
+      "en": "First cart",
+      "hi": "पहली गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Total momentum is conserved when the net external impulse on a system is zero.",
+      "info_hi": "किसी तंत्र पर कुल बाहरी आवेग शून्य हो तो कुल संवेग संरक्षित रहता है।",
+      "anchor_x": 540,
+      "anchor_y": 410
+    },
+    {
+      "en": "Second cart",
+      "hi": "दूसरी गाड़ी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A still does not show a collision or prove momentum conservation.",
+      "info_hi": "स्थिर चित्र टक्कर नहीं दिखाता और संवेग संरक्षण सिद्ध नहीं करता।",
+      "anchor_x": 920,
+      "anchor_y": 410
+    }
+  ],
+  "c9_mixtures/5-01-homogeneous.jpg": [
+    {
+      "en": "Clear sample",
+      "hi": "स्वच्छ नमूना",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A homogeneous mixture has uniform composition at the scale considered; appearance alone is insufficient.",
+      "info_hi": "समांगी मिश्रण का संघटन विचार किए गए पैमाने पर समान होता है; केवल रूप पर्याप्त नहीं है।",
+      "anchor_x": 540,
+      "anchor_y": 470
+    },
+    {
+      "en": "Cloudy sample",
+      "hi": "मटमैला नमूना",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A suspension is heterogeneous; this generated sample is not identified.",
+      "info_hi": "निलंबन विषमांगी होता है; इस निर्मित नमूने की पहचान नहीं हुई है।",
+      "anchor_x": 880,
+      "anchor_y": 470
+    }
+  ],
+  "c9_mixtures/5-02-solutions.jpg": [
+    {
+      "en": "Beaker",
+      "hi": "बीकर",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A solution is a homogeneous mixture of solute and solvent.",
+      "info_hi": "विलयन विलेय और विलायक का समांगी मिश्रण है।",
+      "anchor_x": 630,
+      "anchor_y": 450
+    },
+    {
+      "en": "Solid sample",
+      "hi": "ठोस नमूना",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A solute can dissolve in a solvent; the pictured substances are not verified.",
+      "info_hi": "विलेय विलायक में घुल सकता है; दिखाए पदार्थ सत्यापित नहीं हैं।",
+      "anchor_x": 1000,
+      "anchor_y": 555
+    }
+  ],
+  "c9_mixtures/5-03-suspensions.jpg": [
+    {
+      "en": "Cloudy mixture",
+      "hi": "मटमैला मिश्रण",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Suspension particles can settle and may be separated by filtration.",
+      "info_hi": "निलंबन के कण बैठ सकते हैं और छनन से अलग किए जा सकते हैं।",
+      "anchor_x": 690,
+      "anchor_y": 420
+    },
+    {
+      "en": "Sediment",
+      "hi": "तलछट",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Settled material is shown; the identity and actual behavior of the sample are unverified.",
+      "info_hi": "बैठा पदार्थ दिखाया गया है; नमूने की पहचान और वास्तविक व्यवहार असत्यापित हैं।",
+      "anchor_x": 700,
+      "anchor_y": 555
+    }
+  ],
+  "c9_mixtures/5-04-colloids.jpg": [
+    {
+      "en": "Light source",
+      "hi": "प्रकाश स्रोत",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The Tyndall effect is light scattering by dispersed particles.",
+      "info_hi": "टिंडल प्रभाव परिक्षिप्त कणों द्वारा प्रकाश का प्रकीर्णन है।",
+      "anchor_x": 300,
+      "anchor_y": 540
+    },
+    {
+      "en": "Cloudy sample",
+      "hi": "मटमैला नमूना",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A colloid can scatter light; cloudiness alone does not identify a mixture.",
+      "info_hi": "कोलॉइड प्रकाश प्रकीर्णित कर सकता है; केवल मटमैलापन मिश्रण की पहचान नहीं करता।",
+      "anchor_x": 900,
+      "anchor_y": 390
+    }
+  ],
+  "c9_mixtures/5-05-mass-percent.jpg": [
+    {
+      "en": "Solid sample",
+      "hi": "ठोस नमूना",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Mass percent equals solute mass divided by solution mass, multiplied by 100.",
+      "info_hi": "द्रव्यमान प्रतिशत = विलेय द्रव्यमान ÷ विलयन द्रव्यमान × 100।",
+      "anchor_x": 240,
+      "anchor_y": 470
+    },
+    {
+      "en": "Balance",
+      "hi": "तुला",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A balance measures mass; the illustration contains no verified reading.",
+      "info_hi": "तुला द्रव्यमान मापती है; चित्र में सत्यापित माप नहीं है।",
+      "anchor_x": 850,
+      "anchor_y": 490
+    }
+  ],
+  "c9_mixtures/5-06-concentration.jpg": [
+    {
+      "en": "Graduated cylinder",
+      "hi": "माप सिलेंडर",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A graduated cylinder can measure liquid volume with suitable precision.",
+      "info_hi": "माप सिलेंडर उचित परिशुद्धता से द्रव आयतन माप सकता है।",
+      "anchor_x": 750,
+      "anchor_y": 370
+    },
+    {
+      "en": "Beaker",
+      "hi": "बीकर",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Concentration compares solute amount with an amount of solution or solvent, depending on the measure.",
+      "info_hi": "सांद्रता की परिभाषा के अनुसार विलेय की मात्रा की तुलना विलयन या विलायक की मात्रा से होती है।",
+      "anchor_x": 1010,
+      "anchor_y": 470
+    }
+  ],
+  "c9_mixtures/5-07-separation.jpg": [
+    {
+      "en": "Receiving beaker",
+      "hi": "संग्रह बीकर",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Filtrate passes through the filter; dissolved solute is not removed by ordinary filtration.",
+      "info_hi": "निस्यंद फिल्टर से गुजरता है; साधारण छनन से घुला विलेय अलग नहीं होता।",
+      "anchor_x": 720,
+      "anchor_y": 525
+    },
+    {
+      "en": "Filter paper",
+      "hi": "फिल्टर कागज",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Filtration separates an insoluble solid from a fluid.",
+      "info_hi": "छनन अघुलनशील ठोस को द्रव से अलग करता है।",
+      "anchor_x": 730,
+      "anchor_y": 190
+    }
+  ],
+  "c9_mixtures/5-08-distillation.jpg": [
+    {
+      "en": "Flask model",
+      "hi": "फ्लास्क मॉडल",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Distillation uses vaporization and condensation to separate suitable mixtures.",
+      "info_hi": "आसवन उपयुक्त मिश्रणों को वाष्पन और संघनन से अलग करता है।",
+      "anchor_x": 500,
+      "anchor_y": 410
+    },
+    {
+      "en": "Condenser model",
+      "hi": "संघनित्र मॉडल",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A condenser cools vapor; this schematic is not a validated apparatus or operating guide.",
+      "info_hi": "संघनित्र वाष्प ठंडा करता है; यह चित्र सत्यापित उपकरण या संचालन निर्देश नहीं है।",
+      "anchor_x": 860,
+      "anchor_y": 300
+    }
+  ],
+  "c9_mixtures/5-09-chromatography.jpg": [
+    {
+      "en": "Paper strip",
+      "hi": "कागज पट्टी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Paper chromatography separates substances by their different interactions with phases.",
+      "info_hi": "कागज वर्णलेखन पदार्थों को प्रावस्थाओं से भिन्न अंतःक्रियाओं के आधार पर अलग करता है।",
+      "anchor_x": 700,
+      "anchor_y": 415
+    },
+    {
+      "en": "Colored spots",
+      "hi": "रंगीन धब्बे",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Separated spots are illustrative; the pictured results are not measurements.",
+      "info_hi": "अलग धब्बे सांकेतिक हैं; दिखे परिणाम मापित नहीं हैं।",
+      "anchor_x": 700,
+      "anchor_y": 310
+    }
+  ],
+  "c9_mixtures/5-10-centrifuge.jpg": [
+    {
+      "en": "Centrifuge",
+      "hi": "अपकेंद्रित्र",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Centrifugation can accelerate separation of suspended particles.",
+      "info_hi": "अपकेंद्रण निलंबित कणों के पृथक्करण को तेज कर सकता है।",
+      "anchor_x": 720,
+      "anchor_y": 430
+    },
+    {
+      "en": "Sample tubes",
+      "hi": "नमूना नलिकाएँ",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Samples and instrument setup are unverified; use equipment only with trained supervision.",
+      "info_hi": "नमूने और उपकरण व्यवस्था असत्यापित हैं; उपकरण प्रशिक्षित पर्यवेक्षण में ही उपयोग करें।",
+      "anchor_x": 1100,
+      "anchor_y": 500
+    }
+  ],
+  "c9_work_energy/7-01-constant-force.jpg": [
+    {
+      "en": "Person",
+      "hi": "व्यक्ति",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "For constant force, work is the force component along displacement times displacement.",
+      "info_hi": "नियत बल के लिए कार्य विस्थापन की दिशा में बल के घटक और विस्थापन का गुणनफल है।",
+      "anchor_x": 325,
+      "anchor_y": 350
+    },
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The still does not establish the force, displacement or work done.",
+      "info_hi": "स्थिर चित्र से बल, विस्थापन या किया गया कार्य निर्धारित नहीं होता।",
+      "anchor_x": 750,
+      "anchor_y": 485
+    }
+  ],
+  "c9_work_energy/7-02-work-signs.jpg": [
+    {
+      "en": "Block",
+      "hi": "ब्लॉक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Work by a force can be positive, negative or zero depending on its direction relative to displacement.",
+      "info_hi": "बल द्वारा कार्य विस्थापन के सापेक्ष दिशा के अनुसार धनात्मक, ऋणात्मक या शून्य हो सकता है।",
+      "anchor_x": 475,
+      "anchor_y": 385
+    },
+    {
+      "en": "String",
+      "hi": "डोरी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A taut string can exert tension; the actual force and displacement are not measured here.",
+      "info_hi": "तनी डोरी तनाव बल लगा सकती है; यहाँ वास्तविक बल और विस्थापन मापे नहीं गए हैं।",
+      "anchor_x": 950,
+      "anchor_y": 380
+    }
+  ],
+  "c9_work_energy/7-03-kinetic-energy.jpg": [
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Kinetic energy of a nonrelativistic object is one-half mass times speed squared.",
+      "info_hi": "असापेक्षिक वस्तु की गतिज ऊर्जा आधा द्रव्यमान गुणा चाल का वर्ग है।",
+      "anchor_x": 480,
+      "anchor_y": 535
+    },
+    {
+      "en": "Track",
+      "hi": "पटरी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The image does not measure the cart’s speed or kinetic energy.",
+      "info_hi": "चित्र गाड़ी की चाल या गतिज ऊर्जा नहीं मापता।",
+      "anchor_x": 930,
+      "anchor_y": 580
+    }
+  ],
+  "c9_work_energy/7-04-potential-energy.jpg": [
+    {
+      "en": "Ball",
+      "hi": "गेंद",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Near Earth’s surface, gravitational potential-energy change is approximately m g Δh.",
+      "info_hi": "पृथ्वी की सतह के पास गुरुत्वीय स्थितिज ऊर्जा का परिवर्तन लगभग m g Δh है।",
+      "anchor_x": 445,
+      "anchor_y": 255
+    },
+    {
+      "en": "Shelf",
+      "hi": "शेल्फ",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Potential energy depends on the chosen reference level and height difference.",
+      "info_hi": "स्थितिज ऊर्जा चुने संदर्भ स्तर और ऊँचाई के अंतर पर निर्भर करती है।",
+      "anchor_x": 830,
+      "anchor_y": 300
+    }
+  ],
+  "c9_work_energy/7-05-work-energy.jpg": [
+    {
+      "en": "Inclined track",
+      "hi": "झुकी पटरी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The still does not show a measured energy change.",
+      "info_hi": "स्थिर चित्र मापा हुआ ऊर्जा परिवर्तन नहीं दिखाता।",
+      "anchor_x": 620,
+      "anchor_y": 470
+    },
+    {
+      "en": "Cart",
+      "hi": "गाड़ी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The work done by the net force equals the change in kinetic energy.",
+      "info_hi": "परिणामी बल द्वारा किया कार्य गतिज ऊर्जा के परिवर्तन के बराबर है।",
+      "anchor_x": 900,
+      "anchor_y": 270
+    }
+  ],
+  "c9_work_energy/7-06-conservation.jpg": [
+    {
+      "en": "Pendulum bob",
+      "hi": "लोलक गोलक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A pendulum can exchange gravitational potential and kinetic energy as it moves.",
+      "info_hi": "चलते लोलक में गुरुत्वीय स्थितिज और गतिज ऊर्जा का आदान-प्रदान हो सकता है।",
+      "anchor_x": 835,
+      "anchor_y": 490
+    },
+    {
+      "en": "String",
+      "hi": "डोरी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Mechanical energy is conserved only when nonconservative work is negligible.",
+      "info_hi": "यांत्रिक ऊर्जा तभी संरक्षित रहती है जब असंरक्षी बलों का कार्य नगण्य हो।",
+      "anchor_x": 870,
+      "anchor_y": 280
+    }
+  ],
+  "c9_work_energy/7-07-power.jpg": [
+    {
+      "en": "Person",
+      "hi": "व्यक्ति",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Power is the rate of doing work or transferring energy.",
+      "info_hi": "शक्ति कार्य करने या ऊर्जा स्थानांतरित करने की दर है।",
+      "anchor_x": 690,
+      "anchor_y": 390
+    },
+    {
+      "en": "Stairs",
+      "hi": "सीढ़ियाँ",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Work and time must be measured to calculate power; this image provides neither.",
+      "info_hi": "शक्ति निकालने को कार्य और समय मापना होगा; यह चित्र दोनों नहीं देता।",
+      "anchor_x": 1000,
+      "anchor_y": 480
+    }
+  ],
+  "c9_work_energy/7-08-mechanical-advantage.jpg": [
+    {
+      "en": "Fulcrum",
+      "hi": "आलंब",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A lever pivots about a fulcrum; actual force advantage depends on geometry and losses.",
+      "info_hi": "उत्तोलक आलंब के चारों ओर घूमता है; वास्तविक बल लाभ रचना और हानियों पर निर्भर करता है।",
+      "anchor_x": 710,
+      "anchor_y": 605
+    },
+    {
+      "en": "Load",
+      "hi": "भार",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Mechanical advantage is output force divided by input force.",
+      "info_hi": "यांत्रिक लाभ निर्गत बल और निवेश बल का अनुपात है।",
+      "anchor_x": 1170,
+      "anchor_y": 470
+    }
+  ],
+  "c9_work_energy/7-09-incline-supplement.jpg": [
+    {
+      "en": "Block",
+      "hi": "ब्लॉक",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Friction and geometry affect the actual required force.",
+      "info_hi": "वास्तविक आवश्यक बल पर घर्षण और रचना का प्रभाव पड़ता है।",
+      "anchor_x": 710,
+      "anchor_y": 370
+    },
+    {
+      "en": "Ramp",
+      "hi": "ढलान",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "An inclined plane can reduce the ideal force needed by increasing the distance moved.",
+      "info_hi": "नत तल अधिक दूरी के बदले आवश्यक आदर्श बल घटा सकता है।",
+      "anchor_x": 860,
+      "anchor_y": 550
+    }
+  ],
+  "c9_work_energy/7-09-lever.jpg": [
+    {
+      "en": "Load",
+      "hi": "भार",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The depicted block is a load model; effort is not shown.",
+      "info_hi": "दिखा ब्लॉक भार का मॉडल है; प्रयास नहीं दिखाया गया है।",
+      "anchor_x": 250,
+      "anchor_y": 300
+    },
+    {
+      "en": "Fulcrum",
+      "hi": "आलंब",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "In a first-class lever the fulcrum lies between effort and load.",
+      "info_hi": "प्रथम श्रेणी उत्तोलक में आलंब प्रयास और भार के बीच होता है।",
+      "anchor_x": 705,
+      "anchor_y": 525
+    }
+  ],
+  "c9_work_energy/7-09-movable-pulley-supplement.jpg": [
+    {
+      "en": "Pulley",
+      "hi": "घिरनी",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "An ideal movable pulley can reduce the effort needed by sharing load between rope segments.",
+      "info_hi": "आदर्श चल घिरनी रस्सी के खंडों में भार बाँटकर आवश्यक प्रयास घटा सकती है।",
+      "anchor_x": 700,
+      "anchor_y": 450
+    },
+    {
+      "en": "Load",
+      "hi": "भार",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The generated rope routing is unverified; this is not a working rig or safety guide.",
+      "info_hi": "निर्मित रस्सी की रचना असत्यापित है; यह कार्यशील यंत्र या सुरक्षा निर्देश नहीं है।",
+      "anchor_x": 700,
+      "anchor_y": 700
+    }
+  ],
+  "c9_work_energy/7-09-pulley-supplement.jpg": [
+    {
+      "en": "Load",
+      "hi": "भार",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "The picture is a static model and does not measure force or motion.",
+      "info_hi": "चित्र स्थिर मॉडल है और बल या गति नहीं मापता।",
+      "anchor_x": 610,
+      "anchor_y": 625
+    },
+    {
+      "en": "Fixed pulley",
+      "hi": "स्थिर घिरनी",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "An ideal fixed pulley changes the direction of the effort; its ideal mechanical advantage is one.",
+      "info_hi": "आदर्श स्थिर घिरनी प्रयास की दिशा बदलती है; इसका आदर्श यांत्रिक लाभ एक है।",
+      "anchor_x": 700,
+      "anchor_y": 275
+    }
+  ],
+  "c9_work_energy/7-09-second-class-supplement.jpg": [
+    {
+      "en": "Fulcrum",
+      "hi": "आलंब",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "In a second-class lever the load lies between fulcrum and effort.",
+      "info_hi": "द्वितीय श्रेणी उत्तोलक में भार आलंब और प्रयास के बीच होता है।",
+      "anchor_x": 200,
+      "anchor_y": 320
+    },
+    {
+      "en": "Load",
+      "hi": "भार",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "Force advantage depends on lever arms and losses.",
+      "info_hi": "बल लाभ उत्तोलक भुजाओं और हानियों पर निर्भर करता है।",
+      "anchor_x": 730,
+      "anchor_y": 310
+    }
+  ],
+  "c9_work_energy/7-09-third-class-supplement.jpg": [
+    {
+      "en": "Fulcrum",
+      "hi": "आलंब",
+      "x": 30,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "In a third-class lever effort lies between fulcrum and load.",
+      "info_hi": "तृतीय श्रेणी उत्तोलक में प्रयास आलंब और भार के बीच होता है।",
+      "anchor_x": 105,
+      "anchor_y": 400
+    },
+    {
+      "en": "Load",
+      "hi": "भार",
+      "x": 838,
+      "y": 20,
+      "w": 540,
+      "h": 100,
+      "info_en": "A third-class lever can trade force advantage for greater displacement at the load.",
+      "info_hi": "तृतीय श्रेणी उत्तोलक बल लाभ के बदले भार पर अधिक विस्थापन दे सकता है।",
+      "anchor_x": 1240,
+      "anchor_y": 270
+    }
+  ]
+}

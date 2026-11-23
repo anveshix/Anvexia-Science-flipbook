@@ -1,0 +1,4058 @@
+{
+  "c10_control/6-01-tropism.jpg": [
+    {
+      "en": "Shoot",
+      "hi": "प्ररोह",
+      "x": 750,
+      "y": 20,
+      "w": 230,
+      "h": 52,
+      "info_en": "The above-ground plant axis bears leaves and often grows toward light.",
+      "info_hi": "प्ररोह पौधे का ऊपर का भाग है; इसमें पत्तियाँ होती हैं और यह अक्सर प्रकाश की ओर बढ़ता है।"
+    },
+    {
+      "en": "Root",
+      "hi": "जड़",
+      "x": 1100,
+      "y": 20,
+      "w": 220,
+      "h": 52,
+      "info_en": "Roots anchor the plant and absorb water and mineral nutrients.",
+      "info_hi": "जड़ें पौधे को थामती हैं और जल व खनिज पोषक तत्व ग्रहण करती हैं।"
+    }
+  ],
+  "c10_control/6-02-plant-hormones.jpg": [
+    {
+      "en": "Shoot",
+      "hi": "प्ररोह",
+      "x": 750,
+      "y": 20,
+      "w": 240,
+      "h": 52,
+      "info_en": "The above-ground plant axis bears leaves and often grows toward light.",
+      "info_hi": "प्ररोह पौधे का ऊपर का भाग है; इसमें पत्तियाँ होती हैं और यह अक्सर प्रकाश की ओर बढ़ता है।"
+    },
+    {
+      "en": "Root",
+      "hi": "जड़",
+      "x": 1100,
+      "y": 20,
+      "w": 220,
+      "h": 52,
+      "info_en": "Roots anchor the plant and absorb water and mineral nutrients.",
+      "info_hi": "जड़ें पौधे को थामती हैं और जल व खनिज पोषक तत्व ग्रहण करती हैं।"
+    }
+  ],
+  "c10_control/6-03-neuron.jpg": [
+    {
+      "en": "Cell body",
+      "hi": "कोशिका काय",
+      "x": 740,
+      "y": 15,
+      "w": 315,
+      "h": 52,
+      "info_en": "The cell body contains the nucleus and integrates incoming signals.",
+      "info_hi": "कोशिका काय में केन्द्रक होता है और यह आने वाले संकेतों का समन्वय करता है।"
+    },
+    {
+      "en": "Axon",
+      "hi": "अक्षतंतु",
+      "x": 1090,
+      "y": 15,
+      "w": 270,
+      "h": 52,
+      "info_en": "An axon carries electrical signals away from the neuron cell body.",
+      "info_hi": "अक्षतंतु न्यूरॉन के कोशिका काय से विद्युत संकेत आगे ले जाता है।"
+    }
+  ],
+  "c10_control/6-04-reflex.jpg": [
+    {
+      "en": "Hand",
+      "hi": "हाथ",
+      "x": 1040,
+      "y": 15,
+      "w": 260,
+      "h": 52,
+      "info_en": "Skin receptors can detect harmful heat and start a withdrawal reflex; do not touch hot objects.",
+      "info_hi": "त्वचा के ग्राही हानिकारक गर्मी पहचानकर वापसी प्रतिवर्त शुरू कर सकते हैं; गर्म वस्तु न छुएँ।"
+    }
+  ],
+  "c10_control/6-05-brain.jpg": [
+    {
+      "en": "Cerebrum",
+      "hi": "प्रमस्तिष्क",
+      "x": 745,
+      "y": 15,
+      "w": 315,
+      "h": 52,
+      "info_en": "The cerebrum supports thought, sensory interpretation and voluntary action.",
+      "info_hi": "प्रमस्तिष्क सोच, संवेदना की व्याख्या और ऐच्छिक क्रियाओं में सहायक है।"
+    },
+    {
+      "en": "Cerebellum",
+      "hi": "अनुमस्तिष्क",
+      "x": 1060,
+      "y": 15,
+      "w": 340,
+      "h": 52,
+      "info_en": "The cerebellum helps coordinate movements, posture and balance.",
+      "info_hi": "अनुमस्तिष्क गति, मुद्रा और संतुलन के समन्वय में मदद करता है।"
+    }
+  ],
+  "c10_control/6-06-actions.jpg": [
+    {
+      "en": "Walking",
+      "hi": "चलना",
+      "x": 1040,
+      "y": 15,
+      "w": 260,
+      "h": 52,
+      "info_en": "Walking involves voluntary control as well as coordinated automatic movement patterns.",
+      "info_hi": "चलने में ऐच्छिक नियंत्रण के साथ समन्वित स्वतः गति प्रतिरूप भी शामिल होते हैं।"
+    }
+  ],
+  "c10_control/6-07-endocrine.jpg": [
+    {
+      "en": "Thyroid model",
+      "hi": "थायरॉइड मॉडल",
+      "x": 740,
+      "y": 15,
+      "w": 355,
+      "h": 52,
+      "info_en": "The thyroid gland produces hormones that help regulate metabolism; model anatomy is unverified.",
+      "info_hi": "थायरॉइड ग्रंथि उपापचय नियंत्रित करने वाले हार्मोन बनाती है; मॉडल की शारीरिक रचना असत्यापित है।"
+    },
+    {
+      "en": "Pancreas model",
+      "hi": "अग्न्याशय मॉडल",
+      "x": 1090,
+      "y": 15,
+      "w": 310,
+      "h": 52,
+      "info_en": "The pancreas makes insulin, which helps regulate blood glucose; model anatomy is unverified.",
+      "info_hi": "अग्न्याशय इंसुलिन बनाता है जो रक्त ग्लूकोज़ नियंत्रित करने में मदद करता है; मॉडल असत्यापित है।"
+    }
+  ],
+  "c10_life/5-01-autotrophic-nutrition.jpg": [
+    {
+      "en": "Leaves",
+      "hi": "पत्तियाँ",
+      "x": 745,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Leaves capture light; many also exchange gases through stomata.",
+      "info_hi": "पत्तियाँ प्रकाश ग्रहण करती हैं; कई पत्तियाँ रंध्रों से गैसों का आदान-प्रदान भी करती हैं।"
+    },
+    {
+      "en": "Roots",
+      "hi": "जड़ें",
+      "x": 1110,
+      "y": 25,
+      "w": 250,
+      "h": 52,
+      "info_en": "Roots anchor plants and absorb water and dissolved minerals.",
+      "info_hi": "जड़ें पौधे को थामती हैं तथा जल और घुले खनिज अवशोषित करती हैं।"
+    }
+  ],
+  "c10_life/5-02-photosynthesis.jpg": [
+    {
+      "en": "Leaf surface",
+      "hi": "पत्ती की सतह",
+      "x": 760,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "The leaf surface protects the leaf; stomata regulate gas exchange and water loss.",
+      "info_hi": "पत्ती की सतह रक्षा करती है; रंध्र गैस विनिमय और जल हानि नियंत्रित करते हैं।"
+    }
+  ],
+  "c10_life/5-03-heterotrophic-nutrition.jpg": [
+    {
+      "en": "Mushroom-like forms",
+      "hi": "कुकुरमुत्ते जैसे रूप",
+      "x": 745,
+      "y": 25,
+      "w": 460,
+      "h": 52,
+      "info_en": "Many fungi release digestive substances outside their bodies and absorb nutrients; identity here is unverified.",
+      "info_hi": "कई कवक शरीर के बाहर पाचक पदार्थ छोड़कर पोषक तत्व सोखते हैं; यहाँ पहचान असत्यापित है।"
+    },
+    {
+      "en": "Log",
+      "hi": "लकड़ी का लट्ठा",
+      "x": 1130,
+      "y": 105,
+      "w": 245,
+      "h": 52,
+      "info_en": "Dead wood can provide organic matter for decomposers; decomposition is not demonstrated here.",
+      "info_hi": "मृत लकड़ी अपघटकों को कार्बनिक पदार्थ दे सकती है; यहाँ अपघटन दिखाया नहीं गया है।"
+    }
+  ],
+  "c10_life/5-04-human-digestion.jpg": [
+    {
+      "en": "Stomach model",
+      "hi": "आमाशय मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "The stomach churns food and begins protein digestion; this is an unverified model.",
+      "info_hi": "आमाशय भोजन मथता है और प्रोटीन पाचन शुरू करता है; यह असत्यापित मॉडल है।"
+    },
+    {
+      "en": "Intestines model",
+      "hi": "आँत मॉडल",
+      "x": 1100,
+      "y": 25,
+      "w": 285,
+      "h": 52,
+      "info_en": "Most digestion and nutrient absorption occur in the small intestine; anatomy needs review.",
+      "info_hi": "अधिकांश पाचन और पोषक अवशोषण छोटी आँत में होते हैं; रचना की समीक्षा शेष है।"
+    }
+  ],
+  "c10_life/5-05-cellular-respiration.jpg": [
+    {
+      "en": "Mitochondrion model",
+      "hi": "सूत्रकणिका मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 470,
+      "h": 52,
+      "info_en": "Mitochondria carry out major stages of aerobic respiration; the model is not a micrograph.",
+      "info_hi": "सूत्रकणिका वायवीय श्वसन के प्रमुख चरण करती है; मॉडल सूक्ष्मचित्र नहीं है।"
+    }
+  ],
+  "c10_life/5-06-respiratory-system.jpg": [
+    {
+      "en": "Trachea model",
+      "hi": "श्वासनली मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 360,
+      "h": 52,
+      "info_en": "The trachea carries air toward the bronchi; the model is anatomically unverified.",
+      "info_hi": "श्वासनली वायु को श्वसनी की ओर ले जाती है; मॉडल असत्यापित है।"
+    },
+    {
+      "en": "Lung model",
+      "hi": "फेफड़ा मॉडल",
+      "x": 1110,
+      "y": 25,
+      "w": 270,
+      "h": 52,
+      "info_en": "Lungs contain alveoli where gases exchange with blood; alveoli are not resolved here.",
+      "info_hi": "फेफड़ों में वायुकोष्ठिकाएँ होती हैं जहाँ रक्त से गैस विनिमय होता है; वे यहाँ नहीं दिखतीं।"
+    },
+    {
+      "en": "Diaphragm model",
+      "hi": "मध्यपट मॉडल",
+      "x": 745,
+      "y": 575,
+      "w": 350,
+      "h": 52,
+      "info_en": "The diaphragm contracts and flattens during inhalation; the AI model needs review.",
+      "info_hi": "श्वास लेने पर मध्यपट संकुचित होकर चपटा होता है; एआई मॉडल की समीक्षा शेष है।"
+    }
+  ],
+  "c10_life/5-07-plant-transport.jpg": [
+    {
+      "en": "Leaves",
+      "hi": "पत्तियाँ",
+      "x": 745,
+      "y": 25,
+      "w": 270,
+      "h": 52,
+      "info_en": "Leaves capture light; many also exchange gases through stomata.",
+      "info_hi": "पत्तियाँ प्रकाश ग्रहण करती हैं; कई पत्तियाँ रंध्रों से गैसों का आदान-प्रदान भी करती हैं।"
+    },
+    {
+      "en": "Roots",
+      "hi": "जड़ें",
+      "x": 1100,
+      "y": 25,
+      "w": 270,
+      "h": 52,
+      "info_en": "Roots anchor plants and absorb water and dissolved minerals.",
+      "info_hi": "जड़ें पौधे को थामती हैं तथा जल और घुले खनिज अवशोषित करती हैं।"
+    }
+  ],
+  "c10_life/5-08-circulation.jpg": [
+    {
+      "en": "Heart model",
+      "hi": "हृदय मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 330,
+      "h": 52,
+      "info_en": "The heart pumps blood; internal chambers and flow are not visible in this unverified model.",
+      "info_hi": "हृदय रक्त पंप करता है; असत्यापित मॉडल में भीतरी कक्ष और प्रवाह नहीं दिखते।"
+    },
+    {
+      "en": "Large vessels",
+      "hi": "बड़ी वाहिकाएँ",
+      "x": 1100,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Blood vessels carry blood between the heart, lungs and body; this model is unverified.",
+      "info_hi": "रक्त वाहिकाएँ हृदय, फेफड़ों और शरीर के बीच रक्त ले जाती हैं; मॉडल असत्यापित है।"
+    }
+  ],
+  "c10_life/5-09-excretion.jpg": [
+    {
+      "en": "Kidney model",
+      "hi": "वृक्क मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 330,
+      "h": 52,
+      "info_en": "Kidneys filter blood and help form urine; nephrons are not visible in this model.",
+      "info_hi": "वृक्क रक्त छानकर मूत्र बनाने में मदद करते हैं; इस मॉडल में नेफ्रॉन नहीं दिखते।"
+    },
+    {
+      "en": "Bladder model",
+      "hi": "मूत्राशय मॉडल",
+      "x": 1100,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "The urinary bladder stores urine before it leaves the body; model anatomy needs review.",
+      "info_hi": "मूत्राशय शरीर से बाहर निकलने तक मूत्र जमा करता है; मॉडल की समीक्षा शेष है।"
+    }
+  ],
+  "c10_heredity/8-01-inheritance-variation.jpg": [
+    {
+      "en": "DNA model",
+      "hi": "DNA मॉडल",
+      "x": 750,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "DNA carries genetic information; this AI model is illustrative and its pairing is unverified.",
+      "info_hi": "DNA आनुवंशिक सूचना रखता है; यह एआई मॉडल सांकेतिक है और युग्मन असत्यापित है।"
+    }
+  ],
+  "c10_heredity/8-02-mendel-peas.jpg": [
+    {
+      "en": "Shorter plant",
+      "hi": "छोटा पौधा",
+      "x": 745,
+      "y": 25,
+      "w": 340,
+      "h": 52,
+      "info_en": "Plant height can vary; this generated plant has no verified genotype.",
+      "info_hi": "पौधों की ऊँचाई बदल सकती है; इस निर्मित पौधे का जीनप्ररूप सत्यापित नहीं है।"
+    },
+    {
+      "en": "Taller plant",
+      "hi": "लंबा पौधा",
+      "x": 1100,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Plant height can vary; this generated plant has no verified genotype.",
+      "info_hi": "पौधों की ऊँचाई बदल सकती है; इस निर्मित पौधे का जीनप्ररूप सत्यापित नहीं है।"
+    }
+  ],
+  "c10_heredity/8-03-monohybrid-cross.jpg": [
+    {
+      "en": "Pea-like plants",
+      "hi": "मटर जैसे पौधे",
+      "x": 750,
+      "y": 25,
+      "w": 400,
+      "h": 52,
+      "info_en": "In a simple Tt × Tt cross, the expected tall-to-dwarf ratio is 3:1; these plants are not observed offspring.",
+      "info_hi": "सरल Tt × Tt संकरण में लंबे और बौने का अपेक्षित अनुपात 3:1 है; ये पौधे प्रेक्षित संतति नहीं हैं।"
+    }
+  ],
+  "c10_heredity/8-04-dihybrid-cross.jpg": [
+    {
+      "en": "Seed-like samples",
+      "hi": "बीज जैसे नमूने",
+      "x": 745,
+      "y": 25,
+      "w": 460,
+      "h": 52,
+      "info_en": "Seed features can vary; these AI examples have no verified relationship or genetic history.",
+      "info_hi": "बीजों के लक्षण अलग हो सकते हैं; एआई नमूनों का संबंध या आनुवंशिक इतिहास सत्यापित नहीं है।"
+    }
+  ],
+  "c10_heredity/8-05-dominance.jpg": [
+    {
+      "en": "Shorter",
+      "hi": "छोटा",
+      "x": 745,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Height alone does not reveal a plant’s genotype; this scene is illustrative.",
+      "info_hi": "केवल ऊँचाई से पौधे का जीनप्ररूप नहीं पता चलता; दृश्य सांकेतिक है।"
+    },
+    {
+      "en": "Taller",
+      "hi": "लंबा",
+      "x": 1100,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Height alone does not reveal a plant’s genotype; this scene is illustrative.",
+      "info_hi": "केवल ऊँचाई से पौधे का जीनप्ररूप नहीं पता चलता; दृश्य सांकेतिक है।"
+    }
+  ],
+  "c10_heredity/8-06-sex-chromosomes.jpg": [
+    {
+      "en": "Chromosome-shaped models",
+      "hi": "गुणसूत्र जैसे मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 600,
+      "h": 52,
+      "info_en": "Chromosomes contain DNA and proteins; these are conceptual models, not real chromosomes.",
+      "info_hi": "गुणसूत्रों में DNA और प्रोटीन होते हैं; ये असली गुणसूत्र नहीं, सांकेतिक मॉडल हैं।"
+    }
+  ],
+  "c10_heredity/8-07-evolution.jpg": [
+    {
+      "en": "Fossil-like model",
+      "hi": "जीवाश्म जैसा मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 440,
+      "h": 52,
+      "info_en": "Fossils can provide evidence of past life; this AI object is not a verified fossil.",
+      "info_hi": "जीवाश्म पिछले जीवन का प्रमाण दे सकते हैं; यह एआई वस्तु सत्यापित जीवाश्म नहीं है।"
+    }
+  ],
+  "c10_env/13-01-ecosystem.jpg": [
+    {
+      "en": "Pond water",
+      "hi": "तालाब का जल",
+      "x": 750,
+      "y": 25,
+      "w": 300,
+      "h": 52,
+      "info_en": "Water is a non-living ecosystem component and provides habitat for aquatic organisms.",
+      "info_hi": "जल पारितंत्र का निर्जीव घटक है और जलीय जीवों को आवास देता है।"
+    },
+    {
+      "en": "Plants",
+      "hi": "पौधे",
+      "x": 1100,
+      "y": 25,
+      "w": 250,
+      "h": 52,
+      "info_en": "Plants are producers in many ecosystems, using light to build organic substances.",
+      "info_hi": "कई पारितंत्रों में पौधे उत्पादक हैं और प्रकाश से कार्बनिक पदार्थ बनाते हैं।"
+    }
+  ],
+  "c10_env/13-02-food-chains-webs.jpg": [
+    {
+      "en": "Grasshopper-like insect",
+      "hi": "टिड्डे जैसा कीट",
+      "x": 745,
+      "y": 25,
+      "w": 380,
+      "h": 52,
+      "info_en": "A grasshopper can be a primary consumer that feeds on plants; this animal is unverified.",
+      "info_hi": "टिड्डा पौधे खाने वाला प्राथमिक उपभोक्ता हो सकता है; यहाँ जीव असत्यापित है।"
+    },
+    {
+      "en": "Frog-like animal",
+      "hi": "मेंढक जैसा जीव",
+      "x": 1130,
+      "y": 25,
+      "w": 250,
+      "h": 52,
+      "info_en": "A frog may feed on insects; this AI scene does not establish a feeding relationship.",
+      "info_hi": "मेंढक कीट खा सकता है; यह एआई दृश्य आहार संबंध सिद्ध नहीं करता।"
+    }
+  ],
+  "c10_env/13-03-energy-transfer.jpg": [
+    {
+      "en": "Meadow",
+      "hi": "घास का मैदान",
+      "x": 750,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "A meadow can support producers and consumers; energy transfer is not measured in this scene.",
+      "info_hi": "घास का मैदान उत्पादकों और उपभोक्ताओं का आवास हो सकता है; ऊर्जा प्रवाह यहाँ मापा नहीं गया है।"
+    }
+  ],
+  "c10_env/13-04-biomagnification.jpg": [
+    {
+      "en": "Small fish",
+      "hi": "छोटी मछलियाँ",
+      "x": 745,
+      "y": 25,
+      "w": 320,
+      "h": 52,
+      "info_en": "Some pollutants can accumulate in organisms; contamination is not established by this image.",
+      "info_hi": "कुछ प्रदूषक जीवों में जमा हो सकते हैं; इस चित्र से संदूषण सिद्ध नहीं होता।"
+    },
+    {
+      "en": "Larger fish",
+      "hi": "बड़ी मछली",
+      "x": 1100,
+      "y": 25,
+      "w": 275,
+      "h": 52,
+      "info_en": "Some persistent pollutants biomagnify through food webs; this image shows no measured concentration.",
+      "info_hi": "कुछ स्थायी प्रदूषकों का आहार जाल में जैव आवर्धन होता है; यहाँ कोई सांद्रता नहीं मापी गई।"
+    }
+  ],
+  "c10_env/13-05-ozone.jpg": [
+    {
+      "en": "Earth horizon",
+      "hi": "पृथ्वी का क्षितिज",
+      "x": 745,
+      "y": 25,
+      "w": 370,
+      "h": 52,
+      "info_en": "Stratospheric ozone absorbs much UV-B radiation; ozone is not visible in this AI scene.",
+      "info_hi": "समतापमंडलीय ओज़ोन बहुत सा UV-B सोखती है; इस एआई दृश्य में ओज़ोन दिखाई नहीं देती।"
+    }
+  ],
+  "c10_env/13-06-waste.jpg": [
+    {
+      "en": "Food scraps",
+      "hi": "खाद्य अवशेष",
+      "x": 745,
+      "y": 25,
+      "w": 340,
+      "h": 52,
+      "info_en": "Appropriate food waste can biodegrade or be composted under suitable conditions.",
+      "info_hi": "उपयुक्त दशाओं में उचित खाद्य अवशेष जैव-अपघटित हो सकते हैं या उनकी खाद बन सकती है।"
+    },
+    {
+      "en": "Containers",
+      "hi": "पात्र",
+      "x": 1100,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Separate waste according to local rules; not every container is recyclable.",
+      "info_hi": "अपशिष्ट स्थानीय नियमों के अनुसार अलग करें; हर पात्र पुनर्चक्रण योग्य नहीं होता।"
+    }
+  ],
+  "c10_env/13-07-reduce-reuse-recycle.jpg": [
+    {
+      "en": "Food scraps",
+      "hi": "खाद्य अवशेष",
+      "x": 745,
+      "y": 25,
+      "w": 340,
+      "h": 52,
+      "info_en": "Appropriate food waste can biodegrade or be composted under suitable conditions.",
+      "info_hi": "उपयुक्त दशाओं में उचित खाद्य अवशेष जैव-अपघटित हो सकते हैं या उनकी खाद बन सकती है।"
+    },
+    {
+      "en": "Reusable bins",
+      "hi": "पुनः उपयोग पात्र",
+      "x": 1100,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Reusing suitable containers can reduce waste; local hygiene and collection rules matter.",
+      "info_hi": "उपयुक्त पात्र दोबारा उपयोग करने से अपशिष्ट घट सकता है; स्थानीय स्वच्छता व संग्रह नियम महत्त्वपूर्ण हैं।"
+    }
+  ],
+  "c9_earth/13-03-differential-heating.jpg": [
+    {
+      "en": "Sea",
+      "hi": "समुद्र",
+      "x": 745,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Oceans exchange heat and water with the atmosphere; this is an illustrative scene.",
+      "info_hi": "महासागर वायुमंडल से ऊष्मा और जल का आदान-प्रदान करते हैं; दृश्य सांकेतिक है।"
+    },
+    {
+      "en": "Land",
+      "hi": "भूमि",
+      "x": 1060,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Land and sea can heat at different rates, influencing local winds.",
+      "info_hi": "भूमि और समुद्र अलग दर से गर्म हो सकते हैं, जिससे स्थानीय हवाएँ प्रभावित होती हैं।"
+    }
+  ],
+  "c9_earth/13-04-winds-sea-breeze.jpg": [
+    {
+      "en": "Sea",
+      "hi": "समुद्र",
+      "x": 745,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Oceans exchange heat and water with the atmosphere; this is an illustrative scene.",
+      "info_hi": "महासागर वायुमंडल से ऊष्मा और जल का आदान-प्रदान करते हैं; दृश्य सांकेतिक है।"
+    },
+    {
+      "en": "Tree",
+      "hi": "पेड़",
+      "x": 1080,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Trees exchange gases and water vapour with their surroundings.",
+      "info_hi": "पेड़ परिवेश के साथ गैसों और जलवाष्प का आदान-प्रदान करते हैं।"
+    }
+  ],
+  "c9_earth/13-05-water-cycle.jpg": [
+    {
+      "en": "Clouds",
+      "hi": "बादल",
+      "x": 745,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Clouds contain tiny droplets or ice crystals formed from atmospheric water.",
+      "info_hi": "बादलों में वायुमंडलीय जल से बनी सूक्ष्म बूँदें या हिम कण होते हैं।"
+    },
+    {
+      "en": "Lake",
+      "hi": "झील",
+      "x": 1080,
+      "y": 105,
+      "w": 260,
+      "h": 52,
+      "info_en": "Lakes store water; evaporation can transfer water from their surface to the atmosphere.",
+      "info_hi": "झीलें जल संचित करती हैं; वाष्पन से सतह का जल वायुमंडल में जा सकता है।"
+    }
+  ],
+  "c9_earth/13-06-carbon-cycle.jpg": [
+    {
+      "en": "Trees",
+      "hi": "पेड़",
+      "x": 745,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Trees store carbon in organic matter and exchange gases with the atmosphere.",
+      "info_hi": "पेड़ कार्बनिक पदार्थ में कार्बन संचित करते हैं और वायुमंडल से गैसों का आदान-प्रदान करते हैं।"
+    },
+    {
+      "en": "Chimney",
+      "hi": "चिमनी",
+      "x": 1080,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Fuel combustion can release carbon dioxide; no emission is measured here.",
+      "info_hi": "ईंधन का दहन कार्बन डाइऑक्साइड छोड़ सकता है; यहाँ उत्सर्जन नहीं मापा गया है।"
+    }
+  ],
+  "c9_earth/13-07-nitrogen-cycle.jpg": [
+    {
+      "en": "Nodule-like structures",
+      "hi": "ग्रंथि जैसे भाग",
+      "x": 900,
+      "y": 25,
+      "w": 440,
+      "h": 52,
+      "info_en": "Some legume roots house nitrogen-fixing bacteria in nodules; these AI structures are unverified.",
+      "info_hi": "कुछ दलहनी जड़ों की ग्रंथियों में नाइट्रोजन स्थिरीकरण करने वाले जीवाणु होते हैं; ये एआई भाग असत्यापित हैं।"
+    }
+  ],
+  "c9_earth/13-08-oxygen-cycle.jpg": [
+    {
+      "en": "Leaves",
+      "hi": "पत्तियाँ",
+      "x": 745,
+      "y": 25,
+      "w": 300,
+      "h": 52,
+      "info_en": "Leaves capture light; many also exchange gases through stomata.",
+      "info_hi": "पत्तियाँ प्रकाश ग्रहण करती हैं; कई पत्तियाँ रंध्रों से गैसों का आदान-प्रदान भी करती हैं।"
+    },
+    {
+      "en": "Stream",
+      "hi": "जलधारा",
+      "x": 1080,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Streams move water through landscapes; dissolved oxygen is not measured here.",
+      "info_hi": "जलधाराएँ परिदृश्य में जल पहुँचाती हैं; यहाँ घुली ऑक्सीजन नहीं मापी गई है।"
+    }
+  ],
+  "c9_earth/13-09-human-impact.jpg": [
+    {
+      "en": "Young trees",
+      "hi": "युवा पेड़",
+      "x": 740,
+      "y": 25,
+      "w": 330,
+      "h": 52,
+      "info_en": "Young trees can help restore habitats, depending on species and local conditions.",
+      "info_hi": "प्रजाति और स्थानीय दशाओं के अनुसार युवा पेड़ आवास पुनर्स्थापन में मदद कर सकते हैं।"
+    },
+    {
+      "en": "Industry",
+      "hi": "उद्योग",
+      "x": 1085,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "Industry may affect ecosystems through resource use and emissions; this image is not a measurement.",
+      "info_hi": "संसाधन उपयोग और उत्सर्जन से उद्योग पारितंत्र प्रभावित कर सकता है; चित्र मापन नहीं है।"
+    }
+  ],
+  "c10_reactions/1-01-chemical-change-evidence.jpg": [
+    {
+      "en": "Beaker",
+      "hi": "बीकर",
+      "x": 745,
+      "y": 25,
+      "w": 300,
+      "h": 52,
+      "info_en": "A beaker is a laboratory container; this AI image does not establish the liquid or a reaction.",
+      "info_hi": "बीकर प्रयोगशाला पात्र है; यह एआई चित्र द्रव या अभिक्रिया की पहचान सिद्ध नहीं करता।"
+    },
+    {
+      "en": "Nail-like object",
+      "hi": "कील जैसी वस्तु",
+      "x": 1080,
+      "y": 25,
+      "w": 300,
+      "h": 52,
+      "info_en": "The object resembles a nail; its material and any reaction are unverified.",
+      "info_hi": "वस्तु कील जैसी है; उसकी सामग्री और कोई अभिक्रिया असत्यापित है।"
+    }
+  ],
+  "c10_reactions/1-02-balancing-equations.jpg": [
+    {
+      "en": "Generic ball models",
+      "hi": "गोल मॉडल",
+      "x": 950,
+      "y": 25,
+      "w": 390,
+      "h": 52,
+      "info_en": "Ball models are simplified representations; bonding and geometry in these AI objects are unverified.",
+      "info_hi": "गेंद मॉडल सरल निरूपण हैं; एआई वस्तुओं में बंध और ज्यामिति असत्यापित हैं।"
+    }
+  ],
+  "c10_reactions/1-03-combination-reaction.jpg": [
+    {
+      "en": "Beaker",
+      "hi": "बीकर",
+      "x": 745,
+      "y": 25,
+      "w": 250,
+      "h": 52,
+      "info_en": "A beaker is a laboratory container; this AI image does not establish the liquid or a reaction.",
+      "info_hi": "बीकर प्रयोगशाला पात्र है; यह एआई चित्र द्रव या अभिक्रिया की पहचान सिद्ध नहीं करता।"
+    },
+    {
+      "en": "White solid · unverified",
+      "hi": "श्वेत ठोस · असत्यापित",
+      "x": 1010,
+      "y": 25,
+      "w": 370,
+      "h": 52,
+      "info_en": "Appearance alone cannot identify a solid or show which reaction produced it.",
+      "info_hi": "केवल दिखावट से ठोस की पहचान या उसे बनाने वाली अभिक्रिया नहीं पता चलती।"
+    }
+  ],
+  "c10_reactions/1-04-decomposition.jpg": [
+    {
+      "en": "Rock-like prop",
+      "hi": "चट्टान जैसा नमूना",
+      "x": 750,
+      "y": 25,
+      "w": 330,
+      "h": 52,
+      "info_en": "A rock-like prop cannot establish a chemical identity or show decomposition.",
+      "info_hi": "चट्टान जैसी वस्तु रासायनिक पहचान या अपघटन सिद्ध नहीं करती।"
+    },
+    {
+      "en": "Pale sample",
+      "hi": "हल्का नमूना",
+      "x": 1090,
+      "y": 25,
+      "w": 280,
+      "h": 52,
+      "info_en": "The pale material is unidentified; the still is not evidence of a product.",
+      "info_hi": "हल्के रंग का पदार्थ अज्ञात है; स्थिर चित्र किसी उत्पाद का प्रमाण नहीं है।"
+    }
+  ],
+  "c10_reactions/1-05-displacement.jpg": [
+    {
+      "en": "Nail-like object",
+      "hi": "कील जैसी वस्तु",
+      "x": 745,
+      "y": 25,
+      "w": 325,
+      "h": 52,
+      "info_en": "The object resembles a nail; its material and any reaction are unverified.",
+      "info_hi": "वस्तु कील जैसी है; उसकी सामग्री और कोई अभिक्रिया असत्यापित है।"
+    },
+    {
+      "en": "Metal strip",
+      "hi": "धातु पट्टी",
+      "x": 1090,
+      "y": 25,
+      "w": 275,
+      "h": 52,
+      "info_en": "A metal strip can be used in displacement examples, but this prop and its reaction are unverified.",
+      "info_hi": "धातु पट्टी विस्थापन उदाहरणों में काम आ सकती है, पर यह वस्तु और अभिक्रिया असत्यापित हैं।"
+    }
+  ],
+  "c10_reactions/1-06-precipitation.jpg": [
+    {
+      "en": "Cloudy liquid",
+      "hi": "मटमैला द्रव",
+      "x": 840,
+      "y": 25,
+      "w": 330,
+      "h": 52,
+      "info_en": "Cloudiness can arise for different reasons; this image does not identify a precipitate.",
+      "info_hi": "मटमैलापन कई कारणों से हो सकता है; यह चित्र अवक्षेप की पहचान नहीं करता।"
+    }
+  ],
+  "c10_reactions/1-07-oxidation-reduction.jpg": [
+    {
+      "en": "Dark sample",
+      "hi": "काला नमूना",
+      "x": 745,
+      "y": 25,
+      "w": 300,
+      "h": 52,
+      "info_en": "The material is unidentified; colour alone cannot establish its chemistry.",
+      "info_hi": "पदार्थ अज्ञात है; केवल रंग से उसका रसायन निर्धारित नहीं होता।"
+    },
+    {
+      "en": "Metal-like pieces",
+      "hi": "धातु जैसे टुकड़े",
+      "x": 1090,
+      "y": 25,
+      "w": 290,
+      "h": 52,
+      "info_en": "These AI pieces are illustrative; their composition and reaction are unknown.",
+      "info_hi": "ये एआई टुकड़े सांकेतिक हैं; उनका संघटन और अभिक्रिया अज्ञात हैं।"
+    }
+  ],
+  "c10_reactions/1-08-exothermic-endothermic.jpg": [
+    {
+      "en": "Thermometer-like prop",
+      "hi": "तापमापी जैसा उपकरण",
+      "x": 745,
+      "y": 25,
+      "w": 450,
+      "h": 52,
+      "info_en": "A thermometer measures temperature; this AI prop does not show a reliable reading or change.",
+      "info_hi": "तापमापी ताप मापता है; यह एआई वस्तु विश्वसनीय पाठ्यांक या बदलाव नहीं दिखाती।"
+    },
+    {
+      "en": "Beaker",
+      "hi": "बीकर",
+      "x": 1110,
+      "y": 100,
+      "w": 260,
+      "h": 52,
+      "info_en": "A beaker is a laboratory container; this AI image does not establish the liquid or a reaction.",
+      "info_hi": "बीकर प्रयोगशाला पात्र है; यह एआई चित्र द्रव या अभिक्रिया की पहचान सिद्ध नहीं करता।"
+    }
+  ],
+  "c10_reactions/1-09-corrosion-rancidity.jpg": [
+    {
+      "en": "Rust-like nail",
+      "hi": "जंग जैसी कील",
+      "x": 745,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "Rusting involves iron, oxygen and water; this image does not verify a rusting test.",
+      "info_hi": "जंग लगने में लोहा, ऑक्सीजन और जल शामिल हैं; यह चित्र जंग परीक्षण सत्यापित नहीं करता।"
+    },
+    {
+      "en": "Sealed packet",
+      "hi": "बंद पैकेट",
+      "x": 1100,
+      "y": 25,
+      "w": 270,
+      "h": 52,
+      "info_en": "Packaging may reduce exposure to air or moisture; this packet’s contents and gas are unknown.",
+      "info_hi": "पैकेजिंग हवा या नमी का संपर्क घटा सकती है; पैकेट की सामग्री और गैस अज्ञात हैं।"
+    }
+  ],
+  "c10_acids/2-01-acids-bases-properties.jpg": [
+    {
+      "en": "Lemon-like wedge",
+      "hi": "नींबू जैसा टुकड़ा",
+      "x": 745,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "Lemon juice is acidic, but this generated prop is not an identified sample.",
+      "info_hi": "नींबू का रस अम्लीय होता है, पर इस निर्मित वस्तु की पहचान सत्यापित नहीं है।"
+    },
+    {
+      "en": "Soap-like bar",
+      "hi": "साबुन जैसी टिकिया",
+      "x": 1105,
+      "y": 25,
+      "w": 275,
+      "h": 52,
+      "info_en": "Soap solutions can be basic; this generated bar is not an identified sample.",
+      "info_hi": "साबुन के विलयन क्षारीय हो सकते हैं; इस निर्मित टिकिया की पहचान सत्यापित नहीं है।"
+    }
+  ],
+  "c10_acids/2-02-acid-base-ions.jpg": [
+    {
+      "en": "Liquid in beaker",
+      "hi": "बीकर में द्रव",
+      "x": 850,
+      "y": 25,
+      "w": 390,
+      "h": 52,
+      "info_en": "The liquid is unidentified; its ions and pH cannot be determined from appearance.",
+      "info_hi": "द्रव अज्ञात है; दिखावट से उसके आयन या pH निर्धारित नहीं होते।"
+    }
+  ],
+  "c10_acids/2-03-indicators.jpg": [
+    {
+      "en": "Unidentified tubes",
+      "hi": "असत्यापित नलियाँ",
+      "x": 840,
+      "y": 25,
+      "w": 440,
+      "h": 52,
+      "info_en": "Tube contents are unknown; indicator colour must be interpreted using a verified test.",
+      "info_hi": "नलियों की सामग्री अज्ञात है; संकेतक रंग की व्याख्या सत्यापित परीक्षण से करें।"
+    }
+  ],
+  "c10_acids/2-04-neutralisation.jpg": [
+    {
+      "en": "Unidentified solution",
+      "hi": "असत्यापित विलयन",
+      "x": 950,
+      "y": 25,
+      "w": 430,
+      "h": 52,
+      "info_en": "The solution is unidentified; the picture does not demonstrate neutralisation.",
+      "info_hi": "विलयन अज्ञात है; चित्र उदासीनीकरण प्रदर्शित नहीं करता।"
+    }
+  ],
+  "c10_acids/2-05-ph-scale.jpg": [
+    {
+      "en": "Unidentified tubes",
+      "hi": "असत्यापित नलियाँ",
+      "x": 840,
+      "y": 25,
+      "w": 440,
+      "h": 52,
+      "info_en": "Tube contents are unknown; indicator colour must be interpreted using a verified test.",
+      "info_hi": "नलियों की सामग्री अज्ञात है; संकेतक रंग की व्याख्या सत्यापित परीक्षण से करें।"
+    }
+  ],
+  "c10_acids/2-06-ph-everyday.jpg": [
+    {
+      "en": "Lemon-like wedge",
+      "hi": "नींबू जैसा टुकड़ा",
+      "x": 745,
+      "y": 25,
+      "w": 420,
+      "h": 52,
+      "info_en": "Lemon juice is acidic, but this generated prop is not an identified sample.",
+      "info_hi": "नींबू का रस अम्लीय होता है, पर इस निर्मित वस्तु की पहचान सत्यापित नहीं है।"
+    }
+  ],
+  "c10_acids/2-07-salt-chloralkali.jpg": [
+    {
+      "en": "Crystals · unverified",
+      "hi": "असत्यापित क्रिस्टल",
+      "x": 745,
+      "y": 25,
+      "w": 450,
+      "h": 52,
+      "info_en": "Crystals have ordered structures, but the identity of these AI crystals is unknown.",
+      "info_hi": "क्रिस्टलों की संरचना क्रमबद्ध होती है, पर इन एआई क्रिस्टलों की पहचान अज्ञात है।"
+    },
+    {
+      "en": "Liquid",
+      "hi": "द्रव",
+      "x": 1200,
+      "y": 100,
+      "w": 180,
+      "h": 52,
+      "info_en": "The AI liquid is unidentified; its composition and any reaction are not established.",
+      "info_hi": "एआई द्रव अज्ञात है; उसका संघटन या कोई अभिक्रिया सिद्ध नहीं है।"
+    }
+  ],
+  "c10_acids/2-08-bleach-baking-washing.jpg": [
+    {
+      "en": "Powders · identities unknown",
+      "hi": "चूर्ण · पहचान अज्ञात",
+      "x": 750,
+      "y": 25,
+      "w": 600,
+      "h": 52,
+      "info_en": "White powders cannot be identified by appearance; never taste unknown chemicals.",
+      "info_hi": "श्वेत चूर्ण दिखावट से पहचाने नहीं जा सकते; अज्ञात रसायन कभी न चखें।"
+    }
+  ],
+  "c10_acids/2-09-plaster-gypsum.jpg": [
+    {
+      "en": "Rock-like sample",
+      "hi": "चट्टान जैसा नमूना",
+      "x": 745,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "The rock-like AI sample is unidentified; it does not prove a chemical composition.",
+      "info_hi": "चट्टान जैसा एआई नमूना अज्ञात है; यह रासायनिक संघटन सिद्ध नहीं करता।"
+    },
+    {
+      "en": "White block",
+      "hi": "सफेद खंड",
+      "x": 1120,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "The white block is an unidentified prop; setting of plaster is not shown.",
+      "info_hi": "सफेद खंड अज्ञात वस्तु है; प्लास्टर का जमना नहीं दिखाया गया है।"
+    }
+  ],
+  "c10_metals/3-01-metal-nonmetal-properties.jpg": [
+    {
+      "en": "Wire-like coil",
+      "hi": "तार जैसी कुंडली",
+      "x": 745,
+      "y": 25,
+      "w": 330,
+      "h": 52,
+      "info_en": "Many metals can be drawn into wire, but this AI object has no verified composition.",
+      "info_hi": "कई धातुओं को तार में खींचा जा सकता है, पर इस एआई वस्तु का संघटन असत्यापित है।"
+    },
+    {
+      "en": "Dark sample",
+      "hi": "काला नमूना",
+      "x": 1100,
+      "y": 25,
+      "w": 265,
+      "h": 52,
+      "info_en": "The material is unidentified; colour alone cannot establish its chemistry.",
+      "info_hi": "पदार्थ अज्ञात है; केवल रंग से उसका रसायन निर्धारित नहीं होता।"
+    }
+  ],
+  "c10_metals/3-02-metal-chemical-properties.jpg": [
+    {
+      "en": "Metal-like strip",
+      "hi": "धातु जैसी पट्टी",
+      "x": 745,
+      "y": 25,
+      "w": 400,
+      "h": 52,
+      "info_en": "Metal-like appearance does not establish the identity or reactivity of this AI strip.",
+      "info_hi": "धातु जैसा दिखना इस एआई पट्टी की पहचान या क्रियाशीलता सिद्ध नहीं करता।"
+    },
+    {
+      "en": "Beakers",
+      "hi": "बीकर",
+      "x": 1170,
+      "y": 25,
+      "w": 210,
+      "h": 52,
+      "info_en": "Beakers are containers; the pictured liquids and reactions are unidentified.",
+      "info_hi": "बीकर पात्र हैं; चित्रित द्रव और अभिक्रियाएँ अज्ञात हैं।"
+    }
+  ],
+  "c10_metals/3-03-amphoteric-reactivity.jpg": [
+    {
+      "en": "Metal-like strips",
+      "hi": "धातु जैसी पट्टियाँ",
+      "x": 755,
+      "y": 25,
+      "w": 470,
+      "h": 52,
+      "info_en": "The AI strips are unidentified; their relative reactivity is not tested here.",
+      "info_hi": "एआई पट्टियाँ अज्ञात हैं; उनकी सापेक्ष क्रियाशीलता यहाँ जाँची नहीं गई है।"
+    }
+  ],
+  "c10_metals/3-04-ionic-compounds.jpg": [
+    {
+      "en": "Crystals · unverified",
+      "hi": "असत्यापित क्रिस्टल",
+      "x": 745,
+      "y": 25,
+      "w": 400,
+      "h": 52,
+      "info_en": "Crystals have ordered structures, but the identity of these AI crystals is unknown.",
+      "info_hi": "क्रिस्टलों की संरचना क्रमबद्ध होती है, पर इन एआई क्रिस्टलों की पहचान अज्ञात है।"
+    },
+    {
+      "en": "Probe-like device",
+      "hi": "जाँच जैसा उपकरण",
+      "x": 1160,
+      "y": 25,
+      "w": 220,
+      "h": 52,
+      "info_en": "Conductivity requires a suitable verified circuit; this device and circuit are unverified.",
+      "info_hi": "चालकता के लिए उपयुक्त सत्यापित परिपथ चाहिए; यह उपकरण और परिपथ असत्यापित हैं।"
+    }
+  ],
+  "c10_metals/3-05-metal-extraction.jpg": [
+    {
+      "en": "Mineral-like rock",
+      "hi": "खनिज जैसी चट्टान",
+      "x": 745,
+      "y": 25,
+      "w": 370,
+      "h": 52,
+      "info_en": "Ores contain useful substances, but this AI rock has no verified composition.",
+      "info_hi": "अयस्क उपयोगी पदार्थ रखते हैं, पर इस एआई चट्टान का संघटन असत्यापित है।"
+    },
+    {
+      "en": "Metal-like bar",
+      "hi": "धातु जैसी सिल्ल",
+      "x": 1120,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Extracted metal can be cast into bars; this object’s identity and purity are unknown.",
+      "info_hi": "निष्कर्षित धातु सिल्लियों में ढाली जा सकती है; इस वस्तु की पहचान और शुद्धता अज्ञात है।"
+    }
+  ],
+  "c10_metals/3-06-electrolytic-refining.jpg": [
+    {
+      "en": "Unconnected plates",
+      "hi": "असंबद्ध पट्टियाँ",
+      "x": 745,
+      "y": 25,
+      "w": 400,
+      "h": 52,
+      "info_en": "In electrorefining electrodes must be connected; these pictured plates are not a working circuit.",
+      "info_hi": "विद्युत परिष्करण में इलेक्ट्रोड जुड़े होने चाहिए; ये चित्रित पट्टियाँ कार्यशील परिपथ नहीं हैं।"
+    },
+    {
+      "en": "Liquid",
+      "hi": "द्रव",
+      "x": 1180,
+      "y": 100,
+      "w": 200,
+      "h": 52,
+      "info_en": "The AI liquid is unidentified; its composition and any reaction are not established.",
+      "info_hi": "एआई द्रव अज्ञात है; उसका संघटन या कोई अभिक्रिया सिद्ध नहीं है।"
+    }
+  ],
+  "c10_metals/3-07-corrosion-prevention.jpg": [
+    {
+      "en": "Rust-like nail",
+      "hi": "जंग जैसी कील",
+      "x": 745,
+      "y": 25,
+      "w": 350,
+      "h": 52,
+      "info_en": "Rusting involves iron, oxygen and water; this image does not verify a rusting test.",
+      "info_hi": "जंग लगने में लोहा, ऑक्सीजन और जल शामिल हैं; यह चित्र जंग परीक्षण सत्यापित नहीं करता।"
+    },
+    {
+      "en": "Shiny nail",
+      "hi": "चमकीली कील",
+      "x": 1100,
+      "y": 25,
+      "w": 270,
+      "h": 52,
+      "info_en": "A shiny surface does not establish a protective coating or corrosion resistance.",
+      "info_hi": "चमकीली सतह सुरक्षात्मक परत या संक्षारण प्रतिरोध सिद्ध नहीं करती।"
+    }
+  ],
+  "c10_metals/3-08-alloys.jpg": [
+    {
+      "en": "Spoon-like object",
+      "hi": "चम्मच जैसी वस्तु",
+      "x": 745,
+      "y": 25,
+      "w": 360,
+      "h": 52,
+      "info_en": "Some alloys are used for utensils; this generated object’s composition is unknown.",
+      "info_hi": "कुछ मिश्रधातुएँ बर्तनों में उपयोग होती हैं; इस निर्मित वस्तु का संघटन अज्ञात है।"
+    },
+    {
+      "en": "Gold-coloured sample",
+      "hi": "सुनहरा नमूना",
+      "x": 1120,
+      "y": 25,
+      "w": 260,
+      "h": 52,
+      "info_en": "Colour alone cannot identify a metal or alloy; this AI sample is unverified.",
+      "info_hi": "केवल रंग से धातु या मिश्रधातु की पहचान नहीं होती; यह एआई नमूना असत्यापित है।"
+    }
+  ],
+  "c10_control/6-08-feedback.jpg": [
+    {
+      "en": "Pancreas model",
+      "hi": "अग्न्याशय मॉडल",
+      "x": 745,
+      "y": 20,
+      "w": 335,
+      "h": 52,
+      "info_en": "The pancreas makes insulin, which helps regulate blood glucose; model anatomy is unverified.",
+      "info_hi": "अग्न्याशय इंसुलिन बनाता है जो रक्त ग्लूकोज़ नियंत्रित करने में मदद करता है; मॉडल असत्यापित है।"
+    },
+    {
+      "en": "Duodenum model",
+      "hi": "ग्रहणी मॉडल",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "The duodenum is the first part of the small intestine; the model is unverified.",
+      "info_hi": "ग्रहणी छोटी आँत का पहला भाग है; मॉडल असत्यापित है।"
+    }
+  ],
+  "c9_atom/8-06-bohr-shells.jpg": [
+    {
+      "en": "Proton model",
+      "hi": "प्रोटॉन मॉडल",
+      "x": 745,
+      "y": 20,
+      "w": 335,
+      "h": 52,
+      "info_en": "The hydrogen-1 nucleus contains one positively charged proton; the sphere is a model, not to scale.",
+      "info_hi": "हाइड्रोजन-1 के नाभिक में एक धनावेशित प्रोटॉन है; गोला असली अनुपात का नहीं, मॉडल है।"
+    },
+    {
+      "en": "Electron model",
+      "hi": "इलेक्ट्रॉन मॉडल",
+      "x": 1090,
+      "y": 20,
+      "w": 310,
+      "h": 52,
+      "info_en": "Neutral hydrogen has one electron; a wire orbit is a historical model, not its literal path.",
+      "info_hi": "उदासीन हाइड्रोजन में एक इलेक्ट्रॉन है; तार की कक्षा ऐतिहासिक मॉडल है, वास्तविक पथ नहीं।"
+    }
+  ],
+  "c10_sustainable/M-01-resources.jpg": [
+    {
+      "en": "Stream",
+      "hi": "जलधारा",
+      "x": 745,
+      "y": 20,
+      "w": 280,
+      "h": 52,
+      "info_en": "Streams move water through landscapes; dissolved oxygen is not measured here.",
+      "info_hi": "जलधाराएँ परिदृश्य में जल पहुँचाती हैं; यहाँ घुली ऑक्सीजन नहीं मापी गई है।"
+    },
+    {
+      "en": "Trees",
+      "hi": "पेड़",
+      "x": 1090,
+      "y": 20,
+      "w": 280,
+      "h": 52,
+      "info_en": "Trees store carbon in organic matter and exchange gases with the atmosphere.",
+      "info_hi": "पेड़ कार्बनिक पदार्थ में कार्बन संचित करते हैं और वायुमंडल से गैसों का आदान-प्रदान करते हैं।"
+    }
+  ],
+  "c10_sustainable/M-02-forest.jpg": [
+    {
+      "en": "Forest",
+      "hi": "वन",
+      "x": 745,
+      "y": 20,
+      "w": 270,
+      "h": 52,
+      "info_en": "A forest includes interacting plants, animals, fungi, microbes and non-living surroundings.",
+      "info_hi": "वन में पौधे, जंतु, कवक, सूक्ष्मजीव और निर्जीव परिवेश परस्पर जुड़े हैं।"
+    },
+    {
+      "en": "Deer-like animal",
+      "hi": "हिरण जैसा जीव",
+      "x": 1080,
+      "y": 20,
+      "w": 320,
+      "h": 52,
+      "info_en": "Wildlife depends on suitable habitat; the identity of this AI animal is unverified.",
+      "info_hi": "वन्यजीव उपयुक्त आवास पर निर्भर हैं; इस एआई जीव की पहचान असत्यापित है।"
+    }
+  ],
+  "c10_sustainable/M-03-rainwater.jpg": [
+    {
+      "en": "Gutter",
+      "hi": "नाली",
+      "x": 745,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A gutter can collect roof runoff and direct it toward storage or treatment.",
+      "info_hi": "नाली छत से बहा जल एकत्र कर भंडारण या उपचार की ओर भेज सकती है।"
+    },
+    {
+      "en": "Storage tank",
+      "hi": "भंडारण टंकी",
+      "x": 1080,
+      "y": 20,
+      "w": 320,
+      "h": 52,
+      "info_en": "A covered tank stores collected water; its water is not automatically safe to drink.",
+      "info_hi": "ढकी टंकी संग्रहित जल रखती है; यह जल स्वतः पीने योग्य नहीं होता।"
+    }
+  ],
+  "c10_sustainable/M-04-resource-reuse.jpg": [
+    {
+      "en": "Reusable bag",
+      "hi": "पुनः उपयोग थैला",
+      "x": 745,
+      "y": 20,
+      "w": 330,
+      "h": 52,
+      "info_en": "A durable bag can replace some disposable bags if reused appropriately.",
+      "info_hi": "टिकाऊ थैला उचित पुनः उपयोग से कुछ एकल-उपयोग थैलियों की जगह ले सकता है।"
+    },
+    {
+      "en": "Refillable bottle",
+      "hi": "पुनर्भरण बोतल",
+      "x": 1080,
+      "y": 20,
+      "w": 310,
+      "h": 52,
+      "info_en": "Refilling a safe, clean bottle can reduce disposable-container waste.",
+      "info_hi": "सुरक्षित साफ बोतल दोबारा भरने से एकल-उपयोग पात्रों का कचरा घट सकता है।"
+    }
+  ],
+  "c10_sources/S-01-energy-sources.jpg": [
+    {
+      "en": "Power-station model",
+      "hi": "विद्युत संयंत्र दृश्य",
+      "x": 745,
+      "y": 20,
+      "w": 390,
+      "h": 52,
+      "info_en": "Power stations convert energy into electricity; the fuel and output of this AI scene are unknown.",
+      "info_hi": "विद्युत संयंत्र ऊर्जा को बिजली में बदलते हैं; इस एआई दृश्य का ईंधन और उत्पादन अज्ञात हैं।"
+    },
+    {
+      "en": "Solar panel",
+      "hi": "सौर पैनल",
+      "x": 1138,
+      "y": 20,
+      "w": 255,
+      "h": 52,
+      "info_en": "Photovoltaic cells convert light into electricity; output is not measured in this AI scene.",
+      "info_hi": "फोटोवोल्टाइक सेल प्रकाश को विद्युत में बदलते हैं; एआई दृश्य में उत्पादन मापा नहीं गया है।"
+    }
+  ],
+  "c10_sources/S-02-solar.jpg": [
+    {
+      "en": "PV panel",
+      "hi": "सौर विद्युत पैनल",
+      "x": 745,
+      "y": 20,
+      "w": 345,
+      "h": 52,
+      "info_en": "Photovoltaic cells convert light directly into electricity; output depends on sunlight and design.",
+      "info_hi": "फोटोवोल्टाइक सेल प्रकाश को सीधे बिजली में बदलते हैं; उत्पादन धूप व बनावट पर निर्भर है।"
+    },
+    {
+      "en": "Cooker-like box",
+      "hi": "कुकर जैसा डिब्बा",
+      "x": 1092,
+      "y": 20,
+      "w": 310,
+      "h": 52,
+      "info_en": "A solar cooker uses sunlight for heating; this AI device is not a verified working cooker.",
+      "info_hi": "सौर कुकर सूर्यप्रकाश से गर्म करता है; यह एआई उपकरण सत्यापित कार्यशील कुकर नहीं है।"
+    }
+  ],
+  "c10_sources/S-03-wind-water.jpg": [
+    {
+      "en": "Wind turbine",
+      "hi": "पवन टरबाइन",
+      "x": 745,
+      "y": 20,
+      "w": 330,
+      "h": 52,
+      "info_en": "A turbine uses moving air to drive a generator; the scene does not measure electrical output.",
+      "info_hi": "टरबाइन गतिशील वायु से जनित्र चलाती है; दृश्य विद्युत उत्पादन नहीं मापता।"
+    },
+    {
+      "en": "River",
+      "hi": "नदी",
+      "x": 1090,
+      "y": 20,
+      "w": 260,
+      "h": 52,
+      "info_en": "Flowing water can supply energy to a hydropower system; no plant is shown here.",
+      "info_hi": "बहता जल जलविद्युत प्रणाली को ऊर्जा दे सकता है; यहाँ कोई संयंत्र नहीं दिखाया गया है।"
+    }
+  ],
+  "c10_sources/S-04-biogas.jpg": [
+    {
+      "en": "Digester-like dome",
+      "hi": "पाचक जैसा गुंबद",
+      "x": 745,
+      "y": 20,
+      "w": 375,
+      "h": 52,
+      "info_en": "A biogas digester supports oxygen-free decomposition of suitable organic material; this design is unverified.",
+      "info_hi": "बायोगैस पाचक उपयुक्त जैव पदार्थ का ऑक्सीजन-रहित अपघटन कराता है; यह रूप असत्यापित है।"
+    },
+    {
+      "en": "Covered chamber",
+      "hi": "ढका कक्ष",
+      "x": 1122,
+      "y": 20,
+      "w": 280,
+      "h": 52,
+      "info_en": "A biogas installation may include a feed chamber; this AI structure is not a construction guide.",
+      "info_hi": "बायोगैस संयंत्र में फीड कक्ष हो सकता है; यह एआई संरचना निर्माण निर्देश नहीं है।"
+    }
+  ],
+  "c9_diversity/12-01-why-classify.jpg": [
+    {
+      "en": "Leaf-like sample",
+      "hi": "पत्ती जैसा नमूना",
+      "x": 740,
+      "y": 22,
+      "w": 300,
+      "h": 52,
+      "info_en": "Leaves are plant organs; the identity of this generated specimen is unverified.",
+      "info_hi": "पत्ती पौधे का अंग है; इस निर्मित नमूने की पहचान असत्यापित है।"
+    },
+    {
+      "en": "Mushroom-like sample",
+      "hi": "कवक जैसा नमूना",
+      "x": 1045,
+      "y": 22,
+      "w": 320,
+      "h": 52,
+      "info_en": "Mushrooms are fruiting structures of some fungi; this generated specimen is unverified.",
+      "info_hi": "मशरूम कुछ कवकों की फलन संरचना है; यह निर्मित नमूना असत्यापित है।"
+    }
+  ],
+  "c9_diversity/12-02-five-kingdoms.jpg": [
+    {
+      "en": "Mushrooms · illustrative",
+      "hi": "कवक · सांकेतिक",
+      "x": 950,
+      "y": 25,
+      "w": 400,
+      "h": 52,
+      "info_en": "Some fungi form visible fruiting bodies; the species in this AI image are unverified.",
+      "info_hi": "कुछ कवक दृश्य फलन संरचनाएँ बनाते हैं; एआई चित्र की प्रजातियाँ असत्यापित हैं।"
+    }
+  ],
+  "c9_diversity/12-03-monera-protista-fungi.jpg": [
+    {
+      "en": "Mushroom-like prop",
+      "hi": "कवक जैसा नमूना",
+      "x": 800,
+      "y": 495,
+      "w": 400,
+      "h": 52,
+      "info_en": "Some fungi absorb nutrients from surroundings; this is an illustrative prop, not a specimen.",
+      "info_hi": "कुछ कवक परिवेश से पोषक पदार्थ सोखते हैं; यह नमूना नहीं, सांकेतिक वस्तु है।"
+    }
+  ],
+  "c9_diversity/12-04-plant-divisions.jpg": [
+    {
+      "en": "Fern-like frond",
+      "hi": "फर्न जैसा पत्ता",
+      "x": 760,
+      "y": 25,
+      "w": 360,
+      "h": 52,
+      "info_en": "Ferns have fronds and reproduce by spores; this plant identity is unverified.",
+      "info_hi": "फर्न में पत्तीनुमा फ्रॉन्ड होते हैं और वे बीजाणुओं से जनन करते हैं; पहचान असत्यापित है।"
+    },
+    {
+      "en": "Conifer-like cone",
+      "hi": "शंकु जैसा भाग",
+      "x": 1050,
+      "y": 90,
+      "w": 330,
+      "h": 52,
+      "info_en": "Cones are reproductive structures in many conifers; this AI prop is unverified.",
+      "info_hi": "कई कोनिफर में शंकु जनन संरचना है; एआई वस्तु असत्यापित है।"
+    }
+  ],
+  "c9_diversity/12-05-animal-divisions.jpg": [
+    {
+      "en": "Butterfly model",
+      "hi": "तितली मॉडल",
+      "x": 745,
+      "y": 25,
+      "w": 315,
+      "h": 52,
+      "info_en": "A butterfly is an insect with an exoskeleton and jointed legs; this model is unverified.",
+      "info_hi": "तितली बाह्य कंकाल और संधियुक्त पैरों वाला कीट है; मॉडल असत्यापित है।"
+    },
+    {
+      "en": "Fish model",
+      "hi": "मछली मॉडल",
+      "x": 1075,
+      "y": 95,
+      "w": 285,
+      "h": 52,
+      "info_en": "Bony fishes are vertebrates; the backbone is not shown in this unverified model.",
+      "info_hi": "अस्थिमय मछलियाँ कशेरुकी हैं; इस असत्यापित मॉडल में रीढ़ नहीं दिखती।"
+    }
+  ],
+  "c9_diversity/12-06-binomial-nomenclature.jpg": [
+    {
+      "en": "Mango-like fruit",
+      "hi": "आम जैसा फल",
+      "x": 980,
+      "y": 25,
+      "w": 360,
+      "h": 52,
+      "info_en": "A binomial name has a genus and a specific epithet; this fruit’s identity is not verified.",
+      "info_hi": "द्विनाम में वंश और विशिष्ट विशेषण होते हैं; इस फल की पहचान सत्यापित नहीं है।"
+    }
+  ],
+  "c9_diversity/12-07-taxonomic-hierarchy.jpg": [
+    {
+      "en": "Tiger · illustrative",
+      "hi": "बाघ · सांकेतिक",
+      "x": 980,
+      "y": 25,
+      "w": 340,
+      "h": 52,
+      "info_en": "A tiger belongs to the genus Panthera; this AI animal is not a verified specimen.",
+      "info_hi": "बाघ पैंथेरा वंश में आता है; यह एआई जीव सत्यापित नमूना नहीं है।"
+    }
+  ],
+  "c9_diversity/12-08-virus-acellular.jpg": [
+    {
+      "en": "Capsid-like shell",
+      "hi": "कैप्सिड जैसा खोल",
+      "x": 790,
+      "y": 25,
+      "w": 390,
+      "h": 52,
+      "info_en": "A capsid is the protein coat enclosing a viral genome; virus forms vary.",
+      "info_hi": "कैप्सिड विषाणु जीनोम को घेरने वाला प्रोटीन आवरण है; विषाणुओं की आकृति विविध होती है।"
+    },
+    {
+      "en": "Genome model",
+      "hi": "जीनोम मॉडल",
+      "x": 1080,
+      "y": 570,
+      "w": 290,
+      "h": 52,
+      "info_en": "A viral genome contains genetic material, DNA or RNA; this is a conceptual model.",
+      "info_hi": "विषाणु जीनोम में DNA या RNA आनुवंशिक पदार्थ होता है; यह सांकेतिक मॉडल है।"
+    }
+  ],
+  "c9_earth/13-01-earth-interconnected.jpg": [
+    {
+      "en": "Water",
+      "hi": "जल",
+      "x": 740,
+      "y": 25,
+      "w": 210,
+      "h": 52,
+      "info_en": "Water belongs to the hydrosphere and moves among Earth systems through several pathways.",
+      "info_hi": "जल जलमंडल का भाग है और अनेक मार्गों से पृथ्वी तंत्रों में चलता है।"
+    },
+    {
+      "en": "Rocky land",
+      "hi": "चट्टानी भूमि",
+      "x": 1050,
+      "y": 25,
+      "w": 300,
+      "h": 52,
+      "info_en": "Rock and soil are components of the geosphere; this AI landscape is unverified.",
+      "info_hi": "चट्टान और मिट्टी स्थलमंडल के घटक हैं; यह एआई दृश्य असत्यापित है।"
+    }
+  ],
+  "c9_earth/13-02-solar-radiation-spectrum.jpg": [
+    {
+      "en": "Prism · illustrative",
+      "hi": "प्रिज़्म · सांकेतिक",
+      "x": 1010,
+      "y": 25,
+      "w": 340,
+      "h": 52,
+      "info_en": "A prism can refract and disperse light; this AI image does not demonstrate a measured spectrum.",
+      "info_hi": "प्रिज़्म प्रकाश का अपवर्तन और विक्षेपण कर सकता है; इस एआई चित्र में मापा वर्णक्रम नहीं है।"
+    }
+  ],
+  "c9_exploration/1-01-observation.jpg": [
+    {
+      "en": "Magnifier",
+      "hi": "आवर्धक",
+      "x": 745,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A magnifier can make nearby details appear larger; this illustration is not an observation record.",
+      "info_hi": "आवर्धक पास के विवरण बड़े दिखा सकता है; यह चित्र प्रेक्षण का अभिलेख नहीं है।"
+    },
+    {
+      "en": "Leaf",
+      "hi": "पत्ती",
+      "x": 1090,
+      "y": 20,
+      "w": 260,
+      "h": 52,
+      "info_en": "A leaf can be examined for shape, colour and veins; this specimen is AI-generated.",
+      "info_hi": "पत्ती का आकार, रंग और शिराएँ देखी जा सकती हैं; यह नमूना एआई-निर्मित है।"
+    }
+  ],
+  "c9_exploration/1-02-question.jpg": [
+    {
+      "en": "First plant",
+      "hi": "पहला पौधा",
+      "x": 745,
+      "y": 20,
+      "w": 320,
+      "h": 52,
+      "info_en": "A plant can be part of a comparison; its light and growth are not measured in this image.",
+      "info_hi": "पौधा तुलना का भाग हो सकता है; चित्र में इसका प्रकाश और वृद्धि मापे नहीं गए हैं।"
+    },
+    {
+      "en": "Second plant",
+      "hi": "दूसरा पौधा",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A comparison needs relevant conditions controlled and repeated measurements; this is only an illustration.",
+      "info_hi": "तुलना में संबंधित दशाओं का नियंत्रण और बार-बार माप जरूरी है; यह केवल चित्र है।"
+    }
+  ],
+  "c9_exploration/1-03-measurement.jpg": [
+    {
+      "en": "Notebook",
+      "hi": "नोटबुक",
+      "x": 745,
+      "y": 20,
+      "w": 320,
+      "h": 52,
+      "info_en": "A notebook can record observations, units and uncertainties; this generated page is blank.",
+      "info_hi": "नोटबुक में प्रेक्षण, इकाई और अनिश्चितता लिखी जा सकती है; यह निर्मित पृष्ठ खाली है।"
+    },
+    {
+      "en": "Pencil",
+      "hi": "पेंसिल",
+      "x": 1100,
+      "y": 20,
+      "w": 275,
+      "h": 52,
+      "info_en": "A pencil can be used to record observations; the image contains no actual data.",
+      "info_hi": "पेंसिल से प्रेक्षण लिखे जा सकते हैं; चित्र में वास्तविक आँकड़े नहीं हैं।"
+    }
+  ],
+  "c9_exploration/1-04-experiment.jpg": [
+    {
+      "en": "First cup",
+      "hi": "पहला पात्र",
+      "x": 745,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A container can hold a sample during an investigation; this image does not show a tested variable.",
+      "info_hi": "पात्र जाँच में नमूना रख सकता है; चित्र किसी जाँचे गए चर को नहीं दिखाता।"
+    },
+    {
+      "en": "Second cup",
+      "hi": "दूसरा पात्र",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A comparison sample needs controlled conditions and a defined measurement; these are not shown here.",
+      "info_hi": "तुलना नमूने में नियंत्रित दशाएँ और निर्धारित माप आवश्यक हैं; वे यहाँ नहीं दिखते।"
+    }
+  ],
+  "c9_exploration/1-05-model.jpg": [
+    {
+      "en": "Globe model",
+      "hi": "ग्लोब मॉडल",
+      "x": 745,
+      "y": 20,
+      "w": 320,
+      "h": 52,
+      "info_en": "A globe is a simplified physical model of Earth; generated geography is not verified.",
+      "info_hi": "ग्लोब पृथ्वी का सरल भौतिक प्रतिरूप है; निर्मित भूगोल असत्यापित है।"
+    },
+    {
+      "en": "Support stand",
+      "hi": "आधार",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A stand supports the globe; it is not part of Earth.",
+      "info_hi": "आधार ग्लोब को सहारा देता है; यह पृथ्वी का भाग नहीं है।"
+    }
+  ],
+  "c9_exploration/1-06-society.jpg": [
+    {
+      "en": "Solar panel",
+      "hi": "सौर पैनल",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Photovoltaic cells convert light into electricity; output is not measured in this AI scene.",
+      "info_hi": "फोटोवोल्टाइक सेल प्रकाश को विद्युत में बदलते हैं; एआई दृश्य में उत्पादन मापा नहीं गया है।"
+    },
+    {
+      "en": "Plant",
+      "hi": "पौधा",
+      "x": 1090,
+      "y": 20,
+      "w": 280,
+      "h": 52,
+      "info_en": "Plants interact with light and their environment; the generated plant is not a measured experiment.",
+      "info_hi": "पौधे प्रकाश और पर्यावरण से संबंध रखते हैं; निर्मित पौधा मापा गया प्रयोग नहीं है।"
+    }
+  ],
+  "c9_reproduction9/11-04-flower-parts.jpg": [
+    {
+      "en": "Flower · illustrative",
+      "hi": "पुष्प · सांकेतिक",
+      "x": 970,
+      "y": 24,
+      "w": 335,
+      "h": 52,
+      "info_en": "Flowers contain reproductive structures; this AI flower is not a verified specimen.",
+      "info_hi": "पुष्प में जनन संरचनाएँ होती हैं; यह एआई पुष्प सत्यापित नमूना नहीं है।"
+    }
+  ],
+  "c9_reproduction9/11-05-pollination-fertilisation.jpg": [
+    {
+      "en": "Bee · illustrative",
+      "hi": "मधुमक्खी · सांकेतिक",
+      "x": 955,
+      "y": 24,
+      "w": 375,
+      "h": 52,
+      "info_en": "Bees can transfer pollen between flowers; this image does not demonstrate pollination.",
+      "info_hi": "मधुमक्खियाँ फूलों के बीच पराग ले जा सकती हैं; चित्र परागण प्रदर्शित नहीं करता।"
+    }
+  ],
+  "c9_reproduction9/11-06-seed-dispersal-germination.jpg": [
+    {
+      "en": "Young shoot",
+      "hi": "नव प्ररोह",
+      "x": 1010,
+      "y": 24,
+      "w": 315,
+      "h": 52,
+      "info_en": "A young shoot is the developing above-ground plant axis; identification here is unverified.",
+      "info_hi": "नव प्ररोह पौधे का विकसित होता ऊपरी भाग है; यहाँ पहचान असत्यापित है।"
+    },
+    {
+      "en": "Cotyledon-like part",
+      "hi": "बीजपत्र जैसा भाग",
+      "x": 785,
+      "y": 490,
+      "w": 390,
+      "h": 52,
+      "info_en": "Cotyledons are seed leaves and may store or transfer nutrients; this part is unverified.",
+      "info_hi": "बीजपत्र पोषक पदार्थ संचित या स्थानांतरित कर सकते हैं; यह भाग असत्यापित है।"
+    }
+  ],
+  "c9_reproduction9/11-07-human-reproductive-systems.jpg": [
+    {
+      "en": "Pelvis teaching prop",
+      "hi": "श्रोणि शिक्षण मॉडल",
+      "x": 940,
+      "y": 24,
+      "w": 380,
+      "h": 52,
+      "info_en": "The pelvis supports pelvic organs; this AI prop is not an anatomical reference.",
+      "info_hi": "श्रोणि श्रोणि अंगों को सहारा देती है; यह एआई मॉडल शारीरिक संदर्भ नहीं है।"
+    }
+  ],
+  "c9_reproduction9/11-08-cycle-pregnancy.jpg": [
+    {
+      "en": "Calendar · illustrative",
+      "hi": "कैलेंडर · सांकेतिक",
+      "x": 1000,
+      "y": 24,
+      "w": 355,
+      "h": 52,
+      "info_en": "Menstrual cycle length and ovulation timing vary; a calendar image cannot predict them.",
+      "info_hi": "मासिक चक्र की अवधि और अंडोत्सर्जन का समय बदलता है; कैलेंडर चित्र इनकी भविष्यवाणी नहीं करता।"
+    }
+  ],
+  "c9_reproduction9/11-09-reproductive-health.jpg": [
+    {
+      "en": "Hygiene prop",
+      "hi": "स्वच्छता सामग्री",
+      "x": 905,
+      "y": 25,
+      "w": 355,
+      "h": 52,
+      "info_en": "Gentle external hygiene can support health; this AI prop is not a verified product.",
+      "info_hi": "बाहरी भाग की सौम्य स्वच्छता स्वास्थ्य में सहायक हो सकती है; एआई वस्तु सत्यापित उत्पाद नहीं है।"
+    },
+    {
+      "en": "Unverified teaching props",
+      "hi": "असत्यापित मॉडल",
+      "x": 920,
+      "y": 610,
+      "w": 430,
+      "h": 52,
+      "info_en": "Contraception methods differ; consult a qualified professional. These pictured items are not identifiable products.",
+      "info_hi": "गर्भनिरोध विधियाँ अलग हैं; योग्य स्वास्थ्यकर्मी से सलाह लें। चित्रित वस्तुएँ पहचाने उत्पाद नहीं हैं।"
+    }
+  ],
+  "c9_sound/10-08-sound-media.jpg": [
+    {
+      "en": "Metal bar · illustrative",
+      "hi": "धातु की छड़ · सांकेतिक",
+      "x": 748,
+      "y": 26,
+      "w": 330,
+      "h": 52,
+      "info_en": "Sound can travel in solids; no speed or measured vibration is shown in this AI prop.",
+      "info_hi": "ध्वनि ठोस में चल सकती है; एआई वस्तु में चाल या मापा कम्पन नहीं दिखता।"
+    },
+    {
+      "en": "Water-like sample",
+      "hi": "जल जैसा नमूना",
+      "x": 1090,
+      "y": 95,
+      "w": 295,
+      "h": 52,
+      "info_en": "Sound can travel through water; this picture does not establish the sample or its sound speed.",
+      "info_hi": "ध्वनि जल में चल सकती है; चित्र नमूने या उसकी ध्वनि चाल को सिद्ध नहीं करता।"
+    }
+  ],
+  "c9_sound/10-09-echo-reverberation.jpg": [
+    {
+      "en": "Cliff scene · illustrative",
+      "hi": "चट्टान का दृश्य · सांकेतिक",
+      "x": 805,
+      "y": 26,
+      "w": 525,
+      "h": 52,
+      "info_en": "A distant surface can reflect sound and produce a distinct echo under suitable conditions.",
+      "info_hi": "उचित दशाओं में दूर की सतह ध्वनि परावर्तित कर अलग प्रतिध्वनि दे सकती है।"
+    }
+  ],
+  "c9_sound/10-10-pitch-loudness-echolocation.jpg": [
+    {
+      "en": "Dolphin · illustrative",
+      "hi": "डॉल्फ़िन · सांकेतिक",
+      "x": 950,
+      "y": 24,
+      "w": 385,
+      "h": 52,
+      "info_en": "Dolphins can use echoes for orientation; the AI image does not demonstrate echolocation.",
+      "info_hi": "डॉल्फ़िन दिशा पहचानने में प्रतिध्वनि उपयोग कर सकती हैं; एआई चित्र प्रतिध्वनि-स्थान निर्धारण नहीं दिखाता।"
+    }
+  ],
+  "c9_reproduction9/11-01-asexual-budding-yeast.jpg": [
+    {
+      "en": "Parent cell model",
+      "hi": "जनक कोशिका मॉडल",
+      "x": 755,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "In budding, a smaller outgrowth can develop on a parent cell; this is an illustrative model.",
+      "info_hi": "मुकुलन में जनक कोशिका पर छोटी उभार वृद्धि कर सकती है; यह सांकेतिक मॉडल है।"
+    },
+    {
+      "en": "Bud model",
+      "hi": "मुकुल मॉडल",
+      "x": 1080,
+      "y": 20,
+      "w": 275,
+      "h": 52,
+      "info_en": "A bud can grow and later separate in some organisms; this image is a teaching model.",
+      "info_hi": "कुछ जीवों में मुकुल बढ़कर बाद में अलग हो सकता है; यह चित्र शिक्षण मॉडल है।"
+    }
+  ],
+  "c9_reproduction9/11-02-budding-fragmentation-spores.jpg": [
+    {
+      "en": "Microscope · illustrative",
+      "hi": "सूक्ष्मदर्शी · सांकेतिक",
+      "x": 950,
+      "y": 25,
+      "w": 410,
+      "h": 52,
+      "info_en": "A microscope magnifies small structures; this AI instrument and its optics are unverified.",
+      "info_hi": "सूक्ष्मदर्शी छोटी संरचनाएँ बड़ा दिखाता है; एआई उपकरण और उसकी प्रकाशिकी असत्यापित हैं।"
+    },
+    {
+      "en": "Yeast-like sample",
+      "hi": "यीस्ट जैसा नमूना",
+      "x": 745,
+      "y": 445,
+      "w": 300,
+      "h": 52,
+      "info_en": "Yeast cells may reproduce by budding; this AI sample is not an identified micrograph.",
+      "info_hi": "यीस्ट कोशिकाएँ मुकुलन से जनन कर सकती हैं; यह एआई नमूना पहचानी हुई सूक्ष्मछवि नहीं है।"
+    }
+  ],
+  "c9_reproduction9/11-03-vegetative-potato.jpg": [
+    {
+      "en": "Shoot",
+      "hi": "प्ररोह",
+      "x": 1050,
+      "y": 25,
+      "w": 245,
+      "h": 52,
+      "info_en": "The above-ground plant axis bears leaves and often grows toward light.",
+      "info_hi": "प्ररोह पौधे का ऊपर का भाग है; इसमें पत्तियाँ होती हैं और यह अक्सर प्रकाश की ओर बढ़ता है।"
+    },
+    {
+      "en": "Potato tuber",
+      "hi": "आलू कंद",
+      "x": 1040,
+      "y": 580,
+      "w": 300,
+      "h": 52,
+      "info_en": "Potato tubers bear buds called eyes, which can develop into new shoots.",
+      "info_hi": "आलू के कंद पर आँख कहलाने वाली कलियाँ होती हैं, जिनसे नए प्ररोह बन सकते हैं।"
+    }
+  ],
+  "c9_atom/8-07-electron-distribution.jpg": [
+    {
+      "en": "K shell · 2",
+      "hi": "K कोश · 2",
+      "x": 740,
+      "y": 18,
+      "w": 210,
+      "h": 52,
+      "info_en": "The first shell contains two electrons in this neutral argon example.",
+      "info_hi": "इस उदासीन आर्गन उदाहरण में पहले कोश में दो इलेक्ट्रॉन हैं।"
+    },
+    {
+      "en": "L shell · 8",
+      "hi": "L कोश · 8",
+      "x": 965,
+      "y": 18,
+      "w": 210,
+      "h": 52,
+      "info_en": "The second shell contains eight electrons in this neutral argon example.",
+      "info_hi": "इस उदासीन आर्गन उदाहरण में दूसरे कोश में आठ इलेक्ट्रॉन हैं।"
+    },
+    {
+      "en": "M shell · 8",
+      "hi": "M कोश · 8",
+      "x": 1190,
+      "y": 18,
+      "w": 210,
+      "h": 52,
+      "info_en": "Argon has eight electrons in its third shell; 2n² is the general maximum, not a filling order.",
+      "info_hi": "आर्गन के तीसरे कोश में आठ इलेक्ट्रॉन हैं; 2n² अधिकतम क्षमता है, भरने का क्रम नहीं।"
+    }
+  ],
+  "c9_atom/8-08-atomic-mass-number.jpg": [
+    {
+      "en": "Proton · red",
+      "hi": "प्रोटॉन · लाल",
+      "x": 745,
+      "y": 18,
+      "w": 325,
+      "h": 52,
+      "info_en": "A proton has positive charge; sodium has 11 protons. The spheres are not to scale.",
+      "info_hi": "प्रोटॉन धनावेशित है; सोडियम में 11 प्रोटॉन हैं। गोले वास्तविक अनुपात में नहीं हैं।"
+    },
+    {
+      "en": "Neutron · blue",
+      "hi": "न्यूट्रॉन · नीला",
+      "x": 1090,
+      "y": 18,
+      "w": 310,
+      "h": 52,
+      "info_en": "A neutron has no net electric charge; sodium-23 has 12 neutrons.",
+      "info_hi": "न्यूट्रॉन का शुद्ध विद्युत आवेश नहीं होता; सोडियम-23 में 12 न्यूट्रॉन हैं।"
+    }
+  ],
+  "c9_matter/1-01-particles.jpg": [
+    {
+      "en": "Crystal-like sample",
+      "hi": "क्रिस्टल जैसा नमूना",
+      "x": 745,
+      "y": 18,
+      "w": 350,
+      "h": 52,
+      "info_en": "Dissolving can illustrate mixing; this generated sample is not a verified substance.",
+      "info_hi": "घुलना मिश्रण समझा सकता है; यह निर्मित नमूना सत्यापित पदार्थ नहीं है।"
+    },
+    {
+      "en": "Water-like liquid",
+      "hi": "जल जैसा द्रव",
+      "x": 1095,
+      "y": 18,
+      "w": 305,
+      "h": 52,
+      "info_en": "Water can act as a solvent; the AI scene does not establish the liquid identity.",
+      "info_hi": "जल विलायक हो सकता है; एआई दृश्य द्रव की पहचान सिद्ध नहीं करता।"
+    }
+  ],
+  "c9_matter/1-02-diffusion.jpg": [
+    {
+      "en": "Colour plume",
+      "hi": "रंग का फैलाव",
+      "x": 745,
+      "y": 18,
+      "w": 340,
+      "h": 52,
+      "info_en": "A coloured plume may spread through diffusion and bulk fluid motion; the rates are not measured.",
+      "info_hi": "रंग विसरण और द्रव के बहाव दोनों से फैल सकता है; दरें मापी नहीं गई हैं।"
+    },
+    {
+      "en": "Dropper",
+      "hi": "ड्रॉपर",
+      "x": 1090,
+      "y": 18,
+      "w": 300,
+      "h": 52,
+      "info_en": "A dropper can introduce a small amount of liquid; this is not a recorded experiment.",
+      "info_hi": "ड्रॉपर से थोड़ी मात्रा में द्रव डाला जा सकता है; यह दर्ज किया प्रयोग नहीं है।"
+    }
+  ],
+  "c9_matter/1-03-states.jpg": [
+    {
+      "en": "Ice-like solid",
+      "hi": "बर्फ जैसा ठोस",
+      "x": 745,
+      "y": 18,
+      "w": 335,
+      "h": 52,
+      "info_en": "Ice is solid water; the identity and temperature of the AI sample are not verified.",
+      "info_hi": "बर्फ ठोस जल है; एआई नमूने की पहचान और तापमान सत्यापित नहीं हैं।"
+    },
+    {
+      "en": "Liquid water",
+      "hi": "द्रव जल",
+      "x": 1095,
+      "y": 18,
+      "w": 290,
+      "h": 52,
+      "info_en": "Liquid water has a definite volume and takes the shape of its container.",
+      "info_hi": "द्रव जल का निश्चित आयतन होता है और वह पात्र का आकार लेता है।"
+    }
+  ],
+  "c9_matter/1-04-evaporation.jpg": [
+    {
+      "en": "Cloth",
+      "hi": "कपड़ा",
+      "x": 745,
+      "y": 18,
+      "w": 290,
+      "h": 52,
+      "info_en": "Water in damp cloth can evaporate into air; the image does not establish that the cloth is wet.",
+      "info_hi": "गीले कपड़े का जल वायु में वाष्पित हो सकता है; चित्र कपड़े के गीले होने का प्रमाण नहीं है।"
+    },
+    {
+      "en": "Water",
+      "hi": "जल",
+      "x": 1090,
+      "y": 18,
+      "w": 290,
+      "h": 52,
+      "info_en": "Water belongs to the hydrosphere and moves among Earth systems through several pathways.",
+      "info_hi": "जल जलमंडल का भाग है और अनेक मार्गों से पृथ्वी तंत्रों में चलता है।"
+    }
+  ],
+  "c9_sound/10-03-longitudinal-compressions.jpg": [
+    {
+      "en": "Slinky teaching prop",
+      "hi": "स्प्रिंग शिक्षण मॉडल",
+      "x": 1005,
+      "y": 26,
+      "w": 350,
+      "h": 52,
+      "info_en": "In a longitudinal wave, particles oscillate parallel to the direction of propagation; the still does not show motion.",
+      "info_hi": "अनुदैर्घ्य तरंग में कण प्रसार की दिशा के समानांतर कम्पन करते हैं; स्थिर चित्र गति नहीं दिखाता।",
+      "font_size": 18,
+      "line_height": 1.25,
+      "pad_y": 8,
+      "pad_x": 11
+    }
+  ],
+  "c9_sound/10-04-sound-pressure-time-graph.jpg": [
+    {
+      "en": "Oscilloscope · illustrative",
+      "hi": "ऑसिलोस्कोप · सांकेतिक",
+      "x": 790,
+      "y": 23,
+      "w": 500,
+      "h": 52,
+      "info_en": "A pressure–time graph shows pressure at a fixed location, not a particle path; the instrument is illustrative.",
+      "info_hi": "दाब–समय आलेख एक स्थान का दाब दिखाता है, कण का पथ नहीं; उपकरण सांकेतिक है।",
+      "font_size": 18,
+      "line_height": 1.25,
+      "pad_y": 8,
+      "pad_x": 11
+    }
+  ],
+  "c9_sound/10-05-wavelength-frequency-period.jpg": [
+    {
+      "en": "Speaker",
+      "hi": "स्पीकर",
+      "x": 1070,
+      "y": 30,
+      "w": 270,
+      "h": 52,
+      "info_en": "A speaker can vibrate and create sound in a surrounding medium; this AI device is unverified.",
+      "info_hi": "स्पीकर कम्पन से आसपास के माध्यम में ध्वनि बना सकता है; एआई उपकरण असत्यापित है।",
+      "font_size": 18,
+      "line_height": 1.25,
+      "pad_y": 8,
+      "pad_x": 11
+    }
+  ],
+  "c9_sound/10-06-amplitude-intensity-speed.jpg": [
+    {
+      "en": "Speaker · illustrative",
+      "hi": "स्पीकर · सांकेतिक",
+      "x": 1025,
+      "y": 26,
+      "w": 340,
+      "h": 52,
+      "info_en": "Greater pressure amplitude can correspond to greater sound intensity in the same medium.",
+      "info_hi": "समान माध्यम में अधिक दाब आयाम अधिक ध्वनि तीव्रता से संबंधित हो सकता है।",
+      "font_size": 18,
+      "line_height": 1.25,
+      "pad_y": 8,
+      "pad_x": 11
+    }
+  ],
+  "c9_sound/10-07-wave-speed-frequency-wavelength.jpg": [
+    {
+      "en": "Speaker and microphone",
+      "hi": "स्पीकर व माइक्रोफ़ोन",
+      "x": 845,
+      "y": 26,
+      "w": 475,
+      "h": 52,
+      "info_en": "A speaker can produce sound and a microphone can detect it; the AI wiring is unverified.",
+      "info_hi": "स्पीकर ध्वनि उत्पन्न और माइक्रोफ़ोन ग्रहण कर सकता है; एआई वायरिंग असत्यापित है।",
+      "font_size": 18,
+      "line_height": 1.25,
+      "pad_y": 8,
+      "pad_x": 11
+    }
+  ],
+  "c10_repro/7-01-variation.jpg": [
+    {
+      "en": "Seed-like samples",
+      "hi": "बीज जैसे नमूने",
+      "x": 745,
+      "y": 20,
+      "w": 355,
+      "h": 52,
+      "info_en": "Seed features can vary; these AI examples have no verified relationship or genetic history.",
+      "info_hi": "बीजों के लक्षण अलग हो सकते हैं; एआई नमूनों का संबंध या आनुवंशिक इतिहास सत्यापित नहीं है।"
+    },
+    {
+      "en": "Seedling",
+      "hi": "पौध",
+      "x": 1098,
+      "y": 20,
+      "w": 285,
+      "h": 52,
+      "info_en": "A seedling is an early stage of plant growth; this AI plant is not an observed offspring.",
+      "info_hi": "पौध पौधे की प्रारंभिक वृद्धि अवस्था है; यह एआई पौधा प्रेक्षित संतति नहीं है।"
+    }
+  ],
+  "c10_repro/7-02-asexual.jpg": [
+    {
+      "en": "Parent model",
+      "hi": "जनक मॉडल",
+      "x": 745,
+      "y": 20,
+      "w": 330,
+      "h": 52,
+      "info_en": "In budding, a smaller outgrowth forms on a parent; this prop is not a micrograph.",
+      "info_hi": "मुकुलन में जनक पर छोटा उभार बनता है; यह मॉडल सूक्ष्मचित्र नहीं है।"
+    },
+    {
+      "en": "Bud model",
+      "hi": "मुकुल मॉडल",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A bud can grow and later separate in some organisms; this image is a teaching model.",
+      "info_hi": "कुछ जीवों में मुकुल बढ़कर बाद में अलग हो सकता है; यह चित्र शिक्षण मॉडल है।"
+    }
+  ],
+  "c10_repro/7-03-vegetative.jpg": [
+    {
+      "en": "Potato-like tuber",
+      "hi": "आलू जैसा कंद",
+      "x": 745,
+      "y": 20,
+      "w": 345,
+      "h": 52,
+      "info_en": "Potato is a stem tuber with buds at its eyes; identity of the AI specimen is unverified.",
+      "info_hi": "आलू तने का कंद है जिसकी आँखों में कलियाँ होती हैं; एआई नमूने की पहचान असत्यापित है।"
+    },
+    {
+      "en": "Young shoot",
+      "hi": "नव प्ररोह",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A young shoot is the developing above-ground plant axis; identification here is unverified.",
+      "info_hi": "नव प्ररोह पौधे का विकसित होता ऊपरी भाग है; यहाँ पहचान असत्यापित है।"
+    }
+  ],
+  "c10_repro/7-04-flowering-plants.jpg": [
+    {
+      "en": "Stigma-like tip",
+      "hi": "वर्तिकाग्र जैसा सिरा",
+      "x": 745,
+      "y": 20,
+      "w": 345,
+      "h": 52,
+      "info_en": "The stigma can receive pollen; this generated flower’s anatomy needs review.",
+      "info_hi": "वर्तिकाग्र पर पराग पहुँच सकता है; निर्मित पुष्प की संरचना की समीक्षा आवश्यक है।"
+    },
+    {
+      "en": "Anther-like parts",
+      "hi": "परागकोष जैसे भाग",
+      "x": 1092,
+      "y": 20,
+      "w": 310,
+      "h": 52,
+      "info_en": "Anthers produce pollen grains; the identity of these AI-generated parts is unverified.",
+      "info_hi": "परागकोष परागकण बनाते हैं; एआई निर्मित भागों की पहचान असत्यापित है।"
+    }
+  ],
+  "c10_repro/7-05-male-reproductive.jpg": [
+    {
+      "en": "Pelvic model",
+      "hi": "श्रोणि मॉडल",
+      "x": 745,
+      "y": 20,
+      "w": 330,
+      "h": 52,
+      "info_en": "The pelvic model is an illustrative AI prop; organ position and ducts are not verified.",
+      "info_hi": "श्रोणि मॉडल सांकेतिक एआई वस्तु है; अंगों की स्थिति और नलिकाएँ सत्यापित नहीं हैं।"
+    },
+    {
+      "en": "Testis-like part",
+      "hi": "वृषण जैसा भाग",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Testes produce sperm and testosterone; this AI model is not a verified anatomical reference.",
+      "info_hi": "वृषण शुक्राणु और टेस्टोस्टेरोन बनाते हैं; यह एआई मॉडल सत्यापित शारीरिक संदर्भ नहीं है।"
+    }
+  ],
+  "c10_repro/7-06-female-reproductive.jpg": [
+    {
+      "en": "Uterus model",
+      "hi": "गर्भाशय मॉडल",
+      "x": 745,
+      "y": 20,
+      "w": 330,
+      "h": 52,
+      "info_en": "An embryo may implant in the uterine lining; the AI model is anatomically unverified.",
+      "info_hi": "भ्रूण गर्भाशय की परत में आरोपित हो सकता है; एआई मॉडल की संरचना असत्यापित है।"
+    },
+    {
+      "en": "Ovary-like part",
+      "hi": "अंडाशय जैसा भाग",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Ovaries produce hormones and release eggs; the pictured model’s anatomy is unverified.",
+      "info_hi": "अंडाशय हार्मोन बनाते हैं और अंड छोड़ते हैं; चित्रित मॉडल की संरचना असत्यापित है।"
+    }
+  ],
+  "c10_repro/7-07-fertilisation.jpg": [
+    {
+      "en": "Uterus model",
+      "hi": "गर्भाशय मॉडल",
+      "x": 745,
+      "y": 20,
+      "w": 330,
+      "h": 52,
+      "info_en": "An embryo may implant in the uterine lining; the AI model is anatomically unverified.",
+      "info_hi": "भ्रूण गर्भाशय की परत में आरोपित हो सकता है; एआई मॉडल की संरचना असत्यापित है।"
+    },
+    {
+      "en": "Ovary-like part",
+      "hi": "अंडाशय जैसा भाग",
+      "x": 1090,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Ovaries produce hormones and release eggs; the pictured model’s anatomy is unverified.",
+      "info_hi": "अंडाशय हार्मोन बनाते हैं और अंड छोड़ते हैं; चित्रित मॉडल की संरचना असत्यापित है।"
+    }
+  ],
+  "c10_repro/7-08-reproductive-health.jpg": [
+    {
+      "en": "Consultation scene",
+      "hi": "परामर्श दृश्य",
+      "x": 745,
+      "y": 20,
+      "w": 370,
+      "h": 52,
+      "info_en": "A qualified health professional can discuss reproductive health and contraception privately.",
+      "info_hi": "योग्य स्वास्थ्यकर्मी जनन स्वास्थ्य और गर्भनिरोध पर गोपनीय चर्चा कर सकते हैं।"
+    }
+  ],
+  "c10_repro/7-09-hiv-health.jpg": [
+    {
+      "en": "Care conversation",
+      "hi": "देखभाल परामर्श",
+      "x": 745,
+      "y": 20,
+      "w": 390,
+      "h": 52,
+      "info_en": "Respectful healthcare can provide HIV testing, prevention and treatment without stigma.",
+      "info_hi": "सम्मानजनक स्वास्थ्य सेवा बिना कलंक के HIV जाँच, रोकथाम और उपचार दे सकती है।"
+    }
+  ],
+  "c9_atomic_foundations/9-06-ions-ionic-compounds.jpg": [
+    {
+      "en": "Illustrative salt crystals",
+      "hi": "सांकेतिक लवण क्रिस्टल",
+      "x": 1005,
+      "y": 390,
+      "w": 335,
+      "h": 68,
+      "info_en": "Ionic solids may form extended lattices; the pictured AI sample’s identity is not verified.",
+      "info_hi": "आयनिक ठोस विस्तृत जालक बना सकते हैं; एआई नमूने की पहचान सत्यापित नहीं है।"
+    }
+  ],
+  "c9_atomic_foundations/9-07-writing-chemical-formulae.jpg": [
+    {
+      "en": "Illustrative sample props",
+      "hi": "सांकेतिक नमूना सामग्री",
+      "x": 960,
+      "y": 55,
+      "w": 360,
+      "h": 117,
+      "info_en": "Chemical formulae represent atom or ion ratios; these pictured samples are unverified.",
+      "info_hi": "रासायनिक सूत्र परमाणु या आयन अनुपात दर्शाते हैं; चित्रित नमूने असत्यापित हैं।"
+    }
+  ],
+  "c9_atomic_foundations/9-08-molecular-mass-water.jpg": [
+    {
+      "en": "Water teaching model",
+      "hi": "जल का शिक्षण मॉडल",
+      "x": 900,
+      "y": 30,
+      "w": 385,
+      "h": 92,
+      "info_en": "A water molecule contains two hydrogen atoms and one oxygen atom; this prop is not to scale.",
+      "info_hi": "जल अणु में दो हाइड्रोजन और एक ऑक्सीजन परमाणु हैं; मॉडल वास्तविक अनुपात में नहीं है।"
+    }
+  ],
+  "c9_atomic_foundations/9-09-formula-unit-mass-nacl.jpg": [
+    {
+      "en": "Illustrative salt sample",
+      "hi": "सांकेतिक लवण नमूना",
+      "x": 922,
+      "y": 45,
+      "w": 425,
+      "h": 92,
+      "info_en": "The NaCl formula unit has a 1:1 ratio of sodium to chloride ions; sample identity is unverified.",
+      "info_hi": "NaCl सूत्र इकाई में सोडियम और क्लोराइड आयनों का अनुपात 1:1 है; नमूने की पहचान असत्यापित है।"
+    }
+  ],
+  "c9_sound/10-01-sound-vibration-tuning-fork.jpg": [
+    {
+      "en": "Tuning fork prongs",
+      "hi": "स्वरित्र की भुजाएँ",
+      "x": 798,
+      "y": 38,
+      "w": 343,
+      "h": 68,
+      "info_en": "A sounding tuning fork has vibrating prongs; the still image does not show actual motion.",
+      "info_hi": "ध्वनित स्वरित्र की भुजाएँ कम्पन करती हैं; स्थिर चित्र वास्तविक गति नहीं दिखाता।"
+    },
+    {
+      "en": "Rubber mallet",
+      "hi": "रबर का हथौड़ा",
+      "x": 1130,
+      "y": 226,
+      "w": 252,
+      "h": 68,
+      "info_en": "A suitable mallet can set a tuning fork vibrating; this AI prop is unverified.",
+      "info_hi": "उपयुक्त हथौड़ा स्वरित्र में कम्पन उत्पन्न कर सकता है; एआई वस्तु असत्यापित है।"
+    }
+  ],
+  "c9_sound/10-02-sound-medium-bell-jar.jpg": [
+    {
+      "en": "Bell jar",
+      "hi": "घंटी जार",
+      "x": 1075,
+      "y": 25,
+      "w": 275,
+      "h": 68,
+      "info_en": "A sealed jar can enclose a bell and air for a sound-medium demonstration; this seal is unverified.",
+      "info_hi": "बंद जार में घंटी और हवा रखकर ध्वनि माध्यम का प्रदर्शन किया जा सकता है; इस सील की पुष्टि नहीं है।"
+    },
+    {
+      "en": "Electric bell",
+      "hi": "विद्युत घंटी",
+      "x": 1132,
+      "y": 216,
+      "w": 252,
+      "h": 68,
+      "info_en": "A vibrating bell can produce sound in air; this AI image does not demonstrate a measurement.",
+      "info_hi": "कम्पन करती घंटी वायु में ध्वनि दे सकती है; एआई चित्र माप नहीं दिखाता।"
+    },
+    {
+      "en": "Vacuum pump",
+      "hi": "निर्वात पंप",
+      "x": 715,
+      "y": 360,
+      "w": 230,
+      "h": 68,
+      "info_en": "A pump can remove air from a suitable apparatus; this AI connection is not a practical guide.",
+      "info_hi": "उपयुक्त उपकरण से पंप हवा निकाल सकता है; एआई जोड़ व्यावहारिक निर्देश नहीं है।"
+    }
+  ],
+  "c10_carbon/4-01-covalent.jpg": [
+    {
+      "en": "Methane",
+      "hi": "मीथेन",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Methane CH₄ has a carbon atom bonded to four hydrogens.",
+      "info_hi": "मीथेन CH₄ में एक कार्बन चार हाइड्रोजन से बंधित होता है।"
+    },
+    {
+      "en": "Ethane",
+      "hi": "एथेन",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Ethane C₂H₆ contains a single carbon–carbon bond; each carbon completes four bonds.",
+      "info_hi": "एथेन C₂H₆ में एकल कार्बन–कार्बन बंध है; हर कार्बन के चार बंध पूरे हैं।"
+    }
+  ],
+  "c10_carbon/4-01b-allotropes.jpg": [
+    {
+      "en": "Graphite-like sample",
+      "hi": "ग्रेफाइट जैसा नमूना",
+      "x": 745,
+      "y": 20,
+      "w": 330,
+      "h": 52,
+      "info_en": "Graphite has layers of carbon atoms; the AI-generated specimen is not verified.",
+      "info_hi": "ग्रेफाइट में कार्बन परमाणुओं की परतें होती हैं; एआई नमूना सत्यापित नहीं है।"
+    },
+    {
+      "en": "Diamond-like sample",
+      "hi": "हीरे जैसा नमूना",
+      "x": 1090,
+      "y": 20,
+      "w": 310,
+      "h": 52,
+      "info_en": "Diamond has a three-dimensional bonded carbon network; the AI specimen is unverified.",
+      "info_hi": "हीरे में कार्बन का त्रिविमीय बंधित जाल होता है; एआई नमूना असत्यापित है।"
+    }
+  ],
+  "c10_carbon/4-02-versatility.jpg": [
+    {
+      "en": "Carbon chain",
+      "hi": "कार्बन शृंखला",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Catenation lets carbon atoms form chains such as the three-carbon skeleton in propane.",
+      "info_hi": "श्रृंखलन से कार्बन परमाणु प्रोपेन जैसी तीन-कार्बन शृंखला बना सकते हैं।"
+    },
+    {
+      "en": "Four bonds",
+      "hi": "चार बंध",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "In methane carbon forms four single C–H covalent bonds.",
+      "info_hi": "मीथेन में कार्बन चार एकल C–H सहसंयोजक बंध बनाता है।"
+    }
+  ],
+  "c10_carbon/4-02-1-bond-types.jpg": [
+    {
+      "en": "Single bond",
+      "hi": "एकल बंध",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A single covalent bond corresponds to one shared electron pair; ethane has a C–C single bond.",
+      "info_hi": "एकल सहसंयोजक बंध एक साझा इलेक्ट्रॉन जोड़ी है; एथेन में C–C एकल बंध है।"
+    },
+    {
+      "en": "Double bond",
+      "hi": "द्वि बंध",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A double bond has two shared electron pairs; ethene contains a C=C double bond.",
+      "info_hi": "द्वि बंध में दो साझा इलेक्ट्रॉन जोड़ियाँ हैं; एथीन में C=C द्वि बंध है।"
+    }
+  ],
+  "c10_carbon/4-02-2-chains.jpg": [
+    {
+      "en": "Straight chain",
+      "hi": "सीधी शृंखला",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Butane has four carbon atoms connected in one unbranched chain.",
+      "info_hi": "ब्यूटेन के चार कार्बन एक बिना शाखा वाली शृंखला में जुड़े हैं।"
+    },
+    {
+      "en": "Branched chain",
+      "hi": "शाखित शृंखला",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "2-methylpropane also has formula C₄H₁₀, but its carbon connections differ from butane.",
+      "info_hi": "2-मेथिलप्रोपेन का सूत्र भी C₄H₁₀ है, पर कार्बन जुड़ाव ब्यूटेन से अलग है।"
+    }
+  ],
+  "c10_carbon/4-02-3-functional-groups.jpg": [
+    {
+      "en": "Alcohol group",
+      "hi": "ऐल्कोहॉल समूह",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "An –OH group attached to a suitable carbon skeleton identifies an alcohol.",
+      "info_hi": "उपयुक्त कार्बन कंकाल से जुड़ा –OH समूह ऐल्कोहॉल को दर्शाता है।"
+    },
+    {
+      "en": "Acid group",
+      "hi": "अम्ल समूह",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "The –COOH carboxyl group is characteristic of carboxylic acids.",
+      "info_hi": "–COOH कार्बोक्सिल समूह कार्बोक्सिलिक अम्लों की विशेषता है।"
+    }
+  ],
+  "c10_carbon/4-02-4-homologous.jpg": [
+    {
+      "en": "Ethane",
+      "hi": "एथेन",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Ethane C₂H₆ contains a single carbon–carbon bond; each carbon completes four bonds.",
+      "info_hi": "एथेन C₂H₆ में एकल कार्बन–कार्बन बंध है; हर कार्बन के चार बंध पूरे हैं।"
+    },
+    {
+      "en": "Propane",
+      "hi": "प्रोपेन",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Propane C₃H₈ and ethane C₂H₆ differ by CH₂ in this alkane series.",
+      "info_hi": "प्रोपेन C₃H₈ और एथेन C₂H₆ में इस ऐल्केन श्रेणी में CH₂ का अंतर है।"
+    }
+  ],
+  "c10_carbon/4-02-5-naming.jpg": [
+    {
+      "en": "Two-carbon chain",
+      "hi": "दो कार्बन शृंखला",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The prefix eth- denotes a two-carbon parent chain.",
+      "info_hi": "उपसर्ग एथ- दो कार्बन की मूल शृंखला दर्शाता है।"
+    },
+    {
+      "en": "Ethanol",
+      "hi": "एथेनॉल",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Ethanol CH₃CH₂OH has two carbons and an alcohol functional group.",
+      "info_hi": "एथेनॉल CH₃CH₂OH में दो कार्बन और एक ऐल्कोहॉल क्रियात्मक समूह हैं।"
+    }
+  ],
+  "c10_carbon/4-03-1-combustion.jpg": [
+    {
+      "en": "Reactants",
+      "hi": "अभिकारक",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "In this example methane and oxygen are the reactants; the photographed candle fuel is not identified.",
+      "info_hi": "इस उदाहरण में मीथेन और ऑक्सीजन अभिकारक हैं; फोटो में मोमबत्ती के ईंधन की पहचान नहीं हुई है।"
+    },
+    {
+      "en": "Products",
+      "hi": "उत्पाद",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Complete combustion of methane produces carbon dioxide and water; the scene is not a measurement.",
+      "info_hi": "मीथेन के पूर्ण दहन से कार्बन डाइऑक्साइड और जल बनते हैं; यह दृश्य मापन नहीं है।"
+    }
+  ],
+  "c10_carbon/4-03-2-oxidation.jpg": [
+    {
+      "en": "Ethanol reactant",
+      "hi": "एथेनॉल अभिकारक",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Ethanol can be oxidised by a suitable oxidising agent to ethanoic acid.",
+      "info_hi": "उपयुक्त ऑक्सीकारक से एथेनॉल का ऑक्सीकरण एथेनोइक अम्ल में हो सकता है।"
+    },
+    {
+      "en": "Acid product",
+      "hi": "अम्ल उत्पाद",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Ethanoic acid is an oxidation product of ethanol under suitable conditions.",
+      "info_hi": "उपयुक्त दशाओं में एथेनोइक अम्ल एथेनॉल के ऑक्सीकरण का उत्पाद है।"
+    }
+  ],
+  "c10_carbon/4-03-3-addition.jpg": [
+    {
+      "en": "Ethene reactant",
+      "hi": "एथीन अभिकारक",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Ethene contains a C=C bond across which hydrogen can add.",
+      "info_hi": "एथीन में C=C बंध है जिस पर हाइड्रोजन जुड़ सकता है।"
+    },
+    {
+      "en": "Ethane product",
+      "hi": "एथेन उत्पाद",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Hydrogenation of ethene gives ethane, which has a carbon–carbon single bond.",
+      "info_hi": "एथीन के हाइड्रोजनीकरण से एथेन बनता है जिसमें कार्बन–कार्बन एकल बंध है।"
+    }
+  ],
+  "c10_carbon/4-03-4-substitution.jpg": [
+    {
+      "en": "Methane reactant",
+      "hi": "मीथेन अभिकारक",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "In this example a hydrogen atom in methane can be replaced by chlorine in light.",
+      "info_hi": "इस उदाहरण में प्रकाश में मीथेन का एक हाइड्रोजन क्लोरीन से प्रतिस्थापित हो सकता है।"
+    },
+    {
+      "en": "Chloromethane product",
+      "hi": "क्लोरोमीथेन उत्पाद",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "CH₃Cl is one possible product of methane chlorination; further substitution is possible.",
+      "info_hi": "CH₃Cl मीथेन के क्लोरीनीकरण का एक संभावित उत्पाद है; आगे प्रतिस्थापन संभव है।"
+    }
+  ],
+  "c10_carbon/4-04-1-ethanol.jpg": [
+    {
+      "en": "Ethanol molecule",
+      "hi": "एथेनॉल अणु",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Ethanol contains an alcohol group; its dehydration can yield ethene and water.",
+      "info_hi": "एथेनॉल में ऐल्कोहॉल समूह है; उसके निर्जलीकरण से एथीन और जल बन सकते हैं।"
+    },
+    {
+      "en": "Ethene product",
+      "hi": "एथीन उत्पाद",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Ethene can result from dehydration of ethanol under suitable conditions.",
+      "info_hi": "उपयुक्त दशाओं में एथेनॉल के निर्जलीकरण से एथीन बन सकता है।"
+    }
+  ],
+  "c10_carbon/4-04-2-ethanoic-acid.jpg": [
+    {
+      "en": "Ethanoic acid",
+      "hi": "एथेनोइक अम्ल",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Ethanoic acid is a weak carboxylic acid; aqueous vinegar is dilute.",
+      "info_hi": "एथेनोइक अम्ल दुर्बल कार्बोक्सिलिक अम्ल है; जलीय सिरका तनु होता है।"
+    },
+    {
+      "en": "Sodium ethanoate",
+      "hi": "सोडियम एथेनोएट",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "This salt can form when ethanoic acid is neutralised by sodium hydroxide.",
+      "info_hi": "एथेनोइक अम्ल को सोडियम हाइड्रॉक्साइड से उदासीन करने पर यह लवण बन सकता है।"
+    }
+  ],
+  "c10_carbon/4-04-2b-esters.jpg": [
+    {
+      "en": "Ethanoic acid reactant",
+      "hi": "एथेनोइक अम्ल अभिकारक",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Ethanoic acid can react with ethanol to form an ester and water.",
+      "info_hi": "एथेनोइक अम्ल एथेनॉल से अभिक्रिया करके एस्टर और जल बना सकता है।"
+    },
+    {
+      "en": "Ester product",
+      "hi": "एस्टर उत्पाद",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Ethyl ethanoate is an ester; the AI lab image does not establish its identity or smell.",
+      "info_hi": "एथिल एथेनोएट एक एस्टर है; एआई प्रयोगशाला चित्र उसकी पहचान या गंध सिद्ध नहीं करता।"
+    }
+  ],
+  "c10_carbon/4-05-soap-micelles.jpg": [
+    {
+      "en": "Water-attracting heads",
+      "hi": "जलाकर्षी सिर",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Ionic heads interact with water and face outward in the simplified micelle model.",
+      "info_hi": "सरल मिसेल मॉडल में आयनिक सिर जल से परस्पर क्रिया करते हैं और बाहर की ओर होते हैं।"
+    },
+    {
+      "en": "Oil-attracting tails",
+      "hi": "तेलाकर्षी पूँछ",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Hydrocarbon tails interact with oily material inside this schematic micelle.",
+      "info_hi": "इस सांकेतिक मिसेल में हाइड्रोकार्बन पूँछें भीतर के तैलीय पदार्थ से परस्पर क्रिया करती हैं।"
+    }
+  ],
+  "c9_atom/8-09-isotopes-isobars.jpg": [
+    {
+      "en": "Carbon-12",
+      "hi": "कार्बन-12",
+      "x": 177,
+      "y": 137,
+      "w": 325,
+      "h": 163,
+      "info_en": "Carbon-12 has 6 protons and 6 neutrons. It is an isotope of carbon-14.",
+      "info_hi": "कार्बन-12 में 6 प्रोटॉन और 6 न्यूट्रॉन हैं। यह कार्बन-14 का समस्थानिक है।"
+    },
+    {
+      "en": "Carbon-14",
+      "hi": "कार्बन-14",
+      "x": 537,
+      "y": 137,
+      "w": 325,
+      "h": 163,
+      "info_en": "Carbon-14 has 6 protons and 8 neutrons; it is an isobar of nitrogen-14.",
+      "info_hi": "कार्बन-14 में 6 प्रोटॉन और 8 न्यूट्रॉन हैं; यह नाइट्रोजन-14 का समभारिक है।"
+    },
+    {
+      "en": "Nitrogen-14",
+      "hi": "नाइट्रोजन-14",
+      "x": 907,
+      "y": 137,
+      "w": 325,
+      "h": 163,
+      "info_en": "Nitrogen-14 has 7 protons and 7 neutrons; its mass number matches carbon-14.",
+      "info_hi": "नाइट्रोजन-14 में 7 प्रोटॉन और 7 न्यूट्रॉन हैं; इसकी द्रव्यमान संख्या कार्बन-14 के समान है।"
+    }
+  ],
+  "c9_atom/8-10-methane-valency.jpg": [
+    {
+      "en": "Carbon C · valency 4",
+      "hi": "कार्बन C · संयोजकता 4",
+      "x": 29,
+      "y": 29,
+      "w": 342,
+      "h": 80,
+      "info_en": "Carbon commonly forms four covalent bonds; the pictured model is not to scale.",
+      "info_hi": "कार्बन सामान्यतः चार सहसंयोजक बंध बनाता है; चित्रित मॉडल वास्तविक अनुपात में नहीं है।"
+    },
+    {
+      "en": "Hydrogen H · valency 1",
+      "hi": "हाइड्रोजन H · संयोजकता 1",
+      "x": 1009,
+      "y": 29,
+      "w": 371,
+      "h": 80,
+      "info_en": "Each hydrogen atom forms one covalent bond in these simple models.",
+      "info_hi": "इन सरल मॉडलों में प्रत्येक हाइड्रोजन परमाणु एक सहसंयोजक बंध बनाता है।"
+    },
+    {
+      "en": "Four C–H bonds",
+      "hi": "चार C–H सहसंयोजक बंध",
+      "x": 29,
+      "y": 663,
+      "w": 378,
+      "h": 80,
+      "info_en": "Methane has four carbon–hydrogen covalent bonds.",
+      "info_hi": "मीथेन में चार कार्बन–हाइड्रोजन सहसंयोजक बंध हैं।"
+    },
+    {
+      "en": "Methane CH₄",
+      "hi": "मीथेन CH₄",
+      "x": 995,
+      "y": 636,
+      "w": 385,
+      "h": 107,
+      "info_en": "A methane molecule contains one carbon and four hydrogen atoms; the model is illustrative.",
+      "info_hi": "मीथेन अणु में एक कार्बन और चार हाइड्रोजन परमाणु होते हैं; मॉडल सांकेतिक है।"
+    }
+  ],
+  "c9_atom/8-10-water-supplement.jpg": [
+    {
+      "en": "Oxygen O · valency 2",
+      "hi": "ऑक्सीजन O · संयोजकता 2",
+      "x": 29,
+      "y": 29,
+      "w": 363,
+      "h": 80,
+      "info_en": "Oxygen commonly forms two bonds in water; the model is illustrative.",
+      "info_hi": "जल में ऑक्सीजन सामान्यतः दो बंध बनाता है; मॉडल सांकेतिक है।"
+    },
+    {
+      "en": "Hydrogen H · valency 1",
+      "hi": "हाइड्रोजन H · संयोजकता 1",
+      "x": 1009,
+      "y": 29,
+      "w": 371,
+      "h": 80,
+      "info_en": "Each hydrogen atom forms one covalent bond in these simple models.",
+      "info_hi": "इन सरल मॉडलों में प्रत्येक हाइड्रोजन परमाणु एक सहसंयोजक बंध बनाता है।"
+    },
+    {
+      "en": "Two O–H bonds",
+      "hi": "दो O–H सहसंयोजक बंध",
+      "x": 29,
+      "y": 663,
+      "w": 378,
+      "h": 80,
+      "info_en": "Water contains two oxygen–hydrogen covalent bonds.",
+      "info_hi": "जल में दो ऑक्सीजन–हाइड्रोजन सहसंयोजक बंध होते हैं।"
+    },
+    {
+      "en": "Water H₂O",
+      "hi": "पानी H₂O",
+      "x": 995,
+      "y": 636,
+      "w": 385,
+      "h": 107,
+      "info_en": "A water molecule contains one oxygen and two hydrogen atoms; the model is not to scale.",
+      "info_hi": "जल अणु में एक ऑक्सीजन और दो हाइड्रोजन परमाणु हैं; मॉडल वास्तविक अनुपात में नहीं है।"
+    }
+  ],
+  "c9_atom/8-11-element-symbols.jpg": [
+    {
+      "en": "Cu · Copper",
+      "hi": "ताँबा",
+      "x": 80,
+      "y": 24,
+      "w": 320,
+      "h": 125,
+      "info_en": "Cu is the symbol for copper, related to the Latin name cuprum; the AI specimen is unverified.",
+      "info_hi": "Cu ताँबे का संकेत है, जिसका संबंध लैटिन नाम cuprum से है; एआई नमूना असत्यापित है।"
+    },
+    {
+      "en": "Fe · Iron",
+      "hi": "लोहा",
+      "x": 545,
+      "y": 24,
+      "w": 318,
+      "h": 125,
+      "info_en": "Fe is the symbol for iron, related to the Latin name ferrum; the AI specimen is unverified.",
+      "info_hi": "Fe लोहे का संकेत है, जिसका संबंध लैटिन नाम ferrum से है; एआई नमूना असत्यापित है।"
+    },
+    {
+      "en": "Au · Gold",
+      "hi": "सोना",
+      "x": 1008,
+      "y": 24,
+      "w": 320,
+      "h": 125,
+      "info_en": "Au is the symbol for gold, related to the Latin name aurum; the AI specimen is unverified.",
+      "info_hi": "Au सोने का संकेत है, जिसका संबंध लैटिन नाम aurum से है; एआई नमूना असत्यापित है।"
+    }
+  ],
+  "c9_atom/8-12-magnesium-chloride-formula.jpg": [
+    {
+      "en": "Illustrative salt crystals",
+      "hi": "सांकेतिक लवण के क्रिस्टल",
+      "x": 915,
+      "y": 40,
+      "w": 429,
+      "h": 131,
+      "info_en": "Ionic solids may form extended lattices; the pictured AI sample’s identity is not verified.",
+      "info_hi": "आयनिक ठोस विस्तृत जालक बना सकते हैं; एआई नमूने की पहचान सत्यापित नहीं है।"
+    }
+  ],
+  "c10_periodic/P-01-triads.jpg": [
+    {
+      "en": "Lithium",
+      "hi": "लिथियम",
+      "x": 745,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "Lithium is an alkali metal in the Li–Na–K triad; 6.94 u is a rounded modern atomic mass.",
+      "info_hi": "लिथियम Li–Na–K त्रिक की क्षार धातु है; 6.94 u आधुनिक परमाणु द्रव्यमान का निकटमान है।"
+    },
+    {
+      "en": "Sodium",
+      "hi": "सोडियम",
+      "x": 960,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "Sodium is the middle element; its rounded atomic mass is close to the mean of Li and K.",
+      "info_hi": "सोडियम मध्य तत्व है; इसका निकट परमाणु द्रव्यमान Li और K के औसत के पास है।"
+    },
+    {
+      "en": "Potassium",
+      "hi": "पोटैशियम",
+      "x": 1175,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "Potassium is the third element in this triad; 39.10 u is a rounded modern atomic mass.",
+      "info_hi": "पोटैशियम इस त्रिक का तीसरा तत्व है; 39.10 u आधुनिक परमाणु द्रव्यमान का निकटमान है।"
+    }
+  ],
+  "c10_periodic/P-02-octaves.jpg": [
+    {
+      "en": "First · lithium",
+      "hi": "पहला · लिथियम",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Counting lithium as first, sodium is eighth in the illustrated sequence.",
+      "info_hi": "लिथियम को पहला मानकर गिनने पर दर्शाए क्रम में सोडियम आठवाँ है।"
+    },
+    {
+      "en": "Eighth · sodium",
+      "hi": "आठवाँ · सोडियम",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Sodium shares some properties with lithium; Newlands’ octave pattern had limitations.",
+      "info_hi": "सोडियम के कुछ गुण लिथियम से मिलते हैं; न्यूलैंड के अष्टक क्रम की सीमाएँ थीं।"
+    }
+  ],
+  "c10_periodic/P-03-mendeleev.jpg": [
+    {
+      "en": "Predicted gap",
+      "hi": "अनुमानित रिक्त स्थान",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Mendeleev predicted an element he called eka-silicon and left room for it.",
+      "info_hi": "मेंडेलीफ़ ने एका-सिलिकॉन नाम के तत्व की भविष्यवाणी कर उसके लिए स्थान छोड़ा।"
+    },
+    {
+      "en": "Germanium",
+      "hi": "जर्मेनियम",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Germanium was discovered later and matched many predicted properties of eka-silicon.",
+      "info_hi": "जर्मेनियम बाद में खोजा गया और उसके कई गुण एका-सिलिकॉन की भविष्यवाणी से मिले।"
+    }
+  ],
+  "c10_periodic/P-04-modern-law.jpg": [
+    {
+      "en": "Periods · rows",
+      "hi": "आवर्त · पंक्तियाँ",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A period is a horizontal row of the periodic table; this schematic shows periods 1–3.",
+      "info_hi": "आवर्त आवर्त सारणी की क्षैतिज पंक्ति है; यह सांकेतिक चित्र आवर्त 1–3 दिखाता है।"
+    },
+    {
+      "en": "Groups · columns",
+      "hi": "समूह · स्तंभ",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A group is a vertical column; this chart labels groups 1, 2 and 13–18 only.",
+      "info_hi": "समूह ऊर्ध्वाधर स्तंभ है; इस चार्ट में केवल समूह 1, 2 और 13–18 दिखाए हैं।"
+    }
+  ],
+  "c10_periodic/P-05-trends.jpg": [
+    {
+      "en": "Across a period",
+      "hi": "आवर्त में",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Atomic radius and metallic character generally decrease from left to right, with exceptions.",
+      "info_hi": "परमाणु त्रिज्या और धात्विक गुण सामान्यतः बाएँ से दाएँ घटते हैं; अपवाद हैं।"
+    },
+    {
+      "en": "Down a group",
+      "hi": "समूह में नीचे",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Atomic radius and metallic character generally increase down a group, with exceptions.",
+      "info_hi": "परमाणु त्रिज्या और धात्विक गुण सामान्यतः समूह में नीचे बढ़ते हैं; अपवाद हैं।"
+    }
+  ],
+  "c10_light/9-01-reflection-laws.jpg": [
+    {
+      "en": "Incident ray",
+      "hi": "आपतित किरण",
+      "x": 745,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "The incident ray travels toward the reflecting surface; angle i is measured from the normal.",
+      "info_hi": "आपतित किरण परावर्तक सतह की ओर जाती है; कोण i अभिलंब से मापा जाता है।"
+    },
+    {
+      "en": "Normal",
+      "hi": "अभिलंब",
+      "x": 960,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "The normal is perpendicular to the surface at the point of incidence.",
+      "info_hi": "अभिलंब आपतन बिंदु पर सतह के लंबवत होता है।"
+    },
+    {
+      "en": "Reflected ray",
+      "hi": "परावर्तित किरण",
+      "x": 1175,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "The reflected ray leaves the surface; its angle r equals i for reflection.",
+      "info_hi": "परावर्तित किरण सतह से निकलती है; परावर्तन में उसका कोण r, i के बराबर होता है।"
+    }
+  ],
+  "c10_light/9-02-spherical-mirrors.jpg": [
+    {
+      "en": "Centre C",
+      "hi": "केंद्र C",
+      "x": 745,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "C is the centre of the sphere of which a spherical mirror is a part.",
+      "info_hi": "C उस गोले का केंद्र है जिसका गोलीय दर्पण एक भाग है।"
+    },
+    {
+      "en": "Focus F",
+      "hi": "फोकस F",
+      "x": 960,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "For paraxial rays parallel to the principal axis, reflected rays meet or appear to diverge from F.",
+      "info_hi": "मुख्य अक्ष के समानांतर निकट-अक्षीय किरणें परावर्तन के बाद F पर मिलती या वहाँ से आती प्रतीत होती हैं।"
+    },
+    {
+      "en": "Pole P",
+      "hi": "ध्रुव P",
+      "x": 1175,
+      "y": 20,
+      "w": 205,
+      "h": 52,
+      "info_en": "P is the midpoint of the reflecting surface and the origin for mirror sign convention.",
+      "info_hi": "P परावर्तक सतह का मध्य बिंदु और दर्पण चिह्न परिपाटी का मूल है।"
+    }
+  ],
+  "c10_light/9-02-1-concave-image.jpg": [
+    {
+      "en": "Object",
+      "hi": "वस्तु",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The upright green arrow represents the object in this idealised ray diagram.",
+      "info_hi": "सीधा हरा तीर इस आदर्श किरण आरेख में वस्तु दर्शाता है।"
+    },
+    {
+      "en": "Real image",
+      "hi": "वास्तविक प्रतिबिंब",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Reflected rays actually converge at a real image; the shown image is inverted and smaller.",
+      "info_hi": "परावर्तित किरणें वास्तविक प्रतिबिंब पर सचमुच मिलती हैं; दिखा प्रतिबिंब उलटा और छोटा है।"
+    }
+  ],
+  "c10_light/9-02-2-convex-image.jpg": [
+    {
+      "en": "Object",
+      "hi": "वस्तु",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The upright green arrow represents the object in this idealised ray diagram.",
+      "info_hi": "सीधा हरा तीर इस आदर्श किरण आरेख में वस्तु दर्शाता है।"
+    },
+    {
+      "en": "Virtual image",
+      "hi": "आभासी प्रतिबिंब",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Backward extensions of reflected rays meet at a virtual image; the rays do not actually meet there.",
+      "info_hi": "परावर्तित किरणों के पीछे बढ़ाए भाग आभासी प्रतिबिंब पर मिलते हैं; वास्तविक किरणें वहाँ नहीं मिलतीं।"
+    }
+  ],
+  "c10_light/9-02-4-mirror-formula.jpg": [
+    {
+      "en": "Mirror formula",
+      "hi": "दर्पण सूत्र",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The mirror equation relates signed focal, object and image distances using 1/f = 1/v + 1/u.",
+      "info_hi": "दर्पण सूत्र 1/f = 1/v + 1/u से चिह्नयुक्त फोकस, वस्तु और प्रतिबिंब दूरियों को जोड़ता है।"
+    },
+    {
+      "en": "Magnification",
+      "hi": "आवर्धन",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For a mirror m = hᵢ/hₒ = −v/u when the same Cartesian sign convention is used.",
+      "info_hi": "एक ही कार्तीय चिह्न परिपाटी पर दर्पण के लिए m = hᵢ/hₒ = −v/u है।"
+    }
+  ],
+  "c10_light/9-03-refraction.jpg": [
+    {
+      "en": "Incident beam",
+      "hi": "आपतित किरण",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The incident ray approaches the boundary; its angle of incidence is measured from the normal.",
+      "info_hi": "आपतित किरण सीमा की ओर जाती है; आपतन कोण अभिलंब से मापा जाता है।"
+    },
+    {
+      "en": "Refracted beam",
+      "hi": "अपवर्तित किरण",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "On entering a higher-index medium at an oblique angle, the transmitted ray bends towards the normal.",
+      "info_hi": "अधिक अपवर्तनांक वाले माध्यम में तिरछे प्रवेश पर संचारित किरण अभिलंब की ओर मुड़ती है।"
+    }
+  ],
+  "c10_light/9-03-1-glass-slab.jpg": [
+    {
+      "en": "Glass slab",
+      "hi": "काँच की पट्टी",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The two parallel faces of an ideal rectangular slab cause two refractions.",
+      "info_hi": "आदर्श आयताकार पट्टी की दो समांतर सतहों पर दो अपवर्तन होते हैं।"
+    },
+    {
+      "en": "Emergent beam",
+      "hi": "निर्गत किरण",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "When both outer media are air, the emergent ray is parallel to the incident ray but shifted sideways.",
+      "info_hi": "जब दोनों बाहरी माध्यम वायु हों, निर्गत किरण आपतित किरण के समांतर लेकिन पार्श्व विस्थापित होती है।"
+    }
+  ],
+  "c10_light/9-03-3-lens-types.jpg": [
+    {
+      "en": "Convex lens",
+      "hi": "उत्तल लेंस",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A convex lens in air converges paraxial rays parallel to its principal axis towards the focus.",
+      "info_hi": "वायु में उत्तल लेंस मुख्य अक्ष के समांतर निकट-अक्षीय किरणों को फोकस की ओर अभिसरित करता है।"
+    },
+    {
+      "en": "Concave lens",
+      "hi": "अवतल लेंस",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A concave lens in air diverges parallel rays; their backward extensions meet at a virtual focus.",
+      "info_hi": "वायु में अवतल लेंस समांतर किरणों को अपसारित करता है; पीछे बढ़ाए भाग आभासी फोकस पर मिलते हैं।"
+    }
+  ],
+  "c10_light/9-03-7-lens-formula.jpg": [
+    {
+      "en": "Lens formula",
+      "hi": "लेंस सूत्र",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "For a thin spherical lens the Cartesian signed distances obey 1/v − 1/u = 1/f.",
+      "info_hi": "पतले गोलीय लेंस की कार्तीय चिह्नयुक्त दूरियाँ 1/v − 1/u = 1/f का पालन करती हैं।"
+    },
+    {
+      "en": "Lens magnification",
+      "hi": "लेंस आवर्धन",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For a lens, image height divided by object height equals v/u under the Cartesian sign convention.",
+      "info_hi": "कार्तीय चिह्न परिपाटी में लेंस के लिए प्रतिबिंब ऊँचाई और वस्तु ऊँचाई का अनुपात v/u है।"
+    }
+  ],
+  "c10_light/9-03-8-lens-power.jpg": [
+    {
+      "en": "Lens power",
+      "hi": "लेंस क्षमता",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Power is 1/f for f measured in metres; its unit is the dioptre.",
+      "info_hi": "क्षमता 1/f है, जहाँ f मीटर में हो; इसकी इकाई डायोप्टर है।"
+    },
+    {
+      "en": "Contact lenses",
+      "hi": "संपर्क में लेंस",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For thin lenses in contact, total power is approximately the algebraic sum of their powers.",
+      "info_hi": "संपर्क में पतले लेंसों की कुल क्षमता उनकी क्षमताओं का लगभग बीजीय योग है।"
+    }
+  ],
+  "c10_eye/10-01-eye-structure.jpg": [
+    {
+      "en": "Cornea",
+      "hi": "कॉर्निया",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The cornea is the transparent curved front surface that provides much of the eye’s refraction.",
+      "info_hi": "कॉर्निया पारदर्शी वक्र सामने की सतह है जो नेत्र में अधिकतर अपवर्तन करती है।"
+    },
+    {
+      "en": "Retina",
+      "hi": "दृष्टिपटल",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "The retina is the light-sensitive inner layer where focused light triggers nerve signals.",
+      "info_hi": "दृष्टिपटल प्रकाश-संवेदी भीतरी परत है जहाँ केंद्रित प्रकाश तंत्रिका संकेत उत्पन्न करता है।"
+    }
+  ],
+  "c10_eye/10-02-accommodation.jpg": [
+    {
+      "en": "Near focus",
+      "hi": "निकट फोकस",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "For a near object the eye lens becomes more curved during accommodation.",
+      "info_hi": "समंजन के समय निकट वस्तु के लिए नेत्र लेंस अधिक वक्र हो जाता है।"
+    },
+    {
+      "en": "Distant focus",
+      "hi": "दूर फोकस",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For a distant object the eye lens is less curved than when viewing a near object.",
+      "info_hi": "दूर की वस्तु देखते समय नेत्र लेंस निकट वस्तु की तुलना में कम वक्र होता है।"
+    }
+  ],
+  "c10_eye/10-03-myopia.jpg": [
+    {
+      "en": "Myopia focus",
+      "hi": "निकट दृष्टिदोष फोकस",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "For a distant object an uncorrected myopic eye focuses light in front of the retina.",
+      "info_hi": "बिना सुधार निकट दृष्टिदोष वाला नेत्र दूर की वस्तु का फोकस दृष्टिपटल के आगे बनाता है।"
+    },
+    {
+      "en": "Concave correction",
+      "hi": "अवतल सुधार",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A suitable concave lens can correct myopia by diverging incoming rays.",
+      "info_hi": "उपयुक्त अवतल लेंस आपतित किरणें अपसारित करके निकट दृष्टिदोष सुधार सकता है।"
+    }
+  ],
+  "c10_eye/10-04-hypermetropia.jpg": [
+    {
+      "en": "Hyperopia focus",
+      "hi": "दूर दृष्टिदोष फोकस",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "In the simplified model a near object’s focus lies behind the retina without correction.",
+      "info_hi": "सरल मॉडल में बिना सुधार निकट वस्तु का फोकस दृष्टिपटल के पीछे बनता है।"
+    },
+    {
+      "en": "Convex correction",
+      "hi": "उत्तल सुधार",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A suitable convex lens can help focus nearby objects on the retina.",
+      "info_hi": "उपयुक्त उत्तल लेंस निकट वस्तुओं का फोकस दृष्टिपटल पर लाने में मदद कर सकता है।"
+    }
+  ],
+  "c10_eye/10-05-prism.jpg": [
+    {
+      "en": "Prism",
+      "hi": "प्रिज्म",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A prism refracts light at two inclined faces; deviation depends on material, angle and wavelength.",
+      "info_hi": "प्रिज्म दो झुकी सतहों पर प्रकाश अपवर्तित करता है; विचलन पदार्थ, कोण और तरंगदैर्ध्य पर निर्भर है।"
+    },
+    {
+      "en": "Emergent ray",
+      "hi": "निर्गत किरण",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "The ray leaves the prism in a different direction after refraction at the second face.",
+      "info_hi": "दूसरी सतह पर अपवर्तन के बाद किरण बदली दिशा में प्रिज्म से निकलती है।"
+    }
+  ],
+  "c10_eye/10-06-dispersion.jpg": [
+    {
+      "en": "White light",
+      "hi": "श्वेत प्रकाश",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "White light contains a range of visible wavelengths; a prism can spread them by wavelength.",
+      "info_hi": "श्वेत प्रकाश में अनेक दृश्य तरंगदैर्ध्य होते हैं; प्रिज्म उन्हें अलग-अलग दिशाओं में फैला सकता है।"
+    },
+    {
+      "en": "Spectrum",
+      "hi": "वर्णक्रम",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A spectrum is an ordered spread of light by wavelength; visible colours form a continuous range.",
+      "info_hi": "वर्णक्रम तरंगदैर्ध्य के अनुसार प्रकाश का क्रमबद्ध फैलाव है; दृश्य रंग सतत होते हैं।"
+    }
+  ],
+  "c10_eye/10-07-scattering.jpg": [
+    {
+      "en": "Incoming sunlight",
+      "hi": "आपतित सूर्यप्रकाश",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Sunlight contains many wavelengths before it is scattered by atmospheric molecules or particles.",
+      "info_hi": "वायुमंडलीय अणुओं या कणों से प्रकीर्णन से पहले सूर्यप्रकाश में अनेक तरंगदैर्ध्य होते हैं।"
+    },
+    {
+      "en": "Scattered light",
+      "hi": "प्रकीर्णित प्रकाश",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Fine particles and air molecules redirect light; shorter visible wavelengths generally scatter more strongly.",
+      "info_hi": "सूक्ष्म कण और वायु अणु प्रकाश की दिशा बदलते हैं; छोटी दृश्य तरंगदैर्ध्य सामान्यतः अधिक प्रकीर्णित होती हैं।"
+    }
+  ],
+  "c10_eye/10-08-atmospheric-refraction.jpg": [
+    {
+      "en": "Starlight",
+      "hi": "तारों का प्रकाश",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Light from a distant star is refracted by changing atmospheric layers before reaching an observer.",
+      "info_hi": "दूर के तारे का प्रकाश प्रेक्षक तक पहुँचने से पहले बदलती वायुमंडलीय परतों से अपवर्तित होता है।"
+    },
+    {
+      "en": "Air layers",
+      "hi": "वायु परतें",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Air density and refractive index vary with height and time, changing the apparent path of starlight.",
+      "info_hi": "वायु घनत्व और अपवर्तनांक ऊँचाई तथा समय के साथ बदलते हैं, जिससे तारों के प्रकाश का आभासी पथ बदलता है।"
+    }
+  ],
+  "c10_electricity/11-01-current-voltage.jpg": [
+    {
+      "en": "Current",
+      "hi": "विद्युत धारा",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Electric current is the rate of flow of charge: I = Q/t, measured in amperes.",
+      "info_hi": "विद्युत धारा आवेश प्रवाह की दर है: I = Q/t; इसे ऐम्पियर में मापते हैं।"
+    },
+    {
+      "en": "Potential difference",
+      "hi": "विभवांतर",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Potential difference is energy transferred per unit charge: V = W/Q, measured in volts.",
+      "info_hi": "विभवांतर प्रति इकाई आवेश ऊर्जा स्थानांतरण है: V = W/Q; इसे वोल्ट में मापते हैं।"
+    }
+  ],
+  "c10_electricity/11-02-circuit-symbols.jpg": [
+    {
+      "en": "Ammeter",
+      "hi": "ऐमीटर",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "An ammeter measures current and is connected in series in the circuit.",
+      "info_hi": "ऐमीटर धारा मापता है और परिपथ में श्रेणीक्रम में जोड़ा जाता है।"
+    },
+    {
+      "en": "Voltmeter",
+      "hi": "वोल्टमीटर",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A voltmeter measures potential difference across a component and is connected in parallel with it.",
+      "info_hi": "वोल्टमीटर घटक के सिरों का विभवांतर मापता है और उसके समांतर जोड़ा जाता है।"
+    }
+  ],
+  "c10_electricity/11-03-ohms-law.jpg": [
+    {
+      "en": "Potential V",
+      "hi": "विभव V",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "On this graph the vertical axis represents voltage V; the straight-line slope gives resistance.",
+      "info_hi": "इस ग्राफ का ऊर्ध्वाधर अक्ष विभवांतर V दर्शाता है; सीधी रेखा की ढाल प्रतिरोध देती है।"
+    },
+    {
+      "en": "Current I",
+      "hi": "धारा I",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "On this graph the horizontal axis represents current I through the conductor.",
+      "info_hi": "इस ग्राफ का क्षैतिज अक्ष चालक में धारा I दर्शाता है।"
+    }
+  ],
+  "c10_electricity/11-04-resistivity.jpg": [
+    {
+      "en": "Length L",
+      "hi": "लंबाई L",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "For a uniform conductor of a given material and area, resistance is proportional to length.",
+      "info_hi": "दिए पदार्थ और क्षेत्रफल के एकसमान चालक में प्रतिरोध लंबाई के समानुपाती होता है।"
+    },
+    {
+      "en": "Cross-section A",
+      "hi": "अनुप्रस्थ क्षेत्रफल A",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For a uniform conductor, resistance is inversely proportional to its cross-sectional area.",
+      "info_hi": "एकसमान चालक का प्रतिरोध उसके अनुप्रस्थ क्षेत्रफल के व्युत्क्रमानुपाती होता है।"
+    }
+  ],
+  "c10_electricity/11-05-series.jpg": [
+    {
+      "en": "First resistor",
+      "hi": "पहला प्रतिरोध",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The first series resistor carries the same current as the second.",
+      "info_hi": "पहले श्रेणीक्रम प्रतिरोध से वही धारा बहती है जो दूसरे से बहती है।"
+    },
+    {
+      "en": "Second resistor",
+      "hi": "दूसरा प्रतिरोध",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Series resistances add to give equivalent resistance when connected end to end.",
+      "info_hi": "सिरे से सिरे जुड़ने पर श्रेणीक्रम प्रतिरोध जुड़कर तुल्य प्रतिरोध देते हैं।"
+    }
+  ],
+  "c10_electricity/11-06-parallel.jpg": [
+    {
+      "en": "Upper branch",
+      "hi": "ऊपरी शाखा",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A parallel branch has the same voltage as the other branch across the same two nodes.",
+      "info_hi": "समान दो बिंदुओं के बीच हर समांतर शाखा का विभवांतर समान होता है।"
+    },
+    {
+      "en": "Lower branch",
+      "hi": "निचली शाखा",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "In parallel, branch currents add at the junction; different resistances can carry different currents.",
+      "info_hi": "समांतर शाखाओं की धाराएँ संधि पर जुड़ती हैं; अलग प्रतिरोधों में अलग धारा हो सकती है।"
+    }
+  ],
+  "c10_electricity/11-07-joule-heating.jpg": [
+    {
+      "en": "Resistor R",
+      "hi": "प्रतिरोध R",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A resistor converts electrical energy into thermal energy when current flows.",
+      "info_hi": "धारा बहने पर प्रतिरोध विद्युत ऊर्जा का ऊष्मीय ऊर्जा में रूपांतरण करता है।"
+    },
+    {
+      "en": "Heating energy",
+      "hi": "ऊष्मा ऊर्जा",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For constant current through a resistor, heat energy is H = I²Rt.",
+      "info_hi": "प्रतिरोध में स्थिर धारा के लिए ऊष्मा ऊर्जा H = I²Rt है।"
+    }
+  ],
+  "c10_electricity/11-08-power-energy.jpg": [
+    {
+      "en": "Power",
+      "hi": "विद्युत शक्ति",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Electrical power is the rate of energy transfer and equals voltage times current: P = VI.",
+      "info_hi": "विद्युत शक्ति ऊर्जा स्थानांतरण की दर है और P = VI होती है।"
+    },
+    {
+      "en": "Energy",
+      "hi": "ऊर्जा",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For constant power, transferred energy is E = Pt; one kilowatt-hour equals 3.6 million joules.",
+      "info_hi": "नियत शक्ति पर स्थानांतरित ऊर्जा E = Pt है; एक किलोवाट-घंटा 36 लाख जूल है।"
+    }
+  ],
+  "c10_electricity/11-09-domestic-safety.jpg": [
+    {
+      "en": "Protective device",
+      "hi": "सुरक्षा उपकरण",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A suitably rated fuse or circuit breaker can interrupt excessive current; do not work on live mains.",
+      "info_hi": "सही रेटिंग वाला फ्यूज या ब्रेकर अत्यधिक धारा रोक सकता है; चालू मुख्य बिजली पर काम न करें।"
+    },
+    {
+      "en": "Earthing",
+      "hi": "अर्थिंग",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Protective earthing can reduce electric shock risk for suitable equipment; installation requires a qualified electrician.",
+      "info_hi": "सुरक्षात्मक अर्थिंग उपयुक्त उपकरणों में झटके का जोखिम घटा सकती है; स्थापना योग्य बिजलीकर्मी करें।"
+    }
+  ],
+  "c10_magnetism/12-01-field-lines.jpg": [
+    {
+      "en": "North pole",
+      "hi": "उत्तरी ध्रुव",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Outside the magnet, magnetic field lines emerge from the north pole and curve towards the south pole.",
+      "info_hi": "चुंबक के बाहर क्षेत्र रेखाएँ उत्तरी ध्रुव से निकलकर दक्षिणी ध्रुव की ओर जाती हैं।"
+    },
+    {
+      "en": "South pole",
+      "hi": "दक्षिणी ध्रुव",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Outside the magnet field lines enter the south pole; the complete field lines form closed loops.",
+      "info_hi": "चुंबक के बाहर क्षेत्र रेखाएँ दक्षिणी ध्रुव में प्रवेश करती हैं; पूरी क्षेत्र रेखाएँ बंद वक्र बनाती हैं।"
+    }
+  ],
+  "c10_magnetism/12-02-straight-wire.jpg": [
+    {
+      "en": "Current out",
+      "hi": "बाहर आती धारा",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A dot in a circle indicates conventional current coming out of the page toward the viewer.",
+      "info_hi": "वृत्त में बिंदु परंपरागत धारा को पृष्ठ से बाहर दर्शक की ओर आता दर्शाता है।"
+    },
+    {
+      "en": "Circular field",
+      "hi": "वृत्ताकार क्षेत्र",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Around a straight wire, magnetic field lines form circles centred on the wire.",
+      "info_hi": "सीधे तार के चारों ओर चुंबकीय क्षेत्र रेखाएँ तार केंद्रित वृत्त बनाती हैं।"
+    }
+  ],
+  "c10_magnetism/12-03-thumb-rule.jpg": [
+    {
+      "en": "Current direction",
+      "hi": "धारा की दिशा",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The arrow or dot indicates conventional current in the diagram.",
+      "info_hi": "तीर या बिंदु चित्र में परंपरागत धारा की दिशा दर्शाता है।"
+    },
+    {
+      "en": "Field direction",
+      "hi": "क्षेत्र की दिशा",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "For current out of the page, field lines go anticlockwise as viewed.",
+      "info_hi": "पृष्ठ से बाहर आती धारा के लिए क्षेत्र रेखाएँ देखने पर वामावर्त जाती हैं।"
+    }
+  ],
+  "c10_magnetism/12-04-coil-solenoid.jpg": [
+    {
+      "en": "Current loop",
+      "hi": "धारावाही कुंडली",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A current loop produces a magnetic field that passes through its centre.",
+      "info_hi": "धारावाही कुंडली चुंबकीय क्षेत्र बनाती है जो उसके केंद्र से गुजरता है।"
+    },
+    {
+      "en": "Solenoid",
+      "hi": "परिनालिका",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A solenoid is a closely wound coil; its interior field can be nearly uniform away from the ends.",
+      "info_hi": "परिनालिका पास-पास लपेटी कुंडली है; सिरों से दूर उसका अंदरूनी क्षेत्र लगभग एकसमान हो सकता है।"
+    }
+  ],
+  "c10_magnetism/12-05-force.jpg": [
+    {
+      "en": "Current direction",
+      "hi": "धारा की दिशा",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The arrow or dot indicates conventional current in the diagram.",
+      "info_hi": "तीर या बिंदु चित्र में परंपरागत धारा की दिशा दर्शाता है।"
+    },
+    {
+      "en": "Force direction",
+      "hi": "बल की दिशा",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "The force on the conductor is perpendicular to current and magnetic field in this example.",
+      "info_hi": "इस उदाहरण में चालक पर बल धारा और चुंबकीय क्षेत्र दोनों के लंबवत है।"
+    }
+  ],
+  "c10_magnetism/12-06-left-hand-rule.jpg": [
+    {
+      "en": "Magnetic field",
+      "hi": "चुंबकीय क्षेत्र",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The circled dot shows a magnetic field directed out of the page in this example.",
+      "info_hi": "वृत्त में बिंदु इस उदाहरण में पृष्ठ से बाहर चुंबकीय क्षेत्र दर्शाता है।"
+    },
+    {
+      "en": "Force direction",
+      "hi": "बल की दिशा",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "The force on the conductor is perpendicular to current and magnetic field in this example.",
+      "info_hi": "इस उदाहरण में चालक पर बल धारा और चुंबकीय क्षेत्र दोनों के लंबवत है।"
+    }
+  ],
+  "c10_magnetism/12-07-ac-dc.jpg": [
+    {
+      "en": "Direct current",
+      "hi": "दिष्ट धारा",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Direct current maintains one direction, although its magnitude may vary.",
+      "info_hi": "दिष्ट धारा एक दिशा बनाए रखती है, यद्यपि उसका परिमाण बदल सकता है।"
+    },
+    {
+      "en": "Alternating current",
+      "hi": "प्रत्यावर्ती धारा",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Alternating current periodically changes direction; the drawn wave is an idealised example.",
+      "info_hi": "प्रत्यावर्ती धारा समय-समय पर दिशा बदलती है; दिखा वक्र एक आदर्श उदाहरण है।"
+    }
+  ],
+  "c10_magnetism/12-08-domestic-safety.jpg": [
+    {
+      "en": "Protective device",
+      "hi": "सुरक्षा उपकरण",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A suitably rated fuse or circuit breaker can interrupt excessive current; do not work on live mains.",
+      "info_hi": "सही रेटिंग वाला फ्यूज या ब्रेकर अत्यधिक धारा रोक सकता है; चालू मुख्य बिजली पर काम न करें।"
+    },
+    {
+      "en": "Earthing",
+      "hi": "अर्थिंग",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Protective earthing can reduce electric shock risk for suitable equipment; installation requires a qualified electrician.",
+      "info_hi": "सुरक्षात्मक अर्थिंग उपयुक्त उपकरणों में झटके का जोखिम घटा सकती है; स्थापना योग्य बिजलीकर्मी करें।"
+    }
+  ],
+  "c10_magnetism/12-09-motor-generator.jpg": [
+    {
+      "en": "Motor",
+      "hi": "मोटर",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "An electric motor converts electrical energy to mechanical energy using electromagnetic forces.",
+      "info_hi": "विद्युत मोटर विद्युतचुंबकीय बलों से विद्युत ऊर्जा को यांत्रिक ऊर्जा में बदलती है।"
+    },
+    {
+      "en": "Generator",
+      "hi": "जनित्र",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A generator converts mechanical energy to electrical energy; changing magnetic flux can induce emf.",
+      "info_hi": "जनित्र यांत्रिक ऊर्जा को विद्युत ऊर्जा में बदलता है; बदलता चुंबकीय फ्लक्स emf प्रेरित कर सकता है।"
+    }
+  ],
+  "c9_pure/1-01-pure-mixture.jpg": [
+    {
+      "en": "Pure substance",
+      "hi": "शुद्ध पदार्थ",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A pure substance has a fixed composition, such as an element or a compound.",
+      "info_hi": "शुद्ध पदार्थ का संघटन निश्चित होता है; वह तत्व या यौगिक हो सकता है।"
+    },
+    {
+      "en": "Mixture",
+      "hi": "मिश्रण",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A mixture contains substances in proportions that may vary.",
+      "info_hi": "मिश्रण में पदार्थों के अनुपात बदल सकते हैं।"
+    }
+  ],
+  "c9_pure/1-02-solution-suspension.jpg": [
+    {
+      "en": "Solution",
+      "hi": "विलयन",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A solution is homogeneous; dissolved particles do not settle on standing.",
+      "info_hi": "विलयन समांगी होता है और घुले कण रखने पर नहीं बैठते।"
+    },
+    {
+      "en": "Suspension",
+      "hi": "निलंबन",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A suspension is heterogeneous; some particles settle and may be filtered out.",
+      "info_hi": "निलंबन विषमांगी है; कुछ कण बैठते हैं और छनन से अलग हो सकते हैं।"
+    }
+  ],
+  "c9_pure/1-03-separation.jpg": [
+    {
+      "en": "Filtration",
+      "hi": "छनन",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Filtration can separate an insoluble solid from a liquid.",
+      "info_hi": "छनन अघुलनशील ठोस को द्रव से अलग कर सकता है।"
+    },
+    {
+      "en": "Evaporation",
+      "hi": "वाष्पीकरण",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Evaporation can leave a dissolved solid behind as the solvent evaporates.",
+      "info_hi": "विलायक के वाष्पित होने पर घुला ठोस पीछे बच सकता है।"
+    }
+  ],
+  "c9_atoms/1-01-atoms-molecules.jpg": [
+    {
+      "en": "Atom",
+      "hi": "परमाणु",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "An atom is the smallest unit of an element retaining its chemical identity.",
+      "info_hi": "परमाणु तत्व की रासायनिक पहचान रखने वाली सबसे छोटी इकाई है।"
+    },
+    {
+      "en": "Molecule",
+      "hi": "अणु",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "A molecule has two or more bonded atoms; O₂ contains two oxygen atoms.",
+      "info_hi": "अणु में दो या अधिक जुड़े परमाणु होते हैं; O₂ में दो ऑक्सीजन परमाणु हैं।"
+    }
+  ],
+  "c9_atoms/1-02-formula.jpg": [
+    {
+      "en": "Hydrogen",
+      "hi": "हाइड्रोजन",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "The subscript 2 in H₂O indicates two hydrogen atoms in each water molecule.",
+      "info_hi": "H₂O में अधोलिखित 2 प्रत्येक जल अणु में दो हाइड्रोजन परमाणु दर्शाता है।"
+    },
+    {
+      "en": "Oxygen",
+      "hi": "ऑक्सीजन",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "H₂O contains one oxygen atom per water molecule.",
+      "info_hi": "H₂O के प्रत्येक जल अणु में एक ऑक्सीजन परमाणु है।"
+    }
+  ],
+  "c9_atoms/1-03-conservation.jpg": [
+    {
+      "en": "Water reactants",
+      "hi": "जल के अभिकारक",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Reactants are starting substances; the balanced example has four hydrogen and two oxygen atoms.",
+      "info_hi": "अभिकारक प्रारंभिक पदार्थ हैं; संतुलित उदाहरण में चार हाइड्रोजन और दो ऑक्सीजन परमाणु हैं।"
+    },
+    {
+      "en": "Water products",
+      "hi": "जल के उत्पाद",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Products are substances formed; the balanced example has four hydrogen and two oxygen atoms.",
+      "info_hi": "उत्पाद बने हुए पदार्थ हैं; संतुलित उदाहरण में चार हाइड्रोजन और दो ऑक्सीजन परमाणु हैं।"
+    }
+  ],
+  "c9_disease/1-01-health-disease.jpg": [
+    {
+      "en": "Health",
+      "hi": "स्वास्थ्य",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Health includes physical, mental and social well-being.",
+      "info_hi": "स्वास्थ्य में शारीरिक, मानसिक और सामाजिक कुशलता शामिल है।"
+    },
+    {
+      "en": "Disease",
+      "hi": "रोग",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Disease can disturb normal body or mental function and may have diverse causes.",
+      "info_hi": "रोग शरीर या मानसिक कार्य में बाधा डाल सकता है और उसके कारण विविध हो सकते हैं।"
+    }
+  ],
+  "c9_disease/1-02-infection-spread.jpg": [
+    {
+      "en": "Infectious agent",
+      "hi": "संक्रामक कारक",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "A pathogen can cause infection; examples include certain viruses and bacteria.",
+      "info_hi": "रोगकारक संक्रमण कर सकता है; उदाहरण कुछ विषाणु और जीवाणु हैं।"
+    },
+    {
+      "en": "Transmission",
+      "hi": "संचरण",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Different infections spread by different routes, including contact, air, water or vectors.",
+      "info_hi": "अलग संक्रमण संपर्क, वायु, जल या वाहकों जैसे अलग मार्गों से फैलते हैं।"
+    }
+  ],
+  "c9_disease/1-03-prevention.jpg": [
+    {
+      "en": "Hand hygiene",
+      "hi": "हाथों की स्वच्छता",
+      "x": 745,
+      "y": 20,
+      "w": 315,
+      "h": 52,
+      "info_en": "Washing hands appropriately helps reduce transmission of many infections.",
+      "info_hi": "उचित हाथ धोने से कई संक्रमणों का फैलाव कम करने में मदद मिलती है।"
+    },
+    {
+      "en": "Vaccination",
+      "hi": "टीकाकरण",
+      "x": 1080,
+      "y": 20,
+      "w": 300,
+      "h": 52,
+      "info_en": "Recommended vaccines reduce risk of specific diseases and severe outcomes.",
+      "info_hi": "अनुशंसित टीके विशिष्ट रोगों और गंभीर परिणामों का जोखिम घटाते हैं।"
+    }
+  ]
+}
