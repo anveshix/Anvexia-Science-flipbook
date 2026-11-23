@@ -212,6 +212,13 @@ const report = vm.runInContext(`
     if (!flipHtml.includes("assets/2d/c10_light/9-01-reflection-laws.jpg")) {
       throw new Error("2D Flipbook missing 9-01-reflection-laws.jpg plate");
     }
+    // Page parity: cover | contents + overview | concept(left) + plate(right) per section
+    const kinds = (flipHtml.match(/class="svf-page [a-z-]+/g) || []).map(k => k.replace('class="svf-page ', ""));
+    if (kinds[0] !== "svf-cover" || kinds[1] !== "svf-toc-page" || kinds[2] !== "svf-overview-page" ||
+        kinds[3] !== "svf-left-page" || kinds[4] !== "svf-right-page" || kinds.length % 2 !== 0) {
+      throw new Error("Flipbook page parity broken: " + kinds.slice(0, 6).join(","));
+    }
+    if (window.EV_2D_ONLY) throw new Error("3D must be the default when WebGL is available");
     SCIVERSE.closeFlipbook();
 
     // Verify Higher Classes (XI & XII) studio & compiler support
@@ -245,15 +252,20 @@ const report = vm.runInContext(`
     if (thumbs33.length !== 33) {
       throw new Error("Expected 33 chapter thumbnails from EVRASTER, got " + thumbs33.length);
     }
-    // 2D-only build: every "open book" path routes to the 2D flipbook with its plate
-    if (!window.EV_2D_ONLY) throw new Error("Expected 2D-only mode");
     openChapter("c10_light");
-    if (!SCIVERSE.isFlipOpen()) throw new Error("openChapter should open the 2D flipbook");
-    if (!document.getElementById("svFlipBook").innerHTML.includes("assets/2d/c10_light/9-01-reflection-laws.jpg")) {
-      throw new Error("Flipbook opened by openChapter is missing 9-01-reflection-laws.jpg");
+    EVRASTER.frame();
+    if (!EVRASTER.enabled || !WORLD.plate2d) {
+      throw new Error("Realistic topic image should be enabled by default on openChapter");
     }
-    if (EV.view === "book") throw new Error("3D book view must never be entered in 2D-only mode");
-    SCIVERSE.closeFlipbook();
+    const draftImgSrc = document.getElementById("aiDraftImage").src || "";
+    if (!draftImgSrc.includes("assets/2d/c10_light/9-01-reflection-laws.jpg")) {
+      throw new Error("Expected realistic image 9-01-reflection-laws.jpg, got: " + draftImgSrc);
+    }
+    // Verify 2D <-> 3D toggle preserves FSM health
+    setPlateView("3d");
+    if (WORLD.plate2d !== false) throw new Error("Expected 3D mode after setPlateView('3d')");
+    setPlateView("2d");
+    if (WORLD.plate2d !== true || !EVRASTER.enabled) throw new Error("Expected 2D realistic image restored");
 
     // Verify toggling left/right/both panels preserves FSM health
     togglePanel("left");

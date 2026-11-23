@@ -168,9 +168,22 @@ function renderTop() {
   if (typeof EVDICT !== "undefined") EVDICT.apply(document, EV.lang);
 }
 function stampsFor(w) { if (!w) return 0; return w.spreads.filter(sp => (EV.progress[pkey(w, sp)] || {}).stamped).length; }
-/* 2D-ONLY MODE: the Three.js world is never rendered. Every request for the
-   3D book is routed to the StPageFlip 2D flipbook at the same chapter/spread. */
-const EV_2D_ONLY = true;
+/* MODE: 3D book by default (realistic plates are painted into the 3D pages).
+   2D-ONLY fallback (no WebGL, or ?mode=2d): the Three.js world is never
+   rendered and every request for the 3D book opens the 2D flipbook instead. */
+const EV_2D_ONLY = (() => {
+  try {
+    const q = new URLSearchParams(location.search).get("mode");
+    if (q === "2d") return true;
+    if (q === "3d") return false;
+    const c = document.createElement("canvas");
+    const gl = c.getContext && (c.getContext("webgl2") || c.getContext("webgl"));
+    if (!gl) return true;               /* no WebGL: safe 2D flipbook fallback */
+    const lose = gl.getExtension && gl.getExtension("WEBGL_lose_context");
+    if (lose) lose.loseContext();       /* free the probe context slot */
+    return false;
+  } catch (e) { return true; }
+})();
 window.EV_2D_ONLY = EV_2D_ONLY;
 function setView(v) {
   if (EV_2D_ONLY && v === "book") {
@@ -1754,7 +1767,7 @@ const EVRASTER = (() => {
     $('aiDraftNext').onclick=next;
     $('aiDraftPlate').addEventListener('keydown',e=>{if(e.key==='Escape'&&EVLABEL.closeOpen(document.querySelector('.ai-draft-visual'))){e.preventDefault();e.stopPropagation();}});
   }
-  function next() { if(currentFiles.length>1){imageIndex=(imageIndex+1)%currentFiles.length;load();} }
+  function next() { if(currentFiles.length>1){imageIndex=(imageIndex+1)%currentFiles.length;load();WORLD.repaintPages();} }
   function zoomSource(allowHidden) {
     const el=$('aiDraftPlate'),img=$('aiDraftImage');
     return el && (allowHidden || !el.hidden) && ready && validContext() && img && img.complete && img.naturalWidth ? {src:img.src,kind:'draft2d',alt:img.alt,key:EV.world.id+'/'+currentFiles[imageIndex]} : null;
@@ -1763,8 +1776,15 @@ const EVRASTER = (() => {
   function activate() { enabled=true; identity=''; }
   function deactivate() { enabled=false; identity=''; token++; ready=false; hide(); }
   function filesFor(wid, sec) { return (assets[wid] && assets[wid][sec]) ? assets[wid][sec].slice() : []; }
+  /* the file the 3D page texture must paint: the overlay's current choice for
+     the spread on screen, otherwise the section's first plate */
+  function fileFor(wid, sec) {
+    const f = filesFor(wid, sec); if (!f.length) return '';
+    const onScreen = EV.world && EV.world.id === wid && EV.world.spreads[WORLD.index] && EV.world.spreads[WORLD.index].section === sec;
+    return onScreen && identity && f[imageIndex] ? f[imageIndex] : f[0];
+  }
   function firstThumb(wid) { const g = assets[wid]; if (!g) return ''; const k = Object.keys(g)[0]; return (k && g[k] && g[k][0]) ? 'assets/2d/' + wid + '/' + g[k][0] : ''; }
-  return {frame,toggle,install,zoomSource,has,filesFor,firstThumb,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
+  return {frame,toggle,install,zoomSource,has,filesFor,fileFor,firstThumb,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
 })();
 window.EVRASTER = EVRASTER;
 
