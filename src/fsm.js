@@ -221,8 +221,8 @@ const EVFSM = (function () {
     events: [
       tr("SET", "*", c => c.to, G.oneOf("figureMode", ["3d", "diagram", "plate2d"])),
       tr("FALLBACK", "3d", "diagram", guard("gpuFailed", "only when WebGL is unavailable", c => !!c.gpuFailed)),
-      tr("PLATE_2D", "3d", "plate2d", guard("reviewedChapter", "only c9_cell reviewed specs", c => !!c.plate2dAvailable)),
-      tr("PLATE_2D_OFF", "plate2d", "3d", {})
+      tr("PLATE_2D", ["3d", "plate2d"], "plate2d", guard("reviewedChapter", "chapter has 2D topic plate", c => !!c.plate2dAvailable)),
+      tr("PLATE_2D_OFF", ["plate2d", "3d"], "3d", {})
     ],
     invariants: [
       { name: "classroomNeverFlat", why: "R6/R7 zero-compromise: printed-diagram is a hard FAIL; plate2d is allowed only for a reviewed chapter",
@@ -726,16 +726,16 @@ const EVFSM = (function () {
   const PRESETS = {
     /* The known-good projector setup a teacher wants after a chaotic lesson. */
     classroom: { theme: "classroom", shot: "board", boardText: "detail", ultra: "off",
-                 panels: "both", precision: "off", figureMode: "3d", lang: "both", view: "book" },
+                 panels: "reader", precision: "off", figureMode: "plate2d", lang: "both", view: "book" },
     /* Back-row 30 FT plate */
     backRow: { theme: "classroom", shot: "board", boardText: "big", ultra: "off",
-               panels: "both", precision: "off", figureMode: "3d" },
+               panels: "reader", precision: "off", figureMode: "plate2d" },
     /* Maximum book space, dock hidden */
     reader: { theme: "classroom", shot: "board", boardText: "detail", ultra: "off",
-              panels: "reader", precision: "off", figureMode: "3d" },
+              panels: "reader", precision: "off", figureMode: "plate2d" },
     /* Accessible 2D + 3D same model */
     accessible: { theme: "classroom", shot: "board", boardText: "detail", ultra: "off",
-                  panels: "both", precision: "on", figureMode: "3d" }
+                  panels: "both", precision: "on", figureMode: "plate2d" }
   };
   function preset(name) {
     const p = PRESETS[name]; if (!p) return { ok: false, reason: "unknown preset: " + name };

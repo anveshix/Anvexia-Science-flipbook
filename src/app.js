@@ -6,7 +6,7 @@
 const EV = {
   lang: "both", view: "world", world: null, compiled: null, extraChapters: [],
   progress: {}, quizAnswers: {}, demo: false, precision: false, locked: {},
-  panels: { left: false, right: false }, theme: "classroom", boardText: "detail", ultra: false,
+  panels: { left: false, right: false }, theme: "classroom", boardText: "detail", ultra: false, prefer2d: true,
   lastTouched: 0, lastModel: null, toastTimer: null
 };
 const $ = id => document.getElementById(id);
@@ -110,8 +110,9 @@ function renderChapterList() {
     s += `<div class="chapter-group"><div class="cg-label">${esc(g.label)}</div>`;
     CATALOGUE_ALL.filter(c => c.cls === g.cls).forEach(c => {
       const active = EV.world && EV.world.chapter === c.id;
+      const thumb = (typeof EVRASTER !== "undefined" && EVRASTER.firstThumb) ? EVRASTER.firstThumb(c.id) : "";
       s += `<button class="chapter-item ${active ? "active" : ""}" data-ch="${c.id}">
-        <span class="ci-dot" style="background:${c.color}"></span>
+        ${thumb ? `<img class="ci-thumb" src="${esc(thumb)}" alt="" loading="lazy">` : `<span class="ci-dot" style="background:${c.color}"></span>`}
         <span class="ci-text"><b>${esc(BI(c.title, c.hi))}</b><small>${t(c.subject)} · ${c.cls}</small></span></button>`;
     });
     s += `</div>`;
@@ -128,7 +129,7 @@ function renderChapterList() {
   document.querySelectorAll("[data-ch]").forEach(b => b.onclick = () => openChapter(b.dataset.ch));
   document.querySelectorAll("[data-extra]").forEach(b => b.onclick = () => {
     const c = EV.extraChapters.find(x => x.id === b.dataset.extra);
-    if (c) { EV.world = c.world; WORLD.setWorld(c.world, 0); renderTop(); renderChapterList(); setView("book"); }
+    if (c) { EV.world = c.world; WORLD.setWorld(c.world, 0); syncTopicVisual(); renderTop(); renderChapterList(); setView("book"); }
   });
 }
 function renderTop() {
@@ -206,19 +207,33 @@ function goHome() {
   if (window.EVLIB) { EVLIB.close(); EVLIB.setLibrary(true); }
   setView("world");
 }
+function syncTopicVisual() {
+  const w = EV.world, sp = w && w.spreads[WORLD.index];
+  const want2d = !!EV.prefer2d && !!w && WORLD.plate2dAvailable(w);
+  if (want2d) {
+    if (EVRASTER.has(w, sp)) EVRASTER.activate();
+    if (!WORLD.plate2d) WORLD.setPlate2D(true);
+    EVFSM.observe("figureMode", "plate2d", "app.js:syncTopicVisual");
+  } else {
+    if (WORLD.plate2d) WORLD.setPlate2D(false);
+    EVRASTER.deactivate();
+    EVFSM.observe("figureMode", WORLD.figureMode, "app.js:syncTopicVisual");
+  }
+  EVRASTER.frame();
+}
 function openChapter(id) {
   EVFSM.transition("navigation", "OPEN_CHAPTER", { to: id + "::0", known: CATALOGUE_ALL.some(c => c.id === id) });
   /* Prompt 5 · parse only THIS chapter's inert JSON pack on demand. */
   if (typeof EVLAZY !== "undefined") EVLAZY.onChapter(id);
-  if (WORLD.plate2d) WORLD.setPlate2D(false);
-  EVRASTER.deactivate();
   EV.world = getWorld(id);
   WORLD.setWorld(EV.world, 0);
+  syncTopicVisual();
   /* Prompt 2 · a chapter change is an UNMOUNT + fresh MOUNT of the shared
      selection state (perfect cleanup of the previous chapter's 3D group). */
   if (typeof EVBIND !== "undefined") EVBIND.onChapter(id, 0);
   if (typeof O3LAB !== "undefined") O3LAB.onChapter(id, 0);
   renderTop(); renderChapterList(); setView("book");
+  EVRASTER.frame();
   flash();
 }
 function flash() { const f = $("flash"); f.classList.remove("go"); void f.offsetWidth; f.classList.add("go"); }
@@ -476,20 +491,26 @@ function setPlateView(v) {
     toastKey("plate2d.soon", "This 2D chapter is in a later phase.");
     return;
   }
+  EV.prefer2d = on;
   /* Idempotent: clicking the already-selected segment must not create a
      rejected FSM transition. The adapter and WORLD setter stay authoritative. */
-  if (WORLD.plate2d === on) { if (!on) EVRASTER.deactivate(); renderPageBar(); return; }
+  if (WORLD.plate2d === on) {
+    if (on && EVRASTER.has(EV.world, EV.world && EV.world.spreads[WORLD.index])) EVRASTER.activate();
+    if (!on) EVRASTER.deactivate();
+    EVRASTER.frame();
+    renderPageBar();
+    return;
+  }
   if (on && EVRASTER.has(EV.world, EV.world && EV.world.spreads[WORLD.index])) EVRASTER.activate();
   if (!on) EVRASTER.deactivate();
   EVFSM.transition("figureMode", on ? "PLATE_2D" : "PLATE_2D_OFF",
     { plate2dAvailable: WORLD.plate2dAvailable(EV.world), classroom: EV.theme === "classroom" });
   WORLD.setPlate2D(on);
-  EVRASTER.frame(); // synchronously remove any draft when leaving 2D
+  EVRASTER.frame(); // synchronously sync topic illustration plate
   EVFSM.observe("figureMode", WORLD.plate2d ? "plate2d" : "3d", "app.js:setPlateView");
   renderPageBar();
-  if (on && EVRASTER.enabled) toast("AI draft · science and labels need review / AI प्रारूप · समीक्षा शेष");
-  else toastKey(on ? "plate2d.on" : "plate2d.off",
-    on ? "Labelled 2D plate selected" : "Live 3D model restored");
+  toastKey(on ? "plate2d.on" : "plate2d.off",
+    on ? "Realistic topic illustration active" : "Live 3D model active");
 }
 /* Local, explicitly opted-in, unapproved raster draft. This is an HTML image
    layered over the 2D page: never sample file:// pixels into the WebGL canvas. */
@@ -1421,12 +1442,12 @@ const EVRASTER = (() => {
     ]
   }
 };
-  let enabled = false, identity = '', imageIndex = 0, token = 0, ready = false;
+  let enabled = true, identity = '', imageIndex = 0, token = 0, ready = false;
   let currentFiles = [];
   function has(world, sp) { return !!(world && sp && assets[world.id] && assets[world.id][sp.section]); }
   function validContext() {
     return enabled && EV.view === 'book' && EV.world && has(EV.world,EV.world.spreads[WORLD.index]) &&
-      WORLD.plate2d && !WORLD.turning && !EV.precision && EV.theme === 'classroom' && !EV.ultra;
+      WORLD.plate2d && !WORLD.turning && !EV.precision && !EV.ultra;
   }
   function hide() { const el=$('aiDraftPlate'); if (el) el.hidden=true; }
   function load() {
@@ -1713,7 +1734,7 @@ const EVRASTER = (() => {
     el.style.transform=transform; el.hidden=false;
   }
   function toggle() {
-    enabled=!enabled; identity=''; token++; ready=false; hide();
+    enabled=!enabled; EV.prefer2d=enabled; identity=''; token++; ready=false; hide();
     if(enabled && !WORLD.plate2d) setPlateView('2d');
     else if(!enabled && WORLD.plate2d && !WORLD.vectorPlate2dAvailable(EV.world)) setPlateView('3d');
     renderPageBar(); frame();
@@ -1732,7 +1753,8 @@ const EVRASTER = (() => {
   function activate() { enabled=true; identity=''; }
   function deactivate() { enabled=false; identity=''; token++; ready=false; hide(); }
   function filesFor(wid, sec) { return (assets[wid] && assets[wid][sec]) ? assets[wid][sec].slice() : []; }
-  return {frame,toggle,install,zoomSource,has,filesFor,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
+  function firstThumb(wid) { const g = assets[wid]; if (!g) return ''; const k = Object.keys(g)[0]; return (k && g[k] && g[k][0]) ? 'assets/2d/' + wid + '/' + g[k][0] : ''; }
+  return {frame,toggle,install,zoomSource,has,filesFor,firstThumb,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
 })();
 window.EVRASTER = EVRASTER;
 
@@ -2142,7 +2164,7 @@ const callbacks = {
     openChapter(id);
   },
   onPage(index, sp) {
-    if (WORLD.plate2d && !WORLD.plate2dAvailable(EV.world)) { WORLD.setPlate2D(false); EVRASTER.deactivate(); }
+    syncTopicVisual();
     renderLesson(); renderMeters(); renderPageBar(); renderTop();
     if (typeof EVBIND !== "undefined") EVBIND.onSpread(index);
     if (typeof O3LAB !== "undefined") O3LAB.onSpread(index);
@@ -2305,6 +2327,7 @@ function boot() {
   applyPanels();
   { const a = $("app"); a.classList.remove("lang-en", "lang-hi", "lang-both"); a.classList.add("lang-" + EV.lang); }
   WORLD.setWorld(EV.world, Math.max(0, Math.min(EV.world.spreads.length - 1, deepSpread)));
+  syncTopicVisual();
   /* Additive student dashboard: two class cards -> class drawer -> flipbook. */
   if (window.EVLIB) EVLIB.install();
   if (window.SCIVERSE) SCIVERSE.install();
@@ -2625,8 +2648,10 @@ const EVLIB = (function () {
       const active = EV.world && EV.world.id === r.id;
       const detail = s[0] + " · " + nSpreads(r) + " spreads";
       const detailHi = s[1] + " · " + nSpreads(r) + " स्प्रेड";
+      const thumb = (typeof EVRASTER !== "undefined" && EVRASTER.firstThumb) ? EVRASTER.firstThumb(r.id) : "";
       return '<button type="button" class="ld-row' + (active ? ' active' : '') + '" data-ch="' + esc(r.id) + '">' +
         '<span class="ld-num">' + (i + 1) + '</span>' +
+        (thumb ? '<img class="ld-thumb" src="' + esc(thumb) + '" alt="" loading="lazy">' : '') +
         '<span class="ld-body"><b ' + A(r.title, r.hi) + '>' + esc(BI(r.title, r.hi)) + '</b>' +
         '<small ' + A(detail, detailHi) + '>' + esc(text(detail, detailHi)) + '</small></span>' +
         '<span class="ld-tag ' + esc(r.subject) + '" ' + A(s[0], s[1]) + '>' + esc(text(s[0], s[1])) + '</span>' +

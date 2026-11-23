@@ -1328,15 +1328,17 @@ const WORLD = (function () {
   /* ---------------------------------------------------------------- scene */
   function init(el, callbacks) {
     canvas = el; cb = callbacks || {};
-    renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: false, powerPreference: "high-performance" });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.7));
-    renderer.outputColorSpace = THREE.SRGBColorSpace || renderer.outputColorSpace;
-    renderer.setClearColor(0x0c1422, 1);
+    try {
+      renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: false, powerPreference: "high-performance" });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.7));
+      renderer.outputColorSpace = THREE.SRGBColorSpace || renderer.outputColorSpace;
+      renderer.setClearColor(0x0c1422, 1);
+    } catch (e) { renderer = null; }
     scene = new THREE.Scene();
     scene.fog = new THREE.FogExp2(0x0c1422, 0.019);
     camera = new THREE.PerspectiveCamera(46, 1, 0.1, 200);
     lastFrame = performance.now();
-    FIGURE3D.init(renderer);          /* real-time 3D figure on the right page */
+    if (renderer) FIGURE3D.init(renderer); /* real-time 3D figure on the right page */
     scene.add(new THREE.AmbientLight(0xb9d4ef, 0.75));
     const key = new THREE.DirectionalLight(0xfff0d0, 1.55); key.position.set(-6, 11, 6); scene.add(key);
     const fill = new THREE.DirectionalLight(0x7fa8e8, 0.65); fill.position.set(7, 5, -6); scene.add(fill);
@@ -1350,12 +1352,13 @@ const WORLD = (function () {
     canvas.addEventListener("wheel", onWheel, { passive: false });
     window.addEventListener("keydown", onKey);
     animate();
-    if (cb.onReady) cb.onReady(true);
+    if (cb.onReady) cb.onReady(!!renderer);
   }
   function resize() {
-    if (!renderer) return;
+    if (!camera || !canvas) return;
     const w = canvas.clientWidth || 800, h = canvas.clientHeight || 600;
-    renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+    if (renderer) renderer.setSize(w, h, false);
+    camera.aspect = w / h; camera.updateProjectionMatrix();
   }
   function animate(now) {
     requestAnimationFrame(animate);
@@ -1446,7 +1449,7 @@ const WORLD = (function () {
       camera.position.lerp(want, Math.min(1, dt * 10));
       camera.lookAt(target);
     }
-    renderer.render(scene, camera);
+    if (renderer) renderer.render(scene, camera);
     if (cb.onFrame) cb.onFrame();
   }
   function flyTo(pos, look, dur) {
@@ -1584,7 +1587,8 @@ const WORLD = (function () {
        R7: build FIRST, then print the page, so the header and concept chips
        name the CURRENT lesson's anatomy rather than the previous spread. */
     const key = (currentWorld.id || currentWorld.short || "w") + ":" + spreadIndex;
-    if (key !== figureKey) { figureKey = key; FIGURE3D.rebuild(sp, params, currentWorld); }
+    if (key !== figureKey && renderer) { figureKey = key; FIGURE3D.rebuild(sp, params, currentWorld); }
+    if (!leftPage || !rightPage) return;
     leftPage.material.map.dispose(); leftPage.material.map = tex(drawLeft(sp, currentWorld, spreadIndex * 2 + 1)); leftPage.material.needsUpdate = true;
     rightPage.material.map.dispose(); rightPage.material.map = tex(drawRight(sp, currentWorld, spreadIndex * 2 + 2)); rightPage.material.needsUpdate = true;
     syncFigurePlane();
@@ -1592,6 +1596,7 @@ const WORLD = (function () {
 
   /* ------------------------------------------------------------- apparatus */
   function clearBuilt() {
+    if (!apparatusRoot) { built = null; return; }
     while (apparatusRoot.children.length) {
       const c = apparatusRoot.children[0]; apparatusRoot.remove(c);
       c.traverse(o => {
@@ -1604,6 +1609,7 @@ const WORLD = (function () {
   function buildApparatus() {
     lastBoard = null; /* re-apply projector plate visibility to the new apparatus */
     clearBuilt(); handleGroups = []; handleMeshes = []; clickTargets = []; handleRanges = {};
+    if (!apparatusRoot || !currentWorld) return;
     const sp = currentWorld.spreads[spreadIndex];
     const block = BLOCKS[sp.scene.type] || BLOCKS.showcase;
     params = defaultParams(sp);
@@ -1735,9 +1741,10 @@ const WORLD = (function () {
   function setView(v, instant) {
     view = v;
     const isWorld = v === "world";
-    worldGroup.visible = isWorld; bookGroup.visible = !isWorld;
+    if (worldGroup) worldGroup.visible = isWorld;
+    if (bookGroup) bookGroup.visible = !isWorld;
     orbit.yaw = 0; orbit.pitch = 0; orbit.dist = 1;
-    if (instant) {
+    if (instant && camera) {
       orbit.enabled = true;
       camera.position.set(0, isWorld ? 7.2 : 8.15, isWorld ? 15.5 : 8.2);
       camera.lookAt(isWorld ? V(0, 1.6, 0) : V(0, 0.35, 0));
@@ -1832,10 +1839,12 @@ const WORLD = (function () {
   }
   /* Actual projected corners of the 2D printed illustration on the page. */
   function draftPlateCorners() {
-    if (!canvas || !camera || !paperRoot || view !== "book" || turning || !TH() || ultra || !plate2d) return null;
+    if (!canvas || !camera || !paperRoot || view !== "book" || turning || ultra || !plate2d) return null;
     const stage = document.getElementById("stage"); if (!stage) return null;
     const bounds = canvas.getBoundingClientRect(), sb = stage.getBoundingClientRect();
     if (!bounds.width || !bounds.height) return null;
+    paperRoot.updateWorldMatrix(true, false);
+    camera.updateMatrixWorld();
     return [[96,196],[804,196],[804,806],[96,806]].map(p => {
       const pt = new THREE.Vector3(p[0] / 900 * PW, 0.235, -PD / 2 + p[1] / 1200 * PD);
       paperRoot.localToWorld(pt); pt.project(camera);
@@ -1863,6 +1872,7 @@ const WORLD = (function () {
     }
     /* Angled, studio and ultra views show the current scene, not the
        separate classroom figure scene. Capture that visible render honestly. */
+    if (!renderer) return null;
     renderer.render(scene, camera);
     return { src: canvas.toDataURL("image/png"), kind: "3d" };
   }
