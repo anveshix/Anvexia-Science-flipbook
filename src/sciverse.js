@@ -601,8 +601,12 @@ const SCIVERSE = (function () {
     }
 
     const subjBadge = s => s === "phy" ? "Physics · भौतिकी" : s === "chem" ? "Chemistry · रसायन" : "Biology · जीव";
-    box.innerHTML = currentHits.map((h, idx) => `
+    box.innerHTML = currentHits.map((h, idx) => {
+      const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(h.chapterId, h.section) : [];
+      const thumb = files.length ? `assets/2d/${h.chapterId}/${files[0]}` : "";
+      return `
       <div class="sv-hit ${idx === selectedHitIdx ? "sel" : ""}" data-hit-idx="${idx}">
+        ${thumb ? `<img class="sv-hit-thumb" src="${esc(thumb)}" alt="" loading="lazy" data-hit-3d="${idx}">` : ""}
         <div class="sv-hit-main" data-hit-3d="${idx}">
           <div class="sv-hit-meta">
             <span class="sv-hit-cls">Class ${esc(h.cls)}</span>
@@ -614,10 +618,10 @@ const SCIVERSE = (function () {
         </div>
         <div class="sv-hit-btns">
           <button type="button" class="btn ghost tiny" data-hit-2d="${idx}" title="Open in 2D Flipbook">📖 2D</button>
-          <button type="button" class="btn primary tiny" data-hit-3d="${idx}" title="Open in 3D World">🧊 3D</button>
+          <button type="button" class="btn primary tiny" data-hit-3d="${idx}" title="Open in Book">📘 Open</button>
         </div>
       </div>
-    `).join("");
+    `;}).join("");
 
     box.querySelectorAll("[data-hit-3d]").forEach(el => {
       el.onclick = () => activateSearchHit(+el.dataset.hit3d, false);

@@ -48,6 +48,9 @@ function makeEl(idOrTag) {
     id: idOrTag,
     tagName: "DIV",
     hidden: false,
+    complete: true,
+    naturalWidth: 1408,
+    naturalHeight: 768,
     value: "",
     innerHTML: "",
     textContent: "",
@@ -120,6 +123,11 @@ const ctx = {
   setTimeout() { return 1; }, clearTimeout() {}, setInterval() { return 1; }, clearInterval() {},
   requestAnimationFrame() { return 1; }, cancelAnimationFrame() {},
   ResizeObserver: class { observe() {} disconnect() {} },
+  Image: class {
+    constructor() { this.complete = false; this.naturalWidth = 0; }
+    set src(v) { this._src = v; this.complete = true; this.naturalWidth = 1408; this.naturalHeight = 768; if (this.onload) this.onload(); }
+    get src() { return this._src || ""; }
+  },
   MutationObserver: class { observe() {} disconnect() {} },
   Event: class { constructor(type) { this.type = type; } },
   CustomEvent: class { constructor(type) { this.type = type; } },
@@ -232,13 +240,33 @@ const report = vm.runInContext(`
     if (EV.panels.left !== false || EV.panels.right !== false) {
       throw new Error("Book should default to full-screen reader mode with side/bottom panels collapsed");
     }
+    // Verify all 33 chapters activate realistic topic images by default on openChapter()
+    const thumbs33 = CATALOGUE_ALL.map(c => EVRASTER.firstThumb(c.id)).filter(Boolean);
+    if (thumbs33.length !== 33) {
+      throw new Error("Expected 33 chapter thumbnails from EVRASTER, got " + thumbs33.length);
+    }
+    openChapter("c10_light");
+    EVRASTER.frame();
+    if (!EVRASTER.enabled || !WORLD.plate2d) {
+      throw new Error("Realistic topic image should be enabled by default on openChapter");
+    }
+    const draftImgSrc = document.getElementById("aiDraftImage").src || "";
+    if (!draftImgSrc.includes("assets/2d/c10_light/9-01-reflection-laws.jpg")) {
+      throw new Error("Expected realistic image 9-01-reflection-laws.jpg, got: " + draftImgSrc);
+    }
+    // Verify 2D <-> 3D toggle preserves FSM health
+    setPlateView("3d");
+    if (WORLD.plate2d !== false) throw new Error("Expected 3D mode after setPlateView('3d')");
+    setPlateView("2d");
+    if (WORLD.plate2d !== true || !EVRASTER.enabled) throw new Error("Expected 2D realistic image restored");
+
     // Verify toggling left/right/both panels preserves FSM health
     togglePanel("left");
     togglePanel("right");
     togglePanel("both");
     const fsmHealth = EVFSM.health();
     if (!fsmHealth.ok) {
-      throw new Error("EVFSM unhealthy after panel toggles: " + JSON.stringify(fsmHealth));
+      throw new Error("EVFSM unhealthy after panel/plate toggles: " + JSON.stringify(fsmHealth));
     }
 
     return {
@@ -247,7 +275,8 @@ const report = vm.runInContext(`
       classesSupported: EVENGINE ? ["IX", "X", "XI", "XII"] : [],
       xiSpreads: xiWorld.spreads.length,
       fraction1440: bm1440.fraction,
-      fraction1920: bm1920.fraction
+      fraction1920: bm1920.fraction,
+      thumbs33: thumbs33.length
     };
   })()
 `, ctx);
@@ -255,5 +284,6 @@ const report = vm.runInContext(`
 console.log(
   `PASS sciverse_smoke: ${report.scriptsVerified} CSP-verified <script> blocks · ` +
   `Full-screen book fill ${(report.fraction1440 * 100).toFixed(1)}%-${(report.fraction1920 * 100).toFixed(1)}% · ` +
+  `${report.thumbs33}/33 realistic topic plates active by default · ` +
   `EN+HI search · 2D Flipbook · Class IX-XII compiler (${report.xiSpreads} spreads)`
 );
