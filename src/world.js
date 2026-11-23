@@ -45,6 +45,7 @@ const WORLD = (function () {
      width instead of sitting shrunk in the middle. The 3D apparatus is NOT
      scaled, so atoms, lenses and ray circles stay perfectly round. */
   let wide = 1.14;
+  const WIDE_MIN = 1.14, WIDE_MAX = 1.35;
   /* "board" = projector / straight-on: dead-centre, no yaw, no perspective
      skew, near-orthographic FOV. Text stays upright for the whole classroom. */
   const SHOTS = { explore: { r: 8.7, p: 0.92 }, read: { r: 8.2, p: 1.12 }, board: { r: 10.5, p: 1.553, fov: 30 } };
@@ -70,10 +71,13 @@ const WORLD = (function () {
     const d = ve / (2 * Math.tan(SHOTS.board.fov * Math.PI / 360));
     const shift = focus ? 0 : (reserved / 2 + 6) / h * ve;
     const fraction = Math.min(1, bookW / (ve * aspect));
-    return { d: d, shift: shift, dockH: dockH, ve: ve, fraction: fraction };
+    /* FULL WIDTH: the spread is widened until it spans ~96% of the stage width,
+       within WIDE_MIN..WIDE_MAX, so the book uses the free horizontal space. */
+    const wideFit = G3.clamp(0.96 * ve * aspect / 7.35, WIDE_MIN, WIDE_MAX);
+    return { d: d, shift: shift, dockH: dockH, ve: ve, fraction: fraction, wideFit: wideFit };
   }
   function setWide(v) {
-    wide = Math.max(1, Math.min(1.35, Number(v) || 1));
+    wide = Math.max(1, Math.min(WIDE_MAX, Number(v) || 1));
     if (paperRoot) paperRoot.scale.x = wide;
     if (popupRoot) popupRoot.position.x = PW * wide / 2;
     if (selectionRoot) selectionRoot.position.x = PW * wide / 2;
@@ -924,14 +928,9 @@ const WORLD = (function () {
     }
     /* viewport: light gradient + fine grid. The live 3D plane covers this
        region; the grid remains as a visible, honest fallback if WebGL fails. */
-    x.fillStyle = PC.pale; x.fillRect(vx, vy, vw, vh);
-    try {
-      const g = x.createLinearGradient(vx, vy, vx, vy + vh);
-      g.addColorStop(0, "#ffffff"); g.addColorStop(1, "#dcebf8"); x.fillStyle = g; x.fillRect(vx, vy, vw, vh);
-    } catch (e) {}
-    x.strokeStyle = "#c4d9ec"; x.lineWidth = 1;
-    for (let i = 1; i < 8; i++) { x.beginPath(); x.moveTo(vx + i * vw / 8, vy); x.lineTo(vx + i * vw / 8, vy + vh); x.stroke(); }
-    for (let i = 1; i < 6; i++) { x.beginPath(); x.moveTo(vx, vy + i * vh / 6); x.lineTo(vx + vw, vy + i * vh / 6); x.stroke(); }
+    /* neutral plate in the live 3D clear colour (#eaf0f6): no grid line-art, so a
+       page turn never flashes a drawing before the real figure arrives */
+    x.fillStyle = "#eaf0f6"; x.fillRect(vx, vy, vw, vh);
     x.strokeStyle = PC.boxline; x.lineWidth = 3; x.strokeRect(vx, vy, vw, vh);
     x.strokeStyle = PC.accent; x.lineWidth = 6;
     [[vx, vy, 1, 1], [vx + vw, vy, -1, 1], [vx, vy + vh, 1, -1], [vx + vw, vy + vh, -1, -1]].forEach(c => {
@@ -1353,6 +1352,7 @@ const WORLD = (function () {
     lastFrame = t; time += dt;
     const board = shot === "board" && view === "book";
     const bf = board ? boardFit() : null;
+    if (bf && Math.abs(bf.wideFit - wide) > 0.002) setWide(bf.wideFit);
     if (board !== lastBoard) { lastBoard = board; tunePopupForBoard(board); }
     syncCam(board);
     /* R6 · the OPPOSITE page is real 3D: update the same pure model, render a
@@ -1360,7 +1360,10 @@ const WORLD = (function () {
        physical page. No overlap: only the fixed viewport rectangle is covered. */
     const showFigure = !!(TH() && view === "book" && !turning && !ultra &&
                           figureMode === "3d" && !plate2d && FIGURE3D.ready);
-    if (figurePlane) figurePlane.visible = showFigure;
+    if (figurePlane) {
+      figurePlane.visible = showFigure;
+      if (showFigure && figurePlane.material.opacity < 1) figurePlane.material.opacity = Math.min(1, figurePlane.material.opacity + dt * 4);
+    }
     if (showFigure && currentWorld) {
       FIGURE3D.update(evalModel(currentWorld.spreads[spreadIndex], params), dt, time);
       FIGURE3D.render(0xeaf0f6);
@@ -1518,6 +1521,7 @@ const WORLD = (function () {
       map: FIGURE3D.texture || null, side: THREE.FrontSide, toneMapped: false, depthWrite: true
     }));
     figurePlane.position.y = 0.252; figurePlane.renderOrder = 6; figurePlane.visible = false;
+    figurePlane.material.transparent = true; figurePlane.material.opacity = 1;
     paperRoot.add(figurePlane);
     /* turning leaf */
     leaf = new THREE.Group(); leaf.position.set(0, 0.20, 0); leaf.visible = false; paperRoot.add(leaf);
@@ -1696,6 +1700,7 @@ const WORLD = (function () {
     popupRoot.visible = !(shot === "board" && view === "book" && TH() && !ultra);
     if (!d.commit) return;                          /* cancelled drag: pages never changed */
     spreadIndex = d.to;
+    if (figurePlane) figurePlane.material.opacity = 0;      /* live figure fades in over the new page */
     repaintPages(); buildApparatus();
     if (typeof EVFSM !== "undefined") EVFSM.observe("navigation", currentWorld.id + "::" + spreadIndex, "world.js:finishTurn");
     if (cb.onPage) cb.onPage(spreadIndex, currentWorld.spreads[spreadIndex]);
