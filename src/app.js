@@ -6,7 +6,7 @@
 const EV = {
   lang: "both", view: "world", world: null, compiled: null, extraChapters: [],
   progress: {}, quizAnswers: {}, demo: false, precision: false, locked: {},
-  panels: { left: true, right: true }, theme: "classroom", boardText: "detail", ultra: false,
+  panels: { left: false, right: false }, theme: "classroom", boardText: "detail", ultra: false,
   lastTouched: 0, lastModel: null, toastTimer: null
 };
 const $ = id => document.getElementById(id);
@@ -1824,9 +1824,9 @@ function renderPageBar() {
       <button class="btn ghost tiny sv-page-flip-btn" id="btnPageFlipbook" type="button" title="${esc(uiTxt("sv.flipbookSub"))}" data-i18n="sv.flipbookBtn">📖 ${esc(uiTxt("sv.flipbookBtn"))}</button>
       ${EVRASTER.has(w,w.spreads[idx]) ? `<button class="btn ghost tiny ${EVRASTER.enabled ? 'active' : ''}" id="btnAIDraft" type="button" aria-pressed="${EVRASTER.enabled}" data-i18n="draft.button" data-i18n-title="draft.toggle" data-i18n-aria="draft.toggle">${esc(uiTxt("draft.button"))}</button>` : ''}
       <button class="btn ghost tiny" id="btnZoomFigure" type="button" title="${esc(uiTxt("zoom.open"))}" data-i18n-title="zoom.open" data-i18n-aria="zoom.open" data-i18n="zoom.short">${esc(uiTxt("zoom.short"))}</button>
-      <button class="btn ghost tiny ${EV.panels.left ? "" : "active"}" data-panel="left" title="${esc(t("panelLeft"))}" data-i18n-title="panelLeft" data-i18n-aria="panelLeft">◧</button>
-      <button class="btn ghost tiny ${EV.panels.right ? "" : "active"}" data-panel="right" title="${esc(t("panelRight"))}" data-i18n-title="panelRight" data-i18n-aria="panelRight">◨</button>
-      <button class="btn ghost tiny ${(!EV.panels.left && !EV.panels.right) ? "active" : ""}" data-panel="both" title="${esc(t("reader"))}" data-i18n-title="reader" data-i18n-aria="reader">⤢</button>
+      <button class="btn ghost tiny ${EV.panels.left ? "active" : ""}" data-panel="left" title="${esc(t("panelLeft"))}" data-i18n-title="panelLeft" data-i18n-aria="panelLeft">◧ ${esc(BI("Predict", "अनुमान"))}</button>
+      <button class="btn ghost tiny ${EV.panels.right ? "active" : ""}" data-panel="right" title="${esc(t("panelRight"))}" data-i18n-title="panelRight" data-i18n-aria="panelRight">◨ ${esc(BI("Controls", "प्रयोग"))}</button>
+      <button class="btn ghost tiny ${(!EV.panels.left && !EV.panels.right) ? "active" : ""}" data-panel="both" title="${esc(t("reader"))}" data-i18n-title="reader" data-i18n-aria="reader">⤢ ${esc(BI("Full Book", "पूरी किताब"))}</button>
     </div>`);
   document.querySelectorAll("[data-jump]").forEach(b => b.onclick = () => WORLD.jumpTo(+b.dataset.jump));
   if ($("btnPageFlipbook")) $("btnPageFlipbook").onclick = () => { if (typeof SCIVERSE !== "undefined") SCIVERSE.openFlipbook(w.id, idx, w); };
@@ -2199,8 +2199,9 @@ function applyPanels() {
   EVFSM.observe("panels", panelState(), "app.js:applyPanels");
   document.querySelectorAll("[data-panel]").forEach(b => {
     const k = b.dataset.panel;
-    b.classList.toggle("active", k === "both" ? bothHidden : !EV.panels[k]);
+    b.classList.toggle("active", k === "both" ? bothHidden : !!EV.panels[k]);
   });
+  if (typeof WORLD !== "undefined" && WORLD.resize) WORLD.resize();
 }
 function togglePanel(which) {
   EVFSM.transition("panels", which === "both" ? "TOGGLE_BOTH" : which === "left" ? "TOGGLE_LEFT" : "TOGGLE_RIGHT", {});
@@ -2210,7 +2211,7 @@ function togglePanel(which) {
   } else if (which === "left" || which === "right") {
     EV.panels[which] = !EV.panels[which];
   } else return;
-  try { localStorage.setItem("eduverse-panels-v1", JSON.stringify(EV.panels)); } catch (e) {}
+  try { localStorage.setItem("sciverse-panels-v2", JSON.stringify(EV.panels)); } catch (e) {}
   applyPanels();
   toast(!EV.panels.left && !EV.panels.right ? t("panelsHidden") : t("panelsShown"));
 }
@@ -2290,7 +2291,7 @@ function boot() {
   try { EV.ultra = localStorage.getItem("eduverse-ultra-v1") === "1"; } catch (e) {}
   applyUltra(EV.ultra);
   try {
-    const saved = JSON.parse(localStorage.getItem("eduverse-panels-v1") || "null");
+    const saved = JSON.parse(localStorage.getItem("sciverse-panels-v2") || "null");
     if (saved && typeof saved.left === "boolean" && typeof saved.right === "boolean") EV.panels = saved;
   } catch (e) {}
   EV.world = getWorld("c10_carbon");
@@ -2435,7 +2436,7 @@ function boot() {
   EVFSM.adapter("panels", v => {
     EV.panels.left = v !== "reader" && v !== "leftHidden";
     EV.panels.right = v !== "reader" && v !== "rightHidden";
-    try { localStorage.setItem("eduverse-panels-v1", JSON.stringify(EV.panels)); } catch (e) {}
+    try { localStorage.setItem("sciverse-panels-v2", JSON.stringify(EV.panels)); } catch (e) {}
     applyPanels();
   });
   EVFSM.adapter("precision", v => { EV.precision = (v === "on"); applyPrecision(); });
