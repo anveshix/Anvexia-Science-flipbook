@@ -1,0 +1,9 @@
+# Offline image adapter — candidate code, not integrated
+
+`offline_image_adapter.js` and `offline_image_adapter.css` are an isolated UI candidate for a future local-asset 2D / 3D switch. They are **not part of the running EduVerse app** and cannot independently replace or reposition its real 3D scene.
+
+The host supplies `onModeChange(mode)` to coordinate the existing `WORLD` state machine and page-bar control. The candidate uses a regular HTML `<img>` for local assets, opens it directly in a native full-screen lightbox, and leaves the currently active mode unchanged if an asset is missing or the host rejects a mode change. It does not draw file-origin images onto a canvas or create a WebGL renderer. Its asset path parser accepts only safe package-relative JPG/PNG paths, not remote URLs or `..` traversal.
+
+**Remaining integration work:** fit the DOM image accurately over the actual right-page viewport across camera modes; bind it to the existing 2D/3D control and the real 3D renderer; preserve the original opposite-page text; attach reviewed bilingual labels to correct image locations; handle projector, mobile, state restore and screenshot paths; regenerate the strict CSP for local images without weakening script policy; add package/build and fallback behaviour; complete all cross-browser/visual/teacher tests. The app currently has `img-src data: blob:` and does not yet permit these relative files; this module alone does not change that policy.
+
+A `file://` Chromium smoke with the first draft image checked image display, the 2D/3D callback, keyboard-close lightbox, missing/remote path rejection and zero additional canvas elements. A same-origin HTTP smoke checked display, zoom and mode restoration. These isolated checks are **not** proof that the module works in the flipbook or on Firefox/Safari.

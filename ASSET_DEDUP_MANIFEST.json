@@ -1,0 +1,540 @@
+{
+  "description": "Canonical image bytes moved to persistent main app runtime folder after equality checks; old paths may be recreated using restore_duplicate_assets.py. Original files were byte-identical. Review metadata and source images remain.",
+  "records": [
+    {
+      "old": "c9_atom/8-03-proton-neutron.jpg",
+      "runtime": "c9_atom/8-03-proton-neutron.jpg",
+      "sha256": "d6485e1e1a23a3ccd2ea7013d070859e46ff1f6b1db8e6bb88630044368f0e97"
+    },
+    {
+      "old": "c9_atom/8-10-water-supplement.jpg",
+      "runtime": "c9_atom/8-10-water-supplement.jpg",
+      "sha256": "1e97dec7510efe4f95f1a173b6f5f25eac84ec943dbcc64ea74becb843f91313"
+    },
+    {
+      "old": "c9_atom/8-12-magnesium-chloride-formula.jpg",
+      "runtime": "c9_atom/8-12-magnesium-chloride-formula.jpg",
+      "sha256": "875305e8faafa8ae2b56be2ac6cb53a3cdf634062b277e3def8e80efc1754952"
+    },
+    {
+      "old": "c9_atom/8-06-bohr-shells.jpg",
+      "runtime": "c9_atom/8-06-bohr-shells.jpg",
+      "sha256": "525553c79f113fd216736e5343a48ea1281ddf305c5b374826427ccdb516eb54"
+    },
+    {
+      "old": "c9_atom/8-02-electron-discovery.jpg",
+      "runtime": "c9_atom/8-02-electron-discovery.jpg",
+      "sha256": "09ff09eb233d17df64b3d721d1d5ec6e02c847802803d0093d8dc157b544cdab"
+    },
+    {
+      "old": "c9_atom/8-05-rutherford-scattering.jpg",
+      "runtime": "c9_atom/8-05-rutherford-scattering.jpg",
+      "sha256": "e5532382c5de6a0c3d0ba4236f3c2f80415821902ef3dd6b1800a00cc06b44e8"
+    },
+    {
+      "old": "c9_atom/8-07-electron-distribution.jpg",
+      "runtime": "c9_atom/8-07-electron-distribution.jpg",
+      "sha256": "9fefd3d7efb553e1af1db75bc67f505f081c67a2f7875792998bd186a4188e96"
+    },
+    {
+      "old": "c9_atom/8-11-element-symbols.jpg",
+      "runtime": "c9_atom/8-11-element-symbols.jpg",
+      "sha256": "0afd7151568bc810c038b6e9ba8da7e4328b9707616d415ad9b88011d709f9c2"
+    },
+    {
+      "old": "c9_atom/8-09-isotopes-isobars.jpg",
+      "runtime": "c9_atom/8-09-isotopes-isobars.jpg",
+      "sha256": "afa95127e612442e7e56ef66f57637565fba0dddae0787979e2eb6a7d8b26084"
+    },
+    {
+      "old": "c9_atom/8-01-element-atoms.jpg",
+      "runtime": "c9_atom/8-01-element-atoms.jpg",
+      "sha256": "465d6105f97bf146ec2a9d833c20b79b72e9df1da25d808edc3ed5c4cd19dc6d"
+    },
+    {
+      "old": "c9_atom/8-04-thomson-model.jpg",
+      "runtime": "c9_atom/8-04-thomson-model.jpg",
+      "sha256": "cf336445b2b109712b045eb53240faa288b140d19b724bb80daa4302a77817a1"
+    },
+    {
+      "old": "c9_atom/8-08-atomic-mass-number.jpg",
+      "runtime": "c9_atom/8-08-atomic-mass-number.jpg",
+      "sha256": "53af56c0ca2a075a19f93dd5bc0fcaba136b4314b602f98893f9bb06d9c9eacf"
+    },
+    {
+      "old": "c9_atom/8-10-methane-valency.jpg",
+      "runtime": "c9_atom/8-10-methane-valency.jpg",
+      "sha256": "7a3a23ea4f8caf0182bcb6697ed8a28dd7b3c77550fc85496d58534131877850"
+    },
+    {
+      "old": "c9_atomic_foundations/9-06-ions-ionic-compounds.jpg",
+      "runtime": "c9_atomic_foundations/9-06-ions-ionic-compounds.jpg",
+      "sha256": "9a60290aa382927a41bb28c0e0d808be3842369264fa0db3991ea05d3e88f808"
+    },
+    {
+      "old": "c9_atomic_foundations/9-01-mass-conservation.jpg",
+      "runtime": "c9_atomic_foundations/9-01-mass-conservation.jpg",
+      "sha256": "7e7f62fd0a328bdb80299d763d6ef7b7544a8a5540b236b030f217c5efaae110"
+    },
+    {
+      "old": "c9_atomic_foundations/9-04-oxygen-element-molecule.jpg",
+      "runtime": "c9_atomic_foundations/9-04-oxygen-element-molecule.jpg",
+      "sha256": "b68ed5408c095a73314470a09a8817c705eab256e0421f2484fc257ee6360865"
+    },
+    {
+      "old": "c9_atomic_foundations/9-03-dalton-theory.jpg",
+      "runtime": "c9_atomic_foundations/9-03-dalton-theory.jpg",
+      "sha256": "d8de20bd621a65ad301986c0b4b93343526e129b8b0f2ca15d3fd158fbcebe8b"
+    },
+    {
+      "old": "c9_atomic_foundations/9-07-writing-chemical-formulae.jpg",
+      "runtime": "c9_atomic_foundations/9-07-writing-chemical-formulae.jpg",
+      "sha256": "d0a963e6648161f25bcf5bd7a0b2ba497ecd6a9fa419098274ea067935680ab2"
+    },
+    {
+      "old": "c9_atomic_foundations/9-05-water-compound-molecule.jpg",
+      "runtime": "c9_atomic_foundations/9-05-water-compound-molecule.jpg",
+      "sha256": "c365b83f32ada4bcd495c1bc7256fd42760bbdcb5690e9cc7f546c4555adaaf7"
+    },
+    {
+      "old": "c9_atomic_foundations/9-09-formula-unit-mass-nacl.jpg",
+      "runtime": "c9_atomic_foundations/9-09-formula-unit-mass-nacl.jpg",
+      "sha256": "24ec27598bac8aeba1bc04b29a2182f52e396381bdfa038b28c5e8ec752c8779"
+    },
+    {
+      "old": "c9_atomic_foundations/9-02-constant-proportions.jpg",
+      "runtime": "c9_atomic_foundations/9-02-constant-proportions.jpg",
+      "sha256": "3aaec72bea67a2c4cd71116284061d6ea68ab6b06b440849f8205dac84951154"
+    },
+    {
+      "old": "c9_atomic_foundations/9-08-molecular-mass-water.jpg",
+      "runtime": "c9_atomic_foundations/9-08-molecular-mass-water.jpg",
+      "sha256": "fcccd58b4b55e1ea7ddf8b8355ee7c53fe8589f83daa8f059e55e15fcc0c8da4"
+    },
+    {
+      "old": "c9_cell/2-02-plant-animal.jpg",
+      "runtime": "c9_cell/2-02-plant-animal.jpg",
+      "sha256": "af4ea26302a2ac867ce120b457ff2efe023abfcf221864e5902bcd0121c1c8fd"
+    },
+    {
+      "old": "c9_cell/2-01-discovery.jpg",
+      "runtime": "c9_cell/2-01-discovery.jpg",
+      "sha256": "961651f8053b5acf9eb5db9c3fe3dd4439957a3aa3f5603bd88b50466e1e57b2"
+    },
+    {
+      "old": "c9_cell/2-10-biomolecules.jpg",
+      "runtime": "c9_cell/2-10-biomolecules.jpg",
+      "sha256": "f296cf94bc752b1292bd296c5dfe4efa19a3263559e37c804b736fc04266e8ed"
+    },
+    {
+      "old": "c9_cell/2-11-division-cancer.jpg",
+      "runtime": "c9_cell/2-11-division-cancer.jpg",
+      "sha256": "d8f8ec8d22325cac3e9dbb94a3f3d3b5bb82e0ec205aceef6485b032d8e6f39b"
+    },
+    {
+      "old": "c9_cell/2-06-nucleus.jpg",
+      "runtime": "c9_cell/2-06-nucleus.jpg",
+      "sha256": "3e5bdc523a285360b0abc8f8e653f3e7c00dba0bb64c2fe8f13b9e6723ba3ef5"
+    },
+    {
+      "old": "c9_cell/2-04-membrane.jpg",
+      "runtime": "c9_cell/2-04-membrane.jpg",
+      "sha256": "e8bd012abd5038832d5dd117f3569a6e6dc7a1d8c3db7def50d1cbb9bb8bbb48"
+    },
+    {
+      "old": "c9_cell/2-09-cell-division.jpg",
+      "runtime": "c9_cell/2-09-cell-division.jpg",
+      "sha256": "8590f19e411a451de1fc6db92d48c40bf5c15f34598a4de16e5990444e045ea2"
+    },
+    {
+      "old": "c9_cell/2-09-meiosis-supplement.jpg",
+      "runtime": "c9_cell/2-09-meiosis-supplement.jpg",
+      "sha256": "12087a3a9b728b7eaa979cf8176c9b643b581b4e0a543c9fdaeb111ea20c8e22"
+    },
+    {
+      "old": "c9_cell/2-05-wall-vacuole.jpg",
+      "runtime": "c9_cell/2-05-wall-vacuole.jpg",
+      "sha256": "830e8b8629656844bdfbff5aff5de2acea3c8770f35bc868cd9ad25765b4255c"
+    },
+    {
+      "old": "c9_cell/2-07-mitochondria-chloroplast.jpg",
+      "runtime": "c9_cell/2-07-mitochondria-chloroplast.jpg",
+      "sha256": "928d09f43ae6ad43223ebe43a3a4c9995e8ffabc9ccc22d5110eb8d04f850d20"
+    },
+    {
+      "old": "c9_cell/2-03-prokaryote-eukaryote.jpg",
+      "runtime": "c9_cell/2-03-prokaryote-eukaryote.jpg",
+      "sha256": "4f1afc2d6c982907749704eea13fd6d7f0ed9bf2bce02c774f13a5f1e374a5c0"
+    },
+    {
+      "old": "c9_cell/2-08-er-golgi-lysosomes.jpg",
+      "runtime": "c9_cell/2-08-er-golgi-lysosomes.jpg",
+      "sha256": "94e0afe81f98ff0ea3d6ba4dcd139ccb0d65b7ffa01be183beb06d1e8571ce3b"
+    },
+    {
+      "old": "c9_cell/2-10-biomolecules-supplement.jpg",
+      "runtime": "c9_cell/2-10-biomolecules-supplement.jpg",
+      "sha256": "518cd951dcf7e337f917931e7bbf98369a25fe89525b5e440a6a57c47d0d94c6"
+    },
+    {
+      "old": "c9_forces/6-05-friction.jpg",
+      "runtime": "c9_forces/6-05-friction.jpg",
+      "sha256": "5c82b21af34e89d83cb65a8d389b6550a35e8ddc52018268c6a24d0392a324f9"
+    },
+    {
+      "old": "c9_forces/6-07-momentum.jpg",
+      "runtime": "c9_forces/6-07-momentum.jpg",
+      "sha256": "4275bcf6ec37d49e5f7d5ae0ac0afceb0de5b2c509da85b402b972da3368deee"
+    },
+    {
+      "old": "c9_forces/6-03-balanced.jpg",
+      "runtime": "c9_forces/6-03-balanced.jpg",
+      "sha256": "de9ed02a06afcf59e3634035fad4df4110a4718fafe8dd45dbd4a1acac2e27d6"
+    },
+    {
+      "old": "c9_forces/6-01-push-pull.jpg",
+      "runtime": "c9_forces/6-01-push-pull.jpg",
+      "sha256": "57173e9cc5072be82c398a6837e5379a67625341d957e3ea4a1a78be75d08f71"
+    },
+    {
+      "old": "c9_forces/6-09-momentum-conservation.jpg",
+      "runtime": "c9_forces/6-09-momentum-conservation.jpg",
+      "sha256": "10c1d7bcc4d6bf28724cf23e559b7e6ee8b3adb6b3753a52caf87f5819f8a5d5"
+    },
+    {
+      "old": "c9_forces/6-06-inertia.jpg",
+      "runtime": "c9_forces/6-06-inertia.jpg",
+      "sha256": "0b90b3b107557c466589e3d5b39c2b896973e73e3e2236e22ac09ef74c6a0967"
+    },
+    {
+      "old": "c9_forces/6-08-third-law.jpg",
+      "runtime": "c9_forces/6-08-third-law.jpg",
+      "sha256": "45e723429c318d8b6110dd73bd7ab5a83d50d4467ab5b20ed81cbcf2b3a715cb"
+    },
+    {
+      "old": "c9_forces/6-02-effects.jpg",
+      "runtime": "c9_forces/6-02-effects.jpg",
+      "sha256": "995c5f2fd8260d5fae8e1400c88fefdd64fcd5f0bbc19b4911a74cb2fce11305"
+    },
+    {
+      "old": "c9_forces/6-04-unbalanced.jpg",
+      "runtime": "c9_forces/6-04-unbalanced.jpg",
+      "sha256": "7925fbde5f905c7052dc350d79ee71405890e12032def12454f978a2fbb9835d"
+    },
+    {
+      "old": "c9_mixtures/5-04-colloids.jpg",
+      "runtime": "c9_mixtures/5-04-colloids.jpg",
+      "sha256": "6a3f271b70f81f37a4469184863c85350611113b0424fdab6674d2d0c42c2d91"
+    },
+    {
+      "old": "c9_mixtures/5-09-chromatography.jpg",
+      "runtime": "c9_mixtures/5-09-chromatography.jpg",
+      "sha256": "d1b3e9e4c51f12e5b8e8d1bd0b4c60142236929f656684890b06b3556ed59f30"
+    },
+    {
+      "old": "c9_mixtures/5-03-suspensions.jpg",
+      "runtime": "c9_mixtures/5-03-suspensions.jpg",
+      "sha256": "1ec5d01f8e8844a0ca287bcdebf6b93aed5c135b87f117d5b353620c1eedcdc7"
+    },
+    {
+      "old": "c9_mixtures/5-06-concentration.jpg",
+      "runtime": "c9_mixtures/5-06-concentration.jpg",
+      "sha256": "99fcc837eb5b2d643abce5705b6b05ddd4b04c83f48ef701d339e9deff905a5d"
+    },
+    {
+      "old": "c9_mixtures/5-05-mass-percent.jpg",
+      "runtime": "c9_mixtures/5-05-mass-percent.jpg",
+      "sha256": "11422d2794f608e55f009d2e54035be0b8a97812f9113287ffc9d4a15aa65a15"
+    },
+    {
+      "old": "c9_mixtures/5-02-solutions.jpg",
+      "runtime": "c9_mixtures/5-02-solutions.jpg",
+      "sha256": "33f8618f506b56ee549cd711f8009521cab48a2b4b2f26d2ccb25f693f19b691"
+    },
+    {
+      "old": "c9_mixtures/5-10-centrifuge.jpg",
+      "runtime": "c9_mixtures/5-10-centrifuge.jpg",
+      "sha256": "647f9e6ba683ed968224499c9405bd311570bb5725f9adbaed6bf58ef7e75cbe"
+    },
+    {
+      "old": "c9_mixtures/5-08-distillation.jpg",
+      "runtime": "c9_mixtures/5-08-distillation.jpg",
+      "sha256": "d40f353862a8987d5c70b0e1458bf6e3e14bc2d7936ca9a6528c3d89ce025161"
+    },
+    {
+      "old": "c9_mixtures/5-01-homogeneous.jpg",
+      "runtime": "c9_mixtures/5-01-homogeneous.jpg",
+      "sha256": "f9aaabaafcba7a56e2885d45a0133fd5a86edd48d4b0e0204d2d112f2a560784"
+    },
+    {
+      "old": "c9_mixtures/5-07-separation.jpg",
+      "runtime": "c9_mixtures/5-07-separation.jpg",
+      "sha256": "d91b75646bfa86fadb1ad22a17a4c23ac1a2bd7d08519f63a29fab38466fed72"
+    },
+    {
+      "old": "c9_motion/4-06-distance-time.jpg",
+      "runtime": "c9_motion/4-06-distance-time.jpg",
+      "sha256": "c6fa0c750bec36f88fc76d2f221f8e1f89636f776d52a4bc78318fe5958380aa"
+    },
+    {
+      "old": "c9_motion/4-08-equations.jpg",
+      "runtime": "c9_motion/4-08-equations.jpg",
+      "sha256": "110246ec4138f69818483af9293589d359fdb7cb8e538fef424ba0f7226f0b4d"
+    },
+    {
+      "old": "c9_motion/4-01-reference-frame.jpg",
+      "runtime": "c9_motion/4-01-reference-frame.jpg",
+      "sha256": "42ff63a7da309292b83fc384c9da9eaef7833408155f9a01d6d566ae47b06fbb"
+    },
+    {
+      "old": "c9_motion/4-03-speed.jpg",
+      "runtime": "c9_motion/4-03-speed.jpg",
+      "sha256": "a5ad9f443ad0ad5f26562569ebeafbe839c7082b13e6e2b505b64256513c5020"
+    },
+    {
+      "old": "c9_motion/4-09-circular-motion.jpg",
+      "runtime": "c9_motion/4-09-circular-motion.jpg",
+      "sha256": "aa49c57c1f620545d6ac124522d1ad0187d6550e52c24ebb6509e6df7a06c7e0"
+    },
+    {
+      "old": "c9_motion/4-05-acceleration.jpg",
+      "runtime": "c9_motion/4-05-acceleration.jpg",
+      "sha256": "e2f605c387c04a9bb51df10d6c3e85bda8a6590a059bca1d1ac44905f1589358"
+    },
+    {
+      "old": "c9_motion/4-07-velocity-time.jpg",
+      "runtime": "c9_motion/4-07-velocity-time.jpg",
+      "sha256": "58291016bd3241d3c3b488f463b753ac230db332ff1eb225ae045768d2424dc7"
+    },
+    {
+      "old": "c9_motion/4-02-distance-displacement.jpg",
+      "runtime": "c9_motion/4-02-distance-displacement.jpg",
+      "sha256": "3f1554aaf4f673352a4aa20175d15c21f1b50791724a8d6c2a4244f0d9c68f35"
+    },
+    {
+      "old": "c9_motion/4-04-velocity.jpg",
+      "runtime": "c9_motion/4-04-velocity.jpg",
+      "sha256": "4fa8d4b23940445a9c0db32fd50367bb12b75bc1276f511b2888e9ae03aa26fe"
+    },
+    {
+      "old": "c9_reproduction9/11-07-human-reproductive-systems.jpg",
+      "runtime": "c9_reproduction9/11-07-human-reproductive-systems.jpg",
+      "sha256": "0e4024c1455cacc5ed1c390bc1dd5f86329d8bc7f9a4ec9edb623d51b271bcdb"
+    },
+    {
+      "old": "c9_reproduction9/11-08-cycle-pregnancy.jpg",
+      "runtime": "c9_reproduction9/11-08-cycle-pregnancy.jpg",
+      "sha256": "81e1957580cb19707334d29645e30601cb0c4b1ea0ef5352c227b7ba623024e7"
+    },
+    {
+      "old": "c9_reproduction9/11-02-budding-fragmentation-spores.jpg",
+      "runtime": "c9_reproduction9/11-02-budding-fragmentation-spores.jpg",
+      "sha256": "cfec9b03839ede1f7706900e1eece08196b3bd981901d9ca03188f50c297977a"
+    },
+    {
+      "old": "c9_reproduction9/11-03-vegetative-potato.jpg",
+      "runtime": "c9_reproduction9/11-03-vegetative-potato.jpg",
+      "sha256": "9b74e69b49703fd1975e5831a14b9a117a1c91686042788405e8e64da803b2ae"
+    },
+    {
+      "old": "c9_reproduction9/11-01-asexual-budding-yeast.jpg",
+      "runtime": "c9_reproduction9/11-01-asexual-budding-yeast.jpg",
+      "sha256": "36e5fc2e5d3d0e1db7244857e428cdd3861c82cf81d24458bbf5ae093d516c40"
+    },
+    {
+      "old": "c9_reproduction9/11-06-seed-dispersal-germination.jpg",
+      "runtime": "c9_reproduction9/11-06-seed-dispersal-germination.jpg",
+      "sha256": "e2168ec0c5775305e154205f083a3a7eaf6fa03bf7dc71bef8479c8d04aea541"
+    },
+    {
+      "old": "c9_reproduction9/11-09-reproductive-health.jpg",
+      "runtime": "c9_reproduction9/11-09-reproductive-health.jpg",
+      "sha256": "c3e72c26d2a20edc9c0752a4949676a777aeebac491168f6b9f04c0e257886fb"
+    },
+    {
+      "old": "c9_reproduction9/11-05-pollination-fertilisation.jpg",
+      "runtime": "c9_reproduction9/11-05-pollination-fertilisation.jpg",
+      "sha256": "7b509046178893659b173e1c3c55091421de9959054ca69d57283784671a954f"
+    },
+    {
+      "old": "c9_reproduction9/11-04-flower-parts.jpg",
+      "runtime": "c9_reproduction9/11-04-flower-parts.jpg",
+      "sha256": "aa57008946d09a89ac60b5830f85c6a53d2a56285301b109c28a36d20c8b2d8d"
+    },
+    {
+      "old": "c9_sound/10-03-longitudinal-compressions.jpg",
+      "runtime": "c9_sound/10-03-longitudinal-compressions.jpg",
+      "sha256": "e6b99c831bf901f314e15203486e48041d4cac293313d0daa6c3f18d20473847"
+    },
+    {
+      "old": "c9_sound/10-07-wave-speed-frequency-wavelength.jpg",
+      "runtime": "c9_sound/10-07-wave-speed-frequency-wavelength.jpg",
+      "sha256": "34d9aa917f336efb2f9aafc3b04f3520e19465072c388f62973331550351142c"
+    },
+    {
+      "old": "c9_sound/10-04-sound-pressure-time-graph.jpg",
+      "runtime": "c9_sound/10-04-sound-pressure-time-graph.jpg",
+      "sha256": "66f463216996e58eaee96a09a5a90732a54f27a8bafa2d190792ad8999feea2c"
+    },
+    {
+      "old": "c9_sound/10-06-amplitude-intensity-speed.jpg",
+      "runtime": "c9_sound/10-06-amplitude-intensity-speed.jpg",
+      "sha256": "d044a1ed683c2235660591ca496b2d0c2846c915ae4ba9967930ccf5d8bf5d54"
+    },
+    {
+      "old": "c9_sound/10-09-echo-reverberation.jpg",
+      "runtime": "c9_sound/10-09-echo-reverberation.jpg",
+      "sha256": "5bcf469772608ea5b2ceecc5a9586e02a230668f79980e92ea30a1011900f064"
+    },
+    {
+      "old": "c9_sound/10-10-pitch-loudness-echolocation.jpg",
+      "runtime": "c9_sound/10-10-pitch-loudness-echolocation.jpg",
+      "sha256": "fed1b764fa59ed3e8c35211a1ed13b30c41b1524c4c4f3709dceb739f7c9c2cb"
+    },
+    {
+      "old": "c9_sound/10-05-wavelength-frequency-period.jpg",
+      "runtime": "c9_sound/10-05-wavelength-frequency-period.jpg",
+      "sha256": "0a164d0ee5d4ac85d604e8c1f74953aa967857c5ebdd9bbbba67ef7a265e393e"
+    },
+    {
+      "old": "c9_sound/10-01-sound-vibration-tuning-fork.jpg",
+      "runtime": "c9_sound/10-01-sound-vibration-tuning-fork.jpg",
+      "sha256": "b68ccf461e2f9e0272766338f869434ed468d762cca9215251ad7234a0c02f15"
+    },
+    {
+      "old": "c9_sound/10-08-sound-media.jpg",
+      "runtime": "c9_sound/10-08-sound-media.jpg",
+      "sha256": "bd94faa4364e696460d902194f219baee35a8d735770c8245762c131a8c5bd42"
+    },
+    {
+      "old": "c9_sound/10-02-sound-medium-bell-jar.jpg",
+      "runtime": "c9_sound/10-02-sound-medium-bell-jar.jpg",
+      "sha256": "f1ee7dca43715fe2d93fc08f8d8a1b34ec81d174f463f76eafbb48b5ad68608d"
+    },
+    {
+      "old": "c9_tissues/3-06-phloem.jpg",
+      "runtime": "c9_tissues/3-06-phloem.jpg",
+      "sha256": "7d5060c16f059668b2cfc167f261ce63123b8040babcd92cec059876e6156c91"
+    },
+    {
+      "old": "c9_tissues/3-02-organisation.jpg",
+      "runtime": "c9_tissues/3-02-organisation.jpg",
+      "sha256": "ccca10f299808179373693e4a1604ee3fbbd4e0b4b032a8a026b6cde7b5bc19f"
+    },
+    {
+      "old": "c9_tissues/3-05-xylem.jpg",
+      "runtime": "c9_tissues/3-05-xylem.jpg",
+      "sha256": "77521b89e72b88c16573e483d1c605ab3fbaf59d25374b32a9f7128b472675fc"
+    },
+    {
+      "old": "c9_tissues/3-08-connective.jpg",
+      "runtime": "c9_tissues/3-08-connective.jpg",
+      "sha256": "20a87e098474d5986633aaa2474a7073eabeb772a55761a0299133b583d4b2b8"
+    },
+    {
+      "old": "c9_tissues/3-07-epithelial.jpg",
+      "runtime": "c9_tissues/3-07-epithelial.jpg",
+      "sha256": "16399e1509d6f7475e27544eb21100933ff1cf4ffef81bb9413ef2b624538f25"
+    },
+    {
+      "old": "c9_tissues/3-03-meristem.jpg",
+      "runtime": "c9_tissues/3-03-meristem.jpg",
+      "sha256": "d6d810fd1f12ecaa1fbff20a18114c6fcb28c206fbef5b2f4806e473ab724973"
+    },
+    {
+      "old": "c9_tissues/3-09-muscle-nervous.jpg",
+      "runtime": "c9_tissues/3-09-muscle-nervous.jpg",
+      "sha256": "51e67d31845a59b145b1eecda6ae32d076bbbe7309d4b0b7abdcc349ee84140c"
+    },
+    {
+      "old": "c9_tissues/3-11-care.jpg",
+      "runtime": "c9_tissues/3-11-care.jpg",
+      "sha256": "a4811562a5b9e83bcedaa0d02fa337fadf605dda209317d31b1e4098c3009680"
+    },
+    {
+      "old": "c9_tissues/3-04-simple-plant-tissues.jpg",
+      "runtime": "c9_tissues/3-04-simple-plant-tissues.jpg",
+      "sha256": "cb9dd5535ff76b0b6a6f35221189ffdd873c372c7fa71767d65791c68737110f"
+    },
+    {
+      "old": "c9_tissues/3-10-musculoskeletal.jpg",
+      "runtime": "c9_tissues/3-10-musculoskeletal.jpg",
+      "sha256": "559274f986c29e049e7124e745666e98ae9f4373efdf13b344d345a6abcd7c21"
+    },
+    {
+      "old": "c9_tissues/3-01-what-tissue.jpg",
+      "runtime": "c9_tissues/3-01-what-tissue.jpg",
+      "sha256": "9aa13b93d2e6991370dd681e69dc68435590f1078f74663e2a1f580ec82285d4"
+    },
+    {
+      "old": "c9_work_energy/7-09-pulley-supplement.jpg",
+      "runtime": "c9_work_energy/7-09-pulley-supplement.jpg",
+      "sha256": "39e4eaa898f5bae40bc9b8b8406bc7eb15248770396ff8447bd46390c4bbd34e"
+    },
+    {
+      "old": "c9_work_energy/7-02-work-signs.jpg",
+      "runtime": "c9_work_energy/7-02-work-signs.jpg",
+      "sha256": "101d55c37208863e0f4eb54f6505f6881cc87618b45c4595256ef3e6cb0dfed1"
+    },
+    {
+      "old": "c9_work_energy/7-03-kinetic-energy.jpg",
+      "runtime": "c9_work_energy/7-03-kinetic-energy.jpg",
+      "sha256": "79324e112cd8cd5af9acbb879934c869119a32d8826115924d80c43a7fabf002"
+    },
+    {
+      "old": "c9_work_energy/7-09-incline-supplement.jpg",
+      "runtime": "c9_work_energy/7-09-incline-supplement.jpg",
+      "sha256": "90924352f0b0c09136956b7e2eca1120eb264a71a48b943b918b785ad462bf9e"
+    },
+    {
+      "old": "c9_work_energy/7-08-mechanical-advantage.jpg",
+      "runtime": "c9_work_energy/7-08-mechanical-advantage.jpg",
+      "sha256": "eb8005a1957e3e2ec60101bea8237f52a8a8a33a758d19e1500621d60f285648"
+    },
+    {
+      "old": "c9_work_energy/7-07-power.jpg",
+      "runtime": "c9_work_energy/7-07-power.jpg",
+      "sha256": "c7c05b17fb1259e87410fa2bd5d69e1356fc502441ae9f2976d9d5806487b4f9"
+    },
+    {
+      "old": "c9_work_energy/7-01-constant-force.jpg",
+      "runtime": "c9_work_energy/7-01-constant-force.jpg",
+      "sha256": "ade21676ae684e4b116c3f3ecb582954d2028c9566aeeb2179373262f1688a8f"
+    },
+    {
+      "old": "c9_work_energy/7-09-movable-pulley-supplement.jpg",
+      "runtime": "c9_work_energy/7-09-movable-pulley-supplement.jpg",
+      "sha256": "64d0525e3103c6e38f163fceb494dd39d4205b050d09cf643c4d8eaa82111157"
+    },
+    {
+      "old": "c9_work_energy/7-04-potential-energy.jpg",
+      "runtime": "c9_work_energy/7-04-potential-energy.jpg",
+      "sha256": "8a1c3b2c46263d2c34ee68a63561344e55209246b703207af0c19e01138f9d3c"
+    },
+    {
+      "old": "c9_work_energy/7-05-work-energy.jpg",
+      "runtime": "c9_work_energy/7-05-work-energy.jpg",
+      "sha256": "dc541d7d3a99e5f1a54d4a4af0717b2cb866d0560689f948d95a91e515748aef"
+    },
+    {
+      "old": "c9_work_energy/7-09-lever.jpg",
+      "runtime": "c9_work_energy/7-09-lever.jpg",
+      "sha256": "9440c1180775d0317e4290b5c016e40ad6f9ba480db55ea30f16e88fee8e4e89"
+    },
+    {
+      "old": "c9_work_energy/7-09-second-class-supplement.jpg",
+      "runtime": "c9_work_energy/7-09-second-class-supplement.jpg",
+      "sha256": "f4da70079336c2095527a084a1c6f7eaef177a1ee77acb5653ebb6a6f814005f"
+    },
+    {
+      "old": "c9_work_energy/7-09-third-class-supplement.jpg",
+      "runtime": "c9_work_energy/7-09-third-class-supplement.jpg",
+      "sha256": "dd27546ad4b2ebd569b59744d8e8254158ecc175602fae5484550abd4562ccc2"
+    },
+    {
+      "old": "c9_work_energy/7-06-conservation.jpg",
+      "runtime": "c9_work_energy/7-06-conservation.jpg",
+      "sha256": "da8e191a79efaf4fcddcd611b8ef1129b1c6143c7e2561e9abf57cc5d6e716f9"
+    }
+  ]
+}

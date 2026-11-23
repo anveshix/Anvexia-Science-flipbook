@@ -1,0 +1,18 @@
+/* Candidate CSS for merging into EduVerse's existing stylesheet, not a new style block. */
+.ev-offline-controls { display:flex; gap:4px; align-items:center; }
+.ev-offline-mode { min-width:44px; min-height:36px; border:1px solid #244d70; border-radius:6px; background:#fff; color:#10263b; font:700 14px system-ui,sans-serif; cursor:pointer; }
+.ev-offline-mode[aria-pressed="true"] { background:#124b76; color:#fff; }
+.ev-offline-mode:disabled { opacity:.5; cursor:not-allowed; }
+.ev-offline-mode:focus-visible,.ev-offline-image-button:focus-visible,.ev-offline-close:focus-visible { outline:3px solid #bd7a11; outline-offset:2px; }
+.ev-offline-status { color:#633d00; font:14px system-ui,sans-serif; margin:4px 0; }
+.ev-offline-status:empty { display:none; }
+.ev-offline-figure { display:grid; margin:0; gap:4px; }
+.ev-offline-figure[hidden] { display:none; }
+.ev-offline-image-button { display:block; background:#eef4f8; padding:0; border:0; cursor:zoom-in; }
+.ev-offline-image { display:block; max-width:100%; max-height:70vh; width:auto; height:auto; object-fit:contain; margin:auto; }
+.ev-offline-caption { color:#10263b; font:14px system-ui,sans-serif; }
+.ev-offline-dialog { width:min(96vw,1500px); max-width:none; height:94vh; max-height:none; box-sizing:border-box; background:#0b1c30; color:#fff; border:1px solid #9dbad3; border-radius:10px; padding:12px; }
+.ev-offline-dialog::backdrop { background:rgba(2,8,15,.9); }
+.ev-offline-close { display:block; margin-left:auto; min-width:44px; min-height:44px; font-size:26px; border:1px solid #aac8df; border-radius:8px; color:#fff; background:#164062; cursor:pointer; }
+.ev-offline-large { display:block; width:auto; height:auto; max-width:100%; max-height:calc(100% - 95px); object-fit:contain; margin:0 auto; }
+.ev-offline-modal-caption { color:#fff; font:14px system-ui,sans-serif; }

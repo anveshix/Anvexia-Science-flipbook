@@ -1,0 +1,3 @@
+# Lossless rollback checkpoint storage
+
+The `.tar.gz` rollback checkpoints are stored as their original uncompressed tar streams inside `checkpoint-tar-streams.tar.xz`. Run `python3 restore_backups.py` to restore all the original gzip checkpoint files, or add one or more filenames to restore only those. The tool validates both tar content and exact original gzip SHA-256 before writing, and never overwrites an existing checkpoint. If a different gzip implementation cannot reproduce the exact bytes, the tar streams remain intact in the pack and may be extracted directly. The `.tar.xz` checkpoints are kept separately. This preserves all checkpoint file contents; only redundant compressed copies were removed. `checkpoint-pack-manifest.json` records the hashes.

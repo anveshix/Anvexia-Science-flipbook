@@ -1,0 +1,14 @@
+{
+  "c9_cell/2-02-plant-animal.jpg": [
+    {"en":"Plant cell model","hi":"पादप कोशिका मॉडल","x":30,"y":20,"w":540,"h":100,"info_en":"Plant cells typically have a cell wall and may contain chloroplasts and a large vacuole. This is an illustrative, unreviewed model.","info_hi":"पादप कोशिकाओं में सामान्यतः कोशिका भित्ति होती है और हरितलवक व बड़ी रिक्तिका हो सकती है। यह सांकेतिक मॉडल अभी समीक्षित नहीं है।","anchor_x":445,"anchor_y":395},
+    {"en":"Animal cell model","hi":"जंतु कोशिका मॉडल","x":838,"y":20,"w":540,"h":100,"info_en":"Animal cells have a cell membrane and nucleus but lack a plant cell wall. This is an illustrative, unreviewed model.","info_hi":"जंतु कोशिका में कोशिका झिल्ली और केन्द्रक होते हैं, पर पादप जैसी कोशिका भित्ति नहीं होती। यह सांकेतिक मॉडल अभी समीक्षित नहीं है।","anchor_x":1020,"anchor_y":410}
+  ],
+  "c9_cell/2-03-prokaryote-eukaryote.jpg": [
+    {"en":"Prokaryote model","hi":"प्रोकैरियोट मॉडल","x":30,"y":20,"w":540,"h":100,"info_en":"Prokaryotic cells lack a membrane-bound nucleus; their DNA is in a nucleoid region. This model is illustrative and unreviewed.","info_hi":"प्रोकैरियोटिक कोशिकाओं में झिल्ली से घिरा केन्द्रक नहीं होता; उनका DNA न्यूक्लिऑइड क्षेत्र में होता है। यह सांकेतिक मॉडल असमीक्षित है।","anchor_x":330,"anchor_y":405},
+    {"en":"Eukaryote model","hi":"यूकैरियोट मॉडल","x":838,"y":20,"w":540,"h":100,"info_en":"Eukaryotic cells contain a membrane-bound nucleus. This model is illustrative and unreviewed.","info_hi":"यूकैरियोटिक कोशिकाओं में झिल्ली से घिरा केन्द्रक होता है। यह सांकेतिक मॉडल असमीक्षित है।","anchor_x":1000,"anchor_y":405}
+  ],
+  "c9_cell/2-07-mitochondria-chloroplast.jpg": [
+    {"en":"Chloroplast model","hi":"हरितलवक मॉडल","x":30,"y":20,"w":540,"h":100,"info_en":"Chloroplasts contain chlorophyll and carry out photosynthesis in plants and algae. This model is illustrative and unreviewed.","info_hi":"हरितलवकों में क्लोरोफिल होता है और वे पौधों व शैवाल में प्रकाश संश्लेषण करते हैं। यह सांकेतिक मॉडल असमीक्षित है।","anchor_x":420,"anchor_y":405},
+    {"en":"Mitochondrion model","hi":"सूत्रकणिका मॉडल","x":838,"y":20,"w":540,"h":100,"info_en":"Mitochondria carry out major stages of aerobic cellular respiration. This model is illustrative and unreviewed.","info_hi":"सूत्रकणिकाएँ वायवीय कोशिकीय श्वसन के प्रमुख चरण करती हैं। यह सांकेतिक मॉडल असमीक्षित है।","anchor_x":1015,"anchor_y":410}
+  ]
+}

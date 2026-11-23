@@ -1,0 +1,20 @@
+{
+  "original_sha256": "9001f45eceec52a646b0221b506dfee91b76053bdd26a5c7951a2d7d562ebe32",
+  "linked_sha256": "aa03e6ba8dcc1e291bbf8bba3d89e7f2b4ee7d7724a28440ccd00d4787254177",
+  "assets": {
+    "2-02-plant-animal.jpg": "af4ea26302a2ac867ce120b457ff2efe023abfcf221864e5902bcd0121c1c8fd",
+    "2-01-discovery.jpg": "961651f8053b5acf9eb5db9c3fe3dd4439957a3aa3f5603bd88b50466e1e57b2",
+    "2-10-biomolecules.jpg": "f296cf94bc752b1292bd296c5dfe4efa19a3263559e37c804b736fc04266e8ed",
+    "2-11-division-cancer.jpg": "d8f8ec8d22325cac3e9dbb94a3f3d3b5bb82e0ec205aceef6485b032d8e6f39b",
+    "2-06-nucleus.jpg": "3e5bdc523a285360b0abc8f8e653f3e7c00dba0bb64c2fe8f13b9e6723ba3ef5",
+    "2-04-membrane.jpg": "e8bd012abd5038832d5dd117f3569a6e6dc7a1d8c3db7def50d1cbb9bb8bbb48",
+    "2-09-cell-division.jpg": "8590f19e411a451de1fc6db92d48c40bf5c15f34598a4de16e5990444e045ea2",
+    "2-09-meiosis-supplement.jpg": "12087a3a9b728b7eaa979cf8176c9b643b581b4e0a543c9fdaeb111ea20c8e22",
+    "2-05-wall-vacuole.jpg": "830e8b8629656844bdfbff5aff5de2acea3c8770f35bc868cd9ad25765b4255c",
+    "2-07-mitochondria-chloroplast.jpg": "928d09f43ae6ad43223ebe43a3a4c9995e8ffabc9ccc22d5110eb8d04f850d20",
+    "2-03-prokaryote-eukaryote.jpg": "4f1afc2d6c982907749704eea13fd6d7f0ed9bf2bce02c774f13a5f1e374a5c0",
+    "2-08-er-golgi-lysosomes.jpg": "94e0afe81f98ff0ea3d6ba4dcd139ccb0d65b7ffa01be183beb06d1e8571ce3b",
+    "2-10-biomolecules-supplement.jpg": "518cd951dcf7e337f917931e7bbf98369a25fe89525b5e440a6a57c47d0d94c6"
+  },
+  "note": "Original standalone HTML can be recreated byte-for-byte from the linked HTML and identical authoritative JPEGs."
+}

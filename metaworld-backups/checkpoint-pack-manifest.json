@@ -1,0 +1,172 @@
+{
+  "pre-acids207-metals308-source.tar.gz": {
+    "gzip_sha256": "9495a4dcdda39a85fe61483258689bdaa448beac46b1e84311566c724eb32cd9",
+    "tar_sha256": "6e5affd7be057a33407c5c8d046c5ff8963bc1574c65c7fccb79249aec699475",
+    "gzip_bytes": 180267
+  },
+  "pre-atom-810-source.tar.gz": {
+    "gzip_sha256": "8e042d6b5d409d0311479b6fda3fe5ff68524ce5a1a25e2e96b5f9e6b7bdbd0d",
+    "tar_sha256": "2ea95ecff3019a2b3d52c42e9cba57f39b1b0d33901f24d4ea18919cbc43452b",
+    "gzip_bytes": 33016
+  },
+  "pre-atom-812-source.tar.gz": {
+    "gzip_sha256": "0594f95aad3a22082294459bff9ad817d3f3921db05b167528642d4638d026c3",
+    "tar_sha256": "081f74054c54766f55da4f3633403b3efb55ba088eb8dfbc4a574a3d6b9a93ab",
+    "gzip_bytes": 68285
+  },
+  "pre-atom-87-source.tar.gz": {
+    "gzip_sha256": "cc66cb53999acc249127e4737f05996e96a8f5d63304cd935ec35954175117ec",
+    "tar_sha256": "9401f35603e3f3bd900df1249dde372c8e6fe6a150b506a7359ae4a1cc3fe490",
+    "gzip_bytes": 193937
+  },
+  "pre-atom-88-source.tar.gz": {
+    "gzip_sha256": "fc2124cd5e990d3e579c95914c5fdb271e3e3a5dbe0bd293b3b191ec38705f74",
+    "tar_sha256": "717cceeb6dc16586960019be8283e38359b7986bbebafdcd4f1a8e1a5014dbe5",
+    "gzip_bytes": 32512
+  },
+  "pre-atom-89-source.tar.gz": {
+    "gzip_sha256": "d9ada7820937690b271378b5535589c383003ee9df5806f0b7b005a1a4474a05",
+    "tar_sha256": "9a1878b01eca217303a732de01e0d1749329cdd5ec1426a374698945d0f67184",
+    "gzip_bytes": 32749
+  },
+  "pre-atomic-first-set-source.tar.gz": {
+    "gzip_sha256": "e77e97c1978caa7ca7a568da4da356b604c1956320c1c1b3437098f381ca95c1",
+    "tar_sha256": "e36077b8d5091e4724e745e8e42f738a0d3c7a85d39b35ed83ca81305ddb2a9e",
+    "gzip_bytes": 32536
+  },
+  "pre-bohr-86-source.tar.gz": {
+    "gzip_sha256": "3f4abc327f68a123284517f0af029a4d5fc478a0772cf85f4a8ec57493e00f50",
+    "tar_sha256": "3da69ca4760de37baa643ff49e2848460f3e2c2708964344a14bbf77b6c53c09",
+    "gzip_bytes": 32235
+  },
+  "pre-carbon-first-batch.tar.gz": {
+    "gzip_sha256": "89773a54d85d4e76ec3306c62a2c79b8579b1785db8ed484ef964a0c401ed6fd",
+    "tar_sha256": "d4b5fd1f0de99f73c00a29e7336a07af59b20b62c459208b2f6695f28e12c6dc",
+    "gzip_bytes": 132662
+  },
+  "pre-class10-reproduction-batch.tar.gz": {
+    "gzip_sha256": "1209da669fb839dbbe44d0929453eaf835c91dbdac70290ea6e8bcf7187a99e9",
+    "tar_sha256": "0b7eab871a3c590f8829ce8caa2cfd95eb6d6352d75b227de4d6e6a8a5ee0e5f",
+    "gzip_bytes": 126702
+  },
+  "pre-clickable-labels.tar.gz": {
+    "gzip_sha256": "c327a0e76bb76d137204bb49f99564e54245b7b4850806d1b9f97148dcc1af51",
+    "tar_sha256": "45072ac83161d2a4db919fa98c9126e474e98f5c4b688cfa62d88399b02dbad5",
+    "gzip_bytes": 127849
+  },
+  "pre-control-batch.tar.gz": {
+    "gzip_sha256": "fe50cdf16a925ca884488c19c62b261b6a747e5e5e0d9d09ac646cbcda766d11",
+    "tar_sha256": "d258923cefcfbae49c009bb1dbde167a2e0a5e056f8a048602a963fff5a4e562",
+    "gzip_bytes": 224976
+  },
+  "pre-dedup-storage-source.tar.gz": {
+    "gzip_sha256": "9c10903c66a1c6da14044a1688b9709ed66517f353f86a29209f810a0c0fbbee",
+    "tar_sha256": "ab25cfb1919d2b34220128c9f28826d0800f9c46cc5ac682abbd872f341d48c6",
+    "gzip_bytes": 12107
+  },
+  "pre-diversity121-128-source.tar.gz": {
+    "gzip_sha256": "eb78047bd78fd57d90e3431be41d26599c8614bcd9e3492be5425ae41002d7b0",
+    "tar_sha256": "c680122d073439cd1cbb021655343f54b4069e710842e8d3c6d3eab07d4167ec",
+    "gzip_bytes": 84571
+  },
+  "pre-earth133-reactions103-source.tar.gz": {
+    "gzip_sha256": "33874d84c3eb227b88792dc19db2abe8bd03373f99e363a2a247713fb30bea84",
+    "tar_sha256": "74b234ba662b1c380acfd64e4a481c384e72c605b6eb9fb3471dd19e4649a61a",
+    "gzip_bytes": 161989
+  },
+  "pre-exploration-integration.tar.gz": {
+    "gzip_sha256": "233870e2e724f3120048fdfef73af72b5db6e1ae6d468705b2fd93290c974767",
+    "tar_sha256": "0de18828010eb90ada3fb83afa1076b45c886b5bced27085775dcb7ff3908fc4",
+    "gzip_bytes": 142379
+  },
+  "pre-foundations-91-source.tar.gz": {
+    "gzip_sha256": "d7749e96e590cc99565150ef101d7a0a7cda1e2f29dfcc8a66d5ec4c46635ba2",
+    "tar_sha256": "64766909884dae151fd2fd2f0a091ec7fc90dad34d19c2a7d8373e5bdb994f02",
+    "gzip_bytes": 71486
+  },
+  "pre-foundations-92-source.tar.gz": {
+    "gzip_sha256": "e2d2447d46dc8aea3c20ea36cf799e4fd87e300ba09b01c2e4b0e25a7ead83ab",
+    "tar_sha256": "4743873d3af10fbc62578eab50ab12fc0b16a7c0dd2ab07564f6d2dfacc7feb7",
+    "gzip_bytes": 70407
+  },
+  "pre-foundations-93-source.tar.gz": {
+    "gzip_sha256": "004a2715840cbc0490c1f94a8fd195a498c52bee0bd3f09e01687f0135d52aa2",
+    "tar_sha256": "afecc7c9bd393832e21ccba049ee8466f2902237e80fa5d24b6051b356f70b50",
+    "gzip_bytes": 71253
+  },
+  "pre-foundations-94-95-source.tar.gz": {
+    "gzip_sha256": "7c0a130591a634390de48d3a1d525179bb8b6991c7ac42acca042cc5d3a64508",
+    "tar_sha256": "10eee890eecb6e72613c6522868ce5aafc34116afe4cc6151f37f7ff0b397060",
+    "gzip_bytes": 72218
+  },
+  "pre-foundations96-sound102-source.tar.gz": {
+    "gzip_sha256": "3207a5edd5c121b07dc8946f331791fe40e5e09d1645769457a894cb981e6727",
+    "tar_sha256": "bf3d6539566c67efb69a80227fbb73b1bb7e2dab2442bdaf4a9a78191134f6c2",
+    "gzip_bytes": 75782
+  },
+  "pre-heredity-env-source.tar.gz": {
+    "gzip_sha256": "b90c3e0cbe9fa5564a6c285b68dbdde5cf09e0dba48ea1a47aa797b47fa03969",
+    "tar_sha256": "0e18356aeb09223193a0a1897a94ce5b2d8614f7c42e211cfce6a4cfe0f7f508",
+    "gzip_bytes": 195087
+  },
+  "pre-integration-reconcile-metadata.tar.gz": {
+    "gzip_sha256": "f2c038f7de8ea23f268af34e935b07a13ef815f52e7f82dfbe06167a1e2f84c4",
+    "tar_sha256": "5a090025f552cdd789476e23e2fe1c0542ca828bd2ffdd7e12ce42f2274edf3e",
+    "gzip_bytes": 105633
+  },
+  "pre-life-5-1-5-9-source.tar.gz": {
+    "gzip_sha256": "aa730bd3cc86bed73d00dc782691438b64cb0751a4d2358e8352f85e7687a3ed",
+    "tar_sha256": "7387b75a10de072d0f57444d8c6b9148dd335163a7e07d3532d5e83896a616e8",
+    "gzip_bytes": 188331
+  },
+  "pre-matter-atom-batch.tar.gz": {
+    "gzip_sha256": "7da3b9b2f165aa8021e362f09a81708a41b02a69f6a827983c0ab354adf265be",
+    "tar_sha256": "3420c14239346c78f09e178306b62ae267679f76dbec62e408abdd7733f759ea",
+    "gzip_bytes": 121230
+  },
+  "pre-reactions104-acids206-source.tar.gz": {
+    "gzip_sha256": "3e4a58882d3c141d86ff6f9c683e7a2d408054db85fe6c02d1cf9bdb6db65a52",
+    "tar_sha256": "a3015075509b320ea23661cf1bc915887f56ccfb249302d92de9a0de4670420e",
+    "gzip_bytes": 170888
+  },
+  "pre-remaining-batch.tar.gz": {
+    "gzip_sha256": "66d3ea9bbfaa9b49af9ff7834ac593e636fccb71ed2d8b3863e59a93a5b82101",
+    "tar_sha256": "feb218ec835e0ae40d303ebbeeedaf0bdd6df8a62aec9cb17a0297385d4442d9",
+    "gzip_bytes": 381889
+  },
+  "pre-repro114-119-source.tar.gz": {
+    "gzip_sha256": "a6deb094f76db5002163c3b0f184f308a32079dcde9ff20a00602cbad546eca4",
+    "tar_sha256": "32998bbc9c45f50eae0094d6762e909eac6e545bb3bb147d9031fad9af3b0f8f",
+    "gzip_bytes": 79327
+  },
+  "pre-rutherford-85-source.tar.gz": {
+    "gzip_sha256": "f28a47ebb457610099ae5288ba4be10303ff7a1c3649ccb510ef7a9dfe71aadf",
+    "tar_sha256": "6cd4e101ffb259f763ec00e61a5be04dcc05706b6beb198b8d69e2afb727ec9d",
+    "gzip_bytes": 31627
+  },
+  "pre-sound103-107-source.tar.gz": {
+    "gzip_sha256": "0103e459db23f24878c3a61928c4e6bdd6f6e166461da7bc9ba9ec48217eb8c7",
+    "tar_sha256": "9a78aaa00211a9501f10da8ac5ae28b065577c51f05635afe480c1fde1900c71",
+    "gzip_bytes": 75337
+  },
+  "pre-sound108-repro113-source.tar.gz": {
+    "gzip_sha256": "69830745738d601b76892690694abf18ef24f5f236dc71300cbdbd8446ad982d",
+    "tar_sha256": "fd9dddbe2527517bc9035f292a2028bb79e77ebdf43573d1d2218c7b987a33eb",
+    "gzip_bytes": 79604
+  },
+  "pre-work-energy-set-20261112T183319Z.tar.gz": {
+    "gzip_sha256": "447e8fea416f13830c2573e9e147193c36589a2c63b7bcf8235979ac845d63e9",
+    "tar_sha256": "be28647941d2dc37eb5b6f5159c781249c721e2db9163e7a9ba134426fcde924",
+    "gzip_bytes": 50199
+  },
+  "pre-carbon-second-batch.tar.gz": {
+    "gzip_sha256": "882182224b79cbe1d78792160456d23dd4d7681d7c26048f0ce628cfcd9fa8db",
+    "tar_sha256": "5e0812e1ce124407a5aa3df5aa159df9c49bbb6ddb45ada6018e20d64f0aacf4",
+    "gzip_bytes": 136517
+  },
+  "pre-periodic-batch.tar.gz": {
+    "gzip_sha256": "91f20c564380d68ba72140edf35bc980cff398bd6c3906ff969a93c89af0e50c",
+    "tar_sha256": "bb053f4afa7d7e842a79fbf1cd8b8a785b87d719517c20e6945e0b44e4c38f5a",
+    "gzip_bytes": 141173
+  }
+}
