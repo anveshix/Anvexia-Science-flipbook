@@ -1,7 +1,7 @@
 /* ==========================================================================
    EduVerse — The Moving World Engine
    · open 3D hardback on a desk, canvas-printed NCERT-style pages
-   · real page-turn: 180° spine rotation + per-frame vertex bending
+   · real page-turn: inextensible curl kinematics, drag-to-turn, gutter + contact shading
    · fold-up pop-up apparatus rising out of the right page
    · draggable 3D handles + clickable parts + orbit camera
    · a navigable chapter "meta world" of floating chapter monoliths
@@ -27,7 +27,7 @@ const WORLD = (function () {
     if (repaintQueued) return; repaintQueued = true;
     requestAnimationFrame(() => { repaintQueued = false; if (TH()) repaintPages(); });
   }
-  let worldGroup, bookGroup, paperRoot, metaRoot, popupRoot, apparatusRoot, leaf, leftPage, rightPage, leafFront, leafBack;
+  let worldGroup, bookGroup, paperRoot, metaRoot, popupRoot, apparatusRoot, leaf, leftPage, rightPage, leafFront, leafBack, turnShadow;
   /* R6 · the right page is a LIVE WebGLRenderTarget of the real 3D apparatus,
      not a flat drawing. `ultra` lets that same geometry physically rise out
      of the page. `figureMode` falls back to the printed diagram ONLY if the
@@ -1242,29 +1242,73 @@ const WORLD = (function () {
       figurePlane.material.map = FIGURE3D.texture; figurePlane.material.needsUpdate = true;
     }
   }
-  function pageGeo() {
-    const g = new THREE.PlaneGeometry(PW, PD, 22, 4);
+  /* Paper geometry. Spine sits at x=0 (right page) or x=PW (left page, spineEnd).
+     `gut` is a per-vertex gutter shadow: paper dips into the binding. */
+  const SEG = 48;                                    /* columns along the page */
+  const LIGHT = new THREE.Vector3(-0.36, 0.66, 0.36).normalize();   /* = key light */
+  const CURL_LAG = 0.5;                              /* free edge trails the spine */
+  const LAYER = 0.003;                               /* front/back separation, clears z-fighting */
+  const curlX = new Float32Array(SEG + 1), curlY = new Float32Array(SEG + 1), curlPsi = new Float32Array(SEG + 1);
+  function gutterAt(u) {                             /* u: 0 at spine, 1 at fore-edge */
+    const t = Math.min(1, Math.max(0, u / 0.22));
+    return 0.8 + 0.2 * t * t * (3 - 2 * t);
+  }
+  function pageGeo(spineEnd) {
+    const g = new THREE.PlaneGeometry(PW, PD, SEG, 4);
     g.translate(PW / 2, 0, 0); g.rotateX(-Math.PI / 2);
-    const p = g.attributes.position;
-    for (let i = 0; i < p.count; i++) {
+    const p = g.attributes.position, n = p.count;
+    const col = new Uint16Array(n), zs = new Float32Array(n), gut = new Float32Array(n);
+    const colors = new Float32Array(n * 3);
+    for (let i = 0; i < n; i++) {
       const xx = p.getX(i);
+      const c = Math.round(xx / PW * SEG);
+      col[i] = c; zs[i] = p.getZ(i);
+      gut[i] = gutterAt(spineEnd ? 1 - c / SEG : c / SEG);
       p.setY(i, 0.028 * Math.sin(Math.PI * xx / PW));
+      colors[i * 3] = colors[i * 3 + 1] = colors[i * 3 + 2] = gut[i];
     }
-    g.computeVertexNormals(); g.userData.base = Float32Array.from(p.array);
+    g.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+    g.userData = { col, zs, gut, spineEnd: !!spineEnd };
+    g.computeVertexNormals();
     return g;
   }
-  function applyBend(geo, amount) {
-    const p = geo.attributes.position, b = geo.userData.base;
-    for (let i = 0; i < p.count; i++) {
-      const xx = b[i * 3], yy = b[i * 3 + 1];
-      p.setY(i, yy + amount * Math.pow(xx / PW, 1.7));
+  /* Inextensible page kinematics. Walk the sheet from the spine: the tangent
+     angle psi(s) starts at the spine angle th and the free edge lags by
+     CURL_LAG * sin(th), so the leaf bows like paper instead of a rigid plane.
+     Integrated once per frame into curlX/curlY/curlPsi (midpoint rule). */
+  function curlTable(th) {
+    const k = CURL_LAG * Math.sin(th), h = PW / SEG;
+    let x = 0, y = 0;
+    for (let i = 0; i <= SEG; i++) {
+      const u = i / SEG;
+      curlX[i] = x; curlY[i] = y; curlPsi[i] = th * (1 - k * Math.pow(u, 1.5));
+      const um = (i + 0.5) / SEG, psiMid = th * (1 - k * Math.pow(um, 1.5));
+      x += h * Math.cos(psiMid); y += h * Math.sin(psiMid);
     }
-    p.needsUpdate = true; geo.computeVertexNormals();
+  }
+  /* Deform a leaf for turn angle th (0 = flat on the right, PI = flat on the left).
+     `layer` lifts the sheet along its own normal so the front stays above the back. */
+  function applyCurl(geo, th, layer) {
+    curlTable(th);
+    const p = geo.attributes.position, c = geo.attributes.color, { col, zs, gut } = geo.userData;
+    for (let i = 0; i < p.count; i++) {
+      const k = col[i], psi = curlPsi[k];
+      const nx = -Math.sin(psi), ny = Math.cos(psi);          /* sheet normal */
+      /* the printed bow always bulges UP (the top face), whichever face is up;
+         `layer` offsets along the sheet normal: +front / -back, so the top face is never buried */
+      const bow = 0.028 * Math.sin(Math.PI * k / SEG);
+      p.setXYZ(i, curlX[k] + nx * layer, curlY[k] + ny * layer + bow, zs[i]);
+      /* two-sided Lambert from the key light, darkened in the gutter */
+      const d = Math.abs(nx * LIGHT.x + ny * LIGHT.y);
+      const shade = (0.5 + 0.5 * Math.min(1, d / LIGHT.y)) * gut[i];
+      c.setXYZ(i, shade, shade, shade);
+    }
+    p.needsUpdate = true; c.needsUpdate = true; geo.computeVertexNormals();
   }
   function pageMesh(geo, canvas, mode) {
-    /* unlit paper: printed ink keeps its exact contrast at any camera angle */
+    /* unlit ink keeps exact print contrast; vertex colour adds only gutter + turn shading */
     const m = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({
-      map: tex(canvas),
+      map: tex(canvas), vertexColors: true,
       side: mode === "back" ? THREE.BackSide : THREE.FrontSide
     }));
     m.receiveShadow = false; return m;
@@ -1331,14 +1375,24 @@ const WORLD = (function () {
     }
     /* page turn */
     if (turning) {
-      const raw = Math.min(1, (performance.now() - turning.start) / 720);
-      turning.t = raw;
-      const p = raw < 0.5 ? 2 * raw * raw : 1 - Math.pow(-2 * raw + 2, 2) / 2;
-      const prog = turning.dir > 0 ? p : 1 - p;
-      leaf.rotation.z = prog * Math.PI * (turning.dir > 0 ? 1 : 1);
-      const bend = 0.42 * Math.sin(Math.PI * prog);
-      applyBend(leafFront.geometry, bend); applyBend(leafBack.geometry, bend);
-      if (turning.t >= 1) finishTurn();
+      let th = turning.theta;
+      if (!turning.drag) {                           /* scripted turn or settle after release */
+        const raw = Math.min(1, (performance.now() - turning.start) / turning.dur);
+        const e = raw < 0.5 ? 4 * raw * raw * raw : 1 - Math.pow(-2 * raw + 2, 3) / 2;   /* ease-in-out cubic */
+        turning.t = raw;
+        th = turning.th0 + (turning.th1 - turning.th0) * e;
+        turning.theta = th;
+        if (raw >= 1) finishTurn();
+      }
+      if (turning) {
+        applyCurl(leafFront.geometry, th, LAYER); applyCurl(leafBack.geometry, th, -LAYER);
+        const tip = leafFront.geometry.attributes.position;
+        const tipX = tip.getX(tip.count - 1), lift = Math.sin(th);
+        turnShadow.visible = lift > 0.02;
+        turnShadow.material.opacity = 0.22 * lift;
+        turnShadow.scale.set(Math.max(0.02, Math.abs(tipX)), 1, 1);
+        turnShadow.position.x = tipX / 2;
+      }
     }
     /* pop-up unfold */
     popupT += (popupTarget - popupT) * Math.min(1, dt * 5.5);
@@ -1455,7 +1509,7 @@ const WORLD = (function () {
     G3.box(paperRoot, PW - 0.06, 0.10, PD - 0.1, G3.mat(0xe7dcc0, { rough: 0.98 }), [-PW / 2 - 0.02, 0.095, 0]);
     G3.box(paperRoot, PW - 0.06, 0.10, PD - 0.1, G3.mat(0xe7dcc0, { rough: 0.98 }), [PW / 2 + 0.02, 0.095, 0]);
     /* printed page meshes */
-    const gl = pageGeo(), gr = pageGeo();
+    const gl = pageGeo(true), gr = pageGeo(false);
     leftPage = pageMesh(gl, pageCanvas().c, "front"); leftPage.position.set(-PW, 0.20, 0); paperRoot.add(leftPage);
     rightPage = pageMesh(gr, pageCanvas().c, "front"); rightPage.position.set(0, 0.20, 0); paperRoot.add(rightPage);
     /* an actual textured plane sitting ON the right page: its map is the live
@@ -1466,10 +1520,25 @@ const WORLD = (function () {
     figurePlane.position.y = 0.252; figurePlane.renderOrder = 6; figurePlane.visible = false;
     paperRoot.add(figurePlane);
     /* turning leaf */
-    leaf = new THREE.Group(); leaf.position.set(0, 0.215, 0); leaf.visible = false; paperRoot.add(leaf);
-    const gf = pageGeo(), gb = pageGeo();
-    leafFront = pageMesh(gf, pageCanvas().c, "front"); leafFront.position.y = 0.004; leaf.add(leafFront);
-    leafBack = pageMesh(gb, pageCanvas().c, "back"); leafBack.position.y = 0.002; leaf.add(leafBack);
+    leaf = new THREE.Group(); leaf.position.set(0, 0.20, 0); leaf.visible = false; paperRoot.add(leaf);
+    const gf = pageGeo(false), gb = pageGeo(false);
+    /* the back face is seen from underneath (BackSide), which mirrors the canvas;
+       pre-mirror its UVs so the reverse of the leaf reads exactly like the printed left page */
+    const gbUv = gb.attributes.uv;
+    for (let i = 0; i < gbUv.count; i++) gbUv.setX(i, 1 - gbUv.getX(i));
+    gbUv.needsUpdate = true;
+    leafFront = pageMesh(gf, pageCanvas().c, "front"); leaf.add(leafFront);
+    leafBack = pageMesh(gb, pageCanvas().c, "back"); leaf.add(leafBack);
+    /* contact shadow the lifting leaf throws on the page beneath it */
+    const sc = document.createElement("canvas"); sc.width = 128; sc.height = 4;
+    const sx = sc.getContext("2d"), sg = sx.createLinearGradient(0, 0, 128, 0);
+    sg.addColorStop(0, "rgba(0,0,0,0)"); sg.addColorStop(0.55, "rgba(0,0,0,0.9)"); sg.addColorStop(1, "rgba(0,0,0,0.25)");
+    sx.fillStyle = sg; sx.fillRect(0, 0, 128, 4);
+    turnShadow = new THREE.Mesh(new THREE.PlaneGeometry(1, PD), new THREE.MeshBasicMaterial({
+      map: tex(sc), transparent: true, opacity: 0, depthWrite: false, color: 0x000000
+    }));
+    turnShadow.rotation.x = -Math.PI / 2; turnShadow.position.y = 0.232; turnShadow.visible = false;
+    turnShadow.renderOrder = 4; paperRoot.add(turnShadow);
     /* pop-up root over right page */
     popupRoot = new THREE.Group(); popupRoot.position.set(PW * wide / 2, 0.20, 0); bookGroup.add(popupRoot);
     G3.plate(popupRoot, 3.45, 2.35);
@@ -1573,38 +1642,65 @@ const WORLD = (function () {
   }
 
   /* -------------------------------------------------------------- page turn */
-  function startTurn(dir) {
+  /* beginTurn prepares both faces of the leaf and returns false when a turn is
+     impossible (already turning, no lesson, or past either end of the book).
+     drag=true leaves the leaf under pointer control until pointer release. */
+  function beginTurn(dir, drag) {
     const to = spreadIndex + dir;
-    if (typeof EVFSM !== "undefined") EVFSM.transition("pageTurn", "START", {
-      turning: !!turning, world: !!currentWorld, to: to,
-      count: currentWorld ? currentWorld.spreads.length : 0
-    });
-    if (turning || !currentWorld) return false;
-    if (to < 0 || to >= currentWorld.spreads.length) return false;
+    if (turning || !currentWorld || to < 0 || to >= currentWorld.spreads.length) return false;
     const nextSp = currentWorld.spreads[to];
     /* leaf front = current right page, leaf back = next left page (or current left for reverse) */
     const frontCanvas = dir > 0 ? drawRight(currentWorld.spreads[spreadIndex], currentWorld, spreadIndex * 2 + 2) : drawRight(nextSp, currentWorld, to * 2 + 2);
     const backCanvas = dir > 0 ? drawLeft(nextSp, currentWorld, to * 2 + 1) : drawLeft(currentWorld.spreads[spreadIndex], currentWorld, spreadIndex * 2 + 1);
     leafFront.material.map.dispose(); leafFront.material.map = tex(frontCanvas); leafFront.material.needsUpdate = true;
     leafBack.material.map.dispose(); leafBack.material.map = tex(backCanvas); leafBack.material.needsUpdate = true;
-    leaf.rotation.z = dir > 0 ? 0 : Math.PI;
-    applyBend(leafFront.geometry, 0); applyBend(leafBack.geometry, 0);
-    leaf.visible = true;
-    leftPage.visible = true; rightPage.visible = true;
+    const th0 = dir > 0 ? 0 : Math.PI, th1 = dir > 0 ? Math.PI : 0;
+    leaf.visible = true; leftPage.visible = true; rightPage.visible = true;
     popupRoot.visible = false;
-    turning = { dir: dir, to: to, t: 0, start: performance.now() };
+    applyCurl(leafFront.geometry, th0, LAYER); applyCurl(leafBack.geometry, th0, -LAYER);
+    turning = { dir, to, t: 0, drag: !!drag, theta: th0, th0, th1, commit: true,
+                start: performance.now(), dur: 760, moved: false, x0: 0, y0: 0 };
     return true;
+  }
+  function startTurn(dir) {
+    if (typeof EVFSM !== "undefined") EVFSM.transition("pageTurn", "START", {
+      turning: !!turning, world: !!currentWorld, to: spreadIndex + dir,
+      count: currentWorld ? currentWorld.spreads.length : 0
+    });
+    return beginTurn(dir, false);
+  }
+  /* pointer drag: the leaf follows the pointer across the page; release settles it */
+  function dragTurnTo(clientX, clientY) {
+    const pt = planePoint(0.2);
+    if (!pt || !turning || !turning.drag) return;
+    const lp = paperRoot.worldToLocal(pt.clone());
+    const d = turning.dir > 0 ? lp.x : -lp.x;      /* signed distance from spine, toward the fore-edge */
+    const k = G3.clamp(d, -PW, PW);                 /* fore-edge = 0 rad (forward) or PI (back) */
+    turning.theta = turning.dir > 0 ? Math.PI * (PW - k) / (2 * PW) : Math.PI * (PW + k) / (2 * PW);
+    if (!turning.moved && Math.hypot(clientX - turning.x0, clientY - turning.y0) > 5) turning.moved = true;
+  }
+  function releaseTurn() {
+    if (!turning || !turning.drag) return;
+    const th = turning.theta, prog = turning.dir > 0 ? th / Math.PI : 1 - th / Math.PI;
+    /* a tap (no drag) commits; a drag commits past the halfway point */
+    turning.commit = !turning.moved || prog > 0.5;
+    const endA = turning.dir > 0 ? Math.PI : 0, startA = turning.dir > 0 ? 0 : Math.PI;
+    turning.th0 = th; turning.th1 = turning.commit ? endA : startA;
+    turning.drag = false; turning.start = performance.now();
+    turning.dur = 180 + 560 * Math.abs(turning.th1 - turning.th0) / Math.PI;
   }
   function finishTurn() {
     if (typeof EVFSM !== "undefined") { EVFSM.transition("pageTurn", "FINISH", { t: 1 }); EVFSM.transition("pageTurn", "SETTLE", {}); }
-    const d = turning; spreadIndex = d.to; turning = null;
-    leaf.visible = false; leftPage.visible = true; rightPage.visible = true;
+    const d = turning; turning = null;
+    leaf.visible = false; leftPage.visible = true; rightPage.visible = true; turnShadow.visible = false;
     popupRoot.visible = !(shot === "board" && view === "book" && TH() && !ultra);
-    applyBend(leafFront.geometry, 0); applyBend(leafBack.geometry, 0);
+    if (!d.commit) return;                          /* cancelled drag: pages never changed */
+    spreadIndex = d.to;
     repaintPages(); buildApparatus();
     if (typeof EVFSM !== "undefined") EVFSM.observe("navigation", currentWorld.id + "::" + spreadIndex, "world.js:finishTurn");
     if (cb.onPage) cb.onPage(spreadIndex, currentWorld.spreads[spreadIndex]);
   }
+
   function jumpTo(i) {
     if (turning || !currentWorld) return;
     const target = Math.max(0, Math.min(currentWorld.spreads.length - 1, i));
@@ -1798,14 +1894,16 @@ const WORLD = (function () {
     const phits = raycaster.intersectObjects([leftPage, rightPage], false);
     if (phits.length) {
       const p = phits[0].point;
-      if (p.x > PW - 0.9 && p.z > 0.6) { startTurn(1); return; }
-      if (p.x < -PW + 0.9 && p.z > 0.6) { startTurn(-1); return; }
+      /* grab a corner: the leaf follows the pointer until release (tap = turn) */
+      const dir = p.x > PW - 0.9 && p.z > 0.6 ? 1 : p.x < -PW + 0.9 && p.z > 0.6 ? -1 : 0;
+      if (dir && beginTurn(dir, true)) { turning.x0 = e.clientX; turning.y0 = e.clientY; return; }
     }
     orbit.dragging = true;
   }
   function onMove(e) {
     if (!renderer) return;
     ndc(e);
+    if (turning && turning.drag) { dragTurnTo(e.clientX, e.clientY); return; }
     if ((drag || orbit.dragging) && typeof EVFSM !== "undefined") EVFSM.transition("pointer", "MOVE", {});
     if (drag) {
       const pt = planePoint(0.34); if (!pt || !drag.r) return;
@@ -1842,6 +1940,7 @@ const WORLD = (function () {
     }
     if (typeof EVFSM !== "undefined") { EVFSM.transition("pointer", "UP", {}); EVFSM.transition("pointer", "SETTLE", {}); }
     if (drag) { if (!drag.moved) markTouch("handle:" + drag.id, "Handle"); drag = null; orbit.enabled = !camAnim; }
+    releaseTurn();
     orbit.dragging = false;
   }
   function onWheel(e) { e.preventDefault(); orbit.dist = G3.clamp(orbit.dist + Math.sign(e.deltaY) * 0.06, 0.62, 1.9); }
