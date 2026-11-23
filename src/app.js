@@ -160,7 +160,7 @@ function renderTop() {
   }
   $("brand").querySelector(".brand-name").textContent = t("brand");
   if ($("btnCompileTop")) $("btnCompileTop").textContent = t("compile");
-  if ($("btnEnter")) $("btnEnter").textContent = t("enterWorld") + " " + uiTxt("ui.enterArrow");
+  if ($("btnEnter")) $("btnEnter").textContent = (typeof EV_2D_ONLY !== "undefined" && EV_2D_ONLY ? BI("Open book", "पुस्तक खोलें") : t("enterWorld")) + " " + uiTxt("ui.enterArrow");
   if ($("btnHome")) $("btnHome").classList.toggle("active", EV.view === "world");
   if ($("btnBookTop")) $("btnBookTop").classList.toggle("active", EV.view === "book");
   if ($("langSelect")) $("langSelect").value = EV.lang;
@@ -168,7 +168,30 @@ function renderTop() {
   if (typeof EVDICT !== "undefined") EVDICT.apply(document, EV.lang);
 }
 function stampsFor(w) { if (!w) return 0; return w.spreads.filter(sp => (EV.progress[pkey(w, sp)] || {}).stamped).length; }
+/* MODE: 3D book by default (realistic plates are painted into the 3D pages).
+   2D-ONLY fallback (no WebGL, or ?mode=2d): the Three.js world is never
+   rendered and every request for the 3D book opens the 2D flipbook instead. */
+const EV_2D_ONLY = (() => {
+  try {
+    const q = new URLSearchParams(location.search).get("mode");
+    if (q === "2d") return true;
+    if (q === "3d") return false;
+    const c = document.createElement("canvas");
+    const gl = c.getContext && (c.getContext("webgl2") || c.getContext("webgl"));
+    if (!gl) return true;               /* no WebGL: safe 2D flipbook fallback */
+    const lose = gl.getExtension && gl.getExtension("WEBGL_lose_context");
+    if (lose) lose.loseContext();       /* free the probe context slot */
+    return false;
+  } catch (e) { return true; }
+})();
+window.EV_2D_ONLY = EV_2D_ONLY;
 function setView(v) {
+  if (EV_2D_ONLY && v === "book") {
+    const w = EV.world || getWorld("c10_carbon");
+    if (window.SCIVERSE) SCIVERSE.openFlipbook(w.id, WORLD.index || 0, w);
+    if (EV.view === "world") return;
+    v = "world";
+  }
   EVFSM.transition("view", "ENTER", { to: v });
   EV.view = v;
   const three = v === "world" || v === "book";
@@ -519,6 +542,8 @@ const EV_LABEL_DATA=__EV_LABEL_DATA__;
 const EVLABEL=(()=>{
   const active=new WeakMap(); let serial=0;
   function destroy(host){const old=host&&active.get(host);if(!old)return;old.ro.disconnect();old.layer.remove();active.delete(host)}
+  /* shrink-to-fit: long bilingual names never clip inside their chip */
+  function fitChips(layer){layer.querySelectorAll('.ev-label-chip').forEach(ch=>{ch.style.fontSize='';if(!ch.clientHeight)return;let fs=parseFloat(getComputedStyle(ch).fontSize)||12;let guard=24;while(guard--&&fs>6.5&&(ch.scrollHeight>ch.clientHeight+1||ch.scrollWidth>ch.clientWidth+1)){fs-=0.5;ch.style.fontSize=fs+'px'}})}
   function render(host,key){
     if(!host)return; destroy(host);
     const specs=EV_LABEL_DATA[key]; const img=host.querySelector('img');
@@ -551,7 +576,7 @@ const EVLABEL=(()=>{
     info.addEventListener('click',e=>e.stopPropagation());
     specs.forEach((spec,i)=>{
       const hit=document.createElement('button');hit.type='button';hit.className='ev-label-hit';hit.dataset.labelIndex=String(i);
-      if(spec.anchor_x!=null&&spec.anchor_y!=null){hit.classList.add('ev-label-chip');hit.textContent=BI(spec.en,spec.hi)}
+      if(spec.anchor_x!=null&&spec.anchor_y!=null){hit.classList.add('ev-label-chip');hit.textContent=BI(spec.en,spec.hi);hit.dataset.n=String(specs.indexOf(spec)+1)}
       let right=spec.x+spec.w;
       for(const other of specs)if(other!==spec&&other.x>spec.x&&other.x<right&&other.y<spec.y+spec.h&&spec.y<other.y+other.h)right=other.x-2;
       hit.style.left=(spec.x/1408*100)+'%';hit.style.top=(spec.y/768*100)+'%';hit.style.width=((right-spec.x)/1408*100)+'%';hit.style.height=(spec.h/768*100)+'%';
@@ -560,7 +585,7 @@ const EVLABEL=(()=>{
       layer.append(hit);buttons.push(hit);
     });
     layer.append(info);host.append(layer);
-    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const iw=Math.min(w,h*1408/768),ih=iw*768/1408;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px')}
+    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const ar=(img.naturalWidth&&img.naturalHeight)?img.naturalWidth/img.naturalHeight:1408/768;const iw=Math.min(w,h*ar),ih=iw/ar;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px');layer.classList.toggle('ev-compact',iw<560);if(iw>=560)fitChips(layer)}
     const ro=new ResizeObserver(size);ro.observe(host);img.addEventListener('load',size,{once:true});size();active.set(host,{ro,layer,closeInfo});
   }
   function closeOpen(host){const item=host&&active.get(host);if(!item)return false;const p=item.layer.querySelector('.ev-label-pop');if(!p||p.hidden)return false;item.closeInfo();return true}
@@ -1442,6 +1467,16 @@ const EVRASTER = (() => {
     ]
   }
 };
+  /* Realistic plates imported from anveshix/ifinite-horizon (tools/import_realistic_plates.py):
+     shown FIRST for each mapped section; the generated composite stays as the next image. */
+  const realistic = __EV_REALISTIC_ASSETS__;
+  Object.keys(realistic).forEach(wid => {
+    const g = assets[wid] || (assets[wid] = {});
+    Object.keys(realistic[wid]).forEach(sec => {
+      const rx = realistic[wid][sec], old = (g[sec] || []).filter(f => rx.indexOf(f) < 0);
+      g[sec] = rx.concat(old);
+    });
+  });
   let enabled = true, identity = '', imageIndex = 0, token = 0, ready = false;
   let currentFiles = [];
   function has(world, sp) { return !!(world && sp && assets[world.id] && assets[world.id][sp.section]); }
@@ -1693,13 +1728,13 @@ const EVRASTER = (() => {
     };
     const note=(EV.world.id==='c9_atom' || EV.world.id==='c9_atomic_foundations' || EV.world.id==='c9_sound' || EV.world.id==='c9_reproduction9' || EV.world.id==='c9_diversity' || EV.world.id==='c9_earth' || EV.world.id==='c10_reactions' || EV.world.id==='c10_acids' || EV.world.id==='c10_metals' || EV.world.id==='c10_life' || EV.world.id==='c10_heredity' || EV.world.id==='c10_env' || EV.world.id==='c10_control' || EV.world.id==='c10_sources' || EV.world.id==='c10_sustainable' || EV.world.id==='c9_exploration' || EV.world.id==='c9_matter' || EV.world.id==='c10_repro' || EV.world.id==='c10_carbon' || EV.world.id==='c10_periodic' || EV.world.id==='c10_light' || EV.world.id==='c10_eye' || EV.world.id==='c10_electricity' || EV.world.id==='c10_magnetism' || EV.world.id==='c9_pure' || EV.world.id==='c9_atoms' || EV.world.id==='c9_disease') && atomNotes[file];
     $('aiDraftTitle').textContent=description; img.alt=description+(note ? ' — '+BI(note[0],note[1]) : '');
-    const src='assets/2d/'+EV.world.id+'/'+file, probe=new Image();
+    const src=EVPLATE_SRC(EV.world.id,file), probe=new Image();
     probe.onload=() => {
       if(number!==token || !validContext()) return;
-      img.onload=() => { if(number===token) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EV.world.id+'/'+file); EVZOOM.refreshDraft();} };
+      img.onload=() => { if(number===token) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();} };
       img.onerror=() => { if(number===token) {ready=false; hide();} };
       img.src=src;
-      if(img.complete && img.naturalWidth) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EV.world.id+'/'+file); EVZOOM.refreshDraft();}
+      if(img.complete && img.naturalWidth) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();}
     };
     probe.onerror=() => { if(number===token) {ready=false; hide(); if(!WORLD.vectorPlate2dAvailable(EV.world)) { setPlateView('3d'); toast('Draft image unavailable; live 3D restored / चित्र उपलब्ध नहीं, 3D बहाल'); }} };
     probe.src=src;
@@ -1744,17 +1779,24 @@ const EVRASTER = (() => {
     $('aiDraftNext').onclick=next;
     $('aiDraftPlate').addEventListener('keydown',e=>{if(e.key==='Escape'&&EVLABEL.closeOpen(document.querySelector('.ai-draft-visual'))){e.preventDefault();e.stopPropagation();}});
   }
-  function next() { if(currentFiles.length>1){imageIndex=(imageIndex+1)%currentFiles.length;load();} }
+  function next() { if(currentFiles.length>1){imageIndex=(imageIndex+1)%currentFiles.length;load();WORLD.repaintPages();} }
   function zoomSource(allowHidden) {
     const el=$('aiDraftPlate'),img=$('aiDraftImage');
-    return el && (allowHidden || !el.hidden) && ready && validContext() && img && img.complete && img.naturalWidth ? {src:img.src,kind:'draft2d',alt:img.alt,key:EV.world.id+'/'+currentFiles[imageIndex]} : null;
+    return el && (allowHidden || !el.hidden) && ready && validContext() && img && img.complete && img.naturalWidth ? {src:img.src,kind:'draft2d',alt:img.alt,key:EVPLATE_KEY(EV.world.id,currentFiles[imageIndex])} : null;
   }
   function pageCounter() { return (imageIndex+1)+' / '+currentFiles.length; }
   function activate() { enabled=true; identity=''; }
   function deactivate() { enabled=false; identity=''; token++; ready=false; hide(); }
   function filesFor(wid, sec) { return (assets[wid] && assets[wid][sec]) ? assets[wid][sec].slice() : []; }
-  function firstThumb(wid) { const g = assets[wid]; if (!g) return ''; const k = Object.keys(g)[0]; return (k && g[k] && g[k][0]) ? 'assets/2d/' + wid + '/' + g[k][0] : ''; }
-  return {frame,toggle,install,zoomSource,has,filesFor,firstThumb,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
+  /* the file the 3D page texture must paint: the overlay's current choice for
+     the spread on screen, otherwise the section's first plate */
+  function fileFor(wid, sec) {
+    const f = filesFor(wid, sec); if (!f.length) return '';
+    const onScreen = EV.world && EV.world.id === wid && EV.world.spreads[WORLD.index] && EV.world.spreads[WORLD.index].section === sec;
+    return onScreen && identity && f[imageIndex] ? f[imageIndex] : f[0];
+  }
+  function firstThumb(wid) { const g = assets[wid]; if (!g) return ''; const k = Object.keys(g)[0]; return (k && g[k] && g[k][0]) ? EVPLATE_SRC(wid, g[k][0]) : ''; }
+  return {frame,toggle,install,zoomSource,has,filesFor,fileFor,firstThumb,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
 })();
 window.EVRASTER = EVRASTER;
 
@@ -2320,7 +2362,8 @@ function boot() {
   const qs = new URLSearchParams(location.search);
   const deepWorld = qs.get("world"), deepSpread = parseInt(qs.get("spread") || "0", 10) || 0;
   if (deepWorld && CATALOGUE_ALL.some(c => c.id === deepWorld)) EV.world = getWorld(deepWorld);
-  WORLD.init($("gl"), callbacks);
+  WORLD.init($("gl"), EV_2D_ONLY ? Object.assign({}, callbacks, { no3d: true }) : callbacks);
+  if (EV_2D_ONLY) document.body.classList.add("mode-2d");
   EVRASTER.install();
   $("precision2d").addEventListener("click", e => { if (e.target.closest("svg")) EVZOOM.open(); });
   WORLD.setLang(EV.lang);
@@ -2394,6 +2437,31 @@ function boot() {
     toastKey(EV.boardText === "big" ? "toast.bigOn" : "toast.bigOff",
       EV.boardText === "big" ? "30 FT / बड़ा बोर्ड चालू — पिछली पंक्ति से पढ़ें" : "विस्तृत पाठ · detail plate");
   };
+  /* Far-read (#btnFar, from branch ccr-c832c1ee-2alkrc): full screen + 30 ft type +
+     high-contrast pages + bottom panels collapsed. Off restores theme, type and panels. */
+  let farPrev = null;
+  function setFarRead(on) {
+    on = !!on;
+    if (on && !farPrev) {
+      farPrev = { panels: JSON.parse(JSON.stringify(EV.panels)), boardText: EV.boardText, theme: EV.theme };
+      applyBoardText("big"); applyTheme("classroom");
+      EV.panels.left = EV.panels.right = false; applyPanels();
+    } else if (!on && farPrev) {
+      applyBoardText(farPrev.boardText); applyTheme(farPrev.theme);
+      EV.panels = farPrev.panels; applyPanels(); farPrev = null;
+    }
+    document.body.classList.toggle("far-read", on);
+    const fb = $("btnFar");
+    if (fb) { fb.classList.toggle("active", on); fb.setAttribute("aria-pressed", String(on)); }
+    try {
+      if (on && !document.fullscreenElement && document.documentElement.requestFullscreen)
+        document.documentElement.requestFullscreen().catch(() => {});
+      if (!on && document.fullscreenElement && document.exitFullscreen)
+        document.exitFullscreen().catch(() => {});
+    } catch (e) {}
+  }
+  if ($("btnFar")) $("btnFar").onclick = () => setFarRead(!farPrev);
+  if (new URLSearchParams(location.search).get("far") === "1") setFarRead(true);
   if ($("btnCompileTop")) $("btnCompileTop").onclick = () => setView("compiler");
   $("btnEnter").onclick = () => { if (!EV.world) EV.world = getWorld("c10_carbon"); setView("book"); };
   if ($("btnEnterShelf")) $("btnEnterShelf").onclick = $("btnEnter").onclick;
@@ -2570,7 +2638,7 @@ const EVLIB = (function () {
     ["lib.note", "2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning — Pick a class to begin.",
       "2D फ़्लिपबुक • 3D मॉडल • इंटरैक्टिव प्रयोग • हिंदी–अंग्रेज़ी शिक्षण — शुरू करने के लिए कक्षा चुनें।",
       "2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English"],
-    ["lib.resume", "Open 3D Book →", "3D किताब खोलें →", "Open 3D Book →"],
+    ["lib.resume", "Open book →", "पुस्तक खोलें →", "Open book →"],
     ["lib.back", "← All classes", "← सभी कक्षाएँ", "← All classes / सभी कक्षाएँ"],
     ["lib.backShelf", "← Library dashboard", "← पुस्तकालय डैशबोर्ड", "← Library / पुस्तकालय"],
     ["lib.close", "Close chapter list", "अध्याय सूची बंद करें", "Close / बंद करें"],

@@ -28,6 +28,7 @@
  */
 
 import fs from "node:fs";
+import crypto from "node:crypto";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
@@ -1708,6 +1709,25 @@ function main() {
     }
   }
 
+  /* GUARD: never overwrite an authored/realistic plate. A file whose SHA-256
+     matches DRAFT_MANIFEST.json (the reviewed realistic originals) is kept
+     unless --force is passed explicitly. */
+  const protectedHashes = new Set();
+  try {
+    const man = JSON.parse(fs.readFileSync(path.join(ROOT, "DRAFT_MANIFEST.json"), "utf8"));
+    for (const r of man.records || []) {
+      if (r.sha256) protectedHashes.add(r.sha256);
+      for (const s of r.supplements || []) if (s && s.sha256) protectedHashes.add(s.sha256);
+    }
+  } catch (_e) {}
+  const force = process.argv.includes("--force");
+  const isProtected = outPath => {
+    if (force || !fs.existsSync(outPath)) return false;
+    const h = crypto.createHash("sha256").update(fs.readFileSync(outPath)).digest("hex");
+    return protectedHashes.has(h);
+  };
+  let skipped = 0;
+
   const keys = Array.from(keyToMeta.keys()).filter(k => !onlySet || onlySet.has(k));
   let totalBytes = 0;
   let builtCount = 0;
@@ -1715,15 +1735,16 @@ function main() {
   for (const key of keys) {
     const meta = keyToMeta.get(key);
     const specs = labelData[key] || [];
-    const buf = renderPlate(runtime, key, specs, meta);
     const outPath = path.join(ROOT, "assets/2d", key);
+    if (isProtected(outPath)) { skipped++; continue; }
+    const buf = renderPlate(runtime, key, specs, meta);
     fs.mkdirSync(path.dirname(outPath), { recursive: true });
     fs.writeFileSync(outPath, buf);
     totalBytes += buf.length;
     builtCount++;
     if (builtCount % 25 === 0 || builtCount === keys.length) {
       const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
-      console.log(`[${builtCount}/${keys.length}] built (${(totalBytes / 1048576).toFixed(2)} MiB, ${elapsed}s) — latest: ${key}`);
+      console.log(`[${builtCount}/${keys.length}] built${skipped ? ` · ${skipped} protected originals kept` : ""} (${(totalBytes / 1048576).toFixed(2)} MiB, ${elapsed}s) — latest: ${key}`);
     }
   }
 }

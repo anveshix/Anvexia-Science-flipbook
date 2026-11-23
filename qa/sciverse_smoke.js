@@ -209,9 +209,16 @@ const report = vm.runInContext(`
     // Verify 2D Flipbook HTML generation & plate mapping
     SCIVERSE.openFlipbook("c10_light", 0);
     const flipHtml = document.getElementById("svFlipBook").innerHTML;
-    if (!flipHtml.includes("assets/2d/c10_light/9-01-reflection-laws.jpg")) {
-      throw new Error("2D Flipbook missing 9-01-reflection-laws.jpg plate");
+    if (!flipHtml.includes("assets/2d/rx/reflection.webp")) {
+      throw new Error("2D Flipbook missing realistic rx/reflection.webp plate");
     }
+    // Page parity: cover | contents + overview | concept(left) + plate(right) per section
+    const kinds = (flipHtml.match(/class="svf-page [a-z-]+/g) || []).map(k => k.replace('class="svf-page ', ""));
+    if (kinds[0] !== "svf-cover" || kinds[1] !== "svf-toc-page" || kinds[2] !== "svf-overview-page" ||
+        kinds[3] !== "svf-left-page" || kinds[4] !== "svf-right-page" || kinds.length % 2 !== 0) {
+      throw new Error("Flipbook page parity broken: " + kinds.slice(0, 6).join(","));
+    }
+    if (window.EV_2D_ONLY) throw new Error("3D must be the default when WebGL is available");
     SCIVERSE.closeFlipbook();
 
     // Verify Higher Classes (XI & XII) studio & compiler support
@@ -242,6 +249,9 @@ const report = vm.runInContext(`
     }
     // Verify all 33 chapters activate realistic topic images by default on openChapter()
     const thumbs33 = CATALOGUE_ALL.map(c => EVRASTER.firstThumb(c.id)).filter(Boolean);
+    if (EVRASTER.filesFor("c10_light", "9.1").join() !== "rx/reflection.webp,9-01-reflection-laws.jpg") {
+      throw new Error("Realistic plate must come first, generated composite kept second: " + EVRASTER.filesFor("c10_light", "9.1").join());
+    }
     if (thumbs33.length !== 33) {
       throw new Error("Expected 33 chapter thumbnails from EVRASTER, got " + thumbs33.length);
     }
@@ -251,8 +261,8 @@ const report = vm.runInContext(`
       throw new Error("Realistic topic image should be enabled by default on openChapter");
     }
     const draftImgSrc = document.getElementById("aiDraftImage").src || "";
-    if (!draftImgSrc.includes("assets/2d/c10_light/9-01-reflection-laws.jpg")) {
-      throw new Error("Expected realistic image 9-01-reflection-laws.jpg, got: " + draftImgSrc);
+    if (!draftImgSrc.includes("assets/2d/rx/reflection.webp")) {
+      throw new Error("Expected realistic image rx/reflection.webp, got: " + draftImgSrc);
     }
     // Verify 2D <-> 3D toggle preserves FSM health
     setPlateView("3d");

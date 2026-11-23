@@ -4,9 +4,15 @@ const assert = require("assert");
 
 const ROOT = path.resolve(__dirname, "..");
 const base = process.env.QA_BASE || "http://127.0.0.1:8080/";
+/* expected totals = authored labels (label_data.json) + imported realistic plates */
+const LABELS = Object.assign({},
+  JSON.parse(fs.readFileSync(path.join(ROOT, "src/label_data.json"), "utf8")),
+  JSON.parse(fs.readFileSync(path.join(ROOT, "src/realistic_plates.json"), "utf8")).labels);
+const EXP_IMAGES = Object.keys(LABELS).length;
+const EXP_LABELS = Object.values(LABELS).reduce((n, v) => n + v.length, 0);
 
 function verifyStaticGeometry() {
-  const data = JSON.parse(fs.readFileSync(path.join(ROOT, "src/label_data.json"), "utf8"));
+  const data = LABELS;
   const errors = [];
   let totalLabels = 0;
   const overlap = (a, b) =>
@@ -63,9 +69,9 @@ function verifyStaticGeometry() {
   }
 
   assert.deepEqual(errors, []);
-  assert.equal(Object.keys(data).length, 274);
-  assert.equal(totalLabels, 516);
-  console.log("static geometry: 274 images, 516 hotspot boxes, bilingual info, label/popup clearance PASS");
+  assert.equal(Object.keys(data).length, EXP_IMAGES);
+  assert.equal(totalLabels, EXP_LABELS);
+  console.log(`static geometry: ${EXP_IMAGES} images, ${EXP_LABELS} hotspot boxes, bilingual info, label/popup clearance PASS`);
 }
 
 (async () => {
@@ -117,10 +123,10 @@ function verifyStaticGeometry() {
         return { images: Object.keys(data).length, labels: n, errors };
       });
       assert.deepEqual(res.errors, []);
-      assert.equal(res.images, 274);
-      assert.equal(res.labels, 516);
+      assert.equal(res.images, EXP_IMAGES);
+      assert.equal(res.labels, EXP_LABELS);
       assert.deepEqual(errors, []);
-      console.log((mobile ? "mobile" : "desktop"), "274 images, 516 hotspot boxes, bilingual info, label/popup geometry PASS");
+      console.log((mobile ? "mobile" : "desktop"), `${EXP_IMAGES} images, ${EXP_LABELS} hotspot boxes, bilingual info, label/popup geometry PASS`);
       await p.close();
     } finally {
       await b.close();

@@ -830,9 +830,10 @@ const WORLD = (function () {
     if (both || !hi) y = wrap(x, sp.concept, 84, y, 732, 44, 4,
                               "800 38px Georgia, 'Noto Sans Devanagari Embedded', serif");
     if (both || hi) {
-      x.strokeStyle = PC.rule; x.lineWidth = 3; x.beginPath(); x.moveTo(84, y - 8); x.lineTo(816, y - 8); x.stroke();
+      /* Devanagari rises ~32px above its baseline: keep the separator clear of the headstroke */
+      x.strokeStyle = PC.rule; x.lineWidth = 3; x.beginPath(); x.moveTo(84, y - 10); x.lineTo(816, y - 10); x.stroke();
       x.fillStyle = PC.accent;
-      y = wrap(x, sp.conceptHi, 84, y + 12, 732, 38, 2,
+      y = wrap(x, sp.conceptHi, 84, y + 32, 732, 38, 2,
                "800 32px Georgia, 'Noto Sans Devanagari Embedded', serif");
     }
     y = Math.min(y + 14, 770);
@@ -968,8 +969,64 @@ const WORLD = (function () {
     }
     x.restore();
   }
+  /* RASTER PLATES IN THE PAGE TEXTURE. The realistic 1408x768 plate is painted
+     INTO the page canvas, so it is part of the paper and turns with the leaf.
+     The DOM overlay (EVRASTER) still sits on top when the page is at rest for
+     crisp pixels + clickable labels; it uses the identical 708x610 layout
+     (3px frame, 36px head, 48px foot), so texture <-> overlay is seamless. */
+  const RASTER = (function () {
+    const cache = new Map(); /* src -> {img, ok} */
+    function fileFor(world, sp) {
+      if (!world || !sp || typeof EVRASTER === "undefined") return "";
+      if (EVRASTER.fileFor) return EVRASTER.fileFor(world.id, sp.section) || "";
+      const f = EVRASTER.filesFor ? EVRASTER.filesFor(world.id, sp.section) : [];
+      return f[0] || "";
+    }
+    function get(world, sp) {
+      const file = fileFor(world, sp);
+      if (!file) return null;
+      const src = EVPLATE_SRC(world.id, file);
+      let e = cache.get(src);
+      if (!e) {
+        if (typeof Image === "undefined") return null;
+        const img = new Image(); e = { img, ok: false }; cache.set(src, e);
+        img.decoding = "async";
+        img.onload = () => { e.ok = true; if (world === currentWorld) queueRepaint(); };
+        img.onerror = () => { e.ok = false; e.failed = true; };
+        img.src = src;
+      }
+      return e.ok ? e.img : null;
+    }
+    function warm(world, idx) {
+      if (!world) return;
+      for (const i of [idx, idx + 1, idx - 1, idx + 2]) if (world.spreads[i]) get(world, world.spreads[i]);
+    }
+    return { get, warm, has: (w, sp) => !!fileFor(w, sp) };
+  })();
+  function drawRasterPlate(x, sp, img, X, Y, W, H) {
+    x.save();
+    x.fillStyle = "#0b1828"; x.fillRect(X, Y, W, H);
+    const head = 36, foot = 48, b = 3;
+    const g = x.createLinearGradient(X, 0, X + W, 0); g.addColorStop(0, "#0f2948"); g.addColorStop(1, "#19416d");
+    x.fillStyle = g; x.fillRect(X + b, Y + b, W - 2 * b, head);
+    x.fillStyle = "#eaf4ff"; x.textAlign = "left"; x.font = "700 14px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
+    drawFitted(x, "§ " + sp.section + " · " + BI(sp.title, sp.titleHi), X + 15, Y + b + 24, W - 30, x.font, 1, 0, 0, 11);
+    const py = Y + b + head, ph = H - 2 * b - head - foot, pw = W - 2 * b;
+    x.fillStyle = "#071322"; x.fillRect(X + b, py, pw, ph);
+    const s = Math.min(pw / img.naturalWidth, ph / img.naturalHeight);
+    const iw = img.naturalWidth * s, ih = img.naturalHeight * s;
+    x.imageSmoothingEnabled = true; x.imageSmoothingQuality = "high";
+    x.drawImage(img, X + b + (pw - iw) / 2, py + (ph - ih) / 2, iw, ih);
+    x.fillStyle = "#f3f7fc"; x.fillRect(X + b, Y + H - b - foot, W - 2 * b, foot);
+    x.fillStyle = "#0d233c"; x.font = "700 16px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
+    drawFitted(x, BI(sp.title, sp.titleHi), X + 15, Y + H - b - foot + 29, W - 30, x.font, 1, 0, 0, 11);
+    x.strokeStyle = "#163e66"; x.lineWidth = 3; x.strokeRect(X + 1.5, Y + 1.5, W - 3, H - 3);
+    x.restore();
+  }
   function figurePlate(x, sp, X, Y, W, H) {
-    if (plate2d && EVPLATE2D.has(currentWorld, sp)) draw2DPlate(x, sp, X, Y, W, H);
+    const raster = plate2d ? RASTER.get(currentWorld, sp) : null;
+    if (raster) drawRasterPlate(x, sp, raster, X, Y, W, H);
+    else if (plate2d && EVPLATE2D.has(currentWorld, sp)) draw2DPlate(x, sp, X, Y, W, H);
     else if (plate2d) drawBigDiagram(x, sp, X, Y, W, H); /* honest local fallback underneath draft */
     else if (figureMode === "3d" && FIGURE3D.ready) draw3DPlate(x, sp, X, Y, W, H);
     else drawBigDiagram(x, sp, X, Y, W, H);   /* honest GPU-failure fallback */
@@ -1328,7 +1385,8 @@ const WORLD = (function () {
   /* ---------------------------------------------------------------- scene */
   function init(el, callbacks) {
     canvas = el; cb = callbacks || {};
-    try {
+    const no3d = !!cb.no3d; /* 2D-only build: no WebGL context, no render loop */
+    if (!no3d) try {
       renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: false, powerPreference: "high-performance" });
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.7));
       renderer.outputColorSpace = THREE.SRGBColorSpace || renderer.outputColorSpace;
@@ -1351,7 +1409,7 @@ const WORLD = (function () {
     window.addEventListener("pointerup", onUp);
     canvas.addEventListener("wheel", onWheel, { passive: false });
     window.addEventListener("keydown", onKey);
-    animate();
+    if (!no3d) animate();
     if (cb.onReady) cb.onReady(!!renderer);
   }
   function resize() {
@@ -1588,6 +1646,7 @@ const WORLD = (function () {
        name the CURRENT lesson's anatomy rather than the previous spread. */
     const key = (currentWorld.id || currentWorld.short || "w") + ":" + spreadIndex;
     if (key !== figureKey && renderer) { figureKey = key; FIGURE3D.rebuild(sp, params, currentWorld); }
+    if (plate2d) RASTER.warm(currentWorld, spreadIndex);
     if (!leftPage || !rightPage) return;
     leftPage.material.map.dispose(); leftPage.material.map = tex(drawLeft(sp, currentWorld, spreadIndex * 2 + 1)); leftPage.material.needsUpdate = true;
     rightPage.material.map.dispose(); rightPage.material.map = tex(drawRight(sp, currentWorld, spreadIndex * 2 + 2)); rightPage.material.needsUpdate = true;
