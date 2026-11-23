@@ -1,13 +1,36 @@
 <div id="app">
-  <!-- STUDENT BAR: only what a learner needs -->
+  <!-- STUDENT BAR: crisp SciVerse 3D navigation -->
   <header class="topbar">
-    <div class="brand" id="brand" title="Home · Class IX/X library" data-i18n-title="ui.home"><div class="brand-mark">EV</div><div class="brand-name" data-i18n="brand">EduVerse</div></div>
+    <div class="brand" id="brand" title="SciVerse 3D · Home library" data-i18n-title="ui.home">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 36" width="26" height="26" focusable="false">
+          <defs>
+            <linearGradient id="svBg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#38e8ff"/>
+              <stop offset=".55" stop-color="#3b82f6"/>
+              <stop offset="1" stop-color="#8b5cf6"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="18" cy="17" rx="14" ry="6.2" fill="none" stroke="url(#svBg)" stroke-width="1.8" transform="rotate(-28 18 17)"/>
+          <ellipse cx="18" cy="17" rx="14" ry="6.2" fill="none" stroke="#7ee0b8" stroke-width="1.6" opacity=".88" transform="rotate(28 18 17)"/>
+          <path d="M9 24.5 Q13.5 22 18 24.8 Q22.5 22 27 24.5 L27 29.2 Q22.5 26.8 18 29.5 Q13.5 26.8 9 29.2 Z" fill="#f7c96f" opacity=".95"/>
+          <circle cx="18" cy="16.5" r="3.4" fill="#f7c96f"/>
+          <circle cx="29.5" cy="11.2" r="2" fill="#38e8ff"/>
+        </svg>
+      </div>
+      <div class="brand-stack">
+        <div class="brand-name" data-i18n="brand">SciVerse 3D</div>
+        <div class="brand-sub" data-i18n="sv.tagline">Explore Science. Experience Discovery.</div>
+      </div>
+    </div>
     <select class="chapter-select" id="chapterSelect" aria-label="Chapter" data-i18n-aria="ui.chapter"></select>
     <select class="chapter-select section-select" id="sectionSelect" aria-label="NCERT section" data-i18n-aria="ui.section"></select>
     <div class="top-context"><span class="top-title" id="topTitle">Choose a chapter</span><span class="top-meta" id="topMeta"></span></div>
     <div class="top-actions">
-      <button class="btn icon" id="btnHome" title="Home · Class IX/X library" data-i18n-title="ui.home" data-i18n-aria="ui.home" aria-label="Home">⌂</button>
-      <button class="btn icon" id="btnBookTop" title="Open Book" data-i18n-title="ui.openBook" data-i18n-aria="ui.openBook">▤</button>
+      <button class="btn icon" id="btnHome" title="Home · SciVerse 3D library" data-i18n-title="ui.home" data-i18n-aria="ui.home" aria-label="Home">⌂</button>
+      <button class="btn icon sv-search-trigger" id="btnSearchTop" type="button" title="Search concepts, formulas, experiments (Ctrl+K)" data-i18n-title="sv.searchBtn" aria-label="Search Science">⌕</button>
+      <button class="btn ghost tiny sv-flip-trigger" id="btnFlipbookTop" type="button" title="Open 2D Illustrated Flipbook" data-i18n-title="sv.flipbookSub"><span aria-hidden="true">📖</span> <span data-i18n="sv.flipbookBtn">2D Flipbook</span></button>
+      <button class="btn icon" id="btnBookTop" title="Open 3D Book" data-i18n-title="ui.openBook" data-i18n-aria="ui.openBook">▤</button>
       <button class="btn icon" id="btnShotTop" title="Camera angle" data-i18n-title="ui.cameraAngle" data-i18n-aria="ui.cameraAngle">◉</button>
       <button class="btn icon" id="btnFocus" title="Full 3D view" data-i18n-title="ui.full3d" data-i18n-aria="ui.full3d">⛶</button>
       <button class="btn icon" id="btnQuizTop" title="Quick check" data-i18n-title="ui.quickCheck" data-i18n-aria="ui.quickCheck">✓</button>
@@ -26,7 +49,7 @@
     </div>
   </header>
 
-  <!-- HIDDEN BY DEFAULT: everything non-student -->
+  <!-- HIDDEN BY DEFAULT: teacher & authoring studio -->
   <aside class="tools-drawer" id="toolsDrawer" hidden>
     <div class="drawer-head"><b data-i18n="ui.toolsHeading">TOOLS · TEACHER / AUTHOR</b><button class="btn icon" id="btnCloseTools" aria-label="Close tools" data-i18n-aria="ui.closeTools" data-i18n-title="ui.closeTools">×</button></div>
     <nav class="nav" id="nav"></nav>
@@ -52,16 +75,10 @@
     </section>
     <div class="precision" id="precision2d" hidden></div>
 
-    <!-- META WORLD: one line of guidance, no clutter -->
+    <!-- META WORLD + SCIVERSE 3D ACADEMIC LIBRARY DASHBOARD -->
     <div class="hud world-hud library-mode" id="worldHud">
 
-      <!-- ==================================================================
-           ACADEMIC LIBRARY DASHBOARD — additive student landing (world view).
-           Two separately clickable Class IX / Class X textbook cards; each opens
-           that class's chapter drawer, every chapter opens the existing flipbook.
-           All covers are inline SVG/CSS: zero external refs, zero new scripts.
-           ================================================================== -->
-      <section class="lib" id="libDash" aria-label="Science library">
+      <section class="lib" id="libDash" aria-label="SciVerse 3D Science Library">
         <svg class="lib-constellation" viewBox="0 0 360 240" aria-hidden="true" focusable="false">
           <g fill="none" stroke="#7fa8e0" stroke-width="1" opacity=".42">
             <path d="M24 176 L86 118 L142 148 L206 74 L268 104 L330 46"/>
@@ -83,25 +100,44 @@
 
         <header class="lib-head">
           <div class="lib-head-text">
-            <div class="lib-eyebrow" data-i18n="lib.eyebrow">EDUVERSE · CBSE / NCERT SCIENCE · 2026-27</div>
-            <h2 class="lib-title" data-i18n="lib.title">Your Science Library</h2>
-            <p class="lib-sub" data-i18n="lib.sub">Two classes · 26 chapters · one bilingual 3D flipbook. Choose a textbook to see what is inside.</p>
+            <div class="lib-eyebrow" data-i18n="lib.eyebrow">SCIVERSE 3D · CBSE / NCERT SCIENCE</div>
+            <h2 class="lib-title"><span class="sv-hero-brand">SciVerse 3D</span> <span class="sv-hero-sep">—</span> <span class="sv-hero-tag" data-i18n="sv.tagline">Explore Science. Experience Discovery.</span></h2>
+            <p class="lib-sub" data-i18n="lib.sub">Class IX–X Science mastery · extensible to Class XI–XII. Choose a textbook or launch any learning mode below.</p>
+            <div class="sv-pillars" role="group" aria-label="SciVerse 3D Pillars">
+              <button class="sv-pillar" id="svPillarFlipbook" type="button"><i aria-hidden="true">📖</i><span data-i18n="sv.pillar1">2D Flipbooks</span></button>
+              <span class="sv-pillar-dot" aria-hidden="true">•</span>
+              <button class="sv-pillar" id="svPillar3D" type="button"><i aria-hidden="true">🧊</i><span data-i18n="sv.pillar2">3D Models</span></button>
+              <span class="sv-pillar-dot" aria-hidden="true">•</span>
+              <button class="sv-pillar" id="svPillarExp" type="button"><i aria-hidden="true">⚗️</i><span data-i18n="sv.pillar3">Interactive Experiments</span></button>
+              <span class="sv-pillar-dot" aria-hidden="true">•</span>
+              <button class="sv-pillar" id="svPillarLang" type="button"><i aria-hidden="true">अ/A</i><span data-i18n="sv.pillar4">Hindi–English Learning</span></button>
+            </div>
           </div>
           <div class="lib-head-side">
             <div class="lib-stats" id="libStats"></div>
             <div class="lib-actions">
               <button class="btn primary lib-open-btn" id="btnEnter" type="button" data-i18n="lib.resume">Open book →</button>
+              <button class="lib-shelf-btn" id="btnLibFlipbook" type="button"><span aria-hidden="true">📖</span> <span data-i18n="sv.flipbookBtn">2D Flipbook</span></button>
               <button class="lib-shelf-btn" id="libShelf" type="button" data-i18n="lib.shelf">Explore 3D shelf ↗</button>
             </div>
           </div>
         </header>
+
+        <!-- Instant offline Hindi-English search omnibox trigger -->
+        <div class="sv-lib-search-row">
+          <button class="sv-search-bar" id="svLibSearchBtn" type="button">
+            <span class="sv-search-ico" aria-hidden="true">⌕</span>
+            <span class="sv-search-txt" data-i18n="sv.searchPlaceholder">Search 266 concepts, formulas, experiments in English or हिंदी…</span>
+            <kbd class="sv-kbd">Ctrl K</kbd>
+          </button>
+        </div>
 
         <div class="lib-book" id="libBook">
           <button class="lib-page lib-page-ix" id="classCardIX" type="button" data-cls="IX" data-i18n-aria="lib.openIX">
             <span class="lp-art">
               <svg class="lp-cover" viewBox="0 0 220 280" aria-hidden="true" focusable="false">
                 <defs>
-                  <linearGradient id="cv9g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#24508c"/><stop offset=".55" stop-color="#152f5c"/><stop offset="1" stop-color="#0a1b3b"/></linearGradient>
+                  <linearGradient id="cv9g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e4d8c"/><stop offset=".55" stop-color="#122b57"/><stop offset="1" stop-color="#091733"/></linearGradient>
                   <linearGradient id="cv9p" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#d8cbaa"/></linearGradient>
                   <linearGradient id="cv9a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f0c477"/><stop offset="1" stop-color="#c78a2e"/></linearGradient>
                 </defs>
@@ -110,7 +146,7 @@
                 <rect x="6" y="4" width="198" height="270" rx="9" fill="url(#cv9g)" stroke="#071429" stroke-width="2"/>
                 <rect x="6" y="4" width="15" height="270" rx="7" fill="#071633" opacity=".9"/>
                 <rect x="27" y="20" width="166" height="238" rx="5" fill="none" stroke="url(#cv9a)" stroke-width="1.5" opacity=".85"/>
-                <text x="110" y="46" text-anchor="middle" fill="#bcd3f2" font-family="Arial, sans-serif" font-size="9" letter-spacing="2.4">NCERT · CBSE 2026-27</text>
+                <text x="110" y="46" text-anchor="middle" fill="#9fd6ff" font-family="Arial, sans-serif" font-size="8.6" font-weight="bold" letter-spacing="2.2">SCIVERSE 3D · NCERT</text>
                 <g transform="translate(110 116)" fill="none" stroke="#8fc3ff" stroke-width="2">
                   <ellipse rx="52" ry="21"/><ellipse rx="52" ry="21" transform="rotate(60)"/><ellipse rx="52" ry="21" transform="rotate(120)"/>
                 </g>
@@ -154,7 +190,7 @@
                 <rect x="6" y="4" width="198" height="270" rx="9" fill="url(#cv10g)" stroke="#0a0a24" stroke-width="2"/>
                 <rect x="6" y="4" width="15" height="270" rx="7" fill="#0d0d2c" opacity=".9"/>
                 <rect x="27" y="20" width="166" height="238" rx="5" fill="none" stroke="url(#cv10a)" stroke-width="1.5" opacity=".85"/>
-                <text x="110" y="46" text-anchor="middle" fill="#cfc9f2" font-family="Arial, sans-serif" font-size="9" letter-spacing="2.4">NCERT · CBSE 2026-27</text>
+                <text x="110" y="46" text-anchor="middle" fill="#d4ceff" font-family="Arial, sans-serif" font-size="8.6" font-weight="bold" letter-spacing="2.2">SCIVERSE 3D · NCERT</text>
                 <g transform="translate(110 112)">
                   <polygon points="0,-44 38,-22 38,22 0,44 -38,22 -38,-22" fill="none" stroke="#a9a5f0" stroke-width="2.2"/>
                   <circle r="27" fill="none" stroke="#f0c477" stroke-width="1.8" opacity=".9"/>
@@ -187,13 +223,23 @@
           </button>
         </div>
 
+        <!-- Higher Classes Expansion Banner (Class XI & XII PCM / PCB) -->
+        <div class="sv-higher-card" id="classCardHigher" role="region" aria-label="Higher Classes XI and XII Expansion">
+          <div class="sv-higher-main">
+            <span class="sv-higher-badge" data-i18n="sv.higherBadge">EXPANDABLE · CLASS XI &amp; XII</span>
+            <strong class="sv-higher-title" data-i18n="sv.higherTitle">Higher Classes · Class XI &amp; XII</strong>
+            <span class="sv-higher-sub" data-i18n="sv.higherSub">Physics · Chemistry · Biology Studio — Bridge chapters + instant NCERT XI–XII compiler</span>
+          </div>
+          <button class="btn ghost small sv-higher-btn" id="btnOpenHigher" type="button"><span data-i18n="sv.higherOpen">Explore XI–XII Studio</span> →</button>
+        </div>
+
         <footer class="lib-foot">
-          <span class="lib-foot-note" data-i18n="lib.note">Pick a class → choose a chapter → the printed page and its 3D experiment open together.</span>
+          <span class="lib-foot-note" data-i18n="lib.note">2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning — Pick a class to begin.</span>
           <span class="lib-credit" data-i18n="ui.credit">Copyright / Developer : Paras Pranav</span>
         </footer>
       </section>
 
-      <!-- CLASS CHAPTER DRAWER: opened by either class card -->
+      <!-- CLASS CHAPTER DRAWER: opened by Class IX, Class X, or XI-XII Studio -->
       <div class="lib-drawer" id="libDrawer" hidden>
         <div class="ld-scrim" data-lib-close></div>
         <aside class="ld-panel" role="dialog" aria-modal="true" aria-labelledby="ldTitle">
@@ -207,7 +253,7 @@
           </header>
           <div class="ld-list" id="ldList"></div>
           <footer class="ld-foot">
-            <button class="ld-back" id="ldBack" type="button"><span data-i18n="lib.back">← Both classes</span></button>
+            <button class="ld-back" id="ldBack" type="button"><span data-i18n="lib.back">← All classes</span></button>
             <span class="ld-foot-note" id="ldFoot"></span>
           </footer>
         </aside>
@@ -215,13 +261,11 @@
 
       <button class="shelf-back" id="shelfBack" type="button" data-i18n="lib.backShelf">← Library dashboard</button>
 
-      <!-- ORIGINAL META-WORLD HUD: preserved, reachable via "Explore 3D shelf".
-           In library mode it becomes a compact resume bar; #btnEnter stays a
-           real, visible control for the student and for the QA harness. -->
+      <!-- ORIGINAL META-WORLD HUD: preserved, reachable via "Explore 3D shelf". -->
       <div class="world-title">
-        <div class="eyebrow" id="worldEyebrow">CBSE 2026-27 · NCERT SCIENCE · CLASS IX + X</div>
-        <h1 id="worldH1">26 complete chapters<br>in one 3D textbook.</h1>
-        <p class="world-sub" id="worldSub">Every topic and subtopic · bilingual · one spread each</p>
+        <div class="eyebrow" id="worldEyebrow">SCIVERSE 3D · CLASS IX–X SCIENCE · XI–XII READY</div>
+        <h1 id="worldH1">Explore Science.<br>Experience Discovery.</h1>
+        <p class="world-sub" id="worldSub">2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning</p>
         <div class="world-chips" id="worldChips"></div>
         <button class="btn primary" id="btnEnterShelf" data-i18n="lib.resume">Open book →</button>
       </div>
@@ -244,9 +288,61 @@
     <div class="toast" id="toast"></div>
     <div class="flash" id="flash"></div>
     <div class="screen" id="screen" hidden><div class="screen-inner" id="screenInner"></div></div>
+
+    <!-- SCIVERSE 3D: TACTILE 2D FLIPBOOK READER (powered by StPageFlip) -->
+    <div class="sv-modal sv-flip-modal" id="svFlipbookModal" hidden role="dialog" aria-modal="true" aria-label="SciVerse 3D 2D Flipbook">
+      <div class="sv-modal-scrim" data-sv-flip-close></div>
+      <div class="sv-flip-shell">
+        <header class="sv-flip-top">
+          <div class="sv-flip-brand">
+            <span class="sv-flip-badge">📖 2D FLIPBOOK</span>
+            <select class="chapter-select sv-flip-ch" id="svFlipChapter" aria-label="Flipbook chapter"></select>
+            <span class="sv-flip-counter" id="svFlipCounter">Spread 1</span>
+          </div>
+          <div class="sv-flip-actions">
+            <button class="btn ghost small" id="svFlipLangBtn" type="button" title="Cycle EN + हिंदी / हिंदी / English">अ/A</button>
+            <button class="btn primary small" id="svFlipOpen3D" type="button" data-i18n="sv.open3d">Launch 3D Experiment ↗</button>
+            <button class="btn icon" id="svFlipClose" type="button" aria-label="Close 2D Flipbook">×</button>
+          </div>
+        </header>
+        <div class="sv-flip-stage-wrap" id="svFlipWrap">
+          <div class="sv-flip-book" id="svFlipBook"></div>
+        </div>
+        <footer class="sv-flip-foot">
+          <button class="btn ghost small" id="svFlipPrev" type="button">← <span data-i18n="prev">Previous</span></button>
+          <div class="sv-flip-dots" id="svFlipDots"></div>
+          <span class="sv-flip-hint">Drag page corners or use ← / → keys</span>
+          <button class="btn ghost small" id="svFlipNext" type="button"><span data-i18n="next">Next</span> →</button>
+        </footer>
+      </div>
+    </div>
+
+    <!-- SCIVERSE 3D: INSTANT BILINGUAL DISCOVERY SEARCH (powered by MiniSearch) -->
+    <div class="sv-modal sv-search-modal" id="svSearchModal" hidden role="dialog" aria-modal="true" aria-label="Search SciVerse 3D">
+      <div class="sv-modal-scrim" data-sv-search-close></div>
+      <div class="sv-search-panel">
+        <div class="sv-search-head">
+          <span class="sv-search-ico" aria-hidden="true">⌕</span>
+          <input type="search" id="svSearchInput" class="sv-search-input" autocomplete="off" spellcheck="false" placeholder="Search 266 concepts, formulas, experiments in English or हिंदी…">
+          <button class="btn icon" id="svSearchClose" type="button" aria-label="Close search">×</button>
+        </div>
+        <div class="sv-search-filters" id="svSearchFilters">
+          <button type="button" class="sv-chip on" data-sv-filter="all">All · सभी (266)</button>
+          <button type="button" class="sv-chip" data-sv-filter="IX">Class IX</button>
+          <button type="button" class="sv-chip" data-sv-filter="X">Class X</button>
+          <button type="button" class="sv-chip" data-sv-filter="phy">Physics · भौतिकी</button>
+          <button type="button" class="sv-chip" data-sv-filter="chem">Chemistry · रसायन</button>
+          <button type="button" class="sv-chip" data-sv-filter="bio">Biology · जीव विज्ञान</button>
+        </div>
+        <div class="sv-search-results" id="svSearchResults"></div>
+        <footer class="sv-search-foot">
+          <span>↑↓ navigate · Enter open 3D · Shift+Enter open 2D Flipbook · Esc close</span>
+          <span>Powered offline by MiniSearch · EN + हिंदी</span>
+        </footer>
+      </div>
+    </div>
   </main>
 </div>
 
-<!-- Always-available Home when the student top bar is hidden (projector /
-     modal): one compact high-contrast control, no second canvas or screen. -->
-<button class="home-fab" id="btnHomeFloat" type="button" title="Home · Class IX/X library" data-i18n-title="ui.home" data-i18n-aria="ui.home" aria-label="Home">⌂</button>
+<!-- Always-available Home when the student top bar is hidden -->
+<button class="home-fab" id="btnHomeFloat" type="button" title="Home · SciVerse 3D library" data-i18n-title="ui.home" data-i18n-aria="ui.home" aria-label="Home">⌂</button>

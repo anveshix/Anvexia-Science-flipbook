@@ -1,0 +1,29 @@
+{
+  "name": "sciverse-3d",
+  "version": "2.0.0",
+  "description": "SciVerse 3D — Explore Science. Experience Discovery. 2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning (Class IX–X Science, extensible to Class XI–XII).",
+  "private": true,
+  "license": "SEE LICENSE IN vendor/THIRD_PARTY_LICENSES.txt",
+  "author": "Paras Pranav",
+  "scripts": {
+    "vendor": "node tools/vendor_libs.mjs",
+    "plates": "node tools/build_2d_plates.mjs",
+    "chapters": "python3 tools/build_chapters.py",
+    "labels": "python3 tools/build_clickable_labels.py",
+    "build": "npm run vendor && python3 build.py",
+    "publish": "python3 make_publish.py",
+    "qa": "node qa/syllabus_smoke.js && node qa/label_geometry.js && node qa/sciverse_smoke.js && python3 qa/audit_draft_integration.py",
+    "start": "python3 -m http.server 8080 --bind 0.0.0.0"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^25.0.0",
+    "canvas-confetti": "^1.9.4",
+    "minisearch": "^7.2.0",
+    "page-flip": "^2.0.7",
+    "temml": "^0.14.0"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^0.1.96",
+    "esbuild": "^0.28.2"
+  }
+}
