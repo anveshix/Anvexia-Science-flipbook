@@ -1328,7 +1328,8 @@ const WORLD = (function () {
   /* ---------------------------------------------------------------- scene */
   function init(el, callbacks) {
     canvas = el; cb = callbacks || {};
-    try {
+    const no3d = !!cb.no3d; /* 2D-only build: no WebGL context, no render loop */
+    if (!no3d) try {
       renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: false, powerPreference: "high-performance" });
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.7));
       renderer.outputColorSpace = THREE.SRGBColorSpace || renderer.outputColorSpace;
@@ -1351,7 +1352,7 @@ const WORLD = (function () {
     window.addEventListener("pointerup", onUp);
     canvas.addEventListener("wheel", onWheel, { passive: false });
     window.addEventListener("keydown", onKey);
-    animate();
+    if (!no3d) animate();
     if (cb.onReady) cb.onReady(!!renderer);
   }
   function resize() {

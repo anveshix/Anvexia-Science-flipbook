@@ -160,7 +160,7 @@ function renderTop() {
   }
   $("brand").querySelector(".brand-name").textContent = t("brand");
   if ($("btnCompileTop")) $("btnCompileTop").textContent = t("compile");
-  if ($("btnEnter")) $("btnEnter").textContent = t("enterWorld") + " " + uiTxt("ui.enterArrow");
+  if ($("btnEnter")) $("btnEnter").textContent = (typeof EV_2D_ONLY !== "undefined" && EV_2D_ONLY ? BI("Open book", "पुस्तक खोलें") : t("enterWorld")) + " " + uiTxt("ui.enterArrow");
   if ($("btnHome")) $("btnHome").classList.toggle("active", EV.view === "world");
   if ($("btnBookTop")) $("btnBookTop").classList.toggle("active", EV.view === "book");
   if ($("langSelect")) $("langSelect").value = EV.lang;
@@ -168,7 +168,17 @@ function renderTop() {
   if (typeof EVDICT !== "undefined") EVDICT.apply(document, EV.lang);
 }
 function stampsFor(w) { if (!w) return 0; return w.spreads.filter(sp => (EV.progress[pkey(w, sp)] || {}).stamped).length; }
+/* 2D-ONLY MODE: the Three.js world is never rendered. Every request for the
+   3D book is routed to the StPageFlip 2D flipbook at the same chapter/spread. */
+const EV_2D_ONLY = true;
+window.EV_2D_ONLY = EV_2D_ONLY;
 function setView(v) {
+  if (EV_2D_ONLY && v === "book") {
+    const w = EV.world || getWorld("c10_carbon");
+    if (window.SCIVERSE) SCIVERSE.openFlipbook(w.id, WORLD.index || 0, w);
+    if (EV.view === "world") return;
+    v = "world";
+  }
   EVFSM.transition("view", "ENTER", { to: v });
   EV.view = v;
   const three = v === "world" || v === "book";
@@ -2320,7 +2330,8 @@ function boot() {
   const qs = new URLSearchParams(location.search);
   const deepWorld = qs.get("world"), deepSpread = parseInt(qs.get("spread") || "0", 10) || 0;
   if (deepWorld && CATALOGUE_ALL.some(c => c.id === deepWorld)) EV.world = getWorld(deepWorld);
-  WORLD.init($("gl"), callbacks);
+  WORLD.init($("gl"), EV_2D_ONLY ? Object.assign({}, callbacks, { no3d: true }) : callbacks);
+  if (EV_2D_ONLY) document.body.classList.add("mode-2d");
   EVRASTER.install();
   $("precision2d").addEventListener("click", e => { if (e.target.closest("svg")) EVZOOM.open(); });
   WORLD.setLang(EV.lang);
@@ -2570,7 +2581,7 @@ const EVLIB = (function () {
     ["lib.note", "2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning — Pick a class to begin.",
       "2D फ़्लिपबुक • 3D मॉडल • इंटरैक्टिव प्रयोग • हिंदी–अंग्रेज़ी शिक्षण — शुरू करने के लिए कक्षा चुनें।",
       "2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English"],
-    ["lib.resume", "Open 3D Book →", "3D किताब खोलें →", "Open 3D Book →"],
+    ["lib.resume", "Open book →", "पुस्तक खोलें →", "Open book →"],
     ["lib.back", "← All classes", "← सभी कक्षाएँ", "← All classes / सभी कक्षाएँ"],
     ["lib.backShelf", "← Library dashboard", "← पुस्तकालय डैशबोर्ड", "← Library / पुस्तकालय"],
     ["lib.close", "Close chapter list", "अध्याय सूची बंद करें", "Close / बंद करें"],

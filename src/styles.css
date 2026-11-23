@@ -1561,11 +1561,11 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
 .svf-toc-st{color:#b97a10;font-weight:800}
 
 .svf-plate-wrap{
- flex:1;min-height:0;display:flex;flex-direction:column;gap:7px;background:#0c1c30;border-radius:10px;
+ flex:none;min-height:0;display:flex;flex-direction:column;gap:7px;background:#0c1c30;border-radius:10px;
  padding:9px;border:1px solid #29496b;
 }
 .svf-plate-host{
- flex:1;min-height:220px;position:relative;width:100%;display:flex;align-items:center;justify-content:center;
+ flex:none;aspect-ratio:1408/768;min-height:0;position:relative;width:100%;display:flex;align-items:center;justify-content:center;
  overflow:hidden;border-radius:6px;background:#071322;
 }
 .svf-plate-host img{width:100%;height:100%;object-fit:contain;display:block}
@@ -1575,6 +1575,13 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
  text-align:center;padding:24px;background:#efe5cc;border-radius:10px;color:#2b3f59;
 }
 .svf-fallback-ico{font-size:44px;margin-bottom:8px}
+.svf-caption{font-size:clamp(12.5px,1vw,14px);color:#2b3f59;line-height:1.4;padding:2px 2px 0}
+.svf-caption b{color:#1c5fa8;margin-right:4px}
+.svf-plate-wrap.svf-missing .svf-plate-host img,.svf-hero.svf-missing img{visibility:hidden}
+.svf-plate-wrap.svf-missing .svf-plate-host::after{content:"Illustration unavailable · चित्र उपलब्ध नहीं";color:#9fb8d4;font-size:13px;position:absolute}
+.svf-hero{margin:0;border-radius:10px;overflow:hidden;border:1px solid #29496b;background:#071322;aspect-ratio:1408/768;flex:none}
+.svf-hero img{width:100%;height:100%;object-fit:cover;display:block}
+.svf-plate-host img,.svf-hero img{-webkit-user-drag:none;user-select:none;backface-visibility:hidden;transform:translateZ(0)}
 .svf-exp-callout{
  margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;
  padding:11px 14px;border-radius:10px;background:linear-gradient(120deg,#122b4d,#1b3f6e);
@@ -1629,3 +1636,44 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
  .brand-sub,.sv-flip-hint{display:none}
 }
 
+
+/* ---------------------------------------------------------------------------
+   2D-ONLY MODE (body.mode-2d): Three.js world is never initialised. Hide every
+   3D surface/control; the StPageFlip flipbook is the reading surface.
+   --------------------------------------------------------------------------- */
+body.mode-2d #gl,
+body.mode-2d #aiDraftPlate,
+body.mode-2d #precision2d,
+body.mode-2d #bookHud,
+body.mode-2d #btnBookTop,
+body.mode-2d #btnShotTop,
+body.mode-2d #btnFocus,
+body.mode-2d #btn3d,
+body.mode-2d #btnBoard,
+body.mode-2d #btnReader,
+body.mode-2d #btnO3,
+body.mode-2d #o3Panel,
+body.mode-2d #btnParts,
+body.mode-2d #evbPanel,
+body.mode-2d #btnProjector,
+body.mode-2d #p4Bar,
+body.mode-2d #svPillar3D,
+body.mode-2d #svPillar3D + .sv-pillar-dot,
+body.mode-2d #libShelf,
+body.mode-2d #svFlipOpen3D,
+body.mode-2d .sv-hit-btns [data-hit-2d],
+body.mode-2d .svf-exp-callout{display:none!important}
+body.mode-2d .stage{background:radial-gradient(ellipse at 50% 0%,#16315a 0%,#0c1422 62%)}
+body.mode-2d .stage.screen-mode{background:#0c1422}
+/* Flipbook chrome on phones: one compact row each, scrollable spread dots */
+@media (max-width:760px){
+ .sv-flip-top,.sv-flip-foot{padding:6px 8px;gap:6px;flex-wrap:nowrap}
+ .sv-flip-badge,.sv-flip-hint{display:none}
+ .sv-flip-brand{flex-wrap:nowrap;min-width:0;flex:1}
+ .sv-flip-ch{max-width:46vw;min-width:0}
+ .sv-flip-counter{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+ .sv-flip-dots{flex-wrap:nowrap;overflow-x:auto;max-width:none;flex:1;justify-content:flex-start;scrollbar-width:none}
+ .sv-flip-foot .btn{padding:6px 9px;font-size:12px;white-space:nowrap}
+ .sv-flip-foot .btn span{display:none}
+ .svf-page-inner{padding:12px 14px 10px}
+}

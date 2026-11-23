@@ -130,6 +130,28 @@ const SCIVERSE = (function () {
   let flipInst = null;
   let flipWorld = null;
   let flipPlateIdx = {}; // spreadIndex -> current supplement image index
+  /* Page parity (showCover:true pairs pages (1,2),(3,4),...): cover=0, contents=1,
+     overview=2, then every NCERT section is ONE spread: concept on the left
+     page (3+2i) and its 2D plate on the right page (4+2i). Back cover=3+2n. */
+  const FIRST_SPREAD_PAGE = 3;
+  const spreadPage = i => FIRST_SPREAD_PAGE + i * 2;
+  const plateSrc = (wid, file) => file ? `assets/2d/${encodeURIComponent(wid)}/${encodeURIComponent(file)}` : "";
+  const plateFiles = (w, sp) => (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+  const decoded = new Map(); // src -> Promise, keeps decoded bitmaps warm for page turns
+  function warmImage(src) {
+    if (!src || decoded.has(src)) return decoded.get(src);
+    const im = new Image();
+    im.decoding = "async";
+    im.src = src;
+    const pr = (im.decode ? im.decode() : new Promise((ok, no) => { im.onload = ok; im.onerror = no; })).catch(() => {});
+    decoded.set(src, pr);
+    return pr;
+  }
+  function warmChapter(w, around) {
+    /* decode the visible spread first, then neighbours, then the rest */
+    const order = w.spreads.map((_, i) => i).sort((a, b) => Math.abs(a - around) - Math.abs(b - around));
+    order.forEach(i => { const sp = w.spreads[i]; const f = plateFiles(w, sp)[flipPlateIdx[i] || 0]; warmImage(plateSrc(w.id, f)); });
+  }
 
   function isFlipOpen() {
     const m = $("svFlipbookModal");
@@ -147,7 +169,14 @@ const SCIVERSE = (function () {
       try { flipInst.destroy(); } catch (_e) {}
       flipInst = null;
     }
-    if (book) book.innerHTML = "";
+    /* StPageFlip.destroy() REMOVES its root element. Hard-reset: always leave a
+       fresh, empty #svFlipBook in the wrap so the next open can mount again. */
+    const live = $("svFlipBook");
+    if (live) { live.innerHTML = ""; if (live.style) live.style.cssText = ""; live.className = "sv-flip-book"; }
+    else {
+      const wrap = $("svFlipWrap");
+      if (wrap) { const el = document.createElement("div"); el.id = "svFlipBook"; el.className = "sv-flip-book"; wrap.appendChild(el); }
+    }
   }
 
   function stopFlipDragPropagation(root) {
@@ -162,8 +191,8 @@ const SCIVERSE = (function () {
   function currentFlipSpreadIndex() {
     if (!flipInst || !flipWorld) return 0;
     const p = flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
-    if (p <= 1) return 0;
-    const idx = Math.floor((p - 2) / 2);
+    if (p < FIRST_SPREAD_PAGE) return 0;
+    const idx = Math.floor((p - FIRST_SPREAD_PAGE) / 2);
     return Math.max(0, Math.min(flipWorld.spreads.length - 1, idx));
   }
 
@@ -173,9 +202,9 @@ const SCIVERSE = (function () {
     const p = flipInst && flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
     const counter = $("svFlipCounter");
     if (counter) {
-      if (p <= 1) {
+      if (p < FIRST_SPREAD_PAGE) {
         counter.textContent = BI("Cover & Contents", "मुखपृष्ठ व सूची") + ` · ${total} ${BI("spreads", "स्प्रेड")}`;
-      } else if (p >= 2 + total * 2) {
+      } else if (p >= spreadPage(total)) {
         counter.textContent = BI("Chapter Summary", "अध्याय सारांश");
       } else {
         const sIdx = currentFlipSpreadIndex();
@@ -183,7 +212,7 @@ const SCIVERSE = (function () {
         counter.textContent = `§ ${sp.section} · ${BI("Spread", "स्प्रेड")} ${sIdx + 1} / ${total}`;
       }
     }
-    const activeIdx = p <= 1 ? -1 : (p >= 2 + total * 2 ? total : currentFlipSpreadIndex());
+    const activeIdx = p < FIRST_SPREAD_PAGE ? -1 : (p >= spreadPage(total) ? total : currentFlipSpreadIndex());
     const dots = $("svFlipDots");
     if (dots) {
       dots.querySelectorAll("[data-svf-jump]").forEach(btn => {
@@ -213,6 +242,8 @@ const SCIVERSE = (function () {
       : w.subject === "chem" ? BI("Chemistry", "रसायन विज्ञान")
       : BI("Biology", "जीव विज्ञान");
     const stamps = stampsFor(w);
+    const heroFile = w.spreads.length ? plateFiles(w, w.spreads[0])[0] : "";
+    const heroSrc = plateSrc(w.id, heroFile);
     const tocItems = w.spreads.map((sp, i) => {
       const stamped = (EV.progress[pkey(w, sp)] || {}).stamped;
       return `<button type="button" class="svf-toc-row svf-interactive" data-svf-goto="${i}">
@@ -242,16 +273,25 @@ const SCIVERSE = (function () {
           <div class="svf-phead"><span>${esc(BI("CONTENTS · INSIDE THIS CHAPTER", "विषय-सूची · इस अध्याय में"))}</span><span>${w.spreads.length} §</span></div>
           <div class="svf-toc-list">${tocItems}</div>
         </div>
+      </div>
+      <div class="svf-page svf-overview-page">
+        <div class="svf-page-inner">
+          <div class="svf-phead"><span>${esc(BI("CHAPTER OVERVIEW", "अध्याय परिचय"))}</span><span>${esc(subjLabel)}</span></div>
+          ${heroSrc ? `<figure class="svf-hero"><img src="${heroSrc}" alt="${esc(BI(w.title, w.titleHi))}" decoding="async" draggable="false"></figure>` : ""}
+          <h3 class="svf-title">${EV.lang === "both" ? BX(w.title, w.titleHi) : esc(BI(w.title, w.titleHi))}</h3>
+          <p class="svf-concept">${esc(BI("Each spread pairs one NCERT section (left) with its illustrated 2D plate (right). Tap labels on a plate for bilingual notes, predict, then turn the page.", "हर स्प्रेड में बाईं ओर NCERT खंड और दाईं ओर उसका 2D चित्र है। द्विभाषी नोट्स के लिए लेबल दबाएँ, अनुमान लगाएँ, फिर पन्ना पलटें।"))}</p>
+          <div class="svf-pnum">2</div>
+        </div>
       </div>`;
 
     // Spreads: 2 pages per NCERT section (Left = Bilingual Concept/Formula/Predict, Right = 2D Plate + Hotspots)
     w.spreads.forEach((sp, i) => {
       const pg = pget(w, sp);
       const pr = P(sp), raw = sp.predict || { q: "", options: [], a: 0 }, rawHi = sp.predictHi;
-      const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+      const files = plateFiles(w, sp);
       const curIdx = Math.min(files.length - 1, Math.max(0, flipPlateIdx[i] || 0));
       const curFile = files[curIdx] || "";
-      const imgSrc = curFile ? `assets/2d/${encodeURIComponent(w.id)}/${encodeURIComponent(curFile)}` : "";
+      const imgSrc = plateSrc(w.id, curFile);
 
       const formulaHtml = sp.formula
         ? `<div class="svf-formula">
@@ -285,24 +325,24 @@ const SCIVERSE = (function () {
           <p class="svf-concept">${EV.lang === "both" ? BX(sp.concept, sp.conceptHi) : esc(BI(sp.concept, sp.conceptHi))}</p>
           ${formulaHtml}
           ${vocabHtml ? `<div class="svf-vocab">${vocabHtml}</div>` : ""}
-          <div class="svf-predict">
+          <div class="svf-predict" data-svf-predict="${i}">
             <div class="svf-pq"><b>${esc(t("predict"))}:</b> ${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
             <div class="svf-popts">${optsHtml}</div>
             ${pg.locked ? `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>` : ""}
           </div>
-          <div class="svf-pnum">${2 + i * 2}</div>
+          <div class="svf-pnum">${spreadPage(i)}</div>
         </div>
       </div>
       <div class="svf-page svf-right-page" data-spread="${i}">
         <div class="svf-page-inner">
           <div class="svf-phead">
             <span>${esc(BI("2D SCIENTIFIC ILLUSTRATION", "2D वैज्ञानिक चित्र"))}</span>
-            ${files.length > 1 ? `<button type="button" class="btn ghost tiny svf-interactive" data-svf-cycle="${i}">${curIdx + 1} / ${files.length} ↻</button>` : `<span>1408×768 HD</span>`}
+            ${files.length > 1 ? `<button type="button" class="btn ghost tiny svf-interactive" data-svf-cycle="${i}">${curIdx + 1} / ${files.length} ↻</button>` : `<span>§ ${esc(sp.section)}</span>`}
           </div>
           ${imgSrc ? `
             <div class="svf-plate-wrap svf-interactive">
               <div class="svf-plate-host" data-svf-sp="${i}">
-                <img src="${imgSrc}" alt="${esc(BI(sp.title, sp.titleHi))}" loading="lazy">
+                <img src="${imgSrc}" alt="${esc(BI(sp.title, sp.titleHi))}" decoding="async" draggable="false" width="1408" height="768">
               </div>
               <div class="svf-plate-bar">
                 <small>${esc(BI("Click labels on diagram for bilingual notes", "द्विभाषी नोट्स के लिए चित्र के लेबल दबाएँ"))}</small>
@@ -311,18 +351,12 @@ const SCIVERSE = (function () {
             </div>
           ` : `
             <div class="svf-plate-fallback">
-              <div class="svf-fallback-ico">🧊</div>
-              <p>${esc(BI("Dynamic compiled chapter — explore the live 3D apparatus for this spread!", "निर्मित अध्याय — इस स्प्रेड का लाइव 3D उपकरण खोलें!"))}</p>
+              <div class="svf-fallback-ico">🖼</div>
+              <p>${esc(BI("Illustration for this section is being prepared.", "इस खंड का चित्र तैयार किया जा रहा है।"))}</p>
             </div>
           `}
-          <div class="svf-exp-callout">
-            <div>
-              <strong>⚗️ ${esc(BI("Interactive 3D Apparatus", "इंटरैक्टिव 3D प्रयोग"))}</strong>
-              <small>${esc(sp.tryHint || BI("Manipulate sliders & 3D handles to test your prediction.", "अनुमान जाँचने के लिए 3D हैंडल व स्लाइडर चलाएँ।"))}</small>
-            </div>
-            <button type="button" class="btn primary small svf-interactive" data-svf-open3d="${i}">${esc(BI("3D Model ↗", "3D मॉडल ↗"))}</button>
-          </div>
-          <div class="svf-pnum">${3 + i * 2}</div>
+          <figcaption class="svf-caption"><b>§ ${esc(sp.section)}</b> ${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</figcaption>
+          <div class="svf-pnum">${spreadPage(i) + 1}</div>
         </div>
       </div>`;
     });
@@ -336,7 +370,6 @@ const SCIVERSE = (function () {
           <p class="svf-cover-tag">★ ${stamps} / ${w.spreads.length} ${esc(BI("Discovery Stamps Earned", "डिस्कवरी स्टैम्प अर्जित"))}</p>
           <div class="svf-back-actions svf-interactive">
             <button type="button" class="btn primary" id="svfStartQuiz">${esc(BI("Take Chapter Quiz →", "अध्याय प्रश्नोत्तरी दें →"))}</button>
-            <button type="button" class="btn ghost" id="svfEnter3DBook">${esc(BI("Open 3D World ↗", "3D विश्व खोलें ↗"))}</button>
           </div>
         </div>
       </div>`;
@@ -362,24 +395,7 @@ const SCIVERSE = (function () {
       btn.onclick = e => {
         e.stopPropagation();
         const sIdx = +btn.dataset.svfGoto;
-        if (flipInst) flipInst.turnToPage(2 + sIdx * 2);
-        updateFlipHud();
-      };
-    });
-
-    book.querySelectorAll("[data-svf-open3d]").forEach(btn => {
-      btn.onclick = e => {
-        e.stopPropagation();
-        const sIdx = +btn.dataset.svfOpen3d;
-        closeFlipbook();
-        if (!EV.world || EV.world.id !== w.id) {
-          if (WORLDS[w.id] || CATALOGUE_ALL.some(c => c.id === w.id)) openChapter(w.id);
-          else { EV.world = w; setView("book"); }
-        } else if (EV.view !== "book") {
-          setView("book");
-        }
-        WORLD.jumpTo(sIdx);
-        renderLesson(); renderMeters(); renderPageBar();
+        if (flipInst) flipInst.flip(spreadPage(sIdx));
       };
     });
 
@@ -400,9 +416,22 @@ const SCIVERSE = (function () {
           renderLesson(); renderMeters();
         }
         const ok = optIdx === P(sp).a;
-        toast(ok ? BI("Correct prediction! Lift into 3D to experiment.", "सही अनुमान! अब 3D प्रयोग करके देखें।")
+        /* update in place: never rebuild the book (no flicker, no page reset) */
+        const box = book.querySelector(`[data-svf-predict="${sIdx}"]`);
+        if (box) {
+          box.querySelectorAll("[data-svf-opt]").forEach(b => {
+            const oi = +b.dataset.svfOpt;
+            b.classList.remove("picked");
+            b.classList.add(oi === P(sp).a ? "correct" : (oi === optIdx ? "wrong" : "dim"));
+            b.disabled = true;
+          });
+          if (!box.querySelector(".svf-explain")) {
+            box.insertAdjacentHTML("beforeend", `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>`);
+          }
+        }
+        if (ok) celebrate("stamp");
+        toast(ok ? BI("Correct prediction! Study the plate to confirm why.", "सही अनुमान! कारण समझने के लिए चित्र देखें।")
                  : BI("Prediction locked — read the explanation below.", "अनुमान दर्ज — नीचे स्पष्टीकरण पढ़ें।"), "ok");
-        openFlipbook(w.id, sIdx, w);
       };
     });
 
@@ -413,8 +442,20 @@ const SCIVERSE = (function () {
         const sp = w.spreads[sIdx];
         const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
         if (files.length > 1) {
-          flipPlateIdx[sIdx] = ((flipPlateIdx[sIdx] || 0) + 1) % files.length;
-          openFlipbook(w.id, sIdx, w);
+          const n = ((flipPlateIdx[sIdx] || 0) + 1) % files.length;
+          flipPlateIdx[sIdx] = n;
+          const host = book.querySelector(`.svf-plate-host[data-svf-sp="${sIdx}"]`);
+          const img = host && host.querySelector("img");
+          const src = plateSrc(w.id, files[n]);
+          btn.textContent = `${n + 1} / ${files.length} ↻`;
+          if (img && host) {
+            Promise.resolve(warmImage(src)).then(() => {
+              if ((flipPlateIdx[sIdx] || 0) !== n) return;
+              if (typeof EVLABEL !== "undefined") EVLABEL.destroy(host);
+              img.src = src;
+              if (typeof EVLABEL !== "undefined") EVLABEL.render(host, w.id + "/" + files[n]);
+            });
+          }
         }
       };
     });
@@ -443,18 +484,20 @@ const SCIVERSE = (function () {
       EV.world = w;
       setView("quiz");
     };
-    const bBtn = $("svfEnter3DBook");
-    if (bBtn) bBtn.onclick = e => {
-      e.stopPropagation();
-      closeFlipbook();
-      if (WORLDS[w.id] || CATALOGUE_ALL.some(c => c.id === w.id)) openChapter(w.id);
-      else { EV.world = w; setView("book"); }
-    };
+    /* a missing plate degrades to a text panel instead of a broken image */
+    book.querySelectorAll(".svf-plate-host img, .svf-hero img").forEach(img => {
+      img.addEventListener("error", () => {
+        const wrap = img.closest(".svf-plate-wrap, .svf-hero");
+        if (wrap) wrap.classList.add("svf-missing");
+      }, { once: true });
+    });
   }
 
   function openFlipbook(chapterId, spreadIdx, customWorld) {
-    const modal = $("svFlipbookModal"), book = $("svFlipBook"), wrap = $("svFlipWrap");
-    if (!modal || !book || !wrap) return;
+    const modal = $("svFlipbookModal"), wrap = $("svFlipWrap");
+    let book = $("svFlipBook");
+    if (!modal || !wrap) return;
+    if (!book) { destroyFlipInstance(); book = $("svFlipBook"); }
 
     const w = customWorld || (chapterId ? getWorld(chapterId) : (EV.world || getWorld("c10_carbon")));
     flipWorld = w;
@@ -463,6 +506,7 @@ const SCIVERSE = (function () {
 
     modal.hidden = false;
     destroyFlipInstance();
+    book = $("svFlipBook");
     populateFlipChapterSelect(w.id);
     book.innerHTML = buildFlipbookPagesHtml(w);
 
@@ -477,13 +521,13 @@ const SCIVERSE = (function () {
         b.onclick = () => {
           const j = +b.dataset.svfJump;
           if (!flipInst) return;
-          flipInst.turnToPage(j < 0 ? 0 : 2 + j * 2);
-          updateFlipHud();
+          flipInst.flip(j < 0 ? 0 : spreadPage(j));
         };
       });
     }
 
-    const startPage = targetSpread >= 0 ? 2 + targetSpread * 2 : 0;
+    const startPage = typeof spreadIdx === "number" || (EV.world && EV.world.id === w.id) ? spreadPage(targetSpread) : 0;
+    warmChapter(w, targetSpread);
     const rect = wrap.getBoundingClientRect();
     const availW = Math.max(320, rect.width || (window.innerWidth - 12));
     const availH = Math.max(360, rect.height || (window.innerHeight - 96));
@@ -512,6 +556,9 @@ const SCIVERSE = (function () {
       flipInst.on("flip", () => {
         updateFlipHud();
         const sIdx = currentFlipSpreadIndex();
+        warmChapter(w, sIdx);
+        try { localStorage.setItem("sciverse-flip-pos-v1", JSON.stringify({ id: w.id, s: sIdx })); } catch (_e) {}
+        if (window.EV_2D_ONLY) { if (EV.world && EV.world.id === w.id) EV.flipSpread = sIdx; return; }
         if (EV.world && EV.world.id === w.id && EV.view === "book") {
           WORLD.jumpTo(sIdx);
           renderLesson(); renderMeters(); renderPageBar();
@@ -635,7 +682,7 @@ const SCIVERSE = (function () {
     const h = currentHits[idx];
     if (!h) return;
     closeSearch();
-    if (asFlipbook) {
+    if (asFlipbook || window.EV_2D_ONLY) {
       openFlipbook(h.chapterId, h.spreadIdx);
     } else {
       openChapter(h.chapterId);
@@ -860,10 +907,12 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
     // 4 Interactive Hero Pillars
     if ($("svPillarFlipbook")) $("svPillarFlipbook").onclick = () => openFlipbook();
     if ($("svPillar3D")) $("svPillar3D").onclick = () => {
+      if (window.EV_2D_ONLY) { openFlipbook(); return; }
       if (!EV.world) EV.world = getWorld("c10_carbon");
       setView("book");
     };
     if ($("svPillarExp")) $("svPillarExp").onclick = () => {
+      if (window.EV_2D_ONLY) { openFlipbook(EV.world ? EV.world.id : "c10_light", 0); return; }
       openChapter(EV.world ? EV.world.id : "c10_light");
       toast(BI("Predict → Adjust sliders & 3D handles → Earn your Discovery Stamp!", "अनुमान लगाएँ → स्लाइडर व 3D हैंडल चलाएँ → डिस्कवरी स्टैम्प पाएँ!"), "ok");
     };
@@ -876,7 +925,7 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
     if ($("svFlipNext")) $("svFlipNext").onclick = () => { if (flipInst) flipInst.flipNext(); };
     if ($("svFlipLangBtn")) $("svFlipLangBtn").onclick = cycleLanguage;
     if ($("svFlipOpen3D")) $("svFlipOpen3D").onclick = () => {
-      if (!flipWorld) return;
+      if (!flipWorld || window.EV_2D_ONLY) return;
       const sIdx = currentFlipSpreadIndex();
       const w = flipWorld;
       closeFlipbook();

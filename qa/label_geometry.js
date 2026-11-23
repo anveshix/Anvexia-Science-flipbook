@@ -91,9 +91,12 @@ function verifyStaticGeometry() {
       p.on("pageerror", e => errors.push(e.message));
       await p.goto(base + "?world=c10_control&spread=2", { waitUntil: "load", timeout: 60000 });
       await p.evaluate(() => setLanguage("both"));
-      await p.locator("#plate2d").click();
-      await p.waitForFunction(() => EVRASTER.isVisible());
-      await p.locator("#btnZoomFigure").click();
+      /* 2D-only build: the deep link opens the StPageFlip flipbook at the spread;
+         zoom the visible plate from the flipbook page. */
+      await p.waitForFunction(() => SCIVERSE.isFlipOpen() && !!document.querySelector("#svFlipBook .svf-plate-host img"));
+      /* portrait (phone) shows one page at a time: the plate is the page after the concept */
+      if (mobile) { await p.locator("#svFlipNext").click(); await p.waitForTimeout(900); }
+      await p.locator('#svFlipBook [data-svf-zoom="2"]').click();
       await p.waitForSelector(".evzoom-picture .ev-label-hit");
       const res = await p.evaluate(async () => {
         const host = document.querySelector(".evzoom-picture"), data = EV_LABEL_DATA, errors = [];
