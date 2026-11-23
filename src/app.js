@@ -542,6 +542,8 @@ const EV_LABEL_DATA=__EV_LABEL_DATA__;
 const EVLABEL=(()=>{
   const active=new WeakMap(); let serial=0;
   function destroy(host){const old=host&&active.get(host);if(!old)return;old.ro.disconnect();old.layer.remove();active.delete(host)}
+  /* shrink-to-fit: long bilingual names never clip inside their chip */
+  function fitChips(layer){layer.querySelectorAll('.ev-label-chip').forEach(ch=>{ch.style.fontSize='';if(!ch.clientHeight)return;let fs=parseFloat(getComputedStyle(ch).fontSize)||12;let guard=24;while(guard--&&fs>6.5&&(ch.scrollHeight>ch.clientHeight+1||ch.scrollWidth>ch.clientWidth+1)){fs-=0.5;ch.style.fontSize=fs+'px'}})}
   function render(host,key){
     if(!host)return; destroy(host);
     const specs=EV_LABEL_DATA[key]; const img=host.querySelector('img');
@@ -583,7 +585,7 @@ const EVLABEL=(()=>{
       layer.append(hit);buttons.push(hit);
     });
     layer.append(info);host.append(layer);
-    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const iw=Math.min(w,h*1408/768),ih=iw*768/1408;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px')}
+    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const iw=Math.min(w,h*1408/768),ih=iw*768/1408;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px');fitChips(layer)}
     const ro=new ResizeObserver(size);ro.observe(host);img.addEventListener('load',size,{once:true});size();active.set(host,{ro,layer,closeInfo});
   }
   function closeOpen(host){const item=host&&active.get(host);if(!item)return false;const p=item.layer.querySelector('.ev-label-pop');if(!p||p.hidden)return false;item.closeInfo();return true}
@@ -1465,6 +1467,16 @@ const EVRASTER = (() => {
     ]
   }
 };
+  /* Realistic plates imported from anveshix/ifinite-horizon (tools/import_realistic_plates.py):
+     shown FIRST for each mapped section; the generated composite stays as the next image. */
+  const realistic = __EV_REALISTIC_ASSETS__;
+  Object.keys(realistic).forEach(wid => {
+    const g = assets[wid] || (assets[wid] = {});
+    Object.keys(realistic[wid]).forEach(sec => {
+      const rx = realistic[wid][sec], old = (g[sec] || []).filter(f => rx.indexOf(f) < 0);
+      g[sec] = rx.concat(old);
+    });
+  });
   let enabled = true, identity = '', imageIndex = 0, token = 0, ready = false;
   let currentFiles = [];
   function has(world, sp) { return !!(world && sp && assets[world.id] && assets[world.id][sp.section]); }
@@ -2425,6 +2437,31 @@ function boot() {
     toastKey(EV.boardText === "big" ? "toast.bigOn" : "toast.bigOff",
       EV.boardText === "big" ? "30 FT / बड़ा बोर्ड चालू — पिछली पंक्ति से पढ़ें" : "विस्तृत पाठ · detail plate");
   };
+  /* Far-read (#btnFar, from branch ccr-c832c1ee-2alkrc): full screen + 30 ft type +
+     high-contrast pages + bottom panels collapsed. Off restores theme, type and panels. */
+  let farPrev = null;
+  function setFarRead(on) {
+    on = !!on;
+    if (on && !farPrev) {
+      farPrev = { panels: JSON.parse(JSON.stringify(EV.panels)), boardText: EV.boardText, theme: EV.theme };
+      applyBoardText("big"); applyTheme("classroom");
+      EV.panels.left = EV.panels.right = false; applyPanels();
+    } else if (!on && farPrev) {
+      applyBoardText(farPrev.boardText); applyTheme(farPrev.theme);
+      EV.panels = farPrev.panels; applyPanels(); farPrev = null;
+    }
+    document.body.classList.toggle("far-read", on);
+    const fb = $("btnFar");
+    if (fb) { fb.classList.toggle("active", on); fb.setAttribute("aria-pressed", String(on)); }
+    try {
+      if (on && !document.fullscreenElement && document.documentElement.requestFullscreen)
+        document.documentElement.requestFullscreen().catch(() => {});
+      if (!on && document.fullscreenElement && document.exitFullscreen)
+        document.exitFullscreen().catch(() => {});
+    } catch (e) {}
+  }
+  if ($("btnFar")) $("btnFar").onclick = () => setFarRead(!farPrev);
+  if (new URLSearchParams(location.search).get("far") === "1") setFarRead(true);
   if ($("btnCompileTop")) $("btnCompileTop").onclick = () => setView("compiler");
   $("btnEnter").onclick = () => { if (!EV.world) EV.world = getWorld("c10_carbon"); setView("book"); };
   if ($("btnEnterShelf")) $("btnEnterShelf").onclick = $("btnEnter").onclick;

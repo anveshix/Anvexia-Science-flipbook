@@ -12,7 +12,7 @@
     "labels": "python3 tools/build_clickable_labels.py",
     "build": "npm run vendor && python3 build.py",
     "publish": "python3 make_publish.py",
-    "qa": "node qa/syllabus_smoke.js && node qa/label_geometry.js && node qa/sciverse_smoke.js && python3 qa/audit_draft_integration.py",
+    "qa": "node qa/syllabus_smoke.js && python3 qa/realistic_plates.py && node qa/label_geometry.js && node qa/sciverse_smoke.js && python3 qa/audit_draft_integration.py",
     "start": "python3 -m http.server 8080 --bind 0.0.0.0"
   },
   "dependencies": {

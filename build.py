@@ -146,14 +146,22 @@ def main():
         "src/pack_loader.js",
     ]]
     app_js = read("src/app.js")
-    raw_labels = (ROOT / "src/label_data.json").read_bytes()
+    realistic = json.loads(read("src/realistic_plates.json"))
+    label_map = json.loads(read("src/label_data.json"))
+    overlap = set(label_map) & set(realistic["labels"])
+    if overlap:
+        raise SystemExit("realistic label keys collide with label_data.json: " + repr(sorted(overlap)[:3]))
+    label_map.update(realistic["labels"])
+    raw_labels = json.dumps(label_map, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
     b64_labels = base64.b64encode(zlib.compress(raw_labels, 9)).decode("ascii")
     decoder = (
         'JSON.parse(new TextDecoder().decode(EVUnzlib(Uint8Array.from(atob("'
         + b64_labels + '"),c=>c.charCodeAt(0)))))'
     )
     assert app_js.count("__EV_LABEL_DATA__") == 1
-    app_resolved = app_js.replace("__EV_LABEL_DATA__", decoder)
+    assert app_js.count("__EV_REALISTIC_ASSETS__") == 1
+    app_resolved = app_js.replace("__EV_LABEL_DATA__", decoder).replace(
+        "__EV_REALISTIC_ASSETS__", json.dumps(realistic["assets"], ensure_ascii=False, separators=(",", ":"), sort_keys=True))
     sciverse_js = read("src/sciverse.js")
 
     css, compacted = compact_bundle_assets(css_raw, src_scripts + [app_resolved, sciverse_js])

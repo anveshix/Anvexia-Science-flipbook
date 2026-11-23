@@ -1677,3 +1677,13 @@ body.mode-2d .stage.screen-mode{background:#0c1422}
  .sv-flip-foot .btn span{display:none}
  .svf-page-inner{padding:12px 14px 10px}
 }
+
+/* ---- Far-read mode (#btnFar): book fills the screen, large type, no clipped chrome ---- */
+body.far-read .top-context{display:none}
+body.far-read .dock .page-bar{min-height:54px;padding:6px 14px;gap:10px}
+body.far-read .dock .pdot{width:34px;height:34px;font-size:15px}
+body.far-read .dock .page-bar .btn{font-size:14px;padding:8px 14px}
+body.far-read .dock .pb-center b{font-size:15px}
+body.far-read .dock .pb-center small{display:inline}
+#btnFar.active{background:#8a2b0c;border-color:#5a1a06;color:#fff}
+body.mode-2d #btnFar{display:none!important}
