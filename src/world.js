@@ -44,44 +44,51 @@ const WORLD = (function () {
   /* Papers are gently widened in straight-on view so the book uses the stage
      width instead of sitting shrunk in the middle. The 3D apparatus is NOT
      scaled, so atoms, lenses and ray circles stay perfectly round. */
-  let wide = 1.14;
+  let wide = 1.34;
+  let fitWide = 1.34;
   /* "board" = projector / straight-on: dead-centre, no yaw, no perspective
      skew, near-orthographic FOV. Text stays upright for the whole classroom. */
-  const SHOTS = { explore: { r: 8.7, p: 0.92 }, read: { r: 8.2, p: 1.12 }, board: { r: 10.5, p: 1.553, fov: 30 } };
+  const SHOTS = { explore: { r: 6.4, p: 0.96 }, read: { r: 6.0, p: 1.18 }, board: { r: 10.5, p: 1.553, fov: 30 } };
   let lastFov = 46, lastBoard = null;
+  function syncPaperScale(wScale) {
+    if (Math.abs(fitWide - wScale) < 0.002 && paperRoot && Math.abs(paperRoot.scale.x - wScale) < 0.002) return;
+    fitWide = wScale;
+    if (paperRoot) paperRoot.scale.x = fitWide;
+    if (popupRoot) popupRoot.position.x = PW * fitWide / 2;
+    if (selectionRoot) selectionRoot.position.x = PW * fitWide / 2;
+  }
   function boardFit() {
-    /* Fit the WHOLE open book into the stage area above the dock, then shift
-       it up so nothing is hidden. Works on 16:9 and 4:3 projectors.
-       `wide` is applied to the paper only; collapsing the bottom panels makes
-       dockH small and the book grows automatically on the next frame. */
+    /* Fit the WHOLE open book across the full stage width & height above the dock
+       so zero wasted side margins remain on 16:9, 16:10, 21:9, or 4:3 screens. */
     const h = (canvas && canvas.clientHeight) || 848, w = (canvas && canvas.clientWidth) || 1440;
     const stage = document.getElementById("stage");
     const dock = document.querySelector(".dock");
     const focus = !!(stage && stage.classList.contains("focus"));
-    const dockH = focus ? 0 : ((dock && dock.clientHeight) || 240);
-    // On short landscape screens the dock can leave much less than 320px.
+    const dockH = focus ? 0 : ((dock && dock.clientHeight) || 40);
     const reserved = Math.min(dockH, Math.max(0, h - 60));
-    const usable = Math.max(48, h - reserved - 12);
+    const usable = Math.max(48, h - reserved - 4);
     const aspect = Math.max(0.25, w / h);
-    const visH = h < 600 ? 5.2 : 4.78;  /* include cover when height is tight */
-    const bookW = 7.35 * wide;
-    // Narrow screens need a small perspective/cover margin at the page edges.
-    const ve = Math.max(visH * h / usable, bookW * (aspect < 0.85 ? 1.06 : 1) / aspect);
+    const usableAspect = Math.max(0.35, w / usable);
+    const visH = h < 540 ? 4.92 : 4.82;
+    const baseBookW = 7.22;
+    const autoW = aspect < 0.92 ? 1.06 : Math.max(1.14, Math.min(2.15, (0.985 * usableAspect * visH) / baseBookW));
+    syncPaperScale(autoW);
+    const bookW = baseBookW * fitWide;
+    const ve = Math.max(visH * h / usable, (bookW / 0.988) / aspect);
     const d = ve / (2 * Math.tan(SHOTS.board.fov * Math.PI / 360));
-    const shift = focus ? 0 : (reserved / 2 + 6) / h * ve;
+    const shift = focus ? 0 : (reserved / 2 + 2) / h * ve;
     const fraction = Math.min(1, bookW / (ve * aspect));
     return { d: d, shift: shift, dockH: dockH, ve: ve, fraction: fraction };
   }
   function setWide(v) {
-    wide = Math.max(1, Math.min(1.35, Number(v) || 1));
-    if (paperRoot) paperRoot.scale.x = wide;
-    if (popupRoot) popupRoot.position.x = PW * wide / 2;
-    if (selectionRoot) selectionRoot.position.x = PW * wide / 2;
+    wide = Math.max(1, Math.min(2.15, Number(v) || 1.34));
+    if (view === "book" && shot === "board") boardFit();
+    else syncPaperScale(wide);
   }
   function boardMetrics() {
     const f = boardFit(), st = document.getElementById("stage");
     return { dockH: f.dockH, ve: +f.ve.toFixed(3), fraction: +f.fraction.toFixed(3),
-             wide: +wide.toFixed(3), focus: !!(st && st.classList.contains("focus")),
+             wide: +fitWide.toFixed(3), focus: !!(st && st.classList.contains("focus")),
              shot: shot };
   }
   /* In projector view the big paper-craft base plates are hidden, so the
@@ -126,8 +133,12 @@ const WORLD = (function () {
 
   /* ---------------------------------------------------------- page texture */
   function pageCanvas() {
-    const c = document.createElement("canvas"); c.width = 900; c.height = 1200;
+    const PAGE_SCALE = 1.75;
+    const c = document.createElement("canvas");
+    c.width = Math.round(900 * PAGE_SCALE);
+    c.height = Math.round(1200 * PAGE_SCALE);
     const x = c.getContext("2d");
+    x.scale(PAGE_SCALE, PAGE_SCALE);
     if (auditLog) {
       const raw = x.fillText.bind(x);
       x.fillText = function (t, px, py, mw) {
@@ -245,7 +256,7 @@ const WORLD = (function () {
   function classroomHead(x, world, sp, side, num) {
     x.textAlign = "left";
     x.fillStyle = PC.accent; x.font = "900 28px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText("EDUVERSE  ·  CLASS " + (world.cls || "IX"), 84, 96);
+    x.fillText("SCIVERSE 3D  ·  CLASS " + (world.cls || "IX"), 84, 96);
     x.fillStyle = PC.ink; x.font = "italic 700 27px Georgia, 'Noto Sans Devanagari Embedded', serif";
     drawFitted(x, BI(world.title, world.titleHi), 84, 136, 600, x.font, 1, 0);
     x.textAlign = "right"; x.fillStyle = PC.hi; x.font = "900 26px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
@@ -1076,7 +1087,7 @@ const WORLD = (function () {
     if (TH()) return classroomHead(x, world, sp, side, num);
     const hi = lang === "hi", both = lang === "both";
     x.fillStyle = "#8b7a5a"; x.font = "600 25px Georgia, 'Noto Sans Devanagari Embedded', serif"; x.textAlign = "left";
-    x.fillText("EDUVERSE  ·  " + (world.board || "CBSE / NCERT") + "  ·  CLASS " + (world.cls || "IX"), 84, 94);
+    x.fillText("SCIVERSE 3D  ·  " + (world.board || "CBSE / NCERT") + "  ·  CLASS " + (world.cls || "IX"), 84, 94);
     x.fillStyle = "#24303c";
     if (both) {
       x.font = "italic 21px Georgia, 'Noto Sans Devanagari Embedded', serif";
@@ -1204,7 +1215,9 @@ const WORLD = (function () {
   function tex(c) {
     const t = new THREE.CanvasTexture(c);
     if (THREE.SRGBColorSpace) t.colorSpace = THREE.SRGBColorSpace;
-    t.anisotropy = 8; return t;
+    t.anisotropy = (renderer && renderer.capabilities && renderer.capabilities.getMaxAnisotropy)
+      ? Math.min(16, renderer.capabilities.getMaxAnisotropy()) : 8;
+    return t;
   }
   /* canvas (900x1200) -> physical right-page (PW x PD) coordinates.
      u: x/900 ; v: 1-y/1200 (page was built with rotateX(-PI/2)).
@@ -1429,7 +1442,7 @@ const WORLD = (function () {
       const yaw = board ? 0 : orbit.yaw;
       const want = V(Math.sin(yaw) * Math.cos(pitch) * r, Math.sin(pitch) * r,
                      Math.cos(yaw) * Math.cos(pitch) * r + (board ? bf.shift : 0));
-      camera.position.lerp(want, Math.min(1, dt * 5));
+      camera.position.lerp(want, Math.min(1, dt * 10));
       camera.lookAt(target);
     }
     renderer.render(scene, camera);
@@ -1452,7 +1465,7 @@ const WORLD = (function () {
     const portal = new THREE.Group(); worldGroup.add(portal);
     G3.box(portal, 3.2, 0.32, 4.2, G3.mat(0x1b3d5c, { emissive: 0x0b3557, glow: 0.6 }), [0, 0.1, 0]);
     G3.box(portal, 2.9, 0.04, 3.9, G3.mat(0xe8ddc2), [0, 0.29, 0]);
-    G3.tag(portal, "EDUVERSE\nCHAPTER WORLDS", 2.6, 1.4, { pos: [0, 0.32, 0], rot: [-Math.PI / 2, 0, 0], size: 58, bg: "#efe6cf" });
+    G3.tag(portal, "SCIVERSE 3D\nCHAPTER WORLDS", 2.6, 1.4, { pos: [0, 0.32, 0], rot: [-Math.PI / 2, 0, 0], size: 58, bg: "#efe6cf" });
     const beam = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 2.2, 8, 24, 1, true), new THREE.MeshBasicMaterial({ color: 0x4ad6ff, transparent: true, opacity: 0.055, side: THREE.DoubleSide }));
     beam.position.y = 3.5; portal.add(beam);
     /* chapter monoliths */
@@ -1893,9 +1906,9 @@ const WORLD = (function () {
     /* page corners turn the page */
     const phits = raycaster.intersectObjects([leftPage, rightPage], false);
     if (phits.length) {
-      const p = phits[0].point;
+      const lp = paperRoot ? paperRoot.worldToLocal(phits[0].point.clone()) : phits[0].point;
       /* grab a corner: the leaf follows the pointer until release (tap = turn) */
-      const dir = p.x > PW - 0.9 && p.z > 0.6 ? 1 : p.x < -PW + 0.9 && p.z > 0.6 ? -1 : 0;
+      const dir = lp.x > PW - 0.9 && lp.z > 0.6 ? 1 : lp.x < -PW + 0.9 && lp.z > 0.6 ? -1 : 0;
       if (dir && beginTurn(dir, true)) { turning.x0 = e.clientX; turning.y0 = e.clientY; return; }
     }
     orbit.dragging = true;

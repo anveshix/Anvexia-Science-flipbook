@@ -147,6 +147,13 @@ const ctx = {
     },
     querySelector: sel => {
       if (sel && sel.startsWith("#")) return ctx.document.getElementById(sel.slice(1));
+      if (sel === ".dock") {
+        const st = ctx.document.getElementById("stage");
+        const bothHidden = st.classList.contains("hide-left") && st.classList.contains("hide-right");
+        const d = makeEl("dock");
+        d.clientHeight = bothHidden ? 38 : 204;
+        return d;
+      }
       return makeEl(sel || "q");
     },
     querySelectorAll: () => [],
@@ -213,17 +220,40 @@ const report = vm.runInContext(`
       throw new Error("Class XI chapter compilation failed");
     }
 
+    // Verify full-screen edge-to-edge book fitting (>= 96% horizontal width fill, zero side waste)
+    const gl = document.getElementById("gl");
+    gl.clientWidth = 1440; gl.clientHeight = 780;
+    const bm1440 = WORLD.boardMetrics();
+    gl.clientWidth = 1920; gl.clientHeight = 920;
+    const bm1920 = WORLD.boardMetrics();
+    if (bm1440.fraction < 0.96 || bm1920.fraction < 0.96) {
+      throw new Error("Book does not fill full screen width: " + JSON.stringify({ bm1440, bm1920 }));
+    }
+    if (EV.panels.left !== false || EV.panels.right !== false) {
+      throw new Error("Book should default to full-screen reader mode with side/bottom panels collapsed");
+    }
+    // Verify toggling left/right/both panels preserves FSM health
+    togglePanel("left");
+    togglePanel("right");
+    togglePanel("both");
+    const fsmHealth = EVFSM.health();
+    if (!fsmHealth.ok) {
+      throw new Error("EVFSM unhealthy after panel toggles: " + JSON.stringify(fsmHealth));
+    }
+
     return {
       scriptsVerified: ${executableScripts.length},
       temmlSampleLen: mathOut.length,
       classesSupported: EVENGINE ? ["IX", "X", "XI", "XII"] : [],
-      xiSpreads: xiWorld.spreads.length
+      xiSpreads: xiWorld.spreads.length,
+      fraction1440: bm1440.fraction,
+      fraction1920: bm1920.fraction
     };
   })()
 `, ctx);
 
 console.log(
   `PASS sciverse_smoke: ${report.scriptsVerified} CSP-verified <script> blocks · ` +
-  `PageFlip + MiniSearch + TWEEN + Temml + confetti active · ` +
-  `EN+HI search verified · 2D Flipbook verified · Class IX-XII compiler verified (${report.xiSpreads} spreads)`
+  `Full-screen book fill ${(report.fraction1440 * 100).toFixed(1)}%-${(report.fraction1920 * 100).toFixed(1)}% · ` +
+  `EN+HI search · 2D Flipbook · Class IX-XII compiler (${report.xiSpreads} spreads)`
 );

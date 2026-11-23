@@ -237,15 +237,17 @@ const EVFSM = (function () {
   define({
     id: "panels", owner: "src/app.js:9,716,727 · src/styles.css .hide-left/.hide-right",
     purpose: "2-bit dock layout: both / left hidden / right hidden / reader (both hidden).",
-    states: ["both", "leftHidden", "rightHidden", "reader"], initial: "both", capsule: true,
+    states: ["both", "leftHidden", "rightHidden", "reader"], initial: "reader", capsule: true,
     sources: ["EV.panels", "stage.hide-left", "stage.hide-right", "#btnReader.active"],
-    persist: "eduverse-panels-v1",
+    persist: "sciverse-panels-v2",
     events: [
       tr("SET", "*", c => c.to, G.oneOf("panels", ["both", "leftHidden", "rightHidden", "reader"])),
       tr("TOGGLE_BOTH", ["both", "leftHidden", "rightHidden"], "reader"),
       tr("TOGGLE_BOTH", "reader", "both"),
       tr("TOGGLE_LEFT", "both", "leftHidden"), tr("TOGGLE_LEFT", "leftHidden", "both"),
-      tr("TOGGLE_RIGHT", "both", "rightHidden"), tr("TOGGLE_RIGHT", "rightHidden", "both")
+      tr("TOGGLE_RIGHT", "both", "rightHidden"), tr("TOGGLE_RIGHT", "rightHidden", "both"),
+      tr("TOGGLE_LEFT", "reader", "rightHidden"), tr("TOGGLE_LEFT", "rightHidden", "reader"),
+      tr("TOGGLE_RIGHT", "reader", "leftHidden"), tr("TOGGLE_RIGHT", "leftHidden", "reader")
     ],
     invariants: [
       { name: "wideWhenReader", why: "reader mode must use >= 1.30 book width (R5)",

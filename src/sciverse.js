@@ -485,9 +485,11 @@ const SCIVERSE = (function () {
 
     const startPage = targetSpread >= 0 ? 2 + targetSpread * 2 : 0;
     const rect = wrap.getBoundingClientRect();
-    const portrait = rect.width < 760;
-    const pageW = portrait ? Math.max(300, Math.floor(rect.width - 28)) : Math.max(360, Math.min(580, Math.floor((rect.width - 48) / 2)));
-    const pageH = Math.max(400, Math.min(680, Math.floor(rect.height - 20)));
+    const availW = Math.max(320, rect.width || (window.innerWidth - 12));
+    const availH = Math.max(360, rect.height || (window.innerHeight - 96));
+    const portrait = availW < 760;
+    const pageW = portrait ? Math.max(300, Math.floor(availW - 8)) : Math.max(360, Math.floor((availW - 12) / 2));
+    const pageH = Math.max(360, Math.floor(availH - 6));
 
     const pageEls = book.querySelectorAll(".svf-page");
     if (typeof window.PageFlip === "function" && pageEls.length > 0) {
@@ -495,16 +497,16 @@ const SCIVERSE = (function () {
         width: pageW,
         height: pageH,
         size: "stretch",
-        minWidth: 290,
-        maxWidth: 660,
-        minHeight: 380,
-        maxHeight: 740,
+        minWidth: 280,
+        maxWidth: 2600,
+        minHeight: 340,
+        maxHeight: 1900,
         maxShadowOpacity: 0.42,
         showCover: true,
         usePortrait: portrait,
         mobileScrollSupport: false,
         startPage: startPage,
-        flippingTime: reducedMotion() ? 90 : 620
+        flippingTime: reducedMotion() ? 90 : 540
       });
       flipInst.loadFromHTML(pageEls);
       flipInst.on("flip", () => {
@@ -933,6 +935,15 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
         else if (e.key === "ArrowRight" && flipInst) { e.preventDefault(); flipInst.flipNext(); }
         else if (e.key === "ArrowLeft" && flipInst) { e.preventDefault(); flipInst.flipPrev(); }
       }
+    });
+
+    let flipResizeTimer = null;
+    window.addEventListener("resize", () => {
+      if (!isFlipOpen() || !flipWorld) return;
+      clearTimeout(flipResizeTimer);
+      flipResizeTimer = setTimeout(() => {
+        if (isFlipOpen() && flipWorld) openFlipbook(flipWorld.id, currentFlipSpreadIndex(), flipWorld);
+      }, 160);
     });
   }
 
