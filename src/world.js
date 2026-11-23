@@ -830,9 +830,10 @@ const WORLD = (function () {
     if (both || !hi) y = wrap(x, sp.concept, 84, y, 732, 44, 4,
                               "800 38px Georgia, 'Noto Sans Devanagari Embedded', serif");
     if (both || hi) {
-      x.strokeStyle = PC.rule; x.lineWidth = 3; x.beginPath(); x.moveTo(84, y - 8); x.lineTo(816, y - 8); x.stroke();
+      /* Devanagari rises ~32px above its baseline: keep the separator clear of the headstroke */
+      x.strokeStyle = PC.rule; x.lineWidth = 3; x.beginPath(); x.moveTo(84, y - 10); x.lineTo(816, y - 10); x.stroke();
       x.fillStyle = PC.accent;
-      y = wrap(x, sp.conceptHi, 84, y + 12, 732, 38, 2,
+      y = wrap(x, sp.conceptHi, 84, y + 32, 732, 38, 2,
                "800 32px Georgia, 'Noto Sans Devanagari Embedded', serif");
     }
     y = Math.min(y + 14, 770);
@@ -984,7 +985,7 @@ const WORLD = (function () {
     function get(world, sp) {
       const file = fileFor(world, sp);
       if (!file) return null;
-      const src = "assets/2d/" + world.id + "/" + file;
+      const src = EVPLATE_SRC(world.id, file);
       let e = cache.get(src);
       if (!e) {
         if (typeof Image === "undefined") return null;

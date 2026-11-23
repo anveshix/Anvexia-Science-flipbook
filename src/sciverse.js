@@ -61,9 +61,25 @@ const SCIVERSE = (function () {
     return s;
   }
 
+  /* A formula line mixes maths with words ("P = 1/f · f in metres, P in dioptres",
+     "CH₄ mp 90 K · bp 111 K"). Typeset each " · " segment on its own: only a
+     segment that is maths (an operator and no running words) goes to Temml;
+     the rest stays upright text with proper sub/superscripts. */
+  const MATH_WORDS = /^(sin|cos|tan|log|ln|exp|lim|max|min|mod)$/;
+  function isMathSegment(seg) {
+    if (!/[=+*/→⇌²³⁴₁₂₃₄ΔθρλΩ½∝×÷≈≤≥]/.test(seg)) return false;
+    const words = seg.match(/\b[a-z]{2,}\b/g) || [];
+    return !words.some(w => !MATH_WORDS.test(w));
+  }
   function formatFormulaHtml(eq) {
     const raw = String(eq || "").trim();
     if (!raw) return "";
+    if (raw.indexOf(" · ") > 0) return raw.split(" · ").map(formatFormulaHtml).join(' <span class="svf-fsep">·</span> ');
+    if (/\b[a-z]{2,}\b/.test(raw) && !isMathSegment(raw) && !/^[A-Za-z][A-Za-z\s\-→↔,]*$/.test(raw)) {
+      return esc(raw)
+        .replace(/[₀₁₂₃₄₅₆₇₈₉₊₋ₙₘₓₐₑₒ]+/g, m => "<sub>" + m.split("").map(c => SUB_MAP[c] || c).join("") + "</sub>")
+        .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+/g, m => "<sup>" + m.split("").map(c => SUP_MAP[c] || c).join("") + "</sup>");
+    }
     // Prose-heavy notes (4+ consecutive long English words without operators) stay crisp HTML
     const proseWords = (raw.match(/[A-Za-z]{5,}/g) || []).length;
     const hasMathOps = /[=+\-*/→⇌²³⁴₁₂₃₄ΔθρλΩ½]/.test(raw);
@@ -139,7 +155,7 @@ const SCIVERSE = (function () {
      page (3+2i) and its 2D plate on the right page (4+2i). Back cover=3+2n. */
   const FIRST_SPREAD_PAGE = 3;
   const spreadPage = i => FIRST_SPREAD_PAGE + i * 2;
-  const plateSrc = (wid, file) => file ? `assets/2d/${encodeURIComponent(wid)}/${encodeURIComponent(file)}` : "";
+  const plateSrc = (wid, file) => EVPLATE_SRC(wid, file);
   const plateFiles = (w, sp) => (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
   const decoded = new Map(); // src -> Promise, keeps decoded bitmaps warm for page turns
   function warmImage(src) {
@@ -236,7 +252,7 @@ const SCIVERSE = (function () {
       const fIdx = flipPlateIdx[sIdx] || 0;
       const file = files[fIdx];
       if (file) {
-        EVLABEL.render(host, w.id + "/" + file);
+        EVLABEL.render(host, EVPLATE_KEY(w.id, file));
       }
     });
   }
@@ -463,7 +479,7 @@ const SCIVERSE = (function () {
               if ((flipPlateIdx[sIdx] || 0) !== n) return;
               if (typeof EVLABEL !== "undefined") EVLABEL.destroy(host);
               img.src = src;
-              if (typeof EVLABEL !== "undefined") EVLABEL.render(host, w.id + "/" + files[n]);
+              if (typeof EVLABEL !== "undefined") EVLABEL.render(host, EVPLATE_KEY(w.id, files[n]));
             });
           }
         }
@@ -480,7 +496,7 @@ const SCIVERSE = (function () {
         const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
         const file = files[flipPlateIdx[sIdx] || 0];
         if (img && typeof EVZOOM !== "undefined" && EVZOOM.openImg) {
-          EVZOOM.openImg(img.src, BI(sp.title, sp.titleHi), file ? w.id + "/" + file : "");
+          EVZOOM.openImg(img.src, BI(sp.title, sp.titleHi), file ? EVPLATE_KEY(w.id, file) : "");
         } else if (img) {
           window.open(img.src, "_blank", "noopener");
         }
@@ -713,7 +729,7 @@ const SCIVERSE = (function () {
     const subjBadge = s => s === "phy" ? "Physics · भौतिकी" : s === "chem" ? "Chemistry · रसायन" : "Biology · जीव";
     box.innerHTML = currentHits.map((h, idx) => {
       const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(h.chapterId, h.section) : [];
-      const thumb = files.length ? `assets/2d/${h.chapterId}/${files[0]}` : "";
+      const thumb = files.length ? EVPLATE_SRC(h.chapterId, files[0]) : "";
       return `
       <div class="sv-hit ${idx === selectedHitIdx ? "sel" : ""}" data-hit-idx="${idx}">
         ${thumb ? `<img class="sv-hit-thumb" src="${esc(thumb)}" alt="" loading="lazy" data-hit-3d="${idx}">` : ""}

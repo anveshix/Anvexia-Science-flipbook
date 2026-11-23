@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
-"""Import realistic 1408x768 Class IX/X illustrations from the sibling
-anveshix/ifinite-horizon repository (public/2d/<class>/<subject>/images +
-the DATA table in assets/va-2d.js) into Sci-flip.
+"""Import realistic Class IX/X illustrations from the sibling
+anveshix/ifinite-horizon repository (main branch) into Sci-flip:
+  * realistic plates: public/2d/<class>/<subject>/images + DATA in assets/va-2d.js
+  * condition variants (clean 3D teaching renders of one topic in several
+    states, e.g. myopia / corrected): public/2d/conditions + conditions.js
 
     python3 tools/import_realistic_plates.py /path/to/ifinite-horizon
 
 Outputs (deterministic, idempotent):
-  assets/2d/<chapter>/rx-<id>.webp     realistic plate (copied byte-for-byte)
-  src/realistic_plates.json            {"assets": {chapter: {section: [file]}},
-                                        "labels": {"chapter/file": [label spec]},
-                                        "source": {...}}
+  assets/2d/rx/<id>.webp               each image stored ONCE (shared by chapters)
+  src/realistic_plates.json            {"assets": {chapter: {section: ["rx/<id>.webp"]}},
+                                        "labels": {"rx/<id>.webp": [label spec]},
+                                        "credits": {"rx/<id>.webp": "..."}, "source": {...}}
+Map entries are "<class>/<subject>/<id>" for a realistic plate, or
+"<class>/<subject>/<id>#<n>" for condition variant n of that topic.
 build.py merges "labels" into the compressed EV_LABEL_DATA blob and inlines
 "assets" so EVRASTER shows the realistic plate FIRST for each mapped section;
 the generated composite plate stays available as the next image (↻).
@@ -128,6 +132,46 @@ MAP = {
     "c10_sustainable": {"M.1": [B10 + "population"]},
 }
 
+# Condition variants ("id#n") and newer realistic plates, appended after the
+# realistic plate of each section (or first, where a section had none).
+EXTRA = {
+    "c9_cell": {"2.4": [B9 + "osmosis_tonicity", B9 + "cell_membrane#2", B9 + "cell_membrane#1"],
+                "2.9": [B10 + "cell_cycle_division#3", B10 + "cell_cycle_division#4", B10 + "cell_cycle_division#6"]},
+    "c9_tissues": {"3.9": [B10 + "nervous_system#1"], "3.10": [B9 + "skeleton_joint#1", B9 + "skeleton_joint#2"]},
+    "c10_reactions": {"1.5": [C10 + "displacement#1", C10 + "displacement#3"]},
+    "c10_acids": {"2.2": [C10 + "ph#3"], "2.3": [C10 + "ph#2"], "2.4": [C10 + "neutralisation#1", C10 + "neutralisation#2"],
+                  "2.5": [C10 + "ph#1"], "2.6": [C10 + "ph#4", C10 + "neutralisation#3"]},
+    "c10_metals": {"3.3": [C10 + "reactivity#1", C10 + "reactivity#3", C10 + "reactivity#4"]},
+    "c10_heredity": {"8.2": [B10 + "genetics_dna#1"], "8.3": [B10 + "genetics_dna#4", B10 + "genetics_dna#5"],
+                     "8.5": [B10 + "genetics_dna#2", B10 + "genetics_dna#3"]},
+    "c10_light": {"9.2.1": [P10 + "reflection#1"], "9.2.2": [P10 + "reflection#2"], "9.3": [P10 + "refraction#4"],
+                  "9.3.1": [P10 + "refraction#1"], "9.3.3": [P10 + "lens#1", P10 + "lens#2"],
+                  "9.3.7": [P10 + "lens#1"], "9.3.8": [P10 + "lens#1", P10 + "lens#2"]},
+    "c10_eye": {"10.1": [P10 + "human_eye_anatomy#5"], "10.2": [P10 + "human_eye_anatomy#3"],
+                "10.3": [P10 + "human_eye_anatomy#6", P10 + "human_eye_anatomy#7"],
+                "10.4": [P10 + "human_eye_anatomy#8", P10 + "human_eye_anatomy#9"],
+                "10.7": [P10 + "scattering_light#1", P10 + "scattering_light#2"]},
+    "c10_electricity": {"11.5": [P10 + "circuit#1"], "11.6": [P10 + "circuit#2", P10 + "circuit#3"]},
+    "c10_magnetism": {"12.1": [P10 + "magnetic_field_lines#1", P10 + "magnetic_field_lines#2"],
+                      "12.4": [P10 + "electromagnet#1", P10 + "electromagnet#2", P10 + "electromagnet#4"],
+                      "12.5": [P10 + "motor#1"], "12.6": [P10 + "motor#1", P10 + "motor#2", P10 + "motor#3"]},
+    "c10_life": {"5.6": [B9 + "respiratory_system#1", B9 + "respiratory_system#3"],
+                 "5.8": [B10 + "circulatory_system#2", B10 + "circulatory_system#3"],
+                 "5.9": [B10 + "excretory_system#4", B10 + "dialysis#4"]},
+    "c10_control": {"6.3": [B10 + "nervous_system#1", B10 + "nervous_system#2"], "6.4": [B10 + "nervous_system#5"]},
+    "c9_mixtures": {"5.3": [C9 + "tyndall#3"], "5.4": [C9 + "tyndall#1"], "5.7": [C9 + "tyndall#2"]},
+    "c9_motion": {"4.4": [P9 + "motion#1"], "4.5": [P9 + "motion#2", P9 + "motion#3"], "4.6": [P9 + "motion#1"],
+                  "4.7": [P9 + "motion#2"], "4.8": [P9 + "motion#2"]},
+    "c9_forces": {"6.4": [P9 + "newton_laws#2"], "6.5": [P9 + "newton_laws#1"], "6.6": [P9 + "newton_laws#4"],
+                  "6.7": [P9 + "newton_laws#2"], "6.8": [P9 + "newton_laws#3"], "6.9": [P9 + "newton_laws#3"]},
+    "c9_sound": {"10.1": [P9 + "sound#1"], "10.2": [P9 + "sound#3"], "10.4": [P9 + "sound#1"], "10.5": [P9 + "sound#1"],
+                 "10.6": [P9 + "sound#1"], "10.7": [P9 + "sound#1"], "10.8": [P9 + "sound#2"],
+                 "10.9": [P9 + "echo_sonar"], "10.10": [P9 + "echo_sonar"]},
+    "c9_earth": {"13.2": [P9 + "differential_heating#1"],
+                 "13.3": [P9 + "differential_heating#1", P9 + "differential_heating#2", P9 + "differential_heating#3"],
+                 "13.4": [P9 + "sea_land_breeze#1", P9 + "sea_land_breeze#2", P9 + "sea_land_breeze#3"]},
+}
+
 DEVA = re.compile(r"[ऀ-ॿ]")
 W, H = 1408, 768
 PAD, GAP, CHIP_H, ROW_GAP, PER_ROW = 14, 10, 66, 10, 5
@@ -142,7 +186,8 @@ def split_title(t):
 
 
 def label_specs(entry):
-    t_en, t_hi = split_title(entry["title"])
+    t = entry["title"]
+    t_en, t_hi = (t.get("en", ""), t.get("hi", "")) if isinstance(t, dict) else split_title(t)
     marks = sorted(entry.get("marks") or [], key=lambda m: (m["x"]))
     if not marks:
         return []
@@ -167,6 +212,13 @@ def label_specs(entry):
     return specs
 
 
+def load_conditions(src):
+    js = (src / "public" / "2d" / "conditions.js").read_text(encoding="utf-8")
+    start = js.index("{", js.index("VA_CONDS"))
+    obj, _ = json.JSONDecoder().raw_decode(js[start:])
+    return obj
+
+
 def main():
     if len(sys.argv) < 2:
         raise SystemExit(__doc__)
@@ -174,40 +226,77 @@ def main():
     va = (src / "assets" / "va-2d.js").read_text(encoding="utf-8")
     line = next(l for l in va.splitlines() if l.startswith("const DATA="))
     data = json.loads(line[len("const DATA="):].rstrip().rstrip(";"))
+    conds = load_conditions(src)
 
-    assets, labels, used, missing = {}, {}, set(), []
-    for wid, secs in MAP.items():
+    store = ROOT / "assets" / "2d" / "rx"
+    store.mkdir(parents=True, exist_ok=True)
+    assets, labels, credits, missing, files = {}, {}, {}, [], set()
+
+    def resolve(full):
+        """-> (source path, shared file name, entry) or None"""
+        ref, _, n = full.partition("#")
+        group, key = ref.rsplit("/", 1)
+        if n:
+            variants = conds.get(ref) or []
+            idx = int(n) - 1
+            if idx >= len(variants):
+                return None
+            e = variants[idx]
+            return src / "public" / "2d" / e["img"], f"rx/{key}--{n}.webp", e
+        e = data.get(group, {}).get(key)
+        if not e:
+            return None
+        return src / "public" / "2d" / group / e["img"], f"rx/{key}.webp", e
+
+    plan = {}
+    for table in (MAP, EXTRA):
+        for wid, secs in table.items():
+            for sec, ids in secs.items():
+                plan.setdefault(wid, {}).setdefault(sec, []).extend(ids)
+
+    for wid, secs in plan.items():
         for sec, ids in secs.items():
             for full in ids:
-                group, key = full.rsplit("/", 1)
-                entry = data.get(group, {}).get(key)
-                if not entry:
+                r = resolve(full)
+                if not r or r[0].suffix.lower() != ".webp" or not r[0].exists():
                     missing.append(full); continue
-                img = src / "public" / "2d" / group / entry["img"]
-                if img.suffix.lower() != ".webp" or not img.exists():
-                    missing.append(full); continue
-                fname = "rx-" + key + ".webp"
-                dest = ROOT / "assets" / "2d" / wid / fname
-                dest.parent.mkdir(parents=True, exist_ok=True)
+                img, fname, entry = r
+                specs = label_specs(entry)
+                if not specs:
+                    missing.append(full + " (no labels)"); continue
+                dest = ROOT / "assets" / "2d" / fname
                 if not dest.exists() or dest.read_bytes() != img.read_bytes():
                     shutil.copyfile(img, dest)
-                assets.setdefault(wid, {}).setdefault(sec, [])
-                if fname not in assets[wid][sec]:
-                    assets[wid][sec].append(fname)
-                labels[wid + "/" + fname] = label_specs(entry)
-                used.add(full)
+                row = assets.setdefault(wid, {}).setdefault(sec, [])
+                if fname not in row:
+                    row.append(fname)
+                labels[fname] = specs
+                if entry.get("credit"):
+                    credits[fname] = entry["credit"]
+                files.add(fname)
+
+    # the shared store holds exactly the referenced images
+    for old in store.glob("*.webp"):
+        if "rx/" + old.name not in files:
+            old.unlink()
+    # retire the old per-chapter copies (rx-*.webp)
+    for old in (ROOT / "assets" / "2d").glob("*/rx-*.webp"):
+        old.unlink()
 
     OUT_JSON.write_text(json.dumps({
-        "source": {"repo": "anveshix/ifinite-horizon", "path": "public/2d", "data": "assets/va-2d.js",
-                   "kind": "Illustrative AI-assisted teaching plates; not to scale, not micrographs."},
-        "assets": assets, "labels": labels,
+        "source": {"repo": "anveshix/ifinite-horizon", "branch": "main",
+                   "paths": ["public/2d/<class>/<subject>/images", "public/2d/conditions"],
+                   "data": ["assets/va-2d.js", "public/2d/conditions.js"],
+                   "kind": "Illustrative teaching plates and 3D-rendered condition views; not to scale, not micrographs."},
+        "assets": assets, "labels": labels, "credits": credits,
     }, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     n_sec = sum(len(s) for s in assets.values())
     n_lab = sum(len(v) for v in labels.values())
-    print(f"realistic plates: {len(used)} images · {n_sec} sections in {len(assets)} chapters · "
-          f"{len(labels)} placements · {n_lab} anchored labels")
+    size = sum((ROOT / "assets" / "2d" / f).stat().st_size for f in files)
+    print(f"plates: {len(files)} unique images ({size / 1e6:.1f} MB, stored once) · {n_sec} sections in "
+          f"{len(assets)} chapters · {n_lab} anchored labels · {len(credits)} with licence credits")
     if missing:
-        print("skipped (no raster/DATA):", ", ".join(sorted(set(missing))))
+        print("skipped:", ", ".join(sorted(set(missing))))
 
 
 if __name__ == "__main__":

@@ -672,6 +672,11 @@ function BI(en, hi, sep) {
   if (EV.lang === "both" && hi && hi !== en) return en + (sep === undefined ? " · " : sep) + hi;
   return en || hi;
 }
+/* 2D plate paths: "rx/<id>.webp" lives ONCE in the shared store assets/2d/rx/
+   (used by several chapters); any other file is per chapter. The label key
+   follows the same rule, so a shared image carries one set of labels. */
+function EVPLATE_SRC(wid, file) { return file ? "assets/2d/" + (String(file).indexOf("rx/") === 0 ? file : wid + "/" + file) : ""; }
+function EVPLATE_KEY(wid, file) { return String(file).indexOf("rx/") === 0 ? file : wid + "/" + file; }
 function BX(en, hi) {
   if (EV.lang !== "both" || !hi || hi === en) return esc(BI(en, hi));
   return '<span class="bi-en">' + esc(en) + '</span><span class="bi-hi">' + esc(hi) + '</span>';

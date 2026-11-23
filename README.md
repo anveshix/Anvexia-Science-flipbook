@@ -48,7 +48,7 @@ All runtime libraries are vendored and bundled offline into `index.html` (`< 5.0
 
 | Concern | Source of truth | How it reaches the app |
 | --- | --- | --- |
-| Realistic plates (114 WebP, 1408×768-space) | `anveshix/ifinite-horizon` → `public/2d/**/images` + `assets/va-2d.js` | `python3 tools/import_realistic_plates.py <ifinite-horizon checkout>` → `assets/2d/<chapter>/rx-*.webp` + `src/realistic_plates.json` |
+| Realistic plates + condition views (193 WebP, each stored once) | `anveshix/ifinite-horizon` (main) → `public/2d/**/images`, `public/2d/conditions` + `assets/va-2d.js`, `conditions.js` | `python3 tools/import_realistic_plates.py <ifinite-horizon checkout>` → shared store `assets/2d/rx/` + `src/realistic_plates.json` (chapters reference `rx/<id>.webp`; credits in `CREDITS.md`) |
 | Generated composite plates (274 JPEG) | `node tools/build_2d_plates.mjs` (never overwrites manifest originals) | kept as the **next image (↻)** after the realistic plate |
 | Bilingual hotspots | `src/label_data.json` + `realistic_plates.json` labels | merged and compressed by `build.py` |
 | 3D book | `src/world.js` | the realistic plate is painted **into the page texture**, so it turns with the paper; the HTML overlay adds sharp pixels and clickable labels when the page is still |

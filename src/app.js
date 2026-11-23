@@ -585,7 +585,7 @@ const EVLABEL=(()=>{
       layer.append(hit);buttons.push(hit);
     });
     layer.append(info);host.append(layer);
-    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const iw=Math.min(w,h*1408/768),ih=iw*768/1408;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px');layer.classList.toggle('ev-compact',iw<560);if(iw>=560)fitChips(layer)}
+    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const ar=(img.naturalWidth&&img.naturalHeight)?img.naturalWidth/img.naturalHeight:1408/768;const iw=Math.min(w,h*ar),ih=iw/ar;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px');layer.classList.toggle('ev-compact',iw<560);if(iw>=560)fitChips(layer)}
     const ro=new ResizeObserver(size);ro.observe(host);img.addEventListener('load',size,{once:true});size();active.set(host,{ro,layer,closeInfo});
   }
   function closeOpen(host){const item=host&&active.get(host);if(!item)return false;const p=item.layer.querySelector('.ev-label-pop');if(!p||p.hidden)return false;item.closeInfo();return true}
@@ -1728,13 +1728,13 @@ const EVRASTER = (() => {
     };
     const note=(EV.world.id==='c9_atom' || EV.world.id==='c9_atomic_foundations' || EV.world.id==='c9_sound' || EV.world.id==='c9_reproduction9' || EV.world.id==='c9_diversity' || EV.world.id==='c9_earth' || EV.world.id==='c10_reactions' || EV.world.id==='c10_acids' || EV.world.id==='c10_metals' || EV.world.id==='c10_life' || EV.world.id==='c10_heredity' || EV.world.id==='c10_env' || EV.world.id==='c10_control' || EV.world.id==='c10_sources' || EV.world.id==='c10_sustainable' || EV.world.id==='c9_exploration' || EV.world.id==='c9_matter' || EV.world.id==='c10_repro' || EV.world.id==='c10_carbon' || EV.world.id==='c10_periodic' || EV.world.id==='c10_light' || EV.world.id==='c10_eye' || EV.world.id==='c10_electricity' || EV.world.id==='c10_magnetism' || EV.world.id==='c9_pure' || EV.world.id==='c9_atoms' || EV.world.id==='c9_disease') && atomNotes[file];
     $('aiDraftTitle').textContent=description; img.alt=description+(note ? ' — '+BI(note[0],note[1]) : '');
-    const src='assets/2d/'+EV.world.id+'/'+file, probe=new Image();
+    const src=EVPLATE_SRC(EV.world.id,file), probe=new Image();
     probe.onload=() => {
       if(number!==token || !validContext()) return;
-      img.onload=() => { if(number===token) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EV.world.id+'/'+file); EVZOOM.refreshDraft();} };
+      img.onload=() => { if(number===token) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();} };
       img.onerror=() => { if(number===token) {ready=false; hide();} };
       img.src=src;
-      if(img.complete && img.naturalWidth) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EV.world.id+'/'+file); EVZOOM.refreshDraft();}
+      if(img.complete && img.naturalWidth) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();}
     };
     probe.onerror=() => { if(number===token) {ready=false; hide(); if(!WORLD.vectorPlate2dAvailable(EV.world)) { setPlateView('3d'); toast('Draft image unavailable; live 3D restored / चित्र उपलब्ध नहीं, 3D बहाल'); }} };
     probe.src=src;
@@ -1782,7 +1782,7 @@ const EVRASTER = (() => {
   function next() { if(currentFiles.length>1){imageIndex=(imageIndex+1)%currentFiles.length;load();WORLD.repaintPages();} }
   function zoomSource(allowHidden) {
     const el=$('aiDraftPlate'),img=$('aiDraftImage');
-    return el && (allowHidden || !el.hidden) && ready && validContext() && img && img.complete && img.naturalWidth ? {src:img.src,kind:'draft2d',alt:img.alt,key:EV.world.id+'/'+currentFiles[imageIndex]} : null;
+    return el && (allowHidden || !el.hidden) && ready && validContext() && img && img.complete && img.naturalWidth ? {src:img.src,kind:'draft2d',alt:img.alt,key:EVPLATE_KEY(EV.world.id,currentFiles[imageIndex])} : null;
   }
   function pageCounter() { return (imageIndex+1)+' / '+currentFiles.length; }
   function activate() { enabled=true; identity=''; }
@@ -1795,7 +1795,7 @@ const EVRASTER = (() => {
     const onScreen = EV.world && EV.world.id === wid && EV.world.spreads[WORLD.index] && EV.world.spreads[WORLD.index].section === sec;
     return onScreen && identity && f[imageIndex] ? f[imageIndex] : f[0];
   }
-  function firstThumb(wid) { const g = assets[wid]; if (!g) return ''; const k = Object.keys(g)[0]; return (k && g[k] && g[k][0]) ? 'assets/2d/' + wid + '/' + g[k][0] : ''; }
+  function firstThumb(wid) { const g = assets[wid]; if (!g) return ''; const k = Object.keys(g)[0]; return (k && g[k] && g[k][0]) ? EVPLATE_SRC(wid, g[k][0]) : ''; }
   return {frame,toggle,install,zoomSource,has,filesFor,fileFor,firstThumb,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
 })();
 window.EVRASTER = EVRASTER;

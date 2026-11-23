@@ -42,19 +42,20 @@ for wid, secs in data["assets"].items():
         errors.append(f"unknown chapter {wid}")
     for sec, fl in secs.items():
         for f in fl:
-            p = ROOT / "assets/2d" / wid / f
+            p = ROOT / "assets/2d" / f if f.startswith("rx/") else ROOT / "assets/2d" / wid / f
+            if not f.startswith("rx/"):
+                errors.append(f"{wid}/{f}: imported plates must live in the shared store assets/2d/rx/")
             if not p.exists():
                 errors.append(f"missing {wid}/{f}"); continue
             dim = webp_size(p.read_bytes()[:40])
-            if not dim or abs(dim[0] / dim[1] / (1408 / 768) - 1) > 0.02 or dim[0] < 1200:
-                errors.append(f"{wid}/{f} is not a ~1408x768 (11:6) WebP: {dim}")
+            if not dim or abs(dim[0] / dim[1] / (1408 / 768) - 1) > 0.05 or dim[0] < 1200:
+                errors.append(f"{wid}/{f} is not a landscape ~11:6 WebP (labels follow the image aspect): {dim}")
             files.add(f"{wid}/{f}")
-            specs = data["labels"].get(f"{wid}/{f}")
-            if not specs:
-                errors.append(f"no labels for {wid}/{f}"); continue
+            if not data["labels"].get(f):
+                errors.append(f"no labels for {f}")
 
 for key, specs in data["labels"].items():
-    if key in labels:
+    if key in labels or not key.startswith("rx/"):
         errors.append(f"label key collides with label_data.json: {key}")
     boxes = []
     for s in specs:
@@ -70,6 +71,19 @@ for key, specs in data["labels"].items():
                 errors.append(f"{key}: chips overlap ({s['en']} / {b['en']})")
         boxes.append(s)
 
+# one copy per image: the store holds exactly the referenced files, no per-chapter copies
+store = {"rx/" + p.name for p in (ROOT / "assets/2d/rx").glob("*")}
+if store != {f.split("/", 1)[1] for f in files}:
+    errors.append(f"shared store mismatch: unreferenced {sorted(store - {f.split('/', 1)[1] for f in files})[:3]}")
+stale = list((ROOT / "assets/2d").glob("*/rx-*"))
+if stale:
+    errors.append(f"{len(stale)} stale per-chapter copies, e.g. {stale[0]}")
+credited = set(data.get("credits", {}))
+creds_md = (ROOT / "CREDITS.md").read_text(encoding="utf-8")
+for f in credited:
+    if f not in creds_md:
+        errors.append(f"licence credit for {f} missing from CREDITS.md")
+
 # generated composites stay as fallbacks
 for key in labels:
     if not (ROOT / "assets/2d" / key).exists():
@@ -79,6 +93,6 @@ if errors:
     print("FAIL realistic_plates:\n  " + "\n  ".join(errors[:40]))
     sys.exit(1)
 sections = sum(len(s) for s in data["assets"].values())
-print(f"PASS realistic_plates: {len(files)} placements · {len({f.split('/')[1] for f in files})} unique WebP plates · "
+print(f"PASS realistic_plates: {len(files)} placements · {len({f.split('/', 1)[1] for f in files})} unique WebP plates stored once · "
       f"{sections} sections in {len(data['assets'])} chapters · {n_labels} anchored bilingual labels · "
       f"{len(labels)} generated fallbacks intact")
