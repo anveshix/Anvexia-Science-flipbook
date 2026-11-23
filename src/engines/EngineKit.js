@@ -28,9 +28,9 @@
 
 const EVENGINE = (function () {
   'use strict';
-  const VERSION = '1.0.0';
+  const VERSION = '2.0.0';
   const CREDIT = 'Copyright / Developer : Paras Pranav';
-  const CLASSES = ['IX', 'X'];
+  const CLASSES = ['IX', 'X', 'XI', 'XII'];
   const SUBJECT_ENGINE = { biology: 'bio', chemistry: 'chem', physics: 'phys' };
   const RESEARCH = [
     'nathanliow/atlas-of-physics (model/world/checks; one engine)',

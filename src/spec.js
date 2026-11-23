@@ -10,10 +10,10 @@
 
 const I18N = {
   en: {
-    brand: "EduVerse", tagline: "NCERT IX/X · Moving 3D Textbook World",
-    world: "Meta World", book: "Open Book", compiler: "Chapter Compiler", spec: "World Spec", quiz: "Chapter Quiz", research: "Repo Research", teacher: "Teacher Desk",
+    brand: "SciVerse 3D", tagline: "Explore Science. Experience Discovery.",
+    world: "Meta World", book: "Open Book", flipbook: "2D Flipbook", search: "Search Science", compiler: "Chapter Compiler", spec: "World Spec", quiz: "Chapter Quiz", research: "Repo Research", teacher: "Teacher Desk",
     enterWorld: "Open book", openChapter: "Open chapter", compile: "Compile chapter", validate: "Validate spec",
-    paste: "Paste your NCERT / CBSE chapter text here…", demo: "Load sample chapter", upload: "Upload .txt / .md / .pdf",
+    paste: "Paste your NCERT / CBSE chapter text here (Class IX–XII)…", demo: "Load sample chapter", upload: "Upload .txt / .md / .pdf",
     prev: "Previous spread", next: "Next spread", turn: "Turn page", worldView: "Meta World", bookView: "Book",
     predict: "PREDICT FIRST", predictHint: "Commit to an answer before you touch the model.",
     check: "Lock my prediction", flap: "Lift the flap · Why?", flapClosed: "Answer hidden under the flap",
@@ -25,7 +25,7 @@ const I18N = {
     exportSpec: "Download world-spec.json", importSpec: "Import spec JSON", applySpec: "Build this world",
     source: "Source", sections: "sections", chars: "characters", spreads: "spreads",
     compiled: "World compiled", ready: "Ready to build",
-    chapterShelf: "ALL CHAPTERS · COMPILER SHELF (26 live chapters)", class9: "Class IX", class10: "Class X",
+    chapterShelf: "ALL CHAPTERS · COMPILER SHELF (26 live chapters)", class9: "Class IX", class10: "Class X", class11: "Class XI", class12: "Class XII",
     keyTerms: "KEY TERMS", chapter4Tag: "Ch 4 · Carbon and its Compounds", otherChapters: "Other catalogue chapters (Tools only)",
     liveChapters: "26 live chapters",
     syllabus2627: "CBSE 2026-27",
@@ -49,10 +49,10 @@ const I18N = {
     copied: "Copied", saved: "Saved", worldOf: "WORLD OF"
   },
   hi: {
-    brand: "एडूवर्स", tagline: "NCERT IX/X · चलती-फिरती 3D पाठ्यपुस्तक",
-    world: "मेटा वर्ल्ड", book: "खुली किताब", compiler: "चैप्टर कंपाइलर", spec: "वर्ल्ड स्पेक", quiz: "अध्याय प्रश्नोत्तरी", research: "रेपो रिसर्च", teacher: "शिक्षक डेस्क",
+    brand: "SciVerse 3D · साइवर्स", tagline: "विज्ञान का अन्वेषण करें। खोज का अनुभव लें।",
+    world: "मेटा वर्ल्ड", book: "खुली किताब", flipbook: "2D फ़्लिपबुक", search: "विज्ञान खोजें", compiler: "चैप्टर कंपाइलर", spec: "वर्ल्ड स्पेक", quiz: "अध्याय प्रश्नोत्तरी", research: "रेपो रिसर्च", teacher: "शिक्षक डेस्क",
     enterWorld: "किताब खोलें", openChapter: "अध्याय खोलें", compile: "अध्याय कंपाइल करें", validate: "स्पेक जाँचें",
-    paste: "अपना NCERT / CBSE अध्याय यहाँ पेस्ट करें…", demo: "नमूना अध्याय लोड करें", upload: ".txt / .md / .pdf अपलोड",
+    paste: "अपना NCERT / CBSE अध्याय (कक्षा IX–XII) यहाँ पेस्ट करें…", demo: "नमूना अध्याय लोड करें", upload: ".txt / .md / .pdf अपलोड",
     prev: "पिछला स्प्रेड", next: "अगला स्प्रेड", turn: "पन्ना पलटें", worldView: "मेटा वर्ल्ड", bookView: "किताब",
     predict: "पहले अनुमान लगाएँ", predictHint: "मॉडल छूने से पहले उत्तर तय करें।",
     check: "अनुमान पक्का करें", flap: "फ्लैप उठाएँ · क्यों?", flapClosed: "उत्तर फ्लैप के नीचे छिपा है",
@@ -64,7 +64,7 @@ const I18N = {
     exportSpec: "world-spec.json डाउनलोड", importSpec: "स्पेक JSON लोड", applySpec: "यह दुनिया बनाएँ",
     source: "स्रोत", sections: "अनुभाग", chars: "अक्षर", spreads: "स्प्रेड",
     compiled: "दुनिया तैयार", ready: "बनाने के लिए तैयार",
-    chapterShelf: "सभी अध्याय · कंपाइलर शेल्फ (26 लाइव अध्याय)", class9: "कक्षा IX", class10: "कक्षा X",
+    chapterShelf: "सभी अध्याय · कंपाइलर शेल्फ (26 लाइव अध्याय)", class9: "कक्षा IX", class10: "कक्षा X", class11: "कक्षा XI", class12: "कक्षा XII",
     keyTerms: "मुख्य शब्द", chapter4Tag: "अध्याय 4 · कार्बन और उसके यौगिक", otherChapters: "अन्य अध्याय (केवल टूल्स)",
     liveChapters: "26 लाइव अध्याय",
     syllabus2627: "सीबीएसई 2026-27",
@@ -97,7 +97,8 @@ Object.keys(I18N.en).forEach(k => {
   I18N.both[k] = (hi && en !== hi && (en.length + hi.length) <= 30) ? en + " · " + hi : en;
 });
 Object.assign(I18N.both, {
-  brand: "EduVerse / एडूवर्स", tagline: "NCERT IX/X · 3D पाठ्यपुस्तक",
+  brand: "SciVerse 3D", tagline: "Explore Science. Experience Discovery. · विज्ञान की खोज",
+  flipbook: "2D Flipbook · फ़्लिपबुक", search: "Search · खोजें",
   langLabel: "EN + हिंदी", predict: "PREDICT · अनुमान", meters: "READINGS · रीडिंग",
   challenge: "CHALLENGE · चुनौती", keyTerms: "KEY TERMS · शब्द", check: "Lock · पक्का",
   quiz: "Quiz · प्रश्नोत्तरी", spread: "Spread", of: "of",
@@ -567,12 +568,12 @@ function validateWorld(w) {
 }
 
 /* Production prompt: the AI writes ONLY WorldSpec JSON, never 3D code. */
-const GEMINI_PROMPT = `You are the EduVerse chapter compiler for CBSE / NCERT Science (Classes IX–X).
-The 3D book engine is already written. You DO NOT write code. You write ONE JSON object
-(WorldSpec) that the engine renders as a moving 3D textbook world.
+const GEMINI_PROMPT = `You are the SciVerse 3D chapter compiler for CBSE / NCERT Science (Classes IX–X, extensible to XI–XII).
+The 3D book + 2D Flipbook engine is already written. You DO NOT write code. You write ONE JSON object
+(WorldSpec) that the engine renders as an interactive 3D textbook world and 2D Flipbook.
 
 WORLDSPEC SHAPE
-{ "title": "...", "titleHi": "...", "cls": "IX"|"X", "subject": "bio"|"chem"|"phy",
+{ "title": "...", "titleHi": "...", "cls": "IX"|"X"|"XI"|"XII", "subject": "bio"|"chem"|"phy",
   "board": "CBSE / NCERT", "source": "...", "color": "#2f7fb8",
   "spreads": [ {
     "id":"slug", "short":"≤22 chars", "section":"1.1",
@@ -602,6 +603,11 @@ RULES
 
 /* Research data surfaced in the in-app Research view */
 const REPOS = [
+  { repo: "Nodlik/StPageFlip", stars: 1650, lic: "MIT", lang: "TypeScript", use: "Tactile HTML5 2D Flipbook engine with realistic page-curl geometry, spine shadows, corner peel, and hardcover spreads", adopt: "Vendored (page-flip@2.0.7) for Pillar 1: interactive 2D Science Flipbooks synced with 3D spreads", url: "https://github.com/Nodlik/StPageFlip", tier: "CORE" },
+  { repo: "lucaong/minisearch", stars: 5100, lic: "MIT", lang: "TypeScript", use: "Zero-dependency client-side full-text & fuzzy search engine with prefix matching and field boosting", adopt: "Vendored (minisearch@7.2.0) for instant offline Hindi–English concept, formula & experiment search", url: "https://github.com/lucaong/minisearch", tier: "CORE" },
+  { repo: "ronkok/Temml", stars: 620, lic: "MIT", lang: "JavaScript", use: "Lightweight LaTeX-to-native-MathML compiler rendering textbook math & chemical reactions with ~9 KB font footprint", adopt: "Vendored (temml@0.14.0) for crisp physics equations & chemical stoichiometry in Class IX–XII", url: "https://github.com/ronkok/Temml", tier: "CORE" },
+  { repo: "tweenjs/tween.js", stars: 9800, lic: "MIT", lang: "TypeScript", use: "Smooth JavaScript/TypeScript animation & easing engine for Three.js and UI state transitions", adopt: "Vendored (@tweenjs/tween.js@25.0.0) for smooth camera, apparatus & UI motion easing", url: "https://github.com/tweenjs/tween.js", tier: "CORE" },
+  { repo: "catdad/canvas-confetti", stars: 11200, lic: "ISC", lang: "JavaScript", use: "High-performance particle burst animations with reduced-motion support and zero worker requirement", adopt: "Vendored (canvas-confetti@1.9.4) for Discovery Stamp & quiz mastery celebration", url: "https://github.com/catdad/canvas-confetti", tier: "SUPPORT" },
   { repo: "AlphaaCode/Popbook", stars: 11, lic: "MIT", lang: "JavaScript", use: "PDF → 3D pop-up book; AI writes ONLY book.json; scene-block catalogue; predict + lift-the-flap + stamp", adopt: "AI-writes-JSON-only contract, spread schema, block router, completion stamp", url: "https://github.com/AlphaaCode/Popbook", tier: "CORE" },
   { repo: "nathanliow/atlas-of-physics", stars: 378, lic: "MIT", lang: "JavaScript", use: "Interactive 3D textbook; each chapter = model.js / checks.mjs / world.js / pages.js / practice.js", adopt: "Per-chapter purity: model separate from world; invariant checks; deep links to spreads", url: "https://github.com/nathanliow/atlas-of-physics", tier: "CORE" },
   { repo: "james123wang5/moving-physics-book", stars: 0, lic: "MIT", lang: "JavaScript", use: "Pop-up 3D physics textbook with page turning, draggable experiments, prediction cards, quizzes (5 lessons)", adopt: "The target product shape: real book + pop-up + drag + predict + quiz", url: "https://github.com/james123wang5/moving-physics-book", tier: "USER" },

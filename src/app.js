@@ -245,7 +245,8 @@ function renderLesson() {
     const label = EV.lang === "both" && rawHi ? BX(raw.options[i], rawHi.options[i]) : esc(o);
     return `<button class="${cls}" data-opt="${i}" ${pg.locked ? "disabled" : ""}><b>${String.fromCharCode(65 + i)}</b><span>${label}</span></button>`;
   }).join("");
-  const formula = sp.formula ? `<div class="lc-formula"><span>${esc(sp.formula.label)}</span><strong>${esc(sp.formula.eq)}</strong><small>${esc(sp.formula.note)}</small></div>` : "";
+  const eqHtml = sp.formula ? ((typeof SCIVERSE !== "undefined" && SCIVERSE.formatFormulaHtml) ? SCIVERSE.formatFormulaHtml(sp.formula.eq) : esc(sp.formula.eq)) : "";
+  const formula = sp.formula ? `<div class="lc-formula"><span>${esc(sp.formula.label)}</span><strong>${eqHtml}</strong>${sp.formula.note ? `<small>${esc(sp.formula.note)}</small>` : ""}</div>` : "";
   const vocab = VOC(sp).length ? `<div class="lc-vocab">${VOC(sp).slice(0, 4).map(v => `<div><b>${esc(v[0])}</b> — ${esc(v[1])}</div>`).join("")}</div>` : "";
   const rawV = sp.vocab || [], rawVHi = sp.vocabHi || [];
   const terms = VOC(sp).slice(0, 3).map((v, i) => `<span title="${esc(v[1])}"><b>${EV.lang === "both" && rawVHi.length ? BX(rawV[i] && rawV[i][0], rawVHi[i] && rawVHi[i][0]) : esc(v[0])}</b></span>`).join(" · ");
@@ -256,6 +257,7 @@ function renderLesson() {
     <h2>${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(title)}</h2>
     <div class="lc-terms"><small>${esc(t("keyTerms"))}:</small> ${terms}</div>
     <p class="lc-concept">${esc(concept)}</p>
+    ${formula}
     <div class="predict">
       <div class="predict-q">${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
       <div class="predict-opts">${opts}</div>
@@ -367,6 +369,7 @@ function maybeStamp(model) {
     if (badge) { badge.className = "stamp earned"; badge.textContent = "★ " + t("stamp"); }
     renderTop(); toast("★ " + uiTxt("toast.stamped"), "ok");
     flash();
+    if (typeof SCIVERSE !== "undefined" && SCIVERSE.celebrate) SCIVERSE.celebrate("stamp");
     if (cbVoice()) { /* small confirmation only */ }
   }
 }
@@ -1728,7 +1731,8 @@ const EVRASTER = (() => {
   function pageCounter() { return (imageIndex+1)+' / '+currentFiles.length; }
   function activate() { enabled=true; identity=''; }
   function deactivate() { enabled=false; identity=''; token++; ready=false; hide(); }
-  return {frame,toggle,install,zoomSource,has,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
+  function filesFor(wid, sec) { return (assets[wid] && assets[wid][sec]) ? assets[wid][sec].slice() : []; }
+  return {frame,toggle,install,zoomSource,has,filesFor,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
 })();
 window.EVRASTER = EVRASTER;
 
@@ -1787,7 +1791,20 @@ const EVZOOM = (() => {
     const caption=overlay.querySelector(".evzoom-caption"); if(caption) caption.textContent=data.alt;
     if(next) next.textContent=EVRASTER.pageCounter()+" ›";
   }
-  return { open, close, refreshDraft };
+  function openImg(src, alt, key) {
+    if (overlay) close();
+    returnFocus = document.activeElement;
+    overlay = document.createElement("div"); overlay.className = "evzoom"; overlay.dataset.kind = "draft2d";
+    overlay.innerHTML = `<section class="evzoom-dialog" role="dialog" aria-modal="true" aria-labelledby="zoomTitle"><div class="evzoom-head"><h2 id="zoomTitle">${esc(alt || uiTxt("zoom.title"))}</h2><button type="button" class="evzoom-close" aria-label="Close">×</button></div><div class="evzoom-content"><div class="evzoom-picture"><img class="evzoom-image" alt="${esc(alt || "")}"></div></div><p class="evzoom-caption" tabindex="0">${esc(alt || "")}</p></section>`;
+    overlay.querySelector("img").src = src;
+    document.body.appendChild(overlay);
+    if (key) EVLABEL.render(overlay.querySelector(".evzoom-picture"), key);
+    overlay.querySelector(".evzoom-close").onclick = close;
+    overlay.addEventListener("click", e => { if (e.target === overlay || e.target.classList.contains("evzoom-content")) close(); });
+    overlay.addEventListener("keydown", e => { if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); close(); } });
+    overlay.querySelector(".evzoom-close").focus({ preventScroll: true });
+  }
+  return { open, openImg, close, refreshDraft };
 })();
 
 function renderPageBar() {
@@ -1804,6 +1821,7 @@ function renderPageBar() {
       <button class="btn ghost tiny ${WORLD.plate2d ? "" : "active"}" id="plate3d" data-plate="3d" title="${esc(uiTxt("plate3d.label"))}" data-i18n-title="plate3d.label" data-i18n-aria="plate3d.label">3D</button>
     </div>
     <div class="pager-tools">
+      <button class="btn ghost tiny sv-page-flip-btn" id="btnPageFlipbook" type="button" title="${esc(uiTxt("sv.flipbookSub"))}" data-i18n="sv.flipbookBtn">📖 ${esc(uiTxt("sv.flipbookBtn"))}</button>
       ${EVRASTER.has(w,w.spreads[idx]) ? `<button class="btn ghost tiny ${EVRASTER.enabled ? 'active' : ''}" id="btnAIDraft" type="button" aria-pressed="${EVRASTER.enabled}" data-i18n="draft.button" data-i18n-title="draft.toggle" data-i18n-aria="draft.toggle">${esc(uiTxt("draft.button"))}</button>` : ''}
       <button class="btn ghost tiny" id="btnZoomFigure" type="button" title="${esc(uiTxt("zoom.open"))}" data-i18n-title="zoom.open" data-i18n-aria="zoom.open" data-i18n="zoom.short">${esc(uiTxt("zoom.short"))}</button>
       <button class="btn ghost tiny ${EV.panels.left ? "" : "active"}" data-panel="left" title="${esc(t("panelLeft"))}" data-i18n-title="panelLeft" data-i18n-aria="panelLeft">◧</button>
@@ -1811,6 +1829,7 @@ function renderPageBar() {
       <button class="btn ghost tiny ${(!EV.panels.left && !EV.panels.right) ? "active" : ""}" data-panel="both" title="${esc(t("reader"))}" data-i18n-title="reader" data-i18n-aria="reader">⤢</button>
     </div>`);
   document.querySelectorAll("[data-jump]").forEach(b => b.onclick = () => WORLD.jumpTo(+b.dataset.jump));
+  if ($("btnPageFlipbook")) $("btnPageFlipbook").onclick = () => { if (typeof SCIVERSE !== "undefined") SCIVERSE.openFlipbook(w.id, idx, w); };
   if ($("btnAIDraft")) $("btnAIDraft").onclick = EVRASTER.toggle;
   if ($("btnZoomFigure")) $("btnZoomFigure").onclick = EVZOOM.open;
   const bp = $("btnPrev"), bn = $("btnNext");
@@ -1854,7 +1873,7 @@ function screenCompiler() {
     <div class="card"><div class="card-head"><b>01 · <span data-i18n="source">${esc(t("source"))}</span></b><label class="upload"><span data-i18n="upload">${esc(t("upload"))}</span><input type="file" id="fileInput" accept=".txt,.md,.pdf,.json"></label></div>
       <textarea id="compileText" spellcheck="false" placeholder="${esc(t("paste"))}" data-i18n-placeholder="paste"></textarea>
       <div class="row"><input class="inp" id="compileTitle" placeholder="${esc(uiTxt("ui.chapterTitleOptional"))}" data-i18n-placeholder="ui.chapterTitleOptional">
-        <select class="inp" id="compileCls"><option value="IX" data-i18n="ui.classIX">${esc(uiTxt("ui.classIX"))}</option><option value="X" data-i18n="ui.classX">${esc(uiTxt("ui.classX"))}</option></select>
+        <select class="inp" id="compileCls"><option value="IX" data-i18n="ui.classIX">${esc(uiTxt("ui.classIX"))}</option><option value="X" data-i18n="ui.classX">${esc(uiTxt("ui.classX"))}</option><option value="XI" data-i18n="ui.classXI">${esc(uiTxt("ui.classXI"))}</option><option value="XII" data-i18n="ui.classXII">${esc(uiTxt("ui.classXII"))}</option></select>
         <select class="inp" id="compileSubject"><option value="chem" data-i18n="ui.chemistry">${esc(uiTxt("ui.chemistry"))}</option><option value="bio" data-i18n="ui.biology">${esc(uiTxt("ui.biology"))}</option><option value="phy" data-i18n="ui.physics">${esc(uiTxt("ui.physics"))}</option></select></div>
       <div class="row"><button class="btn primary" id="btnCompile" data-i18n="compile">⚙ ${esc(t("compile"))}</button><button class="btn ghost" id="btnClearCompile" data-i18n="ui.clear">${esc(uiTxt("ui.clear"))}</button></div>
       <div class="hint" data-i18n="ui.pdfHint">${esc(uiTxt("ui.pdfHint"))}</div>
@@ -2097,6 +2116,7 @@ function bindQuiz() {
     EVFSM.transition("quiz", "COMPLETE", { answered: document.querySelectorAll(".qi-opts input:checked").length });
     $("scoreBadge").textContent = score + " / " + qs.length;
     $("quizResult").innerHTML = `<b>${esc(t("score"))}: ${score} / ${qs.length}</b>`;
+    if (qs.length && score / qs.length >= 0.8 && typeof SCIVERSE !== "undefined" && SCIVERSE.celebrate) SCIVERSE.celebrate("quiz");
     if (score === qs.length) toastKey("toast.perfect", "Perfect score ★", "ok"); else toast(`${score} / ${qs.length}`);
   };
   $("btnQuizRetry").onclick = () => {
@@ -2286,6 +2306,7 @@ function boot() {
   WORLD.setWorld(EV.world, Math.max(0, Math.min(EV.world.spreads.length - 1, deepSpread)));
   /* Additive student dashboard: two class cards -> class drawer -> flipbook. */
   if (window.EVLIB) EVLIB.install();
+  if (window.SCIVERSE) SCIVERSE.install();
   renderNav(); renderTop(); renderChapterList();
   renderLesson(); renderMeters(); renderPageBar(); renderSectionSelect();
   setView(qs.has("world") ? "book" : "world");
@@ -2505,11 +2526,11 @@ function showHelp() {
 const EVLIB = (function () {
   'use strict';
   const KEYS = [
-    ["lib.eyebrow", "EDUVERSE · CBSE / NCERT SCIENCE · 2026-27", "एडूवर्स · सीबीएसई / NCERT विज्ञान · 2026-27", "EDUVERSE · CBSE / NCERT SCIENCE · 2026-27"],
-    ["lib.title", "Your Science Library", "आपका विज्ञान पुस्तकालय", "Your Science Library / आपका विज्ञान पुस्तकालय"],
-    ["lib.sub", "Two classes · 26 chapters · one bilingual 3D flipbook. Choose a textbook to see what is inside.",
-      "दो कक्षाएँ · 26 अध्याय · एक द्विभाषी 3D फ़्लिपबुक। अंदर क्या है, देखने के लिए किताब चुनें।",
-      "Two classes / दो कक्षाएँ · 26 chapters · bilingual 3D flipbook"],
+    ["lib.eyebrow", "SCIVERSE 3D · CBSE / NCERT SCIENCE", "साइवर्स 3D · सीबीएसई / NCERT विज्ञान", "SCIVERSE 3D · CBSE / NCERT SCIENCE"],
+    ["lib.title", "SciVerse 3D", "साइवर्स 3D · SciVerse 3D", "SciVerse 3D / साइवर्स 3D"],
+    ["lib.sub", "Class IX–X Science mastery · extensible to Class XI–XII. Choose a textbook or launch any learning mode below.",
+      "कक्षा IX–X विज्ञान दक्षता · कक्षा XI–XII तक विस्तार योग्य। नीचे पाठ्यपुस्तक या शिक्षण मोड चुनें।",
+      "Class IX–X Science · XI–XII Ready / कक्षा IX–X विज्ञान · द्विभाषी"],
     ["lib.shelf", "Explore 3D shelf ↗", "3D शेल्फ देखें ↗", "Explore 3D shelf ↗ / 3D शेल्फ"],
     ["lib.textbook", "TEXTBOOK · NCERT EXPLORATION", "पाठ्यपुस्तक · NCERT अन्वेषण", "TEXTBOOK · NCERT EXPLORATION IX"],
     ["lib.textbookX", "TEXTBOOK · NCERT SCIENCE", "पाठ्यपुस्तक · NCERT विज्ञान", "TEXTBOOK · NCERT SCIENCE X"],
@@ -2522,11 +2543,11 @@ const EVLIB = (function () {
     ["lib.openX", "Open Class X", "कक्षा X खोलें", "Open Class X / कक्षा X खोलें"],
     ["lib.openIX", "Open the Class IX chapter list", "कक्षा IX की अध्याय सूची खोलें", "Open Class IX chapters / कक्षा IX के अध्याय"],
     ["lib.openXAria", "Open the Class X chapter list", "कक्षा X की अध्याय सूची खोलें", "Open Class X chapters / कक्षा X के अध्याय"],
-    ["lib.note", "Pick a class → choose a chapter → the printed page and its 3D experiment open together.",
-      "कक्षा चुनें → अध्याय चुनें → मुद्रित पृष्ठ और उसका 3D प्रयोग साथ खुलते हैं।",
-      "Class → chapter → printed page + 3D experiment / कक्षा → अध्याय → पृष्ठ + 3D प्रयोग"],
-    ["lib.resume", "Open book →", "किताब खोलें →", "Open book →"],
-    ["lib.back", "← Both classes", "← दोनों कक्षाएँ", "← Both classes / दोनों कक्षाएँ"],
+    ["lib.note", "2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning — Pick a class to begin.",
+      "2D फ़्लिपबुक • 3D मॉडल • इंटरैक्टिव प्रयोग • हिंदी–अंग्रेज़ी शिक्षण — शुरू करने के लिए कक्षा चुनें।",
+      "2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English"],
+    ["lib.resume", "Open 3D Book →", "3D किताब खोलें →", "Open 3D Book →"],
+    ["lib.back", "← All classes", "← सभी कक्षाएँ", "← All classes / सभी कक्षाएँ"],
     ["lib.backShelf", "← Library dashboard", "← पुस्तकालय डैशबोर्ड", "← Library / पुस्तकालय"],
     ["lib.close", "Close chapter list", "अध्याय सूची बंद करें", "Close / बंद करें"],
     ["lib.drawerIX", "Class IX · Chapters", "कक्षा IX · अध्याय", "Class IX · Chapters / कक्षा IX · अध्याय"],

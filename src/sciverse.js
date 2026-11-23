@@ -1,0 +1,952 @@
+/* ==========================================================================
+   SciVerse 3D — Experience & Discovery Layer
+   "Explore Science. Experience Discovery."
+   Pillars:
+     1. 2D Flipbooks           — Tactile hardcover illustrated flipbook (StPageFlip)
+     2. 3D Models              — Synchronized bridge to shared Three.js r187 world
+     3. Interactive Experiments — Temml native MathML formulas + Confetti/TWEEN feedback
+     4. Hindi–English Learning — Instant bilingual MiniSearch + live EN/HI switching
+     + Higher Classes Studio   — Class XI & XII PCM/PCB blueprints & bridge modules
+   ========================================================================== */
+
+const SCIVERSE = (function () {
+  "use strict";
+
+  const SUB_MAP = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9", "₊": "+", "₋": "-" };
+  const SUP_MAP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁺": "+", "⁻": "-" };
+
+  function reducedMotion() {
+    return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  }
+
+  /* ------------------------------------------------ 1. Temml MathML Engine */
+  function asciiFormulaToLatex(raw) {
+    let s = String(raw || "").trim();
+    if (!s) return "";
+    // Convert Unicode subscripts & superscripts into LaTeX _{...} and ^{...}
+    s = s.replace(/[₀₁₂₃₄₅₆₇₈₉₊₋]+/g, m => "_{" + m.split("").map(c => SUB_MAP[c] || c).join("") + "}");
+    s = s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+/g, m => "^{" + m.split("").map(c => SUP_MAP[c] || c).join("") + "}");
+    s = s
+      .replace(/½/g, "\\frac{1}{2}")
+      .replace(/¼/g, "\\frac{1}{4}")
+      .replace(/¾/g, "\\frac{3}{4}")
+      .replace(/⇌|↔/g, " \\rightleftharpoons ")
+      .replace(/→/g, " \\rightarrow ")
+      .replace(/↑/g, " \\uparrow ")
+      .replace(/↓/g, " \\downarrow ")
+      .replace(/×/g, " \\times ")
+      .replace(/÷/g, " \\div ")
+      .replace(/±/g, " \\pm ")
+      .replace(/≤/g, " \\le ")
+      .replace(/≥/g, " \\ge ")
+      .replace(/≠/g, " \\ne ")
+      .replace(/≈/g, " \\approx ")
+      .replace(/∝/g, " \\propto ")
+      .replace(/∞/g, "\\infty ")
+      .replace(/Δ/g, "\\Delta ")
+      .replace(/θ/g, "\\theta ")
+      .replace(/λ/g, "\\lambda ")
+      .replace(/μ/g, "\\mu ")
+      .replace(/ρ/g, "\\rho ")
+      .replace(/σ/g, "\\sigma ")
+      .replace(/ω/g, "\\omega ")
+      .replace(/Ω/g, "\\Omega ")
+      .replace(/α/g, "\\alpha ")
+      .replace(/β/g, "\\beta ")
+      .replace(/γ/g, "\\gamma ")
+      .replace(/π/g, "\\pi ")
+      .replace(/·/g, " \\cdot ");
+    // Convert clean numeric/variable fractions like 1/v, 1/u, 1/f, V/R, sin i / sin r
+    s = s.replace(/\b(1|[A-Za-z0-9]+)\s*\/\s*([A-Za-z0-9]+)\b/g, "\\frac{$1}{$2}");
+    return s;
+  }
+
+  function formatFormulaHtml(eq) {
+    const raw = String(eq || "").trim();
+    if (!raw) return "";
+    // Prose-heavy notes (4+ consecutive long English words without operators) stay crisp HTML
+    const proseWords = (raw.match(/[A-Za-z]{5,}/g) || []).length;
+    const hasMathOps = /[=+\-*/→⇌²³⁴₁₂₃₄ΔθρλΩ½]/.test(raw);
+    if (typeof window.temml !== "undefined" && hasMathOps && proseWords <= 5) {
+      try {
+        const latex = asciiFormulaToLatex(raw);
+        return window.temml.renderToString(latex, {
+          displayMode: false,
+          throwOnError: false,
+          trust: false
+        });
+      } catch (_err) {
+        /* graceful fallback below */
+      }
+    }
+    return esc(raw)
+      .replace(/[₀₁₂₃₄₅₆₇₈₉₊₋]+/g, m => "<sub>" + m.split("").map(c => SUB_MAP[c] || c).join("") + "</sub>")
+      .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+/g, m => "<sup>" + m.split("").map(c => SUP_MAP[c] || c).join("") + "</sup>");
+  }
+
+  /* ------------------------------------- 2. TWEEN + Confetti Mastery Layer */
+  let tweenLooping = false;
+  function stepTweens(now) {
+    if (typeof window.TWEEN === "undefined") { tweenLooping = false; return; }
+    window.TWEEN.update(now);
+    if (window.TWEEN.getAll && window.TWEEN.getAll().length > 0) {
+      requestAnimationFrame(stepTweens);
+    } else {
+      tweenLooping = false;
+    }
+  }
+
+  function animateScalePulse(el) {
+    if (!el || reducedMotion() || typeof window.TWEEN === "undefined") return;
+    const state = { s: 0.92 };
+    new window.TWEEN.Tween(state)
+      .to({ s: 1 }, 420)
+      .easing(window.TWEEN.Easing.Back.Out)
+      .onUpdate(() => { el.style.transform = `scale(${state.s.toFixed(3)})`; })
+      .onComplete(() => { el.style.transform = ""; })
+      .start();
+    if (!tweenLooping) {
+      tweenLooping = true;
+      requestAnimationFrame(stepTweens);
+    }
+  }
+
+  function celebrate(kind) {
+    if (reducedMotion() || typeof window.confetti !== "function") return;
+    try {
+      const count = kind === "quiz" ? 85 : 52;
+      window.confetti({
+        particleCount: count,
+        spread: kind === "quiz" ? 78 : 62,
+        origin: { y: 0.68 },
+        colors: ["#38e8ff", "#f7c96f", "#7ee0b8", "#8b5cf6", "#ff9b8a"],
+        disableForReducedMotion: true,
+        useWorker: false
+      });
+    } catch (_e) {}
+  }
+
+  /* ------------------------------ 3. Tactile 2D Flipbook (StPageFlip 2.0.7) */
+  let flipInst = null;
+  let flipWorld = null;
+  let flipPlateIdx = {}; // spreadIndex -> current supplement image index
+
+  function isFlipOpen() {
+    const m = $("svFlipbookModal");
+    return !!(m && !m.hidden);
+  }
+
+  function destroyFlipInstance() {
+    const book = $("svFlipBook");
+    if (book) {
+      book.querySelectorAll(".svf-plate-host").forEach(h => {
+        if (typeof EVLABEL !== "undefined") EVLABEL.destroy(h);
+      });
+    }
+    if (flipInst) {
+      try { flipInst.destroy(); } catch (_e) {}
+      flipInst = null;
+    }
+    if (book) book.innerHTML = "";
+  }
+
+  function stopFlipDragPropagation(root) {
+    if (!root) return;
+    root.querySelectorAll(".svf-interactive").forEach(el => {
+      ["pointerdown", "mousedown", "touchstart"].forEach(evName => {
+        el.addEventListener(evName, e => e.stopPropagation(), { passive: true });
+      });
+    });
+  }
+
+  function currentFlipSpreadIndex() {
+    if (!flipInst || !flipWorld) return 0;
+    const p = flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
+    if (p <= 1) return 0;
+    const idx = Math.floor((p - 2) / 2);
+    return Math.max(0, Math.min(flipWorld.spreads.length - 1, idx));
+  }
+
+  function updateFlipHud() {
+    if (!flipWorld) return;
+    const total = flipWorld.spreads.length;
+    const p = flipInst && flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
+    const counter = $("svFlipCounter");
+    if (counter) {
+      if (p <= 1) {
+        counter.textContent = BI("Cover & Contents", "मुखपृष्ठ व सूची") + ` · ${total} ${BI("spreads", "स्प्रेड")}`;
+      } else if (p >= 2 + total * 2) {
+        counter.textContent = BI("Chapter Summary", "अध्याय सारांश");
+      } else {
+        const sIdx = currentFlipSpreadIndex();
+        const sp = flipWorld.spreads[sIdx];
+        counter.textContent = `§ ${sp.section} · ${BI("Spread", "स्प्रेड")} ${sIdx + 1} / ${total}`;
+      }
+    }
+    const activeIdx = p <= 1 ? -1 : (p >= 2 + total * 2 ? total : currentFlipSpreadIndex());
+    const dots = $("svFlipDots");
+    if (dots) {
+      dots.querySelectorAll("[data-svf-jump]").forEach(btn => {
+        const j = +btn.dataset.svfJump;
+        btn.classList.toggle("on", j === activeIdx);
+      });
+    }
+  }
+
+  function mountPlateLabels(root, w) {
+    if (!root || typeof EVLABEL === "undefined" || typeof EVRASTER === "undefined") return;
+    root.querySelectorAll(".svf-plate-host[data-svf-sp]").forEach(host => {
+      const sIdx = +host.dataset.svfSp;
+      const sp = w.spreads[sIdx];
+      if (!sp) return;
+      const files = EVRASTER.filesFor ? EVRASTER.filesFor(w.id, sp.section) : [];
+      const fIdx = flipPlateIdx[sIdx] || 0;
+      const file = files[fIdx];
+      if (file) {
+        EVLABEL.render(host, w.id + "/" + file);
+      }
+    });
+  }
+
+  function buildFlipbookPagesHtml(w) {
+    const subjLabel = w.subject === "phy" ? BI("Physics", "भौतिक विज्ञान")
+      : w.subject === "chem" ? BI("Chemistry", "रसायन विज्ञान")
+      : BI("Biology", "जीव विज्ञान");
+    const stamps = stampsFor(w);
+    const tocItems = w.spreads.map((sp, i) => {
+      const stamped = (EV.progress[pkey(w, sp)] || {}).stamped;
+      return `<button type="button" class="svf-toc-row svf-interactive" data-svf-goto="${i}">
+        <span class="svf-toc-sec">§ ${esc(sp.section)}</span>
+        <span class="svf-toc-ttl">${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</span>
+        <span class="svf-toc-st">${stamped ? "★" : "→"}</span>
+      </button>`;
+    }).join("");
+
+    // Page 0: Hard Front Cover
+    let pages = `
+      <div class="svf-page svf-cover svf-hard" data-density="hard">
+        <div class="svf-cover-inner">
+          <div class="svf-cover-kicker">SCIVERSE 3D · ${esc(BI("CLASS", "कक्षा"))} ${esc(w.cls || "X")} · ${esc(subjLabel.toUpperCase())}</div>
+          <div class="svf-cover-ornament" aria-hidden="true">⚛</div>
+          <h2 class="svf-cover-title">${EV.lang === "both" ? BX(w.title, w.titleHi) : esc(BI(w.title, w.titleHi))}</h2>
+          <p class="svf-cover-tag">Explore Science. Experience Discovery.</p>
+          <div class="svf-cover-pills">
+            <span>${w.spreads.length} ${esc(BI("Illustrated Spreads", "सचित्र स्प्रेड"))}</span>
+            <span>★ ${stamps}/${w.spreads.length} ${esc(BI("Stamped", "पूर्ण"))}</span>
+          </div>
+          <div class="svf-cover-foot">${esc(BI("Peel corner or click Next → to open flipbook", "पन्ना पलटने के लिए कोना खींचें या आगे दबाएँ →"))}</div>
+        </div>
+      </div>
+      <div class="svf-page svf-toc-page">
+        <div class="svf-page-inner">
+          <div class="svf-phead"><span>${esc(BI("CONTENTS · INSIDE THIS CHAPTER", "विषय-सूची · इस अध्याय में"))}</span><span>${w.spreads.length} §</span></div>
+          <div class="svf-toc-list">${tocItems}</div>
+        </div>
+      </div>`;
+
+    // Spreads: 2 pages per NCERT section (Left = Bilingual Concept/Formula/Predict, Right = 2D Plate + Hotspots)
+    w.spreads.forEach((sp, i) => {
+      const pg = pget(w, sp);
+      const pr = P(sp), raw = sp.predict || { q: "", options: [], a: 0 }, rawHi = sp.predictHi;
+      const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+      const curIdx = Math.min(files.length - 1, Math.max(0, flipPlateIdx[i] || 0));
+      const curFile = files[curIdx] || "";
+      const imgSrc = curFile ? `assets/2d/${encodeURIComponent(w.id)}/${encodeURIComponent(curFile)}` : "";
+
+      const formulaHtml = sp.formula
+        ? `<div class="svf-formula">
+             <span class="svf-flabel">${esc(sp.formula.label)}</span>
+             <div class="svf-feq">${formatFormulaHtml(sp.formula.eq)}</div>
+             ${sp.formula.note ? `<small>${esc(sp.formula.note)}</small>` : ""}
+           </div>`
+        : "";
+
+      const rawV = sp.vocab || [], rawVHi = sp.vocabHi || [];
+      const vocabHtml = VOC(sp).slice(0, 3).map((v, vi) =>
+        `<span class="svf-term"><b>${EV.lang === "both" && rawVHi[vi] ? BX(rawV[vi] && rawV[vi][0], rawVHi[vi][0]) : esc(v[0])}</b>: ${esc(v[1])}</span>`
+      ).join("");
+
+      const optsHtml = (pr.options || []).map((o, oi) => {
+        let cls = "svf-opt svf-interactive";
+        if (pg.locked) cls += oi === pr.a ? " correct" : (oi === pg.answer ? " wrong" : " dim");
+        else if (pg.answer === oi) cls += " picked";
+        const lbl = EV.lang === "both" && rawHi && rawHi.options ? BX(raw.options[oi], rawHi.options[oi]) : esc(o);
+        return `<button type="button" class="${cls}" data-svf-sp="${i}" data-svf-opt="${oi}" ${pg.locked ? "disabled" : ""}><b>${String.fromCharCode(65 + oi)}</b><span>${lbl}</span></button>`;
+      }).join("");
+
+      pages += `
+      <div class="svf-page svf-left-page" data-spread="${i}">
+        <div class="svf-page-inner">
+          <div class="svf-phead">
+            <span>§ ${esc(sp.section)} · ${esc(BI("Class", "कक्षा"))} ${esc(w.cls || "X")}</span>
+            <span class="svf-stamp ${pg.stamped ? "earned" : ""}">${pg.stamped ? "★ " + esc(t("stamp")) : "☆ " + (i + 1) + "/" + w.spreads.length}</span>
+          </div>
+          <h3 class="svf-title">${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</h3>
+          <p class="svf-concept">${EV.lang === "both" ? BX(sp.concept, sp.conceptHi) : esc(BI(sp.concept, sp.conceptHi))}</p>
+          ${formulaHtml}
+          ${vocabHtml ? `<div class="svf-vocab">${vocabHtml}</div>` : ""}
+          <div class="svf-predict">
+            <div class="svf-pq"><b>${esc(t("predict"))}:</b> ${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
+            <div class="svf-popts">${optsHtml}</div>
+            ${pg.locked ? `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>` : ""}
+          </div>
+          <div class="svf-pnum">${2 + i * 2}</div>
+        </div>
+      </div>
+      <div class="svf-page svf-right-page" data-spread="${i}">
+        <div class="svf-page-inner">
+          <div class="svf-phead">
+            <span>${esc(BI("2D SCIENTIFIC ILLUSTRATION", "2D वैज्ञानिक चित्र"))}</span>
+            ${files.length > 1 ? `<button type="button" class="btn ghost tiny svf-interactive" data-svf-cycle="${i}">${curIdx + 1} / ${files.length} ↻</button>` : `<span>1408×768 HD</span>`}
+          </div>
+          ${imgSrc ? `
+            <div class="svf-plate-wrap svf-interactive">
+              <div class="svf-plate-host" data-svf-sp="${i}">
+                <img src="${imgSrc}" alt="${esc(BI(sp.title, sp.titleHi))}" loading="lazy">
+              </div>
+              <div class="svf-plate-bar">
+                <small>${esc(BI("Click labels on diagram for bilingual notes", "द्विभाषी नोट्स के लिए चित्र के लेबल दबाएँ"))}</small>
+                <button type="button" class="btn ghost tiny svf-interactive" data-svf-zoom="${i}">⤢ ${esc(BI("Zoom", "ज़ूम"))}</button>
+              </div>
+            </div>
+          ` : `
+            <div class="svf-plate-fallback">
+              <div class="svf-fallback-ico">🧊</div>
+              <p>${esc(BI("Dynamic compiled chapter — explore the live 3D apparatus for this spread!", "निर्मित अध्याय — इस स्प्रेड का लाइव 3D उपकरण खोलें!"))}</p>
+            </div>
+          `}
+          <div class="svf-exp-callout">
+            <div>
+              <strong>⚗️ ${esc(BI("Interactive 3D Apparatus", "इंटरैक्टिव 3D प्रयोग"))}</strong>
+              <small>${esc(sp.tryHint || BI("Manipulate sliders & 3D handles to test your prediction.", "अनुमान जाँचने के लिए 3D हैंडल व स्लाइडर चलाएँ।"))}</small>
+            </div>
+            <button type="button" class="btn primary small svf-interactive" data-svf-open3d="${i}">${esc(BI("3D Model ↗", "3D मॉडल ↗"))}</button>
+          </div>
+          <div class="svf-pnum">${3 + i * 2}</div>
+        </div>
+      </div>`;
+    });
+
+    // Hard Back Cover
+    pages += `
+      <div class="svf-page svf-cover svf-back svf-hard" data-density="hard">
+        <div class="svf-cover-inner">
+          <div class="svf-cover-kicker">SCIVERSE 3D · CHAPTER COMPLETE</div>
+          <h2 class="svf-cover-title">${esc(BI("Ready to Test Your Mastery?", "अपनी समझ जाँचने के लिए तैयार?"))}</h2>
+          <p class="svf-cover-tag">★ ${stamps} / ${w.spreads.length} ${esc(BI("Discovery Stamps Earned", "डिस्कवरी स्टैम्प अर्जित"))}</p>
+          <div class="svf-back-actions svf-interactive">
+            <button type="button" class="btn primary" id="svfStartQuiz">${esc(BI("Take Chapter Quiz →", "अध्याय प्रश्नोत्तरी दें →"))}</button>
+            <button type="button" class="btn ghost" id="svfEnter3DBook">${esc(BI("Open 3D World ↗", "3D विश्व खोलें ↗"))}</button>
+          </div>
+        </div>
+      </div>`;
+    return pages;
+  }
+
+  function populateFlipChapterSelect(activeId) {
+    const sel = $("svFlipChapter");
+    if (!sel || typeof CATALOGUE_ALL === "undefined") return;
+    sel.innerHTML = CATALOGUE_ALL.map(c =>
+      `<option value="${esc(c.id)}" ${c.id === activeId ? "selected" : ""}>[${esc(c.cls)}] ${esc(BI(c.title, c.hi))}</option>`
+    ).join("");
+    if (flipWorld && !CATALOGUE_ALL.some(c => c.id === flipWorld.id)) {
+      sel.insertAdjacentHTML("afterbegin", `<option value="${esc(flipWorld.id)}" selected>[${esc(flipWorld.cls || "XI")}] ${esc(BI(flipWorld.title, flipWorld.titleHi))}</option>`);
+    }
+  }
+
+  function wireFlipInnerActions(book, w) {
+    stopFlipDragPropagation(book);
+    mountPlateLabels(book, w);
+
+    book.querySelectorAll("[data-svf-goto]").forEach(btn => {
+      btn.onclick = e => {
+        e.stopPropagation();
+        const sIdx = +btn.dataset.svfGoto;
+        if (flipInst) flipInst.turnToPage(2 + sIdx * 2);
+        updateFlipHud();
+      };
+    });
+
+    book.querySelectorAll("[data-svf-open3d]").forEach(btn => {
+      btn.onclick = e => {
+        e.stopPropagation();
+        const sIdx = +btn.dataset.svfOpen3d;
+        closeFlipbook();
+        if (!EV.world || EV.world.id !== w.id) {
+          if (WORLDS[w.id] || CATALOGUE_ALL.some(c => c.id === w.id)) openChapter(w.id);
+          else { EV.world = w; setView("book"); }
+        } else if (EV.view !== "book") {
+          setView("book");
+        }
+        WORLD.jumpTo(sIdx);
+        renderLesson(); renderMeters(); renderPageBar();
+      };
+    });
+
+    book.querySelectorAll("[data-svf-opt]").forEach(btn => {
+      btn.onclick = e => {
+        e.stopPropagation();
+        const sIdx = +btn.dataset.svfSp;
+        const optIdx = +btn.dataset.svfOpt;
+        const sp = w.spreads[sIdx];
+        if (!sp) return;
+        const pg = pget(w, sp);
+        if (pg.locked) return;
+        pg.answer = optIdx;
+        pg.locked = true;
+        pg.flap = true;
+        saveProgress();
+        if (EV.world && EV.world.id === w.id && WORLD.index === sIdx) {
+          renderLesson(); renderMeters();
+        }
+        const ok = optIdx === P(sp).a;
+        toast(ok ? BI("Correct prediction! Lift into 3D to experiment.", "सही अनुमान! अब 3D प्रयोग करके देखें।")
+                 : BI("Prediction locked — read the explanation below.", "अनुमान दर्ज — नीचे स्पष्टीकरण पढ़ें।"), "ok");
+        openFlipbook(w.id, sIdx, w);
+      };
+    });
+
+    book.querySelectorAll("[data-svf-cycle]").forEach(btn => {
+      btn.onclick = e => {
+        e.stopPropagation();
+        const sIdx = +btn.dataset.svfCycle;
+        const sp = w.spreads[sIdx];
+        const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+        if (files.length > 1) {
+          flipPlateIdx[sIdx] = ((flipPlateIdx[sIdx] || 0) + 1) % files.length;
+          openFlipbook(w.id, sIdx, w);
+        }
+      };
+    });
+
+    book.querySelectorAll("[data-svf-zoom]").forEach(btn => {
+      btn.onclick = e => {
+        e.stopPropagation();
+        const sIdx = +btn.dataset.svfZoom;
+        const sp = w.spreads[sIdx];
+        const host = book.querySelector(`.svf-plate-host[data-svf-sp="${sIdx}"]`);
+        const img = host && host.querySelector("img");
+        const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+        const file = files[flipPlateIdx[sIdx] || 0];
+        if (img && typeof EVZOOM !== "undefined" && EVZOOM.openImg) {
+          EVZOOM.openImg(img.src, BI(sp.title, sp.titleHi), file ? w.id + "/" + file : "");
+        } else if (img) {
+          window.open(img.src, "_blank", "noopener");
+        }
+      };
+    });
+
+    const qBtn = $("svfStartQuiz");
+    if (qBtn) qBtn.onclick = e => {
+      e.stopPropagation();
+      closeFlipbook();
+      EV.world = w;
+      setView("quiz");
+    };
+    const bBtn = $("svfEnter3DBook");
+    if (bBtn) bBtn.onclick = e => {
+      e.stopPropagation();
+      closeFlipbook();
+      if (WORLDS[w.id] || CATALOGUE_ALL.some(c => c.id === w.id)) openChapter(w.id);
+      else { EV.world = w; setView("book"); }
+    };
+  }
+
+  function openFlipbook(chapterId, spreadIdx, customWorld) {
+    const modal = $("svFlipbookModal"), book = $("svFlipBook"), wrap = $("svFlipWrap");
+    if (!modal || !book || !wrap) return;
+
+    const w = customWorld || (chapterId ? getWorld(chapterId) : (EV.world || getWorld("c10_carbon")));
+    flipWorld = w;
+    const targetSpread = typeof spreadIdx === "number" ? Math.max(0, Math.min(w.spreads.length - 1, spreadIdx))
+      : (EV.world && EV.world.id === w.id ? (WORLD.index || 0) : 0);
+
+    modal.hidden = false;
+    destroyFlipInstance();
+    populateFlipChapterSelect(w.id);
+    book.innerHTML = buildFlipbookPagesHtml(w);
+
+    const dots = $("svFlipDots");
+    if (dots) {
+      dots.innerHTML = `<button type="button" class="pdot" data-svf-jump="-1" title="Cover">C</button>` +
+        w.spreads.map((s, idx) => {
+          const st = (EV.progress[pkey(w, s)] || {}).stamped ? "stamped" : "";
+          return `<button type="button" class="pdot ${st}" data-svf-jump="${idx}" title="§ ${esc(s.section)} ${esc(s.title)}">${idx + 1}</button>`;
+        }).join("");
+      dots.querySelectorAll("[data-svf-jump]").forEach(b => {
+        b.onclick = () => {
+          const j = +b.dataset.svfJump;
+          if (!flipInst) return;
+          flipInst.turnToPage(j < 0 ? 0 : 2 + j * 2);
+          updateFlipHud();
+        };
+      });
+    }
+
+    const startPage = targetSpread >= 0 ? 2 + targetSpread * 2 : 0;
+    const rect = wrap.getBoundingClientRect();
+    const portrait = rect.width < 760;
+    const pageW = portrait ? Math.max(300, Math.floor(rect.width - 28)) : Math.max(360, Math.min(580, Math.floor((rect.width - 48) / 2)));
+    const pageH = Math.max(400, Math.min(680, Math.floor(rect.height - 20)));
+
+    const pageEls = book.querySelectorAll(".svf-page");
+    if (typeof window.PageFlip === "function" && pageEls.length > 0) {
+      flipInst = new window.PageFlip(book, {
+        width: pageW,
+        height: pageH,
+        size: "stretch",
+        minWidth: 290,
+        maxWidth: 660,
+        minHeight: 380,
+        maxHeight: 740,
+        maxShadowOpacity: 0.42,
+        showCover: true,
+        usePortrait: portrait,
+        mobileScrollSupport: false,
+        startPage: startPage,
+        flippingTime: reducedMotion() ? 90 : 620
+      });
+      flipInst.loadFromHTML(pageEls);
+      flipInst.on("flip", () => {
+        updateFlipHud();
+        const sIdx = currentFlipSpreadIndex();
+        if (EV.world && EV.world.id === w.id && EV.view === "book") {
+          WORLD.jumpTo(sIdx);
+          renderLesson(); renderMeters(); renderPageBar();
+        }
+      });
+    }
+
+    wireFlipInnerActions(book, w);
+    updateFlipHud();
+    animateScalePulse(modal.querySelector(".sv-flip-shell"));
+  }
+
+  function closeFlipbook() {
+    const modal = $("svFlipbookModal");
+    if (!modal || modal.hidden) return;
+    destroyFlipInstance();
+    modal.hidden = true;
+  }
+
+  /* ---------------------- 4. Instant Bilingual Search (MiniSearch 7.2.0) */
+  let searchEngine = null;
+  let allDocs = [];
+  let activeFilter = "all";
+  let selectedHitIdx = 0;
+  let currentHits = [];
+
+  function ensureSearchIndex() {
+    if (searchEngine || typeof window.MiniSearch !== "function") return;
+    const tokenize = str => String(str || "")
+      .toLowerCase()
+      .split(/[\s,.;:!?()[\]{}"'\/\\·—–\-+<>|=]+/)
+      .filter(Boolean);
+
+    searchEngine = new window.MiniSearch({
+      fields: ["title", "titleHi", "concept", "conceptHi", "formula", "vocab", "chapterTitle", "chapterHi", "section"],
+      storeFields: ["chapterId", "spreadIdx", "section", "title", "titleHi", "chapterTitle", "chapterHi", "cls", "subject", "formula"],
+      tokenize,
+      searchOptions: {
+        boost: { title: 3.5, titleHi: 3.5, formula: 2.6, vocab: 2.2, concept: 1.4, conceptHi: 1.4, chapterTitle: 1.2 },
+        prefix: true,
+        fuzzy: 0.2
+      }
+    });
+
+    allDocs = [];
+    const catList = typeof CATALOGUE_ALL !== "undefined" ? CATALOGUE_ALL : CATALOGUE;
+    catList.forEach(c => {
+      const spreads = (typeof WORLDS !== "undefined" && WORLDS[c.id]) || [];
+      spreads.forEach((sp, sIdx) => {
+        const doc = {
+          id: `${c.id}__${sIdx}`,
+          chapterId: c.id,
+          spreadIdx: sIdx,
+          cls: c.cls,
+          subject: c.subject,
+          chapterTitle: c.title || "",
+          chapterHi: c.hi || "",
+          section: sp.section || String(sIdx + 1),
+          title: sp.title || "",
+          titleHi: sp.titleHi || "",
+          concept: sp.concept || "",
+          conceptHi: sp.conceptHi || "",
+          formula: sp.formula ? `${sp.formula.label || ""} ${sp.formula.eq || ""}` : "",
+          vocab: (sp.vocab || []).map(v => v.join(" ")).join(" ") + " " + ((sp.vocabHi || []).map(v => v.join(" ")).join(" "))
+        };
+        allDocs.push(doc);
+      });
+    });
+    searchEngine.addAll(allDocs);
+  }
+
+  function renderSearchResults() {
+    ensureSearchIndex();
+    const inp = $("svSearchInput"), box = $("svSearchResults");
+    if (!box) return;
+    const q = inp ? inp.value.trim() : "";
+    let list = q && searchEngine ? searchEngine.search(q) : allDocs.slice(0, 40);
+    if (activeFilter !== "all") {
+      list = list.filter(d => d.cls === activeFilter || d.subject === activeFilter);
+    }
+    currentHits = list.slice(0, 32);
+    if (selectedHitIdx >= currentHits.length) selectedHitIdx = 0;
+
+    if (!currentHits.length) {
+      box.innerHTML = `<div class="sv-search-empty">${esc(BI("No matching concepts found. Try English or हिंदी keywords (e.g., lens, कोशिका, Ohm, कार्बन, Bohr).", "कोई परिणाम नहीं मिला। अंग्रेज़ी या हिंदी शब्द लिखें (जैसे lens, कोशिका, Ohm, कार्बन)।"))}</div>`;
+      return;
+    }
+
+    const subjBadge = s => s === "phy" ? "Physics · भौतिकी" : s === "chem" ? "Chemistry · रसायन" : "Biology · जीव";
+    box.innerHTML = currentHits.map((h, idx) => `
+      <div class="sv-hit ${idx === selectedHitIdx ? "sel" : ""}" data-hit-idx="${idx}">
+        <div class="sv-hit-main" data-hit-3d="${idx}">
+          <div class="sv-hit-meta">
+            <span class="sv-hit-cls">Class ${esc(h.cls)}</span>
+            <span class="sv-hit-subj ${esc(h.subject)}">${esc(subjBadge(h.subject))}</span>
+            <span class="sv-hit-ch">${esc(BI(h.chapterTitle, h.chapterHi))} · § ${esc(h.section)}</span>
+          </div>
+          <div class="sv-hit-title">${EV.lang === "both" ? BX(h.title, h.titleHi) : esc(BI(h.title, h.titleHi))}</div>
+          ${h.formula ? `<div class="sv-hit-eq">${esc(h.formula)}</div>` : ""}
+        </div>
+        <div class="sv-hit-btns">
+          <button type="button" class="btn ghost tiny" data-hit-2d="${idx}" title="Open in 2D Flipbook">📖 2D</button>
+          <button type="button" class="btn primary tiny" data-hit-3d="${idx}" title="Open in 3D World">🧊 3D</button>
+        </div>
+      </div>
+    `).join("");
+
+    box.querySelectorAll("[data-hit-3d]").forEach(el => {
+      el.onclick = () => activateSearchHit(+el.dataset.hit3d, false);
+    });
+    box.querySelectorAll("[data-hit-2d]").forEach(el => {
+      el.onclick = e => { e.stopPropagation(); activateSearchHit(+el.dataset.hit2d, true); };
+    });
+  }
+
+  function activateSearchHit(idx, asFlipbook) {
+    const h = currentHits[idx];
+    if (!h) return;
+    closeSearch();
+    if (asFlipbook) {
+      openFlipbook(h.chapterId, h.spreadIdx);
+    } else {
+      openChapter(h.chapterId);
+      WORLD.jumpTo(h.spreadIdx);
+      renderLesson(); renderMeters(); renderPageBar(); renderSectionSelect();
+    }
+  }
+
+  function openSearch(prefill) {
+    const modal = $("svSearchModal"), inp = $("svSearchInput");
+    if (!modal) return;
+    closeFlipbook();
+    modal.hidden = false;
+    selectedHitIdx = 0;
+    if (inp) {
+      if (typeof prefill === "string") inp.value = prefill;
+      inp.placeholder = BI("Search 266 concepts, formulas, experiments in English or हिंदी…", "अंग्रेज़ी या हिंदी में 266 अवधारणाएँ, सूत्र, प्रयोग खोजें…");
+      setTimeout(() => inp.focus(), 20);
+    }
+    renderSearchResults();
+  }
+
+  function closeSearch() {
+    const modal = $("svSearchModal");
+    if (modal) modal.hidden = true;
+  }
+
+  /* -------------- 5. Higher Classes Expansion Studio (Class XI & XII) */
+  const HIGHER_BLUEPRINTS = [
+    {
+      id: "c11_phy_mechanics",
+      cls: "XI",
+      subject: "phy",
+      title: "Laws of Motion, Work-Energy & Rotational Equilibrium",
+      hi: "गति के नियम, कार्य-ऊर्जा एवं घूर्णी संतुलन",
+      text: `Laws of Motion and Work-Energy Theorem (NCERT Class XI Physics)
+
+Newton's second law states that the net external force acting on a body equals the rate of change of linear momentum, F = dp/dt = m a. Impulse J = F Δt equals the change in momentum during collisions.
+
+Friction on an inclined plane resolves weight mg into mg sin θ parallel to the incline and mg cos θ normal to the surface. Static friction prevents relative motion up to μs N while kinetic friction opposes sliding.
+
+Work-Energy Theorem states that work done by the net force equals change in kinetic energy: W = ΔK = ½mv² - ½mu². Potential energy stored in an elastic spring obeys U = ½kx² where k is the spring constant.
+
+Conservation of Mechanical Energy and Power: In conservative force fields, total mechanical energy E = K + U remains constant. Instantaneous mechanical power delivered by a force is P = F · v.`
+    },
+    {
+      id: "c11_chem_bonding",
+      cls: "XI",
+      subject: "chem",
+      title: "Chemical Bonding, VSEPR Geometry & Thermodynamics",
+      hi: "रासायनिक आबंधन, VSEPR ज्यामिति एवं ऊष्मागतिकी",
+      text: `Chemical Bonding and Molecular Structure (NCERT Class XI Chemistry)
+
+Covalent bonding and VSEPR theory predict 3D molecular geometry from electron-pair repulsion: linear BeCl2 (180°), trigonal planar BF3 (120°), tetrahedral CH4 (109.5°), and pyramidal NH3 (107°).
+
+Hybridisation mixes atomic orbitals into equivalent sp, sp2, and sp3 hybrid orbitals. Sigma bonds form by head-on overlap along the internuclear axis while pi bonds arise from lateral p-orbital overlap.
+
+Chemical Thermodynamics and Enthalpy: The first law of thermodynamics states ΔU = q + w. Exothermic reactions release heat (ΔH < 0) while endothermic reactions absorb thermal energy (ΔH > 0).
+
+Gibbs Free Energy and Chemical Equilibrium: Spontaneity is governed by ΔG = ΔH - TΔS. A reaction is spontaneous when ΔG < 0 and reaches dynamic equilibrium when ΔG = 0.`
+    },
+    {
+      id: "c11_bio_cellcycle",
+      cls: "XI",
+      subject: "bio",
+      title: "Cell Cycle, Mitosis, Biomolecules & Enzyme Kinetics",
+      hi: "कोशिका चक्र, समसूत्री विभाजन, जैव-अणु एवं एंज़ाइम गतिकी",
+      text: `Cell Cycle, Cell Division and Biomolecules (NCERT Class XI Biology)
+
+Eukaryotic cell cycle progresses through Interphase (G1 growth, S phase DNA replication doubling DNA from 2C to 4C, and G2 preparation) followed by M phase mitosis and cytokinesis.
+
+Mitosis stages — Prophase, Metaphase, Anaphase, and Telophase — align chromosomes on the equatorial metaphase plate and segregate sister chromatids equally to preserve chromosome number.
+
+Biomolecules and Enzyme Catalysis: Enzymes are biological protein catalysts that lower activation energy Ea by forming a transient enzyme-substrate complex ES → E + P.
+
+Factors Affecting Enzyme Activity: Reaction velocity rises with substrate concentration up to Vmax saturation (Michaelis-Menten kinetics) and exhibits optimal temperature and pH sensitivity.`
+    },
+    {
+      id: "c12_phy_optics_em",
+      cls: "XII",
+      subject: "phy",
+      title: "Electrostatics, Kirchhoff Circuits & Wave-Ray Optics",
+      hi: "स्थिरवैद्युतिकी, किरचॉफ परिपथ एवं किरण-तरंग प्रकाशिकी",
+      text: `Electrostatics, Current Electricity and Ray Optics (NCERT Class XII Physics)
+
+Coulomb's Law and Electric Field: Force between two point charges is F = k q1 q2 / r². Electric field lines radiate outward from positive charge and electric flux obeys Gauss's law Φ = q / ε0.
+
+Drift Velocity and Kirchhoff's Circuit Laws: Electric current I = n e A vd relates microscopic electron drift to macroscopic Ohm's law, while Kirchhoff's junction and loop rules govern multi-branch networks.
+
+Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f = (n - 1)(1/R1 - 1/R2) and 1/v - 1/u = 1/f, enabling compound microscopes and astronomical telescopes.`
+    }
+  ];
+
+  function openHigherStudio() {
+    const drawer = $("libDrawer"), listEl = $("ldList");
+    if (!drawer || !listEl) return;
+    if (window.EVLIB) EVLIB.setLibrary(true);
+
+    $("ldEyebrow").textContent = BI("SCIVERSE 3D · CLASS XI & XII EXPANSION STUDIO", "साइवर्स 3D · कक्षा XI व XII विस्तार स्टूडियो");
+    $("ldTitle").textContent = BI("Higher Classes · Class XI & XII Science", "उच्च कक्षाएँ · कक्षा XI व XII विज्ञान");
+    $("ldSub").textContent = BI(
+      "4 instant Class XI–XII PCM/PCB blueprints + 7 bridge chapters + full custom NCERT XI–XII compiler",
+      "4 त्वरित कक्षा XI–XII मॉड्यूल + 7 सेतु अध्याय + पूर्ण कस्टम NCERT XI–XII कंपाइलर"
+    );
+    $("ldFoot").textContent = BI(
+      "Click any XI–XII blueprint to compile & open its 3D World + 2D Flipbook immediately",
+      "किसी भी XI–XII मॉड्यूल पर क्लिक कर तुरंत 3D विश्व व 2D फ़्लिपबुक खोलें"
+    );
+
+    const bridgeRows = CATALOGUE_ALL.filter(c => STUDENT_CHAPTERS.indexOf(c.id) < 0);
+    const bpHtml = HIGHER_BLUEPRINTS.map((bp, i) => {
+      const sLabel = bp.subject === "phy" ? BI("Physics", "भौतिकी") : bp.subject === "chem" ? BI("Chemistry", "रसायन") : BI("Biology", "जीव विज्ञान");
+      return `<button type="button" class="ld-row sv-bp-row" data-sv-bp="${esc(bp.id)}">
+        <span class="ld-num">${esc(bp.cls)}</span>
+        <span class="ld-body">
+          <b>${EV.lang === "both" ? BX(bp.title, bp.hi) : esc(BI(bp.title, bp.hi))}</b>
+          <small>${esc(sLabel)} · ${esc(BI("Instant 3D World + 2D Flipbook Blueprint", "त्वरित 3D विश्व + 2D फ़्लिपबुक मॉड्यूल"))}</small>
+        </span>
+        <span class="ld-tag ${esc(bp.subject)}">Class ${esc(bp.cls)}</span>
+        <span class="ld-arrow" aria-hidden="true">✦</span>
+      </button>`;
+    }).join("");
+
+    const bridgeHtml = bridgeRows.map((r, i) => {
+      const nSp = (typeof WORLDS !== "undefined" && WORLDS[r.id]) ? WORLDS[r.id].length : 0;
+      return `<button type="button" class="ld-row" data-sv-ch="${esc(r.id)}">
+        <span class="ld-num">B${i + 1}</span>
+        <span class="ld-body">
+          <b>${EV.lang === "both" ? BX(r.title, r.hi) : esc(BI(r.title, r.hi))}</b>
+          <small>${esc(BI("Foundation Bridge Chapter", "आधार सेतु अध्याय"))} · ${nSp} ${esc(BI("spreads + 2D plates", "स्प्रेड + 2D चित्र"))}</small>
+        </span>
+        <span class="ld-tag ${esc(r.subject)}">${esc(r.cls)}→XI</span>
+        <span class="ld-arrow" aria-hidden="true">→</span>
+      </button>`;
+    }).join("");
+
+    const customBtnHtml = `
+      <div class="sv-higher-compiler-cta">
+        <div>
+          <strong>⚙ ${esc(BI("Paste Any Class XI or XII NCERT Chapter", "कोई भी कक्षा XI या XII का अध्याय पेस्ट करें"))}</strong>
+          <small>${esc(BI("Deterministic offline compiler builds interactive 3D spreads, predictions & quizzes.", "ऑफ़लाइन कंपाइलर तुरंत 3D स्प्रेड, अनुमान और प्रश्नोत्तरी बनाता है।"))}</small>
+        </div>
+        <button type="button" class="btn primary small" id="svOpenCompilerXI">${esc(BI("Open XI–XII Compiler →", "XI–XII कंपाइलर खोलें →"))}</button>
+      </div>`;
+
+    listEl.innerHTML = customBtnHtml +
+      `<div class="sv-drawer-sec">${esc(BI("CLASS XI & XII STARTER MODULES (PCM / PCB)", "कक्षा XI व XII प्रारंभिक मॉड्यूल (PCM / PCB)"))}</div>` +
+      bpHtml +
+      `<div class="sv-drawer-sec">${esc(BI("BRIDGE & FOUNDATION CHAPTERS (WITH FULL 2D PLATES)", "सेतु एवं आधार अध्याय (पूर्ण 2D चित्रों सहित)"))}</div>` +
+      bridgeHtml;
+
+    listEl.querySelectorAll("[data-sv-bp]").forEach(btn => {
+      btn.onclick = () => {
+        const bp = HIGHER_BLUEPRINTS.find(x => x.id === btn.dataset.svBp);
+        if (!bp) return;
+        drawer.hidden = true;
+        const w = compileChapter(bp.text, {
+          title: bp.title,
+          cls: bp.cls,
+          subject: bp.subject,
+          source: `SciVerse 3D · Class ${bp.cls} Blueprint`
+        });
+        w.id = bp.id;
+        w.titleHi = bp.hi;
+        EV.world = w;
+        setView("book");
+        toast(`✦ Class ${bp.cls}: ${BI(bp.title, bp.hi)}`, "ok");
+      };
+    });
+
+    listEl.querySelectorAll("[data-sv-ch]").forEach(btn => {
+      btn.onclick = () => {
+        const chId = btn.dataset.svCh;
+        drawer.hidden = true;
+        openChapter(chId);
+      };
+    });
+
+    const compBtn = $("svOpenCompilerXI");
+    if (compBtn) {
+      compBtn.onclick = () => {
+        drawer.hidden = true;
+        setView("compiler");
+        setTimeout(() => {
+          const clsSel = $("compileCls");
+          if (clsSel) clsSel.value = "XI";
+          const txt = $("compileText");
+          if (txt && !txt.value.trim()) {
+            txt.value = HIGHER_BLUEPRINTS[0].text;
+            if ($("compileTitle")) $("compileTitle").value = HIGHER_BLUEPRINTS[0].title;
+            if ($("compileSubject")) $("compileSubject").value = "phy";
+          }
+        }, 30);
+      };
+    }
+
+    drawer.hidden = false;
+  }
+
+  /* -------------------------------------------- 6. Global Event Wiring */
+  function cycleLanguage() {
+    const order = ["both", "hi", "en"];
+    const next = order[(order.indexOf(EV.lang) + 1) % order.length];
+    const sel = $("langSelect");
+    if (sel) {
+      sel.value = next;
+      sel.dispatchEvent(new Event("change"));
+    }
+    if (isFlipOpen() && flipWorld) {
+      openFlipbook(flipWorld.id, currentFlipSpreadIndex(), flipWorld);
+    }
+  }
+
+  function install() {
+    // Topbar & Library triggers
+    if ($("btnFlipbookTop")) $("btnFlipbookTop").onclick = () => openFlipbook();
+    if ($("btnLibFlipbook")) $("btnLibFlipbook").onclick = () => openFlipbook();
+    if ($("btnSearchTop")) $("btnSearchTop").onclick = () => openSearch();
+    if ($("svLibSearchBtn")) $("svLibSearchBtn").onclick = () => openSearch();
+    if ($("btnOpenHigher")) $("btnOpenHigher").onclick = () => openHigherStudio();
+
+    // 4 Interactive Hero Pillars
+    if ($("svPillarFlipbook")) $("svPillarFlipbook").onclick = () => openFlipbook();
+    if ($("svPillar3D")) $("svPillar3D").onclick = () => {
+      if (!EV.world) EV.world = getWorld("c10_carbon");
+      setView("book");
+    };
+    if ($("svPillarExp")) $("svPillarExp").onclick = () => {
+      openChapter(EV.world ? EV.world.id : "c10_light");
+      toast(BI("Predict → Adjust sliders & 3D handles → Earn your Discovery Stamp!", "अनुमान लगाएँ → स्लाइडर व 3D हैंडल चलाएँ → डिस्कवरी स्टैम्प पाएँ!"), "ok");
+    };
+    if ($("svPillarLang")) $("svPillarLang").onclick = cycleLanguage;
+
+    // 2D Flipbook modal controls
+    if ($("svFlipClose")) $("svFlipClose").onclick = closeFlipbook;
+    document.querySelectorAll("[data-sv-flip-close]").forEach(el => { el.onclick = closeFlipbook; });
+    if ($("svFlipPrev")) $("svFlipPrev").onclick = () => { if (flipInst) flipInst.flipPrev(); };
+    if ($("svFlipNext")) $("svFlipNext").onclick = () => { if (flipInst) flipInst.flipNext(); };
+    if ($("svFlipLangBtn")) $("svFlipLangBtn").onclick = cycleLanguage;
+    if ($("svFlipOpen3D")) $("svFlipOpen3D").onclick = () => {
+      if (!flipWorld) return;
+      const sIdx = currentFlipSpreadIndex();
+      const w = flipWorld;
+      closeFlipbook();
+      if (WORLDS[w.id] || CATALOGUE_ALL.some(c => c.id === w.id)) openChapter(w.id);
+      else { EV.world = w; setView("book"); }
+      WORLD.jumpTo(sIdx);
+      renderLesson(); renderMeters(); renderPageBar();
+    };
+    if ($("svFlipChapter")) $("svFlipChapter").onchange = e => {
+      openFlipbook(e.target.value, 0);
+    };
+
+    // Search modal controls
+    if ($("svSearchClose")) $("svSearchClose").onclick = closeSearch;
+    document.querySelectorAll("[data-sv-search-close]").forEach(el => { el.onclick = closeSearch; });
+    if ($("svSearchInput")) {
+      $("svSearchInput").oninput = () => { selectedHitIdx = 0; renderSearchResults(); };
+      $("svSearchInput").onkeydown = e => {
+        if (e.key === "ArrowDown") {
+          e.preventDefault();
+          selectedHitIdx = Math.min(currentHits.length - 1, selectedHitIdx + 1);
+          renderSearchResults();
+        } else if (e.key === "ArrowUp") {
+          e.preventDefault();
+          selectedHitIdx = Math.max(0, selectedHitIdx - 1);
+          renderSearchResults();
+        } else if (e.key === "Enter") {
+          e.preventDefault();
+          activateSearchHit(selectedHitIdx, e.shiftKey);
+        } else if (e.key === "Escape") {
+          e.preventDefault();
+          closeSearch();
+        }
+      };
+    }
+    document.querySelectorAll("[data-sv-filter]").forEach(chip => {
+      chip.onclick = () => {
+        activeFilter = chip.dataset.svFilter || "all";
+        document.querySelectorAll("[data-sv-filter]").forEach(c => c.classList.toggle("on", c === chip));
+        selectedHitIdx = 0;
+        renderSearchResults();
+      };
+    });
+
+    // Global keyboard shortcuts (Ctrl+K / Cmd+K for search, Escape & arrows for Flipbook)
+    document.addEventListener("keydown", e => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        const sm = $("svSearchModal");
+        if (sm && !sm.hidden) closeSearch(); else openSearch();
+        return;
+      }
+      const sm = $("svSearchModal");
+      if (sm && !sm.hidden) {
+        if (e.key === "Escape") { e.preventDefault(); closeSearch(); }
+        return;
+      }
+      if (isFlipOpen()) {
+        if (e.key === "Escape") { e.preventDefault(); closeFlipbook(); }
+        else if (e.key === "ArrowRight" && flipInst) { e.preventDefault(); flipInst.flipNext(); }
+        else if (e.key === "ArrowLeft" && flipInst) { e.preventDefault(); flipInst.flipPrev(); }
+      }
+    });
+  }
+
+  return {
+    install,
+    formatFormulaHtml,
+    celebrate,
+    animateScalePulse,
+    openFlipbook,
+    closeFlipbook,
+    isFlipOpen,
+    openSearch,
+    closeSearch,
+    openHigherStudio
+  };
+})();
+window.SCIVERSE = SCIVERSE;

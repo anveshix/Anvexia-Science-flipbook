@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""EduVerse single-file offline bundler.
+"""SciVerse 3D single-file offline bundler.
 Reads vendor/* + src/* + authoring/packs/*.json and emits one self-contained
 index.html. No CDN, no network requests, no runtime build dependencies, no OCR.
 
 LAUNCH AUDIT
   * Three.js r187 is a vendored tree-shaken IIFE, not the deprecated r150 UMD.
+  * SciVerse 3D open-source libs (StPageFlip, MiniSearch, @tweenjs/tween.js,
+    Temml, canvas-confetti) are vendored offline in vendor/sciverse-libs.min.js.
   * Every inline <script>/<style> is hash-pinned in a strict CSP meta; the same
     policy is written to the publish headers by make_publish.py.
-  * Third-party MIT/OFL licence notices are embedded in the HTML comment.
+  * Third-party MIT/ISC/OFL licence notices are embedded in the HTML comment.
   * The 29 EVPACK v2 chapter packs remain INERT <script type="application/json">
     blocks; EVLAZY JSON.parses exactly one pack when a chapter needs it.
 """
@@ -17,6 +19,7 @@ import html
 import json
 import pathlib
 import re
+import subprocess
 import sys
 import zlib
 
@@ -48,6 +51,33 @@ def safe(s, kind):
     if token.lower() in s.lower():
         raise SystemExit(f"Unsafe literal {token} found in {kind} source — escape it")
     return s
+
+
+def compact_bundle_assets(css_raw, js_list):
+    """Compact inline CSS and JS whitespace/syntax without renaming any globals."""
+    if (ROOT / "node_modules" / "esbuild").exists():
+        helper = (
+            'const fs=require("fs"),esbuild=require("esbuild");'
+            'const inp=JSON.parse(fs.readFileSync(0,"utf8"));'
+            'const css=esbuild.transformSync(inp.css,{minify:true,loader:"css",charset:"utf8"}).code.replace(/<\\/style/gi,"<\\\\/style");'
+            'const js=inp.js.map(s=>esbuild.transformSync(s,{minifyWhitespace:true,minifySyntax:true,loader:"js",charset:"utf8"}).code.replace(/<\\/script/gi,"<\\\\/script"));'
+            'process.stdout.write(JSON.stringify({css,js}));'
+        )
+        proc = subprocess.run(
+            ["node", "-e", helper],
+            input=json.dumps({"css": css_raw, "js": js_list}),
+            text=True,
+            capture_output=True,
+            cwd=ROOT,
+            check=True,
+        )
+        parsed = json.loads(proc.stdout)
+        return parsed["css"], parsed["js"]
+    # Pure-Python deterministic fallback when node_modules is absent
+    css_min = re.sub(r"/\*[\s\S]*?\*/", "", css_raw)
+    css_min = re.sub(r"\n[ \t]*", "\n", css_min)
+    js_min = [re.sub(r"\n[ \t]+", "\n", s) for s in js_list]
+    return css_min, js_min
 
 
 def inert_packs():
@@ -82,9 +112,13 @@ def inert_packs():
 
 def main():
     font = base64.b64encode((ROOT / "vendor/devanagari.woff2").read_bytes()).decode("ascii")
-    css = read("src/styles.css").replace("__DEVA_FONT__", font)
+    temml_font = base64.b64encode((ROOT / "vendor/temml.woff2").read_bytes()).decode("ascii")
+    sv_css = read("vendor/sciverse-libs.css").replace("__TEMML_FONT__", temml_font)
+    css_raw = sv_css + "\n" + read("src/styles.css").replace("__DEVA_FONT__", font)
+
     three = read("vendor/three.min.js")
     qr = read("vendor/qrcode.js")
+    sv_libs = read("vendor/sciverse-libs.min.js")
     unzlib = read("vendor/unzlib.min.js")
     licenses = read("vendor/THIRD_PARTY_LICENSES.txt")
     if "THREE_REVISION=" + THREE_REVISION not in three:
@@ -94,21 +128,23 @@ def main():
         raise SystemExit("deprecated Three.js UMD build detected")
     if "-->" in licenses:
         raise SystemExit("licence notice cannot be embedded in an HTML comment")
-    scripts = [read(p) for p in ["src/spec.js", "src/dictionary.js", "src/blocks.js", "src/atlas_blocks.js",
-                                 "src/checks.js", "src/bio3d.js", "src/fsm.js",
-                                 "src/engines/EngineKit.js",
-                                 "src/engines/BioEngine.js",
-                                 "src/engines/ChemEngine.js",
-                                 "src/engines/PhysEngine.js",
-                                 "src/figure3d.js",
-                                 "src/carbon_blocks.js", "src/carbon_chapter.js",
-                                 "src/light_blocks.js", "src/light_chapter.js",
-                                 "src/light_engine.js", "src/organ3d.js", "src/chapters_generated.js",
-                                 "src/world.js",
-                                 "src/chapter_packs.js", "src/state_manager.js",
-                                 "src/chapter_bind.js", "src/projector.js",
-                                 "src/pack_loader.js"]]
-    scripts.append(unzlib)
+
+    src_scripts = [read(p) for p in [
+        "src/spec.js", "src/dictionary.js", "src/blocks.js", "src/atlas_blocks.js",
+        "src/checks.js", "src/bio3d.js", "src/fsm.js",
+        "src/engines/EngineKit.js",
+        "src/engines/BioEngine.js",
+        "src/engines/ChemEngine.js",
+        "src/engines/PhysEngine.js",
+        "src/figure3d.js",
+        "src/carbon_blocks.js", "src/carbon_chapter.js",
+        "src/light_blocks.js", "src/light_chapter.js",
+        "src/light_engine.js", "src/organ3d.js", "src/chapters_generated.js",
+        "src/world.js",
+        "src/chapter_packs.js", "src/state_manager.js",
+        "src/chapter_bind.js", "src/projector.js",
+        "src/pack_loader.js",
+    ]]
     app_js = read("src/app.js")
     raw_labels = (ROOT / "src/label_data.json").read_bytes()
     b64_labels = base64.b64encode(zlib.compress(raw_labels, 9)).decode("ascii")
@@ -117,9 +153,14 @@ def main():
         + b64_labels + '"),c=>c.charCodeAt(0)))))'
     )
     assert app_js.count("__EV_LABEL_DATA__") == 1
-    scripts.append(app_js.replace("__EV_LABEL_DATA__", decoder))
+    app_resolved = app_js.replace("__EV_LABEL_DATA__", decoder)
+    sciverse_js = read("src/sciverse.js")
+
+    css, compacted = compact_bundle_assets(css_raw, src_scripts + [app_resolved, sciverse_js])
+    scripts = compacted[:-2] + [unzlib, compacted[-2], compacted[-1]]
+
     script_tags = "\n".join("<script>\n" + s + "\n</script>" for s in scripts)
-    for s in scripts + [three, qr]:
+    for s in scripts + [three, qr, sv_libs]:
         safe(s, "script")
     safe(css, "style")
 
@@ -134,10 +175,10 @@ def main():
 <meta name="color-scheme" content="dark light">
 <meta name="author" content="Paras Pranav">
 <meta name="copyright" content="Copyright / Developer : Paras Pranav">
-<title>EduVerse — Chapter to Moving 3D Textbook World</title>
-<meta name="description" content="Compile any CBSE/NCERT Science chapter into a real moving 3D textbook world: page turning, pop-up experiments, prediction cards, quizzes.">
+<title>SciVerse 3D — Explore Science. Experience Discovery.</title>
+<meta name="description" content="SciVerse 3D — Explore Science. Experience Discovery. 2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning for Class IX–X Science (extensible to Class XI–XII).">
 <!--
-EduVerse vendored third-party licence notices (offline, no external request).
+SciVerse 3D vendored third-party licence notices (offline, no external request).
 {licenses}
 -->
 __EDUVERSE_CSP_META__
@@ -154,7 +195,10 @@ __EDUVERSE_CSP_META__
 {qr}
 </script>
 <script>
-const EV_READY_MARK = 'eduverse-v1';
+{sv_libs}
+</script>
+<script>
+const EV_READY_MARK = 'sciverse-3d-v2';
 </script>
 {pack_tags}
 {script_tags}
@@ -190,7 +234,7 @@ const EV_READY_MARK = 'eduverse-v1';
         raise SystemExit("EXTERNAL REFS in bundle: " + repr(external[:3]))
     print(f"built {OUT} · {len(full_html):,} characters ({size:,} bytes)")
     print(f"vendored Three.js r{THREE_REVISION} {len(three)} chars · qrcode {len(qr)} chars · "
-          f"Devanagari font {len(font)} base64 chars")
+          f"sciverse-libs {len(sv_libs)} chars · Devanagari+Temml fonts {len(font) + len(temml_font)} base64 chars")
     print(f"strict script CSP: {analysis['scriptBlocks']} script hashes · "
           f"style unsafe-inline for dynamic DOM styles · 0 external refs")
     print(f"Prompt 5 inert packs {pack_stats['count']} · {pack_stats['bytes']:,} bytes · "
