@@ -576,7 +576,7 @@ const EVLABEL=(()=>{
     info.addEventListener('click',e=>e.stopPropagation());
     specs.forEach((spec,i)=>{
       const hit=document.createElement('button');hit.type='button';hit.className='ev-label-hit';hit.dataset.labelIndex=String(i);
-      if(spec.anchor_x!=null&&spec.anchor_y!=null){hit.classList.add('ev-label-chip');hit.textContent=BI(spec.en,spec.hi)}
+      if(spec.anchor_x!=null&&spec.anchor_y!=null){hit.classList.add('ev-label-chip');hit.textContent=BI(spec.en,spec.hi);hit.dataset.n=String(specs.indexOf(spec)+1)}
       let right=spec.x+spec.w;
       for(const other of specs)if(other!==spec&&other.x>spec.x&&other.x<right&&other.y<spec.y+spec.h&&spec.y<other.y+other.h)right=other.x-2;
       hit.style.left=(spec.x/1408*100)+'%';hit.style.top=(spec.y/768*100)+'%';hit.style.width=((right-spec.x)/1408*100)+'%';hit.style.height=(spec.h/768*100)+'%';
@@ -585,7 +585,7 @@ const EVLABEL=(()=>{
       layer.append(hit);buttons.push(hit);
     });
     layer.append(info);host.append(layer);
-    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const iw=Math.min(w,h*1408/768),ih=iw*768/1408;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px');fitChips(layer)}
+    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const iw=Math.min(w,h*1408/768),ih=iw*768/1408;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px');layer.classList.toggle('ev-compact',iw<560);if(iw>=560)fitChips(layer)}
     const ro=new ResizeObserver(size);ro.observe(host);img.addEventListener('load',size,{once:true});size();active.set(host,{ro,layer,closeInfo});
   }
   function closeOpen(host){const item=host&&active.get(host);if(!item)return false;const p=item.layer.querySelector('.ev-label-pop');if(!p||p.hidden)return false;item.closeInfo();return true}

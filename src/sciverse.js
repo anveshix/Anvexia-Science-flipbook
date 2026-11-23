@@ -12,7 +12,7 @@
 const SCIVERSE = (function () {
   "use strict";
 
-  const SUB_MAP = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9", "₊": "+", "₋": "-" };
+  const SUB_MAP = { "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4", "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9", "₊": "+", "₋": "-", "ₙ": "n", "ₘ": "m", "ₓ": "x", "ₐ": "a", "ₑ": "e", "ₒ": "o" };
   const SUP_MAP = { "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁺": "+", "⁻": "-" };
 
   function reducedMotion() {
@@ -24,7 +24,7 @@ const SCIVERSE = (function () {
     let s = String(raw || "").trim();
     if (!s) return "";
     // Convert Unicode subscripts & superscripts into LaTeX _{...} and ^{...}
-    s = s.replace(/[₀₁₂₃₄₅₆₇₈₉₊₋]+/g, m => "_{" + m.split("").map(c => SUB_MAP[c] || c).join("") + "}");
+    s = s.replace(/[₀₁₂₃₄₅₆₇₈₉₊₋ₙₘₓₐₑₒ]+/g, m => "_{" + m.split("").map(c => SUB_MAP[c] || c).join("") + "}");
     s = s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+/g, m => "^{" + m.split("").map(c => SUP_MAP[c] || c).join("") + "}");
     s = s
       .replace(/½/g, "\\frac{1}{2}")
@@ -67,20 +67,24 @@ const SCIVERSE = (function () {
     // Prose-heavy notes (4+ consecutive long English words without operators) stay crisp HTML
     const proseWords = (raw.match(/[A-Za-z]{5,}/g) || []).length;
     const hasMathOps = /[=+\-*/→⇌²³⁴₁₂₃₄ΔθρλΩ½]/.test(raw);
-    if (typeof window.temml !== "undefined" && hasMathOps && proseWords <= 5) {
+    /* a chain of words ("Cell → Tissue → Organ") is prose, not maths: keep it
+       upright HTML so it wraps on narrow pages */
+    const wordChain = /^[A-Za-z][A-Za-z\s\-→↔,]*$/.test(raw) && /→|↔/.test(raw);
+    if (typeof window.temml !== "undefined" && hasMathOps && proseWords <= 5 && !wordChain) {
       try {
         const latex = asciiFormulaToLatex(raw);
-        return window.temml.renderToString(latex, {
+        const out = window.temml.renderToString(latex, {
           displayMode: false,
-          throwOnError: false,
+          throwOnError: true,
           trust: false
         });
+        if (!/ParseError|temml-error/.test(out)) return out;
       } catch (_err) {
         /* graceful fallback below */
       }
     }
     return esc(raw)
-      .replace(/[₀₁₂₃₄₅₆₇₈₉₊₋]+/g, m => "<sub>" + m.split("").map(c => SUB_MAP[c] || c).join("") + "</sub>")
+      .replace(/[₀₁₂₃₄₅₆₇₈₉₊₋ₙₘₓₐₑₒ]+/g, m => "<sub>" + m.split("").map(c => SUB_MAP[c] || c).join("") + "</sub>")
       .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+/g, m => "<sup>" + m.split("").map(c => SUP_MAP[c] || c).join("") + "</sup>");
   }
 
@@ -270,13 +274,13 @@ const SCIVERSE = (function () {
       </div>
       <div class="svf-page svf-toc-page">
         <div class="svf-page-inner">
-          <div class="svf-phead"><span>${esc(BI("CONTENTS · INSIDE THIS CHAPTER", "विषय-सूची · इस अध्याय में"))}</span><span>${w.spreads.length} §</span></div>
+          <div class="svf-phead"><span>${esc(BI("Contents", "विषय-सूची"))}</span><span>${w.spreads.length} §</span></div>
           <div class="svf-toc-list">${tocItems}</div>
         </div>
       </div>
       <div class="svf-page svf-overview-page">
         <div class="svf-page-inner">
-          <div class="svf-phead"><span>${esc(BI("CHAPTER OVERVIEW", "अध्याय परिचय"))}</span><span>${esc(subjLabel)}</span></div>
+          <div class="svf-phead"><span>${esc(BI("Chapter overview", "अध्याय परिचय"))}</span><span>${esc(subjLabel)}</span></div>
           ${heroSrc ? `<figure class="svf-hero"><img src="${heroSrc}" alt="${esc(BI(w.title, w.titleHi))}" decoding="async" draggable="false"></figure>` : ""}
           <h3 class="svf-title">${EV.lang === "both" ? BX(w.title, w.titleHi) : esc(BI(w.title, w.titleHi))}</h3>
           <p class="svf-concept">${esc(BI("Each spread pairs one NCERT section (left) with its illustrated 2D plate (right). Tap labels on a plate for bilingual notes, predict, then turn the page.", "हर स्प्रेड में बाईं ओर NCERT खंड और दाईं ओर उसका 2D चित्र है। द्विभाषी नोट्स के लिए लेबल दबाएँ, अनुमान लगाएँ, फिर पन्ना पलटें।"))}</p>
@@ -301,10 +305,17 @@ const SCIVERSE = (function () {
            </div>`
         : "";
 
+      /* Key terms: a definition that is only a clipped copy of the concept
+         sentence adds noise, so such terms are shown without it. */
       const rawV = sp.vocab || [], rawVHi = sp.vocabHi || [];
-      const vocabHtml = VOC(sp).slice(0, 3).map((v, vi) =>
-        `<span class="svf-term"><b>${EV.lang === "both" && rawVHi[vi] ? BX(rawV[vi] && rawV[vi][0], rawVHi[vi][0]) : esc(v[0])}</b>: ${esc(v[1])}</span>`
-      ).join("");
+      const conceptAll = (sp.concept || "") + " " + (sp.conceptHi || "");
+      const isEcho = d => { const k = String(d || "").trim().replace(/[.……]+$/, ""); return !k || (k.length > 12 && conceptAll.indexOf(k.slice(0, Math.min(40, k.length))) >= 0); };
+      const termsHtml = VOC(sp).slice(0, 4).map((v, vi) => {
+        const term = EV.lang === "both" && rawVHi[vi] ? BX(rawV[vi] && rawV[vi][0], rawVHi[vi][0]) : esc(v[0]);
+        const def = isEcho(rawV[vi] && rawV[vi][1]) ? "" : esc(v[1]);
+        return `<div class="svf-term"><dt>${term}</dt>${def ? `<dd>${def}</dd>` : ""}</div>`;
+      }).join("");
+      const fig = `${esc(BI("Figure", "चित्र"))} ${esc(sp.section)}`;
 
       const optsHtml = (pr.options || []).map((o, oi) => {
         let cls = "svf-opt svf-interactive";
@@ -318,15 +329,14 @@ const SCIVERSE = (function () {
       <div class="svf-page svf-left-page" data-spread="${i}">
         <div class="svf-page-inner">
           <div class="svf-phead">
-            <span>§ ${esc(sp.section)} · ${esc(BI("Class", "कक्षा"))} ${esc(w.cls || "X")}</span>
-            <span class="svf-stamp ${pg.stamped ? "earned" : ""}">${pg.stamped ? "★ " + esc(t("stamp")) : "☆ " + (i + 1) + "/" + w.spreads.length}</span>
+            <span class="svf-sec">§ ${esc(sp.section)}</span>
+            <span class="svf-stamp ${pg.stamped ? "earned" : ""}">${pg.stamped ? "★ " + esc(t("stamp")) : esc(BI("Section", "खंड")) + " " + (i + 1) + " / " + w.spreads.length}</span>
           </div>
           <h3 class="svf-title">${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</h3>
           <p class="svf-concept">${EV.lang === "both" ? BX(sp.concept, sp.conceptHi) : esc(BI(sp.concept, sp.conceptHi))}</p>
           ${formulaHtml}
-          ${vocabHtml ? `<div class="svf-vocab">${vocabHtml}</div>` : ""}
           <div class="svf-predict" data-svf-predict="${i}">
-            <div class="svf-pq"><b>${esc(t("predict"))}:</b> ${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
+            <div class="svf-pq"><span class="svf-pq-tag">${esc(t("predict"))}</span>${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
             <div class="svf-popts">${optsHtml}</div>
             ${pg.locked ? `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>` : ""}
           </div>
@@ -336,26 +346,25 @@ const SCIVERSE = (function () {
       <div class="svf-page svf-right-page" data-spread="${i}">
         <div class="svf-page-inner">
           <div class="svf-phead">
-            <span>${esc(BI("2D SCIENTIFIC ILLUSTRATION", "2D वैज्ञानिक चित्र"))}</span>
-            ${files.length > 1 ? `<button type="button" class="btn ghost tiny svf-interactive" data-svf-cycle="${i}">${curIdx + 1} / ${files.length} ↻</button>` : `<span>§ ${esc(sp.section)}</span>`}
+            <span class="svf-sec">${fig}</span>
+            ${files.length > 1 ? `<button type="button" class="svf-cycle svf-interactive" data-svf-cycle="${i}" aria-label="${esc(BI("Next illustration", "अगला चित्र"))}">${curIdx + 1} / ${files.length} ↻</button>` : ""}
           </div>
           ${imgSrc ? `
-            <div class="svf-plate-wrap svf-interactive">
+            <figure class="svf-plate-wrap svf-interactive">
               <div class="svf-plate-host" data-svf-sp="${i}">
                 <img src="${imgSrc}" alt="${esc(BI(sp.title, sp.titleHi))}" decoding="async" draggable="false" width="1408" height="768">
               </div>
-              <div class="svf-plate-bar">
-                <small>${esc(BI("Click labels on diagram for bilingual notes", "द्विभाषी नोट्स के लिए चित्र के लेबल दबाएँ"))}</small>
-                <button type="button" class="btn ghost tiny svf-interactive" data-svf-zoom="${i}">⤢ ${esc(BI("Zoom", "ज़ूम"))}</button>
-              </div>
-            </div>
+              <figcaption class="svf-caption">
+                <span class="svf-caption-text"><b>${fig}</b> ${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</span>
+                <button type="button" class="svf-zoom svf-interactive" data-svf-zoom="${i}">${esc(BI("Enlarge", "बड़ा करें"))}</button>
+              </figcaption>
+            </figure>
           ` : `
             <div class="svf-plate-fallback">
-              <div class="svf-fallback-ico">🖼</div>
-              <p>${esc(BI("Illustration for this section is being prepared.", "इस खंड का चित्र तैयार किया जा रहा है।"))}</p>
+              <p>${esc(BI("The illustration for this section is not available yet. Read the concept on the facing page.", "इस खंड का चित्र अभी उपलब्ध नहीं है। सामने के पृष्ठ पर अवधारणा पढ़ें।"))}</p>
             </div>
           `}
-          <figcaption class="svf-caption"><b>§ ${esc(sp.section)}</b> ${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</figcaption>
+          ${termsHtml ? `<dl class="svf-terms"><div class="svf-terms-h">${esc(BI("Key terms", "मुख्य शब्द"))}</div>${termsHtml}</dl>` : ""}
           <div class="svf-pnum">${spreadPage(i) + 1}</div>
         </div>
       </div>`;
@@ -428,6 +437,7 @@ const SCIVERSE = (function () {
           if (!box.querySelector(".svf-explain")) {
             box.insertAdjacentHTML("beforeend", `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>`);
           }
+          fitLive(box.closest(".svf-page"));
         }
         if (ok) celebrate("stamp");
         toast(ok ? BI("Correct prediction! Study the plate to confirm why.", "सही अनुमान! कारण समझने के लिए चित्र देखें।")
@@ -493,6 +503,51 @@ const SCIVERSE = (function () {
     });
   }
 
+  /* Fit-to-page: measure every page offscreen at its real rendered size and
+     step the type scale (--fs) down until the page content fits without
+     scrolling or clipping. Deterministic, done once per build, no jumps. */
+  function fitPages(book) {
+    if (!flipInst || typeof document === "undefined" || !document.body || !document.body.appendChild) return true;
+    let r = null;
+    try { r = flipInst.getBoundsRect && flipInst.getBoundsRect(); } catch (_e) {}
+    const shown = Array.from(book.querySelectorAll(".svf-page")).find(x => x.offsetWidth && x.offsetHeight);
+    const pw = (shown && shown.offsetWidth) || (r && r.pageWidth);
+    const ph = (shown && shown.offsetHeight) || (r && r.height);
+    if (!pw || !ph) return false;
+    const box = document.createElement("div");
+    box.className = "sv-flip-book svf-measure";
+    box.style.cssText = "position:fixed;left:-10000px;top:0;visibility:hidden;pointer-events:none;width:" + pw + "px";
+    document.body.appendChild(box);
+    book.querySelectorAll(".svf-page").forEach(pg => {
+      if (pg.classList.contains("svf-cover")) return;
+      const c = pg.cloneNode(true);
+      c.style.cssText = "display:block;position:relative;width:" + pw + "px;height:" + ph + "px";
+      box.appendChild(c);
+      const inner = c.querySelector(".svf-page-inner");
+      let fs = 1;
+      while (inner && fs > 0.72 && (inner.scrollHeight > inner.clientHeight + 1 || inner.scrollWidth > inner.clientWidth + 1)) {
+        fs = Math.round((fs - 0.04) * 100) / 100;
+        inner.style.setProperty("--fs", fs);
+      }
+      /* on the inner element: StPageFlip rewrites the page's own style attribute */
+      const live = pg.querySelector(".svf-page-inner");
+      if (live) live.style.setProperty("--fs", fs);
+      c.remove();
+    });
+    box.remove();
+    return true;
+  }
+
+  function fitLive(pg) {
+    const inner = pg && pg.querySelector(".svf-page-inner");
+    if (!inner || !inner.clientHeight) return;
+    let fs = parseFloat(inner.style.getPropertyValue("--fs")) || 1;
+    while (fs > 0.72 && (inner.scrollHeight > inner.clientHeight + 1 || inner.scrollWidth > inner.clientWidth + 1)) {
+      fs = Math.round((fs - 0.04) * 100) / 100;
+      inner.style.setProperty("--fs", fs);
+    }
+  }
+
   function openFlipbook(chapterId, spreadIdx, customWorld) {
     const modal = $("svFlipbookModal"), wrap = $("svFlipWrap");
     let book = $("svFlipBook");
@@ -531,7 +586,7 @@ const SCIVERSE = (function () {
     const rect = wrap.getBoundingClientRect();
     const availW = Math.max(320, rect.width || (window.innerWidth - 12));
     const availH = Math.max(360, rect.height || (window.innerHeight - 96));
-    const portrait = availW < 760;
+    const portrait = availW < 900 || availW / availH < 1.15;
     const pageW = portrait ? Math.max(300, Math.floor(availW - 8)) : Math.max(360, Math.floor((availW - 12) / 2));
     const pageH = Math.max(360, Math.floor(availH - 6));
 
@@ -541,7 +596,7 @@ const SCIVERSE = (function () {
         width: pageW,
         height: pageH,
         size: "stretch",
-        minWidth: 280,
+        minWidth: portrait ? pageW : 280,   /* StPageFlip goes single-page only below 2×minWidth */
         maxWidth: 2600,
         minHeight: 340,
         maxHeight: 1900,
@@ -552,7 +607,15 @@ const SCIVERSE = (function () {
         startPage: startPage,
         flippingTime: reducedMotion() ? 90 : 540
       });
+      /* fit once the book has real page sizes (StPageFlip lays out asynchronously) */
+      const inst = flipInst;
+      let tries = 0;
+      const fitWhenReady = () => {
+        if (flipInst !== inst) return;               /* book was rebuilt meanwhile */
+        if (!fitPages(book) && ++tries < 30) requestAnimationFrame(fitWhenReady);
+      };
       flipInst.loadFromHTML(pageEls);
+      requestAnimationFrame(fitWhenReady);
       flipInst.on("flip", () => {
         updateFlipHud();
         const sIdx = currentFlipSpreadIndex();
