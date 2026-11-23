@@ -3,8 +3,8 @@
 import csv, hashlib, json
 from pathlib import Path
 from collections import Counter
-ROOT = Path('/home/user/metaworld')
-OUT = Path('/home/user/eduverse_topic_audit')
+OUT = Path(__file__).resolve().parent
+ROOT = OUT.parent if (OUT.parent / 'authoring').exists() else Path('/home/user/metaworld')
 from restore_runtime_inventory import restore
 restore()
 inv = json.loads((OUT/'runtime_inventory.json').read_text(encoding='utf-8'))

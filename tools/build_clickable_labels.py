@@ -6,23 +6,36 @@ manually authored subject anchors. Neither method establishes scientific approva
 from pathlib import Path
 import hashlib
 import json
-from extra_label_info import EXTRA
-from remaining_label_info import EXTRA as REMAINING_EXTRA
-from additional_label_info import EXTRA as ADDITIONAL_EXTRA
-from matter_atom_label_info import EXTRA as MATTER_ATOM_EXTRA
-from class10_reproduction_label_info import EXTRA as REPRO10_EXTRA
-from foundations_sound_label_info import EXTRA as FOUNDATIONS_SOUND_EXTRA
-from carbon_first_label_info import EXTRA as CARBON_FIRST_EXTRA
-from carbon_second_label_info import EXTRA as CARBON_SECOND_EXTRA
-from atom_last_label_info import EXTRA as ATOM_LAST_EXTRA
-from periodic_label_info import EXTRA as PERIODIC_EXTRA
-from light_mirror_label_info import EXTRA as LIGHT_MIRROR_EXTRA
-from light_refraction_label_info import EXTRA as LIGHT_REFRACTION_EXTRA
-from eye_label_info import EXTRA as EYE_EXTRA
-from electricity_label_info import EXTRA as ELECTRICITY_EXTRA
-from magnetism_label_info import EXTRA as MAGNETISM_EXTRA
-from placeholder_label_info import EXTRA as PLACEHOLDER_EXTRA
-R=Path('/home/user'); T=R/'eduverse_2d_staging/tools'
+import sys
+
+TOOLS_DIR = Path(__file__).resolve().parent
+ROOT = TOOLS_DIR.parent
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+T = ROOT.parent / 'eduverse_2d_staging' / 'tools'
+
+def _opt_extra(mod_name):
+    try:
+        return __import__(mod_name).EXTRA
+    except ModuleNotFoundError:
+        return {}
+
+EXTRA = _opt_extra('extra_label_info')
+REMAINING_EXTRA = _opt_extra('remaining_label_info')
+ADDITIONAL_EXTRA = _opt_extra('additional_label_info')
+MATTER_ATOM_EXTRA = _opt_extra('matter_atom_label_info')
+REPRO10_EXTRA = _opt_extra('class10_reproduction_label_info')
+FOUNDATIONS_SOUND_EXTRA = _opt_extra('foundations_sound_label_info')
+CARBON_FIRST_EXTRA = _opt_extra('carbon_first_label_info')
+CARBON_SECOND_EXTRA = _opt_extra('carbon_second_label_info')
+ATOM_LAST_EXTRA = _opt_extra('atom_last_label_info')
+PERIODIC_EXTRA = _opt_extra('periodic_label_info')
+LIGHT_MIRROR_EXTRA = _opt_extra('light_mirror_label_info')
+LIGHT_REFRACTION_EXTRA = _opt_extra('light_refraction_label_info')
+EYE_EXTRA = _opt_extra('eye_label_info')
+ELECTRICITY_EXTRA = _opt_extra('electricity_label_info')
+MAGNETISM_EXTRA = _opt_extra('magnetism_label_info')
+PLACEHOLDER_EXTRA = _opt_extra('placeholder_label_info')
 info={
 'Shoot':('The above-ground plant axis bears leaves and often grows toward light.','प्ररोह पौधे का ऊपर का भाग है; इसमें पत्तियाँ होती हैं और यह अक्सर प्रकाश की ओर बढ़ता है।'),
 'Root':('Roots anchor the plant and absorb water and mineral nutrients.','जड़ें पौधे को थामती हैं और जल व खनिज पोषक तत्व ग्रहण करती हैं।'),
@@ -87,30 +100,36 @@ info.update(ELECTRICITY_EXTRA)
 info.update(MAGNETISM_EXTRA)
 info.update(PLACEHOLDER_EXTRA)
 result={};used=set()
-for filename in ('control_batch.json','life_data.json','heredity_env_data.json','earth_reactions_data.json','reactions_acids_data.json','acids_metals_data.json','remaining_batch.json','diversity_earth_labels.json','exploration_batch.json','repro_sound_labels.json','matter_atom_batch.json','sound103_107_labels.json','class10_reproduction_batch.json','foundations_sound_labels.json','carbon_first_batch.json','carbon_second_batch.json','atom_last_labels.json','periodic_batch.json','light_mirror_batch.json','light_refraction_batch.json','eye_batch.json','electricity_batch.json','magnetism_batch.json','placeholders_batch.json'):
- for item in json.loads((T/filename).read_text()):
-  labels=[]
-  for raw,x,y,w,dx,dy,*measured_h in item['labels']:
-   en,hi=map(str.strip,raw.split(' / ',1)); assert en in info,(item['file'],en); used.add(en)
-   entry={'en':en,'hi':hi,'x':x,'y':y,'w':w,'h':measured_h[0] if measured_h else 52,'info_en':info[en][0],'info_hi':info[en][1]}
-   for field in ('font_size','line_height','pad_y','pad_x'):
-    if field in item:entry[field]=item[field]
-   labels.append(entry)
-  result[item['world']+'/'+item['file']]=labels
+if T.exists():
+ for filename in ('control_batch.json','life_data.json','heredity_env_data.json','earth_reactions_data.json','reactions_acids_data.json','acids_metals_data.json','remaining_batch.json','diversity_earth_labels.json','exploration_batch.json','repro_sound_labels.json','matter_atom_batch.json','sound103_107_labels.json','class10_reproduction_batch.json','foundations_sound_labels.json','carbon_first_batch.json','carbon_second_batch.json','atom_last_labels.json','periodic_batch.json','light_mirror_batch.json','light_refraction_batch.json','eye_batch.json','electricity_batch.json','magnetism_batch.json','placeholders_batch.json'):
+  for item in json.loads((T/filename).read_text()):
+   labels=[]
+   for raw,x,y,w,dx,dy,*measured_h in item['labels']:
+    en,hi=map(str.strip,raw.split(' / ',1)); assert en in info,(item['file'],en); used.add(en)
+    entry={'en':en,'hi':hi,'x':x,'y':y,'w':w,'h':measured_h[0] if measured_h else 52,'info_en':info[en][0],'info_hi':info[en][1]}
+    for field in ('font_size','line_height','pad_y','pad_x'):
+     if field in item:entry[field]=item[field]
+    labels.append(entry)
+   result[item['world']+'/'+item['file']]=labels
+else:
+ result=json.loads((TOOLS_DIR/'baked_overlay_labels.json').read_text(encoding='utf-8'))
+ for labels in result.values():
+  for entry in labels:
+   used.add(entry['en'])
 assert len(result)==198
 # Separately authored overlay chips and visually inspected anchors for Cell
 # models without baked-in labels. These remain unreviewed teaching drafts.
-cell_overlays=json.loads((R/'metaworld/tools/cell_overlay_labels.json').read_text())
+cell_overlays=json.loads((TOOLS_DIR/'cell_overlay_labels.json').read_text(encoding='utf-8'))
 assert not (set(result) & set(cell_overlays))
 result.update(cell_overlays)
 assert len(result)==201
 # Manually inspected labels are pinned to exact image bytes: changing a JPEG
 # requires inspecting and deliberately updating its anchor/hash metadata.
-extra=json.loads((R/'metaworld/tools/remaining_overlay_labels.json').read_text())
-hashes=json.loads((R/'metaworld/tools/remaining_overlay_image_hashes.json').read_text())
+extra=json.loads((TOOLS_DIR/'remaining_overlay_labels.json').read_text(encoding='utf-8'))
+hashes=json.loads((TOOLS_DIR/'remaining_overlay_image_hashes.json').read_text(encoding='utf-8'))
 assert set(extra)==set(hashes) and not (set(result)&set(extra))
 for key,h in hashes.items():
- assert hashlib.sha256((R/'metaworld/assets/2d'/key).read_bytes()).hexdigest()==h,key
+ assert hashlib.sha256((ROOT/'assets/2d'/key).read_bytes()).hexdigest()==h,key
 result.update(extra)
 assert len(result)==274
-out=R/'metaworld/src/label_data.json';out.write_text(json.dumps(result,ensure_ascii=False,separators=(',',':'))+'\n');print('image metadata',len(result),'labels',sum(map(len,result.values())),'definitions',len(used))
+out=ROOT/'src/label_data.json';out.write_text(json.dumps(result,ensure_ascii=False,separators=(',',':')),encoding='utf-8');print('image metadata',len(result),'labels',sum(map(len,result.values())),'definitions',len(used))

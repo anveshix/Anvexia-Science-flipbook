@@ -1,0 +1,252 @@
+<div id="app">
+  <!-- STUDENT BAR: only what a learner needs -->
+  <header class="topbar">
+    <div class="brand" id="brand" title="Home · Class IX/X library" data-i18n-title="ui.home"><div class="brand-mark">EV</div><div class="brand-name" data-i18n="brand">EduVerse</div></div>
+    <select class="chapter-select" id="chapterSelect" aria-label="Chapter" data-i18n-aria="ui.chapter"></select>
+    <select class="chapter-select section-select" id="sectionSelect" aria-label="NCERT section" data-i18n-aria="ui.section"></select>
+    <div class="top-context"><span class="top-title" id="topTitle">Choose a chapter</span><span class="top-meta" id="topMeta"></span></div>
+    <div class="top-actions">
+      <button class="btn icon" id="btnHome" title="Home · Class IX/X library" data-i18n-title="ui.home" data-i18n-aria="ui.home" aria-label="Home">⌂</button>
+      <button class="btn icon" id="btnBookTop" title="Open Book" data-i18n-title="ui.openBook" data-i18n-aria="ui.openBook">▤</button>
+      <button class="btn icon" id="btnShotTop" title="Camera angle" data-i18n-title="ui.cameraAngle" data-i18n-aria="ui.cameraAngle">◉</button>
+      <button class="btn icon" id="btnFocus" title="Full 3D view" data-i18n-title="ui.full3d" data-i18n-aria="ui.full3d">⛶</button>
+      <button class="btn icon" id="btnQuizTop" title="Quick check" data-i18n-title="ui.quickCheck" data-i18n-aria="ui.quickCheck">✓</button>
+      <button class="btn icon active" id="btnBoard" title="Straight projector view · alignment locked" data-i18n-title="board" data-i18n-aria="board">▣</button>
+      <button class="btn icon active" id="btnTheme" title="Classroom high contrast · readable from 30 ft" data-i18n-title="ui.highContrast" data-i18n-aria="ui.highContrast">◐</button>
+      <button class="btn icon" id="btn30ft" title="30 FT / big board · very large type for the back row" data-i18n="ui.thirtyFt" data-i18n-title="ui.bigBoardOff" data-i18n-aria="ui.bigBoardOff">30ft</button>
+      <button class="btn icon" id="btn3d" title="ULTRA 3D · let the real 3D model rise out of the page" data-i18n-title="ui.ultraOff" data-i18n-aria="ui.ultraOff">◈</button>
+      <button class="btn icon" id="btnReader" title="Reader space · पढ़ने की जगह (collapse both bottom panels)" data-i18n-title="ui.readerSpace" data-i18n-aria="ui.readerSpace">⤢</button>
+      <select class="lang-select" id="langSelect" aria-label="Language / भाषा" data-i18n-aria="ui.language">
+        <option value="both" data-i18n="ui.langBoth">EN + हिंदी</option>
+        <option value="hi" data-i18n="ui.langHi">हिंदी</option>
+        <option value="en" data-i18n="ui.langEn">English</option>
+      </select>
+      <button class="btn ghost tiny" id="btnTools" title="Teacher / authoring tools" data-i18n-title="ui.toolsButton" data-i18n-aria="ui.toolsButton" data-i18n="ui.toolsButton">⚙ Tools</button>
+      <button class="btn icon" id="btnHelp" title="How to use" data-i18n-title="ui.help" data-i18n-aria="ui.help">?</button>
+    </div>
+  </header>
+
+  <!-- HIDDEN BY DEFAULT: everything non-student -->
+  <aside class="tools-drawer" id="toolsDrawer" hidden>
+    <div class="drawer-head"><b data-i18n="ui.toolsHeading">TOOLS · TEACHER / AUTHOR</b><button class="btn icon" id="btnCloseTools" aria-label="Close tools" data-i18n-aria="ui.closeTools" data-i18n-title="ui.closeTools">×</button></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="rail-section">
+      <div class="rail-heading" id="railHeading" data-i18n="chapterShelf">CBSE CHAPTER SHELF</div>
+      <div class="chapter-list" id="chapterList"></div>
+    </div>
+    <div class="rail-foot">
+      <div class="stat-row"><span id="statSpreads">—</span><small data-i18n="ui.spreadsLabel">spreads</small></div>
+      <div class="stat-row"><span id="statStamps">0</span><small data-i18n="ui.stampsLabel">stamps</small></div>
+      <div class="stat-row"><span id="statBlocks">13</span><small data-i18n="ui.blocksLabel">3D blocks</small></div>
+      <div class="credit" data-i18n="ui.credit">Copyright / Developer : Paras Pranav</div>
+    </div>
+    <button class="btn primary wide" id="btnCompileTop" data-i18n="compile">Compile a chapter</button>
+  </aside>
+
+  <main class="stage" id="stage">
+    <canvas id="gl"></canvas>
+    <section id="aiDraftPlate" class="ai-draft-plate" hidden aria-label="AI illustration draft / AI चित्र का प्रारूप">
+      <div class="ai-draft-head"><span data-i18n="draft.badge">AI DRAFT · REVIEW PENDING</span><button id="aiDraftNext" type="button" hidden data-i18n-title="draft.next" data-i18n-aria="draft.next">1 / 2</button></div>
+      <div class="ai-draft-picture ai-draft-visual"><button type="button" id="aiDraftOpen" class="ai-draft-open" data-i18n-aria="zoom.open"><img id="aiDraftImage" alt=""></button></div>
+      <div class="ai-draft-foot"><strong id="aiDraftTitle"></strong><span data-i18n="draft.labels">Labels and science review pending</span></div>
+    </section>
+    <div class="precision" id="precision2d" hidden></div>
+
+    <!-- META WORLD: one line of guidance, no clutter -->
+    <div class="hud world-hud library-mode" id="worldHud">
+
+      <!-- ==================================================================
+           ACADEMIC LIBRARY DASHBOARD — additive student landing (world view).
+           Two separately clickable Class IX / Class X textbook cards; each opens
+           that class's chapter drawer, every chapter opens the existing flipbook.
+           All covers are inline SVG/CSS: zero external refs, zero new scripts.
+           ================================================================== -->
+      <section class="lib" id="libDash" aria-label="Science library">
+        <svg class="lib-constellation" viewBox="0 0 360 240" aria-hidden="true" focusable="false">
+          <g fill="none" stroke="#7fa8e0" stroke-width="1" opacity=".42">
+            <path d="M24 176 L86 118 L142 148 L206 74 L268 104 L330 46"/>
+            <path d="M86 118 L120 44 M142 148 L196 196 M206 74 L282 184 M268 104 L330 46"/>
+          </g>
+          <g fill="#f0c477" opacity=".85">
+            <circle cx="24" cy="176" r="2.6"/><circle cx="86" cy="118" r="3.4"/>
+            <circle cx="142" cy="148" r="2.2"/><circle cx="206" cy="74" r="3.6"/>
+            <circle cx="268" cy="104" r="2.4"/><circle cx="330" cy="46" r="3"/>
+            <circle cx="120" cy="44" r="2"/><circle cx="196" cy="196" r="2.2"/>
+            <circle cx="282" cy="184" r="2.6"/>
+          </g>
+          <g fill="#8fc3ff" opacity=".7">
+            <circle cx="56" cy="66" r="1.5"/><circle cx="176" cy="34" r="1.4"/>
+            <circle cx="236" cy="158" r="1.6"/><circle cx="314" cy="128" r="1.3"/>
+            <circle cx="46" cy="214" r="1.4"/><circle cx="300" cy="222" r="1.5"/>
+          </g>
+        </svg>
+
+        <header class="lib-head">
+          <div class="lib-head-text">
+            <div class="lib-eyebrow" data-i18n="lib.eyebrow">EDUVERSE · CBSE / NCERT SCIENCE · 2026-27</div>
+            <h2 class="lib-title" data-i18n="lib.title">Your Science Library</h2>
+            <p class="lib-sub" data-i18n="lib.sub">Two classes · 26 chapters · one bilingual 3D flipbook. Choose a textbook to see what is inside.</p>
+          </div>
+          <div class="lib-head-side">
+            <div class="lib-stats" id="libStats"></div>
+            <div class="lib-actions">
+              <button class="btn primary lib-open-btn" id="btnEnter" type="button" data-i18n="lib.resume">Open book →</button>
+              <button class="lib-shelf-btn" id="libShelf" type="button" data-i18n="lib.shelf">Explore 3D shelf ↗</button>
+            </div>
+          </div>
+        </header>
+
+        <div class="lib-book" id="libBook">
+          <button class="lib-page lib-page-ix" id="classCardIX" type="button" data-cls="IX" data-i18n-aria="lib.openIX">
+            <span class="lp-art">
+              <svg class="lp-cover" viewBox="0 0 220 280" aria-hidden="true" focusable="false">
+                <defs>
+                  <linearGradient id="cv9g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#24508c"/><stop offset=".55" stop-color="#152f5c"/><stop offset="1" stop-color="#0a1b3b"/></linearGradient>
+                  <linearGradient id="cv9p" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#d8cbaa"/></linearGradient>
+                  <linearGradient id="cv9a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f0c477"/><stop offset="1" stop-color="#c78a2e"/></linearGradient>
+                </defs>
+                <rect x="14" y="8" width="198" height="264" rx="8" fill="url(#cv9p)" stroke="#a4936e" stroke-width="1"/>
+                <path d="M204 12 h6 a6 6 0 0 1 6 6 v244 a6 6 0 0 1 -6 6 h-6" fill="#c3b593" opacity=".9"/>
+                <rect x="6" y="4" width="198" height="270" rx="9" fill="url(#cv9g)" stroke="#071429" stroke-width="2"/>
+                <rect x="6" y="4" width="15" height="270" rx="7" fill="#071633" opacity=".9"/>
+                <rect x="27" y="20" width="166" height="238" rx="5" fill="none" stroke="url(#cv9a)" stroke-width="1.5" opacity=".85"/>
+                <text x="110" y="46" text-anchor="middle" fill="#bcd3f2" font-family="Arial, sans-serif" font-size="9" letter-spacing="2.4">NCERT · CBSE 2026-27</text>
+                <g transform="translate(110 116)" fill="none" stroke="#8fc3ff" stroke-width="2">
+                  <ellipse rx="52" ry="21"/><ellipse rx="52" ry="21" transform="rotate(60)"/><ellipse rx="52" ry="21" transform="rotate(120)"/>
+                </g>
+                <circle cx="110" cy="116" r="9" fill="#f0c477"/>
+                <circle cx="162" cy="116" r="4.5" fill="#9fd6ff"/><circle cx="84" cy="71" r="4.5" fill="#9fd6ff"/>
+                <circle cx="84" cy="161" r="4.5" fill="#9fd6ff"/><circle cx="136" cy="71" r="3.6" fill="#7ee0b8"/>
+                <path d="M76 187 q20 -30 44 -20 q-8 26 -30 26 q-12 0 -14 -6 z" fill="#7ee0b8" opacity=".92"/>
+                <path d="M80 193 q18 -14 38 -20" fill="none" stroke="#0a1b3b" stroke-width="1.6"/>
+                <text x="110" y="222" text-anchor="middle" fill="#f7f1e2" font-family="Georgia, serif" font-size="25" letter-spacing="1.5">SCIENCE</text>
+                <rect x="52" y="232" width="116" height="22" rx="4" fill="url(#cv9a)"/>
+                <text x="110" y="247" text-anchor="middle" fill="#12213c" font-family="Arial, sans-serif" font-size="11.5" font-weight="bold" letter-spacing="2.6">CLASS IX</text>
+              </svg>
+              <span class="lp-art-shadow" aria-hidden="true"></span>
+            </span>
+            <span class="lp-info">
+              <span class="lp-kicker" data-i18n="lib.textbook">TEXTBOOK · NCERT EXPLORATION</span>
+              <span class="lp-name" data-i18n="lib.classIX">Class IX</span>
+              <span class="lp-hi" data-i18n="lib.classIXHi">कक्षा IX · विज्ञान</span>
+              <span class="lp-meta" id="libMetaIX"></span>
+              <span class="lp-rule" aria-hidden="true"></span>
+              <span class="lp-inside-label" data-i18n="lib.inside">INSIDE THIS BOOK</span>
+              <span class="lp-preview" id="libPreviewIX"></span>
+              <span class="lp-spread" aria-hidden="true">
+                <span class="lp-mini-left"><i></i><i></i><i></i><i></i><b></b><i></i><i></i></span>
+                <span class="lp-mini-right"><em></em><em></em><em></em></span>
+              </span>
+              <span class="lp-cta"><span data-i18n="lib.open">Open Class IX</span> <b aria-hidden="true">→</b></span>
+            </span>
+          </button>
+
+          <button class="lib-page lib-page-x" id="classCardX" type="button" data-cls="X" data-i18n-aria="lib.openX">
+            <span class="lp-art">
+              <svg class="lp-cover" viewBox="0 0 220 280" aria-hidden="true" focusable="false">
+                <defs>
+                  <linearGradient id="cv10g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#40387f"/><stop offset=".55" stop-color="#28265c"/><stop offset="1" stop-color="#141438"/></linearGradient>
+                  <linearGradient id="cv10p" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#d8cbaa"/></linearGradient>
+                  <linearGradient id="cv10a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f0c477"/><stop offset="1" stop-color="#c78a2e"/></linearGradient>
+                </defs>
+                <rect x="14" y="8" width="198" height="264" rx="8" fill="url(#cv10p)" stroke="#a4936e" stroke-width="1"/>
+                <path d="M204 12 h6 a6 6 0 0 1 6 6 v244 a6 6 0 0 1 -6 6 h-6" fill="#c3b593" opacity=".9"/>
+                <rect x="6" y="4" width="198" height="270" rx="9" fill="url(#cv10g)" stroke="#0a0a24" stroke-width="2"/>
+                <rect x="6" y="4" width="15" height="270" rx="7" fill="#0d0d2c" opacity=".9"/>
+                <rect x="27" y="20" width="166" height="238" rx="5" fill="none" stroke="url(#cv10a)" stroke-width="1.5" opacity=".85"/>
+                <text x="110" y="46" text-anchor="middle" fill="#cfc9f2" font-family="Arial, sans-serif" font-size="9" letter-spacing="2.4">NCERT · CBSE 2026-27</text>
+                <g transform="translate(110 112)">
+                  <polygon points="0,-44 38,-22 38,22 0,44 -38,22 -38,-22" fill="none" stroke="#a9a5f0" stroke-width="2.2"/>
+                  <circle r="27" fill="none" stroke="#f0c477" stroke-width="1.8" opacity=".9"/>
+                  <g fill="#8fc3ff"><circle cx="0" cy="-44" r="3.6"/><circle cx="38" cy="-22" r="3.6"/><circle cx="38" cy="22" r="3.6"/><circle cx="0" cy="44" r="3.6"/><circle cx="-38" cy="22" r="3.6"/><circle cx="-38" cy="-22" r="3.6"/></g>
+                </g>
+                <path d="M48 176 L104 176 L172 148" fill="none" stroke="#7ee0b8" stroke-width="2.2"/>
+                <path d="M104 176 L172 202" fill="none" stroke="#7ee0b8" stroke-width="2.2" opacity=".7"/>
+                <path d="M104 166 l0 20 l14 -10 z" fill="#f0c477" transform="rotate(-22 104 176)"/>
+                <circle cx="172" cy="148" r="4" fill="#f0c477"/><circle cx="172" cy="202" r="4" fill="#f0c477"/>
+                <text x="110" y="222" text-anchor="middle" fill="#f7f1e2" font-family="Georgia, serif" font-size="25" letter-spacing="1.5">SCIENCE</text>
+                <rect x="52" y="232" width="116" height="22" rx="4" fill="url(#cv10a)"/>
+                <text x="110" y="247" text-anchor="middle" fill="#1b1838" font-family="Arial, sans-serif" font-size="11.5" font-weight="bold" letter-spacing="2.6">CLASS X</text>
+              </svg>
+              <span class="lp-art-shadow" aria-hidden="true"></span>
+            </span>
+            <span class="lp-info">
+              <span class="lp-kicker" data-i18n="lib.textbookX">TEXTBOOK · NCERT SCIENCE</span>
+              <span class="lp-name" data-i18n="lib.classX">Class X</span>
+              <span class="lp-hi" data-i18n="lib.classXHi">कक्षा X · विज्ञान</span>
+              <span class="lp-meta" id="libMetaX"></span>
+              <span class="lp-rule" aria-hidden="true"></span>
+              <span class="lp-inside-label" data-i18n="lib.inside">INSIDE THIS BOOK</span>
+              <span class="lp-preview" id="libPreviewX"></span>
+              <span class="lp-spread" aria-hidden="true">
+                <span class="lp-mini-left"><i></i><i></i><i></i><i></i><b></b><i></i><i></i></span>
+                <span class="lp-mini-right"><em></em><em></em><em></em></span>
+              </span>
+              <span class="lp-cta"><span data-i18n="lib.openX">Open Class X</span> <b aria-hidden="true">→</b></span>
+            </span>
+          </button>
+        </div>
+
+        <footer class="lib-foot">
+          <span class="lib-foot-note" data-i18n="lib.note">Pick a class → choose a chapter → the printed page and its 3D experiment open together.</span>
+          <span class="lib-credit" data-i18n="ui.credit">Copyright / Developer : Paras Pranav</span>
+        </footer>
+      </section>
+
+      <!-- CLASS CHAPTER DRAWER: opened by either class card -->
+      <div class="lib-drawer" id="libDrawer" hidden>
+        <div class="ld-scrim" data-lib-close></div>
+        <aside class="ld-panel" role="dialog" aria-modal="true" aria-labelledby="ldTitle">
+          <header class="ld-head">
+            <div>
+              <div class="ld-eyebrow" id="ldEyebrow"></div>
+              <h2 class="ld-title" id="ldTitle"></h2>
+              <p class="ld-sub" id="ldSub"></p>
+            </div>
+            <button class="ld-close" id="ldClose" type="button" aria-label="Close chapter list" data-i18n-aria="lib.close">×</button>
+          </header>
+          <div class="ld-list" id="ldList"></div>
+          <footer class="ld-foot">
+            <button class="ld-back" id="ldBack" type="button"><span data-i18n="lib.back">← Both classes</span></button>
+            <span class="ld-foot-note" id="ldFoot"></span>
+          </footer>
+        </aside>
+      </div>
+
+      <button class="shelf-back" id="shelfBack" type="button" data-i18n="lib.backShelf">← Library dashboard</button>
+
+      <!-- ORIGINAL META-WORLD HUD: preserved, reachable via "Explore 3D shelf".
+           In library mode it becomes a compact resume bar; #btnEnter stays a
+           real, visible control for the student and for the QA harness. -->
+      <div class="world-title">
+        <div class="eyebrow" id="worldEyebrow">CBSE 2026-27 · NCERT SCIENCE · CLASS IX + X</div>
+        <h1 id="worldH1">26 complete chapters<br>in one 3D textbook.</h1>
+        <p class="world-sub" id="worldSub">Every topic and subtopic · bilingual · one spread each</p>
+        <div class="world-chips" id="worldChips"></div>
+        <button class="btn primary" id="btnEnterShelf" data-i18n="lib.resume">Open book →</button>
+      </div>
+      <div class="world-tip" id="worldTip" data-i18n="worldHint">Click a floating chapter to fly into its book</div>
+      <div class="credit hud-credit" data-i18n="ui.credit">Copyright / Developer : Paras Pranav</div>
+    </div>
+
+    <!-- BOOK: one compact interaction dock, 3D area stays clear -->
+    <div class="hud book-hud" id="bookHud" hidden>
+      <div class="dock">
+        <div class="page-bar" id="pageBar"></div>
+        <div class="dock-row">
+          <section class="lesson-card" id="lessonCard"></section>
+          <section class="meter-card" id="meterCard"></section>
+        </div>
+      </div>
+      <div class="demo-caption" id="demoCaption" hidden></div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <div class="flash" id="flash"></div>
+    <div class="screen" id="screen" hidden><div class="screen-inner" id="screenInner"></div></div>
+  </main>
+</div>
+
+<!-- Always-available Home when the student top bar is hidden (projector /
+     modal): one compact high-contrast control, no second canvas or screen. -->
+<button class="home-fab" id="btnHomeFloat" type="button" title="Home · Class IX/X library" data-i18n-title="ui.home" data-i18n-aria="ui.home" aria-label="Home">⌂</button>

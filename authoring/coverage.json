@@ -1,0 +1,1597 @@
+{
+  "session": "2026-27",
+  "credit": "Copyright / Developer : Paras Pranav",
+  "student_chapters": [
+    "c9_exploration",
+    "c9_cell",
+    "c9_tissues",
+    "c9_motion",
+    "c9_mixtures",
+    "c9_forces",
+    "c9_work_energy",
+    "c9_atom",
+    "c9_atomic_foundations",
+    "c9_sound",
+    "c9_reproduction9",
+    "c9_diversity",
+    "c9_earth",
+    "c10_reactions",
+    "c10_acids",
+    "c10_metals",
+    "c10_carbon",
+    "c10_life",
+    "c10_control",
+    "c10_repro",
+    "c10_heredity",
+    "c10_light",
+    "c10_eye",
+    "c10_electricity",
+    "c10_magnetism",
+    "c10_env"
+  ],
+  "reference": [
+    "c10_periodic",
+    "c10_sources",
+    "c10_sustainable"
+  ],
+  "chapters": {
+    "c9_exploration": {
+      "cls": "IX",
+      "title": "Exploration: Entering the World of Secondary Science",
+      "source": "NCERT Exploration IX · Ch 1 · pp 1-7",
+      "sections": [
+        {
+          "id": "1.1",
+          "en": "Science begins with observation",
+          "hi": "विज्ञान प्रेक्षण से शुरू होता है",
+          "status": "assessed"
+        },
+        {
+          "id": "1.2",
+          "en": "Focused questions guide investigation",
+          "hi": "केन्द्रित प्रश्न जाँच का मार्ग दिखाते हैं",
+          "status": "assessed"
+        },
+        {
+          "id": "1.3",
+          "en": "Scientific language must be precise",
+          "hi": "वैज्ञानिक भाषा सटीक होनी चाहिए",
+          "status": "assessed"
+        },
+        {
+          "id": "1.4",
+          "en": "Experiments produce evidence",
+          "hi": "प्रयोग प्रमाण देते हैं",
+          "status": "assessed"
+        },
+        {
+          "id": "1.5",
+          "en": "Models connect the unseen to the seen",
+          "hi": "प्रतिरूप अदृश्य को दृश्य से जोड़ते हैं",
+          "status": "assessed"
+        },
+        {
+          "id": "1.6",
+          "en": "Science links mathematics, technology and society",
+          "hi": "विज्ञान गणित, तकनीक और समाज को जोड़ता है",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_cell": {
+      "cls": "IX",
+      "title": "Cell: The Building Block of Life",
+      "source": "NCERT Exploration IX · Ch 2 · pp 8-27",
+      "sections": [
+        {
+          "id": "2.1",
+          "en": "Discovery of the cell",
+          "hi": "कोशिका की खोज",
+          "status": "assessed"
+        },
+        {
+          "id": "2.2",
+          "en": "Plant cell and animal cell",
+          "hi": "पादप कोशिका और जन्तु कोशिका",
+          "status": "assessed"
+        },
+        {
+          "id": "2.3",
+          "en": "Prokaryotic and eukaryotic cells",
+          "hi": "प्रोकैरियोटी और यूकैरियोटी कोशिका",
+          "status": "assessed"
+        },
+        {
+          "id": "2.4",
+          "en": "Plasma membrane and permeability",
+          "hi": "जीवद्रव्य झिल्ली और पारगम्यता",
+          "status": "assessed"
+        },
+        {
+          "id": "2.5",
+          "en": "Cell wall and vacuoles",
+          "hi": "कोशिका भित्ति और रिक्तिका",
+          "status": "assessed"
+        },
+        {
+          "id": "2.6",
+          "en": "Nucleus and chromosomes",
+          "hi": "केन्द्रक और गुणसूत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "2.7",
+          "en": "Mitochondria and chloroplast",
+          "hi": "माइटोकॉन्ड्रिया और हरितलवक",
+          "status": "assessed"
+        },
+        {
+          "id": "2.8",
+          "en": "Endoplasmic reticulum, Golgi and lysosomes",
+          "hi": "अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम",
+          "status": "assessed"
+        },
+        {
+          "id": "2.9",
+          "en": "Cell division: mitosis and meiosis",
+          "hi": "कोशिका विभाजन: समसूत्री और अर्धसूत्री",
+          "status": "assessed"
+        },
+        {
+          "id": "2.10",
+          "en": "Biomolecules and cell functions",
+          "hi": "जैव-अणु और कोशिका कार्य",
+          "status": "assessed"
+        },
+        {
+          "id": "2.11",
+          "en": "Recent advances, cell division and cancer",
+          "hi": "नई खोजें, विभाजन और कैंसर",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_tissues": {
+      "cls": "IX",
+      "title": "Tissues in Action",
+      "source": "NCERT Exploration IX · Ch 3 · pp 28-47",
+      "sections": [
+        {
+          "id": "3.1",
+          "en": "What a tissue is",
+          "hi": "ऊतक क्या है",
+          "status": "assessed"
+        },
+        {
+          "id": "3.2",
+          "en": "Levels of organisation in organisms",
+          "hi": "जीवों में संगठन के स्तर",
+          "status": "assessed"
+        },
+        {
+          "id": "3.3",
+          "en": "Meristematic tissues",
+          "hi": "विभज्योतक ऊतक",
+          "status": "assessed"
+        },
+        {
+          "id": "3.4",
+          "en": "Simple permanent plant tissues",
+          "hi": "सरल स्थायी पादप ऊतक",
+          "status": "assessed"
+        },
+        {
+          "id": "3.5",
+          "en": "Xylem: water transport",
+          "hi": "जाइलम: जल परिवहन",
+          "status": "assessed"
+        },
+        {
+          "id": "3.6",
+          "en": "Phloem: food transport",
+          "hi": "फ्लोएम: भोजन परिवहन",
+          "status": "assessed"
+        },
+        {
+          "id": "3.7",
+          "en": "Epithelial tissue",
+          "hi": "उपकला ऊतक",
+          "status": "assessed"
+        },
+        {
+          "id": "3.8",
+          "en": "Connective tissue",
+          "hi": "संयोजी ऊतक",
+          "status": "assessed"
+        },
+        {
+          "id": "3.9",
+          "en": "Muscular and nervous tissue",
+          "hi": "पेशी और तंत्रिका ऊतक",
+          "status": "assessed"
+        },
+        {
+          "id": "3.10",
+          "en": "Musculoskeletal system and its care",
+          "hi": "कंकाल-पेशी तंत्र और उसकी देखभाल",
+          "status": "assessed"
+        },
+        {
+          "id": "3.11",
+          "en": "Injury, posture, nutrition and exercise",
+          "hi": "चोट, मुद्रा, पोषण और व्यायाम",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_motion": {
+      "cls": "IX",
+      "title": "Describing Motion Around Us",
+      "source": "NCERT Exploration IX · Ch 4 · pp 48-71",
+      "sections": [
+        {
+          "id": "4.1",
+          "en": "Rest, motion and frame of reference",
+          "hi": "विराम, गति और सन्दर्भ फ़्रेम",
+          "status": "assessed"
+        },
+        {
+          "id": "4.2",
+          "en": "Distance and displacement",
+          "hi": "दूरी और विस्थापन",
+          "status": "assessed"
+        },
+        {
+          "id": "4.3",
+          "en": "Speed and average speed",
+          "hi": "चाल और औसत चाल",
+          "status": "assessed"
+        },
+        {
+          "id": "4.4",
+          "en": "Velocity and uniform velocity",
+          "hi": "वेग और एकसमान वेग",
+          "status": "assessed"
+        },
+        {
+          "id": "4.5",
+          "en": "Acceleration and retardation",
+          "hi": "त्वरण और मंदन",
+          "status": "assessed"
+        },
+        {
+          "id": "4.6",
+          "en": "Distance-time graphs",
+          "hi": "दूरी-समय आलेख",
+          "status": "assessed"
+        },
+        {
+          "id": "4.7",
+          "en": "Velocity-time graphs",
+          "hi": "वेग-समय आलेख",
+          "status": "assessed"
+        },
+        {
+          "id": "4.8",
+          "en": "Kinematic equations by graphical method",
+          "hi": "आलेखी विधि से गति के समीकरण",
+          "status": "assessed"
+        },
+        {
+          "id": "4.9",
+          "en": "Uniform circular motion",
+          "hi": "एकसमान वृत्तीय गति",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_mixtures": {
+      "cls": "IX",
+      "title": "Exploring Mixtures and their Separation",
+      "source": "NCERT Exploration IX · Ch 5 · pp 72-93",
+      "sections": [
+        {
+          "id": "5.1",
+          "en": "Homogeneous and heterogeneous mixtures",
+          "hi": "समांगी और विषमांगी मिश्रण",
+          "status": "assessed"
+        },
+        {
+          "id": "5.2",
+          "en": "Solutions and their components",
+          "hi": "विलयन और उसके घटक",
+          "status": "assessed"
+        },
+        {
+          "id": "5.3",
+          "en": "Suspensions",
+          "hi": "निलंबन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.4",
+          "en": "Colloids and Tyndall effect",
+          "hi": "कोलॉइड और टिण्डल प्रभाव",
+          "status": "assessed"
+        },
+        {
+          "id": "5.5",
+          "en": "Mass by mass percentage",
+          "hi": "द्रव्यमान-द्रव्यमान प्रतिशत",
+          "status": "assessed"
+        },
+        {
+          "id": "5.6",
+          "en": "Mass by volume and volume by volume",
+          "hi": "द्रव्यमान-आयतन और आयतन-आयतन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.7",
+          "en": "Filtration, evaporation and sedimentation",
+          "hi": "छानना, वाष्पन और अवसादन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.8",
+          "en": "Crystallisation and distillation",
+          "hi": "क्रिस्टलीकरण और आसवन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.9",
+          "en": "Chromatography and sublimation",
+          "hi": "वर्णलेखन और ऊर्ध्वपातन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.10",
+          "en": "Centrifugation and coagulation",
+          "hi": "अपकेन्द्रण और स्कंदन",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_forces": {
+      "cls": "IX",
+      "title": "How Forces Affect Motion",
+      "source": "NCERT Exploration IX · Ch 6 · pp 94-115",
+      "sections": [
+        {
+          "id": "6.1",
+          "en": "Force as a push or a pull",
+          "hi": "धक्का या खिंचाव के रूप में बल",
+          "status": "assessed"
+        },
+        {
+          "id": "6.2",
+          "en": "Effects of force",
+          "hi": "बल के प्रभाव",
+          "status": "assessed"
+        },
+        {
+          "id": "6.3",
+          "en": "Balanced forces",
+          "hi": "संतुलित बल",
+          "status": "assessed"
+        },
+        {
+          "id": "6.4",
+          "en": "Unbalanced forces change motion",
+          "hi": "असंतुलित बल गति बदलते हैं",
+          "status": "assessed"
+        },
+        {
+          "id": "6.5",
+          "en": "Friction opposes relative motion",
+          "hi": "घर्षण सापेक्ष गति का विरोध करता है",
+          "status": "assessed"
+        },
+        {
+          "id": "6.6",
+          "en": "Newton's first law and inertia",
+          "hi": "न्यूटन का प्रथम नियम और जड़त्व",
+          "status": "assessed"
+        },
+        {
+          "id": "6.7",
+          "en": "Newton's second law and momentum",
+          "hi": "न्यूटन का दूसरा नियम और संवेग",
+          "status": "assessed"
+        },
+        {
+          "id": "6.8",
+          "en": "Newton's third law",
+          "hi": "न्यूटन का तृतीय नियम",
+          "status": "assessed"
+        },
+        {
+          "id": "6.9",
+          "en": "Conservation of momentum",
+          "hi": "संवेग संरक्षण",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_work_energy": {
+      "cls": "IX",
+      "title": "Work, Energy, and Simple Machines",
+      "source": "NCERT Exploration IX · Ch 7 · pp 116-139",
+      "sections": [
+        {
+          "id": "7.1",
+          "en": "Work done by a constant force",
+          "hi": "स्थिर बल द्वारा किया गया कार्य",
+          "status": "assessed"
+        },
+        {
+          "id": "7.2",
+          "en": "Positive, negative and zero work",
+          "hi": "धनात्मक, ऋणात्मक और शून्य कार्य",
+          "status": "assessed"
+        },
+        {
+          "id": "7.3",
+          "en": "Kinetic energy",
+          "hi": "गतिज ऊर्जा",
+          "status": "assessed"
+        },
+        {
+          "id": "7.4",
+          "en": "Potential energy",
+          "hi": "स्थितिज ऊर्जा",
+          "status": "assessed"
+        },
+        {
+          "id": "7.5",
+          "en": "Work-energy theorem",
+          "hi": "कार्य-ऊर्जा प्रमेय",
+          "status": "assessed"
+        },
+        {
+          "id": "7.6",
+          "en": "Conservation of energy",
+          "hi": "ऊर्जा का संरक्षण",
+          "status": "assessed"
+        },
+        {
+          "id": "7.7",
+          "en": "Power and its unit",
+          "hi": "शक्ति और उसकी इकाई",
+          "status": "assessed"
+        },
+        {
+          "id": "7.8",
+          "en": "Simple machines and mechanical advantage",
+          "hi": "सरल मशीनें और यांत्रिक लाभ",
+          "status": "assessed"
+        },
+        {
+          "id": "7.9",
+          "en": "Lever, pulley and inclined plane",
+          "hi": "उत्तोलक, घिरनी और आनत तल",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_atom": {
+      "cls": "IX",
+      "title": "Journey Inside the Atom",
+      "source": "NCERT Exploration IX · Ch 8 · pp 140-161",
+      "sections": [
+        {
+          "id": "8.1",
+          "en": "Atoms as basic units of elements",
+          "hi": "तत्वों की मूल इकाई परमाणु",
+          "status": "assessed"
+        },
+        {
+          "id": "8.2",
+          "en": "Discovery of the electron",
+          "hi": "इलेक्ट्रॉन की खोज",
+          "status": "assessed"
+        },
+        {
+          "id": "8.3",
+          "en": "Proton and neutron",
+          "hi": "प्रोटॉन और न्यूट्रॉन",
+          "status": "assessed"
+        },
+        {
+          "id": "8.4",
+          "en": "Thomson's plum-pudding model",
+          "hi": "थॉमसन का प्लम-पुडिंग प्रतिरूप",
+          "status": "assessed"
+        },
+        {
+          "id": "8.5",
+          "en": "Rutherford's nuclear model",
+          "hi": "रदरफ़ोर्ड का नाभिकीय प्रतिरूप",
+          "status": "assessed"
+        },
+        {
+          "id": "8.6",
+          "en": "Bohr's model and shells",
+          "hi": "बोहर का प्रतिरूप और कोश",
+          "status": "assessed"
+        },
+        {
+          "id": "8.7",
+          "en": "Electron distribution up to Z = 18",
+          "hi": "Z = 18 तक इलेक्ट्रॉन वितरण",
+          "status": "assessed"
+        },
+        {
+          "id": "8.8",
+          "en": "Atomic number and mass number",
+          "hi": "परमाणु क्रमांक और द्रव्यमान संख्या",
+          "status": "assessed"
+        },
+        {
+          "id": "8.9",
+          "en": "Isotopes and isobars",
+          "hi": "समस्थानिक और समभारिक",
+          "status": "assessed"
+        },
+        {
+          "id": "8.10",
+          "en": "Valency and combining capacity",
+          "hi": "संयोजकता और संयोजन क्षमता",
+          "status": "assessed"
+        },
+        {
+          "id": "8.11",
+          "en": "Symbols of elements",
+          "hi": "तत्वों के प्रतीक",
+          "status": "assessed"
+        },
+        {
+          "id": "8.12",
+          "en": "Symbols, valency and formulae",
+          "hi": "प्रतीक, संयोजकता और सूत्र",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_atomic_foundations": {
+      "cls": "IX",
+      "title": "Atomic Foundations of Matter",
+      "source": "NCERT Exploration IX · Ch 9 · pp 162-183",
+      "sections": [
+        {
+          "id": "9.1",
+          "en": "Law of conservation of mass",
+          "hi": "द्रव्यमान संरक्षण का नियम",
+          "status": "assessed"
+        },
+        {
+          "id": "9.2",
+          "en": "Law of constant proportion",
+          "hi": "निश्चित अनुपात का नियम",
+          "status": "assessed"
+        },
+        {
+          "id": "9.3",
+          "en": "Dalton's atomic theory",
+          "hi": "डाल्टन का परमाणु सिद्धान्त",
+          "status": "assessed"
+        },
+        {
+          "id": "9.4",
+          "en": "Molecules of elements",
+          "hi": "तत्वों के अणु",
+          "status": "assessed"
+        },
+        {
+          "id": "9.5",
+          "en": "Molecules of covalent compounds",
+          "hi": "सहसंयोजक यौगिकों के अणु",
+          "status": "assessed"
+        },
+        {
+          "id": "9.6",
+          "en": "Ions and ionic compounds",
+          "hi": "आयन और आयनिक यौगिक",
+          "status": "assessed"
+        },
+        {
+          "id": "9.7",
+          "en": "Writing chemical formulae",
+          "hi": "रासायनिक सूत्र लिखना",
+          "status": "assessed"
+        },
+        {
+          "id": "9.8",
+          "en": "Molecular mass",
+          "hi": "अणु द्रव्यमान",
+          "status": "assessed"
+        },
+        {
+          "id": "9.9",
+          "en": "Formula unit mass",
+          "hi": "सूत्र इकाई द्रव्यमान",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_sound": {
+      "cls": "IX",
+      "title": "Sound Waves: Characteristics and Applications",
+      "source": "NCERT Exploration IX · Ch 10 · pp 184-207",
+      "sections": [
+        {
+          "id": "10.1",
+          "en": "Sound is produced by vibration",
+          "hi": "ध्वनि कम्पन से उत्पन्न होती है",
+          "status": "assessed"
+        },
+        {
+          "id": "10.2",
+          "en": "Sound needs a material medium",
+          "hi": "ध्वनि को माध्यम चाहिए",
+          "status": "assessed"
+        },
+        {
+          "id": "10.3",
+          "en": "Longitudinal propagation and compressions",
+          "hi": "अनुदैर्घ्य संचरण और संपीडन",
+          "status": "assessed"
+        },
+        {
+          "id": "10.4",
+          "en": "Graphical representation of a sound wave",
+          "hi": "ध्वनि तरंग का आलेखीय निरूपण",
+          "status": "assessed"
+        },
+        {
+          "id": "10.5",
+          "en": "Wavelength, frequency and time period",
+          "hi": "तरंगदैर्घ्य, आवृत्ति और आवर्तकाल",
+          "status": "assessed"
+        },
+        {
+          "id": "10.6",
+          "en": "Amplitude, intensity and speed",
+          "hi": "आयाम, तीव्रता और चाल",
+          "status": "assessed"
+        },
+        {
+          "id": "10.7",
+          "en": "Wave speed v = fλ",
+          "hi": "तरंग चाल v = fλ",
+          "status": "assessed"
+        },
+        {
+          "id": "10.8",
+          "en": "Sound in solids and liquids",
+          "hi": "ठोस और द्रव में ध्वनि",
+          "status": "assessed"
+        },
+        {
+          "id": "10.9",
+          "en": "Reflection, echo and reverberation",
+          "hi": "परावर्तन, प्रतिध्वनि और अनुरणन",
+          "status": "assessed"
+        },
+        {
+          "id": "10.10",
+          "en": "Pitch, loudness and echolocation",
+          "hi": "तारत्व, प्रबलता और प्रतिध्वनि-स्थिति",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_reproduction9": {
+      "cls": "IX",
+      "title": "Reproduction: How Life Continues",
+      "source": "NCERT Exploration IX · Ch 11 · pp 208-227",
+      "sections": [
+        {
+          "id": "11.1",
+          "en": "Asexual reproduction",
+          "hi": "अलैंगिक जनन",
+          "status": "assessed"
+        },
+        {
+          "id": "11.2",
+          "en": "Budding, fragmentation and spores",
+          "hi": "मुकुलन, खंडन और बीजाणु",
+          "status": "assessed"
+        },
+        {
+          "id": "11.3",
+          "en": "Vegetative propagation",
+          "hi": "वानस्पतिक प्रवर्धन",
+          "status": "assessed"
+        },
+        {
+          "id": "11.4",
+          "en": "Flower and its parts",
+          "hi": "पुष्प और उसके भाग",
+          "status": "assessed"
+        },
+        {
+          "id": "11.5",
+          "en": "Pollination and fertilisation in plants",
+          "hi": "पादपों में परागण और निषेचन",
+          "status": "assessed"
+        },
+        {
+          "id": "11.6",
+          "en": "Seed dispersal and germination",
+          "hi": "बीज प्रकीर्णन और अंकुरण",
+          "status": "assessed"
+        },
+        {
+          "id": "11.7",
+          "en": "Human male and female reproductive systems",
+          "hi": "मानव नर और मादा जनन तंत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "11.8",
+          "en": "Gametes, menstrual cycle and pregnancy",
+          "hi": "युग्मक, मासिक चक्र और गर्भावस्था",
+          "status": "assessed"
+        },
+        {
+          "id": "11.9",
+          "en": "Reproductive health, hygiene and birth control",
+          "hi": "जनन स्वास्थ्य, स्वच्छता और जन्म नियंत्रन",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_diversity": {
+      "cls": "IX",
+      "title": "Patterns in Life: Diversity and Classification",
+      "source": "NCERT Exploration IX · Ch 12 · pp 228-251",
+      "sections": [
+        {
+          "id": "12.1",
+          "en": "Why classification is needed",
+          "hi": "वर्गीकरण क्यों आवश्यक है",
+          "status": "assessed"
+        },
+        {
+          "id": "12.2",
+          "en": "Five kingdoms and their features",
+          "hi": "पाँच जगत और उनके लक्षण",
+          "status": "assessed"
+        },
+        {
+          "id": "12.3",
+          "en": "Monera, Protista and Fungi",
+          "hi": "मोनेरा, प्रोटिस्टा और फंजाई",
+          "status": "assessed"
+        },
+        {
+          "id": "12.4",
+          "en": "Major divisions of plants",
+          "hi": "पादपों के प्रमुख विभाग",
+          "status": "assessed"
+        },
+        {
+          "id": "12.5",
+          "en": "Major divisions of animals",
+          "hi": "प्राणियों के प्रमुख विभाग",
+          "status": "assessed"
+        },
+        {
+          "id": "12.6",
+          "en": "Binomial nomenclature",
+          "hi": "द्विनाम पद्धति",
+          "status": "assessed"
+        },
+        {
+          "id": "12.7",
+          "en": "Hierarchy of taxonomic ranks",
+          "hi": "वर्गीकरण श्रेणियों का पदानुक्रम",
+          "status": "assessed"
+        },
+        {
+          "id": "12.8",
+          "en": "Acellular entities: viruses",
+          "hi": "अकोशिकीय सत्ताएँ: विषाणु",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c9_earth": {
+      "cls": "IX",
+      "title": "Earth as a System: Energy, Matter, and Life",
+      "source": "NCERT Exploration IX · Ch 13 · pp 252-270",
+      "sections": [
+        {
+          "id": "13.1",
+          "en": "Earth as an interconnected system",
+          "hi": "पृथ्वी एक परस्पर जुड़ा तंत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "13.2",
+          "en": "Solar radiation and the electromagnetic spectrum",
+          "hi": "सौर विकिरण और विद्युतचुम्बकीय वर्णक्रम",
+          "status": "assessed"
+        },
+        {
+          "id": "13.3",
+          "en": "Interaction with the surface and differential heating",
+          "hi": "सतह से अंतःक्रिया और असमान तापन",
+          "status": "assessed"
+        },
+        {
+          "id": "13.4",
+          "en": "Winds from differential warming",
+          "hi": "असमान तापन से पवनें",
+          "status": "assessed"
+        },
+        {
+          "id": "13.5",
+          "en": "The water cycle",
+          "hi": "जल चक्र",
+          "status": "assessed"
+        },
+        {
+          "id": "13.6",
+          "en": "The carbon cycle",
+          "hi": "कार्बन चक्र",
+          "status": "assessed"
+        },
+        {
+          "id": "13.7",
+          "en": "The nitrogen cycle",
+          "hi": "नाइट्रोजन चक्र",
+          "status": "assessed"
+        },
+        {
+          "id": "13.8",
+          "en": "The oxygen cycle",
+          "hi": "ऑक्सीजन चक्र",
+          "status": "assessed"
+        },
+        {
+          "id": "13.9",
+          "en": "Human impact on Earth's system",
+          "hi": "पृथ्वी तंत्र पर मानव प्रभाव",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_reactions": {
+      "cls": "X",
+      "title": "Chemical Reactions and Equations",
+      "source": "CBSE 2026-27 · Unit I · Ch 1",
+      "sections": [
+        {
+          "id": "1.1",
+          "en": "Chemical changes and their evidence",
+          "hi": "रासायनिक परिवर्तन और उसके संकेत",
+          "status": "assessed"
+        },
+        {
+          "id": "1.2",
+          "en": "Writing and balancing equations",
+          "hi": "समीकरण लिखना और संतुलित करना",
+          "status": "assessed"
+        },
+        {
+          "id": "1.3",
+          "en": "Combination reactions",
+          "hi": "संयोजन अभिक्रियाएँ",
+          "status": "assessed"
+        },
+        {
+          "id": "1.4",
+          "en": "Decomposition reactions",
+          "hi": "विघटन अभिक्रियाएँ",
+          "status": "assessed"
+        },
+        {
+          "id": "1.5",
+          "en": "Displacement and double displacement",
+          "hi": "विस्थापन और द्वि-विस्थापन",
+          "status": "assessed"
+        },
+        {
+          "id": "1.6",
+          "en": "Precipitation reactions",
+          "hi": "अवक्षेप अभिक्रियाएँ",
+          "status": "assessed"
+        },
+        {
+          "id": "1.7",
+          "en": "Oxidation and reduction",
+          "hi": "ऑक्सीकरण और अपचयन",
+          "status": "assessed"
+        },
+        {
+          "id": "1.8",
+          "en": "Exothermic and endothermic reactions",
+          "hi": "ऊष्माक्षेपी और ऊष्माशोषी अभिक्रियाएँ",
+          "status": "assessed"
+        },
+        {
+          "id": "1.9",
+          "en": "Corrosion and rancidity",
+          "hi": "संक्षारण और विकृतगंधता",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_acids": {
+      "cls": "X",
+      "title": "Acids, Bases and Salts",
+      "source": "CBSE 2026-27 · Unit I · Ch 2",
+      "sections": [
+        {
+          "id": "2.1",
+          "en": "Acids and bases: properties",
+          "hi": "अम्ल और क्षार के गुण",
+          "status": "assessed"
+        },
+        {
+          "id": "2.2",
+          "en": "H+ and OH- ions in water",
+          "hi": "जल में H+ और OH- आयन",
+          "status": "assessed"
+        },
+        {
+          "id": "2.3",
+          "en": "Indicators and their colours",
+          "hi": "सूचक और उनके रंग",
+          "status": "assessed"
+        },
+        {
+          "id": "2.4",
+          "en": "Neutralisation and salt formation",
+          "hi": "उदासीनीकरण और लवण निर्माण",
+          "status": "assessed"
+        },
+        {
+          "id": "2.5",
+          "en": "The pH scale and its importance",
+          "hi": "pH पैमाना और उसका महत्व",
+          "status": "assessed"
+        },
+        {
+          "id": "2.6",
+          "en": "pH in everyday life",
+          "hi": "दैनिक जीवन में पीएच",
+          "status": "assessed"
+        },
+        {
+          "id": "2.7",
+          "en": "Common salt and sodium hydroxide",
+          "hi": "साधारण नमक और सोडियम हाइड्रॉक्साइड",
+          "status": "assessed"
+        },
+        {
+          "id": "2.8",
+          "en": "Bleaching powder, baking soda and washing soda",
+          "hi": "विरंजक चूर्ण, खाने का सोडा और धोने का सोडा",
+          "status": "assessed"
+        },
+        {
+          "id": "2.9",
+          "en": "Plaster of Paris and water of crystallisation",
+          "hi": "प्लास्टर ऑफ़ पेरिस और क्रिस्टलन जल",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_metals": {
+      "cls": "X",
+      "title": "Metals and Non-metals",
+      "source": "CBSE 2026-27 · Unit I · Ch 3",
+      "sections": [
+        {
+          "id": "3.1",
+          "en": "Physical properties of metals and non-metals",
+          "hi": "धातु और अधातु के भौतिक गुण",
+          "status": "assessed"
+        },
+        {
+          "id": "3.2",
+          "en": "Chemical properties: oxygen, water and acids",
+          "hi": "रासायनिक गुण: ऑक्सीजन, जल और अम्ल",
+          "status": "assessed"
+        },
+        {
+          "id": "3.3",
+          "en": "Amphoteric oxides and the reactivity series",
+          "hi": "उभयधर्मी ऑक्साइड और क्रियाशीलता श्रेणी",
+          "status": "assessed"
+        },
+        {
+          "id": "3.4",
+          "en": "Ionic compounds and their properties",
+          "hi": "आयनिक यौगिक और उनके गुण",
+          "status": "assessed"
+        },
+        {
+          "id": "3.5",
+          "en": "Occurrence and extraction of metals",
+          "hi": "धातुओं की प्राप्ति और निष्कर्षण",
+          "status": "assessed"
+        },
+        {
+          "id": "3.6",
+          "en": "Refining and electrolytic purification",
+          "hi": "शोधन और वैद्युत परिष्करण",
+          "status": "assessed"
+        },
+        {
+          "id": "3.7",
+          "en": "Corrosion and its prevention",
+          "hi": "संक्षारण और उसकी रोकथाम",
+          "status": "assessed"
+        },
+        {
+          "id": "3.8",
+          "en": "Alloys and their uses",
+          "hi": "मिश्रधातुएँ और उनके उपयोग",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_life": {
+      "cls": "X",
+      "title": "Life Processes",
+      "source": "CBSE 2026-27 · Unit II · Ch 5",
+      "sections": [
+        {
+          "id": "5.1",
+          "en": "Nutrition and autotrophic mode",
+          "hi": "पोषण और स्वपोषी पद्धति",
+          "status": "assessed"
+        },
+        {
+          "id": "5.2",
+          "en": "Photosynthesis and chlorophyll",
+          "hi": "प्रकाश-संश्लेषण और क्लोरोफ़िल",
+          "status": "assessed"
+        },
+        {
+          "id": "5.3",
+          "en": "Heterotrophic nutrition",
+          "hi": "विषमपोषी पोषण",
+          "status": "assessed"
+        },
+        {
+          "id": "5.4",
+          "en": "Digestion in humans",
+          "hi": "मानव में पाचन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.5",
+          "en": "Aerobic and anaerobic respiration",
+          "hi": "वायवीय और अवायवीय श्वसन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.6",
+          "en": "Human respiratory system",
+          "hi": "मानव श्वसन तंत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "5.7",
+          "en": "Transport in plants",
+          "hi": "पादपों में परिवहन",
+          "status": "assessed"
+        },
+        {
+          "id": "5.8",
+          "en": "Human circulatory system",
+          "hi": "मानव परिसंचरण तंत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "5.9",
+          "en": "Excretion in plants and humans",
+          "hi": "पादपों और मानव में उत्सर्जन",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_control": {
+      "cls": "X",
+      "title": "Control and Coordination",
+      "source": "CBSE 2026-27 · Unit II · Ch 6",
+      "sections": [
+        {
+          "id": "6.1",
+          "en": "Tropic movements in plants",
+          "hi": "पादपों में अनुवर्ती गतियाँ",
+          "status": "assessed"
+        },
+        {
+          "id": "6.2",
+          "en": "Plant hormones",
+          "hi": "पादप हॉर्मोन",
+          "status": "assessed"
+        },
+        {
+          "id": "6.3",
+          "en": "Nervous system and neuron",
+          "hi": "तंत्रिका तंत्र और न्यूरॉन",
+          "status": "assessed"
+        },
+        {
+          "id": "6.4",
+          "en": "Reflex action and reflex arc",
+          "hi": "प्रतिवर्त क्रिया और प्रतिवर्त चाप",
+          "status": "assessed"
+        },
+        {
+          "id": "6.5",
+          "en": "Human brain and its parts",
+          "hi": "मानव मस्तिष्क और उसके भाग",
+          "status": "assessed"
+        },
+        {
+          "id": "6.6",
+          "en": "Voluntary, involuntary and autonomic actions",
+          "hi": "ऐच्छिक, अनैच्छिक और स्वायत्त क्रियाएँ",
+          "status": "assessed"
+        },
+        {
+          "id": "6.7",
+          "en": "Endocrine glands and animal hormones",
+          "hi": "अंतःस्रावी ग्रंथियाँ और जन्तु हॉर्मोन",
+          "status": "assessed"
+        },
+        {
+          "id": "6.8",
+          "en": "Feedback control and coordination",
+          "hi": "पुनर्निवेश नियंत्रण और समन्वय",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_repro": {
+      "cls": "X",
+      "title": "How do Organisms Reproduce?",
+      "source": "CBSE 2026-27 · Unit II · Ch 7",
+      "sections": [
+        {
+          "id": "7.1",
+          "en": "Variation and the need for reproduction",
+          "hi": "विभिन्नता और जनन की आवश्यकता",
+          "status": "assessed"
+        },
+        {
+          "id": "7.2",
+          "en": "Asexual reproduction: fission, budding, regeneration",
+          "hi": "अलैंगिक जनन: विखंडन, मुकुलन, पुनर्जनन",
+          "status": "assessed"
+        },
+        {
+          "id": "7.3",
+          "en": "Vegetative propagation and tissue culture",
+          "hi": "वानस्पतिक प्रवर्धन और ऊतक संवर्धन",
+          "status": "assessed"
+        },
+        {
+          "id": "7.4",
+          "en": "Sexual reproduction in flowering plants",
+          "hi": "पुष्पी पादपों में लैंगिक जनन",
+          "status": "assessed"
+        },
+        {
+          "id": "7.5",
+          "en": "Human male reproductive system",
+          "hi": "मानव नर जनन तंत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "7.6",
+          "en": "Human female reproductive system",
+          "hi": "मानव मादा जनन तंत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "7.7",
+          "en": "Fertilisation, embryo and menstrual cycle",
+          "hi": "निषेचन, भ्रूण और मासिक चक्र",
+          "status": "assessed"
+        },
+        {
+          "id": "7.8",
+          "en": "Reproductive health and contraception",
+          "hi": "जनन स्वास्थ्य और गर्भनिरोध",
+          "status": "assessed"
+        },
+        {
+          "id": "7.9",
+          "en": "HIV, AIDS and women's health",
+          "hi": "HIV, AIDS और महिला स्वास्थ्य",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_heredity": {
+      "cls": "X",
+      "title": "Heredity",
+      "source": "CBSE 2026-27 · Unit II · Ch 8",
+      "sections": [
+        {
+          "id": "8.1",
+          "en": "Inheritance and variation",
+          "hi": "आनुवंशिकता और विभिन्नता",
+          "status": "assessed"
+        },
+        {
+          "id": "8.2",
+          "en": "Mendel and his pea experiments",
+          "hi": "मेंडेल और मटर के प्रयोग",
+          "status": "assessed"
+        },
+        {
+          "id": "8.3",
+          "en": "Monohybrid cross and law of segregation",
+          "hi": "एकसंकर संकरण और पृथक्करण का नियम",
+          "status": "assessed"
+        },
+        {
+          "id": "8.4",
+          "en": "Dihybrid cross and independent assortment",
+          "hi": "द्विसंकर संकरण और स्वतंत्र अपव्यूहन",
+          "status": "assessed"
+        },
+        {
+          "id": "8.5",
+          "en": "Dominant and recessive traits",
+          "hi": "प्रभावी और अप्रभावी लक्षण",
+          "status": "assessed"
+        },
+        {
+          "id": "8.6",
+          "en": "Sex determination",
+          "hi": "लिंग निर्धारण",
+          "status": "assessed"
+        },
+        {
+          "id": "8.7",
+          "en": "Evolution: formative only, not board-assessed",
+          "hi": "विकास: केवल सृजनात्मक मूल्यांकन, बोर्ड परीक्षा में नहीं",
+          "status": "formative"
+        }
+      ]
+    },
+    "c10_eye": {
+      "cls": "X",
+      "title": "The Human Eye and the Colourful World",
+      "source": "CBSE 2026-27 · Unit III · Ch 10",
+      "sections": [
+        {
+          "id": "10.1",
+          "en": "Structure of the human eye",
+          "hi": "मानव नेत्र की संरचना",
+          "status": "assessed"
+        },
+        {
+          "id": "10.2",
+          "en": "Accommodation and near point",
+          "hi": "समंजन और निकट बिंदु",
+          "status": "assessed"
+        },
+        {
+          "id": "10.3",
+          "en": "Myopia and its correction",
+          "hi": "निकटदृष्टि और उसका सुधार",
+          "status": "assessed"
+        },
+        {
+          "id": "10.4",
+          "en": "Hypermetropia and presbyopia",
+          "hi": "दूरदृष्टि और जरादूरदृष्टि",
+          "status": "assessed"
+        },
+        {
+          "id": "10.5",
+          "en": "Refraction through a prism",
+          "hi": "प्रिज़्म से अपवर्तन",
+          "status": "assessed"
+        },
+        {
+          "id": "10.6",
+          "en": "Dispersion and spectrum",
+          "hi": "विक्षेपण और वर्णक्रम",
+          "status": "assessed"
+        },
+        {
+          "id": "10.7",
+          "en": "Scattering and the Tyndall effect",
+          "hi": "प्रकीर्णन और टिण्डल प्रभाव",
+          "status": "assessed"
+        },
+        {
+          "id": "10.8",
+          "en": "Twinkling, planets and atmospheric refraction",
+          "hi": "टिमटिमाहट, ग्रह और वायुमंडलीय अपवर्तन",
+          "status": "formative"
+        }
+      ]
+    },
+    "c10_electricity": {
+      "cls": "X",
+      "title": "Electricity",
+      "source": "CBSE 2026-27 · Unit IV · Ch 11",
+      "sections": [
+        {
+          "id": "11.1",
+          "en": "Electric current and potential difference",
+          "hi": "विद्युत धारा और विभवांतर",
+          "status": "assessed"
+        },
+        {
+          "id": "11.2",
+          "en": "Circuit symbols and diagrams",
+          "hi": "परिपथ प्रतीक और आरेख",
+          "status": "assessed"
+        },
+        {
+          "id": "11.3",
+          "en": "Ohm's law and its graph",
+          "hi": "ओम का नियम और उसका आलेख",
+          "status": "assessed"
+        },
+        {
+          "id": "11.4",
+          "en": "Resistance and resistivity",
+          "hi": "प्रतिरोध और प्रतिरोधकता",
+          "status": "assessed"
+        },
+        {
+          "id": "11.5",
+          "en": "Series combination of resistors",
+          "hi": "प्रतिरोधकों का श्रेणीक्रम संयोजन",
+          "status": "assessed"
+        },
+        {
+          "id": "11.6",
+          "en": "Parallel combination of resistors",
+          "hi": "प्रतिरोधकों का समान्तर संयोजन",
+          "status": "assessed"
+        },
+        {
+          "id": "11.7",
+          "en": "Heating effect and Joule's law",
+          "hi": "ऊष्मीय प्रभाव और जूल का नियम",
+          "status": "assessed"
+        },
+        {
+          "id": "11.8",
+          "en": "Electric power and energy",
+          "hi": "विद्युत शक्ति और ऊर्जा",
+          "status": "assessed"
+        },
+        {
+          "id": "11.9",
+          "en": "Domestic circuits and safety",
+          "hi": "घरेलू परिपथ और सुरक्षा",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_magnetism": {
+      "cls": "X",
+      "title": "Magnetic Effects of Electric Current",
+      "source": "CBSE 2026-27 · Unit IV · Ch 12",
+      "sections": [
+        {
+          "id": "12.1",
+          "en": "Magnetic field and field lines",
+          "hi": "चुम्बकीय क्षेत्र और क्षेत्र रेखाएँ",
+          "status": "assessed"
+        },
+        {
+          "id": "12.2",
+          "en": "Field due to a straight current-carrying conductor",
+          "hi": "सीधे धारावाही चालक का क्षेत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "12.3",
+          "en": "Right-hand thumb rule",
+          "hi": "दाहिने हाथ के अँगूठे का नियम",
+          "status": "assessed"
+        },
+        {
+          "id": "12.4",
+          "en": "Field due to a circular loop and solenoid",
+          "hi": "वृत्ताकार कुंडली और सोलेनॉइड का क्षेत्र",
+          "status": "assessed"
+        },
+        {
+          "id": "12.5",
+          "en": "Force on a current-carrying conductor",
+          "hi": "धारावाही चालक पर बल",
+          "status": "assessed"
+        },
+        {
+          "id": "12.6",
+          "en": "Fleming's left-hand rule",
+          "hi": "फ़्लेमिंग का बायाँ-हाथ नियम",
+          "status": "assessed"
+        },
+        {
+          "id": "12.7",
+          "en": "Direct and alternating current",
+          "hi": "दिष्ट और प्रत्यावर्ती धारा",
+          "status": "assessed"
+        },
+        {
+          "id": "12.8",
+          "en": "Domestic wiring, earthing and fuse",
+          "hi": "घरेलू तार-व्यवस्था, अर्थिंग और फ़्यूज़",
+          "status": "assessed"
+        },
+        {
+          "id": "12.9",
+          "en": "Electric motor, induction and generator: formative only",
+          "hi": "विद्युत मोटर, प्रेरण और जनित्र: केवल सृजनात्मक",
+          "status": "formative"
+        }
+      ]
+    },
+    "c10_env": {
+      "cls": "X",
+      "title": "Our Environment",
+      "source": "CBSE 2026-27 · Unit V · Ch 13",
+      "sections": [
+        {
+          "id": "13.1",
+          "en": "Ecosystem and its components",
+          "hi": "पारिस्थितिक तंत्र और उसके घटक",
+          "status": "assessed"
+        },
+        {
+          "id": "13.2",
+          "en": "Food chains, webs and trophic levels",
+          "hi": "आहार श्रृंखला, जाल और पोषी स्तर",
+          "status": "assessed"
+        },
+        {
+          "id": "13.3",
+          "en": "Ten percent law and energy flow",
+          "hi": "दस प्रतिशत नियम और ऊर्जा प्रवाह",
+          "status": "assessed"
+        },
+        {
+          "id": "13.4",
+          "en": "Biological magnification",
+          "hi": "जैव-आवर्धन",
+          "status": "assessed"
+        },
+        {
+          "id": "13.5",
+          "en": "Ozone layer and its depletion",
+          "hi": "ओज़ोन परत और उसका क्षरण",
+          "status": "assessed"
+        },
+        {
+          "id": "13.6",
+          "en": "Waste: biodegradable and non-biodegradable",
+          "hi": "अपशिष्ट: जैव-अपघटनीय और अनपघटनीय",
+          "status": "assessed"
+        },
+        {
+          "id": "13.7",
+          "en": "Reduce, reuse, recycle and our role",
+          "hi": "कम करें, पुनः उपयोग, पुनर्चक्रण और हमारी भूमिका",
+          "status": "assessed"
+        }
+      ]
+    },
+    "c10_periodic": {
+      "cls": "X",
+      "title": "Periodic Classification of Elements (formative only)",
+      "source": "CBSE 2026-27 · formative only · not board-assessed",
+      "sections": [
+        {
+          "id": "P.1",
+          "en": "Döbereiner's triads",
+          "hi": "डोबेराइनर के त्रिक",
+          "status": "formative"
+        },
+        {
+          "id": "P.2",
+          "en": "Newlands' law of octaves",
+          "hi": "न्यूलैंड का अष्टक नियम",
+          "status": "formative"
+        },
+        {
+          "id": "P.3",
+          "en": "Mendeleev's periodic table",
+          "hi": "मेंडेलीफ़ की आवर्त सारणी",
+          "status": "formative"
+        },
+        {
+          "id": "P.4",
+          "en": "The modern periodic law",
+          "hi": "आधुनिक आवर्त नियम",
+          "status": "formative"
+        },
+        {
+          "id": "P.5",
+          "en": "Trends in the modern table",
+          "hi": "आधुनिक सारणी में प्रवृत्तियाँ",
+          "status": "formative"
+        }
+      ]
+    },
+    "c10_sources": {
+      "cls": "X",
+      "title": "Sources of Energy (outside 2026-27 syllabus)",
+      "source": "Legacy NCERT X · reference only",
+      "sections": [
+        {
+          "id": "S.1",
+          "en": "Conventional and non-conventional sources",
+          "hi": "परंपरागत और अपरंपरागत स्रोत",
+          "status": "archive"
+        },
+        {
+          "id": "S.2",
+          "en": "Solar energy, panels and cookers",
+          "hi": "सौर ऊर्जा, पैनल और चूल्हा",
+          "status": "archive"
+        },
+        {
+          "id": "S.3",
+          "en": "Wind, hydro and tidal energy",
+          "hi": "पवन, जल और ज्वारीय ऊर्जा",
+          "status": "archive"
+        },
+        {
+          "id": "S.4",
+          "en": "Biomass, biogas and nuclear energy",
+          "hi": "जैवभार, बायोगैस और नाभिकीय ऊर्जा",
+          "status": "archive"
+        }
+      ]
+    },
+    "c10_sustainable": {
+      "cls": "X",
+      "title": "Sustainable Management of Natural Resources (outside 2026-27)",
+      "source": "Legacy NCERT X · reference only",
+      "sections": [
+        {
+          "id": "M.1",
+          "en": "Why manage resources sustainably",
+          "hi": "सतत प्रबंधन क्यों",
+          "status": "archive"
+        },
+        {
+          "id": "M.2",
+          "en": "Forest and wildlife conservation",
+          "hi": "वन और वन्यजीव संरक्षण",
+          "status": "archive"
+        },
+        {
+          "id": "M.3",
+          "en": "Water harvesting and watershed management",
+          "hi": "जल संचयन और जलग्रहण प्रबंधन",
+          "status": "archive"
+        },
+        {
+          "id": "M.4",
+          "en": "Coal, petroleum and the 3Rs",
+          "hi": "कोयला, पेट्रोलियम और तीन R",
+          "status": "archive"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "packs": 27,
+    "spreads": 227,
+    "assessed": 211,
+    "formative": 8,
+    "archive": 8
+  }
+}
