@@ -275,24 +275,42 @@ def main():
                     credits[fname] = entry["credit"]
                 files.add(fname)
 
-    # Keep locally authored drafts alongside the upstream imports. Local plates
-    # are stored in the same shared store, but are not part of ifinite-horizon.
-    # Validate before pruning so a broken local manifest cannot delete images.
+    # Preserve in-repo authored SciVerse 3D plates (from tools/plates_73) when re-importing upstream plates
+    if OUT_JSON.exists():
+        prev = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+        prev_credits = prev.get("credits") or {}
+        in_repo = {
+            fname for fname, cred in prev_credits.items()
+            if "SciVerse 3D NCERT textbook plate" in str(cred)
+        }
+        for wid, secs in (prev.get("assets") or {}).items():
+            for sec, lst in secs.items():
+                for fname in (f for f in lst if f in in_repo):
+                    if not (ROOT / "assets" / "2d" / fname).is_file() or not (prev.get("labels") or {}).get(fname):
+                        raise ValueError(f"Missing in-repo plate or labels: {fname}")
+                    row = assets.setdefault(wid, {}).setdefault(sec, [])
+                    if fname not in row:
+                        row.append(fname)
+                    files.add(fname)
+                    labels[fname] = prev["labels"][fname]
+                    credits[fname] = prev_credits[fname]
+
+    # Local AI drafts are separate from both upstream and the 73 authored
+    # plates. Keep them first and validate them before pruning the shared store.
     local_path = ROOT / "src" / "local_illustrations.json"
     if local_path.exists():
         local = json.loads(local_path.read_text(encoding="utf-8"))
         for wid, secs in local["assets"].items():
             for sec, names in secs.items():
+                row = assets.setdefault(wid, {}).setdefault(sec, [])
                 for fname in names:
                     if not re.fullmatch(r"rx/local_[a-z0-9_]+\.webp", fname):
                         raise ValueError(f"Invalid local plate path: {fname}")
                     if not (ROOT / "assets" / "2d" / fname).is_file() or not local["labels"].get(fname):
                         raise ValueError(f"Missing local plate or labels: {fname}")
-                    row = assets.setdefault(wid, {}).setdefault(sec, [])
-                    if fname not in row:
-                        row.insert(0, fname)
                     labels[fname] = local["labels"][fname]
                     files.add(fname)
+                assets[wid][sec] = names + [f for f in row if f not in names]
 
     # the shared store holds exactly the referenced images
     for old in store.glob("*.webp"):
