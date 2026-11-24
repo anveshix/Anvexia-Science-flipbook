@@ -544,7 +544,7 @@ function setPlateView(v) {
   toastKey(on ? "plate2d.on" : "plate2d.off",
     on ? "Realistic topic illustration active" : "Live 3D model active");
 }
-/* Local, explicitly opted-in, unapproved raster draft. This is an HTML image
+/* Approved local realistic raster plate. This is an HTML image
    layered over the 2D page: never sample file:// pixels into the WebGL canvas. */
 /* Image label information: authored positions, no guessed hotspots. */
 const EV_LABEL_DATA=__EV_LABEL_DATA__;
