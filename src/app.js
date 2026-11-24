@@ -168,20 +168,15 @@ function renderTop() {
   if (typeof EVDICT !== "undefined") EVDICT.apply(document, EV.lang);
 }
 function stampsFor(w) { if (!w) return 0; return w.spreads.filter(sp => (EV.progress[pkey(w, sp)] || {}).stamped).length; }
-/* MODE: 3D book by default (realistic plates are painted into the 3D pages).
-   2D-ONLY fallback (no WebGL, or ?mode=2d): the Three.js world is never
-   rendered and every request for the 3D book opens the 2D flipbook instead. */
+/* MODE: 2D is the product. The realistic 2D plates are the only reading
+   surface; the Three.js world is never started unless a developer explicitly
+   asks for the 3D book with ?mode=3d (QA escape hatch). This also guarantees
+   that a stale WebGL/ULTRA state can never hide the 2D illustration. */
 const EV_2D_ONLY = (() => {
   try {
     const q = new URLSearchParams(location.search).get("mode");
-    if (q === "2d") return true;
-    if (q === "3d") return false;
-    const c = document.createElement("canvas");
-    const gl = c.getContext && (c.getContext("webgl2") || c.getContext("webgl"));
-    if (!gl) return true;               /* no WebGL: safe 2D flipbook fallback */
-    const lose = gl.getExtension && gl.getExtension("WEBGL_lose_context");
-    if (lose) lose.loseContext();       /* free the probe context slot */
-    return false;
+    if (q === "3d") return false;       /* explicit QA/developer override */
+    return true;                        /* 2D-only, always */
   } catch (e) { return true; }
 })();
 window.EV_2D_ONLY = EV_2D_ONLY;
@@ -207,7 +202,7 @@ function setView(v) {
   EVFSM.observe("toolsDrawer", "closed", "app.js:setView");
   if (v === "world") { WORLD.setView("world", false); EV.precision = false; applyPrecision();
     EVFSM.transition("precision", "FORCE_OFF", { view: "world" }); }
-  if (v === "book") { if (!EV.world) openChapter("c10_carbon"); WORLD.setView("book", false); renderLesson(); renderMeters(); renderPageBar(); }
+  if (v === "book") { if (!EV.world) openChapter("c10_carbon"); syncTopicVisual(); WORLD.setView("book", false); renderLesson(); renderMeters(); renderPageBar(); }
   if (!three) html($("screenInner"), renderScreen(v));
   renderNav(); renderTop(); renderChapterList();
   if (typeof EVBIND !== "undefined") EVBIND.onView();
@@ -232,6 +227,13 @@ function goHome() {
 }
 function syncTopicVisual() {
   const w = EV.world, sp = w && w.spreads[WORLD.index];
+  /* 2D is the only reading mode: never let a stale preference or a saved
+     ULTRA/precision view keep the realistic illustration hidden. */
+  if (EV_2D_ONLY) {
+    EV.prefer2d = true;
+    if (EV.ultra) applyUltra(false);
+    if (EV.precision) { EV.precision = false; applyPrecision(); }
+  }
   const want2d = !!EV.prefer2d && !!w && WORLD.plate2dAvailable(w);
   if (want2d) {
     if (EVRASTER.has(w, sp)) EVRASTER.activate();
@@ -507,9 +509,11 @@ function renderPrecision(model, sp) {
 
 /* --------------------------------------------------------------- page bar */
 /* Teacher-selected 2D / 3D: an explicit alternative, never a GPU fallback.
-   Phase 1 is c9_cell only; 3D is the default for every chapter and spread. */
+   2D is the only product mode; ?mode=3d keeps the old 3D book for QA. */
 function setPlateView(v) {
-  const on = v === "2d";
+  /* 2D-only: an explicit 3D request is ignored so a stale control can never
+     replace the realistic illustration with the 3D model. */
+  const on = EV_2D_ONLY ? true : v === "2d";
   if (on && !WORLD.plate2dAvailable(EV.world)) {
     toastKey("plate2d.soon", "This 2D chapter is in a later phase.");
     return;
@@ -540,7 +544,7 @@ function setPlateView(v) {
   toastKey(on ? "plate2d.on" : "plate2d.off",
     on ? "Realistic topic illustration active" : "Live 3D model active");
 }
-/* Local, explicitly opted-in, unapproved raster draft. This is an HTML image
+/* Approved local realistic raster plate. This is an HTML image
    layered over the 2D page: never sample file:// pixels into the WebGL canvas. */
 /* Image label information: authored positions, no guessed hotspots. */
 const EV_LABEL_DATA=__EV_LABEL_DATA__;
@@ -1484,7 +1488,14 @@ const EVRASTER = (() => {
   });
   let enabled = true, identity = '', imageIndex = 0, token = 0, ready = false;
   let currentFiles = [];
-  function has(world, sp) { return !!(world && sp && assets[world.id] && assets[world.id][sp.section]); }
+  /* Only the realistic 2D plates are shown. The generated composite JPEGs
+     (line diagrams) are never offered as a reading image, so a stale cycle
+     index can never bring the old diagram back. */
+  function filesFor(wid, sec) {
+    const g = assets[wid] && assets[wid][sec];
+    return g ? g.filter(f => String(f).indexOf("rx/") === 0) : [];
+  }
+  function has(world, sp) { return !!(world && sp && filesFor(world.id, sp.section).length); }
   function validContext() {
     return enabled && EV.view === 'book' && EV.world && has(EV.world,EV.world.spreads[WORLD.index]) &&
       WORLD.plate2d && !WORLD.turning && !EV.precision && !EV.ultra;
@@ -1774,7 +1785,7 @@ const EVRASTER = (() => {
     }
     const sp=EV.world.spreads[WORLD.index], key=EV.world.id+':'+sp.section+':'+EV.lang;
     if(key!==identity) {
-      identity=key; imageIndex=0; currentFiles=(assets[EV.world.id]||{})[sp.section]||[];
+      identity=key; imageIndex=0; currentFiles=filesFor(EV.world.id,sp.section);
       $('aiDraftTitle').textContent=BI(sp.title,sp.titleHi);
       $('aiDraftImage').alt=BI(sp.title,sp.titleHi);
       load();
@@ -1784,7 +1795,9 @@ const EVRASTER = (() => {
     el.style.transform=transform; el.hidden=false;
   }
   function toggle() {
-    enabled=!enabled; EV.prefer2d=enabled; identity=''; token++; ready=false; hide();
+    /* 2D-only: the realistic illustration cannot be switched off. */
+    enabled = EV_2D_ONLY ? true : !enabled;
+    EV.prefer2d=enabled; identity=''; token++; ready=false; hide();
     if(enabled && !WORLD.plate2d) setPlateView('2d');
     else if(!enabled && WORLD.plate2d && !WORLD.vectorPlate2dAvailable(EV.world)) setPlateView('3d');
     renderPageBar(); frame();
@@ -1802,7 +1815,6 @@ const EVRASTER = (() => {
   function pageCounter() { return (imageIndex+1)+' / '+currentFiles.length; }
   function activate() { enabled=true; identity=''; }
   function deactivate() { enabled=false; identity=''; token++; ready=false; hide(); }
-  function filesFor(wid, sec) { return (assets[wid] && assets[wid][sec]) ? assets[wid][sec].slice() : []; }
   /* the file the 3D page texture must paint: the overlay's current choice for
      the spread on screen, otherwise the section's first plate */
   function fileFor(wid, sec) {
@@ -1810,7 +1822,11 @@ const EVRASTER = (() => {
     const onScreen = EV.world && EV.world.id === wid && EV.world.spreads[WORLD.index] && EV.world.spreads[WORLD.index].section === sec;
     return onScreen && identity && f[imageIndex] ? f[imageIndex] : f[0];
   }
-  function firstThumb(wid) { const g = assets[wid]; if (!g) return ''; const k = Object.keys(g)[0]; return (k && g[k] && g[k][0]) ? EVPLATE_SRC(wid, g[k][0]) : ''; }
+  function firstThumb(wid) {
+    const g = assets[wid]; if (!g) return '';
+    const k = Object.keys(g)[0]; const f = k ? filesFor(wid, k) : [];
+    return f.length ? EVPLATE_SRC(wid, f[0]) : '';
+  }
   return {frame,toggle,install,zoomSource,has,filesFor,fileFor,firstThumb,activate,deactivate,next,pageCounter,get multiple(){return currentFiles.length>1;},get enabled(){return enabled;},isVisible(){const el=$('aiDraftPlate');return !!el && !el.hidden;}};
 })();
 window.EVRASTER = EVRASTER;
@@ -1896,8 +1912,10 @@ function renderPageBar() {
     <div class="pb-center"><b>${esc(t("spread"))} ${idx + 1} ${esc(t("of"))} ${n}</b><small>${esc(w.spreads[idx].section)} · ${esc(w.spreads[idx].short)}</small></div>
     <button class="btn primary" id="btnNext" ${idx === n - 1 ? "disabled" : ""}>→</button>
     <div class="plate-view" role="group" aria-label="${esc(uiTxt("plate2d.toggle"))}" data-i18n-aria="plate2d.toggle">
-      <button class="btn ghost tiny ${WORLD.plate2d ? "active" : ""}" id="plate2d" data-plate="2d" title="${esc(uiTxt("plate2d.label"))}" data-i18n-title="plate2d.label" data-i18n-aria="plate2d.label" ${WORLD.plate2dAvailable(w) ? "" : "disabled"}>2D</button>
-      <button class="btn ghost tiny ${WORLD.plate2d ? "" : "active"}" id="plate3d" data-plate="3d" title="${esc(uiTxt("plate3d.label"))}" data-i18n-title="plate3d.label" data-i18n-aria="plate3d.label">3D</button>
+      ${EV_2D_ONLY
+        ? `<span class="btn ghost tiny active" aria-pressed="true" title="${esc(uiTxt("plate2d.label"))}" data-i18n-title="plate2d.label">2D</span>`
+        : `<button class="btn ghost tiny ${WORLD.plate2d ? "active" : ""}" id="plate2d" data-plate="2d" title="${esc(uiTxt("plate2d.label"))}" data-i18n-title="plate2d.label" data-i18n-aria="plate2d.label" ${WORLD.plate2dAvailable(w) ? "" : "disabled"}>2D</button>
+      <button class="btn ghost tiny ${WORLD.plate2d ? "" : "active"}" id="plate3d" data-plate="3d" title="${esc(uiTxt("plate3d.label"))}" data-i18n-title="plate3d.label" data-i18n-aria="plate3d.label">3D</button>`}
     </div>
     <div class="pager-tools">
       <button class="btn ghost tiny sv-page-flip-btn" id="btnPageFlipbook" type="button" title="${esc(uiTxt("sv.flipbookSub"))}" data-i18n="sv.flipbookBtn">${esc(uiTxt("sv.flipbookBtn"))}</button>
@@ -2334,6 +2352,8 @@ function applyBoardText(v) {
   try { localStorage.setItem("eduverse-boardtext-v1", EV.boardText); } catch (e) {}
 }
 function applyUltra(v) {
+  /* 2D-only: the raised 3D model is never allowed to cover the plate. */
+  if (typeof EV_2D_ONLY !== "undefined" && EV_2D_ONLY) v = false;
   EVFSM.transition("ultra", "SET", { to: !!v ? "on" : "off" });
   EV.ultra = !!v;
   if (typeof WORLD !== "undefined" && WORLD.setUltra) WORLD.setUltra(EV.ultra);
@@ -2367,8 +2387,11 @@ function boot() {
   applyTheme(EV.theme);
   try { const bt = localStorage.getItem("eduverse-boardtext-v1"); if (bt === "big") EV.boardText = "big"; } catch (e) {}
   applyBoardText(EV.boardText);
-  try { EV.ultra = localStorage.getItem("eduverse-ultra-v1") === "1"; } catch (e) {}
-  applyUltra(EV.ultra);
+  /* 2D-only: a previously saved ULTRA 3D preference must never hide the
+     realistic 2D illustration again. Clear it for good. */
+  EV.ultra = false;
+  try { localStorage.removeItem("eduverse-ultra-v1"); } catch (e) {}
+  applyUltra(false);
   try {
     const saved = JSON.parse(localStorage.getItem("sciverse-panels-v2") || "null");
     if (saved && typeof saved.left === "boolean" && typeof saved.right === "boolean") EV.panels = saved;

@@ -1,12 +1,20 @@
 # Realistic 2D draft integration — main local app
 
+## Plate approval — 2026-11-24
+
+The reader is now 2D-only and every one of the **278** realistic plates it can show has been approved by the repository owner after automated technical verification. The register is `src/plate_approval.json` and the human-readable report is `docs/PLATE_APPROVAL.md`; `python3 qa/plate_approval.py --check` and `node qa/plate_approval_browser.js` keep it honest.
+
+Verified for every plate: WebP header and dimensions (1408×768, 1258×698 or 1376×768), a unique SHA-256, a mapping to at least one of the 33 chapters / 266 sections, and 1,246 bilingual labels whose boxes stay inside the 1408×768 authoring space. Only `rx/*.webp` files are mapped, so the legacy composite line diagrams can no longer be offered as a reading image. One Hindi label was corrected during verification (`rx/decomposition.webp`, *Tongs* → `चिमटा`).
+
+The reader badge now reads **APPROVED 2D PLATE · स्वीकृत 2D पटल** with the footnote **Labels verified · लेबल सत्यापित**. This approval is technical and product-level: it is **not** a claim of scientific, medical or teacher review, which remains a separate track.
+
 ## Unified `Sci-flip` repository restoration (274 / 274 plates & full modular source)
 
 All modular `src/`, `vendor/`, `authoring/`, `publish/`, `docs/`, `qa/`, and `tools/` files that previously lived in sibling `/home/user/metaworld/` and `/home/user/eduverse_2d_assets/` directories are now consolidated at the `Sci-flip` repository root:
 
 - **Deterministic 2D plate pipeline (`tools/build_2d_plates.mjs`)**: Generates all **274** `1408 × 768` JPEGs across all **33** chapters (`assets/2d/<chapter>/*.jpg`) directly from EduVerse's Three.js 3D models (`BIO3D`, `ORGAN3D`, `CARBON_BLOCKS`, `LIGHT_BLOCKS`, `BLOCKS`), bespoke NCERT schematics (Bohr shells `2n²`, Rutherford scattering, Lewis covalent sharing, simple machines), and `src/label_data.json` (**516** bilingual clickable hotspots: 70 `with_anchor` plates + 204 `without_anchor` plates).
 - **Byte-identical offline bundle**: `python3 tools/build_chapters.py`, `python3 tools/build_clickable_labels.py`, and `python3 build.py` rebuild `index.html` (`4,915,454` bytes, SHA-256 `d3173e911e3973134145412d5a2a4e247f235c31fc41ead7bc839ff02f05e33e`, 59 script CSP hashes) with zero diff.
-- **Review status**: All 274 plates remain marked `AI_DRAFT_REVIEW_PENDING` / `DRAFT_ONLY` in `ROLLOUT_STATUS.csv` pending formal teacher and subject-matter review.
+- **Review status**: the 274 legacy composite JPEGs remain marked `AI_DRAFT_REVIEW_PENDING` / `DRAFT_ONLY` in `ROLLOUT_STATUS.csv` pending formal teacher and subject-matter review. They are no longer offered as reading images; the 278 realistic `rx/*.webp` plates shown by the 2D-only reader are tracked separately in `src/plate_approval.json`.
 
 ---
 

@@ -1,0 +1,4865 @@
+{
+ "approvedAt": "2026-11-24",
+ "approvedBy": "Anvexia repository owner",
+ "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
+ "checks": {
+  "bilingualLabels": {
+   "detail": "1246 labels, all with Devanagari Hindi",
+   "ok": true
+  },
+  "labelGeometry": {
+   "detail": "all boxes inside 1408x768",
+   "ok": true
+  },
+  "noLineArtFallback": {
+   "detail": "only rx/*.webp mapped; composite JPEGs never offered",
+   "ok": true
+  },
+  "sectionMapping": {
+   "detail": "33 chapters / 266 sections",
+   "ok": true
+  },
+  "uniqueContent": {
+   "detail": "278 unique SHA-256",
+   "ok": true
+  },
+  "webpHeaderAndDimensions": {
+   "detail": "278 plates",
+   "ok": true
+  }
+ },
+ "plates": [
+  {
+   "bytes": 303874,
+   "credit": "",
+   "file": "rx/absorption_roots.webp",
+   "height": 768,
+   "id": "absorption_roots",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.7"
+    },
+    {
+     "chapter": "c9_tissues",
+     "section": "3.5"
+    }
+   ],
+   "sha256": "9dd23c0f962053ed50832e613fd3233139419d7cbf6d05c4739ab2a2d4635bf6",
+   "width": 1408
+  },
+  {
+   "bytes": 20494,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/adolescent_reproductive_hygiene.webp",
+   "height": 768,
+   "id": "adolescent_reproductive_hygiene",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.9"
+    }
+   ],
+   "sha256": "fb8a8ea48c821ea46aa09b67a9f699c162e76382fcb1ebe9a0be550f52315b15",
+   "width": 1408
+  },
+  {
+   "bytes": 25278,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/alkene_hydrogenation_ni.webp",
+   "height": 768,
+   "id": "alkene_hydrogenation_ni",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.3.3"
+    }
+   ],
+   "sha256": "a77be2aae92849af6bb8d8711f2ce1ed9b734e49f2c0d52f25119c5288525d43",
+   "width": 1408
+  },
+  {
+   "bytes": 114070,
+   "credit": "",
+   "file": "rx/allotropes_carbon.webp",
+   "height": 768,
+   "id": "allotropes_carbon",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.1b"
+    }
+   ],
+   "sha256": "b555f5219e2c8cd9d706f7ae842dbbfbcd397619b2de2b317c74eec32ce6086d",
+   "width": 1408
+  },
+  {
+   "bytes": 89484,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/alloys_atomic_lattice.webp",
+   "height": 768,
+   "id": "alloys_atomic_lattice",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.8"
+    }
+   ],
+   "sha256": "93390663f5bf2ec64873bebfa1270ec673559b4da20be8b37226a251c1c450e1",
+   "width": 1408
+  },
+  {
+   "bytes": 43502,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/atmospheric_refraction_twinkling.webp",
+   "height": 768,
+   "id": "atmospheric_refraction_twinkling",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.8"
+    }
+   ],
+   "sha256": "0f88eaa9f679a6a2eadad39153071f58fddd6bf53883094780897dbfcf7e4baf",
+   "width": 1408
+  },
+  {
+   "bytes": 70380,
+   "credit": "",
+   "file": "rx/atom.webp",
+   "height": 768,
+   "id": "atom",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.1"
+    },
+    {
+     "chapter": "c9_atom",
+     "section": "8.7"
+    },
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.3"
+    }
+   ],
+   "sha256": "847ff2e73a0060730752460597101c1ac5458a7a38f14cbcdee0021b45b901e7",
+   "width": 1408
+  },
+  {
+   "bytes": 24500,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/atomic_and_mass_number.webp",
+   "height": 768,
+   "id": "atomic_and_mass_number",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.8"
+    }
+   ],
+   "sha256": "35674b94b22371a3d2c856953224d3001a4d39eca66ee50c01492080f4cc7c6b",
+   "width": 1408
+  },
+  {
+   "bytes": 93918,
+   "credit": "",
+   "file": "rx/bacteriophage_virus.webp",
+   "height": 768,
+   "id": "bacteriophage_virus",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.3"
+    },
+    {
+     "chapter": "c9_disease",
+     "section": "1"
+    },
+    {
+     "chapter": "c9_diversity",
+     "section": "12.3"
+    },
+    {
+     "chapter": "c9_diversity",
+     "section": "12.8"
+    }
+   ],
+   "sha256": "75b6d802c437198ae97443e72d0d615f72a77b7065fd3b94ea789a7c456151c9",
+   "width": 1408
+  },
+  {
+   "bytes": 76776,
+   "credit": "",
+   "file": "rx/balanced_diet.webp",
+   "height": 768,
+   "id": "balanced_diet",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.11"
+    }
+   ],
+   "sha256": "7246ada128e31f7aafaedfe92b5c72c6c446f6fad35a12591ac86bb2ca2bb391",
+   "width": 1408
+  },
+  {
+   "bytes": 14312,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/balanced_forces_equilibrium.webp",
+   "height": 768,
+   "id": "balanced_forces_equilibrium",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.3"
+    }
+   ],
+   "sha256": "af3599c003fc0152b492858852af406c8841d4bdc4a4a6df547972dea2fbf626",
+   "width": 1408
+  },
+  {
+   "bytes": 122922,
+   "credit": "",
+   "file": "rx/balancing_equation.webp",
+   "height": 768,
+   "id": "balancing_equation",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.2"
+    }
+   ],
+   "sha256": "05511cdfb9e97e9040850276f7a88ea65429255f3fb2b8336680a16cd8618f78",
+   "width": 1408
+  },
+  {
+   "bytes": 75410,
+   "credit": "",
+   "file": "rx/binary_fission.webp",
+   "height": 768,
+   "id": "binary_fission",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.2"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.1"
+    }
+   ],
+   "sha256": "5cb31d1ebc5c732a8b1ba9153692512d9d88dbbb5efa2bdae5250f3faee9d7e9",
+   "width": 1408
+  },
+  {
+   "bytes": 27402,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/binomial_nomenclature_linnaeus.webp",
+   "height": 768,
+   "id": "binomial_nomenclature_linnaeus",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_diversity",
+     "section": "12.6"
+    }
+   ],
+   "sha256": "b39e9bac7a889b32cede22ca9c94dd37d50a6b5e45373e7155096e56b696173b",
+   "width": 1408
+  },
+  {
+   "bytes": 23914,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/biogas_and_nuclear_energy.webp",
+   "height": 768,
+   "id": "biogas_and_nuclear_energy",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_sources",
+     "section": "S.4"
+    }
+   ],
+   "sha256": "8a4e62c99f1f562a1166c31debdb57a43219083aa31546541ad7887b1aa80dd2",
+   "width": 1408
+  },
+  {
+   "bytes": 92216,
+   "credit": "",
+   "file": "rx/biogeochemical_cycles.webp",
+   "height": 768,
+   "id": "biogeochemical_cycles",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.5"
+    },
+    {
+     "chapter": "c9_earth",
+     "section": "13.6"
+    },
+    {
+     "chapter": "c9_earth",
+     "section": "13.7"
+    },
+    {
+     "chapter": "c9_earth",
+     "section": "13.8"
+    }
+   ],
+   "sha256": "15a417be6bf42f016eca18e69dee46555d6746757da014132d58823ef8013a53",
+   "width": 1408
+  },
+  {
+   "bytes": 86876,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/biomolecules_cell.webp",
+   "height": 768,
+   "id": "biomolecules_cell",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.10"
+    }
+   ],
+   "sha256": "a3b04db1ad00897660d0520f1df17bb4ce45e0c3f3eda0a62ac10f1870dbaf3f",
+   "width": 1408
+  },
+  {
+   "bytes": 43296,
+   "credit": "",
+   "file": "rx/bioreactor_growth_curve.webp",
+   "height": 768,
+   "id": "bioreactor_growth_curve",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.11"
+    }
+   ],
+   "sha256": "ea39aadb975781f5363f2facc9e2c90076ccc614820b3ca7bdee18db48bd4e1e",
+   "width": 1408
+  },
+  {
+   "bytes": 34010,
+   "credit": "",
+   "file": "rx/budding_hydra.webp",
+   "height": 768,
+   "id": "budding_hydra",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.2"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.2"
+    }
+   ],
+   "sha256": "ea293c6fe32fba8836dbec78f2ea2fbc778bb735b28add4bbdf4e32c8e062139",
+   "width": 1408
+  },
+  {
+   "bytes": 28936,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/carbon_chains_branches_rings.webp",
+   "height": 768,
+   "id": "carbon_chains_branches_rings",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.2.2"
+    }
+   ],
+   "sha256": "5c4e369f69750614de1f7efe17a79367e369b73551b1402dad60e1b46df9a669",
+   "width": 1408
+  },
+  {
+   "bytes": 44424,
+   "credit": "",
+   "file": "rx/carbon_homologous.webp",
+   "height": 768,
+   "id": "carbon_homologous",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.2"
+    },
+    {
+     "chapter": "c10_carbon",
+     "section": "4.2.4"
+    }
+   ],
+   "sha256": "7fac7ad6e165b297d51aa655b02c477160f50bda6ee1078f123355997fa155eb",
+   "width": 1408
+  },
+  {
+   "bytes": 37486,
+   "credit": "",
+   "file": "rx/cathode_canal_rays.webp",
+   "height": 768,
+   "id": "cathode_canal_rays",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.2"
+    },
+    {
+     "chapter": "c9_atom",
+     "section": "8.3"
+    }
+   ],
+   "sha256": "b9d632546400094c417b3e2e43fc45f3de53bc6e8a0304e513db0174772b4137",
+   "width": 1408
+  },
+  {
+   "bytes": 131678,
+   "credit": "",
+   "file": "rx/cell_animal.webp",
+   "height": 768,
+   "id": "cell_animal",
+   "labels": 8,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.2"
+    }
+   ],
+   "sha256": "5bfa8b9134a0b6f3645435ea6d46df9cf00fbc6603a3b4467eb81f3278a326e3",
+   "width": 1408
+  },
+  {
+   "bytes": 12140,
+   "credit": "",
+   "file": "rx/cell_cycle_division--3.webp",
+   "height": 698,
+   "id": "cell_cycle_division--3",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.9"
+    }
+   ],
+   "sha256": "6c73dc50d767f6584c307266e1e39e8946fc2d536cea2ee44d225e4d3ec69b67",
+   "width": 1258
+  },
+  {
+   "bytes": 13834,
+   "credit": "",
+   "file": "rx/cell_cycle_division--4.webp",
+   "height": 698,
+   "id": "cell_cycle_division--4",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.9"
+    }
+   ],
+   "sha256": "c0f096971b33dc530d02f8123f7a40d07011aa554bc2fdcee110a1bb08cb059e",
+   "width": 1258
+  },
+  {
+   "bytes": 11398,
+   "credit": "",
+   "file": "rx/cell_cycle_division--6.webp",
+   "height": 698,
+   "id": "cell_cycle_division--6",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.9"
+    }
+   ],
+   "sha256": "51f79ead73a0e940e4a2e5d16c485e65766a0cbdf5e644d3d5c31422e75ce368",
+   "width": 1258
+  },
+  {
+   "bytes": 101686,
+   "credit": "",
+   "file": "rx/cell_cycle_division.webp",
+   "height": 768,
+   "id": "cell_cycle_division",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.9"
+    }
+   ],
+   "sha256": "78764c5d68a947d7268f48a8d1177b5ea20601fb544851b451956c42d89cd6d8",
+   "width": 1408
+  },
+  {
+   "bytes": 8272,
+   "credit": "",
+   "file": "rx/cell_membrane--1.webp",
+   "height": 698,
+   "id": "cell_membrane--1",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "04d899b0d2b44d7d04a33a7cedcd1e7456ed472044985a1c59a6bb6ec6e8bbfe",
+   "width": 1258
+  },
+  {
+   "bytes": 8430,
+   "credit": "",
+   "file": "rx/cell_membrane--2.webp",
+   "height": 698,
+   "id": "cell_membrane--2",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "7ddec0e087772214ac64ec2f16979a817df7ed6ca3185cc89c8e8ab929e81dd8",
+   "width": 1258
+  },
+  {
+   "bytes": 184730,
+   "credit": "",
+   "file": "rx/cell_membrane.webp",
+   "height": 768,
+   "id": "cell_membrane",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "6ff5d705e16a5a32be39324449b5c28ee132c89253ee4afbaf025cf6970eb9a1",
+   "width": 1408
+  },
+  {
+   "bytes": 119984,
+   "credit": "",
+   "file": "rx/cell_mitochondria.webp",
+   "height": 768,
+   "id": "cell_mitochondria",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.7"
+    }
+   ],
+   "sha256": "339f347ab570f44f5b5b4c0d5ff6de9071eaf17267699c6a3073e5e2f1b01c05",
+   "width": 1408
+  },
+  {
+   "bytes": 174776,
+   "credit": "",
+   "file": "rx/cell_nucleus.webp",
+   "height": 768,
+   "id": "cell_nucleus",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.6"
+    }
+   ],
+   "sha256": "f178e72f8f5dc5cb6aff1a9d94a8800b411f3ec37bfddbfb473fd60fc5e78500",
+   "width": 1408
+  },
+  {
+   "bytes": 157282,
+   "credit": "",
+   "file": "rx/cell_organelles.webp",
+   "height": 768,
+   "id": "cell_organelles",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.8"
+    }
+   ],
+   "sha256": "1fe38fe36b4dba0b527e6e98825cd91230807dc0c34ce7b74bdabeb25d2c513f",
+   "width": 1408
+  },
+  {
+   "bytes": 135332,
+   "credit": "",
+   "file": "rx/cell_plant.webp",
+   "height": 768,
+   "id": "cell_plant",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.2"
+    },
+    {
+     "chapter": "c9_cell",
+     "section": "2.5"
+    }
+   ],
+   "sha256": "76b7099409299a4631c3f7ceb12ff12b3e007187b20880ebb2e160393cda7708",
+   "width": 1408
+  },
+  {
+   "bytes": 20542,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/centrifugation_coagulation.webp",
+   "height": 768,
+   "id": "centrifugation_coagulation",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.10"
+    }
+   ],
+   "sha256": "add348408f56f7de355341be61ed389c4fa77cc8d56d06c320f05b5a3989abbe",
+   "width": 1408
+  },
+  {
+   "bytes": 50760,
+   "credit": "",
+   "file": "rx/chemical_bonding_lewis.webp",
+   "height": 768,
+   "id": "chemical_bonding_lewis",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.10"
+    }
+   ],
+   "sha256": "08c9f1ebe615ba8a020034081d60bdb409ec8dc1c73ad4513fa651b3bfd12a9c",
+   "width": 1408
+  },
+  {
+   "bytes": 49946,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/chemical_change_evidence.webp",
+   "height": 768,
+   "id": "chemical_change_evidence",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.1"
+    }
+   ],
+   "sha256": "9f0a49e2155e4d9303496b6b79d47f4345258905d56023ff5ca8847ff727b930",
+   "width": 1408
+  },
+  {
+   "bytes": 40084,
+   "credit": "",
+   "file": "rx/chemical_coordination_plants.webp",
+   "height": 768,
+   "id": "chemical_coordination_plants",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.1"
+    },
+    {
+     "chapter": "c10_control",
+     "section": "6.2"
+    }
+   ],
+   "sha256": "14a829ec55b733dec86a1901877b826748d1771c4480dd132365111b9b5f06e5",
+   "width": 1408
+  },
+  {
+   "bytes": 92422,
+   "credit": "",
+   "file": "rx/chromosome_structure.webp",
+   "height": 768,
+   "id": "chromosome_structure",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.6"
+    },
+    {
+     "chapter": "c9_cell",
+     "section": "2.6"
+    }
+   ],
+   "sha256": "d89a88b8d1bf142959479477c2af7109cce81088a2f2e5252f4a8331f855e25d",
+   "width": 1408
+  },
+  {
+   "bytes": 14140,
+   "credit": "",
+   "file": "rx/circuit--1.webp",
+   "height": 698,
+   "id": "circuit--1",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.5"
+    }
+   ],
+   "sha256": "b681c37858305cafee3062836ce5ade9fdfae87f5068485c59e5aba136163cbe",
+   "width": 1258
+  },
+  {
+   "bytes": 18914,
+   "credit": "",
+   "file": "rx/circuit--2.webp",
+   "height": 698,
+   "id": "circuit--2",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.6"
+    }
+   ],
+   "sha256": "4a04675549b832bf92ec4e4a7829d4e9b59c5a6decac431ef20744146975f09a",
+   "width": 1258
+  },
+  {
+   "bytes": 18012,
+   "credit": "",
+   "file": "rx/circuit--3.webp",
+   "height": 698,
+   "id": "circuit--3",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.6"
+    }
+   ],
+   "sha256": "b91ed784398a3c2c758f7853dfb07c3ffb6a5d6ad5e93705e417cc137c9c0e6a",
+   "width": 1258
+  },
+  {
+   "bytes": 94200,
+   "credit": "",
+   "file": "rx/circuit.webp",
+   "height": 768,
+   "id": "circuit",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.1"
+    },
+    {
+     "chapter": "c10_electricity",
+     "section": "11.2"
+    }
+   ],
+   "sha256": "8a46d65140b0c8f45b9f050a029014e4f2c88dd3599b2b866292ed42a53c9ee0",
+   "width": 1408
+  },
+  {
+   "bytes": 85454,
+   "credit": "",
+   "file": "rx/circular_motion.webp",
+   "height": 768,
+   "id": "circular_motion",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.9"
+    }
+   ],
+   "sha256": "4236a8e2cbdefe5a5dfa228639bafa8dc7c288db16fb599c129b7e6510e1fc8c",
+   "width": 1408
+  },
+  {
+   "bytes": 21610,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/circulatory_system--2.webp",
+   "height": 698,
+   "id": "circulatory_system--2",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.8"
+    }
+   ],
+   "sha256": "e8505bc98311f2948e193bd42cb0f948093202d681dbc4c1f62dc54cfa6af260",
+   "width": 1258
+  },
+  {
+   "bytes": 21438,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/circulatory_system--3.webp",
+   "height": 698,
+   "id": "circulatory_system--3",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.8"
+    }
+   ],
+   "sha256": "20f3417697dc8e14ef7f6a6586b632ceafc527fae82d9a0b83a77806e8bc52f1",
+   "width": 1258
+  },
+  {
+   "bytes": 199036,
+   "credit": "",
+   "file": "rx/circulatory_system.webp",
+   "height": 768,
+   "id": "circulatory_system",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.8"
+    }
+   ],
+   "sha256": "6fccfb17f5b8af5afcbafbda99005496cfb7c3d705df48acc75a275b25f15ac4",
+   "width": 1408
+  },
+  {
+   "bytes": 16192,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/clean_vs_sooty_flame.webp",
+   "height": 768,
+   "id": "clean_vs_sooty_flame",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.3.1"
+    }
+   ],
+   "sha256": "6c91de819cc4d809b4e933ffe09522c16e45ede5bd7a11c970dfce384f48f42a",
+   "width": 1408
+  },
+  {
+   "bytes": 31206,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/coal_petroleum_and_3rs.webp",
+   "height": 768,
+   "id": "coal_petroleum_and_3rs",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_sustainable",
+     "section": "M.4"
+    }
+   ],
+   "sha256": "a3269356a605d3082c1a396b586fccb337a3d76bfd25ebf9279d603bc8fa2460",
+   "width": 1408
+  },
+  {
+   "bytes": 14010,
+   "credit": "",
+   "file": "rx/column_chromatography.webp",
+   "height": 768,
+   "id": "column_chromatography",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.9"
+    }
+   ],
+   "sha256": "90da926f419fd83c304d5f40dc13b6a58b2e3e7aabe3455839bc0c14ee49f3b9",
+   "width": 1408
+  },
+  {
+   "bytes": 81594,
+   "credit": "",
+   "file": "rx/combination.webp",
+   "height": 768,
+   "id": "combination",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.3"
+    }
+   ],
+   "sha256": "4dc34280984118094d9dd80fee21d2fa6395efe460ab7f66b159093fb0b15e21",
+   "width": 1408
+  },
+  {
+   "bytes": 31000,
+   "credit": "",
+   "file": "rx/compound_microscope.webp",
+   "height": 768,
+   "id": "compound_microscope",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.1"
+    }
+   ],
+   "sha256": "72f0c03cbcfc59e4fe4a53c4a167e359fe11ac0d547dfa9348dd996840ac6c7b",
+   "width": 1408
+  },
+  {
+   "bytes": 18814,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/concentration_mv_vv.webp",
+   "height": 768,
+   "id": "concentration_mv_vv",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.6"
+    }
+   ],
+   "sha256": "372a61edc775dc26e6d9c04d1b58d6385aa96db94219346cf073787b5b52123a",
+   "width": 1408
+  },
+  {
+   "bytes": 32516,
+   "credit": "",
+   "file": "rx/conservation_of_mass.webp",
+   "height": 768,
+   "id": "conservation_of_mass",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.1"
+    },
+    {
+     "chapter": "c9_atoms",
+     "section": "3"
+    }
+   ],
+   "sha256": "41dce12c18d6f918afb0114c6e39f6a4d0e970f203e9d936553d25329cbea665",
+   "width": 1408
+  },
+  {
+   "bytes": 26280,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/contraceptive_methods_overview.webp",
+   "height": 768,
+   "id": "contraceptive_methods_overview",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.8"
+    }
+   ],
+   "sha256": "cded628a91d04f31797979f5a92f5ca922eb791215bccc8a8e36e7f155e6ad98",
+   "width": 1408
+  },
+  {
+   "bytes": 17598,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/controlled_experiment_evidence.webp",
+   "height": 768,
+   "id": "controlled_experiment_evidence",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.4"
+    }
+   ],
+   "sha256": "4855a4e31b698213a5de0772491d4ad7bea3ef9b1a91fd5872d4f420f5b88b46",
+   "width": 1408
+  },
+  {
+   "bytes": 21476,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/conventional_vs_nonconventional.webp",
+   "height": 768,
+   "id": "conventional_vs_nonconventional",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_sources",
+     "section": "S.1"
+    }
+   ],
+   "sha256": "ab7237dbe5cce44f498b522e610ba2e842e2456d03b5df841bb52ef56bf0803d",
+   "width": 1408
+  },
+  {
+   "bytes": 132872,
+   "credit": "",
+   "file": "rx/corrosion_rancidity.webp",
+   "height": 768,
+   "id": "corrosion_rancidity",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.7"
+    },
+    {
+     "chapter": "c10_reactions",
+     "section": "1.9"
+    }
+   ],
+   "sha256": "07e386dfb5a1db934e8829e848589b93b1f272c7a42ea20fc8795fc2606cea93",
+   "width": 1408
+  },
+  {
+   "bytes": 53800,
+   "credit": "",
+   "file": "rx/covalent.webp",
+   "height": 768,
+   "id": "covalent",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.1"
+    },
+    {
+     "chapter": "c10_carbon",
+     "section": "4.2.1"
+    },
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.5"
+    }
+   ],
+   "sha256": "57517348392de5a66cd38c3404fa8a57215b537822fab0285a74e192d6528600",
+   "width": 1408
+  },
+  {
+   "bytes": 33278,
+   "credit": "",
+   "file": "rx/decomposition.webp",
+   "height": 768,
+   "id": "decomposition",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.4"
+    }
+   ],
+   "sha256": "e8f1cf9f1627bd4d894ac8441d7b8864539e3651ec54ade74fd672abed210cbc",
+   "width": 1408
+  },
+  {
+   "bytes": 18704,
+   "credit": "",
+   "file": "rx/dialysis--4.webp",
+   "height": 698,
+   "id": "dialysis--4",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.9"
+    }
+   ],
+   "sha256": "f8020fb8f4b7031ca054cc7db297fcb5e46c9fe6f8c1f22b6731f9033765bea5",
+   "width": 1258
+  },
+  {
+   "bytes": 23036,
+   "credit": "",
+   "file": "rx/dialysis.webp",
+   "height": 698,
+   "id": "dialysis",
+   "labels": 18,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.9"
+    }
+   ],
+   "sha256": "bedd4bbc1c7af40fcaf0d5a68030d23ceeda04f2f265234fb725b7cf4955d435",
+   "width": 1258
+  },
+  {
+   "bytes": 11018,
+   "credit": "",
+   "file": "rx/differential_heating--1.webp",
+   "height": 698,
+   "id": "differential_heating--1",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.2"
+    },
+    {
+     "chapter": "c9_earth",
+     "section": "13.3"
+    }
+   ],
+   "sha256": "3a10c2c006cb618f0651c8df963e0f4c4c47e8b544e9a6649351de665e448e92",
+   "width": 1258
+  },
+  {
+   "bytes": 11744,
+   "credit": "",
+   "file": "rx/differential_heating--2.webp",
+   "height": 698,
+   "id": "differential_heating--2",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.3"
+    }
+   ],
+   "sha256": "4e6a135372263f42d7fe8d25499318fa8cc085204faa2dc8af03b0759b9b4ae6",
+   "width": 1258
+  },
+  {
+   "bytes": 11788,
+   "credit": "",
+   "file": "rx/differential_heating--3.webp",
+   "height": 698,
+   "id": "differential_heating--3",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.3"
+    }
+   ],
+   "sha256": "4d65fd5136a1be503f73de938a4f8433cb4d1e00178c179c3e6ff280b7d31e12",
+   "width": 1258
+  },
+  {
+   "bytes": 52776,
+   "credit": "",
+   "file": "rx/differential_heating.webp",
+   "height": 768,
+   "id": "differential_heating",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.3"
+    }
+   ],
+   "sha256": "b88d1cb5978db291e1ef004703f58e69a08e7a46b10e184b9075b9b49ee5c2c0",
+   "width": 1408
+  },
+  {
+   "bytes": 76060,
+   "credit": "",
+   "file": "rx/diffusion.webp",
+   "height": 768,
+   "id": "diffusion",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_matter",
+     "section": "1.2"
+    }
+   ],
+   "sha256": "8ca9d2e3e5c9fb5098b8173504250f8dda9b3ecbb542be6361d1e5a45de08aa8",
+   "width": 1408
+  },
+  {
+   "bytes": 118352,
+   "credit": "",
+   "file": "rx/digestive_intestine.webp",
+   "height": 768,
+   "id": "digestive_intestine",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.4"
+    }
+   ],
+   "sha256": "e355cba99fcc99d2faa43796440fa374108ead4669c57086f4d2a59a2126d6bc",
+   "width": 1408
+  },
+  {
+   "bytes": 49492,
+   "credit": "",
+   "file": "rx/digestive_liver.webp",
+   "height": 768,
+   "id": "digestive_liver",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.4"
+    }
+   ],
+   "sha256": "829e37d32496a12befe5fa8fee05e5d7bf36bcac64b81554c8083d5cd015d6e3",
+   "width": 1408
+  },
+  {
+   "bytes": 75594,
+   "credit": "",
+   "file": "rx/digestive_mouth.webp",
+   "height": 768,
+   "id": "digestive_mouth",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.4"
+    }
+   ],
+   "sha256": "4cbf881174ea521dcc55bafd73849132d7dd879f1c69ddeb138aad70cf39d0c6",
+   "width": 1408
+  },
+  {
+   "bytes": 54274,
+   "credit": "",
+   "file": "rx/digestive_stomach.webp",
+   "height": 768,
+   "id": "digestive_stomach",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.4"
+    }
+   ],
+   "sha256": "e47dee97c4cca4972afbd8cf013b60e8832d3346daeee4dda748ca7cccee03f0",
+   "width": 1408
+  },
+  {
+   "bytes": 36194,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/dihybrid_cross_punnett.webp",
+   "height": 768,
+   "id": "dihybrid_cross_punnett",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.4"
+    }
+   ],
+   "sha256": "a0b5df21a2b3e5a8ae99af27d291f8773498ae575c4e25a712812d7d84ca4ae0",
+   "width": 1408
+  },
+  {
+   "bytes": 19584,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/direct_vs_alternating_current.webp",
+   "height": 768,
+   "id": "direct_vs_alternating_current",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.7"
+    }
+   ],
+   "sha256": "b4f0df106b332acf4e04be8e9dba200e914078774b0eb53b99f14c1612f1a359",
+   "width": 1408
+  },
+  {
+   "bytes": 100512,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/disease_prevention_immunity.webp",
+   "height": 768,
+   "id": "disease_prevention_immunity",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_disease",
+     "section": "3"
+    }
+   ],
+   "sha256": "5648bfd742211cac1d318e77dd4b7e0121561e3067150e32ee38448d410a14b2",
+   "width": 1408
+  },
+  {
+   "bytes": 53166,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/disease_transmission_modes.webp",
+   "height": 768,
+   "id": "disease_transmission_modes",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_disease",
+     "section": "2"
+    }
+   ],
+   "sha256": "5c29debc36e24378b7531058b4e7b89c1800cdec052460eea3c4cdb12adde2f5",
+   "width": 1408
+  },
+  {
+   "bytes": 39776,
+   "credit": "",
+   "file": "rx/dispersion.webp",
+   "height": 768,
+   "id": "dispersion",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.5"
+    },
+    {
+     "chapter": "c10_eye",
+     "section": "10.6"
+    }
+   ],
+   "sha256": "fae592a22e49dc706ce2cea199beed08b829911c138f971e8eb081c2b9ab73d9",
+   "width": 1408
+  },
+  {
+   "bytes": 15772,
+   "credit": "",
+   "file": "rx/displacement--1.webp",
+   "height": 698,
+   "id": "displacement--1",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.5"
+    }
+   ],
+   "sha256": "cbbc51504cf5b8e65718ae59b73f0042738bab3a8f27f9eb66857a0efe536391",
+   "width": 1258
+  },
+  {
+   "bytes": 17020,
+   "credit": "",
+   "file": "rx/displacement--3.webp",
+   "height": 698,
+   "id": "displacement--3",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.5"
+    }
+   ],
+   "sha256": "234b0a1e6080be81fc89561b1d146ac2e1e5154e4568b2ac486666773a06dfa0",
+   "width": 1258
+  },
+  {
+   "bytes": 69200,
+   "credit": "",
+   "file": "rx/displacement.webp",
+   "height": 768,
+   "id": "displacement",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.5"
+    }
+   ],
+   "sha256": "37d797ec060f1ed5d85a5e896b00749eed19fa03cf9be7a5834e3b75c25069e9",
+   "width": 1408
+  },
+  {
+   "bytes": 34362,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/dna_copying_variation.webp",
+   "height": 768,
+   "id": "dna_copying_variation",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.1"
+    }
+   ],
+   "sha256": "e96bf648ff3b830ae89c51d225a07ae3f7aabd5e6cecb6daa6a36aca877e067a",
+   "width": 1408
+  },
+  {
+   "bytes": 26554,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/dobereiner_triads.webp",
+   "height": 768,
+   "id": "dobereiner_triads",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_periodic",
+     "section": "P.1"
+    }
+   ],
+   "sha256": "4df6ac7a67c6cca57ab2e2e50340139949e0bf7f5f65df0530a628b6dc530d4a",
+   "width": 1408
+  },
+  {
+   "bytes": 119558,
+   "credit": "",
+   "file": "rx/domestic_circuit.webp",
+   "height": 768,
+   "id": "domestic_circuit",
+   "labels": 8,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.9"
+    },
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.8"
+    }
+   ],
+   "sha256": "190867a084993ee0b73affbb11ef71ef2e3ef57de165a65df6345062fbb5cde0",
+   "width": 1408
+  },
+  {
+   "bytes": 55768,
+   "credit": "",
+   "file": "rx/double_displacement.webp",
+   "height": 768,
+   "id": "double_displacement",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.5"
+    },
+    {
+     "chapter": "c10_reactions",
+     "section": "1.6"
+    }
+   ],
+   "sha256": "053a91fef8aab9e4779767d90e63965b9c34a8c518f6b2caa35ee251109bd668",
+   "width": 1408
+  },
+  {
+   "bytes": 128182,
+   "credit": "",
+   "file": "rx/earth_spheres.webp",
+   "height": 768,
+   "id": "earth_spheres",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.1"
+    }
+   ],
+   "sha256": "3b994788ff69f1870d1838495a12598cb94f849e34e2a2cb62e9eb112fa164bd",
+   "width": 1408
+  },
+  {
+   "bytes": 130826,
+   "credit": "",
+   "file": "rx/echo_sonar.webp",
+   "height": 768,
+   "id": "echo_sonar",
+   "labels": 8,
+   "sections": [
+    {
+     "chapter": "c9_sound",
+     "section": "10.10"
+    },
+    {
+     "chapter": "c9_sound",
+     "section": "10.9"
+    }
+   ],
+   "sha256": "0b1a0b15567ce510e28ec9ea01f810d349eafdc64c20ab2b2cca626c5108c2ed",
+   "width": 1376
+  },
+  {
+   "bytes": 22498,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/ecosystem_biotic_abiotic.webp",
+   "height": 768,
+   "id": "ecosystem_biotic_abiotic",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_env",
+     "section": "13.1"
+    }
+   ],
+   "sha256": "6430d27bf0f22ebdf9fb539b7a966d4989442ecea4043e7296fa346c3f128761",
+   "width": 1408
+  },
+  {
+   "bytes": 14346,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/electric_power_kwh_energy.webp",
+   "height": 768,
+   "id": "electric_power_kwh_energy",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.8"
+    }
+   ],
+   "sha256": "c3cd47c6db39bffa3725ba842c8a1fb2f688259e4a693c3bfb4353137ed6e781",
+   "width": 1408
+  },
+  {
+   "bytes": 13512,
+   "credit": "",
+   "file": "rx/electromagnet--1.webp",
+   "height": 698,
+   "id": "electromagnet--1",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.4"
+    }
+   ],
+   "sha256": "5b1e739cafebe09568778b44d5f9f9293e7979ce9fe94b75902eb0d6b800299d",
+   "width": 1258
+  },
+  {
+   "bytes": 24264,
+   "credit": "",
+   "file": "rx/electromagnet--2.webp",
+   "height": 698,
+   "id": "electromagnet--2",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.4"
+    }
+   ],
+   "sha256": "45d77f2fee7472e9a8d04a0a0572763e2b0a2e6c0edaf0225b08e24cc3f8d976",
+   "width": 1258
+  },
+  {
+   "bytes": 21894,
+   "credit": "",
+   "file": "rx/electromagnet--4.webp",
+   "height": 698,
+   "id": "electromagnet--4",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.4"
+    }
+   ],
+   "sha256": "f8e208fe0260161c0caec982adefd29d8dd6695bc8aba8bdbb4687e65a2e379e",
+   "width": 1258
+  },
+  {
+   "bytes": 73654,
+   "credit": "",
+   "file": "rx/electromagnet.webp",
+   "height": 768,
+   "id": "electromagnet",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.4"
+    }
+   ],
+   "sha256": "c1c029cb42ff7f90ff0cb2911ccd7ad740cfe0a99a182922b5d7cf738cdffbe3",
+   "width": 1408
+  },
+  {
+   "bytes": 124562,
+   "credit": "",
+   "file": "rx/electromagnetic_induction.webp",
+   "height": 768,
+   "id": "electromagnetic_induction",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.9"
+    }
+   ],
+   "sha256": "02fbd8b3a66c5f9ff3754f8688773ac44ac2ab91daa15bd601883c31af0f5258",
+   "width": 1408
+  },
+  {
+   "bytes": 30266,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/element_symbols_iupac.webp",
+   "height": 768,
+   "id": "element_symbols_iupac",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.11"
+    }
+   ],
+   "sha256": "9e759e2d0c39ba16d29e94e630ea726dc782ef4045d6955b2ce5b64816df33b1",
+   "width": 1408
+  },
+  {
+   "bytes": 105952,
+   "credit": "",
+   "file": "rx/endocrine_system.webp",
+   "height": 768,
+   "id": "endocrine_system",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.7"
+    }
+   ],
+   "sha256": "4db87efc98b9b1da728a4a578e41cc679e13b06975f6d7f86a56399f64985807",
+   "width": 1408
+  },
+  {
+   "bytes": 20828,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/ethanoic_acid_tests.webp",
+   "height": 768,
+   "id": "ethanoic_acid_tests",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.4.2"
+    }
+   ],
+   "sha256": "25bace674aa3fa267d31fb62c26a8a7c5bcfe84ef2f6b29688505d8ac8119f68",
+   "width": 1408
+  },
+  {
+   "bytes": 69792,
+   "credit": "",
+   "file": "rx/ethanol_esterification.webp",
+   "height": 768,
+   "id": "ethanol_esterification",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.4.1"
+    },
+    {
+     "chapter": "c10_carbon",
+     "section": "4.4.2b"
+    }
+   ],
+   "sha256": "4495cb52a03a073b6373a88846301825ae40aed4a635dac7dd0b5cb8f86e3edc",
+   "width": 1408
+  },
+  {
+   "bytes": 22844,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/ethanol_oxidation_kmno4.webp",
+   "height": 768,
+   "id": "ethanol_oxidation_kmno4",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.3.2"
+    }
+   ],
+   "sha256": "79795edcb590c593b6191774b2dcf02791ca00b7b60df37ac3904ac781008bc3",
+   "width": 1408
+  },
+  {
+   "bytes": 46672,
+   "credit": "",
+   "file": "rx/evaporation.webp",
+   "height": 768,
+   "id": "evaporation",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_matter",
+     "section": "1.4"
+    },
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.7"
+    }
+   ],
+   "sha256": "0caac5934e8761825d8a7d0189fc2301c5d8003f8d05d1983e6edfa60bf972f9",
+   "width": 1408
+  },
+  {
+   "bytes": 19986,
+   "credit": "",
+   "file": "rx/excretory_system--4.webp",
+   "height": 698,
+   "id": "excretory_system--4",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.9"
+    }
+   ],
+   "sha256": "fdf29c420268cde9a4524c743a7cf1bbb82be8ae0451f498d0c881b0f4a18619",
+   "width": 1258
+  },
+  {
+   "bytes": 83042,
+   "credit": "",
+   "file": "rx/excretory_system.webp",
+   "height": 768,
+   "id": "excretory_system",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.9"
+    }
+   ],
+   "sha256": "d885a7d6cea73b220f414ae4853fa240632b45240ffe3560b3847620167622a3",
+   "width": 1408
+  },
+  {
+   "bytes": 42454,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/exothermic_endothermic.webp",
+   "height": 768,
+   "id": "exothermic_endothermic",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.8"
+    }
+   ],
+   "sha256": "a08099a21966c2f96e57c829c5666b782fcdb89209ab6fe7e805898fed65f9a1",
+   "width": 1408
+  },
+  {
+   "bytes": 210032,
+   "credit": "",
+   "file": "rx/extraction_metals.webp",
+   "height": 768,
+   "id": "extraction_metals",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.5"
+    },
+    {
+     "chapter": "c10_metals",
+     "section": "3.6"
+    }
+   ],
+   "sha256": "04daa94a36e29423c67ab5d760072a90bb1bac416d9de428661d7c0a6ab6a5c7",
+   "width": 1408
+  },
+  {
+   "bytes": 25672,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/fertilisation_implantation_cycle.webp",
+   "height": 768,
+   "id": "fertilisation_implantation_cycle",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.7"
+    }
+   ],
+   "sha256": "ccafcbea0ed64697414ca4a686ef618b6872618e4b6c2513adcef7770716769c",
+   "width": 1408
+  },
+  {
+   "bytes": 136614,
+   "credit": "",
+   "file": "rx/five_kingdoms.webp",
+   "height": 768,
+   "id": "five_kingdoms",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_diversity",
+     "section": "12.2"
+    }
+   ],
+   "sha256": "e573256b968b37f32d7531194f9d54cb3b883af4298b0251628f37093bca28c5",
+   "width": 1408
+  },
+  {
+   "bytes": 49742,
+   "credit": "",
+   "file": "rx/flower.webp",
+   "height": 768,
+   "id": "flower",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.4"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.4"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.5"
+    }
+   ],
+   "sha256": "d065711184728011d845b6bc4b96c395b566e74e3d70e61a18561ec016e6301f",
+   "width": 1408
+  },
+  {
+   "bytes": 19726,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/focused_testable_question.webp",
+   "height": 768,
+   "id": "focused_testable_question",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.2"
+    }
+   ],
+   "sha256": "c20f1528eb72322d1586b808a164609d85c073ac823dcf378cf38e739b74ae5a",
+   "width": 1408
+  },
+  {
+   "bytes": 95494,
+   "credit": "",
+   "file": "rx/food_pyramid.webp",
+   "height": 768,
+   "id": "food_pyramid",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_env",
+     "section": "13.3"
+    },
+    {
+     "chapter": "c10_env",
+     "section": "13.4"
+    }
+   ],
+   "sha256": "c177fbd75c4198d3b1c41d67c6b39d9c8362975543427df5b0f5e14bc085ec8f",
+   "width": 1408
+  },
+  {
+   "bytes": 285194,
+   "credit": "",
+   "file": "rx/food_web.webp",
+   "height": 768,
+   "id": "food_web",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_env",
+     "section": "13.2"
+    }
+   ],
+   "sha256": "784b7f7649e39f55cdd4f0d48f7f0b1c1bcd6568704336ca270254937f69a318",
+   "width": 1408
+  },
+  {
+   "bytes": 33776,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/forest_wildlife_conservation.webp",
+   "height": 768,
+   "id": "forest_wildlife_conservation",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_sustainable",
+     "section": "M.2"
+    }
+   ],
+   "sha256": "37fc8d330da2228e07d547d09e0e4876e087526a58d2ca6f5238441a1fc9f4d7",
+   "width": 1408
+  },
+  {
+   "bytes": 41124,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/formula_unit_mass.webp",
+   "height": 768,
+   "id": "formula_unit_mass",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.9"
+    }
+   ],
+   "sha256": "dd90874b02e269786d702b730d796ec2a7f137e09fc388da906c37f7a5e132e6",
+   "width": 1408
+  },
+  {
+   "bytes": 49644,
+   "credit": "",
+   "file": "rx/fractional_distillation.webp",
+   "height": 768,
+   "id": "fractional_distillation",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.8"
+    },
+    {
+     "chapter": "c9_pure",
+     "section": "3"
+    }
+   ],
+   "sha256": "e7932cfb87881ec5686e64e80e89ed317a6f84639b1547dbf289c1c697a9879a",
+   "width": 1408
+  },
+  {
+   "bytes": 19276,
+   "credit": "",
+   "file": "rx/frames_vectors_motion.webp",
+   "height": 768,
+   "id": "frames_vectors_motion",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.1"
+    },
+    {
+     "chapter": "c9_motion",
+     "section": "4.2"
+    }
+   ],
+   "sha256": "1ac4a64a46ea261f7ad04c595bb70e0876092893d78e25a38bbfc463fba3cbaa",
+   "width": 1408
+  },
+  {
+   "bytes": 27276,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/functional_groups_carbon.webp",
+   "height": 768,
+   "id": "functional_groups_carbon",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.2.3"
+    }
+   ],
+   "sha256": "b2e3b488171ffb5b053f4cfb19ced451b3c5eaf75eb97cb171244539006e4932",
+   "width": 1408
+  },
+  {
+   "bytes": 114906,
+   "credit": "",
+   "file": "rx/fungi_structure.webp",
+   "height": 768,
+   "id": "fungi_structure",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_diversity",
+     "section": "12.3"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.2"
+    }
+   ],
+   "sha256": "7ba2564e0b994ef19c5b358cfc96d2eaf5532789b59616a802d65a15dd4e490d",
+   "width": 1408
+  },
+  {
+   "bytes": 26634,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/gametes_cycle_pregnancy.webp",
+   "height": 768,
+   "id": "gametes_cycle_pregnancy",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.8"
+    }
+   ],
+   "sha256": "a6186d0eb2fdbc171807eb7a3d19dc5b2f8ae0233b40174256e1226044e075ec",
+   "width": 1408
+  },
+  {
+   "bytes": 13580,
+   "credit": "",
+   "file": "rx/genetics_dna--1.webp",
+   "height": 698,
+   "id": "genetics_dna--1",
+   "labels": 1,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.2"
+    }
+   ],
+   "sha256": "9e5d16ebd33c15ae6cecc7838abfdc651ee9d2d88a805983974d93e124d8a575",
+   "width": 1258
+  },
+  {
+   "bytes": 20096,
+   "credit": "",
+   "file": "rx/genetics_dna--2.webp",
+   "height": 698,
+   "id": "genetics_dna--2",
+   "labels": 1,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.5"
+    }
+   ],
+   "sha256": "98a0ad0be1c2656e5ad9fb5267dec1025562d6ca8e0b1a654e36e06a840abaec",
+   "width": 1258
+  },
+  {
+   "bytes": 21318,
+   "credit": "",
+   "file": "rx/genetics_dna--3.webp",
+   "height": 698,
+   "id": "genetics_dna--3",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.5"
+    }
+   ],
+   "sha256": "b323e1ddc8e6197dd5e114bd1a0ecb1633643f607b51e2bc4f66384c86a7ee2e",
+   "width": 1258
+  },
+  {
+   "bytes": 27950,
+   "credit": "",
+   "file": "rx/genetics_dna--4.webp",
+   "height": 698,
+   "id": "genetics_dna--4",
+   "labels": 1,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.3"
+    }
+   ],
+   "sha256": "1b3a58d89c4e2f58e106da8fd290697168b8cbffbd7d898f0999a15a35b77e25",
+   "width": 1258
+  },
+  {
+   "bytes": 27966,
+   "credit": "",
+   "file": "rx/genetics_dna--5.webp",
+   "height": 698,
+   "id": "genetics_dna--5",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.3"
+    }
+   ],
+   "sha256": "0b38a72c95b808e621b35ab069ff1237b67b816ea1d753cde223158dba69c3d9",
+   "width": 1258
+  },
+  {
+   "bytes": 67336,
+   "credit": "",
+   "file": "rx/genetics_dna.webp",
+   "height": 768,
+   "id": "genetics_dna",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.1"
+    },
+    {
+     "chapter": "c10_heredity",
+     "section": "8.3"
+    }
+   ],
+   "sha256": "60f4b199d575b35b5422a85c6152b195747a993259b194b8b230d3b4cfb1a3bd",
+   "width": 1408
+  },
+  {
+   "bytes": 29256,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/heterotrophic_nutrition_modes.webp",
+   "height": 768,
+   "id": "heterotrophic_nutrition_modes",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.3"
+    }
+   ],
+   "sha256": "49bbc8a77e9bcd372f3067772852a62bc3c774730f00fe63178604e7db8e58f4",
+   "width": 1408
+  },
+  {
+   "bytes": 32458,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/hiv_immunity_health.webp",
+   "height": 768,
+   "id": "hiv_immunity_health",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.9"
+    }
+   ],
+   "sha256": "7f795cd643bb494f64a9c78c6e4ef29dcc0197cabd29a6cf68c119d6d266947f",
+   "width": 1408
+  },
+  {
+   "bytes": 27974,
+   "credit": "",
+   "file": "rx/hookes_law_spring.webp",
+   "height": 768,
+   "id": "hookes_law_spring",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.2"
+    },
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.4"
+    }
+   ],
+   "sha256": "8678b6b0285735c7b9ea5466059e37af694ae7e25a8e967ec03dba57f9c3106b",
+   "width": 1408
+  },
+  {
+   "bytes": 34210,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/hormonal_feedback_loop.webp",
+   "height": 768,
+   "id": "hormonal_feedback_loop",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.8"
+    }
+   ],
+   "sha256": "44e48ad4881b205b2badb4e8d829ff79dab883bb2af26484f01627fec07cc3e1",
+   "width": 1408
+  },
+  {
+   "bytes": 59208,
+   "credit": "",
+   "file": "rx/human_evolution.webp",
+   "height": 768,
+   "id": "human_evolution",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_heredity",
+     "section": "8.7"
+    }
+   ],
+   "sha256": "2c1112bca247021e54e18286e92221d1b80fbd855f2aaa5c9ab38cde975b4431",
+   "width": 1408
+  },
+  {
+   "bytes": 12722,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/human_eye_anatomy--3.webp",
+   "height": 698,
+   "id": "human_eye_anatomy--3",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.2"
+    }
+   ],
+   "sha256": "848f0da9bc27498311081bc6425dc9ec787316bec611f12047a42c76d94ebada",
+   "width": 1258
+  },
+  {
+   "bytes": 11024,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/human_eye_anatomy--5.webp",
+   "height": 698,
+   "id": "human_eye_anatomy--5",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.1"
+    }
+   ],
+   "sha256": "8fb3efe1a1c5936dd63edee192ed2879a7d8c5cb49578a1aff3a9f881271938b",
+   "width": 1258
+  },
+  {
+   "bytes": 13664,
+   "credit": "",
+   "file": "rx/human_eye_anatomy--6.webp",
+   "height": 698,
+   "id": "human_eye_anatomy--6",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.3"
+    }
+   ],
+   "sha256": "558dd8ea31719fccf5efea2426109527fcc4466c6c42ba3b09b2a0013e4ca646",
+   "width": 1258
+  },
+  {
+   "bytes": 15976,
+   "credit": "",
+   "file": "rx/human_eye_anatomy--7.webp",
+   "height": 698,
+   "id": "human_eye_anatomy--7",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.3"
+    }
+   ],
+   "sha256": "52b60ad2e05a1b3fc2846995d8f5ea7982dc7c092bb367a96f0523ee39a8020f",
+   "width": 1258
+  },
+  {
+   "bytes": 13828,
+   "credit": "",
+   "file": "rx/human_eye_anatomy--8.webp",
+   "height": 698,
+   "id": "human_eye_anatomy--8",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.4"
+    }
+   ],
+   "sha256": "18d2f274dce38566985b8a26cb4f5a8a8139f0eaa43c91dd9da5a328565211b4",
+   "width": 1258
+  },
+  {
+   "bytes": 15054,
+   "credit": "",
+   "file": "rx/human_eye_anatomy--9.webp",
+   "height": 698,
+   "id": "human_eye_anatomy--9",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.4"
+    }
+   ],
+   "sha256": "086a29b3825d3a34473b69677d83edcb2348508b2fd954fe9e5388ce34b832d2",
+   "width": 1258
+  },
+  {
+   "bytes": 65272,
+   "credit": "",
+   "file": "rx/human_eye_anatomy.webp",
+   "height": 768,
+   "id": "human_eye_anatomy",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.1"
+    },
+    {
+     "chapter": "c10_eye",
+     "section": "10.2"
+    }
+   ],
+   "sha256": "7fc31c23f35754814844c339ba6c2624aca3400dd586cd518929344c1575194f",
+   "width": 1408
+  },
+  {
+   "bytes": 37486,
+   "credit": "",
+   "file": "rx/hydrogen_line_spectrum.webp",
+   "height": 768,
+   "id": "hydrogen_line_spectrum",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.6"
+    }
+   ],
+   "sha256": "b2806cf35eefdd5733042389ac2e3a69a8cd96eb2e0ea37b6815ed822e10e5cb",
+   "width": 1408
+  },
+  {
+   "bytes": 64894,
+   "credit": "",
+   "file": "rx/important_salts.webp",
+   "height": 768,
+   "id": "important_salts",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.7"
+    },
+    {
+     "chapter": "c10_acids",
+     "section": "2.8"
+    },
+    {
+     "chapter": "c10_acids",
+     "section": "2.9"
+    }
+   ],
+   "sha256": "5c6e8ca07771ef4fb70b53f5fcc16bcefd71e563fc6f3ca74e456ff441fa6ac8",
+   "width": 1408
+  },
+  {
+   "bytes": 80508,
+   "credit": "",
+   "file": "rx/indicators.webp",
+   "height": 768,
+   "id": "indicators",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.3"
+    }
+   ],
+   "sha256": "9fb4676ee73751a393e4320c593d4baee1cca1598fa11328cc4e091b658d9457",
+   "width": 1408
+  },
+  {
+   "bytes": 61562,
+   "credit": "",
+   "file": "rx/ionic_bond_nacl.webp",
+   "height": 768,
+   "id": "ionic_bond_nacl",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.4"
+    },
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.6"
+    },
+    {
+     "chapter": "c9_atoms",
+     "section": "2"
+    }
+   ],
+   "sha256": "836613638d306b2a1aa07f7ee12e382e9f7e3d4f23f74563a071661fa43ffcfa",
+   "width": 1408
+  },
+  {
+   "bytes": 31580,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/isotopes_and_isobars.webp",
+   "height": 768,
+   "id": "isotopes_and_isobars",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.9"
+    }
+   ],
+   "sha256": "9f4c7cb13b2d216379506db6d5492e09be618d3c584e083d9a6703629f3b0d2a",
+   "width": 1408
+  },
+  {
+   "bytes": 26342,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/iupac_carbon_naming.webp",
+   "height": 768,
+   "id": "iupac_carbon_naming",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.2.5"
+    }
+   ],
+   "sha256": "ca384d8cb2e07c40a19ed28d087949392054ecd34c6f027563a9a6268167255a",
+   "width": 1408
+  },
+  {
+   "bytes": 95688,
+   "credit": "",
+   "file": "rx/joule_heating.webp",
+   "height": 768,
+   "id": "joule_heating",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.7"
+    }
+   ],
+   "sha256": "bce5f996fbbe20c4fb285ac0580f7895aabdca2d3ef5d8af17ed726a48e45d0c",
+   "width": 1408
+  },
+  {
+   "bytes": 23684,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/law_constant_proportion.webp",
+   "height": 768,
+   "id": "law_constant_proportion",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.2"
+    }
+   ],
+   "sha256": "364a4faad4d7d64cec9b9952e41a80b39cd5b73ea5052eeb2f4582dec7cd7176",
+   "width": 1408
+  },
+  {
+   "bytes": 10478,
+   "credit": "",
+   "file": "rx/lens--1.webp",
+   "height": 698,
+   "id": "lens--1",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.3.3"
+    },
+    {
+     "chapter": "c10_light",
+     "section": "9.3.7"
+    },
+    {
+     "chapter": "c10_light",
+     "section": "9.3.8"
+    }
+   ],
+   "sha256": "382e252c359173a8ea5510ea7ec23fa27680673914149dca498fc411bdc27d9b",
+   "width": 1258
+  },
+  {
+   "bytes": 10828,
+   "credit": "",
+   "file": "rx/lens--2.webp",
+   "height": 698,
+   "id": "lens--2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.3.3"
+    },
+    {
+     "chapter": "c10_light",
+     "section": "9.3.8"
+    }
+   ],
+   "sha256": "7ad2a523d9277859739a73233763b81b17da079e2b8ec663e73df2186e5eb946",
+   "width": 1258
+  },
+  {
+   "bytes": 62184,
+   "credit": "",
+   "file": "rx/lens.webp",
+   "height": 768,
+   "id": "lens",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.3.3"
+    },
+    {
+     "chapter": "c10_light",
+     "section": "9.3.7"
+    }
+   ],
+   "sha256": "3d956a38d20e0feabfaf1a634463bb96cd67b5d973cecf498cf21bbf71138883",
+   "width": 1408
+  },
+  {
+   "bytes": 156408,
+   "credit": "",
+   "file": "rx/local_c10_env_13_1.webp",
+   "height": 768,
+   "id": "local_c10_env_13_1",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_env",
+     "section": "13.1"
+    }
+   ],
+   "sha256": "fb99fa8eb20e554a78f724a454118b4adf9915562c8b779b59209ce3aeddc6a8",
+   "width": 1408
+  },
+  {
+   "bytes": 71488,
+   "credit": "",
+   "file": "rx/local_c10_metals_3_8.webp",
+   "height": 768,
+   "id": "local_c10_metals_3_8",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.8"
+    }
+   ],
+   "sha256": "58037c1e7c9058f1608d3aed872b3e026c47514687505317b0dcc2531500d99c",
+   "width": 1408
+  },
+  {
+   "bytes": 155002,
+   "credit": "",
+   "file": "rx/local_c10_sources_s_2.webp",
+   "height": 768,
+   "id": "local_c10_sources_s_2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_sources",
+     "section": "S.2"
+    }
+   ],
+   "sha256": "fd391ba0c2c47c3256a4a0ddcd4bac691989a78e1e88979c3f8d0b701357ddb6",
+   "width": 1408
+  },
+  {
+   "bytes": 269952,
+   "credit": "",
+   "file": "rx/local_c10_sustainable_m_2.webp",
+   "height": 768,
+   "id": "local_c10_sustainable_m_2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_sustainable",
+     "section": "M.2"
+    }
+   ],
+   "sha256": "44c6c49e20ab364adc4d8833bbafdd684580b09f1ca259c9cc5948a576833859",
+   "width": 1408
+  },
+  {
+   "bytes": 92292,
+   "credit": "",
+   "file": "rx/local_c10_sustainable_m_3.webp",
+   "height": 768,
+   "id": "local_c10_sustainable_m_3",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_sustainable",
+     "section": "M.3"
+    }
+   ],
+   "sha256": "3dc8033a47edd0738021292e90f032f5e26554d3a35a5e3edf4846cf539a0370",
+   "width": 1408
+  },
+  {
+   "bytes": 199612,
+   "credit": "",
+   "file": "rx/local_c9_exploration_1_1.webp",
+   "height": 768,
+   "id": "local_c9_exploration_1_1",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.1"
+    }
+   ],
+   "sha256": "10c7e49f817b6d42015a4f1f0ae61fbaef6c6cbab3ecc76a583d5ce65988610c",
+   "width": 1408
+  },
+  {
+   "bytes": 111716,
+   "credit": "",
+   "file": "rx/local_c9_exploration_1_2.webp",
+   "height": 768,
+   "id": "local_c9_exploration_1_2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.2"
+    }
+   ],
+   "sha256": "a7d0590d33b776575ad7d05bad2689a26522b4153a340dbd721a48f799418ba8",
+   "width": 1408
+  },
+  {
+   "bytes": 189446,
+   "credit": "",
+   "file": "rx/local_c9_exploration_1_4.webp",
+   "height": 768,
+   "id": "local_c9_exploration_1_4",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.4"
+    }
+   ],
+   "sha256": "f35c3bf1ea663b5aa1ff16587c22ffb3fdcb6599097c56a2435d85374d6d8f54",
+   "width": 1408
+  },
+  {
+   "bytes": 144168,
+   "credit": "",
+   "file": "rx/local_c9_exploration_1_6.webp",
+   "height": 768,
+   "id": "local_c9_exploration_1_6",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.6"
+    }
+   ],
+   "sha256": "98f6b7765d9a423bc52f71df8f8e8f347276a145eba82fb7b9926219bafa41e4",
+   "width": 1408
+  },
+  {
+   "bytes": 42270,
+   "credit": "",
+   "file": "rx/local_c9_forces_6_3.webp",
+   "height": 768,
+   "id": "local_c9_forces_6_3",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.3"
+    }
+   ],
+   "sha256": "4524bf2bfa94ac72af8a79c18e99838d6fb5afcbb4d7a6f54a86be61566bf5eb",
+   "width": 1408
+  },
+  {
+   "bytes": 40696,
+   "credit": "",
+   "file": "rx/local_c9_mixtures_5_2.webp",
+   "height": 768,
+   "id": "local_c9_mixtures_5_2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.2"
+    }
+   ],
+   "sha256": "53228cda8a3aa70f28ec7c26fd1fc47be65fba6b5b969fa953e6f5cc0d2fdcb5",
+   "width": 1408
+  },
+  {
+   "bytes": 64884,
+   "credit": "",
+   "file": "rx/local_c9_work_energy_7_7.webp",
+   "height": 768,
+   "id": "local_c9_work_energy_7_7",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.7"
+    }
+   ],
+   "sha256": "4b6653dc007df6d7ff71c3e96c04b57a29798c91cfad495fb9100a43bbce3ebc",
+   "width": 1408
+  },
+  {
+   "bytes": 5730,
+   "credit": "",
+   "file": "rx/magnetic_field_lines--1.webp",
+   "height": 698,
+   "id": "magnetic_field_lines--1",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.1"
+    }
+   ],
+   "sha256": "de2bce03c520c331cd3f34da0efa3f12e4c2d33d59cc9b31ed574c598d0e1708",
+   "width": 1258
+  },
+  {
+   "bytes": 4242,
+   "credit": "",
+   "file": "rx/magnetic_field_lines--2.webp",
+   "height": 698,
+   "id": "magnetic_field_lines--2",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.1"
+    }
+   ],
+   "sha256": "2e8662ace1401513ebd5eb62593a041c92736b3229132dc337363c706ca77c07",
+   "width": 1258
+  },
+  {
+   "bytes": 253012,
+   "credit": "",
+   "file": "rx/magnetic_field_lines.webp",
+   "height": 768,
+   "id": "magnetic_field_lines",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.1"
+    }
+   ],
+   "sha256": "badd63e4aa65b1e4275dcfca7ab279fc4c80afa4edd6ec482ae25dfc2590c753",
+   "width": 1408
+  },
+  {
+   "bytes": 36768,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/major_animal_divisions.webp",
+   "height": 768,
+   "id": "major_animal_divisions",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_diversity",
+     "section": "12.5"
+    }
+   ],
+   "sha256": "fd0d4fc38134afbf80c368bccbdc43a03fa1ba1fcee224e8247e21ac9d1a8f8a",
+   "width": 1408
+  },
+  {
+   "bytes": 39290,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/major_plant_divisions.webp",
+   "height": 768,
+   "id": "major_plant_divisions",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_diversity",
+     "section": "12.4"
+    }
+   ],
+   "sha256": "9f9f8d097c142be1717d8e85784a1b89bd61afeaab844ceac2271715294b5d15",
+   "width": 1408
+  },
+  {
+   "bytes": 17616,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/mass_by_mass_percent.webp",
+   "height": 768,
+   "id": "mass_by_mass_percent",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.5"
+    }
+   ],
+   "sha256": "7b9b33dfc77dc10e22dae5e678e9b60d317b3807bba2e417850e1f435dbe8a0b",
+   "width": 1408
+  },
+  {
+   "bytes": 52782,
+   "credit": "",
+   "file": "rx/measurement_si_units.webp",
+   "height": 768,
+   "id": "measurement_si_units",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.3"
+    }
+   ],
+   "sha256": "8700c05be70186eb06ed6e6c35b9d8cacd5fe941c9306d61070afc832814c3a9",
+   "width": 1408
+  },
+  {
+   "bytes": 17216,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/mechanical_power_watt.webp",
+   "height": 768,
+   "id": "mechanical_power_watt",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.7"
+    }
+   ],
+   "sha256": "5e171cdeb57921aed6ff85bf75a6ec9fd85fd2ee5b5571604e14a5880aa36875",
+   "width": 1408
+  },
+  {
+   "bytes": 35968,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/mendeleev_periodic_table.webp",
+   "height": 768,
+   "id": "mendeleev_periodic_table",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_periodic",
+     "section": "P.3"
+    }
+   ],
+   "sha256": "e72f779cf961236d481c52e4b4fa467aa648891b465f1ebe17bfd6dd751f8437",
+   "width": 1408
+  },
+  {
+   "bytes": 103254,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/meristematic_tissues.webp",
+   "height": 768,
+   "id": "meristematic_tissues",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.3"
+    }
+   ],
+   "sha256": "71cfa81a4194cb0f286bdddc1d3fa64842287b213e6a0ec59acdfd0e01f48861",
+   "width": 1408
+  },
+  {
+   "bytes": 76708,
+   "credit": "",
+   "file": "rx/metal_acid.webp",
+   "height": 768,
+   "id": "metal_acid",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.1"
+    },
+    {
+     "chapter": "c10_metals",
+     "section": "3.2"
+    }
+   ],
+   "sha256": "e339b7cd3f6393e98ffa288b3b74ea3d7a52e8ce5f3a5043669e3f345293ed88",
+   "width": 1408
+  },
+  {
+   "bytes": 111314,
+   "credit": "",
+   "file": "rx/metals_nonmetals.webp",
+   "height": 768,
+   "id": "metals_nonmetals",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.1"
+    }
+   ],
+   "sha256": "d4fc8e9d71f5eb4ff11dda19aef67cbd1fcae57e01da7aa466ec8e1c214d2d5a",
+   "width": 1408
+  },
+  {
+   "bytes": 17658,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/methane_chlorination_uv.webp",
+   "height": 768,
+   "id": "methane_chlorination_uv",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.3.4"
+    }
+   ],
+   "sha256": "6f7735057b4ce587514d7f2c61f71c3c3d9daac5ddfaac78b9d1e07e372954f7",
+   "width": 1408
+  },
+  {
+   "bytes": 87816,
+   "credit": "",
+   "file": "rx/micelle.webp",
+   "height": 768,
+   "id": "micelle",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_carbon",
+     "section": "4.5"
+    }
+   ],
+   "sha256": "2f23761fd8690bbf8ddcbd9d11f84b2cac169a056b7654f711868b1f084b7476",
+   "width": 1408
+  },
+  {
+   "bytes": 40848,
+   "credit": "",
+   "file": "rx/microscope_resolution.webp",
+   "height": 768,
+   "id": "microscope_resolution",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.1"
+    }
+   ],
+   "sha256": "a6493bf296b1802e89bb8754b9dd6fb3f042386fc3b40069da71576ef27748ba",
+   "width": 1408
+  },
+  {
+   "bytes": 26210,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/mirror_formula_magnification.webp",
+   "height": 768,
+   "id": "mirror_formula_magnification",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.2.4"
+    }
+   ],
+   "sha256": "17965bd4c425be2ce66121c29a61d69d8bf775aa1698d8134adcbf0cd6d80691",
+   "width": 1408
+  },
+  {
+   "bytes": 34032,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/modern_periodic_law.webp",
+   "height": 768,
+   "id": "modern_periodic_law",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_periodic",
+     "section": "P.4"
+    }
+   ],
+   "sha256": "d99ea92ed202d8b58991fd97c5cadde5a1df3194ffa3a2786d0ef74968dffc21",
+   "width": 1408
+  },
+  {
+   "bytes": 19506,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/molecular_mass_u.webp",
+   "height": 768,
+   "id": "molecular_mass_u",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.8"
+    }
+   ],
+   "sha256": "eb8c93472557759c2052b6faaa4472cbe67a06107b37225513d541858d7b1101",
+   "width": 1408
+  },
+  {
+   "bytes": 65854,
+   "credit": "",
+   "file": "rx/molecule.webp",
+   "height": 768,
+   "id": "molecule",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.4"
+    },
+    {
+     "chapter": "c9_atoms",
+     "section": "1"
+    }
+   ],
+   "sha256": "8d6d97a355a700ee242dc0fac1c9602af1cffae97d80f107a0e315e613c2b8f6",
+   "width": 1408
+  },
+  {
+   "bytes": 14764,
+   "credit": "",
+   "file": "rx/motion--1.webp",
+   "height": 698,
+   "id": "motion--1",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.4"
+    },
+    {
+     "chapter": "c9_motion",
+     "section": "4.6"
+    }
+   ],
+   "sha256": "7dd53c4e2d334b793c52689522615f6c92881affa3fc1e12de0cf69879e35dab",
+   "width": 1258
+  },
+  {
+   "bytes": 15166,
+   "credit": "",
+   "file": "rx/motion--2.webp",
+   "height": 698,
+   "id": "motion--2",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.5"
+    },
+    {
+     "chapter": "c9_motion",
+     "section": "4.7"
+    },
+    {
+     "chapter": "c9_motion",
+     "section": "4.8"
+    }
+   ],
+   "sha256": "9f1fa967b9b44dfa5a55dcca2d7dfba0ca0938619890e289ce2bcedc2ecb5480",
+   "width": 1258
+  },
+  {
+   "bytes": 14858,
+   "credit": "",
+   "file": "rx/motion--3.webp",
+   "height": 698,
+   "id": "motion--3",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.5"
+    }
+   ],
+   "sha256": "c71dad19f2d5042a18923aad21994a3146f9f0bd797a1d6a687f5bd7f0c60b2a",
+   "width": 1258
+  },
+  {
+   "bytes": 105714,
+   "credit": "",
+   "file": "rx/motion.webp",
+   "height": 768,
+   "id": "motion",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.1"
+    },
+    {
+     "chapter": "c9_motion",
+     "section": "4.3"
+    }
+   ],
+   "sha256": "bd33dfe5090efd89a70d0d15dc27e9117dab9e5a54addd95df1648dd571f3677",
+   "width": 1408
+  },
+  {
+   "bytes": 15156,
+   "credit": "",
+   "file": "rx/motor--1.webp",
+   "height": 698,
+   "id": "motor--1",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.5"
+    },
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.6"
+    }
+   ],
+   "sha256": "ae4b855cf2a049db995ec4b6976a0c25bec0dff0032688591f9c2d473540d3df",
+   "width": 1258
+  },
+  {
+   "bytes": 15132,
+   "credit": "",
+   "file": "rx/motor--2.webp",
+   "height": 698,
+   "id": "motor--2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.6"
+    }
+   ],
+   "sha256": "6ff1d5eab99dc7cb60e898ab7477c1d61cee22fbb13c56689fd30dcfddeb14bf",
+   "width": 1258
+  },
+  {
+   "bytes": 14966,
+   "credit": "",
+   "file": "rx/motor--3.webp",
+   "height": 698,
+   "id": "motor--3",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.6"
+    }
+   ],
+   "sha256": "17cf2ac950abf8cb0c5bb4be31eb8251f06f5aab6e73317135a1ba631fb9197d",
+   "width": 1258
+  },
+  {
+   "bytes": 98006,
+   "credit": "",
+   "file": "rx/motor.webp",
+   "height": 768,
+   "id": "motor",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.5"
+    },
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.9"
+    }
+   ],
+   "sha256": "12e3ef37b7a1eb0a5bc23014918173cf7307c6f1e5703b7ce8bef5873db7e2f4",
+   "width": 1408
+  },
+  {
+   "bytes": 18646,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/need_for_classification.webp",
+   "height": 768,
+   "id": "need_for_classification",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_diversity",
+     "section": "12.1"
+    }
+   ],
+   "sha256": "123cbb907d96820347aff1c176464f44d4ad3270ea84b321d8cda747cf547a1b",
+   "width": 1408
+  },
+  {
+   "bytes": 29948,
+   "credit": "",
+   "file": "rx/nervous_system--1.webp",
+   "height": 698,
+   "id": "nervous_system--1",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.3"
+    },
+    {
+     "chapter": "c9_tissues",
+     "section": "3.9"
+    }
+   ],
+   "sha256": "8a80d894cad26889f875f17844ba6a2328bb11e3241798c6aadc07a9101699cc",
+   "width": 1258
+  },
+  {
+   "bytes": 19834,
+   "credit": "",
+   "file": "rx/nervous_system--2.webp",
+   "height": 698,
+   "id": "nervous_system--2",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.3"
+    }
+   ],
+   "sha256": "1dc98369d35226af90c5654ba56cc3bd9267c0e29cf44209e0eb5ae36c12ff29",
+   "width": 1258
+  },
+  {
+   "bytes": 11328,
+   "credit": "",
+   "file": "rx/nervous_system--5.webp",
+   "height": 698,
+   "id": "nervous_system--5",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.4"
+    }
+   ],
+   "sha256": "106e43bbe3c95dd2b52bd6436fca81279874edec134a890e8cba6d049b9f3fb6",
+   "width": 1258
+  },
+  {
+   "bytes": 124118,
+   "credit": "",
+   "file": "rx/nervous_system.webp",
+   "height": 768,
+   "id": "nervous_system",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.3"
+    },
+    {
+     "chapter": "c10_control",
+     "section": "6.4"
+    },
+    {
+     "chapter": "c10_control",
+     "section": "6.5"
+    }
+   ],
+   "sha256": "2f67b8959f6a0c2fed2acd6aa853d5475bd2fd7ba2f0f6df1bd14760050e3fc7",
+   "width": 1408
+  },
+  {
+   "bytes": 10248,
+   "credit": "",
+   "file": "rx/neutralisation--1.webp",
+   "height": 698,
+   "id": "neutralisation--1",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "c3846743317ff7187bdb6e84c71480033ccbc964363bcc1508d6dadfcbb0f7de",
+   "width": 1258
+  },
+  {
+   "bytes": 10448,
+   "credit": "",
+   "file": "rx/neutralisation--2.webp",
+   "height": 698,
+   "id": "neutralisation--2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "7131208580eed33c31045dc9652fc38482df80215c139e7cfabcf2d0586236fd",
+   "width": 1258
+  },
+  {
+   "bytes": 10694,
+   "credit": "",
+   "file": "rx/neutralisation--3.webp",
+   "height": 698,
+   "id": "neutralisation--3",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.6"
+    }
+   ],
+   "sha256": "1976fb0ea2ef9d0628e23f0ee44de5f74ec8a7017aada96b1543797c833e7581",
+   "width": 1258
+  },
+  {
+   "bytes": 63030,
+   "credit": "",
+   "file": "rx/neutralisation.webp",
+   "height": 768,
+   "id": "neutralisation",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "1d475064be71b82b214b9dba0af7020c67e0d5ab9f2f7a71390c3d85d93a7e30",
+   "width": 1408
+  },
+  {
+   "bytes": 31192,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/newlands_octaves.webp",
+   "height": 768,
+   "id": "newlands_octaves",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_periodic",
+     "section": "P.2"
+    }
+   ],
+   "sha256": "29bddc973d3538953808c0479e257578213bd6cc054a4edb08d687756dc8162d",
+   "width": 1408
+  },
+  {
+   "bytes": 6980,
+   "credit": "",
+   "file": "rx/newton_laws--1.webp",
+   "height": 698,
+   "id": "newton_laws--1",
+   "labels": 1,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.5"
+    }
+   ],
+   "sha256": "81ea2149c430c6b9ce9e3c9e96ad32287240761a2f88cf5f1813a5416fb2814d",
+   "width": 1258
+  },
+  {
+   "bytes": 6864,
+   "credit": "",
+   "file": "rx/newton_laws--2.webp",
+   "height": 698,
+   "id": "newton_laws--2",
+   "labels": 1,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.4"
+    },
+    {
+     "chapter": "c9_forces",
+     "section": "6.7"
+    }
+   ],
+   "sha256": "ebc902ae544de7132be2a38bf23914798fc6773de1a3f695af2c0d0498a96218",
+   "width": 1258
+  },
+  {
+   "bytes": 7462,
+   "credit": "",
+   "file": "rx/newton_laws--3.webp",
+   "height": 698,
+   "id": "newton_laws--3",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.8"
+    },
+    {
+     "chapter": "c9_forces",
+     "section": "6.9"
+    }
+   ],
+   "sha256": "962cfd3c7de310a00992cd08bbf59af231e57eed3b7befa2fe1fb03570e63f45",
+   "width": 1258
+  },
+  {
+   "bytes": 6910,
+   "credit": "",
+   "file": "rx/newton_laws--4.webp",
+   "height": 698,
+   "id": "newton_laws--4",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.6"
+    }
+   ],
+   "sha256": "b3764d9af24db9c468a9663fc151cb73840c298d386fb9087c6336bc1a9ec8a6",
+   "width": 1258
+  },
+  {
+   "bytes": 92994,
+   "credit": "",
+   "file": "rx/newton_laws.webp",
+   "height": 768,
+   "id": "newton_laws",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.1"
+    },
+    {
+     "chapter": "c9_forces",
+     "section": "6.6"
+    },
+    {
+     "chapter": "c9_forces",
+     "section": "6.7"
+    },
+    {
+     "chapter": "c9_forces",
+     "section": "6.8"
+    }
+   ],
+   "sha256": "8d41698cd83f906efdd6bb9bd97b7bcc930c786d14494ac658832514786dd889",
+   "width": 1408
+  },
+  {
+   "bytes": 109442,
+   "credit": "",
+   "file": "rx/ohm.webp",
+   "height": 768,
+   "id": "ohm",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_electricity",
+     "section": "11.3"
+    },
+    {
+     "chapter": "c10_electricity",
+     "section": "11.4"
+    }
+   ],
+   "sha256": "e27ece9708e779d2d2b63ba7127db2f53de6442c9eb26442d77301f4d7609175",
+   "width": 1408
+  },
+  {
+   "bytes": 101634,
+   "credit": "",
+   "file": "rx/osmosis_tonicity.webp",
+   "height": 768,
+   "id": "osmosis_tonicity",
+   "labels": 9,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "aeac5958425781f6ccfee03ed3d7c2955270c624bf91c903e239cedfa82df840",
+   "width": 1376
+  },
+  {
+   "bytes": 32380,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/periodic_table_trends.webp",
+   "height": 768,
+   "id": "periodic_table_trends",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_periodic",
+     "section": "P.5"
+    }
+   ],
+   "sha256": "4cc6f74194df619ae2208e205c08243cf378a2b0e521d225bcc6df7887adf989",
+   "width": 1408
+  },
+  {
+   "bytes": 12598,
+   "credit": "",
+   "file": "rx/ph--1.webp",
+   "height": 698,
+   "id": "ph--1",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.5"
+    }
+   ],
+   "sha256": "f25b0e06e73841975f59c170833a7dc4585201708409a3747c769d03f9a84e47",
+   "width": 1258
+  },
+  {
+   "bytes": 15292,
+   "credit": "",
+   "file": "rx/ph--2.webp",
+   "height": 698,
+   "id": "ph--2",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.3"
+    }
+   ],
+   "sha256": "cdd5d2ec713632edcd5df3bc9682f3fabc681a0de04f1b8ec77fdb8d6bd576e2",
+   "width": 1258
+  },
+  {
+   "bytes": 15720,
+   "credit": "",
+   "file": "rx/ph--3.webp",
+   "height": 698,
+   "id": "ph--3",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.2"
+    }
+   ],
+   "sha256": "99020d3f393c0279c43ad7ad107d5827152758ff0e68bc3a69feb00a85bb3f78",
+   "width": 1258
+  },
+  {
+   "bytes": 15404,
+   "credit": "",
+   "file": "rx/ph--4.webp",
+   "height": 698,
+   "id": "ph--4",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.6"
+    }
+   ],
+   "sha256": "851ef837e9074663413acd449b2e7a46fe89ee06cca129244f2a4670bea0ebac",
+   "width": 1258
+  },
+  {
+   "bytes": 67754,
+   "credit": "",
+   "file": "rx/ph.webp",
+   "height": 768,
+   "id": "ph",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_acids",
+     "section": "2.5"
+    },
+    {
+     "chapter": "c10_acids",
+     "section": "2.6"
+    }
+   ],
+   "sha256": "69278853dfb24d9e2aa08b9229eebabf59d3c37d5940acbfb5fb620238e69721",
+   "width": 1408
+  },
+  {
+   "bytes": 111472,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/phloem_translocation.webp",
+   "height": 768,
+   "id": "phloem_translocation",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.6"
+    }
+   ],
+   "sha256": "3ef282d3c457b4e032f3480cc931467ebe6d54438aa59586c1df467081b77288",
+   "width": 1408
+  },
+  {
+   "bytes": 109222,
+   "credit": "",
+   "file": "rx/photosynthesis.webp",
+   "height": 768,
+   "id": "photosynthesis",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.1"
+    },
+    {
+     "chapter": "c10_life",
+     "section": "5.2"
+    },
+    {
+     "chapter": "c9_cell",
+     "section": "2.7"
+    }
+   ],
+   "sha256": "3c12951391a5e51306f69cf846e1d72460ee91fde8e6872b71bed6f841e18cfd",
+   "width": 1408
+  },
+  {
+   "bytes": 123786,
+   "credit": "",
+   "file": "rx/plant_respiration.webp",
+   "height": 768,
+   "id": "plant_respiration",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.5"
+    }
+   ],
+   "sha256": "a085ae0cb1eeff6af61960da6e4eb40c8f9a1271300fcc1772b5e0985150267d",
+   "width": 1408
+  },
+  {
+   "bytes": 110692,
+   "credit": "",
+   "file": "rx/pollution.webp",
+   "height": 768,
+   "id": "pollution",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_env",
+     "section": "13.5"
+    },
+    {
+     "chapter": "c10_env",
+     "section": "13.6"
+    },
+    {
+     "chapter": "c9_earth",
+     "section": "13.9"
+    }
+   ],
+   "sha256": "dffe6d191fe43229470ff9ae8dfe29412ef00762e3b6a3c1a3f79fe07a509596",
+   "width": 1408
+  },
+  {
+   "bytes": 75982,
+   "credit": "",
+   "file": "rx/population.webp",
+   "height": 768,
+   "id": "population",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_env",
+     "section": "13.7"
+    },
+    {
+     "chapter": "c10_sustainable",
+     "section": "M.1"
+    }
+   ],
+   "sha256": "e6e51638fe7968f10c624666ed1c7be50b979be07c370cfb53339343edacadb1",
+   "width": 1408
+  },
+  {
+   "bytes": 18988,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/positive_negative_zero_work.webp",
+   "height": 768,
+   "id": "positive_negative_zero_work",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.2"
+    }
+   ],
+   "sha256": "2e6a590e4ede42bb83e096d17b3f2e3fc35c846fcd9da242c8ad5a2692d42376",
+   "width": 1408
+  },
+  {
+   "bytes": 118540,
+   "credit": "",
+   "file": "rx/prevent_corrosion.webp",
+   "height": 768,
+   "id": "prevent_corrosion",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.7"
+    }
+   ],
+   "sha256": "1f82c3dc49516fa1a6345b9b7ad86286c3ac3c0547669097e9d92d5a5188790b",
+   "width": 1408
+  },
+  {
+   "bytes": 38940,
+   "credit": "",
+   "file": "rx/pseudo_force.webp",
+   "height": 768,
+   "id": "pseudo_force",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.6"
+    }
+   ],
+   "sha256": "561a5c073caf9d34d8d0cb22e15b80180b458e06798073b6b52967287ab56722",
+   "width": 1408
+  },
+  {
+   "bytes": 22844,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/rainwater_harvesting_watershed.webp",
+   "height": 768,
+   "id": "rainwater_harvesting_watershed",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_sustainable",
+     "section": "M.3"
+    }
+   ],
+   "sha256": "ba4aa858a02a67c0406c561ce7524495c0214ae9d46f1912fa17ed58684a0094",
+   "width": 1408
+  },
+  {
+   "bytes": 12296,
+   "credit": "",
+   "file": "rx/reactivity--1.webp",
+   "height": 698,
+   "id": "reactivity--1",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.3"
+    }
+   ],
+   "sha256": "6df1efe556a05d304ba0662d12ea606e0c110b90d22c808b2086ae7eac697cdf",
+   "width": 1258
+  },
+  {
+   "bytes": 12548,
+   "credit": "",
+   "file": "rx/reactivity--3.webp",
+   "height": 698,
+   "id": "reactivity--3",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.3"
+    }
+   ],
+   "sha256": "73b8a722edd4ec114ac5080f9428519b6f326effa576e8af2aa2d9ce01cd423e",
+   "width": 1258
+  },
+  {
+   "bytes": 12530,
+   "credit": "",
+   "file": "rx/reactivity--4.webp",
+   "height": 698,
+   "id": "reactivity--4",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.3"
+    }
+   ],
+   "sha256": "2a0aa0512a1a20e29172243dd5d7285de422e785f4de798fa66f84ffc971b016",
+   "width": 1258
+  },
+  {
+   "bytes": 88310,
+   "credit": "",
+   "file": "rx/reactivity.webp",
+   "height": 768,
+   "id": "reactivity",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_metals",
+     "section": "3.3"
+    }
+   ],
+   "sha256": "9e0cb02507a3dca17dae3b8e42b5edc4c9beebe017ecb9379d847050b4995d41",
+   "width": 1408
+  },
+  {
+   "bytes": 48416,
+   "credit": "",
+   "file": "rx/recombinant_insulin.webp",
+   "height": 768,
+   "id": "recombinant_insulin",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.11"
+    }
+   ],
+   "sha256": "267f97c87cde5527d536e5f59f394971b0666c0ca72e881988bb38d0f5fecb58",
+   "width": 1408
+  },
+  {
+   "bytes": 66374,
+   "credit": "",
+   "file": "rx/redox_reaction.webp",
+   "height": 768,
+   "id": "redox_reaction",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_reactions",
+     "section": "1.7"
+    }
+   ],
+   "sha256": "5e545063f88be8b12c8f74cb3780ab8a7bfd255630a6a52a25d4f798f966c810",
+   "width": 1408
+  },
+  {
+   "bytes": 12872,
+   "credit": "",
+   "file": "rx/reflection--1.webp",
+   "height": 698,
+   "id": "reflection--1",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.2.1"
+    }
+   ],
+   "sha256": "7d7ef7c34ec27dca1ccaee64fafbd89b941f77e1c72a03934495e732bb89efe8",
+   "width": 1258
+  },
+  {
+   "bytes": 12958,
+   "credit": "",
+   "file": "rx/reflection--2.webp",
+   "height": 698,
+   "id": "reflection--2",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.2.2"
+    }
+   ],
+   "sha256": "571f4626c38bbac2ec7ee14a2634f0bd4af6780ff79549e4e4679029ef2e5ee2",
+   "width": 1258
+  },
+  {
+   "bytes": 104234,
+   "credit": "",
+   "file": "rx/reflection.webp",
+   "height": 768,
+   "id": "reflection",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.1"
+    },
+    {
+     "chapter": "c10_light",
+     "section": "9.2"
+    }
+   ],
+   "sha256": "420aee31a0940256f164ed69e482f73c5cb8614bef7aaa66435f73c8a790d19d",
+   "width": 1408
+  },
+  {
+   "bytes": 7288,
+   "credit": "",
+   "file": "rx/refraction--1.webp",
+   "height": 698,
+   "id": "refraction--1",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.3.1"
+    }
+   ],
+   "sha256": "5cf41396435e69708acb1b56c9b25646f64903f7817a6b700c7899b38722fc44",
+   "width": 1258
+  },
+  {
+   "bytes": 5516,
+   "credit": "",
+   "file": "rx/refraction--4.webp",
+   "height": 698,
+   "id": "refraction--4",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.3"
+    }
+   ],
+   "sha256": "7126d8b6ce52ace87ce62b577bdbb73ee86ef8826cdc9e3c0b38b1e7eb7edfa3",
+   "width": 1258
+  },
+  {
+   "bytes": 64672,
+   "credit": "",
+   "file": "rx/refraction.webp",
+   "height": 768,
+   "id": "refraction",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_light",
+     "section": "9.3"
+    },
+    {
+     "chapter": "c10_light",
+     "section": "9.3.1"
+    }
+   ],
+   "sha256": "295f27fc53fc9fa52a816401c62b044761ab33e90ca264d592a059ea8b2665b3",
+   "width": 1408
+  },
+  {
+   "bytes": 77350,
+   "credit": "",
+   "file": "rx/reproductive_system.webp",
+   "height": 768,
+   "id": "reproductive_system",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.5"
+    },
+    {
+     "chapter": "c10_repro",
+     "section": "7.6"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.7"
+    }
+   ],
+   "sha256": "6e6aabce46da779c684399f966fa9bbebb9e5f69f2caf28eb0daf0bb44031589",
+   "width": 1408
+  },
+  {
+   "bytes": 19022,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/respiratory_system--1.webp",
+   "height": 698,
+   "id": "respiratory_system--1",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.6"
+    }
+   ],
+   "sha256": "e7cd54b62ecaa112f4fb0f34279bd64571840199379978cd296bdc8b578a59cb",
+   "width": 1258
+  },
+  {
+   "bytes": 14862,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/respiratory_system--3.webp",
+   "height": 698,
+   "id": "respiratory_system--3",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.6"
+    }
+   ],
+   "sha256": "545b1c02165e8105ece4a2fa238e04aa647b0f0d3cc3f8b3be7cc77636514193",
+   "width": 1258
+  },
+  {
+   "bytes": 88864,
+   "credit": "",
+   "file": "rx/respiratory_system.webp",
+   "height": 768,
+   "id": "respiratory_system",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.6"
+    }
+   ],
+   "sha256": "02f4ab7b40528b85b8b19fc48b8f6c806f65f6e1cdc3fd5b12ac0d04e7c45500",
+   "width": 1408
+  },
+  {
+   "bytes": 28836,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/right_hand_thumb_rule.webp",
+   "height": 768,
+   "id": "right_hand_thumb_rule",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.3"
+    }
+   ],
+   "sha256": "8776e52056ab78f31f1e8c5b86e99e200efcf15fafd8ffbf0b92cbd5c3a83a30",
+   "width": 1408
+  },
+  {
+   "bytes": 60304,
+   "credit": "",
+   "file": "rx/rutherford_vs_bohr.webp",
+   "height": 768,
+   "id": "rutherford_vs_bohr",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.5"
+    },
+    {
+     "chapter": "c9_atom",
+     "section": "8.6"
+    }
+   ],
+   "sha256": "c17a5cd7025f7691fe6097dd9c7f7a157a0856bb0318866a65ec2cacd77aa87d",
+   "width": 1408
+  },
+  {
+   "bytes": 6968,
+   "credit": "",
+   "file": "rx/scattering_light--1.webp",
+   "height": 698,
+   "id": "scattering_light--1",
+   "labels": 2,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.7"
+    }
+   ],
+   "sha256": "36c42681913db62a33971ba181453b01da4444052cd528ffce71dcb00df5e96e",
+   "width": 1258
+  },
+  {
+   "bytes": 7098,
+   "credit": "",
+   "file": "rx/scattering_light--2.webp",
+   "height": 698,
+   "id": "scattering_light--2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.7"
+    }
+   ],
+   "sha256": "0f455fd288cadd3818ad4a6a2ae002c096a737764b8c47b8c39759ee5f9009a3",
+   "width": 1258
+  },
+  {
+   "bytes": 33980,
+   "credit": "",
+   "file": "rx/scattering_light.webp",
+   "height": 768,
+   "id": "scattering_light",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.7"
+    }
+   ],
+   "sha256": "7057530833cf16c20134faa84d96325418703d74739917affdf8cc61dc05d554",
+   "width": 1408
+  },
+  {
+   "bytes": 29334,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/science_math_tech_society.webp",
+   "height": 768,
+   "id": "science_math_tech_society",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.6"
+    }
+   ],
+   "sha256": "9776030758f079f67ae41a6b85318c5d47efd47a4a898ed33a9e4b681a371428",
+   "width": 1408
+  },
+  {
+   "bytes": 22824,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/science_observation_patterns.webp",
+   "height": 768,
+   "id": "science_observation_patterns",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.1"
+    }
+   ],
+   "sha256": "3456ae2d84a9924ea484c527f518de6ce70494be607a06e6ba3c2fea85d252f1",
+   "width": 1408
+  },
+  {
+   "bytes": 33108,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/scientific_models_unseen.webp",
+   "height": 768,
+   "id": "scientific_models_unseen",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_exploration",
+     "section": "1.5"
+    }
+   ],
+   "sha256": "f9a399dbc1f03f6b8808b280419b2b4a09c5f2cfdbacf645e6da6ab06161d032",
+   "width": 1408
+  },
+  {
+   "bytes": 10188,
+   "credit": "",
+   "file": "rx/sea_land_breeze--1.webp",
+   "height": 698,
+   "id": "sea_land_breeze--1",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.4"
+    }
+   ],
+   "sha256": "20715b619960a1a9aedf2a045d06fd30f9fcd449ef4ffae605cf319b113bcb00",
+   "width": 1258
+  },
+  {
+   "bytes": 10202,
+   "credit": "",
+   "file": "rx/sea_land_breeze--2.webp",
+   "height": 698,
+   "id": "sea_land_breeze--2",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.4"
+    }
+   ],
+   "sha256": "fd43e73d208def6766f26cfb3673ad41b580bfd40f03b4b41265bfacc6dbaea8",
+   "width": 1258
+  },
+  {
+   "bytes": 9782,
+   "credit": "",
+   "file": "rx/sea_land_breeze--3.webp",
+   "height": 698,
+   "id": "sea_land_breeze--3",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.4"
+    }
+   ],
+   "sha256": "9aac3dcf6a0e7338002ea160ddaaf97588eb531f9dd2687d7501e344dcaf4b8c",
+   "width": 1258
+  },
+  {
+   "bytes": 98756,
+   "credit": "",
+   "file": "rx/sea_land_breeze.webp",
+   "height": 768,
+   "id": "sea_land_breeze",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_earth",
+     "section": "13.4"
+    }
+   ],
+   "sha256": "0da4e7ab64f615a7216eac64cd407bec44743922638ea965a4eccb675dcdaf2e",
+   "width": 1408
+  },
+  {
+   "bytes": 48628,
+   "credit": "",
+   "file": "rx/seeds_germination.webp",
+   "height": 768,
+   "id": "seeds_germination",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.4"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.6"
+    }
+   ],
+   "sha256": "d6cb5449bb545c2c45d3ad8e342e042d94be41310d0b457e0dbe35e81bdaf493",
+   "width": 1408
+  },
+  {
+   "bytes": 80026,
+   "credit": "",
+   "file": "rx/separation.webp",
+   "height": 768,
+   "id": "separation",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.1"
+    },
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.7"
+    },
+    {
+     "chapter": "c9_pure",
+     "section": "1"
+    }
+   ],
+   "sha256": "d1def0153b4a39f9bc18dba07def2e0898b9f663d001aec93e0d3caf87f26444",
+   "width": 1408
+  },
+  {
+   "bytes": 78144,
+   "credit": "",
+   "file": "rx/simple_machines.webp",
+   "height": 768,
+   "id": "simple_machines",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.8"
+    },
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.9"
+    }
+   ],
+   "sha256": "db37bb6ec8e1eee7f400ebef5b87433e9046d6d26fce72a59861cc8122414d3e",
+   "width": 1408
+  },
+  {
+   "bytes": 85162,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/simple_permanent_tissues.webp",
+   "height": 768,
+   "id": "simple_permanent_tissues",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.4"
+    }
+   ],
+   "sha256": "f3f95484dc1a4187a484b399b1fd0c9f8a604f2f93fa5cea212b228f86ad9cc1",
+   "width": 1408
+  },
+  {
+   "bytes": 8218,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/skeleton_joint--1.webp",
+   "height": 698,
+   "id": "skeleton_joint--1",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.10"
+    }
+   ],
+   "sha256": "68010840b0dc327f931255fc0dacdaae42ce964223359ddeb3a3cc385aef4da1",
+   "width": 1258
+  },
+  {
+   "bytes": 10002,
+   "credit": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+   "file": "rx/skeleton_joint--2.webp",
+   "height": 698,
+   "id": "skeleton_joint--2",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.10"
+    }
+   ],
+   "sha256": "0141e81527c8304f383df94cf060b9475e5023324edbe801f2626fcc185a0af5",
+   "width": 1258
+  },
+  {
+   "bytes": 78762,
+   "credit": "",
+   "file": "rx/skeleton_joint.webp",
+   "height": 768,
+   "id": "skeleton_joint",
+   "labels": 7,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.10"
+    }
+   ],
+   "sha256": "2d19ff60284b76a1ea7833315ddde0044a1cfb27a3e17ee01cef740602c99911",
+   "width": 1408
+  },
+  {
+   "bytes": 164440,
+   "credit": "",
+   "file": "rx/skin.webp",
+   "height": 768,
+   "id": "skin",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.2"
+    }
+   ],
+   "sha256": "37f2eb9b1c811483237058c650349d29ebe84efca9e98968301e61259994c392",
+   "width": 1408
+  },
+  {
+   "bytes": 31552,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/solar_panel_and_cooker.webp",
+   "height": 768,
+   "id": "solar_panel_and_cooker",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_sources",
+     "section": "S.2"
+    }
+   ],
+   "sha256": "f770090dc27fab49d1bd8b61e0bbc7bb890cc13dfecd6ec96c62b3594a3c83a3",
+   "width": 1408
+  },
+  {
+   "bytes": 30106,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/solution_solute_solvent.webp",
+   "height": 768,
+   "id": "solution_solute_solvent",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.2"
+    }
+   ],
+   "sha256": "d1de3b87778bd3b1ba5f279665f6138d44197edb308fb56110fff9d5255e1bdf",
+   "width": 1408
+  },
+  {
+   "bytes": 21210,
+   "credit": "",
+   "file": "rx/sound--1.webp",
+   "height": 698,
+   "id": "sound--1",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_sound",
+     "section": "10.1"
+    },
+    {
+     "chapter": "c9_sound",
+     "section": "10.4"
+    },
+    {
+     "chapter": "c9_sound",
+     "section": "10.5"
+    },
+    {
+     "chapter": "c9_sound",
+     "section": "10.6"
+    },
+    {
+     "chapter": "c9_sound",
+     "section": "10.7"
+    }
+   ],
+   "sha256": "5aa7055c557c9710574a0fdd82fbc8a83b25d794f2d388a52e99626241af7869",
+   "width": 1258
+  },
+  {
+   "bytes": 16912,
+   "credit": "",
+   "file": "rx/sound--2.webp",
+   "height": 698,
+   "id": "sound--2",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_sound",
+     "section": "10.8"
+    }
+   ],
+   "sha256": "18ae8e8b8fbfed02de7c785d9c3354adfbe353c4a4cca42bfd17da88b83d2f3e",
+   "width": 1258
+  },
+  {
+   "bytes": 9758,
+   "credit": "",
+   "file": "rx/sound--3.webp",
+   "height": 698,
+   "id": "sound--3",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_sound",
+     "section": "10.2"
+    }
+   ],
+   "sha256": "b525f4c1d4773dfdb8df24f6eb0fb1d41344afc915fd3344679a3a3afef01a19",
+   "width": 1258
+  },
+  {
+   "bytes": 103498,
+   "credit": "",
+   "file": "rx/sound.webp",
+   "height": 768,
+   "id": "sound",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_sound",
+     "section": "10.1"
+    },
+    {
+     "chapter": "c9_sound",
+     "section": "10.3"
+    }
+   ],
+   "sha256": "70a10378378a4f5e01cf76badb079404395e8df551ad2f3fe519a64c6095cdf3",
+   "width": 1408
+  },
+  {
+   "bytes": 101902,
+   "credit": "",
+   "file": "rx/states.webp",
+   "height": 768,
+   "id": "states",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_matter",
+     "section": "1.1"
+    },
+    {
+     "chapter": "c9_matter",
+     "section": "1.3"
+    }
+   ],
+   "sha256": "a09c815dc11ea9c1afd32a437ebea6fe1eb199d8b26ef4205334584d21d917cd",
+   "width": 1408
+  },
+  {
+   "bytes": 24462,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/straight_conductor_field.webp",
+   "height": 768,
+   "id": "straight_conductor_field",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_magnetism",
+     "section": "12.2"
+    }
+   ],
+   "sha256": "1c4db0dae73880747f4f670dc7f3a4b9084387a10ae12c2619d9ef31c07c32ea",
+   "width": 1408
+  },
+  {
+   "bytes": 25574,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/symbols_valency_formulae.webp",
+   "height": 768,
+   "id": "symbols_valency_formulae",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.12"
+    }
+   ],
+   "sha256": "6a2eabb0743f154594dc399c0d37fe16b4ff720ac2877c0ea0d7a85eacb5002d",
+   "width": 1408
+  },
+  {
+   "bytes": 28280,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/taxonomic_hierarchy_ranks.webp",
+   "height": 768,
+   "id": "taxonomic_hierarchy_ranks",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_diversity",
+     "section": "12.7"
+    }
+   ],
+   "sha256": "630d1052c89dbc2f4d2f57b643a8047eb340cf12eb1b781444aa54d445de13e6",
+   "width": 1408
+  },
+  {
+   "bytes": 82206,
+   "credit": "",
+   "file": "rx/teeth.webp",
+   "height": 768,
+   "id": "teeth",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.4"
+    }
+   ],
+   "sha256": "eab2b8d6e7d1d66b6c712670e9ed00911f6e8b4ae74cc37d626966782d143741",
+   "width": 1408
+  },
+  {
+   "bytes": 23302,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/thomson_plum_pudding.webp",
+   "height": 768,
+   "id": "thomson_plum_pudding",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atom",
+     "section": "8.4"
+    }
+   ],
+   "sha256": "40accff524aa13364d9b92d4d58f44182bbd37bb4378205791879eb6e4e0dfbe",
+   "width": 1408
+  },
+  {
+   "bytes": 209678,
+   "credit": "",
+   "file": "rx/tissue_connective.webp",
+   "height": 768,
+   "id": "tissue_connective",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.8"
+    }
+   ],
+   "sha256": "37a2bc9ec481a291fa26e6a4920f22082abb2486c035fe6372dbf0d1e40ac9db",
+   "width": 1408
+  },
+  {
+   "bytes": 236344,
+   "credit": "",
+   "file": "rx/tissue_epithelial.webp",
+   "height": 768,
+   "id": "tissue_epithelial",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.1"
+    },
+    {
+     "chapter": "c9_tissues",
+     "section": "3.7"
+    }
+   ],
+   "sha256": "fb0c756745902da17ab4de03ddc38cc15eadd59aef1a72e415540202b9efa4b0",
+   "width": 1408
+  },
+  {
+   "bytes": 158380,
+   "credit": "",
+   "file": "rx/tissue_muscular.webp",
+   "height": 768,
+   "id": "tissue_muscular",
+   "labels": 3,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.9"
+    }
+   ],
+   "sha256": "39d20f012bce37396e4625b2f8ccd7c519326920e2f6c9ee5e75ab02d5450a97",
+   "width": 1408
+  },
+  {
+   "bytes": 232430,
+   "credit": "",
+   "file": "rx/tissue_nervous.webp",
+   "height": 768,
+   "id": "tissue_nervous",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.3"
+    },
+    {
+     "chapter": "c9_tissues",
+     "section": "3.9"
+    }
+   ],
+   "sha256": "ad4a5f1ee3aaa939d939fce89306fd208507041aee053ddcfb0dd9106bc86d92",
+   "width": 1408
+  },
+  {
+   "bytes": 157604,
+   "credit": "",
+   "file": "rx/transpiration.webp",
+   "height": 768,
+   "id": "transpiration",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_life",
+     "section": "5.7"
+    },
+    {
+     "chapter": "c9_tissues",
+     "section": "3.5"
+    }
+   ],
+   "sha256": "31b6b75ae905a43b38e00576cee641d4e725bf8c28f186611c1a3ec26aa6ca82",
+   "width": 1408
+  },
+  {
+   "bytes": 12236,
+   "credit": "",
+   "file": "rx/tyndall--1.webp",
+   "height": 698,
+   "id": "tyndall--1",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.4"
+    }
+   ],
+   "sha256": "0a829255b2f6a34e79c8fdd9befb89b0a0eee0440da46d07ea77a56a25584641",
+   "width": 1258
+  },
+  {
+   "bytes": 14488,
+   "credit": "",
+   "file": "rx/tyndall--2.webp",
+   "height": 698,
+   "id": "tyndall--2",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.7"
+    }
+   ],
+   "sha256": "257c775b5809184f2ad5dfe16a70329b5e7470f1a399116df637d26cf4aeba1d",
+   "width": 1258
+  },
+  {
+   "bytes": 13372,
+   "credit": "",
+   "file": "rx/tyndall--3.webp",
+   "height": 698,
+   "id": "tyndall--3",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.3"
+    }
+   ],
+   "sha256": "d9903ab8d559644fc47fef8e158d1332b8a19b33979a3b0b19366c62db4d2981",
+   "width": 1258
+  },
+  {
+   "bytes": 63890,
+   "credit": "",
+   "file": "rx/tyndall.webp",
+   "height": 768,
+   "id": "tyndall",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_eye",
+     "section": "10.7"
+    },
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.4"
+    },
+    {
+     "chapter": "c9_pure",
+     "section": "2"
+    }
+   ],
+   "sha256": "c0c61e97641d9d7b84c9a1c248e53d3f7ef74c7ea90412e68b2d408e420d8b09",
+   "width": 1408
+  },
+  {
+   "bytes": 151958,
+   "credit": "",
+   "file": "rx/vegetative_propagation.webp",
+   "height": 768,
+   "id": "vegetative_propagation",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c10_repro",
+     "section": "7.3"
+    },
+    {
+     "chapter": "c9_reproduction9",
+     "section": "11.3"
+    }
+   ],
+   "sha256": "c5d0cdcdfdb3e213f121722be897502b470ac5ebd6da91c9c9dec6461a0289fe",
+   "width": 1408
+  },
+  {
+   "bytes": 27772,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/voluntary_involuntary_actions.webp",
+   "height": 768,
+   "id": "voluntary_involuntary_actions",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_control",
+     "section": "6.6"
+    }
+   ],
+   "sha256": "fe1cf1834f83d52419bce0b7c54bde0a2f59d03589836236428d3fad1daca469",
+   "width": 1408
+  },
+  {
+   "bytes": 19300,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/wind_hydro_tidal_turbines.webp",
+   "height": 768,
+   "id": "wind_hydro_tidal_turbines",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c10_sources",
+     "section": "S.3"
+    }
+   ],
+   "sha256": "8434daa212bd99a713f2edf4fccbb501100f18dddb0827a720783b3bc7792ec6",
+   "width": 1408
+  },
+  {
+   "bytes": 96802,
+   "credit": "",
+   "file": "rx/work_energy.webp",
+   "height": 768,
+   "id": "work_energy",
+   "labels": 6,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.1"
+    },
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.3"
+    },
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.6"
+    }
+   ],
+   "sha256": "9b4a1c1a89e94ec011e3186758750d2367d10236b61e5596341c03d2767df044",
+   "width": 1408
+  },
+  {
+   "bytes": 15622,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/work_energy_theorem_cart.webp",
+   "height": 768,
+   "id": "work_energy_theorem_cart",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.5"
+    }
+   ],
+   "sha256": "23ec4e2b1adcc11999b1fac27aaac409209b4cd665f12068d622957ea95341ee",
+   "width": 1408
+  },
+  {
+   "bytes": 28720,
+   "credit": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+   "file": "rx/writing_chemical_formulae.webp",
+   "height": 768,
+   "id": "writing_chemical_formulae",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_atomic_foundations",
+     "section": "9.7"
+    }
+   ],
+   "sha256": "3a4ff819b94092e44879b93e4d25fb8a38bd42c48c8e768949f16d6772d58943",
+   "width": 1408
+  }
+ ],
+ "schema": "anvexia/plate-approval/v1",
+ "scope": "All realistic 2D plates shown by the 2D-only reader.",
+ "summary": {
+  "bytes": 15944468,
+  "chapters": 33,
+  "creditsRecorded": 81,
+  "dimensions": {
+   "1258x698": 78,
+   "1376x768": 2,
+   "1408x768": 198
+  },
+  "labels": 1246,
+  "plates": 278,
+  "sections": 266,
+  "uniqueSha256": 278
+ }
+}
