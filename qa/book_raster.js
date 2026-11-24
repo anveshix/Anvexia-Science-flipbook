@@ -15,6 +15,14 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
     args: ['--no-sandbox', '--disable-dev-shm-usage', '--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader']
   });
   const page = await browser.newPage({viewport: {width: 1280, height: 900}});
+  await page.addInitScript(() => {
+    window.__rasterDraws = [];
+    const original = CanvasRenderingContext2D.prototype.drawImage;
+    CanvasRenderingContext2D.prototype.drawImage = function(image, ...args) {
+      if (image instanceof HTMLImageElement && /\/assets\/2d\/rx\//.test(image.src)) window.__rasterDraws.push(image.src);
+      return original.call(this, image, ...args);
+    };
+  });
   const errors = [];
   page.on('pageerror', e => errors.push(e.message));
   async function assertRaster(label) {
@@ -45,7 +53,58 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
     await page.locator('#classCardIX').click();
     await page.locator('#ldList [data-ch]').first().click();
     await assertRaster('library chapter entry');
+
+    // A saved studio theme used to leave a raised model visible in 2D mode
+    // and paint only a grid on the page/turning leaf instead of the image.
+    await page.evaluate(() => localStorage.setItem('eduverse-theme-v1', 'studio'));
+    await page.goto(base + '?mode=3d&world=c10_light', {waitUntil: 'load'});
+    await assertRaster('saved studio theme');
+    await page.waitForFunction(() => window.__rasterDraws.some(s => s === document.querySelector('#aiDraftImage').src), null, {timeout: 30000});
+    assert.strictEqual(await page.evaluate(() => WORLD.boardDebug().popupVisible), false, 'studio 2D must not show a raised 3D model');
+    await page.evaluate(() => WORLD.startTurn(1));
+    await page.waitForFunction(() => WORLD.index === 1 && !WORLD.turning, null, {timeout: 30000});
+    await assertRaster('studio page turn');
+    await page.waitForFunction(() => window.__rasterDraws.some(s => s === document.querySelector('#aiDraftImage').src), null, {timeout: 30000});
+    assert.strictEqual(await page.evaluate(() => WORLD.boardDebug().popupVisible), false, 'page turn must not restore 3D model in 2D mode');
+    await page.locator('#plate3d').click();
+    assert.strictEqual(await page.evaluate(() => WORLD.boardDebug().popupVisible), true, 'explicit studio 3D selection restores the model');
+    await page.locator('#btn3d').click();
+    assert.strictEqual(await page.evaluate(() => EV.ultra), true, 'ULTRA 3D must remain available');
+    await page.locator('#plate2d').click();
+    await assertRaster('2D after ULTRA');
+    assert.strictEqual(await page.evaluate(() => !EV.ultra && !WORLD.boardDebug().popupVisible), true, '2D selection must exit ULTRA');
+
+    // A failed image request must be reported, and clicking 2D must retry
+    // both the overlay and the page texture rather than retaining a failure.
+    const blocked = '**/assets/2d/rx/covalent.webp';
+    await page.route(blocked, route => route.fulfill({status: 404, body: 'missing'}));
+    await page.goto(base + '?mode=3d&world=c10_carbon', {waitUntil: 'domcontentloaded'});
+    await page.waitForFunction(() => document.querySelector('#toast.show')?.textContent.includes('Image unavailable'), null, {timeout: 30000});
+    await page.unroute(blocked);
+    await page.locator('#plate2d').click();
+    await assertRaster('retry after failed image request');
+    await page.waitForFunction(() => window.__rasterDraws.some(s => s === document.querySelector('#aiDraftImage').src), null, {timeout: 30000});
+
+    // The same WebP belongs to two chapters. Hold its first request while
+    // navigating between them; the shared cache must repaint the new page.
+    let releaseImage, signalStarted;
+    const hold = new Promise(resolve => { releaseImage = resolve; });
+    const started = new Promise(resolve => { signalStarted = resolve; });
+    await page.route(blocked, async route => { signalStarted(); await hold; await route.continue(); });
+    try {
+      await page.goto(base + '?mode=3d&world=c10_carbon', {waitUntil: 'domcontentloaded'});
+      await Promise.race([started, new Promise((_, reject) => setTimeout(() => reject(new Error('shared image request did not start')), 30000))]);
+      await page.evaluate(() => {
+        openChapter('c9_atomic_foundations');
+        const idx = EV.world.spreads.findIndex(sp => sp.section === '9.5');
+        if (idx < 0) throw new Error('shared image test spread not found');
+        WORLD.jumpTo(idx);
+      });
+      releaseImage();
+      await assertRaster('delayed shared image after chapter change');
+      await page.waitForFunction(() => window.__rasterDraws.some(s => s === document.querySelector('#aiDraftImage').src), null, {timeout: 30000});
+    } finally { releaseImage(); await page.unroute(blocked); }
     assert.deepStrictEqual(errors, []);
-    console.log('PASS book_raster: deep link, library entry, navigation, chapter change and explicit 3D preference');
+    console.log('PASS book_raster: entry, navigation, studio textures, mode controls, failed retry and delayed shared image');
   } finally { await page.close(); await browser.close(); }
 })().catch(e => { console.error(e); process.exit(1); });
