@@ -25,7 +25,7 @@ const WORLD = (function () {
   let repaintQueued = false;
   function queueRepaint() {
     if (repaintQueued) return; repaintQueued = true;
-    requestAnimationFrame(() => { repaintQueued = false; if (TH()) repaintPages(); });
+    requestAnimationFrame(() => { repaintQueued = false; repaintPages(); });
   }
   let worldGroup, bookGroup, paperRoot, metaRoot, popupRoot, apparatusRoot, leaf, leftPage, rightPage, leafFront, leafBack, turnShadow;
   /* R6 · the right page is a LIVE WebGLRenderTarget of the real 3D apparatus,
@@ -106,7 +106,9 @@ const WORLD = (function () {
        stable. Read / explore shots and the studio theme restore the 3D model
        untouched — nothing is deleted. */
     const flat = !!(board && TH() && view === "book" && !ultra);
-    popupRoot.visible = !flat && !turning;
+    /* A selected topic plate owns the page in every theme and camera angle.
+       ULTRA is an explicit request to show the raised model instead. */
+    popupRoot.visible = !flat && !turning && !(view === "book" && plate2d && !ultra);
     [apparatusRoot, popupRoot].forEach(root => {
       if (!root) return;
       root.traverse(o => {
@@ -991,7 +993,9 @@ const WORLD = (function () {
         if (typeof Image === "undefined") return null;
         const img = new Image(); e = { img, ok: false }; cache.set(src, e);
         img.decoding = "async";
-        img.onload = () => { e.ok = true; if (world === currentWorld) queueRepaint(); };
+        /* Shared images can finish after a chapter switch. A later chapter
+           may use the same cached image, so repaint the current page too. */
+        img.onload = () => { e.ok = true; if (currentWorld && plate2d) queueRepaint(); };
         img.onerror = () => { e.ok = false; e.failed = true; };
         img.src = src;
       }
@@ -1001,7 +1005,10 @@ const WORLD = (function () {
       if (!world) return;
       for (const i of [idx, idx + 1, idx - 1, idx + 2]) if (world.spreads[i]) get(world, world.spreads[i]);
     }
-    return { get, warm, has: (w, sp) => !!fileFor(w, sp) };
+    function retryFailed() {
+      for (const [src, entry] of cache) if (entry.failed) cache.delete(src);
+    }
+    return { get, warm, retryFailed, has: (w, sp) => !!fileFor(w, sp) };
   })();
   function drawRasterPlate(x, sp, img, X, Y, W, H) {
     x.save();
@@ -1231,15 +1238,21 @@ const WORLD = (function () {
   function drawRight(sp, world, num) {
     if (TH()) return classroomRight(sp, world, num);
     const { c, x } = pageCanvas(), hi = lang === "hi", both = lang === "both";
-    head(x, world, sp, both ? "POP-UP · 3D" : "POP-UP", num);
-    x.strokeStyle = "#d8ccae";     x.strokeStyle = "#d8ccae"; x.lineWidth = 2; x.setLineDash([7, 9]);
-    x.strokeRect(96, 190, 708, 690); x.setLineDash([]);
-    x.fillStyle = "#c1b491"; x.font = "italic 26px Georgia, 'Noto Sans Devanagari Embedded', serif"; x.textAlign = "center";
-    x.fillText(both ? "यहाँ से 3D मॉडल उठता है · the 3D model rises here" : (hi ? "यहाँ से 3D मॉडल उठता है" : "the 3D model rises from this page"), 450, 550);
-    x.strokeStyle = "#cbbf9f"; x.lineWidth = 2;
-    for (let i = 0; i < 7; i++) { x.beginPath(); x.moveTo(150 + i * 100, 250); x.lineTo(150 + i * 100, 830); x.stroke(); }
-    for (let i = 0; i < 7; i++) { x.beginPath(); x.moveTo(120, 250 + i * 95); x.lineTo(780, 250 + i * 95); x.stroke(); }
-    x.textAlign = "left";
+    head(x, world, sp, plate2d ? (both ? "FIGURE · चित्र" : "FIGURE") : (both ? "POP-UP · 3D" : "POP-UP"), num);
+    if (plate2d) {
+      /* Use the same viewport as the overlay and classroom texture, including
+         the leaf during a page turn. The studio placeholder is for 3D only. */
+      figurePlate(x, sp, 96, 196, 708, 610);
+    } else {
+      x.strokeStyle = "#d8ccae"; x.lineWidth = 2; x.setLineDash([7, 9]);
+      x.strokeRect(96, 190, 708, 690); x.setLineDash([]);
+      x.fillStyle = "#c1b491"; x.font = "italic 26px Georgia, 'Noto Sans Devanagari Embedded', serif"; x.textAlign = "center";
+      x.fillText(both ? "यहाँ से 3D मॉडल उठता है · the 3D model rises here" : (hi ? "यहाँ से 3D मॉडल उठता है" : "the 3D model rises from this page"), 450, 550);
+      x.strokeStyle = "#cbbf9f"; x.lineWidth = 2;
+      for (let i = 0; i < 7; i++) { x.beginPath(); x.moveTo(150 + i * 100, 250); x.lineTo(150 + i * 100, 830); x.stroke(); }
+      for (let i = 0; i < 7; i++) { x.beginPath(); x.moveTo(120, 250 + i * 95); x.lineTo(780, 250 + i * 95); x.stroke(); }
+      x.textAlign = "left";
+    }
     if (both) {
       x.fillStyle = "#8a6a2f"; x.font = "600 21px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
       x.fillText("FIGURE · चित्र", 96, 898);
@@ -1773,7 +1786,7 @@ const WORLD = (function () {
     if (typeof EVFSM !== "undefined") { EVFSM.transition("pageTurn", "FINISH", { t: 1 }); EVFSM.transition("pageTurn", "SETTLE", {}); }
     const d = turning; turning = null;
     leaf.visible = false; leftPage.visible = true; rightPage.visible = true; turnShadow.visible = false;
-    popupRoot.visible = !(shot === "board" && view === "book" && TH() && !ultra);
+    tunePopupForBoard(shot === "board" && view === "book");
     if (!d.commit) return;                          /* cancelled drag: pages never changed */
     spreadIndex = d.to;
     if (figurePlane) figurePlane.material.opacity = 0;      /* live figure fades in over the new page */
@@ -2247,6 +2260,7 @@ const WORLD = (function () {
   }
   function setPlate2D(v) {
     plate2d = !!v && plate2dAvailable(currentWorld);
+    tunePopupForBoard(shot === "board" && view === "book");
     if (figurePlane) figurePlane.visible = false;
     if (typeof EVFSM !== "undefined") {
       EVFSM.observe("figureMode", plate2d ? "plate2d" : figureMode, "world.js:setPlate2D");
@@ -2283,6 +2297,7 @@ const WORLD = (function () {
     refresh() { repaintPages(); },
     setWide, setBoardText, boardMetrics, boardAudit, spreadAudit, setFigureMode, setUltra,
     setPlate2D, plate2dAvailable, vectorPlate2dAvailable, plate2dKeys, zoomSnapshot, draftPlateCorners,
+    retryRaster() { RASTER.retryFailed(); repaintPages(); },
     figure3d() { return FIGURE3D.stats(); },
     boardScreenCorners() {
       if (!camera || !paperRoot || !canvas) return [];

@@ -514,6 +514,11 @@ function setPlateView(v) {
     toastKey("plate2d.soon", "This 2D chapter is in a later phase.");
     return;
   }
+  /* An explicit 2D selection must actually reveal the illustration, even if
+     the user previously enabled the raised 3D or precision diagram view. */
+  if (on && EV.ultra) applyUltra(false);
+  if (on && EV.precision) { EV.precision = false; applyPrecision(); }
+  if (on) WORLD.retryRaster(); // allow an explicit retry after a failed image request
   EV.prefer2d = on;
   /* Idempotent: clicking the already-selected segment must not create a
      rejected FSM transition. The adapter and WORLD setter stay authoritative. */
@@ -1729,14 +1734,24 @@ const EVRASTER = (() => {
     const note=(EV.world.id==='c9_atom' || EV.world.id==='c9_atomic_foundations' || EV.world.id==='c9_sound' || EV.world.id==='c9_reproduction9' || EV.world.id==='c9_diversity' || EV.world.id==='c9_earth' || EV.world.id==='c10_reactions' || EV.world.id==='c10_acids' || EV.world.id==='c10_metals' || EV.world.id==='c10_life' || EV.world.id==='c10_heredity' || EV.world.id==='c10_env' || EV.world.id==='c10_control' || EV.world.id==='c10_sources' || EV.world.id==='c10_sustainable' || EV.world.id==='c9_exploration' || EV.world.id==='c9_matter' || EV.world.id==='c10_repro' || EV.world.id==='c10_carbon' || EV.world.id==='c10_periodic' || EV.world.id==='c10_light' || EV.world.id==='c10_eye' || EV.world.id==='c10_electricity' || EV.world.id==='c10_magnetism' || EV.world.id==='c9_pure' || EV.world.id==='c9_atoms' || EV.world.id==='c9_disease') && atomNotes[file];
     $('aiDraftTitle').textContent=description; img.alt=description+(note ? ' — '+BI(note[0],note[1]) : '');
     const src=EVPLATE_SRC(EV.world.id,file), probe=new Image();
+    const failed = () => {
+      if(number!==token || !validContext()) return;
+      ready=false; hide();
+      if(!WORLD.vectorPlate2dAvailable(EV.world)) {
+        setPlateView('3d');
+        toast('Image unavailable; live 3D restored / चित्र उपलब्ध नहीं, 3D बहाल', 'warn');
+      } else {
+        toast('Image unavailable; diagram shown. Select 2D to retry / चित्र उपलब्ध नहीं; पुनः प्रयास के लिए 2D दबाएँ', 'warn');
+      }
+    };
     probe.onload=() => {
       if(number!==token || !validContext()) return;
       img.onload=() => { if(number===token) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();} };
-      img.onerror=() => { if(number===token) {ready=false; hide();} };
+      img.onerror=failed;
       img.src=src;
       if(img.complete && img.naturalWidth) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();}
     };
-    probe.onerror=() => { if(number===token) {ready=false; hide(); if(!WORLD.vectorPlate2dAvailable(EV.world)) { setPlateView('3d'); toast('Draft image unavailable; live 3D restored / चित्र उपलब्ध नहीं, 3D बहाल'); }} };
+    probe.onerror=failed;
     probe.src=src;
     const next=$('aiDraftNext'); if(next) { next.hidden=currentFiles.length<2; next.textContent=(imageIndex+1)+' / '+currentFiles.length; }
   }
