@@ -1,13 +1,18 @@
-# 2D / 3D Plate Coverage (`266 / 266` — 100% Complete)
+# 2D / 3D Plate Coverage (`266 / 266` section mappings)
 
-**266 of 266** NCERT Class IX & Class X sections across all **33** chapters now have bespoke,
-high-resolution (`1408×768`, `11:6`) WebP plates stored once in `assets/2d/rx/` with anchored
-bilingual (`EN + HI`) callouts and tap-to-inspect explanations in `src/realistic_plates.json`.
+**266 of 266** Class IX and Class X runtime sections across **33** chapters now have a
+WebP plate mapped in `src/realistic_plates.json` with bilingual anchored callouts. This
+is mapping coverage, not proof of scientific accuracy, comprehensive concept coverage,
+or teacher approval. Illustrations and labels remain subject to independent review.
 
-- **193 sections**: Imported & curated in `src/realistic_plates.json` (`anveshix/ifinite-horizon`).
-- **73 sections**: Newly authored scientific 3D & studio textbook plates (`tools/plates_73/`),
-  covering every previously unmapped Chemistry, Physics, Biology, Inquiry, Energy & Sustainability topic.
-- **0 missing sections remain.**
+- **193 sections**: Imported and curated from `anveshix/ifinite-horizon`.
+- **73 sections**: In-repo 3D & studio plates (`tools/plates_73/`) cover the previously unmapped runtime sections.
+- **12 additional local AI drafts**: Alternate illustrations for a subset of those sections. They appear first, followed by the in-repo plate and the original composite. They are not scientifically or linguistically approved.
+- **0 runtime sections without a mapped WebP.** The generic disease sections still have provisional topic assignments, not verified curriculum identities.
+
+The alloy objects in the local draft are illustrative: composition cannot be determined from appearance, and the medal lettering is not meaningful. The solutions draft does not distinguish water from solution by appearance; the rainwater image is not a construction plan and does not show drinking-water treatment. Sources and Sustainable Management are outside the 2026–27 syllabus.
+
+Two other candidates were not integrated: `rejected/c9_exploration/1-5-model-order-draft.webp` has unreliable planet ordering and proportions; `rejected/c10_sources/s-3-tidal-context-draft.webp` does not adequately show tidal flow.
 
 ## Newly Delivered 73 Plates by Chapter
 
