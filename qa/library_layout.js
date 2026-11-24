@@ -14,7 +14,7 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
     args: ['--no-sandbox', '--disable-dev-shm-usage', '--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader']
   });
   try {
-    for (const [name, width, height, mode] of [['desktop', 1440, 900, '3d'], ['phone', 390, 844, '2d'], ['small-phone', 360, 640, '2d']]) {
+    for (const [name, width, height, mode] of [['desktop', 1440, 900, '3d'], ['laptop', 1024, 768, '2d'], ['tablet', 820, 900, '2d'], ['phone', 390, 844, '2d'], ['small-phone', 360, 640, '2d'], ['narrow-phone', 320, 640, '2d']]) {
       const p = await b.newPage({ viewport: { width, height }, isMobile: width < 500, hasTouch: width < 500 });
       const errors = [];
       p.on('pageerror', e => errors.push(e.message));
@@ -28,6 +28,16 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
       assert(layout.firstTop < 150, `${name}: excessive space above books`);
       assert(layout.secondBottom <= height, `${name}: both class books should be visible without scrolling: ${JSON.stringify(layout)}`);
       assert(layout.width <= layout.screenWidth, `${name}: horizontal overflow`);
+      for (const cls of ['IX', 'X']) {
+        const sizes = await p.locator('#classCard' + cls).evaluate(card => {
+          const cover = card.querySelector('.lp-cover').getBoundingClientRect();
+          const info = card.querySelector('.lp-info').getBoundingClientRect();
+          const button = card.getBoundingClientRect();
+          return {coverHeight: cover.height, infoHeight: info.height, coverRight: cover.right, infoLeft: info.left, infoRight: info.right, buttonRight: button.right};
+        });
+        assert(sizes.coverHeight >= sizes.infoHeight * 0.6, `${name} Class ${cls}: book cover is too small relative to text: ${JSON.stringify(sizes)}`);
+        assert(sizes.coverRight <= sizes.infoLeft + 1 && sizes.infoRight <= sizes.buttonRight + 1, `${name} Class ${cls}: cover and text overlap or overflow`);
+      }
       assert(await p.locator('#svLibSearchBtn').isVisible());
       assert(await p.locator('#btnFlipbookTop').isVisible());
       assert(!(await p.locator('#chapterSelect').isVisible()));
