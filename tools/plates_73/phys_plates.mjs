@@ -232,8 +232,8 @@ export const PHYS_PLATES = [
         ctx.strokeStyle = `rgba(37,99,235,${0.88 - idx * 0.14})`;
         ctx.lineWidth = 6 - idx * 0.6;
         ctx.beginPath(); ctx.ellipse(1260, 815, rx, ry, 0, 0, Math.PI * 2); ctx.stroke();
-        // CCW directional arrow on front & back of ellipse
-        drawArrow(ctx, 1260 + 20, 815 + ry, 1260 - 30, 815 + ry, "#1d4ed8", 5, 18);
+        // On the front of the plane CCW (viewed from above) points right.
+        drawArrow(ctx, 1260 - 30, 815 + ry, 1260 + 20, 815 + ry, "#1d4ed8", 5, 18);
       });
 
       // Plotting compasses at right & front tangent to concentric circles
@@ -256,28 +256,16 @@ export const PHYS_PLATES = [
         ctx.beginPath(); ctx.arc(1260 + r * Math.cos(a), 815 + r * 0.31 * Math.sin(a), 3.2, 0, Math.PI * 2); ctx.fill();
       }
 
-      // Closed external circuit wires connecting top & bottom of rod through Rheostat + DC Cell!
-      ctx.strokeStyle = "#dc2626"; ctx.lineWidth = 7;
-      ctx.beginPath(); ctx.moveTo(1260, 315); ctx.lineTo(2420, 315); ctx.lineTo(2420, 680); ctx.stroke();
-      ctx.strokeStyle = "#1e293b";
-      ctx.beginPath(); ctx.moveTo(1260, 1225); ctx.lineTo(2420, 1225); ctx.lineTo(2420, 840); ctx.stroke();
-
-      // Right: Variable Rheostat + Battery controlling I
-      ctx.fillStyle = "#334155"; roundRect(ctx, 2240, 680, 360, 160, 22); ctx.fill();
-      ctx.fillStyle = "#facc15"; ctx.font = '700 36px "DejaVu Sans", sans-serif'; ctx.textAlign = "center";
-      ctx.fillText("Rheostat (I)", 2420, 772);
-      ctx.fillStyle = "#dc2626"; roundRect(ctx, 2320, 960, 200, 120, 18); ctx.fill();
-      ctx.fillStyle = "#ffffff"; ctx.font = '700 32px "DejaVu Sans", sans-serif';
-      ctx.fillText("+ DC −", 2420, 1032);
+      // No power supply is drawn: this is a field schematic, not a wiring diagram.
       ctx.restore();
-      drawFloorTag(ctx, 1408, 1310, "Concentric Magnetic Field Circles:  B ∝ I   and   B ∝ 1 / r", "#1e3a8a");
+      drawFloorTag(ctx, 1408, 1310, "Upward current: field counterclockwise viewed from above", "#1e3a8a");
       return cv;
     },
     marks: makeLabels([
       { x: 630, y: 230, en: "Straight Current (I)", hi: "सीधा धारावाही चालक (I)", info_en: "Electric current flowing vertically through the straight copper wire generates a surrounding magnetic field.", info_hi: "सीधे ताँबे के तार में प्रवाहित धारा (I) अपने चारों ओर चुम्बकीय क्षेत्र उत्पन्न करती है।" },
-      { x: 630, y: 408, en: "Concentric Field Circles", hi: "संकेंद्री चुम्बकीय वृत्त", info_en: "Iron filings align in concentric circles centred on the wire; closer spacing near the wire shows stronger B.", info_hi: "लौह-चूर्ण तार के चारों ओर संकेंद्री वृत्त बनाता है; तार के पास क्षेत्र अधिक प्रबल (B ∝ 1/r) होता है।" },
+      { x: 630, y: 408, en: "Concentric Field Circles", hi: "संकेंद्री चुम्बकीय वृत्त", info_en: "The idealised field lines circle the wire. For a long straight wire, field strength decreases with distance; the dots are schematic.", info_hi: "आदर्श चित्र में क्षेत्र रेखाएँ तार के चारों ओर वृत्त बनाती हैं। लंबे सीधे तार के लिए दूरी बढ़ने पर क्षेत्र कमजोर होता है; बिंदु सांकेतिक हैं।" },
       { x: 852, y: 408, en: "Tangent Compass Needle", hi: "स्पर्शरेखीय दिक्सूचक सुई", info_en: "A magnetic compass needle placed at any point aligns tangentially to give the local field direction.", info_hi: "वृत्त के किसी बिंदु पर रखी दिक्सूचक सुई की उत्तर दिशा चुम्बकीय क्षेत्र की दिशा बताती है।" },
-      { x: 1210, y: 385, en: "Variable Rheostat", hi: "धारा नियंत्रक (रियोस्टैट)", info_en: "Increasing current I increases compass deflection; reversing current reverses needle direction.", info_hi: "धारा I बढ़ाने पर चुम्बकीय क्षेत्र बढ़ता है और धारा उलटने पर क्षेत्र की दिशा भी उलट जाती है।" }
+      { x: 660, y: 260, en: "Right-hand Rule", hi: "दायाँ हाथ नियम", info_en: "Point your right thumb upward along the conventional current. Your fingers curl in the field direction: counterclockwise viewed from above. This is a schematic, not a circuit.", info_hi: "दाएँ अंगूठे को ऊपर पारंपरिक धारा की दिशा में रखें। मुड़ी उँगलियाँ क्षेत्र की दिशा बताती हैं: ऊपर से देखने पर वामावर्त। यह सांकेतिक चित्र है, परिपथ नहीं।" }
     ])
   },
 

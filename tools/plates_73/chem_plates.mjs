@@ -814,7 +814,7 @@ export const CHEM_PLATES = [
         drawSphere3D(ctx, cx + dx, cy + dy, 34, "electron", { glow: "rgba(96,165,250,0.65)", symbol: "−" });
       }
       ctx.restore();
-      drawFloorTag(ctx, 980, 1300, "J. J. Thomson (1898) · Total (+) = Total (−)", "#991b1b");
+      drawFloorTag(ctx, 980, 1300, "J. J. Thomson (1904) · Total (+) = Total (−)", "#991b1b");
 
       // Right: Cutaway Watermelon / Plum-Pudding visual analogy + electrical neutrality balance
       floorShadow(ctx, 2140, 1175, 290, 36, 0.15);
@@ -1032,7 +1032,7 @@ export const CHEM_PLATES = [
     render() {
       const { cv, ctx } = studioCanvas({ horizon: 1180 });
       // Three pure H2O sources (Rain, River, Lab Synthesis) converging to 9 g H2O -> 1 g H2 : 8 g O2
-      for (const [sy, col, lbl] of [[490, "#38bdf8", "Rain H₂O"], [740, "#0284c7", "River H₂O"], [990, "#2563eb", "Lab H₂O"]]) {
+      for (const [sy, col, lbl] of [[490, "#38bdf8", "Purified rain water"], [740, "#0284c7", "Purified river water"], [990, "#2563eb", "Lab water"]]) {
         drawSphere3D(ctx, 320, sy, 52, "N", { glow: "rgba(56,189,248,0.35)" });
         drawFloorTag(ctx, 320, sy + 84, lbl, col);
         drawArrow(ctx, 410, sy, 760, 740, col, 6, 20);
@@ -1042,33 +1042,31 @@ export const CHEM_PLATES = [
       renderMolecule3D(ctx, [{ el: "O", pos: [0, 0.25, 0] }, { el: "H", pos: [-0.85, -0.45, 0] }, { el: "H", pos: [0.85, -0.45, 0] }], [[0,1,1],[0,2,1]], [1020, 860], 0.15, 0, 105, true);
       drawFloorTag(ctx, 1020, 1300, "9 g Pure H₂O", "#0369a1");
 
-      drawArrow(ctx, 1290, 820, 1580, 820, "#0f172a", 9, 28);
+      drawArrow(ctx, 1290, 820, 1490, 820, "#0f172a", 9, 28);
 
-      // Right: Precision Mass Ratio Scale showing 1 g Hydrogen (2×1 u) : 8 g Oxygen (16 u) = 1 : 8
+      // The two element masses are a proportional example, not equal weights
+      // on a balance. Separate cards avoid implying that 1 g balances 8 g.
       floorShadow(ctx, 2140, 1170, 430, 36, 0.16);
       ctx.save();
-      // Pedestal
-      ctx.fillStyle = "#475569"; roundRect(ctx, 2110, 680, 60, 480, 16); ctx.fill();
-      ctx.fillStyle = "#334155"; roundRect(ctx, 1940, 1130, 400, 44, 16); ctx.fill();
-      // Horizontal beam showing fixed ratio 1 : 8
-      ctx.strokeStyle = "#0f172a"; ctx.lineWidth = 14;
-      ctx.beginPath(); ctx.moveTo(1740, 700); ctx.lineTo(2540, 700); ctx.stroke();
-      // Left pan: 2 H spheres (2 u -> 1 part)
+      ctx.fillStyle = "#f8fafc"; ctx.strokeStyle = "#cbd5e1"; ctx.lineWidth = 4;
+      for (const x of [1540, 2320]) {
+        roundRect(ctx, x, 665, 430, 380, 24); ctx.fill(); ctx.stroke();
+      }
+      // Two H spheres are a molecular representation, not gram-sized samples.
       drawSphere3D(ctx, 1710, 850, 32, "H", { symbol: "H" });
       drawSphere3D(ctx, 1780, 850, 32, "H", { symbol: "H" });
-      drawFloorTag(ctx, 1745, 960, "1 g  H  (2 u)", "#334155");
-      // Right pan: 1 large O sphere (16 u -> 8 parts)
+      drawFloorTag(ctx, 1745, 960, "H: about 1 g", "#334155");
       drawSphere3D(ctx, 2540, 835, 76, "O", { symbol: "O" });
-      drawFloorTag(ctx, 2540, 960, "8 g  O  (16 u)", "#b91c1c");
+      drawFloorTag(ctx, 2540, 960, "O: about 8 g", "#b91c1c");
       ctx.restore();
-      drawFloorTag(ctx, 2140, 1300, "Fixed Mass Ratio  H : O  =  1 : 8", "#b91c1c");
+      drawFloorTag(ctx, 2140, 1300, "Approximate mass ratio  H : O  =  1 : 8", "#b91c1c");
       return cv;
     },
     marks: makeLabels([
-      { x: 160, y: 370, en: "Independent of Source", hi: "स्रोत से स्वतंत्र", info_en: "Whether water comes from rain, rivers or laboratory synthesis, its elemental ratio never varies.", info_hi: "वर्षा, नदी या प्रयोगशाला—किसी भी स्रोत से प्राप्त शुद्ध जल में तत्वों का अनुपात सदैव समान रहता है।" },
+      { x: 160, y: 370, en: "Independent of Source", hi: "स्रोत से स्वतंत्र", info_en: "Pure water has the same composition regardless of source; rain and river water contain other substances unless purified.", info_hi: "स्रोत कोई भी हो, शुद्ध जल का संघटन समान होता है; वर्षा और नदी के जल में शुद्ध करने से पहले अन्य पदार्थ होते हैं।" },
       { x: 510, y: 430, en: "Pure Compound (H₂O)", hi: "शुद्ध यौगिक (H₂O)", info_en: "Proust's Law applies to every pure chemical compound: fixed elements in fixed proportion by mass.", info_hi: "प्राउस्ट के नियम के अनुसार किसी शुद्ध यौगिक में तत्व सदैव निश्चित द्रव्यमान अनुपात में होते हैं।" },
-      { x: 872, y: 425, en: "Hydrogen Mass (1 Part)", hi: "हाइड्रोजन भाग (1 ग्राम)", info_en: "Two H atoms contribute 2 × 1 u = 2 u, giving 1 part by mass when simplified.", info_hi: "दो हाइड्रोजन परमाणुओं का कुल द्रव्यमान 2 u होता है, जो अनुपात में 1 भाग बनता है।" },
-      { x: 1270, y: 418, en: "Oxygen Mass (8 Parts)", hi: "ऑक्सीजन भाग (8 ग्राम)", info_en: "One O atom contributes 16 u, so 2 : 16 simplifies to an invariant 1 : 8 mass ratio.", info_hi: "एक ऑक्सीजन परमाणु (16 u) के कारण जल में H : O का द्रव्यमान अनुपात सदैव 1 : 8 रहता है।" }
+      { x: 872, y: 425, en: "Hydrogen Mass (1 Part)", hi: "हाइड्रोजन भाग (1 ग्राम)", info_en: "Using rounded atomic masses, two H atoms contribute about 2 u. In approximately 9 g of pure water, hydrogen contributes about 1 g.", info_hi: "पूर्णांकित परमाणु द्रव्यमान से दो H परमाणुओं का द्रव्यमान लगभग 2 u है। लगभग 9 ग्राम शुद्ध जल में हाइड्रोजन लगभग 1 ग्राम होता है।" },
+      { x: 1270, y: 418, en: "Oxygen Mass (8 Parts)", hi: "ऑक्सीजन भाग (8 ग्राम)", info_en: "Using rounded atomic masses, one O atom contributes about 16 u: 2 : 16 gives the approximate H : O mass ratio 1 : 8.", info_hi: "पूर्णांकित परमाणु द्रव्यमान से एक O परमाणु लगभग 16 u का है: 2 : 16 से H : O का लगभग 1 : 8 द्रव्यमान अनुपात मिलता है।" }
     ])
   },
 

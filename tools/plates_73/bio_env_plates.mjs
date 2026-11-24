@@ -71,14 +71,14 @@ export const BIO_ENV_PLATES = [
         ctx.fillStyle = "#0f172a"; ctx.font = '600 36px "DejaVu Sans", sans-serif';
         ctx.fillText(p.lbl, 1715, p.y + 14);
       }
-      drawFloorTag(ctx, 1408, 1315, "Mendel's Law of Independent Assortment (RrYy × RrYy  →  9 : 3 : 3 : 1)", "#15803d");
+      drawFloorTag(ctx, 1408, 1315, "RrYy × RrYy: expected 9 : 3 : 3 : 1 with independent assortment", "#15803d");
       return cv;
     },
     marks: makeLabels([
-      { x: 270, y: 185, en: "Four Gamete Types", hi: "चार प्रकार के युग्मक", info_en: "Alleles R/r and Y/y assort independently to form equal proportions of RY, Ry, rY and ry gametes.", info_hi: "R/r और Y/y स्वतंत्र रूप से अलग होकर RY, Ry, rY और ry चार प्रकार के युग्मक बनाते हैं।" },
-      { x: 365, y: 380, en: "16 F₂ Genotypes", hi: "16 F₂ जीनप्ररूप संयोजन", info_en: "4 × 4 Punnett grid combines maternal and paternal gametes across 16 equally probable squares.", info_hi: "4 × 4 पनेट वर्ग में नर व मादा युग्मकों के 16 संभावित संयोजन बनते हैं।" },
-      { x: 715, y: 235, en: "9 Round Yellow Dominant", hi: "9 गोल पीले बीज (प्रभावी)", info_en: "Nine squares carry at least one dominant R and one dominant Y allele (R_Y_).", info_hi: "16 में से 9 बीजों में दोनों प्रभावी लक्षण (गोल R तथा पीला Y) प्रकट होते हैं।" },
-      { x: 715, y: 512, en: "3 : 3 : 1 Ratio Traits", hi: "3 : 3 : 1 नए व अप्रभावी", info_en: "3 Round Green + 3 Wrinkled Yellow recombinants + 1 double-recessive Wrinkled Green (rryy) prove independent assortment.", info_hi: "3 गोल हरे व 3 झुर्रीदार पीले नए संयोजन तथा 1 झुर्रीदार हरा (rryy) स्वतंत्र अपव्यूहन सिद्ध करते हैं।" }
+      { x: 270, y: 185, en: "Four Gamete Types", hi: "चार प्रकार के युग्मक", info_en: "If R/r and Y/y assort independently, RY, Ry, rY and ry gametes are expected in equal proportions.", info_hi: "स्वतंत्र अपव्यूहन होने पर RY, Ry, rY और ry युग्मक समान अनुपात में अपेक्षित हैं।" },
+      { x: 365, y: 380, en: "16 Gamete Combinations", hi: "16 युग्मक संयोजन", info_en: "With equally likely gametes and random fertilisation, the 4 × 4 grid has 16 equally probable combinations, not 16 different genotypes.", info_hi: "समान संभावित युग्मकों और यादृच्छिक निषेचन पर 4 × 4 वर्ग में 16 समान संभावित संयोजन होते हैं, 16 भिन्न जीनप्ररूप नहीं।" },
+      { x: 715, y: 235, en: "9 Round Yellow", hi: "9 गोल पीले बीज", info_en: "Nine of the 16 equally probable combinations contain a dominant R and Y allele (R_Y_).", info_hi: "16 समान संभावित संयोजनों में से 9 में प्रभावी R और Y दोनों युग्मविकल्पी होते हैं (R_Y_)।" },
+      { x: 715, y: 512, en: "3 : 3 : 1 Ratio Traits", hi: "3 : 3 : 1 नए व अप्रभावी", info_en: "Assuming independent assortment and complete dominance, the cross predicts 3/16 round green, 3/16 wrinkled yellow and 1/16 wrinkled green; individual samples may differ.", info_hi: "स्वतंत्र अपव्यूहन और पूर्ण प्रभाविता मानने पर इस संकरण में 3/16 गोल हरे, 3/16 झुर्रीदार पीले और 1/16 झुर्रीदार हरे अपेक्षित हैं; वास्तविक नमूने अलग हो सकते हैं।" }
     ])
   },
 
