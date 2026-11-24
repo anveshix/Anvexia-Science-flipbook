@@ -221,18 +221,88 @@ const SCIVERSE = (function () {
     });
   }
 
-  function currentFlipSpreadIndex() {
+  /* A click on a page corner must always turn the page, even when the page
+     content is scrollable or a hotspot sits under the corner. StPageFlip's own
+     click path is swallowed by scrollable pages, and its touch path only flips
+     after a 250ms hold, so the corners get explicit, always-live targets.
+     The handlers are delegated from the book because PageFlip clones pages for
+     its turn animation and clones do not carry per-element listeners. */
+  function addPageCorners(book) {
+    if (!book) return;
+    Array.from(book.querySelectorAll(".svf-page")).forEach((pg, i) => {
+      if (pg.querySelector(".svf-corner")) return;
+      /* Landscape: the whole left page turns back, the whole right page turns
+         forward. Portrait shows one page, so the click position decides. */
+      const back = pg.classList.contains("svf-back");
+      const left = pg.classList.contains("svf-left-page");
+      const right = pg.classList.contains("svf-right-page");
+      const side = back || left ? "prev" : right ? "next" : (i % 2 ? "prev" : "next");
+      ["tl", "tr", "bl", "br"].forEach(pos => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "svf-corner " + pos;
+        btn.dataset.svfCorner = side;
+        btn.tabIndex = -1;
+        btn.setAttribute("aria-label", side === "next" ? BI("Next page", "अगला पृष्ठ") : BI("Previous page", "पिछला पृष्ठ"));
+        pg.appendChild(btn);
+      });
+    });
+    if (book.dataset.svfCorners === "1") return;
+    book.dataset.svfCorners = "1";
+    const cornerOf = e => (e.target && e.target.closest && e.target.closest(".svf-corner")) || null;
+    ["pointerdown", "mousedown", "touchstart", "mousemove", "pointermove"].forEach(evName => {
+      book.addEventListener(evName, e => { if (cornerOf(e)) e.stopPropagation(); }, { capture: true, passive: true });
+    });
+    book.addEventListener("click", e => {
+      const btn = cornerOf(e);
+      if (!btn || !flipInst || !flipWorld) return;
+      e.preventDefault();
+      e.stopPropagation();
+      const p = flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
+      const total = flipWorld.spreads.length;
+      const last = spreadPage(total);
+      const portrait = !!(flipInst.getOrientation && flipInst.getOrientation() === "portrait");
+      let side = btn.dataset.svfCorner;
+      if (portrait) {
+        const pg = btn.closest(".svf-page");
+        const r = pg && pg.getBoundingClientRect();
+        if (r) side = (e.clientX - r.left) < r.width / 2 ? "prev" : "next";
+      }
+      /* Ignore a corner click while a turn is already animating; PageFlip's
+         state machine cannot start a second turn from mid-animation. */
+      const state = flipInst.getState ? flipInst.getState() : "read";
+      if (state === "flipping" || state === "user_fold") return;
+      if (side === "next") {
+        if (p >= last) return;
+        if (portrait) { flipInst.flip(p + 1); updateFlipHud(p + 1); return; }
+        if (p < FIRST_SPREAD_PAGE) { flipInst.flipNext(); return; }
+        const target = Math.min(last, p + (p % 2 === 1 ? 2 : 1));
+        if (target > p) { flipInst.flip(target); updateFlipHud(target); }
+      } else {
+        if (p <= 0) return;
+        if (portrait) { flipInst.flip(p - 1); updateFlipHud(p - 1); return; }
+        if (p <= FIRST_SPREAD_PAGE) return;
+        const target = p % 2 === 0 ? p - 1 : p - 2;
+        /* flipToPage() to the first spread leaves PageFlip folded; its own
+           flipPrev() is the reliable way back to the start page. */
+        if (target === FIRST_SPREAD_PAGE) { flipInst.flipPrev(); updateFlipHud(FIRST_SPREAD_PAGE); }
+        else { flipInst.flip(target); updateFlipHud(target); }
+      }
+    }, { capture: true });
+  }
+
+  function currentFlipSpreadIndex(pageIndex) {
     if (!flipInst || !flipWorld) return 0;
-    const p = flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
+    const p = typeof pageIndex === "number" ? pageIndex : (flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0);
     if (p < FIRST_SPREAD_PAGE) return 0;
     const idx = Math.floor((p - FIRST_SPREAD_PAGE) / 2);
     return Math.max(0, Math.min(flipWorld.spreads.length - 1, idx));
   }
 
-  function updateFlipHud() {
+  function updateFlipHud(pageIndex) {
     if (!flipWorld) return;
     const total = flipWorld.spreads.length;
-    const p = flipInst && flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
+    const p = typeof pageIndex === "number" ? pageIndex : (flipInst && flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0);
     const counter = $("svFlipCounter");
     if (counter) {
       if (p < FIRST_SPREAD_PAGE) {
@@ -240,12 +310,12 @@ const SCIVERSE = (function () {
       } else if (p >= spreadPage(total)) {
         counter.textContent = BI("Chapter Summary", "अध्याय सारांश");
       } else {
-        const sIdx = currentFlipSpreadIndex();
+        const sIdx = currentFlipSpreadIndex(p);
         const sp = flipWorld.spreads[sIdx];
         counter.textContent = `${sp.section} · ${BI("Spread", "स्प्रेड")} ${sIdx + 1} / ${total}`;
       }
     }
-    const activeIdx = p < FIRST_SPREAD_PAGE ? -1 : (p >= spreadPage(total) ? total : currentFlipSpreadIndex());
+    const activeIdx = p < FIRST_SPREAD_PAGE ? -1 : (p >= spreadPage(total) ? total : currentFlipSpreadIndex(p));
     const dots = $("svFlipDots");
     if (dots) {
       dots.querySelectorAll("[data-svf-jump]").forEach(btn => {
@@ -614,6 +684,7 @@ const SCIVERSE = (function () {
     book = $("svFlipBook");
     populateFlipChapterSelect(w.id);
     book.innerHTML = buildFlipbookPagesHtml(w);
+    addPageCorners(book);
 
     const dots = $("svFlipDots");
     if (dots) {
@@ -666,9 +737,10 @@ const SCIVERSE = (function () {
       };
       flipInst.loadFromHTML(pageEls);
       requestAnimationFrame(fitWhenReady);
-      flipInst.on("flip", () => {
-        updateFlipHud();
-        const sIdx = currentFlipSpreadIndex();
+      flipInst.on("flip", e => {
+        const p = e && typeof e.data === "number" ? e.data : undefined;
+        updateFlipHud(p);
+        const sIdx = currentFlipSpreadIndex(p);
         warmChapter(w, sIdx);
         try { localStorage.setItem("sciverse-flip-pos-v1", JSON.stringify({ id: w.id, s: sIdx })); } catch (_e) {}
         if (window.EV_2D_ONLY) { if (EV.world && EV.world.id === w.id) EV.flipSpread = sIdx; return; }
@@ -1105,6 +1177,7 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
     openFlipbook,
     closeFlipbook,
     isFlipOpen,
+    flipState: () => flipInst && flipInst.getState ? flipInst.getState() : null,
     openSearch,
     closeSearch,
     openHigherStudio
