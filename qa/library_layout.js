@@ -20,6 +20,9 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
       p.on('pageerror', e => errors.push(e.message));
       await p.goto(base + '?mode=' + mode, { waitUntil: 'load' });
       await p.waitForSelector('#classCardX');
+      assert.equal(await p.title(), 'Anvexia — Science, brought to life.');
+      assert.equal(await p.locator('.brand-name').innerText(), 'Anvexia');
+      assert.equal(await p.locator('.lp-cover text').first().textContent(), 'ANVEXIA · NCERT');
       const layout = await p.evaluate(() => {
         const a = document.querySelector('#classCardIX').getBoundingClientRect();
         const b = document.querySelector('#classCardX').getBoundingClientRect();

@@ -259,11 +259,11 @@ const WORLD = (function () {
   function classroomHead(x, world, sp, side, num) {
     x.textAlign = "left";
     x.fillStyle = PC.accent; x.font = "900 28px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText("SCIVERSE 3D  ·  CLASS " + (world.cls || "IX"), 84, 96);
+    x.fillText("ANVEXIA  ·  CLASS " + (world.cls || "IX"), 84, 96);
     x.fillStyle = PC.ink; x.font = "italic 700 27px Georgia, 'Noto Sans Devanagari Embedded', serif";
     drawFitted(x, BI(world.title, world.titleHi), 84, 136, 600, x.font, 1, 0);
     x.textAlign = "right"; x.fillStyle = PC.hi; x.font = "900 26px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText("§ " + sp.section + "  ·  " + side, 816, 96);
+    x.fillText("" + sp.section + "  ·  " + side, 816, 96);
     x.textAlign = "left";
     x.strokeStyle = PC.ink; x.lineWidth = 5; x.beginPath(); x.moveTo(84, 158); x.lineTo(816, 158); x.stroke();
   }
@@ -689,7 +689,7 @@ const WORLD = (function () {
     x.font = "900 30px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
     drawFitted(x, "2D PLATE · " + BI(sp.title, sp.titleHi), X + 26, Y + 48, W * 0.60, x.font, 1, 0, 0, 20);
     x.textAlign = "right"; x.font = "900 20px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    drawFitted(x, "§ " + sp.section + " · CLASS " + (currentWorld.cls || "IX"), X + W - 22, Y + 46, W * 0.34, x.font, 1, 0, 0, 16);
+    drawFitted(x, "" + sp.section + " · CLASS " + (currentWorld.cls || "IX"), X + W - 22, Y + 46, W * 0.34, x.font, 1, 0, 0, 16);
     x.textAlign = "left";
     const r = { x: X + 188, y: Y + 86, w: W - 376, h: H - 186 };
     (P2D[spec.kind] || P2D.discovery)(x, r);
@@ -815,7 +815,7 @@ const WORLD = (function () {
        section eyebrow must sit higher than the old 208px; 196 + 24 keeps a
        clean gap and no glyph can cross into the title zone. */
     let y = 196;
-    y = zoneLabel(x, "§ " + sp.section + "  ·  CBSE 2026-27  ·  " + String(sp.status || "assessed").toUpperCase(), y) + 24;
+    y = zoneLabel(x, "" + sp.section + "  ·  CBSE 2026-27  ·  " + String(sp.status || "assessed").toUpperCase(), y) + 24;
     x.fillStyle = PC.ink;
     y = wrap(x, both || !hi ? sp.title : sp.titleHi, 84, y, 732, 60, 2,
              "900 54px Georgia, 'Noto Sans Devanagari Embedded', serif");
@@ -1010,7 +1010,7 @@ const WORLD = (function () {
     const g = x.createLinearGradient(X, 0, X + W, 0); g.addColorStop(0, "#0f2948"); g.addColorStop(1, "#19416d");
     x.fillStyle = g; x.fillRect(X + b, Y + b, W - 2 * b, head);
     x.fillStyle = "#eaf4ff"; x.textAlign = "left"; x.font = "700 14px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    drawFitted(x, "§ " + sp.section + " · " + BI(sp.title, sp.titleHi), X + 15, Y + b + 24, W - 30, x.font, 1, 0, 0, 11);
+    drawFitted(x, "" + sp.section + " · " + BI(sp.title, sp.titleHi), X + 15, Y + b + 24, W - 30, x.font, 1, 0, 0, 11);
     const py = Y + b + head, ph = H - 2 * b - head - foot, pw = W - 2 * b;
     x.fillStyle = "#071322"; x.fillRect(X + b, py, pw, ph);
     const s = Math.min(pw / img.naturalWidth, ph / img.naturalHeight);
@@ -1075,7 +1075,7 @@ const WORLD = (function () {
        KEY FACT; nothing is abbreviated to make the layout look tidy. */
     let y = 224;
     x.fillStyle = PC.hi; x.font = "900 34px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    y = drawFitted(x, "§ " + sp.section + "  ·  CBSE 2026-27  ·  30 FT / बड़ा बोर्ड",
+    y = drawFitted(x, "" + sp.section + "  ·  CBSE 2026-27  ·  30 FT / बड़ा बोर्ड",
                    84, y, 732, x.font, 1, 38, 46, 24) + 34;
     x.fillStyle = PC.ink; x.font = "900 56px Georgia, 'Noto Sans Devanagari Embedded', serif";
     y = drawFitted(x, both || !hi ? sp.title : sp.titleHi, 84, y, 732,
@@ -1142,7 +1142,7 @@ const WORLD = (function () {
     if (TH()) return classroomHead(x, world, sp, side, num);
     const hi = lang === "hi", both = lang === "both";
     x.fillStyle = "#8b7a5a"; x.font = "600 25px Georgia, 'Noto Sans Devanagari Embedded', serif"; x.textAlign = "left";
-    x.fillText("SCIVERSE 3D  ·  " + (world.board || "CBSE / NCERT") + "  ·  CLASS " + (world.cls || "IX"), 84, 94);
+    x.fillText("ANVEXIA  ·  " + (world.board || "CBSE / NCERT") + "  ·  CLASS " + (world.cls || "IX"), 84, 94);
     x.fillStyle = "#24303c";
     if (both) {
       x.font = "italic 21px Georgia, 'Noto Sans Devanagari Embedded', serif";
@@ -1153,7 +1153,7 @@ const WORLD = (function () {
     }
     x.strokeStyle = "#c3b494"; x.lineWidth = 2; x.beginPath(); x.moveTo(84, 150); x.lineTo(816, 150); x.stroke();
     x.fillStyle = "#9a8a68"; x.font = "23px Georgia, 'Noto Sans Devanagari Embedded', serif"; x.textAlign = "right";
-    x.fillText("§ " + sp.section + "   ·   " + side, 816, 94);
+    x.fillText("" + sp.section + "   ·   " + side, 816, 94);
     x.textAlign = "center"; x.fillStyle = "#8b7a5a"; x.font = "24px Georgia, 'Noto Sans Devanagari Embedded', serif";
     x.fillText("— " + num + " —", 450, 1166); x.textAlign = "left";
   }
@@ -1527,7 +1527,7 @@ const WORLD = (function () {
     const portal = new THREE.Group(); worldGroup.add(portal);
     G3.box(portal, 3.2, 0.32, 4.2, G3.mat(0x1b3d5c, { emissive: 0x0b3557, glow: 0.6 }), [0, 0.1, 0]);
     G3.box(portal, 2.9, 0.04, 3.9, G3.mat(0xe8ddc2), [0, 0.29, 0]);
-    G3.tag(portal, "SCIVERSE 3D\nCHAPTER WORLDS", 2.6, 1.4, { pos: [0, 0.32, 0], rot: [-Math.PI / 2, 0, 0], size: 58, bg: "#efe6cf" });
+    G3.tag(portal, "ANVEXIA\nCHAPTER WORLDS", 2.6, 1.4, { pos: [0, 0.32, 0], rot: [-Math.PI / 2, 0, 0], size: 58, bg: "#efe6cf" });
     const beam = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 2.2, 8, 24, 1, true), new THREE.MeshBasicMaterial({ color: 0x4ad6ff, transparent: true, opacity: 0.055, side: THREE.DoubleSide }));
     beam.position.y = 3.5; portal.add(beam);
     /* chapter monoliths */

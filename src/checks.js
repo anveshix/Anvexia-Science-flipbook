@@ -96,7 +96,7 @@ const EVCHECKS = (function () {
     ck("bilingual key fact", ok(sp.explain) && ok(sp.explainHi), id);
     ck("bilingual figure caption", ok(sp.fig) && ok(sp.figHi), id);
     ck("bilingual try-this", ok(sp.tryHint) && ok(sp.hintHi), id);
-    ck("NCERT section", /^[\dA-Z][\d.]*[a-z]?$/.test(String(sp.section || "")), "§ " + sp.section);
+    ck("NCERT section", /^[\dA-Z][\d.]*[a-z]?$/.test(String(sp.section || "")), "" + sp.section);
     ck("formula present", !!(sp.formula && ok(sp.formula.eq)), sp.formula && sp.formula.eq || "");
     ck("vocabulary >= 3", voc.length >= 3, voc.length + " pairs");
     ck("prediction well-formed", !!(q && q.options && q.options.length >= 3 &&

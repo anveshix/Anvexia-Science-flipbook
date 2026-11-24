@@ -28,12 +28,12 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
       await p.locator('#svLibSearchBtn').click();
       await p.locator('#svSearchInput').fill('cell');
       await p.waitForSelector('#svSearchResults .sv-hit');
-      const section = (await p.locator('#svSearchResults .sv-hit-ch').first().innerText()).split('§').pop().trim();
+      const section = await p.locator('#svSearchResults .sv-hit-ch').first().getAttribute('data-section');
       await p.locator('#svSearchResults ' + selector).first().click();
       await p.waitForFunction(() => document.getElementById('svSearchModal').hidden);
       if (flip) {
         assert(await p.locator('#svFlipbookModal').isVisible(), `${mode} ${selector}: flipbook did not open`);
-        assert((await p.locator('#svFlipCounter').innerText()).includes('§ ' + section), `${mode} ${selector}: wrong spread`);
+        assert((await p.locator('#svFlipCounter').innerText()).startsWith(section + ' ·'), `${mode} ${selector}: wrong spread`);
       } else {
         // Adjacent 3D pages turn asynchronously before WORLD.index changes.
         await p.waitForFunction(section => EV.view === 'book' && EV.world.spreads[WORLD.index].section === section, section, { timeout: 15000 });

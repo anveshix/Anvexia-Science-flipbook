@@ -77,7 +77,7 @@ WORLDS.c10_carbon = [
     eh: "चतुःसंयोजकता एक कार्बन को चार परमाणु जोड़ने देती है; शृंखलन कार्बन को अन्य कार्बन से असीमित जोड़ने देता है। छोटे आकार के कारण C–C बंध प्रबल व स्थायी है, इसलिए लगभग किसी भी लंबाई की शृंखला संभव है — कार्बनिक रसायन का आधार।",
     fig: "Table 4.2 — methane, ethane, propane, butane, pentane, hexane.", hint: "Grow the chain to six carbons and watch the formula and molar mass change.",
     sc: { params: {}, challenge: { text: "Build a chain of at least 6 carbon atoms.", target: { key: "n", value: 6, op: "gte" } } },
-    q: ["The two properties of carbon leading to a huge number of compounds are:", ["Catenation and tetravalency", "Isomerism and allotropy", "Ionisation and reduction"], 0, "NCERT §4.2: tetravalency plus self-linking (catenation)."]
+    q: ["The two properties of carbon leading to a huge number of compounds are:", ["Catenation and tetravalency", "Isomerism and allotropy", "Ionisation and reduction"], 0, "NCERT 4.2: tetravalency plus self-linking (catenation)."]
   }),
 
   CS("bondorder", "Single, double and triple bonds", "एकल, द्वि और त्रि बंध", "4.2.1", {
@@ -107,7 +107,7 @@ WORLDS.c10_carbon = [
     eh: "चार कार्बन का कंकाल दो प्रकार से बनता है; शेष संयोजकताएँ H से भरने पर दो भिन्न अणु मिलते हैं, दोनों C₄H₁₀। अपररूप किसी तत्व के भिन्न रूप हैं और समजात CH₂ से भिन्न होते हैं — यहाँ दोनों नहीं।",
     fig: "Fig 4.8–4.10 — butane isomers, cyclohexane and benzene.", hint: "Switch from the two butanes to the six-membered benzene ring.",
     sc: { params: {}, challenge: { text: "Reach a structure with 6 ring atoms.", target: { key: "ringAtoms", value: 6, op: "gte" } } },
-    q: ["How many structural isomers are possible for butane C₄H₁₀?", ["1", "2", "3", "4"], 1, "Straight-chain n-butane and branched 2-methylpropane (NCERT §4.2.2)."]
+    q: ["How many structural isomers are possible for butane C₄H₁₀?", ["1", "2", "3", "4"], 1, "Straight-chain n-butane and branched 2-methylpropane (NCERT 4.2.2)."]
   }),
 
   CS("functional", "A functional group changes everything", "क्रियात्मक समूह सब बदल देता है", "4.2.3", {
@@ -195,7 +195,7 @@ WORLDS.c10_carbon = [
     ph: ["वनस्पति तेल के हाइड्रोजनीकरण के लिए चाहिए:", ["सूर्य का प्रकाश", "Ni या Pd उत्प्रेरक", "क्षारीय KMnO₄"], 1],
     e: "Nickel (or palladium) adsorbs H₂ and lets the two hydrogen atoms add across the double bond, converting C=C into C–C. Without the catalyst the reaction is far too slow at ordinary temperature.",
     eh: "निकेल (या पैलेडियम) H₂ को सोखता है और दो H परमाणुओं को द्वि-बंध पर जोड़ने देता है, जिससे C=C → C–C हो जाता है। उत्प्रेरक के बिना सामान्य ताप पर अभिक्रिया बहुत धीमी होती है।",
-    fig: "NCERT §4.3.3 — R–C=C–R becoming R–C–C–R on a Ni surface.", hint: "Switch on the Ni catalyst and supply H₂ until saturation reaches 90%.",
+    fig: "NCERT 4.3.3 — R–C=C–R becoming R–C–C–R on a Ni surface.", hint: "Switch on the Ni catalyst and supply H₂ until saturation reaches 90%.",
     sc: { params: {}, challenge: { text: "Saturate the oil: reach 90% hydrogenation.", target: { key: "saturation", value: 90, op: "gte" } } },
     q: ["What is hydrogenation and its industrial application?", ["Adding H₂ to unsaturated oils with Ni to make vanaspati ghee", "Adding O₂ to alcohols", "Replacing H by Cl in sunlight"], 0, "NCERT exercise Q12: unsaturated fatty acids are hardened using a nickel catalyst."]
   }),
@@ -210,7 +210,7 @@ WORLDS.c10_carbon = [
     ph: ["किस अभिक्रिया के लिए सूर्य का प्रकाश आवश्यक है?", ["योग (हाइड्रोजनीकरण)", "मेथेन का क्लोरीन द्वारा प्रतिस्थापन", "एस्टरीकरण"], 1],
     e: "Sunlight supplies the energy to split Cl₂ into reactive chlorine atoms, which then displace H from methane one at a time, forming HCl each time. Addition needs a catalyst instead; esterification needs an acid catalyst and warmth.",
     eh: "सूर्य का प्रकाश Cl₂ को क्रियाशील Cl परमाणुओं में तोड़ने की ऊर्जा देता है, जो मेथेन के H को एक-एक कर हटाते हैं और हर बार HCl बनता है। योग के लिए उत्प्रेरक, एस्टरीकरण के लिए अम्ल उत्प्रेरक व गरमाहट चाहिए।",
-    fig: "NCERT §4.3.4 — methane + chlorine in sunlight.", hint: "Raise sunlight above 50% and add chlorine to replace a hydrogen.",
+    fig: "NCERT 4.3.4 — methane + chlorine in sunlight.", hint: "Raise sunlight above 50% and add chlorine to replace a hydrogen.",
     sc: { params: {}, challenge: { text: "Substitute at least one H by Cl in sunlight.", target: { key: "substitutions", value: 1, op: "gte" } } },
     q: ["CH₄ + Cl₂ in sunlight gives:", ["C₂H₆", "CH₃Cl + HCl", "CH₃COOH"], 1, "It is a substitution reaction; chlorine replaces one hydrogen at a time."]
   }),
@@ -225,9 +225,9 @@ WORLDS.c10_carbon = [
     ph: ["एथेनॉल को 443 K पर अधिक सांद्र H₂SO₄ के साथ गरम करने पर मिलता है:", ["एथेन", "एथीन", "एथेनोइक अम्ल"], 1],
     e: "Concentrated sulphuric acid removes the elements of water from ethanol (dehydrating agent), leaving a C=C double bond: ethene. Sodium instead attacks the –OH hydrogen and releases H₂ gas, which burns with a pop.",
     eh: "सांद्र सल्फ्यूरिक अम्ल एथेनॉल से जल के तत्व हटाता है (निर्जलीकारक), जिससे C=C द्वि-बंध वाला एथीन बचता है। सोडियम –OH के H से क्रिया कर H₂ गैस देता है जो 'पॉप' से जलती है।",
-    fig: "Activity 4.6 + NCERT §4.4.1 — sodium in absolute alcohol, 443 K dehydration.", hint: "Choose the dehydration path and raise the temperature to 443 K.",
+    fig: "Activity 4.6 + NCERT 4.4.1 — sodium in absolute alcohol, 443 K dehydration.", hint: "Choose the dehydration path and raise the temperature to 443 K.",
     sc: { params: {}, challenge: { text: "Reach 443 K to dehydrate ethanol to ethene.", target: { key: "temp", value: 443, op: "gte" } } },
-    q: ["What is the role of conc. H₂SO₄ in making ethene from ethanol at 443 K?", ["Oxidising agent", "Dehydrating agent / catalyst", "Reducing agent"], 1, "It removes water from ethanol; NCERT §4.4.1 / Exemplar Q39."]
+    q: ["What is the role of conc. H₂SO₄ in making ethene from ethanol at 443 K?", ["Oxidising agent", "Dehydrating agent / catalyst", "Reducing agent"], 1, "It removes water from ethanol; NCERT 4.4.1 / Exemplar Q39."]
   }),
 
   CS("ethanoic", "Weak acid, four tests", "दुर्बल अम्ल, चार परीक्षण", "4.4.2", {
@@ -257,7 +257,7 @@ WORLDS.c10_carbon = [
     eh: "अम्ल उत्प्रेरक व गरमाहट उत्क्रमणीय एस्टरीकरण को आगे बढ़ाते हैं; एथिल एथनोएट की फल-सी गंध इत्र व स्वाद में काम आती है। NaOH डालने पर एस्टर टूटकर अम्ल का सोडियम लवण देता है — लंबी शृंखला हो तो साबुन अणु।",
     fig: "Fig 4.11 — test tube in a water bath on a tripod, poured into a beaker.", hint: "Heat the bath and add catalyst until the ester yield passes 80%.",
     sc: { params: {}, challenge: { text: "Produce the sweet ester: yield ≥ 80%.", target: { key: "ester", value: 80, op: "gte" } } },
-    q: ["Soaps are:", ["Sodium/potassium salts of long-chain carboxylic acids", "Esters of short-chain alcohols", "Calcium salts of sulphonic acids"], 0, "NCERT §4.4.2: saponification of an ester with NaOH gives the salt used as soap."]
+    q: ["Soaps are:", ["Sodium/potassium salts of long-chain carboxylic acids", "Esters of short-chain alcohols", "Calcium salts of sulphonic acids"], 0, "NCERT 4.4.2: saponification of an ester with NaOH gives the salt used as soap."]
   }),
 
   CS("micelle", "How soap lifts oily dirt", "साबुन चिकना मैल कैसे उठाता है", "4.5", {
@@ -272,7 +272,7 @@ WORLDS.c10_carbon = [
     eh: "कैल्शियम व मैग्नीशियम आयन साबुन के सोडियम को हटाकर अघुलनशील कैल्शियम/मैग्नीशियम कार्बोक्सिलेट बनाते हैं — सफ़ेद दही-सी गाद। अपमार्जक सल्फ़ोनिक अम्ल के सोडियम लवण हैं जिनका आवेशित सिरा Ca²⁺/Mg²⁺ से अघुलनशील लवण नहीं बनाता, इसलिए झाग बना रहता है।",
     fig: "Activity 4.10–4.12 / Fig 4.12–4.13 — micelle, oil droplet, scum.", hint: "Make hard water, then switch to detergent to restore cleaning above 85%.",
     sc: { params: {}, challenge: { text: "Clean in hard water: reach 85% cleaning.", target: { key: "cleaning", value: 85, op: "gte" } } },
-    q: ["Why are detergents better than soaps in hard water?", ["They are cheaper", "Their charged ends do not form insoluble precipitates with Ca²⁺/Mg²⁺", "They contain no hydrocarbon chain"], 1, "NCERT §4.5 / exercise Q10: no scum, so lather and cleaning continue."]
+    q: ["Why are detergents better than soaps in hard water?", ["They are cheaper", "Their charged ends do not form insoluble precipitates with Ca²⁺/Mg²⁺", "They contain no hydrocarbon chain"], 1, "NCERT 4.5 / exercise Q10: no scum, so lather and cleaning continue."]
   })
 ];
 
@@ -296,7 +296,7 @@ const CARBON_QUIZ = [
   { q: "14. A test to differentiate saturated from unsaturated hydrocarbons:", options: ["Litmus paper", "Bromine water / alkaline KMnO₄ colour change", "Flame with no air", "Sodium metal"], a: 1, why: "Unsaturated compounds decolourise bromine water; saturated ones do not." },
   { q: "15. Explain the cleaning action of soaps.", options: ["Soap dissolves dirt chemically", "Micelles emulsify oily dirt and ion repulsion keeps them suspended for rinsing", "Soap evaporates the oil", "Soap makes water acidic"], a: 1, why: "Hydrophobic tails trap oil; hydrophilic heads keep micelles in water as a colloid." },
   { q: "In-text: Why is ethanol → ethanoic acid an oxidation reaction?", options: ["Oxygen is added / hydrogen removed", "Hydrogen is added", "It is a substitution", "It is neutralisation"], a: 0, why: "Gain of O or loss of H is oxidation; oxidising agents supply the oxygen." },
-  { q: "In-text: Name the two properties of carbon giving millions of compounds.", options: ["Catenation and tetravalency", "Allotropy and isomerism", "Ionisation and conductivity", "High density and hardness"], a: 0, why: "NCERT §4.2 — carbon bonds to itself strongly and forms four bonds." },
+  { q: "In-text: Name the two properties of carbon giving millions of compounds.", options: ["Catenation and tetravalency", "Allotropy and isomerism", "Ionisation and conductivity", "High density and hardness"], a: 0, why: "NCERT 4.2 — carbon bonds to itself strongly and forms four bonds." },
   { q: "In-text: Would you check hard water using a detergent?", options: ["Yes, it forms scum", "No — detergents lather in both hard and soft water", "Yes, it turns blue", "Only with litmus"], a: 1, why: "Detergents do not precipitate with Ca²⁺/Mg²⁺, so no difference appears." },
   { q: "In-text: Why is agitation needed when washing clothes?", options: ["To heat the water", "To help micelles lift and suspend oily dirt from the fabric", "To make soap acidic", "To evaporate the oil"], a: 1, why: "Beating/scrubbing speeds emulsification and removal of the dirt-laden micelles." },
   { q: "Exemplar: The first member of the alkyne homologous series is:", options: ["Methane", "Ethene", "Ethyne", "Propyne"], a: 2, why: "A triple bond needs at least two carbons, so ethyne C₂H₂ is the first alkyne." }
@@ -319,7 +319,7 @@ const CARBON_QUIZ_HI = [
   { q: "14. संतृप्त व असंतृप्त में अंतर का परीक्षण:", options: ["लिटमस", "ब्रोमीन जल / क्षारीय KMnO₄ का रंग उड़ना", "बिना वायु ज्वाला", "सोडियम धातु"], a: 1, why: "असंतृप्त यौगिक ब्रोमीन जल का रंग उड़ाते हैं, संतृप्त नहीं।" },
   { q: "15. साबुन की सफ़ाई की क्रियाविधि?", options: ["मैल रासायनिक रूप से घुलता है", "मिसेल चिकने मैल का पायस बनाकर आयन-प्रतिकर्षण से निलंबित रखते हैं", "साबुन तेल को वाष्पित करता है", "साबुन जल को अम्लीय करता है"], a: 1, why: "पूँछें तेल पकड़तीं, सिर मिसेल को जल में कोलॉइड बनाए रखते हैं।" },
   { q: "पाठ्य प्रश्न: एथेनॉल → एथेनोइक अम्ल ऑक्सीकरण क्यों?", options: ["O जुड़ता / H हटता है", "H जुड़ता है", "प्रतिस्थापन", "उदासीनीकरण"], a: 0, why: "O का जुड़ना या H का हटना ऑक्सीकरण है।" },
-  { q: "पाठ्य प्रश्न: लाखों यौगिकों के लिए कार्बन के दो गुण?", options: ["शृंखलन व चतुःसंयोजकता", "अपररूपता व समावयवता", "आयनीकरण व चालकता", "घनत्व व कठोरता"], a: 0, why: "NCERT §4.2 — आपस में प्रबल बंध और चार बंध बनाने की क्षमता।" },
+  { q: "पाठ्य प्रश्न: लाखों यौगिकों के लिए कार्बन के दो गुण?", options: ["शृंखलन व चतुःसंयोजकता", "अपररूपता व समावयवता", "आयनीकरण व चालकता", "घनत्व व कठोरता"], a: 0, why: "NCERT 4.2 — आपस में प्रबल बंध और चार बंध बनाने की क्षमता।" },
   { q: "पाठ्य प्रश्न: क्या अपमार्जक से कठोर जल जाँचेंगे?", options: ["हाँ, गाद बनेगी", "नहीं — अपमार्जक कठोर व मृदु दोनों जल में झाग देता है", "हाँ, नीला हो जाएगा", "केवल लिटमस से"], a: 1, why: "अपमार्जक Ca²⁺/Mg²⁺ से अवक्षेप नहीं बनाता, अंतर दिखता ही नहीं।" },
   { q: "पाठ्य प्रश्न: कपड़े धोते समय मंथन/रगड़ क्यों?", options: ["जल गरम करने को", "मिसेल को मैल उठाकर निलंबित करने में सहायता", "साबुन अम्लीय बनाने को", "तेल वाष्पित करने को"], a: 1, why: "रगड़ पायसीकरण तेज़ कर मैल-युक्त मिसेल हटाती है।" },
   { q: "एग्ज़ेम्प्लर: एल्काइन श्रेणी का प्रथम सदस्य?", options: ["मेथेन", "एथीन", "एथाइन", "प्रोपाइन"], a: 2, why: "त्रि-बंध के लिए कम से कम दो कार्बन चाहिए, अतः C₂H₂ प्रथम है।" }
@@ -351,9 +351,9 @@ const CARBON_FIG_HI = [
   "सारणी 4.4 — कार्बनिक यौगिकों का नामकरण।",
   "क्रियाकलाप 4.3/4.4 — बर्नर, वायु-छिद्र और धातु की प्लेट पर कालिख।",
   "क्रियाकलाप 4.5 — ड्रॉपर, गर्म एथेनॉल, बैंगनी रंग का फीका पड़ना।",
-  "NCERT §4.3.3 — Ni सतह पर R–C=C–R का R–C–C–R बनना।",
-  "NCERT §4.3.4 — धूप में मेथेन + क्लोरीन।",
-  "क्रियाकलाप 4.6 + §4.4.1 — निर्जल अल्कोहल में सोडियम, 443 K पर निर्जलीकरण।",
+  "NCERT 4.3.3 — Ni सतह पर R–C=C–R का R–C–C–R बनना।",
+  "NCERT 4.3.4 — धूप में मेथेन + क्लोरीन।",
+  "क्रियाकलाप 4.6 + 4.4.1 — निर्जल अल्कोहल में सोडियम, 443 K पर निर्जलीकरण।",
   "क्रियाकलाप 4.7 + 4.9 — लिटमस, सार्वत्रिक सूचक, चूने का पानी।",
   "चित्र 4.11 — तिपाई पर जल-स्नान में परखनली, बीकर में डालना।",
   "क्रियाकलाप 4.10–4.12 / चित्र 4.12–4.13 — मिसेल, तेल बूँद, स्कम।"

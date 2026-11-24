@@ -86,6 +86,15 @@ const options = {
     for (const [id, count] of chapters) {
       for (let i = 0; i < count; i++) {
         await page.evaluate(([id, i]) => SCIVERSE.openFlipbook(id, i), [id, i]);
+        const headings = await page.evaluate(([id, i]) => ({
+          section: document.querySelector(`.svf-left-page[data-spread="${i}"] .svf-sec`)?.textContent,
+          figure: document.querySelector(`.svf-right-page[data-spread="${i}"] .svf-sec`)?.textContent,
+          expected: getWorld(id).spreads[i].section,
+          counter: document.querySelector('#svFlipCounter').textContent
+        }), [id, i]);
+        assert.equal(headings.section, headings.expected, `${id} spread ${i}: section heading`);
+        assert(headings.figure?.includes(headings.expected) && !/[§$�]/.test(headings.figure), `${id} spread ${i}: figure heading ${headings.figure}`);
+        assert(headings.counter.startsWith(headings.expected + ' ·'), `${id} spread ${i}: counter ${headings.counter}`);
         const image = await page.evaluate(async i => {
           const img = document.querySelector(`.svf-plate-host[data-svf-sp="${i}"] img`);
           if (!img) return { error: 'no image element' };

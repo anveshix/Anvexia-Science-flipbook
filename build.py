@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""SciVerse 3D single-file offline bundler.
+"""Anvexia single-file offline bundler.
 Reads vendor/* + src/* + authoring/packs/*.json and emits one self-contained
 index.html. No CDN, no network requests, no runtime build dependencies, no OCR.
 
 LAUNCH AUDIT
   * Three.js r187 is a vendored tree-shaken IIFE, not the deprecated r150 UMD.
-  * SciVerse 3D open-source libs (StPageFlip, MiniSearch, @tweenjs/tween.js,
+  * Anvexia open-source libs (StPageFlip, MiniSearch, @tweenjs/tween.js,
     Temml, canvas-confetti) are vendored offline in vendor/sciverse-libs.min.js.
   * Every inline <script>/<style> is hash-pinned in a strict CSP meta; the same
     policy is written to the publish headers by make_publish.py.
@@ -179,14 +179,14 @@ def main():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0a1422">
+<meta name="theme-color" content="#315b43">
 <meta name="color-scheme" content="dark light">
 <meta name="author" content="Paras Pranav">
 <meta name="copyright" content="Copyright / Developer : Paras Pranav">
-<title>SciVerse 3D — Explore Science. Experience Discovery.</title>
-<meta name="description" content="SciVerse 3D — Explore Science. Experience Discovery. 2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning for Class IX–X Science (extensible to Class XI–XII).">
+<title>Anvexia — Science, brought to life.</title>
+<meta name="description" content="Anvexia — Science, brought to life. 2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning for Class IX–X Science (extensible to Class XI–XII).">
 <!--
-SciVerse 3D vendored third-party licence notices (offline, no external request).
+Anvexia vendored third-party licence notices (offline, no external request).
 {licenses}
 -->
 __EDUVERSE_CSP_META__

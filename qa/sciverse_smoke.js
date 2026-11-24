@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * qa/sciverse_smoke.js
- * End-to-end verification of the SciVerse 3D bundle (`index.html`), CSP hashes,
+ * End-to-end verification of the Anvexia bundle (`index.html`), CSP hashes,
  * vendored open-source libraries (PageFlip, MiniSearch, TWEEN, Temml, confetti),
  * 2D Flipbook generation, Hindi-English search, MathML formulas, and Class XI-XII expansion.
  */
@@ -14,8 +14,8 @@ const ROOT = path.resolve(__dirname, "..");
 const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
 
 // 1. Verify <title>, branding, and zero external URLs
-if (!html.includes("<title>SciVerse 3D — Explore Science. Experience Discovery.</title>")) {
-  throw new Error("Missing SciVerse 3D <title> in index.html");
+if (!html.includes("<title>Anvexia — Science, brought to life.</title>")) {
+  throw new Error("Missing Anvexia <title> in index.html");
 }
 for (const pillar of ["2D Flipbooks", "3D Models", "Interactive Experiments", "Hindi–English Learning"]) {
   if (!html.includes(pillar)) throw new Error("Missing core pillar in index.html: " + pillar);
@@ -41,7 +41,7 @@ while ((m = scriptRe.exec(html)) !== null) {
   executableScripts.push(body);
 }
 
-// 3. Execute bundled scripts in VM and test all SciVerse 3D subsystems
+// 3. Execute bundled scripts in VM and test all Anvexia subsystems
 const elements = new Map();
 function makeEl(idOrTag) {
   const el = {

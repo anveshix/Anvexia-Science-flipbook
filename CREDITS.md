@@ -1,6 +1,6 @@
-# SciVerse 3D — Credits & Third-Party Notices
+# Anvexia — Credits & Third-Party Notices
 
-**SciVerse 3D** (*Explore Science. Experience Discovery.*) is an independent offline bilingual visual science platform for Class IX–X Science with extensible Class XI–XII chapter compilation. NCERT syllabus structure and textbook terminology belong to NCERT.
+**Anvexia** (*Science, brought to life.*) is an independent offline bilingual visual science platform for Class IX–X Science with extensible Class XI–XII chapter compilation. NCERT syllabus structure and textbook terminology belong to NCERT.
 
 Full verbatim license texts for all bundled libraries and fonts are embedded inside `vendor/THIRD_PARTY_LICENSES.txt` and inside the top HTML comment of `index.html`:
 

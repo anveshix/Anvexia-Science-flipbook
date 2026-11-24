@@ -183,7 +183,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.1 · COVALENT BOND");
+      C3.plate(g, "4.1 · COVALENT BOND");
       const spin = new THREE.Group(); g.add(spin);
       const molecules = [], allTargets = [], shared = [];
       const Y = 0.82, R = 0.64;
@@ -271,7 +271,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.1 · ALLOTROPES");
+      C3.plate(g, "4.1 · ALLOTROPES");
       const spin = new THREE.Group(); g.add(spin);
       const targets = [];
       /* diamond: tetrahedral network */
@@ -329,7 +329,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.2 · TETRAVALENCY + CATENATION");
+      C3.plate(g, "4.2 · TETRAVALENCY + CATENATION");
       const spin = new THREE.Group(); g.add(spin);
       const tag = C3.dynamicTag(g, 2.6, 0.42, [0, 1.36, -0.42], 48);
       let built = null;
@@ -366,7 +366,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.2.1 · SATURATED / UNSATURATED");
+      C3.plate(g, "4.2.1 · SATURATED / UNSATURATED");
       const spin = new THREE.Group(); g.add(spin);
       const v = C3.vial(g, 1.35, 0xc46b3a, 0.34);
       const tag = C3.dynamicTag(g, 2.6, 0.42, [0, 1.36, -0.42], 48);
@@ -407,7 +407,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.2.2 · ISOMERS + RINGS");
+      C3.plate(g, "4.2.2 · ISOMERS + RINGS");
       const spin = new THREE.Group(); g.add(spin);
       const tag = C3.dynamicTag(g, 2.6, 0.42, [0, 1.36, -0.42], 46);
       let key = "";
@@ -446,7 +446,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.2.3 · FUNCTIONAL GROUPS");
+      C3.plate(g, "4.2.3 · FUNCTIONAL GROUPS");
       const spin = new THREE.Group(); g.add(spin);
       const tag = C3.dynamicTag(g, 2.7, 0.42, [0, 1.36, -0.42], 46);
       let key = "";
@@ -485,7 +485,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.2.4 · ACTIVITY 4.2");
+      C3.plate(g, "4.2.4 · ACTIVITY 4.2");
       const steps = [];
       for (let i = 0; i < 5; i++) {
         const step = G3.box(g, 2.5 - i * 0.12, 0.16, 0.92, 0xe6dcc4, [0, 0.22 + i * 0.28, -0.2 + i * 0.02], { rough: 0.9 });
@@ -535,7 +535,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.2.5 · NOMENCLATURE");
+      C3.plate(g, "4.2.5 · NOMENCLATURE");
       const nameTag = C3.dynamicTag(g, 2.9, 0.62, [0, 1.15, -0.45], 62);
       const rule = G3.tag(g, "propane − e + one = propanone (not propaneone)\n-ene / -yne for double / triple bonds", 2.9, 0.6,
         { pos: [0, 0.12, 0.9], rot: [-Math.PI / 2, 0, 0], size: 28, bg: "#e8e0cb" });
@@ -571,7 +571,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.3.1 · ACTIVITY 4.3 + 4.4");
+      C3.plate(g, "4.3.1 · ACTIVITY 4.3 + 4.4");
       const burner = G3.cyl(g, 0.18, 0.3, 0.75, 0x8b95a0, [0, 0.42, 0]);
       G3.box(g, 0.9, 0.06, 0.9, 0x3a4753, [0, 0.06, 0]);
       const flame = G3.mesh(g, new THREE.ConeGeometry(0.34, 1.1, 18),
@@ -624,7 +624,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.3.2 · ACTIVITY 4.5");
+      C3.plate(g, "4.3.2 · ACTIVITY 4.5");
       const tube = C3.vial(g, -0.65, 0x7b3fb0, 0.42);
       const dropper = G3.cyl(g, 0.07, 0.07, 0.7, G3.mat(0xdfe8ef, { opacity: 0.5 }), [-0.65, 1.32, 0]);
       const drop = G3.ball(g, 0.07, 0x7b3fb0, [-0.65, 0.92, 0], { emissive: 0x4a1f70, glow: 0.9, seg: 10 });
@@ -664,7 +664,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.3.3 · HYDROGENATION");
+      C3.plate(g, "4.3.3 · HYDROGENATION");
       const spin = new THREE.Group(); g.add(spin);
       const ni = G3.ball(g, 0.16, 0xb9c3c9, [1.25, 0.42, 0.4], { metal: 0.7, rough: 0.3, seg: 14 });
       const oil = C3.vial(g, -1.28, 0xe0c14d, 0.34);
@@ -707,7 +707,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.3.4 · SUBSTITUTION");
+      C3.plate(g, "4.3.4 · SUBSTITUTION");
       const spin = new THREE.Group(); g.add(spin);
       const sun = G3.ball(g, 0.24, 0xffd166, [-1.35, 1.35, -0.4], { emissive: 0xffa63d, glow: 1.4, seg: 14 });
       const beam = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.75, 2.3, 16, 1, true),
@@ -757,7 +757,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.4.1 · ACTIVITY 4.6");
+      C3.plate(g, "4.4.1 · ACTIVITY 4.6");
       const tube = C3.vial(g, -0.5, 0x9fd8ff, 0.4);
       const na = G3.ball(g, 0.13, 0xb9c3c9, [0.7, 0.45, 0], { metal: 0.6, seg: 12 });
       const burn = G3.mesh(g, new THREE.ConeGeometry(0.2, 0.6, 12),
@@ -802,7 +802,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.4.2 · ACTIVITY 4.7 + 4.9");
+      C3.plate(g, "4.4.2 · ACTIVITY 4.7 + 4.9");
       const tube = C3.vial(g, -0.65, 0xdfe8ef, 0.4);
       const lime = C3.vial(g, 0.85, 0xffffff, 0.34);
       const paper = G3.box(g, 0.1, 0.5, 0.12, 0x4a86d8, [-0.65, 0.95, 0.1]);
@@ -845,7 +845,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.4.2 · ACTIVITY 4.8 / FIG 4.11");
+      C3.plate(g, "4.4.2 · ACTIVITY 4.8 / FIG 4.11");
       const bath = G3.cyl(g, 0.95, 0.95, 0.5, G3.mat(0x6fb6d8, { opacity: 0.35, rough: 0.2 }), [0, 0.34, 0]);
       const tube = G3.cyl(g, 0.2, 0.22, 0.8, G3.mat(0xdfe8ef, { opacity: 0.4, rough: 0.15 }), [0, 0.75, 0]);
       const liquid = G3.cyl(g, 0.18, 0.18, 0.34, G3.mat(0xe6d3a3, { emissive: 0x8a6a2f, glow: 0.25 }), [0, 0.52, 0]);
@@ -895,7 +895,7 @@ const CARBON_BLOCKS = {
       };
     },
     build(g, sp, ctx) {
-      C3.plate(g, "§4.5 · ACTIVITY 4.10–4.12");
+      C3.plate(g, "4.5 · ACTIVITY 4.10–4.12");
       const oil = G3.ball(g, 0.52, 0xd9a94a, [0, 0.88, 0], { rough: 0.5, seg: 20 });
       const spin = new THREE.Group(); spin.position.set(0, 0.88, 0); g.add(spin);
       const heads = [], tails = [];
