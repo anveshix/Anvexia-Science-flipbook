@@ -147,6 +147,7 @@
   },
   "c10_env": {
    "13.1": [
+    "rx/local_c10_env_13_1.webp",
     "rx/ecosystem_biotic_abiotic.webp"
    ],
    "13.2": [
@@ -371,6 +372,7 @@
     "rx/corrosion_rancidity.webp"
    ],
    "3.8": [
+    "rx/local_c10_metals_3_8.webp",
     "rx/alloys_atomic_lattice.webp"
    ]
   },
@@ -459,6 +461,7 @@
     "rx/conventional_vs_nonconventional.webp"
    ],
    "S.2": [
+    "rx/local_c10_sources_s_2.webp",
     "rx/solar_panel_and_cooker.webp"
    ],
    "S.3": [
@@ -473,9 +476,11 @@
     "rx/population.webp"
    ],
    "M.2": [
+    "rx/local_c10_sustainable_m_2.webp",
     "rx/forest_wildlife_conservation.webp"
    ],
    "M.3": [
+    "rx/local_c10_sustainable_m_3.webp",
     "rx/rainwater_harvesting_watershed.webp"
    ],
    "M.4": [
@@ -682,21 +687,25 @@
   },
   "c9_exploration": {
    "1.1": [
+    "rx/local_c9_exploration_1_1.webp",
     "rx/science_observation_patterns.webp"
    ],
    "1.2": [
+    "rx/local_c9_exploration_1_2.webp",
     "rx/focused_testable_question.webp"
    ],
    "1.3": [
     "rx/measurement_si_units.webp"
    ],
    "1.4": [
+    "rx/local_c9_exploration_1_4.webp",
     "rx/controlled_experiment_evidence.webp"
    ],
    "1.5": [
     "rx/scientific_models_unseen.webp"
    ],
    "1.6": [
+    "rx/local_c9_exploration_1_6.webp",
     "rx/science_math_tech_society.webp"
    ]
   },
@@ -708,6 +717,7 @@
     "rx/hookes_law_spring.webp"
    ],
    "6.3": [
+    "rx/local_c9_forces_6_3.webp",
     "rx/balanced_forces_equilibrium.webp"
    ],
    "6.4": [
@@ -755,6 +765,7 @@
     "rx/centrifugation_coagulation.webp"
    ],
    "5.2": [
+    "rx/local_c9_mixtures_5_2.webp",
     "rx/solution_solute_solvent.webp"
    ],
    "5.3": [
@@ -947,6 +958,7 @@
     "rx/work_energy.webp"
    ],
    "7.7": [
+    "rx/local_c9_work_energy_7_7.webp",
     "rx/mechanical_power_watt.webp"
    ],
    "7.8": [
@@ -9318,6 +9330,462 @@
     "info_hi": "फोकस बिंदु: “उत्तल लेंस” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 337,
     "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_env_13_1.webp": [
+   {
+    "anchor_x": 272,
+    "anchor_y": 506,
+    "en": "Aquatic plants",
+    "h": 66,
+    "hi": "जलीय पौधे",
+    "info_en": "Plants are living components that can make food using sunlight.",
+    "info_hi": "पौधे सजीव घटक हैं जो सूर्य के प्रकाश से भोजन बना सकते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 479,
+    "anchor_y": 482,
+    "en": "Fish",
+    "h": 66,
+    "hi": "मछली",
+    "info_en": "Fish are living consumers in the pond ecosystem.",
+    "info_hi": "मछली तालाब के पारितंत्र में सजीव उपभोक्ता हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 905,
+    "anchor_y": 420,
+    "en": "Water and sunlight",
+    "h": 66,
+    "hi": "जल और सूर्य का प्रकाश",
+    "info_en": "Water and sunlight are non-living components of the ecosystem.",
+    "info_hi": "जल और सूर्य का प्रकाश पारितंत्र के निर्जीव घटक हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_metals_3_8.webp": [
+   {
+    "anchor_x": 425,
+    "anchor_y": 512,
+    "en": "Steel cutlery",
+    "h": 66,
+    "hi": "इस्पात के बर्तन",
+    "info_en": "Steel is an alloy based on iron; stainless steel is commonly used for cutlery.",
+    "info_hi": "इस्पात लौह आधारित मिश्रधातु है; कटलरी के लिए प्रायः स्टेनलेस स्टील का उपयोग होता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 795,
+    "anchor_y": 503,
+    "en": "Brass handle",
+    "h": 66,
+    "hi": "पीतल का हैंडल",
+    "info_en": "Brass is an alloy mainly of copper and zinc, often used for hardware.",
+    "info_hi": "पीतल मुख्यतः ताँबे और जस्ते की मिश्रधातु है, जिसका उपयोग हार्डवेयर में होता है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1160,
+    "anchor_y": 589,
+    "en": "Bronze medal",
+    "h": 66,
+    "hi": "काँस्य पदक",
+    "info_en": "Bronze is commonly an alloy of copper and tin; medals may use other materials too.",
+    "info_hi": "काँस्य प्रायः ताँबे और टिन की मिश्रधातु है; पदक अन्य पदार्थों के भी हो सकते हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_sources_s_2.webp": [
+   {
+    "anchor_x": 166,
+    "anchor_y": 113,
+    "en": "Sunlight",
+    "h": 66,
+    "hi": "सूर्य का प्रकाश",
+    "info_en": "Solar energy reaches Earth as radiation from the Sun.",
+    "info_hi": "सौर ऊर्जा सूर्य से विकिरण के रूप में पृथ्वी तक पहुँचती है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 360,
+    "anchor_y": 279,
+    "en": "Solar panels",
+    "h": 66,
+    "hi": "सौर पैनल",
+    "info_en": "Photovoltaic panels convert sunlight into electrical energy.",
+    "info_hi": "फोटोवोल्टिक पैनल सूर्य के प्रकाश को विद्युत ऊर्जा में बदलते हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1055,
+    "anchor_y": 567,
+    "en": "Solar cooker",
+    "h": 66,
+    "hi": "सौर कुकर",
+    "info_en": "A solar cooker uses sunlight to heat food; its design differs from a photovoltaic panel.",
+    "info_hi": "सौर कुकर भोजन गर्म करने के लिए सूर्य के प्रकाश का उपयोग करता है; इसकी बनावट सौर पैनल से अलग है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_sustainable_m_2.webp": [
+   {
+    "anchor_x": 367,
+    "anchor_y": 381,
+    "en": "Forest habitat",
+    "h": 66,
+    "hi": "वन आवास",
+    "info_en": "Forests provide habitat for many organisms.",
+    "info_hi": "वन अनेक जीवों को आवास प्रदान करते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 824,
+    "anchor_y": 577,
+    "en": "Wildlife",
+    "h": 66,
+    "hi": "वन्यजीव",
+    "info_en": "Protecting habitats helps conserve biodiversity.",
+    "info_hi": "आवास की रक्षा करने से जैव विविधता के संरक्षण में मदद मिलती है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1215,
+    "anchor_y": 461,
+    "en": "Observation",
+    "h": 66,
+    "hi": "अवलोकन",
+    "info_en": "Wildlife monitoring is one part of conservation; the scene is illustrative.",
+    "info_hi": "वन्यजीवों की निगरानी संरक्षण का एक भाग है; दृश्य सांकेतिक है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_sustainable_m_3.webp": [
+   {
+    "anchor_x": 410,
+    "anchor_y": 223,
+    "en": "Roof",
+    "h": 66,
+    "hi": "छत",
+    "info_en": "Rain falling on a roof can be collected for storage or recharge.",
+    "info_hi": "छत पर गिरने वाले वर्षाजल को भंडारण या पुनर्भरण के लिए एकत्र किया जा सकता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 683,
+    "anchor_y": 342,
+    "en": "Gutter and pipe",
+    "h": 66,
+    "hi": "नाली और पाइप",
+    "info_en": "Gutters and downpipes can convey roof runoff to a tank.",
+    "info_hi": "नाली और पाइप छत का पानी टंकी तक पहुँचा सकते हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 820,
+    "anchor_y": 507,
+    "en": "Storage tank",
+    "h": 66,
+    "hi": "भंडारण टंकी",
+    "info_en": "Stored rainwater may be used for suitable purposes; drinking requires appropriate treatment. This is not a construction plan.",
+    "info_hi": "संग्रहीत वर्षाजल उपयुक्त कार्यों में उपयोग हो सकता है; पीने के लिए उचित उपचार आवश्यक है। यह निर्माण योजना नहीं है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_exploration_1_1.webp": [
+   {
+    "anchor_x": 414,
+    "anchor_y": 414,
+    "en": "Leaf",
+    "h": 66,
+    "hi": "पत्ती",
+    "info_en": "Careful observation can reveal features such as a leaf’s shape and veins.",
+    "info_hi": "ध्यान से देखने पर पत्ती का आकार और उसकी शिराएँ जैसे गुण दिखाई देते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 742,
+    "anchor_y": 293,
+    "en": "Magnifying glass",
+    "h": 66,
+    "hi": "आवर्धक काँच",
+    "info_en": "A magnifying glass helps us examine small details.",
+    "info_hi": "आवर्धक काँच छोटे विवरणों को देखने में मदद करता है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 946,
+    "anchor_y": 569,
+    "en": "Notebook",
+    "h": 66,
+    "hi": "नोटबुक",
+    "info_en": "Recording observations helps us compare evidence and ask questions.",
+    "info_hi": "अवलोकन लिखने से साक्ष्य की तुलना और प्रश्न पूछने में मदद मिलती है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_exploration_1_2.webp": [
+   {
+    "anchor_x": 350,
+    "anchor_y": 409,
+    "en": "Plant near window",
+    "h": 66,
+    "hi": "खिड़की के पास पौधा",
+    "info_en": "The plant is a possible subject for observation.",
+    "info_hi": "पौधा अवलोकन का एक संभावित विषय है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 681,
+    "anchor_y": 553,
+    "en": "Focused question",
+    "h": 66,
+    "hi": "केंद्रित प्रश्न",
+    "info_en": "A testable question might ask how light affects plant growth. This image shows no experiment or result.",
+    "info_hi": "परीक्षण योग्य प्रश्न पूछ सकता है कि प्रकाश पौधे की वृद्धि को कैसे प्रभावित करता है। चित्र कोई प्रयोग या परिणाम नहीं दिखाता।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1241,
+    "anchor_y": 427,
+    "en": "Comparison plant",
+    "h": 66,
+    "hi": "तुलना के लिए पौधा",
+    "info_en": "A fair investigation would control other factors and collect observations over time.",
+    "info_hi": "निष्पक्ष जाँच में अन्य कारकों को नियंत्रित कर समय के साथ अवलोकन इकट्ठे किए जाते हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_exploration_1_4.webp": [
+   {
+    "anchor_x": 571,
+    "anchor_y": 577,
+    "en": "Record observations",
+    "h": 66,
+    "hi": "अवलोकन दर्ज करें",
+    "info_en": "Recording observations helps make evidence available for comparison.",
+    "info_hi": "अवलोकन लिखने से तुलना के लिए साक्ष्य उपलब्ध होता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 872,
+    "anchor_y": 412,
+    "en": "Thermometer",
+    "h": 66,
+    "hi": "तापमापी",
+    "info_en": "A thermometer can measure temperature; this drawing has no usable scale or reading.",
+    "info_hi": "तापमापी तापमान माप सकता है; इस चित्र में उपयोग योग्य पैमाना या माप नहीं है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 854,
+    "anchor_y": 555,
+    "en": "Water sample",
+    "h": 66,
+    "hi": "जल का नमूना",
+    "info_en": "Measurements can be repeated to investigate a question; the illustration is not a protocol.",
+    "info_hi": "प्रश्न की जाँच के लिए माप दोहराए जा सकते हैं; चित्र प्रयोग की विधि नहीं है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_exploration_1_6.webp": [
+   {
+    "anchor_x": 469,
+    "anchor_y": 636,
+    "en": "Mathematics",
+    "h": 66,
+    "hi": "गणित",
+    "info_en": "Mathematics helps describe and compare scientific observations.",
+    "info_hi": "गणित वैज्ञानिक अवलोकनों को व्यक्त करने और उनकी तुलना करने में मदद करता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 729,
+    "anchor_y": 415,
+    "en": "Turbine model",
+    "h": 66,
+    "hi": "टर्बाइन का मॉडल",
+    "info_en": "A model can help explore ideas; the illustration is not a circuit or construction guide.",
+    "info_hi": "मॉडल से विचारों को समझा जा सकता है; यह चित्र परिपथ या निर्माण का मार्गदर्शन नहीं है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1103,
+    "anchor_y": 251,
+    "en": "Wind turbine",
+    "h": 66,
+    "hi": "पवन टर्बाइन",
+    "info_en": "Science and technology can be applied to community needs, including energy.",
+    "info_hi": "विज्ञान और प्रौद्योगिकी ऊर्जा सहित समुदाय की जरूरतों में उपयोगी हो सकते हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_forces_6_3.webp": [
+   {
+    "anchor_x": 290,
+    "anchor_y": 507,
+    "en": "Opposing forces",
+    "h": 66,
+    "hi": "विपरीत बल",
+    "info_en": "The arrows represent equal forces acting in opposite directions on the same crate.",
+    "info_hi": "तीर एक ही बक्से पर विपरीत दिशाओं में लगने वाले समान बल दिखाते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 700,
+    "anchor_y": 490,
+    "en": "Crate at rest",
+    "h": 66,
+    "hi": "विराम पर बक्सा",
+    "info_en": "The horizontal forces cancel; the support force and gravity also balance vertically.",
+    "info_hi": "क्षैतिज बल एक-दूसरे को संतुलित करते हैं; ऊर्ध्वाधर दिशा में अभिलंब बल और गुरुत्व भी संतुलित हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1100,
+    "anchor_y": 507,
+    "en": "Zero net force",
+    "h": 66,
+    "hi": "शून्य परिणामी बल",
+    "info_en": "Balanced forces mean zero acceleration; an object may be at rest or move at constant velocity.",
+    "info_hi": "संतुलित बलों से त्वरण शून्य होता है; वस्तु विराम में या स्थिर वेग से चल सकती है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_mixtures_5_2.webp": [
+   {
+    "anchor_x": 345,
+    "anchor_y": 457,
+    "en": "Solution",
+    "h": 66,
+    "hi": "विलयन",
+    "info_en": "A solution is a homogeneous mixture. In this example salt is dissolved in water; a clear appearance alone cannot identify a liquid.",
+    "info_hi": "विलयन समांगी मिश्रण है। इस उदाहरण में नमक जल में घुला है; केवल पारदर्शिता से द्रव की पहचान नहीं होती।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 746,
+    "anchor_y": 572,
+    "en": "Solute",
+    "h": 66,
+    "hi": "विलेय",
+    "info_en": "The substance that dissolves is the solute; here salt is an example.",
+    "info_hi": "घुलने वाला पदार्थ विलेय है; यहाँ नमक एक उदाहरण है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1116,
+    "anchor_y": 504,
+    "en": "Solvent",
+    "h": 66,
+    "hi": "विलायक",
+    "info_en": "The solvent dissolves the solute; here water is an example.",
+    "info_hi": "विलायक विलेय को घोलता है; यहाँ जल एक उदाहरण है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_work_energy_7_7.webp": [
+   {
+    "anchor_x": 433,
+    "anchor_y": 535,
+    "en": "Time",
+    "h": 66,
+    "hi": "समय",
+    "info_en": "A stopwatch can measure the time taken; no particular time is shown here.",
+    "info_hi": "स्टॉपवॉच में लगा समय मापा जा सकता है; यहाँ कोई निश्चित समय नहीं दिखाया गया है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 838,
+    "anchor_y": 422,
+    "en": "Climbing",
+    "h": 66,
+    "hi": "सीढ़ी चढ़ना",
+    "info_en": "Climbing raises the person and bag against gravity.",
+    "info_hi": "सीढ़ी चढ़ने पर व्यक्ति और बैग गुरुत्व के विरुद्ध ऊपर उठते हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 957,
+    "anchor_y": 645,
+    "en": "Power",
+    "h": 66,
+    "hi": "शक्ति",
+    "info_en": "Average power is work done divided by time taken; its SI unit is the watt.",
+    "info_hi": "औसत शक्ति किया गया कार्य भाग लगे हुए समय है; इसका SI मात्रक वाट है।",
+    "w": 450,
+    "x": 944,
     "y": 14
    }
   ],

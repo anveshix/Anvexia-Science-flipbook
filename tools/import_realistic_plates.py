@@ -275,6 +275,23 @@ def main():
                     credits[fname] = entry["credit"]
                 files.add(fname)
 
+    # Keep locally authored drafts alongside the upstream imports.
+    local_path = ROOT / "src" / "local_illustrations.json"
+    if local_path.exists():
+        local = json.loads(local_path.read_text(encoding="utf-8"))
+        for wid, secs in local["assets"].items():
+            for sec, names in secs.items():
+                for fname in reversed(names):
+                    if not re.fullmatch(r"rx/local_[a-z0-9_]+\.webp", fname):
+                        raise ValueError(f"Invalid local plate path: {fname}")
+                    if not (ROOT / "assets" / "2d" / fname).is_file() or not local["labels"].get(fname):
+                        raise ValueError(f"Missing local plate or labels: {fname}")
+                    row = assets.setdefault(wid, {}).setdefault(sec, [])
+                    if fname not in row:
+                        row.insert(0, fname)
+                    labels[fname] = local["labels"][fname]
+                    files.add(fname)
+
     # Preserve in-repo authored SciVerse 3D plates (from tools/plates_73) when re-importing upstream plates
     if OUT_JSON.exists():
         prev = json.loads(OUT_JSON.read_text(encoding="utf-8"))

@@ -16,8 +16,9 @@ Full verbatim license texts for all bundled libraries and fonts are embedded ins
 
 ## 2D teaching plates (`assets/2d/rx/`)
 
-Shared single-copy WebP plates (`1408×768`) covering **266 / 266** NCERT Class IX–X sections:
+Shared single-copy WebP plates (`1408×768`, **278** unique WebPs) covering **266 / 266** NCERT Class IX–X sections:
 - 193 plates imported from `anveshix/ifinite-horizon` (`main`) by `tools/import_realistic_plates.py`.
+- 12 local AI science illustrations maintained in `src/local_illustrations.json` (`rx/local_*.webp`).
 - 73 bespoke high-resolution 3D & studio scientific plates authored in-repo (`tools/plates_73/`).
 Illustrative teaching images, not to scale and not micrographs.
 
