@@ -206,6 +206,13 @@ const SCIVERSE = (function () {
         el.addEventListener(evName, e => e.stopPropagation(), { passive: true });
       });
     });
+    // Scrollable pages must accept touch/pointer gestures without starting a
+    // page turn. The class is set later by fitting and can change after answers.
+    root.querySelectorAll(".svf-page-inner").forEach(el => {
+      ["pointerdown", "mousedown", "touchstart"].forEach(evName => {
+        el.addEventListener(evName, e => { if (el.classList.contains("svf-scrollable")) e.stopPropagation(); }, { passive: true });
+      });
+    });
   }
 
   function currentFlipSpreadIndex() {
@@ -519,9 +526,22 @@ const SCIVERSE = (function () {
     });
   }
 
-  /* Fit-to-page: measure every page offscreen at its real rendered size and
-     step the type scale (--fs) down until the page content fits without
-     scrolling or clipping. Deterministic, done once per build, no jumps. */
+  /* Prefer fitting, but never hide content that still exceeds the minimum font
+     scale. Such pages become keyboard- and touch-scrollable instead. */
+  function setPageScrollable(inner, on) {
+    if (!inner) return;
+    inner.classList.toggle("svf-scrollable", on);
+    if (on) {
+      inner.setAttribute("tabindex", "0");
+      inner.setAttribute("role", "region");
+      inner.setAttribute("aria-label", BI("Scrollable page. Scroll to read more.", "स्क्रॉल करने योग्य पृष्ठ। और पढ़ने के लिए नीचे स्क्रॉल करें।"));
+    } else {
+      inner.removeAttribute("tabindex");
+      inner.removeAttribute("role");
+      inner.removeAttribute("aria-label");
+    }
+  }
+
   function fitPages(book) {
     if (!flipInst || typeof document === "undefined" || !document.body || !document.body.appendChild) return true;
     let r = null;
@@ -547,7 +567,10 @@ const SCIVERSE = (function () {
       }
       /* on the inner element: StPageFlip rewrites the page's own style attribute */
       const live = pg.querySelector(".svf-page-inner");
-      if (live) live.style.setProperty("--fs", fs);
+      if (live) {
+        live.style.setProperty("--fs", fs);
+        setPageScrollable(live, !!inner && inner.scrollHeight > inner.clientHeight + 1);
+      }
       c.remove();
     });
     box.remove();
@@ -562,6 +585,7 @@ const SCIVERSE = (function () {
       fs = Math.round((fs - 0.04) * 100) / 100;
       inner.style.setProperty("--fs", fs);
     }
+    setPageScrollable(inner, inner.scrollHeight > inner.clientHeight + 1);
   }
 
   function openFlipbook(chapterId, spreadIdx, customWorld) {
@@ -571,6 +595,9 @@ const SCIVERSE = (function () {
     if (!book) { destroyFlipInstance(); book = $("svFlipBook"); }
 
     const w = customWorld || (chapterId ? getWorld(chapterId) : (EV.world || getWorld("c10_carbon")));
+    // Preserve image cycling when rebuilding the same chapter (e.g. language
+    // or resize), but never carry a spread index into a different chapter.
+    if (flipWorld && flipWorld.id !== w.id) flipPlateIdx = {};
     flipWorld = w;
     const targetSpread = typeof spreadIdx === "number" ? Math.max(0, Math.min(w.spreads.length - 1, spreadIdx))
       : (EV.world && EV.world.id === w.id ? (WORLD.index || 0) : 0);
@@ -750,10 +777,10 @@ const SCIVERSE = (function () {
     `;}).join("");
 
     box.querySelectorAll("[data-hit-3d]").forEach(el => {
-      el.onclick = () => activateSearchHit(+el.dataset.hit3d, false);
+      el.onclick = () => activateSearchHit(+el.getAttribute("data-hit-3d"), false);
     });
     box.querySelectorAll("[data-hit-2d]").forEach(el => {
-      el.onclick = e => { e.stopPropagation(); activateSearchHit(+el.dataset.hit2d, true); };
+      el.onclick = e => { e.stopPropagation(); activateSearchHit(+el.getAttribute("data-hit-2d"), true); };
     });
   }
 

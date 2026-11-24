@@ -1,8 +1,17 @@
 # Extracted publish package: browser test — 24 November 2026
 
-## Result: not release-ready
+## Follow-up: fixes and retest
 
-Real headless Chromium testing of the **extracted ZIP** found three user-facing issues. No application bugs were fixed in this test pass. This is a focused package/interaction test, not a complete science, accessibility, device or production-readiness review.
+The three issues recorded below were subsequently fixed and tested against a newly rebuilt, extracted ZIP on 24 November 2026. Search result controls now use the actual data attributes; image-cycle state resets on a chapter change while preserving same-chapter rebuilds; long pages that cannot fit at the existing minimum scale now have a visible, focusable, touch-scrollable region instead of hiding the content. The original failure descriptions and hashes below are retained as historical evidence.
+
+- Retested ZIP SHA-256: `49c2ca488a931b3842b8729b33412201fe2f365d7b910a2c1d9eb4e1e932b068`; embedded `index.html` SHA-256: `90d9d010d8f5cf2b714bc49dcb5903215011cd820e8e10eaf700c1c32166d624`.
+- `npm run qa:browser` passed against the extracted ZIP on headless Chromium 153.0.8010.0 with SwiftShader: result title/thumbnail/Open in 2D-only mode and 2D/3D buttons in standard mode; keyboard, wheel and emulated-touch long-page scrolling; all 266 first-view WebPs; 287 layout views (all laptop spreads, phone sample); label geometry on desktop and emulated mobile. `npm run qa` also passed with browser checks required and extracted HTTP and ZIP parity verified.
+- One earlier layout run exceeded its 5-second page-fit wait on this environment. The test now allows 20 seconds and still fails if fitting does not complete; the full rerun and the required browser suite passed. This does not establish a performance guarantee.
+- This is focused Chromium/emulated-device coverage. Physical touch devices, screen readers, hardware GPUs, other browsers, broader interaction/accessibility checks, scientific and Hindi review, and the requested 288-concept mapping remain pending; production readiness is not certified.
+
+## Original test result: not release-ready
+
+The initial headless Chromium testing of the **extracted ZIP** found three user-facing issues. No application bugs were fixed in that initial test pass. This is a focused package/interaction test, not a complete science, accessibility, device or production-readiness review.
 
 - ZIP tested: `eduverse-publish.zip`, SHA-256 `fa3322aaa20544206c6b37bf3dcbc8488a384c340151b1e880b21ea8be68e1a2`.
 - `index.html` inside ZIP: SHA-256 `93a18d18602ff00a12c461772ac4050d7dbc8c87fc50808c0cfacfe51239f95d`.
@@ -34,5 +43,5 @@ In the 2D flipbook, select Cell, use the image-cycle button on its first spread,
 
 1. Extract the tested ZIP to a local directory and serve it over HTTP; point `QA_BASE` to that server.
 2. Install Playwright and a compatible Chromium plus system libraries. Run with `QA_REQUIRE_BROWSER=1` so lack of Playwright is a failure, not a skip. If needed set `QA_CHROMIUM_EXECUTABLE` to the browser path.
-3. Run `node qa/publish_browser_smoke.js`, `node qa/label_geometry.js`, and `node qa/flipbook_layout.js` with those environment variables. The first and last currently fail for the confirmed issues above; these are regression checks, not evidence of successful tests until corrected.
-4. Fix search result handlers and chapter image-index state, design an accessible solution for overflowing pages, rebuild and regenerate ZIP, then rerun these tests against the new extracted artifact. Repeat on real devices/browsers and complete science, Hindi and accessibility review before release.
+3. Run `npm run qa:browser` with those environment variables; this mandatory suite fails if Playwright is absent and includes search, scrolling, label geometry, layout and package smoke tests. `npm run qa` also runs the structural/archive checks, with browser checks required when `QA_REQUIRE_BROWSER=1` is set.
+4. Repeat on physical devices and other browsers, and complete science, Hindi and accessibility review before release.

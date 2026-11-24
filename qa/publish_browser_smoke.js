@@ -41,6 +41,9 @@ const options = {
     await page.locator('[data-svf-cycle="0"]').click();
     await page.waitForFunction(old => document.querySelector('.svf-plate-host[data-svf-sp="0"] img').getAttribute('src') !== old, before);
     assert.notEqual(await host.locator('img').getAttribute('src'), before);
+    const selected = await host.locator('img').getAttribute('src');
+    await page.locator('#svFlipLangBtn').click();
+    assert.equal(await page.locator('.svf-plate-host[data-svf-sp="0"] img').getAttribute('src'), selected, 'same chapter lost its image selection on language rebuild');
     // A fresh chapter should start with its own first image, not inherit
     // another chapter's supplement index.
     await page.locator('#svFlipChapter').selectOption('c10_carbon');
