@@ -232,7 +232,7 @@ export const BIO_ENV_PLATES = [
       ctx.beginPath();
       ctx.moveTo(1850, 1060); ctx.quadraticCurveTo(1920, 860, 2380, 910); ctx.lineTo(2340, 1080); ctx.closePath();
       ctx.fill(); ctx.stroke();
-      drawFloorTag(ctx, 2120, 1155, "3. Cells Absorb Glucose → Glycogen", "#78350f");
+      drawFloorTag(ctx, 2120, 1155, "3. Insulin promotes glucose storage", "#78350f");
 
       // Bottom-left (680, 990): Normal Balanced Blood Glucose Set-Point + Negative Feedback Inhibition (-)!
       ctx.fillStyle = "#dcfce7"; ctx.strokeStyle = "#16a34a"; ctx.lineWidth = 6;
@@ -252,8 +252,8 @@ export const BIO_ENV_PLATES = [
     marks: makeLabels([
       { x: 340, y: 252, en: "High Blood Sugar Stimulus", hi: "उच्च रक्त शर्करा संकेत", info_en: "After a carbohydrate-rich meal, rising blood glucose is sensed directly by pancreatic islet cells.", info_hi: "भोजन के बाद रक्त में बढ़ता ग्लूकोज़ स्तर अग्न्याशय की कोशिकाओं द्वारा पहचाना जाता है।" },
       { x: 1060, y: 252, en: "Pancreas Releases Insulin", hi: "अग्न्याशय से इंसुलिन स्राव", info_en: "In response, the pancreas secretes more insulin hormone into the bloodstream.", info_hi: "उच्च शर्करा के प्रत्युत्तर में अग्न्याशय रक्त में इंसुलिन हार्मोन स्रावित करता है।" },
-      { x: 1060, y: 495, en: "Cellular Glucose Uptake", hi: "कोशिकीय शर्करा अवशोषण", info_en: "Insulin stimulates liver and muscle cells to take up glucose and store it as glycogen.", info_hi: "इंसुलिन यकृत व पेशी कोशिकाओं को ग्लूकोज़ ग्रहण कर ग्लाइकोजन बनाने को प्रेरित करता है।" },
-      { x: 704, y: 368, en: "Negative Feedback Loop", hi: "ऋणात्मक पुनर्निवेश नियंत्रण", info_en: "Once blood sugar falls to normal, feedback inhibits further insulin secretion automatically.", info_hi: "रक्त शर्करा सामान्य होते ही पुनर्निवेश तंत्र इंसुलिन का स्राव स्वतः घटा देता है।" }
+      { x: 1060, y: 495, en: "Glucose Storage", hi: "ग्लूकोज़ का संचय", info_en: "Insulin promotes glucose uptake in muscle and promotes glycogen storage in muscle and liver; it also reduces liver glucose output.", info_hi: "इंसुलिन पेशियों में ग्लूकोज़ ग्रहण और पेशी तथा यकृत में ग्लाइकोजन संचय बढ़ाता है; यह यकृत से ग्लूकोज़ निकलना भी घटाता है।" },
+      { x: 704, y: 368, en: "Negative Feedback Loop", hi: "ऋणात्मक पुनर्निवेश नियंत्रण", info_en: "As blood glucose falls, insulin secretion generally decreases; the pancreas continues to regulate its release.", info_hi: "रक्त शर्करा घटने पर इंसुलिन का स्राव सामान्यतः घटता है; उसका नियमन जारी रहता है।" }
     ])
   },
 
@@ -291,7 +291,7 @@ export const BIO_ENV_PLATES = [
       { x: 230, y: 365, en: "Parent DNA Blueprint", hi: "जनक DNA ब्लूप्रिंट", info_en: "Chromosomal DNA holds the body-design blueprint copied before every cell division.", info_hi: "कोशिका विभाजन से पहले गुणसूत्र के DNA की प्रतिकृति बनकर शरीर-रचना की सूचना आगे जाती है।" },
       { x: 510, y: 470, en: "Inbuilt Variation", hi: "प्रतिकृति में विभिन्नता", info_en: "No biochemical copying reaction is 100% identical, generating subtle heritable variations.", info_hi: "जैव-रासायनिक प्रतिकृति पूर्णतः एकसमान न होने से संतति में सूक्ष्म विभिन्नताएँ उत्पन्न होती हैं।" },
       { x: 1020, y: 280, en: "Changing Niche (ΔT)", hi: "पर्यावरणीय बदलाव (ΔT)", info_en: "Sudden shifts in water temperature, climate or disease can wipe out uniform populations.", info_hi: "तापमान या आवास में अचानक बदलाव समान गुणों वाली पूरी समष्टि को नष्ट कर सकता है।" },
-      { x: 1180, y: 410, en: "Species Survival", hi: "अनुकूलित जीवों की रक्षा", info_en: "Heat-resistant variants survive and reproduce, ensuring long-term continuity of the species.", info_hi: "ऊष्मा-रोधी विभिन्नता वाले जीव जीवित बचकर प्रजाति की निरंतरता बनाए रखते हैं।" }
+      { x: 1180, y: 410, en: "Species Survival", hi: "अनुकूलित जीवों की रक्षा", info_en: "Some variants may be better suited to changed conditions and more likely to reproduce; survival of a species is not guaranteed.", info_hi: "कुछ विविधताएँ बदली परिस्थितियों में जीवों को अधिक अनुकूल बना सकती हैं; प्रजाति का बचना सुनिश्चित नहीं है।" }
     ])
   },
 
@@ -337,13 +337,13 @@ export const BIO_ENV_PLATES = [
       ctx.fillStyle = "#334155"; ctx.font = '700 32px "DejaVu Sans", sans-serif'; ctx.textAlign = "center";
       ctx.fillText("Placenta Disc (O₂ & Glucose)", 2340, 835);
       ctx.fillStyle = "#be123c";
-      ctx.fillText("Unfertilised → ~28d Cycle", 2340, 985);
+      ctx.fillText("Cycle length varies", 2340, 985);
       ctx.restore();
       drawFloorTag(ctx, 1408, 1305, "Ovulation → Oviduct Fertilisation → Zygote Cleavage → Uterine Implantation & Placenta", "#9f1239");
       return cv;
     },
     marks: makeLabels([
-      { x: 265, y: 420, en: "Ovary & Ovulation", hi: "अंडाशय व अंडोत्सर्ग", info_en: "One mature egg is released from an ovary roughly once every 28 days.", info_hi: "अंडाशय से लगभग हर 28 दिन में एक परिपक्व अंडाणु मुक्त होता है।" },
+      { x: 265, y: 420, en: "Ovary & Ovulation", hi: "अंडाशय व अंडोत्सर्ग", info_en: "Ovulation often releases one egg per cycle, but the timing and cycle length vary and not every cycle has ovulation.", info_hi: "अंडोत्सर्ग में प्रायः एक अंडाणु निकलता है, लेकिन चक्र और समय बदलते हैं तथा हर चक्र में अंडोत्सर्ग नहीं होता।" },
       { x: 390, y: 260, en: "Oviduct Fertilisation", hi: "अंडवाहिका में निषेचन", info_en: "Sperm fuses with the ovum inside the fallopian tube to form a diploid zygote that divides into an embryo.", info_hi: "फैलोपियन नलिका में शुक्राणु व अंडाणु के संलयन से युग्मनज बनता है जो विभाजित होकर भ्रूण बनाता है।" },
       { x: 682, y: 388, en: "Uterine Implantation", hi: "गर्भाशय अंतःरोपण व ऋतुस्राव", info_en: "Embryo embeds in thick spongy uterine lining; if unfertilised, the lining sheds as menstruation.", info_hi: "भ्रूण गर्भाशय की मोटी परत में रोपित होता है; निषेचन न होने पर यह परत मासिक धर्म के रूप में निकल जाती है।" },
       { x: 1170, y: 335, en: "Placenta Nutrition", hi: "अपरा (प्लैसेंटा) पोषण", info_en: "Disc-shaped placenta transfers glucose and O₂ from mother to embryo and removes wastes.", info_hi: "अपरा भ्रूण को माँ के रक्त से ग्लूकोज़ व ऑक्सीजन पहुँचाती है तथा अपशिष्ट हटाती है।" }
@@ -358,9 +358,9 @@ export const BIO_ENV_PLATES = [
     render() {
       const { cv, ctx } = studioCanvas({ horizon: 1190 });
       const cards = [
-        { cx: 400, col: "#0284c7", title: "Mechanical Barrier", sub: "Blocks sperm + STI shield" },
-        { cx: 1072, col: "#b45309", title: "Copper-T (IUCD)", sub: "Prevents implantation" },
-        { cx: 1744, col: "#7e22ce", title: "Oral Hormonal Pills", sub: "Inhibits egg release" },
+        { cx: 400, col: "#0284c7", title: "Condoms", sub: "Reduce STI risk" },
+        { cx: 1072, col: "#b45309", title: "Copper-T (IUD)", sub: "Prevents fertilisation" },
+        { cx: 1744, col: "#7e22ce", title: "Hormonal Pills", sub: "Actions vary by type" },
         { cx: 2416, col: "#15803d", title: "Surgical Block", sub: "Vasectomy / Tubectomy" }
       ];
       for (const c of cards) {
@@ -394,10 +394,10 @@ export const BIO_ENV_PLATES = [
       return cv;
     },
     marks: makeLabels([
-      { x: 200, y: 365, en: "Mechanical Barrier", hi: "यांत्रिक अवरोध विधि", info_en: "Physically prevents sperm from reaching the egg and also protects against sexually transmitted infections.", info_hi: "शुक्राणु को अंडाणु तक पहुँचने से रोकती है और यौन संचारित संक्रमणों से भी सुरक्षा देती है।" },
-      { x: 536, y: 365, en: "Intrauterine Copper-T", hi: "कॉपर-T (IUCD)", info_en: "Placed inside the uterus by a clinician to prevent fertilisation and implantation.", info_hi: "चिकित्सक द्वारा गर्भाशय में स्थापित कॉपर-T निषेचन और रोपण को रोकता है।" },
-      { x: 872, y: 365, en: "Hormonal Oral Pills", hi: "हार्मोनल गर्भनिरोधक गोलियाँ", info_en: "Alter hormonal balance so the ovary does not release an egg; taken under medical guidance.", info_hi: "हार्मोन संतुलन बदलकर अंडोत्सर्ग रोकती हैं; इन्हें चिकित्सकीय सलाह से लिया जाता है।" },
-      { x: 1208, y: 365, en: "Surgical Methods", hi: "शल्यक्रिया विधि", info_en: "Blocking vas deferens in males or fallopian tubes in females permanently stops gamete transport.", info_hi: "शुक्रवाहिका या अंडवाहिका को अवरुद्ध कर युग्मक स्थानांतरण स्थायी रूप से रोका जाता है।" }
+      { x: 200, y: 365, en: "Condoms", hi: "कंडोम", info_en: "Condoms act as a barrier. Correct and consistent use reduces the risk of pregnancy and many sexually transmitted infections; protection is not absolute.", info_hi: "कंडोम अवरोध का काम करता है। सही और नियमित उपयोग गर्भावस्था तथा कई यौन संचारित संक्रमणों का जोखिम घटाता है; सुरक्षा पूर्ण नहीं होती।" },
+      { x: 536, y: 365, en: "Intrauterine Copper-T", hi: "कॉपर-T (IUD)", info_en: "A clinician places a copper IUD in the uterus. Copper interferes with sperm and prevents fertilisation; the IUD does not protect against STIs.", info_hi: "स्वास्थ्यकर्मी कॉपर IUD गर्भाशय में लगाता है। ताँबा शुक्राणु की गति बाधित कर निषेचन रोकता है; IUD यौन संक्रमणों से सुरक्षा नहीं देता।" },
+      { x: 872, y: 365, en: "Hormonal Oral Pills", hi: "हार्मोनल गर्भनिरोधक गोलियाँ", info_en: "Different pills work in different ways. Combined pills primarily prevent ovulation; some progestin-only pills do not consistently suppress it. Seek qualified advice.", info_hi: "अलग गोलियाँ अलग तरह से काम करती हैं। संयुक्त गोलियाँ मुख्यतः अंडोत्सर्ग रोकती हैं; कुछ केवल प्रोजेस्टिन गोलियाँ इसे हमेशा नहीं रोकतीं। योग्य सलाह लें।" },
+      { x: 1208, y: 365, en: "Surgical Methods", hi: "शल्यक्रिया विधि", info_en: "Vasectomy and tubal surgery are intended as permanent contraception. They do not protect against STIs and may rarely fail.", info_hi: "पुरुष और महिला नसबंदी स्थायी गर्भनिरोध के लिए हैं। वे यौन संक्रमणों से सुरक्षा नहीं देतीं और दुर्लभ स्थिति में विफल हो सकती हैं।" }
     ])
   },
 
@@ -531,8 +531,8 @@ export const BIO_ENV_PLATES = [
       ctx.lineTo(1760, 1006); ctx.lineTo(1010, 1006); ctx.closePath(); ctx.fill(); ctx.stroke();
       drawSphere3D(ctx, 1420, 555, 28, "Au", { glow: "rgba(250,204,21,0.85)" });
       ctx.fillStyle = "#0f172a"; ctx.font = '700 28px "DejaVu Sans", sans-serif'; ctx.textAlign = "center";
-      ctx.fillText("Day 1–5       Day 14 (Ovulation)       Day 28", 1390, 1065);
-      drawFloorTag(ctx, 1380, 1300, "28-Day Ovarian & Uterine Cycle", "#be123c");
+      ctx.fillText("Day 1–5      Day 14 (example)      Day 28", 1390, 1065);
+      drawFloorTag(ctx, 1380, 1300, "Example cycle only — timing varies", "#be123c");
 
       // 3. Right: Embryo inside Amniotic Sac + Umbilical Cord + Placenta
       floorShadow(ctx, 2320, 1175, 270, 34, 0.14);
@@ -552,7 +552,7 @@ export const BIO_ENV_PLATES = [
     },
     marks: makeLabels([
       { x: 215, y: 345, en: "Ovum & Sperm Gametes", hi: "अंडाणु और शुक्राणु युग्मक", info_en: "Large nutrient-rich female ovum fuses with motile male sperm to restore diploid chromosome count.", info_hi: "अंडाणु और गतिशील शुक्राणु के निषेचन से द्विगुणित युग्मनज बनता है।" },
-      { x: 710, y: 278, en: "Day-14 Ovulation", hi: "14वें दिन अंडोत्सर्ग", info_en: "About mid-cycle (~day 14 of 28), the ovary releases a mature egg while uterine lining thickens.", info_hi: "लगभग 28 दिन के चक्र के मध्य में अंडाशय एक अंडाणु मुक्त करता है।" },
+      { x: 710, y: 278, en: "Ovulation Example", hi: "अंडोत्सर्ग का उदाहरण", info_en: "Day 14 is an example, not a rule. Cycle length and ovulation timing vary, even among regular cycles; this picture cannot predict fertile days.", info_hi: "14वाँ दिन केवल उदाहरण है, नियम नहीं। चक्र की लंबाई और अंडोत्सर्ग का समय बदलते हैं; इस चित्र से प्रजनन के दिनों की भविष्यवाणी नहीं की जा सकती।" },
       { x: 760, y: 420, en: "Endometrial Lining", hi: "गर्भाशय अंतःस्तर चक्र", info_en: "Spongy blood-rich uterine wall prepares to nourish an embryo, or sheds as menstruation if unfertilised.", info_hi: "गर्भाशय की रक्त-समृद्ध परत गर्भावस्था को सहारा देती है; निषेचन न होने पर ऋतुस्राव होता है।" },
       { x: 1160, y: 390, en: "Embryo & Placenta", hi: "भ्रूण, उल्ब व अपरा", info_en: "Fluid-filled amniotic sac cushions the foetus while the placenta exchanges oxygen, food and wastes.", info_hi: "उल्ब तरल भ्रूण की रक्षा करता है तथा अपरा पोषण व ऑक्सीजन प्रदान करती है।" }
     ])
@@ -582,8 +582,8 @@ export const BIO_ENV_PLATES = [
       return cv;
     },
     marks: makeLabels([
-      { x: 200, y: 368, en: "Iron & Protein Diet", hi: "लौह व प्रोटीन युक्त पोषण", info_en: "Green leafy vegetables, pulses and fruits prevent adolescent anaemia and support healthy growth.", info_hi: "हरी सब्जियाँ, दालें और फल किशोरावस्था में रक्ताल्पता रोकते हैं और स्वस्थ वृद्धि देते हैं।" },
-      { x: 536, y: 368, en: "Menstrual & Daily Hygiene", hi: "व्यक्तिगत व मासिक स्वच्छता", info_en: "Clean water, soap and safe sanitary hygiene prevent reproductive tract infections.", info_hi: "नियमित स्नान व स्वच्छ सैनिटरी देखभाल संक्रमणों से बचाव करती है।" },
+      { x: 200, y: 368, en: "Iron & Protein Diet", hi: "लौह व प्रोटीन युक्त पोषण", info_en: "A varied diet supports growth and can reduce risk of iron deficiency. Anaemia has multiple causes and may require medical assessment.", info_hi: "विविध आहार वृद्धि में सहायक है और लौह की कमी का जोखिम घटा सकता है। रक्ताल्पता के कई कारण हैं; चिकित्सकीय जाँच आवश्यक हो सकती है।" },
+      { x: 536, y: 368, en: "Menstrual & Daily Hygiene", hi: "व्यक्तिगत व मासिक स्वच्छता", info_en: "Clean water and safe menstrual products support hygiene and comfort; hygiene alone does not prevent every infection or STI.", info_hi: "स्वच्छ जल और सुरक्षित मासिक उत्पाद स्वच्छता व आराम में सहायक हैं; केवल स्वच्छता हर संक्रमण या यौन संक्रमण को नहीं रोकती।" },
       { x: 872, y: 368, en: "Qualified Healthcare", hi: "चिकित्सकीय परामर्श व टीकाकरण", info_en: "Timely medical advice, STI prevention and antenatal care protect maternal and infant survival.", info_hi: "समय पर चिकित्सकीय जाँच और परामर्श माता व शिशु के स्वास्थ्य की रक्षा करते हैं।" },
       { x: 1208, y: 368, en: "Family Planning Methods", hi: "जन्म नियंत्रण व अंतराल", info_en: "Appropriate age at marriage and safe barrier/hormonal spacing protect physical and mental readiness.", info_hi: "सुरक्षित गर्भनिरोधक विधियाँ और उचित अंतराल परिवार व माता के स्वास्थ्य को सुरक्षित रखते हैं।" }
     ])
@@ -596,35 +596,29 @@ export const BIO_ENV_PLATES = [
     sec: "12.1",
     render() {
       const { cv, ctx } = studioCanvas({ horizon: 1190 });
-      // Branching Phylogenetic Decision Tree sorting All Organisms by 3 foundational evolutionary traits!
-      const nodes = [
-        { x: 420, y: 760, w: 420, h: 130, bg: "#1e293b", fg: "#ffffff", txt: "Living Organisms" },
-        { x: 1120, y: 490, w: 430, h: 120, bg: "#fef3c7", fg: "#92400e", txt: "Prokaryotes (Monera)" },
-        { x: 1120, y: 960, w: 430, h: 120, bg: "#dbeafe", fg: "#1e40af", txt: "Eukaryotes (Nucleated)" },
-        { x: 1860, y: 730, w: 410, h: 115, bg: "#ede9fe", fg: "#5b21b6", txt: "Unicellular (Protista)" },
-        { x: 1860, y: 1080, w: 410, h: 115, bg: "#dcfce7", fg: "#166534", txt: "Multicellular" },
-        { x: 2470, y: 890, w: 390, h: 115, bg: "#bbf7d0", fg: "#14532d", txt: "Plantae & Fungi" },
-        { x: 2470, y: 1160, w: 390, h: 115, bg: "#fee2e2", fg: "#991b1b", txt: "Animalia (No Wall)" }
+      // Examples, not an exhaustive or exclusive evolutionary tree.
+      const cards = [
+        { x: 340, name: "Bacteria", hint: "prokaryotes", col: "#92400e" },
+        { x: 1040, name: "Fungi", hint: "yeast, mushrooms", col: "#5b21b6" },
+        { x: 1740, name: "Plants", hint: "moss, flowering plants", col: "#166534" },
+        { x: 2440, name: "Animals", hint: "insects, mammals", col: "#991b1b" }
       ];
-      const edges = [[0,1],[0,2],[2,3],[2,4],[4,5],[4,6]];
-      for (const [a, b] of edges) {
-        drawArrow(ctx, nodes[a].x + nodes[a].w / 2, nodes[a].y, nodes[b].x - nodes[b].w / 2, nodes[b].y, "#64748b", 7, 22);
+      ctx.save(); ctx.textAlign = "center";
+      for (const c of cards) {
+        ctx.fillStyle = "#f8fafc"; ctx.strokeStyle = c.col; ctx.lineWidth = 4;
+        roundRect(ctx, c.x - 285, 550, 570, 430, 28); ctx.fill(); ctx.stroke();
+        ctx.fillStyle = c.col; ctx.font = '700 46px "DejaVu Sans", sans-serif'; ctx.fillText(c.name, c.x, 720);
+        ctx.fillStyle = "#334155"; ctx.font = '600 31px "DejaVu Sans", sans-serif'; ctx.fillText(c.hint, c.x, 815);
       }
-      for (const n of nodes) {
-        floorShadow(ctx, n.x, n.y + n.h / 2 + 10, n.w * 0.45, 18, 0.12);
-        ctx.fillStyle = n.bg; ctx.strokeStyle = n.fg; ctx.lineWidth = 4;
-        roundRect(ctx, n.x - n.w / 2, n.y - n.h / 2, n.w, n.h, 24); ctx.fill(); ctx.stroke();
-        ctx.fillStyle = n.fg; ctx.font = '700 32px "DejaVu Sans", sans-serif'; ctx.textAlign = "center";
-        ctx.fillText(n.txt, n.x, n.y + 10);
-      }
-      drawFloorTag(ctx, 1408, 1320, "Fundamental Criteria: Cell Nucleus → Unicellular/Multicellular → Cell Wall & Photosynthesis", "#0f172a");
+      ctx.restore();
+      drawFloorTag(ctx, 1408, 1300, "Classification uses shared traits and relationships; examples are not exhaustive", "#0f172a");
       return cv;
     },
     marks: makeLabels([
-      { x: 210, y: 380, en: "Millions of Species", hi: "विशाल जैव-विविधता का संगठन", info_en: "Grouping organisms by shared fundamental traits makes studying millions of species systematic.", info_hi: "लाखों जीवों का एक-एक कर अध्ययन असंभव है; वर्गीकरण उन्हें समान गुणों वाले समूहों में बाँटता है।" },
-      { x: 560, y: 245, en: "1. Nuclear Structure", hi: "1. केंद्रक की उपस्थिति", info_en: "First major split separates prokaryotic cells without a defined nucleus from nucleated eukaryotes.", info_hi: "पहला मुख्य आधार सुस्पष्ट केंद्रक का न होना (प्रोकैरियोट) या होना (यूकैरियोट) है।" },
-      { x: 930, y: 365, en: "2. Cellularity", hi: "2. एककोशिकीय बनाम बहुकोशिकीय", info_en: "Multicellularity introduces division of labour among tissues and organs.", info_hi: "बहुकोशिकीय जीवों में श्रम-विभाजन के कारण ऊतक व अंग विकसित होते हैं।" },
-      { x: 1235, y: 445, en: "3. Mode of Nutrition", hi: "3. कोशिका भित्ति व पोषण विधि", info_en: "Photosynthetic autotrophs (Plantae) separate from absorptive Fungi and ingestive Animalia.", info_hi: "प्रकाश-संश्लेषी पादप, मृतजीवी कवक तथा भित्ति-रहित जंतु पोषण के आधार पर अलग होते हैं।" }
+      { x: 170, y: 365, en: "Bacteria", hi: "जीवाणु", info_en: "Bacteria are prokaryotes; their cells lack a membrane-bound nucleus. Classification includes many more groups than shown here.", info_hi: "जीवाणु प्रोकैरियोट हैं; उनकी कोशिकाओं में झिल्ली से घिरा केंद्रक नहीं होता। वर्गीकरण में यहाँ दिखाए गए समूहों से अधिक समूह हैं।" },
+      { x: 520, y: 365, en: "Fungi", hi: "कवक", info_en: "Fungi are eukaryotes. Some, such as yeasts, are unicellular; others, such as many mushrooms, are multicellular.", info_hi: "कवक यूकैरियोट हैं। यीस्ट जैसे कुछ एककोशिकीय और अनेक मशरूम जैसे अन्य बहुकोशिकीय हैं।" },
+      { x: 870, y: 365, en: "Plants", hi: "पादप", info_en: "Plants include a diversity of organisms with shared features; many carry out photosynthesis.", info_hi: "पादपों में साझा गुण वाले विविध जीव शामिल हैं; अनेक प्रकाश-संश्लेषण करते हैं।" },
+      { x: 1220, y: 365, en: "Animals", hi: "जंतु", info_en: "Animals are diverse multicellular eukaryotes. Scientific classification uses evidence from many traits and evolutionary relationships.", info_hi: "जंतु विविध बहुकोशिकीय यूकैरियोट हैं। वैज्ञानिक वर्गीकरण में अनेक गुण और विकासीय संबंध के प्रमाण उपयोग होते हैं।" }
     ])
   },
 
@@ -962,7 +956,7 @@ export const BIO_ENV_PLATES = [
       drawSphere3D(ctx, 481, 590, 28, "Al");
       drawArrow(ctx, 180, 520, 370, 520, "#0284c7", 8, 24);
       drawArrow(ctx, 180, 640, 370, 640, "#0284c7", 8, 24);
-      drawFloorTag(ctx, 480, 1305, "Wind Turbine (> 15 km/h)", "#0284c7");
+      drawFloorTag(ctx, 480, 1305, "Wind Turbine (moving air)", "#0284c7");
 
       // 2. Center: Hydroelectric Dam Reservoir (High PE mgh -> Penstock Water Jet -> Turbine Generator)
       floorShadow(ctx, 1408, 1175, 360, 34, 0.15);
@@ -986,7 +980,7 @@ export const BIO_ENV_PLATES = [
       return cv;
     },
     marks: makeLabels([
-      { x: 240, y: 295, en: "Wind Kinetic Energy", hi: "पवन चक्की टरबाइन", info_en: "Moving air (> 15 km/h) turns rotor blades coupled directly to an electric generator.", info_hi: "15 km/h से तेज बहती पवन टरबाइन के ब्लेड घुमाकर जनित्र द्वारा विद्युत बनाती है।" },
+      { x: 240, y: 295, en: "Wind Kinetic Energy", hi: "पवन चक्की टरबाइन", info_en: "Moving air turns turbine blades connected to a generator; the required wind speed depends on the turbine.", info_hi: "बहती पवन टर्बाइन के ब्लेड घुमाती है; आवश्यक पवन गति टर्बाइन के अनुसार बदलती है।" },
       { x: 585, y: 340, en: "Elevated Dam Reservoir", hi: "ऊँचा जल-भंडार (mgh)", info_en: "Impounded river water stores gravitational potential energy mgh behind the dam.", info_hi: "बाँध के पीछे संचित ऊँचा जल गुरुत्वीय स्थितिज ऊर्जा (mgh) रखता है।" },
       { x: 832, y: 518, en: "Hydro Turbine & Generator", hi: "पेनस्टॉक व जल-टरबाइन", info_en: "Falling water rushes down the penstock to spin turbine blades and generate hydroelectricity.", info_hi: "गिरते जल की गतिज ऊर्जा टरबाइन घुमाकर स्वच्छ जल-विद्युत उत्पन्न करती है।" },
       { x: 1160, y: 498, en: "Tidal Barrage Turbine", hi: "ज्वारीय बाँध टरबाइन", info_en: "Gravitational pull of the Moon creates high and low tides whose water head turns coastal turbines.", info_hi: "चंद्रमा के गुरुत्वाकर्षण से उठते-गिरते ज्वार-भाटे संकरे बाँध की टरबाइन घुमाते हैं।" }
@@ -1017,7 +1011,7 @@ export const BIO_ENV_PLATES = [
       ctx.strokeStyle = "#0284c7"; ctx.lineWidth = 14;
       ctx.beginPath(); ctx.moveTo(740, 610); ctx.lineTo(740, 430); ctx.lineTo(960, 430); ctx.stroke();
       drawSphere3D(ctx, 845, 430, 20, "O");
-      drawFloorTag(ctx, 740, 1305, "Fixed-Dome Biogas Digester (~75% CH₄ · Smoke-Free)", "#3f6212");
+      drawFloorTag(ctx, 740, 1305, "Fixed-Dome Biogas Digester (methane-rich gas)", "#3f6212");
 
       // RIGHT: Nuclear Fission Chain Reaction (n + U-235 -> Ba + Kr + 3n + ΔE = Δmc²) + Control Rods
       floorShadow(ctx, 2080, 1175, 440, 36, 0.15);
@@ -1040,7 +1034,7 @@ export const BIO_ENV_PLATES = [
     },
     marks: makeLabels([
       { x: 165, y: 320, en: "Slurry Inlet Tank", hi: "गोबर-जल कर्दम निवेश", info_en: "Cattle dung and biodegradable farm waste mixed with water enter the sealed digester.", info_hi: "गोबर व जैव-अपशिष्ट को जल में मिलाकर भूमिगत पाचित्र में भेजा जाता है।" },
-      { x: 370, y: 390, en: "Anaerobic Biogas Dome", hi: "अवायवीय बायोगैस गुंबद", info_en: "Anaerobic bacteria decompose organic matter without O₂, producing ~75% methane fuel and N/P-rich manure.", info_hi: "ऑक्सीजन की अनुपस्थिति में जीवाणु ~75% मेथेन युक्त स्वच्छ बायोगैस व उत्तम खाद बनाते हैं।" },
+      { x: 370, y: 390, en: "Anaerobic Biogas Dome", hi: "अवायवीय बायोगैस गुंबद", info_en: "Microorganisms break down organic matter without oxygen, producing methane-rich biogas and digestate. Gas composition varies.", info_hi: "ऑक्सीजन की अनुपस्थिति में सूक्ष्मजीव कार्बनिक पदार्थ से मीथेन-युक्त बायोगैस और अवशेष बनाते हैं; गैस का संघटन बदलता है।" },
       { x: 982, y: 398, en: "²³⁵U Nuclear Fission", hi: "²³⁵U नाभिकीय विखंडन", info_en: "Bombarding heavy Uranium-235 with a slow neutron splits it into lighter nuclei plus huge ΔE = Δmc² energy.", info_hi: "धीमे न्यूट्रॉन से यूरेनियम-235 नाभिक टूटकर अपार ऊर्जा (ΔE = Δmc²) मुक्त करता है।" },
       { x: 1062, y: 275, en: "Control Rods & Safety", hi: "नियंत्रक छड़ें व सुरक्षा", info_en: "Control rods absorb excess neutrons for steady power; radioactive waste requires shielded storage.", info_hi: "नियंत्रक छड़ें अतिरिक्त न्यूट्रॉन सोखकर शृंखला अभिक्रिया को सुरक्षित दर पर रखती हैं।" }
     ])

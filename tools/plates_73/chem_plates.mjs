@@ -536,7 +536,7 @@ export const CHEM_PLATES = [
       roundRect(ctx, 975, 520, 52, 430, 8); ctx.fill(); ctx.stroke();
       ctx.fillStyle = "#fde047"; ctx.fillRect(977, 522, 48, 210);
       ctx.restore();
-      drawFloorTag(ctx, 1000, 1310, "Weak Acid (pH ≈ 4)", "#ea580c");
+      drawFloorTag(ctx, 1000, 1310, "Weak Acid (pH depends on concentration)", "#ea580c");
 
       // 3. Reaction flask: CH3COOH + Na2CO3 -> brisk CO2 bubbles + delivery tube to 4. Milky lime water
       drawBeaker(ctx, 1480, 700, 390, 460, "rgba(226,232,240,0.55)", 0.58, { bubbles: 22 });
@@ -555,7 +555,7 @@ export const CHEM_PLATES = [
     },
     marks: makeLabels([
       { x: 200, y: 420, en: "Glacial Acetic Acid", hi: "ग्लेशियल ऐसीटिक अम्ल", info_en: "Pure anhydrous ethanoic acid freezes at 290 K (17 °C) into ice-like crystals in cool weather.", info_hi: "शुद्ध एथेनोइक अम्ल का गलनांक 290 K होता है, इसलिए सर्दियों में यह बर्फ जैसा जम जाता है।" },
-      { x: 500, y: 390, en: "Weak Acid (pH ~ 4)", hi: "दुर्बल अम्ल (pH ~ 4)", info_en: "Ethanoic acid ionises only partially in water, turning universal indicator orange rather than deep red.", info_hi: "जल में आंशिक आयनन के कारण यह खनिज अम्लों की तुलना में दुर्बल अम्ल है।" },
+      { x: 500, y: 390, en: "Weak Acid", hi: "दुर्बल अम्ल", info_en: "Ethanoic acid ionises partially in water. Its pH and indicator colour depend on concentration, not acid strength alone.", info_hi: "एथेनोइक अम्ल जल में आंशिक आयनित होता है। इसका pH और सूचक का रंग सांद्रता पर भी निर्भर करते हैं।" },
       { x: 838, y: 460, en: "Carbonate Effervescence", hi: "कार्बोनेट से बुदबुदाहट", info_en: "Reacts with Na₂CO₃ or NaHCO₃ to form sodium ethanoate, water and brisk CO₂ bubbles.", info_hi: "सोडियम कार्बोनेट या बाइकार्बोनेट के साथ अभिक्रिया कर तीव्र CO₂ गैस छोड़ता है।" },
       { x: 1178, y: 485, en: "Milky Lime Water", hi: "दूधिया चूने का पानी", info_en: "Evolved CO₂ gas reacts with Ca(OH)₂ lime water to form white insoluble CaCO₃ suspension.", info_hi: "निकली हुई CO₂ गैस चूने के पानी को श्वेत कैल्सियम कार्बोनेट बनने से दूधिया कर देती है।" }
     ])
@@ -1420,7 +1420,7 @@ export const CHEM_PLATES = [
     },
     marks: makeLabels([
       { x: 275, y: 370, en: "Moseley's X-Ray Law", hi: "मोज़ले का आधुनिक नियम", info_en: "Henry Moseley showed √ν varies linearly with atomic number Z, proving Z is more fundamental than mass.", info_hi: "हेनरी मोज़ले ने सिद्ध किया कि परमाणु द्रव्यमान की तुलना में परमाणु क्रमांक (Z) अधिक मौलिक गुण है।" },
-      { x: 565, y: 360, en: "Groups 1–2 (s-Block)", hi: "समूह 1–2 (संयोजी इलेक्ट्रॉन)", info_en: "Elements in the same vertical group have identical valence electron configurations and similar chemistry.", info_hi: "एक ही ऊर्ध्वाधर समूह के तत्वों में संयोजी इलेक्ट्रॉनों की संख्या समान होती है।" },
+      { x: 565, y: 360, en: "Groups 1–2 (s-Block)", hi: "समूह 1–2 (संयोजी इलेक्ट्रॉन)", info_en: "Groups 1 and 2 have similar outer-shell patterns within each group; the shell number changes down the group.", info_hi: "समूह 1 और 2 में प्रत्येक समूह के तत्वों का बाहरी इलेक्ट्रॉन विन्यास समान प्रकार का होता है; कोश संख्या नीचे जाने पर बदलती है।" },
       { x: 875, y: 410, en: "7 Horizontal Periods", hi: "7 क्षैतिज आवर्त (कोश संख्या)", info_en: "Each new period starts filling a new principal electron shell (K, L, M, N…); Z rises by +1 per step.", info_hi: "प्रत्येक नया आवर्त एक नए इलेक्ट्रॉन कोश के भरने को दर्शाता है तथा Z एक-एक कर बढ़ता है।" },
       { x: 1185, y: 360, en: "Groups 13–18 & f-Block", hi: "समूह 13–18 व f-ब्लॉक", info_en: "18 vertical columns and 7 periods cleanly resolve isotope placement and Co/Ni mass anomalies.", info_hi: "आधुनिक आवर्त सारणी के 18 समूह व 7 आवर्त समस्थानिकों की स्थिति स्वतः स्पष्ट कर देते हैं।" }
     ])

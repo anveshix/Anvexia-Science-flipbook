@@ -10,7 +10,10 @@
 const base = process.env.QA_BASE || "http://127.0.0.1:8080/";
 let playwright = null;
 try { playwright = require("playwright"); } catch (_) {}
-if (!playwright) { console.log("SKIP flipbook_layout: playwright not installed"); process.exit(0); }
+if (!playwright) {
+  if (process.env.QA_REQUIRE_BROWSER === "1") { console.error("FAIL flipbook_layout: playwright not installed"); process.exit(1); }
+  console.log("SKIP flipbook_layout: playwright not installed"); process.exit(0);
+}
 
 const audit = () => {
   const out = [];
@@ -28,7 +31,10 @@ const audit = () => {
 };
 
 (async () => {
-  const b = await playwright.chromium.launch();
+  const b = await playwright.chromium.launch({
+    ...(process.env.QA_CHROMIUM_EXECUTABLE ? { executablePath: process.env.QA_CHROMIUM_EXECUTABLE } : {}),
+    args: ["--no-sandbox", "--disable-dev-shm-usage", "--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"]
+  });
   const errors = [];
   let checked = 0;
   for (const [name, w, h, sample] of [["laptop", 1280, 720, 0], ["phone", 390, 844, 4]]) {

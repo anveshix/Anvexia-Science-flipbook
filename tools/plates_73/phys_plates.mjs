@@ -166,44 +166,28 @@ export const PHYS_PLATES = [
     sec: "11.8",
     render() {
       const { cv, ctx } = studioCanvas({ horizon: 1190 });
-      // Circuit wires linking Power Source -> Ammeter (A) -> Parallel Voltmeter (V) + Glowing Bulb -> Domestic kWh Meter
-      ctx.strokeStyle = "#dc2626"; ctx.lineWidth = 10;
-      ctx.beginPath(); ctx.moveTo(380, 820); ctx.lineTo(2320, 820); ctx.stroke();
-      ctx.strokeStyle = "#1e293b";
-      ctx.beginPath(); ctx.moveTo(380, 1060); ctx.lineTo(2320, 1060); ctx.stroke();
-
-      // Supply unit on far left
-      floorShadow(ctx, 360, 1140, 190, 28, 0.16);
-      ctx.fillStyle = "#1e293b"; roundRect(ctx, 200, 740, 320, 380, 26); ctx.fill();
-      ctx.fillStyle = "#38bdf8"; ctx.font = '700 44px "DejaVu Sans", sans-serif'; ctx.textAlign = "center";
-      ctx.fillText("220 V", 360, 910);
-
-      // Series Ammeter (A)
-      drawMeter(ctx, 820, 820, 250, 230, "A", 0.62, "#2563eb");
-
-      // Glowing Lamp Load + Parallel Voltmeter (V)
-      drawSphere3D(ctx, 1380, 790, 92, "Au", { glow: "rgba(250,204,21,0.85)", symbol: "100 W" });
-      drawMeter(ctx, 1380, 1085, 250, 210, "V", 0.78, "#dc2626");
-
-      // Right: Domestic Commercial Energy Meter (kWh = 3.6 × 10^6 J)
-      floorShadow(ctx, 2220, 1165, 310, 34, 0.16);
+      // Conceptual energy flow, deliberately not an electrical wiring diagram.
       ctx.save();
-      ctx.fillStyle = "#e2e8f0"; ctx.strokeStyle = "#475569"; ctx.lineWidth = 6;
-      roundRect(ctx, 1920, 520, 600, 620, 36); ctx.fill(); ctx.stroke();
-      ctx.fillStyle = "#0f172a"; roundRect(ctx, 1990, 600, 460, 160, 18); ctx.fill();
-      ctx.fillStyle = "#4ade80"; ctx.font = '700 58px "DejaVu Sans", sans-serif';
-      ctx.fillText("0 1 4 2 . 5  kWh", 2220, 700);
-      ctx.fillStyle = "#334155"; ctx.font = '700 34px "DejaVu Sans", sans-serif';
-      ctx.fillText("1 Unit = 1 kWh = 3.6 × 10⁶ J", 2220, 940);
+      ctx.fillStyle = "#f8fafc"; ctx.strokeStyle = "#94a3b8"; ctx.lineWidth = 5;
+      roundRect(ctx, 180, 600, 640, 420, 28); ctx.fill(); ctx.stroke();
+      roundRect(ctx, 1080, 600, 640, 420, 28); ctx.fill(); ctx.stroke();
+      roundRect(ctx, 1980, 600, 640, 420, 28); ctx.fill(); ctx.stroke();
+      ctx.textAlign = "center"; ctx.fillStyle = "#1e3a8a"; ctx.font = '700 48px "DejaVu Sans", sans-serif';
+      ctx.fillText("POWER", 500, 720);
+      ctx.fillText("TIME", 1400, 720);
+      ctx.fillText("ENERGY", 2300, 720);
+      ctx.fillStyle = "#334155"; ctx.font = '700 40px "DejaVu Sans", sans-serif';
+      ctx.fillText("0.1 kW (100 W)", 500, 850);
+      ctx.fillText("10 hours", 1400, 850);
+      ctx.fillText("1 kWh", 2300, 850);
       ctx.restore();
-      drawFloorTag(ctx, 1408, 1310, "P = V·I = I²R = V²/R  (Watt)   ·   E = P × t  (kWh)", "#1e3a8a");
+      drawFloorTag(ctx, 1408, 1320, "Energy (kWh) = Power (kW) × Time (h); 1 kWh = 3.6 × 10⁶ J", "#1e3a8a");
       return cv;
     },
     marks: makeLabels([
-      { x: 180, y: 455, en: "220 V Supply", hi: "220 V विद्युत स्रोत", info_en: "Maintains potential difference V driving electric charge through the appliance.", info_hi: "परिपथ में आवेश प्रवाहित करने हेतु विभवांतर (V) प्रदान करता है।" },
-      { x: 410, y: 410, en: "Current (I in Amperes)", hi: "विद्युत धारा (I)", info_en: "Series ammeter measures current I; electric power equals P = V × I.", info_hi: "श्रेणीक्रम अमीटर धारा I मापता है; विद्युत शक्ति P = V × I होती है।" },
-      { x: 690, y: 395, en: "Rated Power (Watt)", hi: "उपकरण की शक्ति (वाट)", info_en: "1 Watt = 1 Volt × 1 Ampere (1 J/s rate of electrical energy consumption).", info_hi: "1 वाट = 1 वोल्ट × 1 ऐम्पियर (ऊर्जा उपभोग की दर = 1 जूल/सेकंड)।" },
-      { x: 1110, y: 350, en: "Commercial Unit (kWh)", hi: "व्यावसायिक मात्रक (kWh)", info_en: "1 kWh ('1 unit') = 1000 W × 3600 s = 3.6 × 10⁶ Joules of electrical energy.", info_hi: "1 किलोवाट-घंटा (1 यूनिट) = 3.6 × 10⁶ जूल विद्युत ऊर्जा।" }
+      { x: 250, y: 400, en: "Power", hi: "शक्ति", info_en: "A 100 W appliance has a power rating of 0.1 kW. One watt is one joule per second.", info_hi: "100 W की शक्ति वाला उपकरण 0.1 kW के बराबर है। एक वाट एक जूल प्रति सेकंड है।" },
+      { x: 700, y: 400, en: "Time", hi: "समय", info_en: "For this example the appliance operates at 100 W continuously for 10 hours.", info_hi: "इस उदाहरण में उपकरण लगातार 10 घंटे तक 100 W पर काम करता है।" },
+      { x: 1150, y: 400, en: "Electrical Energy", hi: "विद्युत ऊर्जा", info_en: "At constant power, energy = power × time: 0.1 kW × 10 h = 1 kWh = 3.6 million joules. This is an energy calculation, not a wiring diagram.", info_hi: "स्थिर शक्ति पर ऊर्जा = शक्ति × समय: 0.1 kW × 10 h = 1 kWh = 36 लाख जूल। यह ऊर्जा की गणना है, वायरिंग का चित्र नहीं।" }
     ])
   },
 
@@ -371,7 +355,7 @@ export const PHYS_PLATES = [
     },
     marks: makeLabels([
       { x: 155, y: 425, en: "DC Cell / Battery", hi: "दिष्ट धारा स्रोत (बैटरी)", info_en: "Cells and solar panels supply direct current that always flows in one fixed direction.", info_hi: "सेल और बैटरी सदैव एक ही निश्चित दिशा में बहने वाली दिष्ट धारा (DC) देते हैं।" },
-      { x: 420, y: 345, en: "Steady DC Waveform", hi: "स्थिर DC आलेख", info_en: "Current magnitude and polarity stay constant over time with zero frequency.", info_hi: "दिष्ट धारा का मान और दिशा समय के साथ स्थिर रहते हैं।" },
+      { x: 420, y: 345, en: "Steady DC Waveform", hi: "स्थिर DC आलेख", info_en: "This example shows steady DC. Direct current flows in one direction, but its magnitude can vary with time.", info_hi: "यह उदाहरण स्थिर दिष्ट धारा दिखाता है। दिष्ट धारा की दिशा एक रहती है, लेकिन उसका मान समय के साथ बदल सकता है।" },
       { x: 795, y: 395, en: "AC Alternator (~)", hi: "प्रत्यावर्ती जनित्र (~)", info_en: "Power-station generators produce AC that can be stepped up by transformers for low-loss transmission.", info_hi: "प्रत्यावर्ती धारा (AC) को कम ऊर्जा हानि के साथ लंबी दूरी तक भेजा जा सकता है।" },
       { x: 1085, y: 395, en: "50 Hz Periodic Reversal", hi: "50 Hz आवर्ती परिवर्तन", info_en: "In India, AC completes 50 cycles per second (T = 1/50 s), reversing direction every 1/100 s.", info_hi: "भारत में घरेलू AC की आवृत्ति 50 Hz है, अर्थात् धारा हर 1/100 सेकंड में दिशा बदलती है।" }
     ])
