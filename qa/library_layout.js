@@ -23,6 +23,12 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
       assert.equal(await p.title(), 'Anvexia — Science, brought to life.');
       assert.equal(await p.locator('.brand-name').innerText(), 'Anvexia');
       assert.equal(await p.locator('.lp-cover text').first().textContent(), 'ANVEXIA · NCERT');
+      assert.equal(await p.locator('#classCardHigher,#btnOpenHigher,#libShelf').count(), 0, 'removed dashboard links must stay absent');
+      const credit = p.locator('#libDash .lib-credit');
+      assert(await credit.isVisible());
+      assert((await credit.innerText()).includes('Paras Pranav'));
+      const creditBox = await credit.boundingBox();
+      assert(creditBox.y + creditBox.height <= height + 1, `${name}: developer credit should be visible without scrolling`);
       const layout = await p.evaluate(() => {
         const a = document.querySelector('#classCardIX').getBoundingClientRect();
         const b = document.querySelector('#classCardX').getBoundingClientRect();
@@ -81,9 +87,6 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
         await p.locator('#ldClose').click();
       }
       if (mode === '3d') {
-        await p.locator('#libShelf').click();
-        assert(await p.locator('#worldHud').evaluate(e => e.classList.contains('shelf-mode')));
-        await p.locator('#shelfBack').click();
         await p.locator('#classCardIX').click();
         await p.locator('#ldList [data-ch]').first().click();
         await p.waitForFunction(() => EV.view === 'book');

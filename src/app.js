@@ -2624,7 +2624,6 @@ const EVLIB = (function () {
     ["lib.sub", "Class IX–X Science mastery · extensible to Class XI–XII. Choose a textbook or launch any learning mode below.",
       "कक्षा IX–X विज्ञान दक्षता · कक्षा XI–XII तक विस्तार योग्य। नीचे पाठ्यपुस्तक या शिक्षण मोड चुनें।",
       "Class IX–X Science · XI–XII Ready / कक्षा IX–X विज्ञान · द्विभाषी"],
-    ["lib.shelf", "Explore 3D shelf ↗", "3D शेल्फ देखें ↗", "Explore 3D shelf ↗ / 3D शेल्फ"],
     ["lib.textbook", "TEXTBOOK · NCERT EXPLORATION", "पाठ्यपुस्तक · NCERT अन्वेषण", "TEXTBOOK · NCERT EXPLORATION IX"],
     ["lib.textbookX", "TEXTBOOK · NCERT SCIENCE", "पाठ्यपुस्तक · NCERT विज्ञान", "TEXTBOOK · NCERT SCIENCE X"],
     ["lib.classIX", "Class IX", "कक्षा IX", "Class IX"],
@@ -2756,7 +2755,6 @@ const EVLIB = (function () {
     render();
     $("classCardIX").onclick = () => open("IX");
     $("classCardX").onclick = () => open("X");
-    $("libShelf").onclick = () => setLibrary(false);
     $("shelfBack").onclick = () => setLibrary(true);
     $("ldClose").onclick = close;
     $("ldBack").onclick = close;

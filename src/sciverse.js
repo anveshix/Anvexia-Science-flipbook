@@ -1007,7 +1007,6 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
     if ($("btnFlipbookTop")) $("btnFlipbookTop").onclick = () => openFlipbook();
     if ($("btnSearchTop")) $("btnSearchTop").onclick = () => openSearch();
     if ($("svLibSearchBtn")) $("svLibSearchBtn").onclick = () => openSearch();
-    if ($("btnOpenHigher")) $("btnOpenHigher").onclick = () => openHigherStudio();
 
     // 2D Flipbook modal controls
     if ($("svFlipClose")) $("svFlipClose").onclick = closeFlipbook;
