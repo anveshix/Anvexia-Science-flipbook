@@ -48,11 +48,35 @@
    "4.2.1": [
     "rx/covalent.webp"
    ],
+   "4.2.2": [
+    "rx/carbon_chains_branches_rings.webp"
+   ],
+   "4.2.3": [
+    "rx/functional_groups_carbon.webp"
+   ],
    "4.2.4": [
     "rx/carbon_homologous.webp"
    ],
+   "4.2.5": [
+    "rx/iupac_carbon_naming.webp"
+   ],
+   "4.3.1": [
+    "rx/clean_vs_sooty_flame.webp"
+   ],
+   "4.3.2": [
+    "rx/ethanol_oxidation_kmno4.webp"
+   ],
+   "4.3.3": [
+    "rx/alkene_hydrogenation_ni.webp"
+   ],
+   "4.3.4": [
+    "rx/methane_chlorination_uv.webp"
+   ],
    "4.4.1": [
     "rx/ethanol_esterification.webp"
+   ],
+   "4.4.2": [
+    "rx/ethanoic_acid_tests.webp"
    ],
    "4.4.2b": [
     "rx/ethanol_esterification.webp"
@@ -81,8 +105,14 @@
    "6.5": [
     "rx/nervous_system.webp"
    ],
+   "6.6": [
+    "rx/voluntary_involuntary_actions.webp"
+   ],
    "6.7": [
     "rx/endocrine_system.webp"
+   ],
+   "6.8": [
+    "rx/hormonal_feedback_loop.webp"
    ]
   },
   "c10_electricity": {
@@ -108,11 +138,17 @@
    "11.7": [
     "rx/joule_heating.webp"
    ],
+   "11.8": [
+    "rx/electric_power_kwh_energy.webp"
+   ],
    "11.9": [
     "rx/domestic_circuit.webp"
    ]
   },
   "c10_env": {
+   "13.1": [
+    "rx/ecosystem_biotic_abiotic.webp"
+   ],
    "13.2": [
     "rx/food_web.webp"
    ],
@@ -160,6 +196,9 @@
     "rx/tyndall.webp",
     "rx/scattering_light--1.webp",
     "rx/scattering_light--2.webp"
+   ],
+   "10.8": [
+    "rx/atmospheric_refraction_twinkling.webp"
    ]
   },
   "c10_heredity": {
@@ -173,6 +212,9 @@
     "rx/genetics_dna.webp",
     "rx/genetics_dna--4.webp",
     "rx/genetics_dna--5.webp"
+   ],
+   "8.4": [
+    "rx/dihybrid_cross_punnett.webp"
    ],
    "8.5": [
     "rx/genetics_dna--2.webp",
@@ -191,6 +233,9 @@
    ],
    "5.2": [
     "rx/photosynthesis.webp"
+   ],
+   "5.3": [
+    "rx/heterotrophic_nutrition_modes.webp"
    ],
    "5.4": [
     "rx/digestive_stomach.webp",
@@ -236,6 +281,9 @@
    "9.2.2": [
     "rx/reflection--2.webp"
    ],
+   "9.2.4": [
+    "rx/mirror_formula_magnification.webp"
+   ],
    "9.3": [
     "rx/refraction.webp",
     "rx/refraction--4.webp"
@@ -264,6 +312,12 @@
     "rx/magnetic_field_lines--1.webp",
     "rx/magnetic_field_lines--2.webp"
    ],
+   "12.2": [
+    "rx/straight_conductor_field.webp"
+   ],
+   "12.3": [
+    "rx/right_hand_thumb_rule.webp"
+   ],
    "12.4": [
     "rx/electromagnet.webp",
     "rx/electromagnet--1.webp",
@@ -278,6 +332,9 @@
     "rx/motor--1.webp",
     "rx/motor--2.webp",
     "rx/motor--3.webp"
+   ],
+   "12.7": [
+    "rx/direct_vs_alternating_current.webp"
    ],
    "12.8": [
     "rx/domestic_circuit.webp"
@@ -312,9 +369,32 @@
    "3.7": [
     "rx/prevent_corrosion.webp",
     "rx/corrosion_rancidity.webp"
+   ],
+   "3.8": [
+    "rx/alloys_atomic_lattice.webp"
+   ]
+  },
+  "c10_periodic": {
+   "P.1": [
+    "rx/dobereiner_triads.webp"
+   ],
+   "P.2": [
+    "rx/newlands_octaves.webp"
+   ],
+   "P.3": [
+    "rx/mendeleev_periodic_table.webp"
+   ],
+   "P.4": [
+    "rx/modern_periodic_law.webp"
+   ],
+   "P.5": [
+    "rx/periodic_table_trends.webp"
    ]
   },
   "c10_reactions": {
+   "1.1": [
+    "rx/chemical_change_evidence.webp"
+   ],
    "1.2": [
     "rx/balancing_equation.webp"
    ],
@@ -336,11 +416,17 @@
    "1.7": [
     "rx/redox_reaction.webp"
    ],
+   "1.8": [
+    "rx/exothermic_endothermic.webp"
+   ],
    "1.9": [
     "rx/corrosion_rancidity.webp"
    ]
   },
   "c10_repro": {
+   "7.1": [
+    "rx/dna_copying_variation.webp"
+   ],
    "7.2": [
     "rx/binary_fission.webp",
     "rx/budding_hydra.webp"
@@ -357,11 +443,43 @@
    ],
    "7.6": [
     "rx/reproductive_system.webp"
+   ],
+   "7.7": [
+    "rx/fertilisation_implantation_cycle.webp"
+   ],
+   "7.8": [
+    "rx/contraceptive_methods_overview.webp"
+   ],
+   "7.9": [
+    "rx/hiv_immunity_health.webp"
+   ]
+  },
+  "c10_sources": {
+   "S.1": [
+    "rx/conventional_vs_nonconventional.webp"
+   ],
+   "S.2": [
+    "rx/solar_panel_and_cooker.webp"
+   ],
+   "S.3": [
+    "rx/wind_hydro_tidal_turbines.webp"
+   ],
+   "S.4": [
+    "rx/biogas_and_nuclear_energy.webp"
    ]
   },
   "c10_sustainable": {
    "M.1": [
     "rx/population.webp"
+   ],
+   "M.2": [
+    "rx/forest_wildlife_conservation.webp"
+   ],
+   "M.3": [
+    "rx/rainwater_harvesting_watershed.webp"
+   ],
+   "M.4": [
+    "rx/coal_petroleum_and_3rs.webp"
    ]
   },
   "c9_atom": {
@@ -371,11 +489,20 @@
    "8.10": [
     "rx/chemical_bonding_lewis.webp"
    ],
+   "8.11": [
+    "rx/element_symbols_iupac.webp"
+   ],
+   "8.12": [
+    "rx/symbols_valency_formulae.webp"
+   ],
    "8.2": [
     "rx/cathode_canal_rays.webp"
    ],
    "8.3": [
     "rx/cathode_canal_rays.webp"
+   ],
+   "8.4": [
+    "rx/thomson_plum_pudding.webp"
    ],
    "8.5": [
     "rx/rutherford_vs_bohr.webp"
@@ -386,11 +513,20 @@
    ],
    "8.7": [
     "rx/atom.webp"
+   ],
+   "8.8": [
+    "rx/atomic_and_mass_number.webp"
+   ],
+   "8.9": [
+    "rx/isotopes_and_isobars.webp"
    ]
   },
   "c9_atomic_foundations": {
    "9.1": [
     "rx/conservation_of_mass.webp"
+   ],
+   "9.2": [
+    "rx/law_constant_proportion.webp"
    ],
    "9.3": [
     "rx/atom.webp"
@@ -403,6 +539,15 @@
    ],
    "9.6": [
     "rx/ionic_bond_nacl.webp"
+   ],
+   "9.7": [
+    "rx/writing_chemical_formulae.webp"
+   ],
+   "9.8": [
+    "rx/molecular_mass_u.webp"
+   ],
+   "9.9": [
+    "rx/formula_unit_mass.webp"
    ]
   },
   "c9_atoms": {
@@ -420,6 +565,9 @@
    "2.1": [
     "rx/compound_microscope.webp",
     "rx/microscope_resolution.webp"
+   ],
+   "2.10": [
+    "rx/biomolecules_cell.webp"
    ],
    "2.11": [
     "rx/recombinant_insulin.webp",
@@ -462,15 +610,36 @@
   "c9_disease": {
    "1": [
     "rx/bacteriophage_virus.webp"
+   ],
+   "2": [
+    "rx/disease_transmission_modes.webp"
+   ],
+   "3": [
+    "rx/disease_prevention_immunity.webp"
    ]
   },
   "c9_diversity": {
+   "12.1": [
+    "rx/need_for_classification.webp"
+   ],
    "12.2": [
     "rx/five_kingdoms.webp"
    ],
    "12.3": [
     "rx/fungi_structure.webp",
     "rx/bacteriophage_virus.webp"
+   ],
+   "12.4": [
+    "rx/major_plant_divisions.webp"
+   ],
+   "12.5": [
+    "rx/major_animal_divisions.webp"
+   ],
+   "12.6": [
+    "rx/binomial_nomenclature_linnaeus.webp"
+   ],
+   "12.7": [
+    "rx/taxonomic_hierarchy_ranks.webp"
    ],
    "12.8": [
     "rx/bacteriophage_virus.webp"
@@ -512,8 +681,23 @@
    ]
   },
   "c9_exploration": {
+   "1.1": [
+    "rx/science_observation_patterns.webp"
+   ],
+   "1.2": [
+    "rx/focused_testable_question.webp"
+   ],
    "1.3": [
     "rx/measurement_si_units.webp"
+   ],
+   "1.4": [
+    "rx/controlled_experiment_evidence.webp"
+   ],
+   "1.5": [
+    "rx/scientific_models_unseen.webp"
+   ],
+   "1.6": [
+    "rx/science_math_tech_society.webp"
    ]
   },
   "c9_forces": {
@@ -522,6 +706,9 @@
    ],
    "6.2": [
     "rx/hookes_law_spring.webp"
+   ],
+   "6.3": [
+    "rx/balanced_forces_equilibrium.webp"
    ],
    "6.4": [
     "rx/newton_laws--2.webp"
@@ -564,12 +751,24 @@
    "5.1": [
     "rx/separation.webp"
    ],
+   "5.10": [
+    "rx/centrifugation_coagulation.webp"
+   ],
+   "5.2": [
+    "rx/solution_solute_solvent.webp"
+   ],
    "5.3": [
     "rx/tyndall--3.webp"
    ],
    "5.4": [
     "rx/tyndall.webp",
     "rx/tyndall--1.webp"
+   ],
+   "5.5": [
+    "rx/mass_by_mass_percent.webp"
+   ],
+   "5.6": [
+    "rx/concentration_mv_vv.webp"
    ],
    "5.7": [
     "rx/separation.webp",
@@ -647,6 +846,12 @@
    ],
    "11.7": [
     "rx/reproductive_system.webp"
+   ],
+   "11.8": [
+    "rx/gametes_cycle_pregnancy.webp"
+   ],
+   "11.9": [
+    "rx/adolescent_reproductive_hygiene.webp"
    ]
   },
   "c9_sound": {
@@ -697,9 +902,18 @@
    "3.2": [
     "rx/skin.webp"
    ],
+   "3.3": [
+    "rx/meristematic_tissues.webp"
+   ],
+   "3.4": [
+    "rx/simple_permanent_tissues.webp"
+   ],
    "3.5": [
     "rx/absorption_roots.webp",
     "rx/transpiration.webp"
+   ],
+   "3.6": [
+    "rx/phloem_translocation.webp"
    ],
    "3.7": [
     "rx/tissue_epithelial.webp"
@@ -717,14 +931,23 @@
    "7.1": [
     "rx/work_energy.webp"
    ],
+   "7.2": [
+    "rx/positive_negative_zero_work.webp"
+   ],
    "7.3": [
     "rx/work_energy.webp"
    ],
    "7.4": [
     "rx/hookes_law_spring.webp"
    ],
+   "7.5": [
+    "rx/work_energy_theorem_cart.webp"
+   ],
    "7.6": [
     "rx/work_energy.webp"
+   ],
+   "7.7": [
+    "rx/mechanical_power_watt.webp"
    ],
    "7.8": [
     "rx/simple_machines.webp"
@@ -735,14 +958,87 @@
   }
  },
  "credits": {
+  "rx/adolescent_reproductive_hygiene.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/alkene_hydrogenation_ni.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/alloys_atomic_lattice.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/atmospheric_refraction_twinkling.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/atomic_and_mass_number.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/balanced_forces_equilibrium.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/binomial_nomenclature_linnaeus.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/biogas_and_nuclear_energy.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/biomolecules_cell.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/carbon_chains_branches_rings.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/centrifugation_coagulation.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/chemical_change_evidence.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
   "rx/circulatory_system--2.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
   "rx/circulatory_system--3.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+  "rx/clean_vs_sooty_flame.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/coal_petroleum_and_3rs.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/concentration_mv_vv.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/contraceptive_methods_overview.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/controlled_experiment_evidence.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/conventional_vs_nonconventional.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/dihybrid_cross_punnett.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/direct_vs_alternating_current.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/disease_prevention_immunity.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/disease_transmission_modes.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/dna_copying_variation.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/dobereiner_triads.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/ecosystem_biotic_abiotic.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/electric_power_kwh_energy.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/element_symbols_iupac.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/ethanoic_acid_tests.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/ethanol_oxidation_kmno4.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/exothermic_endothermic.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/fertilisation_implantation_cycle.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/focused_testable_question.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/forest_wildlife_conservation.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/formula_unit_mass.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/functional_groups_carbon.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/gametes_cycle_pregnancy.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/heterotrophic_nutrition_modes.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/hiv_immunity_health.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/hormonal_feedback_loop.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
   "rx/human_eye_anatomy--3.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
   "rx/human_eye_anatomy--5.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+  "rx/isotopes_and_isobars.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/iupac_carbon_naming.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/law_constant_proportion.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/major_animal_divisions.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/major_plant_divisions.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/mass_by_mass_percent.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/mechanical_power_watt.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/mendeleev_periodic_table.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/meristematic_tissues.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/methane_chlorination_uv.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/mirror_formula_magnification.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/modern_periodic_law.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/molecular_mass_u.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/need_for_classification.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/newlands_octaves.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/periodic_table_trends.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/phloem_translocation.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/positive_negative_zero_work.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/rainwater_harvesting_watershed.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
   "rx/respiratory_system--1.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
   "rx/respiratory_system--3.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+  "rx/right_hand_thumb_rule.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/science_math_tech_society.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/science_observation_patterns.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/scientific_models_unseen.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/simple_permanent_tissues.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
   "rx/skeleton_joint--1.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
-  "rx/skeleton_joint--2.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0"
+  "rx/skeleton_joint--2.webp": "Anatomy © BodyParts3D (DBCLS, CC BY-SA 2.1 JP) · Z-Anatomy (CC BY-SA 4.0), simplified render — shared under CC BY-SA 4.0",
+  "rx/solar_panel_and_cooker.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/solution_solute_solvent.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/straight_conductor_field.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/symbols_valency_formulae.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/taxonomic_hierarchy_ranks.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/thomson_plum_pudding.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/voluntary_involuntary_actions.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/wind_hydro_tidal_turbines.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/work_energy_theorem_cart.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/writing_chemical_formulae.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -807,6 +1103,106 @@
     "y": 14
    }
   ],
+  "rx/adolescent_reproductive_hygiene.webp": [
+   {
+    "anchor_x": 200,
+    "anchor_y": 368,
+    "en": "Iron & Protein Diet",
+    "h": 66,
+    "hi": "लौह व प्रोटीन युक्त पोषण",
+    "info_en": "Green leafy vegetables, pulses and fruits prevent adolescent anaemia and support healthy growth.",
+    "info_hi": "हरी सब्जियाँ, दालें और फल किशोरावस्था में रक्ताल्पता रोकते हैं और स्वस्थ वृद्धि देते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 536,
+    "anchor_y": 368,
+    "en": "Menstrual & Daily Hygiene",
+    "h": 66,
+    "hi": "व्यक्तिगत व मासिक स्वच्छता",
+    "info_en": "Clean water, soap and safe sanitary hygiene prevent reproductive tract infections.",
+    "info_hi": "नियमित स्नान व स्वच्छ सैनिटरी देखभाल संक्रमणों से बचाव करती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 872,
+    "anchor_y": 368,
+    "en": "Qualified Healthcare",
+    "h": 66,
+    "hi": "चिकित्सकीय परामर्श व टीकाकरण",
+    "info_en": "Timely medical advice, STI prevention and antenatal care protect maternal and infant survival.",
+    "info_hi": "समय पर चिकित्सकीय जाँच और परामर्श माता व शिशु के स्वास्थ्य की रक्षा करते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1208,
+    "anchor_y": 368,
+    "en": "Family Planning Methods",
+    "h": 66,
+    "hi": "जन्म नियंत्रण व अंतराल",
+    "info_en": "Appropriate age at marriage and safe barrier/hormonal spacing protect physical and mental readiness.",
+    "info_hi": "सुरक्षित गर्भनिरोधक विधियाँ और उचित अंतराल परिवार व माता के स्वास्थ्य को सुरक्षित रखते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/alkene_hydrogenation_ni.webp": [
+   {
+    "anchor_x": 225,
+    "anchor_y": 360,
+    "en": "Unsaturated Alkene (C=C)",
+    "h": 66,
+    "hi": "असंतृप्त ऐल्कीन (C=C)",
+    "info_en": "Planar ethene (C₂H₄) has a reactive π-bond ready to add hydrogen across the double bond.",
+    "info_hi": "एथीन (C₂H₄) के द्वि-बंध पर हाइड्रोजन परमाणु जुड़ सकते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 225,
+    "anchor_y": 510,
+    "en": "Hydrogen Gas (H₂)",
+    "h": 66,
+    "hi": "हाइड्रोजन अणु (H₂)",
+    "info_en": "Molecular hydrogen dissociates on the metal surface so single H atoms add to each carbon.",
+    "info_hi": "हाइड्रोजन गैस उत्प्रेरक सतह पर टूटकर दोनों कार्बनों से जुड़ती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 705,
+    "anchor_y": 495,
+    "en": "Nickel Catalyst Surface",
+    "h": 66,
+    "hi": "निकेल (Ni) उत्प्रेरक",
+    "info_en": "Finely divided Ni or Pd adsorbs reactants without being consumed, converting vegetable oil to vanaspati ghee.",
+    "info_hi": "निकेल या पैलेडियम उत्प्रेरक बिना खर्च हुए अभिक्रिया कराता है; इसी से वनस्पति तेल से घी बनता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1180,
+    "anchor_y": 420,
+    "en": "Saturated Alkane (C₂H₆)",
+    "h": 66,
+    "hi": "संतृप्त ऐल्केन (C₂H₆)",
+    "info_en": "Double bond becomes a tetrahedral single C–C bond in saturated ethane.",
+    "info_hi": "द्वि-बंध एकल बंध में बदलकर संतृप्त एथेन (CH₃–CH₃) बनाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/allotropes_carbon.webp": [
    {
     "anchor_x": 268,
@@ -842,6 +1238,106 @@
     "info_hi": "फुलेरीन (C₆₀): “कार्बन के अपररूप” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 453,
     "x": 940,
+    "y": 14
+   }
+  ],
+  "rx/alloys_atomic_lattice.webp": [
+   {
+    "anchor_x": 155,
+    "anchor_y": 475,
+    "en": "Pure Metal Lattice",
+    "h": 66,
+    "hi": "शुद्ध धातु जालक",
+    "info_en": "Identical metal atoms form smooth uniform crystal planes that slide past one another easily, making pure metals soft.",
+    "info_hi": "शुद्ध धातु में समान आकार के परमाणुओं की परतें बल लगने पर आसानी से फिसल जाती हैं, जिससे धातु नरम होती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 495,
+    "anchor_y": 485,
+    "en": "Alloy Locked Lattice",
+    "h": 66,
+    "hi": "मिश्रधातु परमाणु जालक",
+    "info_en": "Different-sized solute atoms distort crystal planes and block layer slip, greatly increasing hardness and strength.",
+    "info_hi": "भिन्न आकार के परमाणु जालक की परतों को फिसलने से रोकते हैं, जिससे कठोरता और मजबूती बढ़ जाती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 925,
+    "anchor_y": 475,
+    "en": "Brass & Bronze",
+    "h": 66,
+    "hi": "पीतल और काँसा",
+    "info_en": "Brass (Cu + Zn) resists corrosion in gears/fittings, while hard resonant Bronze (Cu + Sn) forms bells and statues.",
+    "info_hi": "पीतल (Cu + Zn) तथा काँसा (Cu + Sn) कठोर व संक्षारण-रोधी मिश्रधातुएँ हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1265,
+    "anchor_y": 545,
+    "en": "Stainless Steel & Solder",
+    "h": 66,
+    "hi": "स्टेनलेस स्टील व सोल्डर",
+    "info_en": "Stainless steel (Fe + Ni + Cr) never rusts in surgical tools; solder (Pb + Sn) has a low melting point for joining wires.",
+    "info_hi": "स्टेनलेस स्टील (Fe + Ni + Cr) में जंग नहीं लगती और सोल्डर (Pb + Sn) कम गलनांक के कारण तार जोड़ने के काम आता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/atmospheric_refraction_twinkling.webp": [
+   {
+    "anchor_x": 210,
+    "anchor_y": 280,
+    "en": "True Star Position",
+    "h": 66,
+    "hi": "तारे की वास्तविक स्थिति",
+    "info_en": "Distant star acts as a point source whose light enters progressively denser air layers.",
+    "info_hi": "अत्यधिक दूर स्थित तारा बिंदु-स्रोत जैसा कार्य करता है जिसका प्रकाश वायुमंडल में प्रवेश करता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 280,
+    "anchor_y": 175,
+    "en": "Apparent Higher Star",
+    "h": 66,
+    "hi": "तारे की आभासी ऊँची स्थिति",
+    "info_en": "Bending toward the normal makes the eye trace the ray straight back to a slightly higher apparent position.",
+    "info_hi": "अभिलंब की ओर मुड़ने से आँख को तारा वास्तविक स्थिति से थोड़ा ऊपर दिखाई देता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 460,
+    "anchor_y": 415,
+    "en": "Refracting Air Layers",
+    "h": 66,
+    "hi": "वायुमंडलीय अपवर्तन परतें",
+    "info_en": "Shifting air density continually alters starlight intensity, producing twinkling.",
+    "info_hi": "वायु के बदलते अपवर्तनांक से आँख में पहुँचने वाले प्रकाश की मात्रा बदलती है और तारा टिमटिमाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1160,
+    "anchor_y": 230,
+    "en": "Steady Planet Disc",
+    "h": 66,
+    "hi": "स्थिर चमकते ग्रह",
+    "info_en": "Closer planets behave as extended collections of many point sources whose variations average to zero.",
+    "info_hi": "ग्रह पास होने से विस्तृत स्रोत जैसे होते हैं; अनेक बिंदुओं के परिवर्तन का औसत शून्य रहता है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -904,6 +1400,56 @@
     "info_hi": "प्रोटॉन: “परमाणु संरचना” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/atomic_and_mass_number.webp": [
+   {
+    "anchor_x": 320,
+    "anchor_y": 385,
+    "en": "Atomic Number (Z = 6)",
+    "h": 66,
+    "hi": "परमाणु क्रमांक (Z = 6)",
+    "info_en": "Atomic number Z equals the number of protons in the nucleus and defines the element.",
+    "info_hi": "नाभिक में उपस्थित प्रोटॉनों की कुल संख्या परमाणु क्रमांक (Z) कहलाती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 760,
+    "anchor_y": 340,
+    "en": "Protons & Neutrons",
+    "h": 66,
+    "hi": "प्रोटॉन व न्यूट्रॉन",
+    "info_en": "Protons (+1 charge, 1 u) and neutral neutrons (0 charge, 1 u) reside inside the dense nucleus.",
+    "info_hi": "प्रोटॉन तथा न्यूट्रॉन नाभिक में स्थित होते हैं और संयुक्त रूप से न्यूक्लिऑन कहलाते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1122,
+    "anchor_y": 335,
+    "en": "Mass Number (A = 12)",
+    "h": 66,
+    "hi": "द्रव्यमान संख्या (A = 12)",
+    "info_en": "Superscript A = Z + N gives total nucleons (6 protons + 6 neutrons = 12 for Carbon-12).",
+    "info_hi": "प्रोटॉनों व न्यूट्रॉनों के योग को द्रव्यमान संख्या (A = Z + N) कहते हैं और ऊपर बाईं ओर लिखते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1135,
+    "anchor_y": 465,
+    "en": "Subscript Z Notation",
+    "h": 66,
+    "hi": "पाद-अंक Z संकेत",
+    "info_en": "Standard nuclide symbol writes mass number A at top-left and atomic number Z at bottom-left of X.",
+    "info_hi": "तत्व प्रतीक के नीचे बाईं ओर परमाणु क्रमांक Z तथा ऊपर बाईं ओर द्रव्यमान संख्या A लिखी जाती है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -1031,6 +1577,56 @@
     "y": 14
    }
   ],
+  "rx/balanced_forces_equilibrium.webp": [
+   {
+    "anchor_x": 450,
+    "anchor_y": 412,
+    "en": "Left Pull (F₁ = 20 N)",
+    "h": 66,
+    "hi": "बायाँ खिंचाव बल (20 N)",
+    "info_en": "Calibrated spring balance pulls leftward with 20 N magnitude.",
+    "info_hi": "कमानीदार तुला ब्लॉक को 20 N बल से बाईं ओर खींचती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 215,
+    "en": "Normal Force (N = mg)",
+    "h": 66,
+    "hi": "अभिलंब प्रतिक्रिया बल (N)",
+    "info_en": "Upward table support force balances downward gravitational weight mg.",
+    "info_hi": "मेज का ऊपर की ओर अभिलंब बल (N) नीचे लगते भार (mg) को संतुलित करता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 585,
+    "en": "Zero Net Acceleration",
+    "h": 66,
+    "hi": "शून्य परिणामी बल (a = 0)",
+    "info_en": "Balanced forces give ΣF = 0, so a stationary body stays at rest and a moving body keeps constant velocity.",
+    "info_hi": "संतुलित बलों का परिणामी शून्य होने से वस्तु स्थिर रहती है या एकसमान वेग से चलती रहती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 958,
+    "anchor_y": 412,
+    "en": "Right Pull (F₂ = 20 N)",
+    "h": 66,
+    "hi": "दायाँ खिंचाव बल (20 N)",
+    "info_en": "Equal and opposite 20 N rightward pull cancels F₁ exactly along the same line of action.",
+    "info_hi": "विपरीत दिशा में समान 20 N का दायाँ बल बाएँ बल को पूर्णतः निरस्त कर देता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/balancing_equation.webp": [
    {
     "anchor_x": 422,
@@ -1155,6 +1751,106 @@
     "y": 14
    }
   ],
+  "rx/binomial_nomenclature_linnaeus.webp": [
+   {
+    "anchor_x": 195,
+    "anchor_y": 440,
+    "en": "Generic Name (Genus)",
+    "h": 66,
+    "hi": "वंश नाम (बड़े अक्षर से)",
+    "info_en": "First word names the Genus and always begins with a capital letter (e.g., Mangifera).",
+    "info_hi": "पहला शब्द वंश (Genus) बताता है और सदैव बड़े अक्षर से शुरू होता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 335,
+    "anchor_y": 440,
+    "en": "Specific Epithet (species)",
+    "h": 66,
+    "hi": "जाति नाम (छोटे अक्षर से)",
+    "info_en": "Second word identifies the exact species and always begins with a lowercase letter (indica).",
+    "info_hi": "दूसरा शब्द विशिष्ट जाति (species) बताता है और छोटे अक्षर से शुरू होता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 440,
+    "en": "Italic / Underlined Rule",
+    "h": 66,
+    "hi": "तिरछे अक्षर या रेखांकन नियम",
+    "info_en": "Scientific names are printed in italics, or underlined separately when handwritten.",
+    "info_hi": "वैज्ञानिक नाम छपाई में तिरछे (italics) तथा हाथ से लिखने पर अलग-अलग रेखांकित किए जाते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1158,
+    "anchor_y": 440,
+    "en": "Universal Clarity",
+    "h": 66,
+    "hi": "विश्वव्यापी एकसमान पहचान",
+    "info_en": "Introduced by Carolus Linnaeus so every scientist worldwide refers unambiguously to the same species.",
+    "info_hi": "कैरोलस लीनियस की द्विनाम पद्धति क्षेत्रीय नामों के भ्रम को दूर कर विश्वभर में एक नाम देती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/biogas_and_nuclear_energy.webp": [
+   {
+    "anchor_x": 165,
+    "anchor_y": 320,
+    "en": "Slurry Inlet Tank",
+    "h": 66,
+    "hi": "गोबर-जल कर्दम निवेश",
+    "info_en": "Cattle dung and biodegradable farm waste mixed with water enter the sealed digester.",
+    "info_hi": "गोबर व जैव-अपशिष्ट को जल में मिलाकर भूमिगत पाचित्र में भेजा जाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 370,
+    "anchor_y": 390,
+    "en": "Anaerobic Biogas Dome",
+    "h": 66,
+    "hi": "अवायवीय बायोगैस गुंबद",
+    "info_en": "Anaerobic bacteria decompose organic matter without O₂, producing ~75% methane fuel and N/P-rich manure.",
+    "info_hi": "ऑक्सीजन की अनुपस्थिति में जीवाणु ~75% मेथेन युक्त स्वच्छ बायोगैस व उत्तम खाद बनाते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 982,
+    "anchor_y": 398,
+    "en": "²³⁵U Nuclear Fission",
+    "h": 66,
+    "hi": "²³⁵U नाभिकीय विखंडन",
+    "info_en": "Bombarding heavy Uranium-235 with a slow neutron splits it into lighter nuclei plus huge ΔE = Δmc² energy.",
+    "info_hi": "धीमे न्यूट्रॉन से यूरेनियम-235 नाभिक टूटकर अपार ऊर्जा (ΔE = Δmc²) मुक्त करता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1062,
+    "anchor_y": 275,
+    "en": "Control Rods & Safety",
+    "h": 66,
+    "hi": "नियंत्रक छड़ें व सुरक्षा",
+    "info_en": "Control rods absorb excess neutrons for steady power; radioactive waste requires shielded storage.",
+    "info_hi": "नियंत्रक छड़ें अतिरिक्त न्यूट्रॉन सोखकर शृंखला अभिक्रिया को सुरक्षित दर पर रखती हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/biogeochemical_cycles.webp": [
    {
     "anchor_x": 239,
@@ -1214,6 +1910,56 @@
     "info_hi": "कार्बन व ऑक्सीजन चक्र: “जैव-भू-रासायनिक चक्र” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/biomolecules_cell.webp": [
+   {
+    "anchor_x": 205,
+    "anchor_y": 520,
+    "en": "Carbohydrate Chain",
+    "h": 66,
+    "hi": "कार्बोहाइड्रेट शृंखला",
+    "info_en": "Polysaccharide chains of glucose monomers store cellular energy and build structural walls.",
+    "info_hi": "ग्लूकोज़ इकाइयों से बनी पॉलीसैकेराइड शृंखलाएँ कोशिकीय ऊर्जा संचित करती हैं और संरचना बनाती हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 540,
+    "anchor_y": 470,
+    "en": "Folded Protein",
+    "h": 66,
+    "hi": "वलित प्रोटीन",
+    "info_en": "Amino-acid chains fold into 3D alpha-helices and sheets that catalyse reactions as enzymes and build cell machinery.",
+    "info_hi": "अमीनो अम्ल शृंखलाएँ 3D संरचना में मुड़कर एंज़ाइम के रूप में जैव-अभिक्रियाएँ चलाती हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 882,
+    "anchor_y": 465,
+    "en": "Phospholipid Bilayer",
+    "h": 66,
+    "hi": "फॉस्फोलिपिड द्विपरत",
+    "info_en": "Hydrophilic heads face water while hydrophobic fatty-acid tails form the selectively permeable cell membrane core.",
+    "info_hi": "जलरागी सिरे बाहर तथा जलविरागी वसा-अम्ल पूँछें भीतर रहकर अर्धपारगम्य कोशिका झिल्ली बनाती हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1210,
+    "anchor_y": 460,
+    "en": "Nucleic Acid (DNA)",
+    "h": 66,
+    "hi": "न्यूक्लिक अम्ल (DNA)",
+    "info_en": "Double-helical DNA stores hereditary instructions that direct RNA synthesis and protein assembly.",
+    "info_hi": "द्विकुंडलित DNA आनुवंशिक सूचना संचित रखता है और प्रोटीन निर्माण का निर्देशन करता है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -1338,6 +2084,56 @@
     "info_hi": "मुकुल स्पर्शक: “हाइड्रा में मुकुलन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/carbon_chains_branches_rings.webp": [
+   {
+    "anchor_x": 180,
+    "anchor_y": 430,
+    "en": "Straight Chain (n-Butane)",
+    "h": 66,
+    "hi": "सीधी शृंखला (n-ब्यूटेन)",
+    "info_en": "Four carbon atoms linked end-to-end in an unbranched C₄H₁₀ skeleton.",
+    "info_hi": "चार कार्बन परमाणु बिना शाखा के सीधी C₄H₁₀ शृंखला में जुड़े होते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 520,
+    "anchor_y": 425,
+    "en": "Branched Isomer (C₄H₁₀)",
+    "h": 66,
+    "hi": "शाखित समावयवी (C₄H₁₀)",
+    "info_en": "2-Methylpropane shares formula C₄H₁₀ with n-butane but has a branched carbon skeleton (structural isomer).",
+    "info_hi": "समान आणविक सूत्र C₄H₁₀ पर भिन्न शाखित कार्बन कंकाल वाले यौगिक संरचनात्मक समावयवी कहलाते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 875,
+    "anchor_y": 425,
+    "en": "Saturated Ring (C₆H₁₂)",
+    "h": 66,
+    "hi": "संतृप्त वलय (साइक्लोहेक्सेन)",
+    "info_en": "Cyclohexane forms a six-carbon single-bonded closed ring with 12 hydrogens.",
+    "info_hi": "साइक्लोहेक्सेन (C₆H₁₂) छह कार्बन परमाणुओं का एकल-बंध संतृप्त वलय है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1225,
+    "anchor_y": 420,
+    "en": "Unsaturated Ring (C₆H₆)",
+    "h": 66,
+    "hi": "असंतृप्त वलय (बेंजीन)",
+    "info_en": "Benzene has a planar hexagonal six-carbon ring with alternating double bonds.",
+    "info_hi": "बेंजीन (C₆H₆) एकांतर द्वि-बंधों वाला समतलीय षट्कोणीय कार्बन वलय है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -2209,6 +3005,56 @@
     "y": 90
    }
   ],
+  "rx/centrifugation_coagulation.webp": [
+   {
+    "anchor_x": 350,
+    "anchor_y": 395,
+    "en": "Spinning Rotor",
+    "h": 66,
+    "hi": "तीव्र घूर्णी अपकेंद्रित्र",
+    "info_en": "Rapid rotation creates outward centrifugal acceleration separating particles by density (cream from milk, blood cells).",
+    "info_hi": "तेज घूर्णन से घनत्व के आधार पर भारी कण बाहर व हल्के कण ऊपर अलग हो जाते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 475,
+    "anchor_y": 445,
+    "en": "Dense Pellet & Supernatant",
+    "h": 66,
+    "hi": "सघन तलछट व स्वच्छ द्रव",
+    "info_en": "Denser suspended cells pack at the tube tip while lighter supernatant stays above.",
+    "info_hi": "भारी कण नली की तली में जम जाते हैं और स्वच्छ द्रव ऊपर रह जाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 900,
+    "anchor_y": 465,
+    "en": "Turbid Clay Colloid",
+    "h": 66,
+    "hi": "गंदला कोलॉइडी जल",
+    "info_en": "Charged fine clay particles repel one another and stay suspended without settling.",
+    "info_hi": "समान आवेशित सूक्ष्म मिट्टी कण प्रतिकर्षण के कारण बिना बैठे तैरते रहते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1210,
+    "anchor_y": 435,
+    "en": "Alum Coagulation",
+    "h": 66,
+    "hi": "फिटकरी द्वारा स्कंदन",
+    "info_en": "Al³⁺ ions neutralise colloidal charges so particles clump into heavy flocs and settle.",
+    "info_hi": "फिटकरी के आयन कोलॉइडी आवेश उदासीन कर कणों को भारी गुच्छों के रूप में नीचे बैठा देते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/chemical_bonding_lewis.webp": [
    {
     "anchor_x": 239,
@@ -2268,6 +3114,56 @@
     "info_hi": "धनावेशित धातु धनायन जालक: “रासायनिक आबंधन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/chemical_change_evidence.webp": [
+   {
+    "anchor_x": 245,
+    "anchor_y": 550,
+    "en": "Evolution of Gas",
+    "h": 66,
+    "hi": "गैस का उत्सर्जन",
+    "info_en": "Zinc granules reacting with dilute acid release brisk hydrogen (H₂) bubbles, indicating new substance formation.",
+    "info_hi": "तनु अम्ल में जिंक कण डालने पर हाइड्रोजन (H₂) गैस के बुलबुले निकलना रासायनिक परिवर्तन का संकेत है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 535,
+    "anchor_y": 565,
+    "en": "Change in Colour",
+    "h": 66,
+    "hi": "रंग में परिवर्तन",
+    "info_en": "An iron nail displaces copper from blue CuSO₄ solution, turning the solution pale green (FeSO₄) with brown Cu deposit.",
+    "info_hi": "नीले कॉपर सल्फेट विलयन में लोहे की कील डालने पर हरा फेरस सल्फेट बनता है और कील पर ताँबा जमता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 845,
+    "anchor_y": 565,
+    "en": "Precipitate Formed",
+    "h": 66,
+    "hi": "अवक्षेप का बनना",
+    "info_en": "Mixing potassium iodide and lead nitrate solutions immediately forms an insoluble yellow lead iodide (PbI₂) precipitate.",
+    "info_hi": "पोटैशियम आयोडाइड व लेड नाइट्रेट मिलाने पर अघुलनशील पीला लेड आयोडाइड (PbI₂) अवक्षेप बनता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1155,
+    "anchor_y": 365,
+    "en": "Heat, Light & Ash",
+    "h": 66,
+    "hi": "ऊष्मा, प्रकाश व राख",
+    "info_en": "Magnesium ribbon burns in air with a dazzling white flame to form white powdery magnesium oxide (MgO).",
+    "info_hi": "मैग्नीशियम रिबन वायु में चमकदार श्वेत ज्वाला के साथ जलकर सफेद मैग्नीशियम ऑक्साइड (MgO) चूर्ण बनाता है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -2855,6 +3751,106 @@
     "y": 90
    }
   ],
+  "rx/clean_vs_sooty_flame.webp": [
+   {
+    "anchor_x": 380,
+    "anchor_y": 545,
+    "en": "Open Air Hole (+O₂)",
+    "h": 66,
+    "hi": "खुला वायु छिद्र (+O₂)",
+    "info_en": "Sufficient oxygen mixes with fuel gas in the burner barrel for complete oxidation.",
+    "info_hi": "खुले वायु छिद्र से पर्याप्त ऑक्सीजन ईंधन के साथ मिलकर पूर्ण दहन करती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 410,
+    "anchor_y": 355,
+    "en": "Clean Blue Flame",
+    "h": 66,
+    "hi": "स्वच्छ नीली ज्वाला",
+    "info_en": "Saturated hydrocarbons with ample air burn completely with a hot, soot-free blue flame.",
+    "info_hi": "संतृप्त हाइड्रोकार्बन पर्याप्त वायु में बिना कालिख की गर्म नीली ज्वाला देते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1030,
+    "anchor_y": 345,
+    "en": "Yellow Luminous Flame",
+    "h": 66,
+    "hi": "पीली दीप्त ज्वाला",
+    "info_en": "Unsaturated hydrocarbons or restricted air cause incomplete combustion with incandescent carbon particles.",
+    "info_hi": "असंतृप्त कार्बन यौगिक या कम वायु में अधूरे दहन से तप्त कार्बन कण पीली चमक देते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1055,
+    "anchor_y": 235,
+    "en": "Black Carbon Soot",
+    "h": 66,
+    "hi": "काली कार्बन कालिख",
+    "info_en": "Unburnt carbon deposits as black soot on vessels when air supply or stove inlets are blocked.",
+    "info_hi": "अधूरे दहन से बिना जला कार्बन बर्तन की तली पर काली कालिख के रूप में जम जाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/coal_petroleum_and_3rs.webp": [
+   {
+    "anchor_x": 360,
+    "anchor_y": 420,
+    "en": "Petroleum & Natural Gas",
+    "h": 66,
+    "hi": "पेट्रोलियम व प्राकृतिक गैस",
+    "info_en": "Formed from ancient marine biomass; incomplete combustion releases toxic carbon monoxide (CO).",
+    "info_hi": "प्राचीन समुद्री जीवों से निर्मित सीमित भंडार; अपूर्ण दहन से विषैली कार्बन मोनोऑक्साइड बनती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 360,
+    "anchor_y": 555,
+    "en": "Coal Seam Reserves",
+    "h": 66,
+    "hi": "कोयला परत भंडार",
+    "info_en": "Contains carbon with traces of H, N and S whose burning adds CO₂, SO₂ and NOₓ to the atmosphere.",
+    "info_hi": "कोयले में कार्बन के साथ नाइट्रोजन व सल्फर होते हैं जो दहन पर ग्रीनहाउस व अम्लीय गैसें बनाते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1030,
+    "anchor_y": 260,
+    "en": "Refuse & Reduce",
+    "h": 66,
+    "hi": "इंकार व कम उपयोग (Reduce)",
+    "info_en": "Saying no to single-use plastics and switching off idle lights saves energy at the source.",
+    "info_hi": "अनावश्यक प्लास्टिक न लेना और बिजली-ईंधन की बचत संसाधनों पर दबाव घटाती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1120,
+    "anchor_y": 490,
+    "en": "Reuse, Repurpose & Recycle",
+    "h": 66,
+    "hi": "पुनः उपयोग व पुनर्चक्रण",
+    "info_en": "Reusing containers directly saves the extra energy needed to melt and remould materials in recycling.",
+    "info_hi": "पुनः उपयोग (Reuse) पुनर्चक्रण से भी उत्तम है क्योंकि इसमें गलाने की अतिरिक्त ऊर्जा नहीं लगती।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/column_chromatography.webp": [
    {
     "anchor_x": 718,
@@ -3053,6 +4049,56 @@
     "y": 90
    }
   ],
+  "rx/concentration_mv_vv.webp": [
+   {
+    "anchor_x": 225,
+    "anchor_y": 305,
+    "en": "Weighed Solid Solute",
+    "h": 66,
+    "hi": "तौला गया ठोस विलेय",
+    "info_en": "In mass-by-volume %(w/V), solute is measured in grams (common in saline & medicine).",
+    "info_hi": "द्रव्यमान-आयतन प्रतिशत (w/V) में ठोस विलेय को ग्राम में मापा जाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 370,
+    "anchor_y": 295,
+    "en": "100 mL Calibration Mark",
+    "h": 66,
+    "hi": "100 mL अंशांकन चिह्न",
+    "info_en": "Solvent is added up to the 100 mL volumetric mark so denominator is exact solution volume.",
+    "info_hi": "मापन फ्लास्क के 100 mL चिह्न तक विलयन बनाकर सटीक आयतन प्राप्त किया जाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1030,
+    "anchor_y": 245,
+    "en": "Liquid Solute Pipette",
+    "h": 66,
+    "hi": "द्रव विलेय पिपेट",
+    "info_en": "In volume-by-volume %(V/V), liquid solutes such as ethanol are measured in millilitres.",
+    "info_hi": "दो द्रवों के विलयन (V/V) में विलेय का आयतन मिलीलीटर में मापा जाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1030,
+    "anchor_y": 460,
+    "en": "Miscible Liquid Solution",
+    "h": 66,
+    "hi": "मिश्रणीय द्रव विलयन",
+    "info_en": "V/V % = (volume of solute / total solution volume) × 100.",
+    "info_hi": "आयतन प्रतिशत = (विलेय का आयतन / कुल विलयन का आयतन) × 100।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/conservation_of_mass.webp": [
    {
     "anchor_x": 634,
@@ -3112,6 +4158,156 @@
     "info_hi": "डिजिटल तुला: “द्रव्यमान संरक्षण का नियम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/contraceptive_methods_overview.webp": [
+   {
+    "anchor_x": 200,
+    "anchor_y": 365,
+    "en": "Mechanical Barrier",
+    "h": 66,
+    "hi": "यांत्रिक अवरोध विधि",
+    "info_en": "Physically prevents sperm from reaching the egg and also protects against sexually transmitted infections.",
+    "info_hi": "शुक्राणु को अंडाणु तक पहुँचने से रोकती है और यौन संचारित संक्रमणों से भी सुरक्षा देती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 536,
+    "anchor_y": 365,
+    "en": "Intrauterine Copper-T",
+    "h": 66,
+    "hi": "कॉपर-T (IUCD)",
+    "info_en": "Placed inside the uterus by a clinician to prevent fertilisation and implantation.",
+    "info_hi": "चिकित्सक द्वारा गर्भाशय में स्थापित कॉपर-T निषेचन और रोपण को रोकता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 872,
+    "anchor_y": 365,
+    "en": "Hormonal Oral Pills",
+    "h": 66,
+    "hi": "हार्मोनल गर्भनिरोधक गोलियाँ",
+    "info_en": "Alter hormonal balance so the ovary does not release an egg; taken under medical guidance.",
+    "info_hi": "हार्मोन संतुलन बदलकर अंडोत्सर्ग रोकती हैं; इन्हें चिकित्सकीय सलाह से लिया जाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1208,
+    "anchor_y": 365,
+    "en": "Surgical Methods",
+    "h": 66,
+    "hi": "शल्यक्रिया विधि",
+    "info_en": "Blocking vas deferens in males or fallopian tubes in females permanently stops gamete transport.",
+    "info_hi": "शुक्रवाहिका या अंडवाहिका को अवरुद्ध कर युग्मक स्थानांतरण स्थायी रूप से रोका जाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/controlled_experiment_evidence.webp": [
+   {
+    "anchor_x": 280,
+    "anchor_y": 495,
+    "en": "Baseline Control Group",
+    "h": 66,
+    "hi": "नियंत्रक समूह (0 mL)",
+    "info_en": "Provides a baseline for comparison when the independent variable is withheld.",
+    "info_hi": "तुलना के लिए आधार प्रदान करता है जब स्वतंत्र चर नहीं दिया जाता।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 590,
+    "anchor_y": 495,
+    "en": "Independent Variable",
+    "h": 66,
+    "hi": "स्वतंत्र चर (जल मात्रा)",
+    "info_en": "Only water volume is deliberately varied across pots (0 mL, 25 mL, 50 mL).",
+    "info_hi": "प्रयोग में केवल एक चर (जल की मात्रा) को जानबूझकर बदला जाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 175,
+    "en": "Controlled Variables",
+    "h": 66,
+    "hi": "नियंत्रित चर (समान प्रकाश)",
+    "info_en": "Light intensity, pot size, seed type and temperature are kept strictly identical.",
+    "info_hi": "प्रकाश, ताप, मिट्टी और बीज के प्रकार सभी गमलों में समान रखे जाते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1128,
+    "anchor_y": 360,
+    "en": "Dependent Variable",
+    "h": 66,
+    "hi": "आश्रित चर (पौधे की ऊँचाई)",
+    "info_en": "Resulting seedling height is measured objectively as empirical evidence.",
+    "info_hi": "परिणामस्वरूप बढ़ी पौधे की ऊँचाई को प्रमाण के रूप में मापा जाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/conventional_vs_nonconventional.webp": [
+   {
+    "anchor_x": 320,
+    "anchor_y": 390,
+    "en": "Thermal Power & Emissions",
+    "h": 66,
+    "hi": "तापीय संयंत्र व उत्सर्जन",
+    "info_en": "Burning coal and petroleum supplies steady power but emits greenhouse CO₂ and acidic oxides.",
+    "info_hi": "कोयला व पेट्रोलियम जलाने से ऊर्जा मिलती है पर CO₂ व अम्लीय वर्षा वाली गैसें निकलती हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 370,
+    "anchor_y": 520,
+    "en": "Finite Fossil Reserves",
+    "h": 66,
+    "hi": "सीमित जीवाश्म ईंधन भंडार",
+    "info_en": "Coal, oil and natural gas took millions of years to form and are non-renewable.",
+    "info_hi": "करोड़ों वर्षों में बने कोयला व पेट्रोलियम के भंडार सीमित और अनवीकरणीय हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 915,
+    "anchor_y": 490,
+    "en": "Solar Photovoltaic Energy",
+    "h": 66,
+    "hi": "सौर ऊर्जा (अपरंपरागत)",
+    "info_en": "Abundant non-conventional source harnessed increasingly via modern silicon technology.",
+    "info_hi": "सूर्यप्रकाश एक स्वच्छ, अक्षय व अपरंपरागत ऊर्जा स्रोत है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1166,
+    "anchor_y": 335,
+    "en": "Clean Wind & Ocean Power",
+    "h": 66,
+    "hi": "पवन व समुद्री नवीकरणीय ऊर्जा",
+    "info_en": "Renewable kinetic energy of wind and waves generates electricity without fuel combustion.",
+    "info_hi": "पवन और समुद्री तरंगें बिना ईंधन दहन के प्रदूषण-मुक्त विद्युत बनाती हैं।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -4103,6 +5299,206 @@
     "y": 90
    }
   ],
+  "rx/dihybrid_cross_punnett.webp": [
+   {
+    "anchor_x": 270,
+    "anchor_y": 185,
+    "en": "Four Gamete Types",
+    "h": 66,
+    "hi": "चार प्रकार के युग्मक",
+    "info_en": "Alleles R/r and Y/y assort independently to form equal proportions of RY, Ry, rY and ry gametes.",
+    "info_hi": "R/r और Y/y स्वतंत्र रूप से अलग होकर RY, Ry, rY और ry चार प्रकार के युग्मक बनाते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 365,
+    "anchor_y": 380,
+    "en": "16 F₂ Genotypes",
+    "h": 66,
+    "hi": "16 F₂ जीनप्ररूप संयोजन",
+    "info_en": "4 × 4 Punnett grid combines maternal and paternal gametes across 16 equally probable squares.",
+    "info_hi": "4 × 4 पनेट वर्ग में नर व मादा युग्मकों के 16 संभावित संयोजन बनते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 715,
+    "anchor_y": 235,
+    "en": "9 Round Yellow Dominant",
+    "h": 66,
+    "hi": "9 गोल पीले बीज (प्रभावी)",
+    "info_en": "Nine squares carry at least one dominant R and one dominant Y allele (R_Y_).",
+    "info_hi": "16 में से 9 बीजों में दोनों प्रभावी लक्षण (गोल R तथा पीला Y) प्रकट होते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 715,
+    "anchor_y": 512,
+    "en": "3 : 3 : 1 Ratio Traits",
+    "h": 66,
+    "hi": "3 : 3 : 1 नए व अप्रभावी",
+    "info_en": "3 Round Green + 3 Wrinkled Yellow recombinants + 1 double-recessive Wrinkled Green (rryy) prove independent assortment.",
+    "info_hi": "3 गोल हरे व 3 झुर्रीदार पीले नए संयोजन तथा 1 झुर्रीदार हरा (rryy) स्वतंत्र अपव्यूहन सिद्ध करते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/direct_vs_alternating_current.webp": [
+   {
+    "anchor_x": 155,
+    "anchor_y": 425,
+    "en": "DC Cell / Battery",
+    "h": 66,
+    "hi": "दिष्ट धारा स्रोत (बैटरी)",
+    "info_en": "Cells and solar panels supply direct current that always flows in one fixed direction.",
+    "info_hi": "सेल और बैटरी सदैव एक ही निश्चित दिशा में बहने वाली दिष्ट धारा (DC) देते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 420,
+    "anchor_y": 345,
+    "en": "Steady DC Waveform",
+    "h": 66,
+    "hi": "स्थिर DC आलेख",
+    "info_en": "Current magnitude and polarity stay constant over time with zero frequency.",
+    "info_hi": "दिष्ट धारा का मान और दिशा समय के साथ स्थिर रहते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 795,
+    "anchor_y": 395,
+    "en": "AC Alternator (~)",
+    "h": 66,
+    "hi": "प्रत्यावर्ती जनित्र (~)",
+    "info_en": "Power-station generators produce AC that can be stepped up by transformers for low-loss transmission.",
+    "info_hi": "प्रत्यावर्ती धारा (AC) को कम ऊर्जा हानि के साथ लंबी दूरी तक भेजा जा सकता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1085,
+    "anchor_y": 395,
+    "en": "50 Hz Periodic Reversal",
+    "h": 66,
+    "hi": "50 Hz आवर्ती परिवर्तन",
+    "info_en": "In India, AC completes 50 cycles per second (T = 1/50 s), reversing direction every 1/100 s.",
+    "info_hi": "भारत में घरेलू AC की आवृत्ति 50 Hz है, अर्थात् धारा हर 1/100 सेकंड में दिशा बदलती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/disease_prevention_immunity.webp": [
+   {
+    "anchor_x": 165,
+    "anchor_y": 560,
+    "en": "Soap & Sanitation",
+    "h": 66,
+    "hi": "साबुन व स्वच्छता",
+    "info_en": "Handwashing with soap disrupts lipid envelopes of microbes and breaks contact transmission chains.",
+    "info_hi": "साबुन से हाथ धोने पर रोगाणुओं का लिपिड आवरण टूटता है और संक्रमण की कड़ी रुकती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 525,
+    "anchor_y": 530,
+    "en": "Safe Clean Water",
+    "h": 66,
+    "hi": "शुद्ध पेयजल छनन",
+    "info_en": "Multi-stage filtration and chlorination/boiling eliminate waterborne pathogens at the community level.",
+    "info_hi": "बहु-स्तरीय जल छनन और शुद्धिकरण समुदाय को जलजनित रोगों से बचाते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 855,
+    "anchor_y": 585,
+    "en": "Vaccine Immunisation",
+    "h": 66,
+    "hi": "टीकाकरण (प्रतिरक्षण)",
+    "info_en": "Vaccines safely introduce weakened or killed antigens so the immune system builds long-lasting memory cells.",
+    "info_hi": "टीका निष्क्रिय या दुर्बल प्रतिजन देकर प्रतिरक्षा तंत्र में दीर्घकालिक स्मृति कोशिकाएँ तैयार करता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1225,
+    "anchor_y": 520,
+    "en": "Antibodies & Memory",
+    "h": 66,
+    "hi": "प्रतिरक्षी व स्मृति",
+    "info_en": "Specific Y-shaped antibodies rapidly recognise and neutralise invading pathogens upon real exposure.",
+    "info_hi": "विशिष्ट Y-आकार के प्रतिरक्षी वास्तविक संक्रमण होने पर रोगाणुओं को तुरंत पहचानकर निष्क्रिय कर देते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/disease_transmission_modes.webp": [
+   {
+    "anchor_x": 205,
+    "anchor_y": 545,
+    "en": "Airborne Droplets",
+    "h": 66,
+    "hi": "वायुजनित सूक्ष्म बूँदें",
+    "info_en": "Coughing or sneezing expels microscopic aerosol droplets that transmit respiratory microbes such as cold, influenza and TB.",
+    "info_hi": "खाँसने या छींकने से निकली सूक्ष्म बूँदें जुकाम, इन्फ्लुएंजा और क्षय रोग जैसे वायुजनित संक्रमण फैलाती हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 540,
+    "anchor_y": 555,
+    "en": "Contaminated Water",
+    "h": 66,
+    "hi": "संदूषित जल व भोजन",
+    "info_en": "Pathogenic bacteria and protozoa in untreated drinking water spread cholera, typhoid and dysentery.",
+    "info_hi": "अशुद्ध पेयजल में उपस्थित जीवाणु हैज़ा, टाइफ़ॉइड और पेचिश जैसे जलजनित रोग फैलाते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 885,
+    "anchor_y": 540,
+    "en": "Contact & Fomites",
+    "h": 66,
+    "hi": "प्रत्यक्ष व सतह संपर्क",
+    "info_en": "Direct skin contact or shared contaminated surfaces transfer infectious microbes to new hosts.",
+    "info_hi": "संक्रमित सतह या प्रत्यक्ष स्पर्श से रोगाणु स्वस्थ व्यक्ति तक पहुँच सकते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1225,
+    "anchor_y": 590,
+    "en": "Mosquito Vector",
+    "h": 66,
+    "hi": "रोग वाहक मच्छर",
+    "info_en": "Female mosquitoes act as biological vectors carrying malaria protozoa or dengue virus between human hosts.",
+    "info_hi": "मादा मच्छर जैविक वाहक के रूप में मलेरिया परजीवी या डेंगू विषाणु को एक व्यक्ति से दूसरे तक पहुँचाती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/dispersion.webp": [
    {
     "anchor_x": 422,
@@ -4336,6 +5732,106 @@
     "info_hi": "नीला रंग फीका: “स्थापन अभिक्रिया” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/dna_copying_variation.webp": [
+   {
+    "anchor_x": 230,
+    "anchor_y": 365,
+    "en": "Parent DNA Blueprint",
+    "h": 66,
+    "hi": "जनक DNA ब्लूप्रिंट",
+    "info_en": "Chromosomal DNA holds the body-design blueprint copied before every cell division.",
+    "info_hi": "कोशिका विभाजन से पहले गुणसूत्र के DNA की प्रतिकृति बनकर शरीर-रचना की सूचना आगे जाती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 510,
+    "anchor_y": 470,
+    "en": "Inbuilt Variation",
+    "h": 66,
+    "hi": "प्रतिकृति में विभिन्नता",
+    "info_en": "No biochemical copying reaction is 100% identical, generating subtle heritable variations.",
+    "info_hi": "जैव-रासायनिक प्रतिकृति पूर्णतः एकसमान न होने से संतति में सूक्ष्म विभिन्नताएँ उत्पन्न होती हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1020,
+    "anchor_y": 280,
+    "en": "Changing Niche (ΔT)",
+    "h": 66,
+    "hi": "पर्यावरणीय बदलाव (ΔT)",
+    "info_en": "Sudden shifts in water temperature, climate or disease can wipe out uniform populations.",
+    "info_hi": "तापमान या आवास में अचानक बदलाव समान गुणों वाली पूरी समष्टि को नष्ट कर सकता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1180,
+    "anchor_y": 410,
+    "en": "Species Survival",
+    "h": 66,
+    "hi": "अनुकूलित जीवों की रक्षा",
+    "info_en": "Heat-resistant variants survive and reproduce, ensuring long-term continuity of the species.",
+    "info_hi": "ऊष्मा-रोधी विभिन्नता वाले जीव जीवित बचकर प्रजाति की निरंतरता बनाए रखते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/dobereiner_triads.webp": [
+   {
+    "anchor_x": 230,
+    "anchor_y": 310,
+    "en": "Lightest Member (Li = 6.9)",
+    "h": 66,
+    "hi": "प्रथम तत्व (Li = 6.9)",
+    "info_en": "Döbereiner arranged three chemically similar elements in order of increasing atomic mass.",
+    "info_hi": "डोबेराइनर ने समान रासायनिक गुणों वाले तीन तत्वों को बढ़ते परमाणु द्रव्यमान में रखा।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 510,
+    "anchor_y": 298,
+    "en": "Middle Mean (Na = 23.0)",
+    "h": 66,
+    "hi": "मध्य तत्व औसत (Na = 23.0)",
+    "info_en": "Atomic mass of middle element Na equals the average of Li and K: (6.9 + 39.1)/2 = 23.0.",
+    "info_hi": "बीच के तत्व Na का परमाणु द्रव्यमान प्रथम व तृतीय के औसत (23.0) के बराबर होता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 790,
+    "anchor_y": 288,
+    "en": "Heaviest Member (K = 39.1)",
+    "h": 66,
+    "hi": "तृतीय तत्व (K = 39.1)",
+    "info_en": "Lithium, sodium and potassium all react vigorously with water to form alkalis MOH.",
+    "info_hi": "लिथियम, सोडियम और पोटैशियम तीनों जल के साथ तीव्र अभिक्रिया कर क्षार बनाते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1120,
+    "anchor_y": 440,
+    "en": "Halogen Triad (Cl, Br, I)",
+    "h": 66,
+    "hi": "हैलोजन त्रिक (Cl, Br, I)",
+    "info_en": "Bromine's mass (79.9) lies close to the mean (81.2) of chlorine (35.5) and iodine (126.9).",
+    "info_hi": "क्लोरीन व आयोडीन का औसत (81.2) ब्रोमीन के परमाणु द्रव्यमान (79.9) के अत्यंत निकट है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -4659,6 +6155,106 @@
     "y": 90
    }
   ],
+  "rx/ecosystem_biotic_abiotic.webp": [
+   {
+    "anchor_x": 190,
+    "anchor_y": 195,
+    "en": "Abiotic Factors",
+    "h": 66,
+    "hi": "अजैविक घटक (धूप, जल, मृदा)",
+    "info_en": "Sunlight, temperature, water, dissolved gases and soil minerals supply energy and raw matter.",
+    "info_hi": "सूर्यप्रकाश, ताप, जल, वायु और खनिज मृदा पारिस्थितिक तंत्र के भौतिक अजैविक घटक हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 331,
+    "anchor_y": 255,
+    "en": "Producers (Autotrophs)",
+    "h": 66,
+    "hi": "उत्पादक (हरे पौधे व शैवाल)",
+    "info_en": "Green plants and phytoplankton capture solar energy via photosynthesis to synthesise organic food.",
+    "info_hi": "हरे पौधे व शैवाल प्रकाश-संश्लेषण द्वारा सौर ऊर्जा को रासायनिक भोजन में बदलते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 870,
+    "anchor_y": 475,
+    "en": "Consumers (Heterotrophs)",
+    "h": 66,
+    "hi": "उपभोक्ता (परपोषी जंतु)",
+    "info_en": "Insects, fish, frogs and birds depend directly or indirectly on producers for energy.",
+    "info_hi": "मछली, मेंढक व कीट जैसे उपभोक्ता प्रत्यक्ष या परोक्ष रूप से उत्पादकों पर निर्भर रहते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1090,
+    "anchor_y": 590,
+    "en": "Decomposers (Recyclers)",
+    "h": 66,
+    "hi": "अपघटक (जीवाणु व कवक)",
+    "info_en": "Bacteria and fungi break down dead remains into simple inorganic minerals for reuse by plants.",
+    "info_hi": "जीवाणु और कवक मृत अवशेषों को सरल अकार्बनिक पोषकों में बदलकर मिट्टी में लौटाते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/electric_power_kwh_energy.webp": [
+   {
+    "anchor_x": 180,
+    "anchor_y": 455,
+    "en": "220 V Supply",
+    "h": 66,
+    "hi": "220 V विद्युत स्रोत",
+    "info_en": "Maintains potential difference V driving electric charge through the appliance.",
+    "info_hi": "परिपथ में आवेश प्रवाहित करने हेतु विभवांतर (V) प्रदान करता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 410,
+    "anchor_y": 410,
+    "en": "Current (I in Amperes)",
+    "h": 66,
+    "hi": "विद्युत धारा (I)",
+    "info_en": "Series ammeter measures current I; electric power equals P = V × I.",
+    "info_hi": "श्रेणीक्रम अमीटर धारा I मापता है; विद्युत शक्ति P = V × I होती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 690,
+    "anchor_y": 395,
+    "en": "Rated Power (Watt)",
+    "h": 66,
+    "hi": "उपकरण की शक्ति (वाट)",
+    "info_en": "1 Watt = 1 Volt × 1 Ampere (1 J/s rate of electrical energy consumption).",
+    "info_hi": "1 वाट = 1 वोल्ट × 1 ऐम्पियर (ऊर्जा उपभोग की दर = 1 जूल/सेकंड)।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1110,
+    "anchor_y": 350,
+    "en": "Commercial Unit (kWh)",
+    "h": 66,
+    "hi": "व्यावसायिक मात्रक (kWh)",
+    "info_en": "1 kWh ('1 unit') = 1000 W × 3600 s = 3.6 × 10⁶ Joules of electrical energy.",
+    "info_hi": "1 किलोवाट-घंटा (1 यूनिट) = 3.6 × 10⁶ जूल विद्युत ऊर्जा।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/electromagnet--1.webp": [
    {
     "anchor_x": 704,
@@ -4873,6 +6469,56 @@
     "y": 14
    }
   ],
+  "rx/element_symbols_iupac.webp": [
+   {
+    "anchor_x": 210,
+    "anchor_y": 410,
+    "en": "Dalton's Pictorial Discs",
+    "h": 66,
+    "hi": "डाल्टन के चित्रात्मक प्रतीक",
+    "info_en": "John Dalton first used specific circular emblems to represent one atom of each element.",
+    "info_hi": "डाल्टन ने प्रत्येक तत्व के एक परमाणु को दर्शाने हेतु वृत्ताकार चिह्नों का प्रयोग किया था।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 595,
+    "anchor_y": 350,
+    "en": "Latin-Derived Symbols",
+    "h": 66,
+    "hi": "लैटिन नाम से बने प्रतीक",
+    "info_en": "Fe (Ferrum), Cu (Cuprum), Na (Natrium) and Au (Aurum) take letters from Latin names.",
+    "info_hi": "लोहा (Fe), ताँबा (Cu), सोडियम (Na) और सोना (Au) के प्रतीक लैटिन नामों से लिए गए हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 990,
+    "anchor_y": 410,
+    "en": "Cobalt Element (Co)",
+    "h": 66,
+    "hi": "कोबाल्ट तत्व (Co)",
+    "info_en": "IUPAC rule: first letter uppercase, second letter strictly lowercase (Co = Cobalt).",
+    "info_hi": "IUPAC नियम के अनुसार पहला अक्षर बड़ा और दूसरा छोटा लिखा जाता है (Co = कोबाल्ट)।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1250,
+    "anchor_y": 410,
+    "en": "Carbon Monoxide (CO)",
+    "h": 66,
+    "hi": "कार्बन मोनोऑक्साइड (CO)",
+    "info_en": "Two capital letters denote two distinct elements bonded in a compound (C + O), not Cobalt.",
+    "info_hi": "दोनों बड़े अक्षर लिखने (CO) से कोबाल्ट नहीं बल्कि कार्बन व ऑक्सीजन का यौगिक दर्शाया जाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/endocrine_system.webp": [
    {
     "anchor_x": 352,
@@ -4947,6 +6593,56 @@
     "y": 90
    }
   ],
+  "rx/ethanoic_acid_tests.webp": [
+   {
+    "anchor_x": 200,
+    "anchor_y": 420,
+    "en": "Glacial Acetic Acid",
+    "h": 66,
+    "hi": "ग्लेशियल ऐसीटिक अम्ल",
+    "info_en": "Pure anhydrous ethanoic acid freezes at 290 K (17 °C) into ice-like crystals in cool weather.",
+    "info_hi": "शुद्ध एथेनोइक अम्ल का गलनांक 290 K होता है, इसलिए सर्दियों में यह बर्फ जैसा जम जाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 500,
+    "anchor_y": 390,
+    "en": "Weak Acid (pH ~ 4)",
+    "h": 66,
+    "hi": "दुर्बल अम्ल (pH ~ 4)",
+    "info_en": "Ethanoic acid ionises only partially in water, turning universal indicator orange rather than deep red.",
+    "info_hi": "जल में आंशिक आयनन के कारण यह खनिज अम्लों की तुलना में दुर्बल अम्ल है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 838,
+    "anchor_y": 460,
+    "en": "Carbonate Effervescence",
+    "h": 66,
+    "hi": "कार्बोनेट से बुदबुदाहट",
+    "info_en": "Reacts with Na₂CO₃ or NaHCO₃ to form sodium ethanoate, water and brisk CO₂ bubbles.",
+    "info_hi": "सोडियम कार्बोनेट या बाइकार्बोनेट के साथ अभिक्रिया कर तीव्र CO₂ गैस छोड़ता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1178,
+    "anchor_y": 485,
+    "en": "Milky Lime Water",
+    "h": 66,
+    "hi": "दूधिया चूने का पानी",
+    "info_en": "Evolved CO₂ gas reacts with Ca(OH)₂ lime water to form white insoluble CaCO₃ suspension.",
+    "info_hi": "निकली हुई CO₂ गैस चूने के पानी को श्वेत कैल्सियम कार्बोनेट बनने से दूधिया कर देती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/ethanol_esterification.webp": [
    {
     "anchor_x": 690,
@@ -5006,6 +6702,56 @@
     "info_hi": "क्लैम्प व स्टैंड: “एथेनॉल व एस्टरीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/ethanol_oxidation_kmno4.webp": [
+   {
+    "anchor_x": 215,
+    "anchor_y": 440,
+    "en": "Ethanol (CH₃CH₂OH)",
+    "h": 66,
+    "hi": "एथेनॉल (CH₃CH₂OH)",
+    "info_en": "Primary alcohol reactant containing the –CH₂OH group before oxidation.",
+    "info_hi": "ऑक्सीकरण से पूर्व –CH₂OH समूह वाला प्राथमिक ऐल्कोहॉल अभिकारक।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 650,
+    "anchor_y": 495,
+    "en": "Warm Water Bath",
+    "h": 66,
+    "hi": "गर्म जल-ऊष्मक",
+    "info_en": "Gentle heating in a water bath safely accelerates complete oxidation without igniting ethanol.",
+    "info_hi": "जल-ऊष्मक में धीमा तापन सुरक्षित रूप से ऑक्सीकरण अभिक्रिया को पूर्ण करता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 700,
+    "anchor_y": 225,
+    "en": "Alkaline KMnO₄ Drops",
+    "h": 66,
+    "hi": "क्षारीय KMnO₄ ऑक्सीकारक",
+    "info_en": "Purple permanganate supplies nascent oxygen [O] and decolourises as it oxidises ethanol.",
+    "info_hi": "बैंगनी क्षारीय KMnO₄ नवजात ऑक्सीजन देकर एथेनॉल का ऑक्सीकरण करता है और स्वयं रंगहीन हो जाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1190,
+    "anchor_y": 440,
+    "en": "Ethanoic Acid (CH₃COOH)",
+    "h": 66,
+    "hi": "एथेनोइक अम्ल उत्पाद",
+    "info_en": "Addition of oxygen and loss of hydrogen converts ethanol into carboxylic ethanoic acid.",
+    "info_hi": "ऑक्सीजन जुड़ने से एथेनॉल अंततः कार्बोक्सिलिक अम्ल (CH₃COOH) में बदल जाता है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -5183,6 +6929,56 @@
     "y": 90
    }
   ],
+  "rx/exothermic_endothermic.webp": [
+   {
+    "anchor_x": 365,
+    "anchor_y": 635,
+    "en": "CaO + H₂O Reaction",
+    "h": 66,
+    "hi": "बिना बुझा चूना + जल",
+    "info_en": "Quicklime (CaO) combines vigorously with water to form slaked lime Ca(OH)₂ while releasing abundant heat energy.",
+    "info_hi": "बिना बुझा चूना (CaO) जल से तीव्र अभिक्रिया कर बुझा चूना Ca(OH)₂ बनाता है और प्रचुर ऊष्मा छोड़ता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 505,
+    "anchor_y": 385,
+    "en": "Exothermic Rise (+ΔT)",
+    "h": 66,
+    "hi": "ऊष्माक्षेपी ताप वृद्धि",
+    "info_en": "Heat flows into the surroundings, raising the thermometer column and warming the reaction vessel.",
+    "info_hi": "ऊष्मा बाहर निकलने से पात्र गर्म हो जाता है और तापमापी में पारा/द्रव ऊपर चढ़ता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 965,
+    "anchor_y": 625,
+    "en": "Ba(OH)₂ + NH₄Cl",
+    "h": 66,
+    "hi": "ऊष्माशोषी लवण मिश्रण",
+    "info_en": "Mixing barium hydroxide and ammonium chloride absorbs thermal energy from the surroundings to drive the reaction.",
+    "info_hi": "बेरियम हाइड्रॉक्साइड और अमोनियम क्लोराइड मिलाने पर अभिक्रिया परिवेश से ऊष्मा सोख लेती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1105,
+    "anchor_y": 420,
+    "en": "Endothermic Drop (−ΔT)",
+    "h": 66,
+    "hi": "ऊष्माशोषी शीतलन",
+    "info_en": "Temperature drops sharply below freezing, condensing frost on the outer glass wall.",
+    "info_hi": "तापमान तेजी से गिरने के कारण बीकर की बाहरी सतह पर नमी जमकर पाला बन जाती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/extraction_metals.webp": [
    {
     "anchor_x": 282,
@@ -5242,6 +7038,56 @@
     "info_hi": "शुद्ध कैथोड (-): “धातुओं का निष्कर्षण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/fertilisation_implantation_cycle.webp": [
+   {
+    "anchor_x": 265,
+    "anchor_y": 420,
+    "en": "Ovary & Ovulation",
+    "h": 66,
+    "hi": "अंडाशय व अंडोत्सर्ग",
+    "info_en": "One mature egg is released from an ovary roughly once every 28 days.",
+    "info_hi": "अंडाशय से लगभग हर 28 दिन में एक परिपक्व अंडाणु मुक्त होता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 390,
+    "anchor_y": 260,
+    "en": "Oviduct Fertilisation",
+    "h": 66,
+    "hi": "अंडवाहिका में निषेचन",
+    "info_en": "Sperm fuses with the ovum inside the fallopian tube to form a diploid zygote that divides into an embryo.",
+    "info_hi": "फैलोपियन नलिका में शुक्राणु व अंडाणु के संलयन से युग्मनज बनता है जो विभाजित होकर भ्रूण बनाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 682,
+    "anchor_y": 388,
+    "en": "Uterine Implantation",
+    "h": 66,
+    "hi": "गर्भाशय अंतःरोपण व ऋतुस्राव",
+    "info_en": "Embryo embeds in thick spongy uterine lining; if unfertilised, the lining sheds as menstruation.",
+    "info_hi": "भ्रूण गर्भाशय की मोटी परत में रोपित होता है; निषेचन न होने पर यह परत मासिक धर्म के रूप में निकल जाती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1170,
+    "anchor_y": 335,
+    "en": "Placenta Nutrition",
+    "h": 66,
+    "hi": "अपरा (प्लैसेंटा) पोषण",
+    "info_en": "Disc-shaped placenta transfers glucose and O₂ from mother to embryo and removes wastes.",
+    "info_hi": "अपरा भ्रूण को माँ के रक्त से ग्लूकोज़ व ऑक्सीजन पहुँचाती है तथा अपशिष्ट हटाती है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -5381,6 +7227,56 @@
     "y": 90
    }
   ],
+  "rx/focused_testable_question.webp": [
+   {
+    "anchor_x": 335,
+    "anchor_y": 355,
+    "en": "Short Length (L₁)",
+    "h": 66,
+    "hi": "छोटी लंबाई (L₁)",
+    "info_en": "Changing one measurable factor (pendulum length L) turns broad curiosity into a testable question.",
+    "info_hi": "केवल एक मापने योग्य चर (लंबाई L) चुनकर प्रश्न को परीक्षणीय बनाया जाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 545,
+    "anchor_y": 445,
+    "en": "Medium Length (L₂)",
+    "h": 66,
+    "hi": "मध्यम लंबाई (L₂)",
+    "info_en": "Identical brass bobs keep mass constant so only length L varies across trials.",
+    "info_hi": "गोलक का द्रव्यमान समान रखकर केवल डोरी की लंबाई बदली जाती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 755,
+    "anchor_y": 540,
+    "en": "Long Length (L₃)",
+    "h": 66,
+    "hi": "अधिक लंबाई (L₃)",
+    "info_en": "Quadrupling length L doubles oscillation period T (T = 2π√(L/g)).",
+    "info_hi": "लंबाई चार गुनी करने पर आवर्तकाल दोगुना हो जाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1120,
+    "anchor_y": 385,
+    "en": "Measured Response (T)",
+    "h": 66,
+    "hi": "मापित आवर्तकाल (T)",
+    "info_en": "Stopwatch records 20 oscillations to measure time period T with high repeatability.",
+    "info_hi": "विराम-घड़ी द्वारा दोलनों का समय मापकर स्पष्ट निष्कर्ष निकाला जाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/food_pyramid.webp": [
    {
     "anchor_x": 704,
@@ -5490,6 +7386,106 @@
     "info_hi": "साँप: “खाद्य जाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/forest_wildlife_conservation.webp": [
+   {
+    "anchor_x": 205,
+    "anchor_y": 395,
+    "en": "Transition Zone",
+    "h": 66,
+    "hi": "संक्रमण व सहभागिता क्षेत्र",
+    "info_en": "Outer zone supporting non-destructive livelihoods of forest-dependent local communities.",
+    "info_hi": "स्थानीय समुदायों के सतत और पर्यावरण-अनुकूल आजीविका उपयोग का बाहरी क्षेत्र।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 350,
+    "anchor_y": 395,
+    "en": "Buffer Zone",
+    "h": 66,
+    "hi": "मध्यवर्ती बफ़र क्षेत्र",
+    "info_en": "Surrounds the core for ecological monitoring, research and native sapling regeneration.",
+    "info_hi": "शोध, पारिस्थितिक शिक्षा और प्राकृतिक पुनर्जनन के लिए क्रोड के चारों ओर का क्षेत्र।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 510,
+    "anchor_y": 395,
+    "en": "Protected Core Zone",
+    "h": 66,
+    "hi": "संरक्षित क्रोड क्षेत्र",
+    "info_en": "Strictly protected wildlife habitat preserving genetic, species and ecosystem biodiversity.",
+    "info_hi": "मानवीय हस्तक्षेप रहित क्षेत्र जहाँ वन्यजीवों और जैव-विविधता का पूर्ण संरक्षण होता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1115,
+    "anchor_y": 380,
+    "en": "Community Stewardship",
+    "h": 66,
+    "hi": "सामुदायिक वन संरक्षण (चिपको)",
+    "info_en": "Movements like Chipko and Arabari sal-forest recovery show local participation is vital.",
+    "info_hi": "चिपको आंदोलन व अराबारी मॉडल सिद्ध करते हैं कि जन-सहभागिता से वन पुनर्जीवित होते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/formula_unit_mass.webp": [
+   {
+    "anchor_x": 380,
+    "anchor_y": 385,
+    "en": "3D Ionic Lattice",
+    "h": 66,
+    "hi": "त्रिविमीय आयनिक जालक",
+    "info_en": "Ionic solids form continuous 3D networks of alternating cations and anions rather than discrete molecules.",
+    "info_hi": "आयनिक यौगिक अलग-अलग अणुओं के बजाय धनायनों व ऋणायनों का सतत 3D क्रिस्टल जालक बनाते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 905,
+    "anchor_y": 310,
+    "en": "Na⁺ : Cl⁻ Formula Unit",
+    "h": 66,
+    "hi": "NaCl सूत्र इकाई (1 : 1)",
+    "info_en": "The simplest ratio of ions in sodium chloride is one Na⁺ (23 u) to one Cl⁻ (35.5 u).",
+    "info_hi": "सोडियम क्लोराइड में आयनों का सरलतम अनुपात 1 Na⁺ : 1 Cl⁻ इसकी सूत्र इकाई है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 980,
+    "anchor_y": 488,
+    "en": "CaCl₂ Mass = 111 u",
+    "h": 66,
+    "hi": "CaCl₂ इकाई द्रव्यमान = 111 u",
+    "info_en": "One Ca²⁺ (40 u) plus two Cl⁻ ions (2 × 35.5 u) equals 111 u.",
+    "info_hi": "एक कैल्सियम (40 u) और दो क्लोरीन (71 u) का कुल सूत्र इकाई द्रव्यमान = 111 u।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1120,
+    "anchor_y": 310,
+    "en": "NaCl Mass = 58.5 u",
+    "h": 66,
+    "hi": "NaCl इकाई द्रव्यमान = 58.5 u",
+    "info_en": "Formula unit mass sums atomic masses in the empirical unit: 23 + 35.5 = 58.5 u.",
+    "info_hi": "NaCl का सूत्र इकाई द्रव्यमान = 23 + 35.5 = 58.5 u।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -5617,6 +7613,56 @@
     "y": 14
    }
   ],
+  "rx/functional_groups_carbon.webp": [
+   {
+    "anchor_x": 245,
+    "anchor_y": 445,
+    "en": "Haloalkane (–Cl)",
+    "h": 66,
+    "hi": "हैलोऐल्केन (–Cl)",
+    "info_en": "A halogen heteroatom (Cl or Br) replaces one hydrogen on the hydrocarbon chain.",
+    "info_hi": "हाइड्रोकार्बन शृंखला के एक हाइड्रोजन को क्लोरीन या ब्रोमीन परमाणु विस्थापित करता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 580,
+    "anchor_y": 440,
+    "en": "Alcohol Group (–OH)",
+    "h": 66,
+    "hi": "ऐल्कोहॉल समूह (–OH)",
+    "info_en": "The hydroxyl group (–OH) makes ethanol polar, water-miscible and reactive toward sodium.",
+    "info_hi": "हाइड्रॉक्सिल समूह (–OH) यौगिक को जल में घुलनशील और विशिष्ट रासायनिक गुण देता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 905,
+    "anchor_y": 380,
+    "en": "Aldehyde Group (–CHO)",
+    "h": 66,
+    "hi": "ऐल्डिहाइड समूह (–CHO)",
+    "info_en": "Terminal carbonyl carbon bonded to both double-bonded oxygen (=O) and one hydrogen.",
+    "info_hi": "सिरे के कार्बन पर द्वि-बंधित ऑक्सीजन (=O) और एक हाइड्रोजन जुड़ा होता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1255,
+    "anchor_y": 425,
+    "en": "Carboxylic Acid (–COOH)",
+    "h": 66,
+    "hi": "कार्बोक्सिलिक अम्ल (–COOH)",
+    "info_en": "Combines carbonyl (>C=O) and hydroxyl (–OH) on one carbon, imparting weak acidic properties.",
+    "info_hi": "कार्बोनिल व हाइड्रॉक्सिल युक्त –COOH समूह कार्बनिक यौगिक को अम्लीय गुण प्रदान करता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/fungi_structure.webp": [
    {
     "anchor_x": 479,
@@ -5676,6 +7722,56 @@
     "info_hi": "मुकुलन यीस्ट कोशिकाएँ: “कवक (मशरूम, यीस्ट व फफूंद)” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/gametes_cycle_pregnancy.webp": [
+   {
+    "anchor_x": 215,
+    "anchor_y": 345,
+    "en": "Ovum & Sperm Gametes",
+    "h": 66,
+    "hi": "अंडाणु और शुक्राणु युग्मक",
+    "info_en": "Large nutrient-rich female ovum fuses with motile male sperm to restore diploid chromosome count.",
+    "info_hi": "अंडाणु और गतिशील शुक्राणु के निषेचन से द्विगुणित युग्मनज बनता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 710,
+    "anchor_y": 278,
+    "en": "Day-14 Ovulation",
+    "h": 66,
+    "hi": "14वें दिन अंडोत्सर्ग",
+    "info_en": "About mid-cycle (~day 14 of 28), the ovary releases a mature egg while uterine lining thickens.",
+    "info_hi": "लगभग 28 दिन के चक्र के मध्य में अंडाशय एक अंडाणु मुक्त करता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 760,
+    "anchor_y": 420,
+    "en": "Endometrial Lining",
+    "h": 66,
+    "hi": "गर्भाशय अंतःस्तर चक्र",
+    "info_en": "Spongy blood-rich uterine wall prepares to nourish an embryo, or sheds as menstruation if unfertilised.",
+    "info_hi": "गर्भाशय की रक्त-समृद्ध परत गर्भावस्था को सहारा देती है; निषेचन न होने पर ऋतुस्राव होता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1160,
+    "anchor_y": 390,
+    "en": "Embryo & Placenta",
+    "h": 66,
+    "hi": "भ्रूण, उल्ब व अपरा",
+    "info_en": "Fluid-filled amniotic sac cushions the foetus while the placenta exchanges oxygen, food and wastes.",
+    "info_hi": "उल्ब तरल भ्रूण की रक्षा करता है तथा अपरा पोषण व ऑक्सीजन प्रदान करती है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -5859,6 +7955,106 @@
     "y": 14
    }
   ],
+  "rx/heterotrophic_nutrition_modes.webp": [
+   {
+    "anchor_x": 240,
+    "anchor_y": 410,
+    "en": "Saprophytic Nutrition",
+    "h": 66,
+    "hi": "मृतजीवी पोषण (कवक)",
+    "info_en": "Fungi and moulds secrete digestive enzymes onto dead organic matter outside the body and absorb soluble nutrients.",
+    "info_hi": "कवक मृत कार्बनिक पदार्थ को शरीर के बाहर विघटित कर घुलित पोषक तत्व अवशोषित करते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 395,
+    "en": "Parasitic Nutrition",
+    "h": 66,
+    "hi": "परजीवी पोषण (अमरबेल)",
+    "info_en": "Cuscuta, ticks and tapeworms derive ready-made nutrition directly from a living host without killing it immediately.",
+    "info_hi": "अमरबेल जैसे परजीवी जीवित परपोषी पौधे या जंतु से बिना मारे अपना भोजन प्राप्त करते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1095,
+    "anchor_y": 405,
+    "en": "Holozoic Amoeba",
+    "h": 66,
+    "hi": "प्राणीसमभोजी पोषण (अमीबा)",
+    "info_en": "Organisms ingest solid complex food, digest it internally with enzymes, absorb nutrients and egest waste.",
+    "info_hi": "ठोस जटिल भोजन का अंतर्ग्रहण कर शरीर के भीतर पाचन व अवशोषण किया जाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1245,
+    "anchor_y": 395,
+    "en": "Pseudopodia & Food Vacuole",
+    "h": 66,
+    "hi": "कूटपाद व खाद्य रसधानी",
+    "info_en": "Finger-like pseudopodia surround the food particle and fuse to form a digestive food vacuole.",
+    "info_hi": "अमीबा अँगुली जैसे कूटपाद फैलाकर भोजन घेरता है और खाद्य रसधानी में पचाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/hiv_immunity_health.webp": [
+   {
+    "anchor_x": 320,
+    "anchor_y": 380,
+    "en": "HIV Retrovirus Structure",
+    "h": 66,
+    "hi": "HIV विषाणु संरचना",
+    "info_en": "Enveloped RNA virus carrying surface glycoproteins and reverse transcriptase inside a protein capsid.",
+    "info_hi": "लिपिड आवरण और प्रोटीन कैप्सिड के भीतर RNA रखने वाला रेट्रोवायरस।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 760,
+    "anchor_y": 385,
+    "en": "Helper T-Lymphocyte",
+    "h": 66,
+    "hi": "सहायक T-लसीकाणु (प्रतिरक्षा)",
+    "info_en": "HIV progressively depletes CD4⁺ immune T-cells, weakening defence against opportunistic infections.",
+    "info_hi": "HIV शरीर की प्रतिरक्षा करने वाली T-कोशिकाओं को कमजोर करता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1160,
+    "anchor_y": 350,
+    "en": "Screening & Safe Blood",
+    "h": 66,
+    "hi": "जाँच व सुरक्षित रक्त आधान",
+    "info_en": "Confidential blood testing, sterile needles and antenatal screening prevent transmission.",
+    "info_hi": "समय पर रक्त जाँच, विसंक्रमित सुइयाँ और प्रसवपूर्व देखभाल संक्रमण रोकते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1160,
+    "anchor_y": 485,
+    "en": "Women's Health & Dignity",
+    "h": 66,
+    "hi": "महिला स्वास्थ्य व जागरूकता",
+    "info_en": "Scientific awareness, nutrition, medical care and ending social stigma safeguard community health.",
+    "info_hi": "पोषण, चिकित्सकीय परामर्श और सामाजिक भेदभाव समाप्त करना सामुदायिक स्वास्थ्य की कुंजी है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/hookes_law_spring.webp": [
    {
     "anchor_x": 211,
@@ -5918,6 +8114,56 @@
     "info_hi": "प्रत्यास्थ स्थितिज ऊर्जा क्षेत्र: “हुक का नियम व कमानी ऊर्जा” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/hormonal_feedback_loop.webp": [
+   {
+    "anchor_x": 340,
+    "anchor_y": 252,
+    "en": "High Blood Sugar Stimulus",
+    "h": 66,
+    "hi": "उच्च रक्त शर्करा संकेत",
+    "info_en": "After a carbohydrate-rich meal, rising blood glucose is sensed directly by pancreatic islet cells.",
+    "info_hi": "भोजन के बाद रक्त में बढ़ता ग्लूकोज़ स्तर अग्न्याशय की कोशिकाओं द्वारा पहचाना जाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 368,
+    "en": "Negative Feedback Loop",
+    "h": 66,
+    "hi": "ऋणात्मक पुनर्निवेश नियंत्रण",
+    "info_en": "Once blood sugar falls to normal, feedback inhibits further insulin secretion automatically.",
+    "info_hi": "रक्त शर्करा सामान्य होते ही पुनर्निवेश तंत्र इंसुलिन का स्राव स्वतः घटा देता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1060,
+    "anchor_y": 252,
+    "en": "Pancreas Releases Insulin",
+    "h": 66,
+    "hi": "अग्न्याशय से इंसुलिन स्राव",
+    "info_en": "In response, the pancreas secretes more insulin hormone into the bloodstream.",
+    "info_hi": "उच्च शर्करा के प्रत्युत्तर में अग्न्याशय रक्त में इंसुलिन हार्मोन स्रावित करता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1060,
+    "anchor_y": 495,
+    "en": "Cellular Glucose Uptake",
+    "h": 66,
+    "hi": "कोशिकीय शर्करा अवशोषण",
+    "info_en": "Insulin stimulates liver and muscle cells to take up glucose and store it as glycogen.",
+    "info_hi": "इंसुलिन यकृत व पेशी कोशिकाओं को ग्लूकोज़ ग्रहण कर ग्लाइकोजन बनाने को प्रेरित करता है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -6737,6 +8983,106 @@
     "y": 14
    }
   ],
+  "rx/isotopes_and_isobars.webp": [
+   {
+    "anchor_x": 180,
+    "anchor_y": 390,
+    "en": "Protium (¹₁H)",
+    "h": 66,
+    "hi": "प्रोटियम (¹₁H)",
+    "info_en": "Most abundant hydrogen isotope with 1 proton and 0 neutrons (Z = 1, A = 1).",
+    "info_hi": "हाइड्रोजन का सबसे सामान्य समस्थानिक जिसमें 1 प्रोटॉन और 0 न्यूट्रॉन होते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 440,
+    "anchor_y": 390,
+    "en": "Deuterium (²₁H)",
+    "h": 66,
+    "hi": "ड्यूटीरियम (²₁H)",
+    "info_en": "Heavy hydrogen isotope with 1 proton and 1 neutron (Z = 1, A = 2); identical chemical behaviour.",
+    "info_hi": "समान परमाणु क्रमांक (Z=1) पर 1 न्यूट्रॉन होने से द्रव्यमान संख्या A=2 होती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 700,
+    "anchor_y": 390,
+    "en": "Tritium (³₁H)",
+    "h": 66,
+    "hi": "ट्रिटियम (³₁H)",
+    "info_en": "Radioactive hydrogen isotope containing 1 proton and 2 neutrons (Z = 1, A = 3).",
+    "info_hi": "1 प्रोटॉन और 2 न्यूट्रॉन वाला हाइड्रोजन का तीसरा समस्थानिक (A = 3)।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1135,
+    "anchor_y": 390,
+    "en": "Isobars (⁴⁰₁₈Ar & ⁴⁰₂₀Ca)",
+    "h": 66,
+    "hi": "समभारिक (⁴⁰Ar व ⁴⁰Ca)",
+    "info_en": "Atoms of different elements (Z = 18 vs Z = 20) that share the same mass number (A = 40).",
+    "info_hi": "भिन्न तत्वों के परमाणु जिनका परमाणु क्रमांक अलग परंतु द्रव्यमान संख्या समान (A = 40) होती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/iupac_carbon_naming.webp": [
+   {
+    "anchor_x": 180,
+    "anchor_y": 435,
+    "en": "Propane (–ane)",
+    "h": 66,
+    "hi": "प्रोपेन (–ऐन)",
+    "info_en": "Root 'prop-' counts 3 carbons; suffix '-ane' marks a saturated single-bonded alkane (C₃H₈).",
+    "info_hi": "मूल शब्द 'प्रोप-' 3 कार्बन गिनता है और प्रत्यय '-ऐन' एकल-बंध संतृप्त हाइड्रोकार्बन दर्शाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 520,
+    "anchor_y": 435,
+    "en": "Propene (–ene)",
+    "h": 66,
+    "hi": "प्रोपीन (–ईन)",
+    "info_en": "Replacing '-ane' with '-ene' denotes one carbon–carbon double bond (C₃H₆).",
+    "info_hi": "द्वि-बंध (C=C) उपस्थित होने पर नाम के अंत में '-ईन' प्रत्यय जुड़ता है (प्रोपीन, C₃H₆)।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 870,
+    "anchor_y": 435,
+    "en": "Propyne (–yne)",
+    "h": 66,
+    "hi": "प्रोपाइन (–आइन)",
+    "info_en": "Suffix '-yne' indicates a linear carbon–carbon triple bond (C₃H₄).",
+    "info_hi": "त्रि-बंध (C≡C) वाले तीन-कार्बन यौगिक में '-आइन' प्रत्यय लगकर प्रोपाइन (C₃H₄) बनता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1220,
+    "anchor_y": 380,
+    "en": "Propanone (–one)",
+    "h": 66,
+    "hi": "प्रोपेनोन (–ओन)",
+    "info_en": "Drop final '-e' before vowel suffix '-one' for an internal ketone carbonyl group (CH₃COCH₃).",
+    "info_hi": "कीटोन समूह (>C=O) के लिए अंतिम 'e' हटाकर '-ओन' जोड़ने से प्रोपेनोन बनता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/joule_heating.webp": [
    {
     "anchor_x": 352,
@@ -6809,6 +9155,56 @@
     "w": 420,
     "x": 974,
     "y": 90
+   }
+  ],
+  "rx/law_constant_proportion.webp": [
+   {
+    "anchor_x": 160,
+    "anchor_y": 370,
+    "en": "Independent of Source",
+    "h": 66,
+    "hi": "स्रोत से स्वतंत्र",
+    "info_en": "Whether water comes from rain, rivers or laboratory synthesis, its elemental ratio never varies.",
+    "info_hi": "वर्षा, नदी या प्रयोगशाला—किसी भी स्रोत से प्राप्त शुद्ध जल में तत्वों का अनुपात सदैव समान रहता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 510,
+    "anchor_y": 430,
+    "en": "Pure Compound (H₂O)",
+    "h": 66,
+    "hi": "शुद्ध यौगिक (H₂O)",
+    "info_en": "Proust's Law applies to every pure chemical compound: fixed elements in fixed proportion by mass.",
+    "info_hi": "प्राउस्ट के नियम के अनुसार किसी शुद्ध यौगिक में तत्व सदैव निश्चित द्रव्यमान अनुपात में होते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 872,
+    "anchor_y": 425,
+    "en": "Hydrogen Mass (1 Part)",
+    "h": 66,
+    "hi": "हाइड्रोजन भाग (1 ग्राम)",
+    "info_en": "Two H atoms contribute 2 × 1 u = 2 u, giving 1 part by mass when simplified.",
+    "info_hi": "दो हाइड्रोजन परमाणुओं का कुल द्रव्यमान 2 u होता है, जो अनुपात में 1 भाग बनता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1270,
+    "anchor_y": 418,
+    "en": "Oxygen Mass (8 Parts)",
+    "h": 66,
+    "hi": "ऑक्सीजन भाग (8 ग्राम)",
+    "info_en": "One O atom contributes 16 u, so 2 : 16 simplifies to an invariant 1 : 8 mass ratio.",
+    "info_hi": "एक ऑक्सीजन परमाणु (16 u) के कारण जल में H : O का द्रव्यमान अनुपात सदैव 1 : 8 रहता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
    }
   ],
   "rx/lens--1.webp": [
@@ -7051,6 +9447,156 @@
     "y": 14
    }
   ],
+  "rx/major_animal_divisions.webp": [
+   {
+    "anchor_x": 250,
+    "anchor_y": 390,
+    "en": "Porifera & Cnidaria",
+    "h": 66,
+    "hi": "पोरिफेरा व सीलेंटरेटा",
+    "info_en": "Sponges have pore-bearing cellular organisation; Hydra/corals show radial symmetry and two germ layers.",
+    "info_hi": "स्पंज में छिद्रयुक्त कोशिकीय स्तर तथा हाइड्रा में अरीय सममिति व द्विस्तरीय शरीर होता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 591,
+    "anchor_y": 390,
+    "en": "Annelida (True Coelom)",
+    "h": 66,
+    "hi": "ऐनेलिडा (खंडयुक्त देहगुहा)",
+    "info_en": "Bilateral triploblastic worms with true body cavity (coelom) and metameric ring segmentation.",
+    "info_hi": "केंचुए जैसे द्विपार्श्व सममित जंतु जिनमें वास्तविक देहगुहा और खंडयुक्त शरीर पाया जाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 816,
+    "anchor_y": 380,
+    "en": "Arthropoda (Largest Phylum)",
+    "h": 66,
+    "hi": "आर्थ्रोपोडा (जुड़े हुए पैर)",
+    "info_en": "Largest animal phylum featuring chitinous exoskeleton, open circulation and jointed appendages.",
+    "info_hi": "जुड़े हुए उपांगों और काइटिन बाह्यकंकाल वाला प्राणी जगत का सबसे बड़ा संघ।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1267,
+    "anchor_y": 380,
+    "en": "Chordata (Notochord)",
+    "h": 66,
+    "hi": "कॉर्डेटा (पृष्ठरज्जु संघ)",
+    "info_en": "Defined by dorsal supporting notochord, dorsal hollow nerve cord and pharyngeal gill slits.",
+    "info_hi": "पृष्ठरज्जु (नोटोकॉर्ड), खोखली तंत्रिका रज्जु और क्लोम दरारों की उपस्थिति कॉर्डेटा की पहचान है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/major_plant_divisions.webp": [
+   {
+    "anchor_x": 155,
+    "anchor_y": 460,
+    "en": "Thallophyta & Bryophyta",
+    "h": 66,
+    "hi": "थैलोफ़ाइटा व ब्रायोफ़ाइटा",
+    "info_en": "Algae lack differentiated organs; mosses have stem/leaf-like parts without true vascular tissue.",
+    "info_hi": "शैवाल में जड़-तना विभेदित नहीं होते; ब्रायोफ़ाइटा (मॉस) पादप जगत के उभयचर कहलाते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 420,
+    "en": "Pteridophyta (Ferns)",
+    "h": 66,
+    "hi": "टेरिडोफ़ाइटा (संवहनी पादप)",
+    "info_en": "First land plants with true roots, stems, leaves and vascular xylem/phloem, reproducing via spores.",
+    "info_hi": "वास्तविक जड़, तना, पत्ती तथा जाइलम-फ्लोएम संवहन ऊतक वाले प्रथम बीजरहित पादप।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 978,
+    "anchor_y": 390,
+    "en": "Gymnosperms (Naked Seeds)",
+    "h": 66,
+    "hi": "जिम्नोस्पर्म (अनावृतबीजी)",
+    "info_en": "Evergreen woody pines and cycads bear uncovered seeds on cones without flowers or fruits.",
+    "info_hi": "चीड़ व साइकस जैसे पौधों में बीज फल के आवरण के बिना नग्न रूप से शंकुओं पर लगते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1253,
+    "anchor_y": 330,
+    "en": "Angiosperms (Flowering)",
+    "h": 66,
+    "hi": "एंजियोस्पर्म (आवृतबीजी)",
+    "info_en": "Seeds develop inside ovaries that ripen into fruits; includes monocots and dicots.",
+    "info_hi": "पुष्पी पादपों में बीज फलों के भीतर सुरक्षित रहते हैं (एकबीजपत्री व द्विबीजपत्री)।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/mass_by_mass_percent.webp": [
+   {
+    "anchor_x": 240,
+    "anchor_y": 460,
+    "en": "Solute Mass (15 g)",
+    "h": 66,
+    "hi": "विलेय का द्रव्यमान (15 g)",
+    "info_en": "Measured on an analytical balance: m_solute = 15.0 g.",
+    "info_hi": "तुला पर मापा गया घुले पदार्थ (विलेय) का द्रव्यमान = 15.0 ग्राम।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 595,
+    "anchor_y": 460,
+    "en": "Solvent Mass (135 g)",
+    "h": 66,
+    "hi": "विलायक का द्रव्यमान (135 g)",
+    "info_en": "Water mass added to dissolve the solute; total solution mass = 15 + 135 = 150 g.",
+    "info_hi": "विलायक जल का द्रव्यमान 135 g; कुल विलयन द्रव्यमान = 15 + 135 = 150 g।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1025,
+    "anchor_y": 450,
+    "en": "Total Solution (150 g)",
+    "h": 66,
+    "hi": "कुल विलयन (150 g)",
+    "info_en": "Denominator is always total solution mass (solute + solvent), never solvent alone.",
+    "info_hi": "सूत्र के हर में सदैव कुल विलयन का द्रव्यमान (विलेय + विलायक) रखा जाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1245,
+    "anchor_y": 555,
+    "en": "10% Mass Percentage",
+    "h": 66,
+    "hi": "10% द्रव्यमान प्रतिशत",
+    "info_en": "Mass % = (15 g / 150 g) × 100 = 10% w/w, independent of temperature.",
+    "info_hi": "द्रव्यमान प्रतिशत = (15 / 150) × 100 = 10%, जो ताप बदलने पर नहीं बदलता।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/measurement_si_units.webp": [
    {
     "anchor_x": 282,
@@ -7110,6 +9656,156 @@
     "info_hi": "मापक सिलेंडर व थर्मामीटर: “मापन व SI मात्रक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/mechanical_power_watt.webp": [
+   {
+    "anchor_x": 370,
+    "anchor_y": 315,
+    "en": "High Power Lift (2 s)",
+    "h": 66,
+    "hi": "अधिक शक्ति (कम समय = 2 s)",
+    "info_en": "Doing the same work W = mgh in shorter time t delivers much greater power P = W/t.",
+    "info_hi": "समान कार्य (mgh) कम समय में करने पर शक्ति (P = W/t) अधिक होती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 495,
+    "anchor_y": 480,
+    "en": "Wattmeter (1 W = 1 J/s)",
+    "h": 66,
+    "hi": "वाट मात्रक (1 W = 1 J/s)",
+    "info_en": "SI unit of power is the Watt (James Watt): 1 W = 1 Joule per second; 1 kW = 1000 W.",
+    "info_hi": "शक्ति का SI मात्रक वाट है: 1 वाट = 1 जूल प्रति सेकंड (1 kW = 1000 W)।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1038,
+    "anchor_y": 475,
+    "en": "Equal Work, Longer Time",
+    "h": 66,
+    "hi": "समान कार्य, अधिक समय (8 s)",
+    "info_en": "Lifting the same 50 kg load more slowly requires the same energy but only one-fourth the power.",
+    "info_hi": "उसी 50 kg भार को 4 गुना समय में उठाने पर ऊर्जा समान लगती है पर शक्ति चौथाई रह जाती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1163,
+    "anchor_y": 480,
+    "en": "Average Power (W_total / t)",
+    "h": 66,
+    "hi": "औसत शक्ति (कुल ऊर्जा / समय)",
+    "info_en": "Average power equals total energy transferred divided by total time taken.",
+    "info_hi": "कुल उपभुक्त ऊर्जा और कुल लिए गए समय के अनुपात को औसत शक्ति कहते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/mendeleev_periodic_table.webp": [
+   {
+    "anchor_x": 295,
+    "anchor_y": 200,
+    "en": "Oxide & Hydride Formulae",
+    "h": 66,
+    "hi": "ऑक्साइड व हाइड्राइड सूत्र",
+    "info_en": "Mendeleev grouped elements by general oxide (R₂O to RO₄) and hydride formulae as key chemical criteria.",
+    "info_hi": "मेंडेलीफ़ ने तत्वों के ऑक्साइड व हाइड्राइड सूत्रों को वर्गीकरण का मुख्य आधार बनाया।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 465,
+    "anchor_y": 515,
+    "en": "Eka-Aluminium Gap (Ga)",
+    "h": 66,
+    "hi": "एका-एलुमिनियम रिक्त स्थान",
+    "info_en": "Boldly left an empty slot below Al and accurately predicted Gallium's atomic mass and density.",
+    "info_hi": "मेंडेलीफ़ ने अज्ञात तत्वों के लिए रिक्त स्थान छोड़े; एका-एलुमिनियम बाद में गैलियम (Ga) निकला।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 625,
+    "anchor_y": 515,
+    "en": "Eka-Silicon Gap (Ge)",
+    "h": 66,
+    "hi": "एका-सिलिकॉन रिक्त स्थान",
+    "info_en": "Predicted Eka-silicon below Si, later discovered as Germanium with matching properties.",
+    "info_hi": "सिलिकॉन के नीचे छोड़ा गया रिक्त स्थान बाद में जर्मेनियम (Ge) की खोज से सत्यापित हुआ।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1260,
+    "anchor_y": 515,
+    "en": "Group VIII & Mass Order",
+    "h": 66,
+    "hi": "समूह VIII व द्रव्यमान क्रम",
+    "info_en": "Placed chemically similar transition triads together, occasionally inverting strict mass order (Co before Ni).",
+    "info_hi": "समान रासायनिक गुणों को प्राथमिकता देते हुए कोबाल्ट को निकेल से पहले रखा गया।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/meristematic_tissues.webp": [
+   {
+    "anchor_x": 330,
+    "anchor_y": 610,
+    "en": "Lateral Meristem",
+    "h": 66,
+    "hi": "पार्श्व विभज्योतक",
+    "info_en": "Cylindrical cambium rings divide radially to increase the girth (secondary thickness) of stems and roots.",
+    "info_hi": "कैम्बियम वलय अरीय विभाजन द्वारा तने और जड़ की मोटाई (परिधि) बढ़ाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 780,
+    "anchor_y": 515,
+    "en": "Intercalary Meristem",
+    "h": 66,
+    "hi": "अंतर्वेशी विभज्योतक",
+    "info_en": "Located near nodes and leaf bases, intercalary meristem elongates internodes rapidly in grasses and shoots.",
+    "info_hi": "पर्वसंधि और पत्ती के आधार पर स्थित अंतर्वेशी विभज्योतक पर्वों की लंबाई बढ़ाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1065,
+    "anchor_y": 235,
+    "en": "Apical Meristem",
+    "h": 66,
+    "hi": "शीर्षस्थ विभज्योतक",
+    "info_en": "Actively dividing cells at root and shoot tips drive primary growth in plant length.",
+    "info_hi": "प्ररोह और जड़ के शीर्ष पर निरंतर विभाजित होकर पौधे की प्राथमिक लंबाई बढ़ाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1175,
+    "anchor_y": 615,
+    "en": "Dividing Cells",
+    "h": 66,
+    "hi": "विभाजनशील कोशिकाएँ",
+    "info_en": "Meristematic cells have thin cellulose walls, dense cytoplasm, prominent nuclei and lack vacuoles.",
+    "info_hi": "इन कोशिकाओं में पतली सेलुलोज़ भित्ति, सघन कोशिकाद्रव्य व बड़ा केंद्रक होता है तथा रसधानी नहीं होती।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -7237,6 +9933,56 @@
     "y": 14
    }
   ],
+  "rx/methane_chlorination_uv.webp": [
+   {
+    "anchor_x": 210,
+    "anchor_y": 370,
+    "en": "Methane (CH₄)",
+    "h": 66,
+    "hi": "मेथेन (CH₄)",
+    "info_en": "Saturated alkane with four strong C–H single bonds, unreactive in the dark.",
+    "info_hi": "चार एकल C–H बंधों वाला संतृप्त हाइड्रोकार्बन जो अँधेरे में अक्रिय रहता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 590,
+    "anchor_y": 165,
+    "en": "Sunlight Photons (hν)",
+    "h": 66,
+    "hi": "सूर्यप्रकाश ऊर्जा (hν)",
+    "info_en": "Ultraviolet light splits Cl₂ molecules to initiate rapid free-radical substitution.",
+    "info_hi": "सूर्य के प्रकाश की उपस्थिति में क्लोरीन सक्रिय होकर तीव्र प्रतिस्थापन अभिक्रिया शुरू करती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 975,
+    "anchor_y": 390,
+    "en": "Chloromethane (CH₃Cl)",
+    "h": 66,
+    "hi": "क्लोरोमेथेन (CH₃Cl)",
+    "info_en": "One chlorine atom substitutes one hydrogen atom on carbon; further steps yield CH₂Cl₂, CHCl₃ and CCl₄.",
+    "info_hi": "क्लोरीन परमाणु एक-एक कर हाइड्रोजन को प्रतिस्थापित करके CH₃Cl, CH₂Cl₂, CHCl₃ व CCl₄ बनाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1230,
+    "anchor_y": 440,
+    "en": "Hydrogen Chloride (HCl)",
+    "h": 66,
+    "hi": "हाइड्रोजन क्लोराइड (HCl)",
+    "info_en": "The displaced hydrogen combines with the second chlorine atom to form HCl by-product.",
+    "info_hi": "हटाया गया हाइड्रोजन परमाणु दूसरे क्लोरीन के साथ मिलकर सह-उत्पाद HCl बनाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/micelle.webp": [
    {
     "anchor_x": 211,
@@ -7358,6 +10104,156 @@
     "info_hi": "नैनो-स्तरीय विषाणु प्रतिबिंब: “विभेदन व इलेक्ट्रॉन सूक्ष्मदर्शी” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/mirror_formula_magnification.webp": [
+   {
+    "anchor_x": 285,
+    "anchor_y": 515,
+    "en": "Real Inverted Image (h′)",
+    "h": 66,
+    "hi": "वास्तविक उल्टा प्रतिबिंब",
+    "info_en": "Reflected rays converge at v = −37.5 cm with negative magnification m = −1.5 (enlarged & inverted).",
+    "info_hi": "परावर्तित किरणें v = −37.5 cm पर वास्तव में मिलती हैं; ऋणात्मक आवर्धन उल्टा प्रतिबिंब दर्शाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 560,
+    "anchor_y": 310,
+    "en": "Object Distance (u < 0)",
+    "h": 66,
+    "hi": "बिंब दूरी (u < 0)",
+    "info_en": "Placed to the left of Pole P, object distance u is negative and upright height h is positive.",
+    "info_hi": "ध्रुव P के बाईं ओर रखे सीधे बिंब की दूरी u ऋणात्मक तथा ऊँचाई h धनात्मक होती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 780,
+    "anchor_y": 380,
+    "en": "Principal Focus (f < 0)",
+    "h": 66,
+    "hi": "मुख्य फोकस (f < 0)",
+    "info_en": "A concave mirror's focus F lies in front of the mirror, so f is negative under the Cartesian convention.",
+    "info_hi": "अवतल दर्पण का मुख्य फोकस दर्पण के सामने बाईं ओर होता है, अतः f ऋणात्मक होता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1110,
+    "anchor_y": 380,
+    "en": "Pole Origin P (0, 0)",
+    "h": 66,
+    "hi": "ध्रुव मूलबिंदु P (0, 0)",
+    "info_en": "All horizontal distances u, v and f are measured from the mirror's pole P along the principal axis.",
+    "info_hi": "नई कार्तीय चिह्न परिपाटी में सभी दूरियाँ दर्पण के ध्रुव P से मुख्य अक्ष के अनुदिश मापी जाती हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/modern_periodic_law.webp": [
+   {
+    "anchor_x": 275,
+    "anchor_y": 370,
+    "en": "Moseley's X-Ray Law",
+    "h": 66,
+    "hi": "मोज़ले का आधुनिक नियम",
+    "info_en": "Henry Moseley showed √ν varies linearly with atomic number Z, proving Z is more fundamental than mass.",
+    "info_hi": "हेनरी मोज़ले ने सिद्ध किया कि परमाणु द्रव्यमान की तुलना में परमाणु क्रमांक (Z) अधिक मौलिक गुण है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 565,
+    "anchor_y": 360,
+    "en": "Groups 1–2 (s-Block)",
+    "h": 66,
+    "hi": "समूह 1–2 (संयोजी इलेक्ट्रॉन)",
+    "info_en": "Elements in the same vertical group have identical valence electron configurations and similar chemistry.",
+    "info_hi": "एक ही ऊर्ध्वाधर समूह के तत्वों में संयोजी इलेक्ट्रॉनों की संख्या समान होती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 875,
+    "anchor_y": 410,
+    "en": "7 Horizontal Periods",
+    "h": 66,
+    "hi": "7 क्षैतिज आवर्त (कोश संख्या)",
+    "info_en": "Each new period starts filling a new principal electron shell (K, L, M, N…); Z rises by +1 per step.",
+    "info_hi": "प्रत्येक नया आवर्त एक नए इलेक्ट्रॉन कोश के भरने को दर्शाता है तथा Z एक-एक कर बढ़ता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1185,
+    "anchor_y": 360,
+    "en": "Groups 13–18 & f-Block",
+    "h": 66,
+    "hi": "समूह 13–18 व f-ब्लॉक",
+    "info_en": "18 vertical columns and 7 periods cleanly resolve isotope placement and Co/Ni mass anomalies.",
+    "info_hi": "आधुनिक आवर्त सारणी के 18 समूह व 7 आवर्त समस्थानिकों की स्थिति स्वतः स्पष्ट कर देते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/molecular_mass_u.webp": [
+   {
+    "anchor_x": 360,
+    "anchor_y": 325,
+    "en": "Water Molecule (18 u)",
+    "h": 66,
+    "hi": "जल अणु (18 u)",
+    "info_en": "Sum of two hydrogen atoms (2 × 1 u) and one oxygen atom (16 u) equals 18 unified mass units.",
+    "info_hi": "दो हाइड्रोजन (2 × 1 u) और एक ऑक्सीजन (16 u) का योग = 18 u अणु द्रव्यमान देता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 360,
+    "anchor_y": 505,
+    "en": "Unified Atomic Mass (u)",
+    "h": 66,
+    "hi": "एकीकृत परमाणु द्रव्यमान (u)",
+    "info_en": "1 u equals exactly 1/12th the mass of one Carbon-12 atom.",
+    "info_hi": "1 u कार्बन-12 के एक परमाणु के द्रव्यमान के 1/12वें भाग के बराबर होता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1040,
+    "anchor_y": 345,
+    "en": "Nitric Acid (HNO₃)",
+    "h": 66,
+    "hi": "नाइट्रिक अम्ल (HNO₃)",
+    "info_en": "Contains 1 H atom (1 u), 1 N atom (14 u) and 3 O atoms (3 × 16 = 48 u).",
+    "info_hi": "एक HNO₃ अणु में 1 हाइड्रोजन, 1 नाइट्रोजन और 3 ऑक्सीजन परमाणु होते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1095,
+    "anchor_y": 505,
+    "en": "Additive Mass (63 u)",
+    "h": 66,
+    "hi": "कुल अणु द्रव्यमान (63 u)",
+    "info_en": "Summing all constituent atomic masses gives 1 + 14 + 48 = 63 u.",
+    "info_hi": "सभी संघटक परमाणुओं के द्रव्यमान जोड़ने पर 1 + 14 + 48 = 63 u प्राप्त होता है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -7823,6 +10719,56 @@
     "y": 14
    }
   ],
+  "rx/need_for_classification.webp": [
+   {
+    "anchor_x": 210,
+    "anchor_y": 380,
+    "en": "Millions of Species",
+    "h": 66,
+    "hi": "विशाल जैव-विविधता का संगठन",
+    "info_en": "Grouping organisms by shared fundamental traits makes studying millions of species systematic.",
+    "info_hi": "लाखों जीवों का एक-एक कर अध्ययन असंभव है; वर्गीकरण उन्हें समान गुणों वाले समूहों में बाँटता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 560,
+    "anchor_y": 245,
+    "en": "1. Nuclear Structure",
+    "h": 66,
+    "hi": "1. केंद्रक की उपस्थिति",
+    "info_en": "First major split separates prokaryotic cells without a defined nucleus from nucleated eukaryotes.",
+    "info_hi": "पहला मुख्य आधार सुस्पष्ट केंद्रक का न होना (प्रोकैरियोट) या होना (यूकैरियोट) है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 930,
+    "anchor_y": 365,
+    "en": "2. Cellularity",
+    "h": 66,
+    "hi": "2. एककोशिकीय बनाम बहुकोशिकीय",
+    "info_en": "Multicellularity introduces division of labour among tissues and organs.",
+    "info_hi": "बहुकोशिकीय जीवों में श्रम-विभाजन के कारण ऊतक व अंग विकसित होते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1235,
+    "anchor_y": 445,
+    "en": "3. Mode of Nutrition",
+    "h": 66,
+    "hi": "3. कोशिका भित्ति व पोषण विधि",
+    "info_en": "Photosynthetic autotrophs (Plantae) separate from absorptive Fungi and ingestive Animalia.",
+    "info_hi": "प्रकाश-संश्लेषी पादप, मृतजीवी कवक तथा भित्ति-रहित जंतु पोषण के आधार पर अलग होते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/nervous_system--1.webp": [
    {
     "anchor_x": 517,
@@ -8235,6 +11181,56 @@
     "y": 14
    }
   ],
+  "rx/newlands_octaves.webp": [
+   {
+    "anchor_x": 200,
+    "anchor_y": 210,
+    "en": "Seven Musical Notes",
+    "h": 66,
+    "hi": "संगीत के सात सुर (सा–नि)",
+    "info_en": "Newlands compared periodicity of elements to musical octaves where the 8th note repeats the 1st.",
+    "info_hi": "न्यूलैंड ने तत्वों की आवर्तिता की तुलना संगीत के सप्तक से की जहाँ आठवाँ सुर पहले सुर जैसा होता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 368,
+    "anchor_y": 390,
+    "en": "8th Element: Li → Na → K",
+    "h": 66,
+    "hi": "आठवाँ तत्व: Li → Na → K",
+    "info_en": "Starting from Lithium, the eighth element is Sodium and the next eighth is Potassium with similar properties.",
+    "info_hi": "लिथियम से गिनने पर आठवाँ तत्व सोडियम और अगला पोटैशियम समान गुण दिखाते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 536,
+    "anchor_y": 500,
+    "en": "Calcium Limit (Ca)",
+    "h": 66,
+    "hi": "कैल्सियम तक सीमा (Ca)",
+    "info_en": "Beryllium, Magnesium and Calcium align cleanly, but the octave pattern breaks down beyond Calcium.",
+    "info_hi": "अष्टक का यह नियम केवल हल्के तत्वों (कैल्सियम तक) पर ही सटीक लागू हो सका।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1040,
+    "anchor_y": 500,
+    "en": "Heavy Metal Breakdown",
+    "h": 66,
+    "hi": "भारी धातुओं में अपवाद",
+    "info_en": "Heavier transition metals like Fe were placed far from similar Co/Ni or forced into unlike columns.",
+    "info_hi": "कैल्सियम के बाद भारी तत्वों (जैसे Cr, Ti, Fe) के गुण आठवें तत्व से मेल नहीं खाते थे।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/newton_laws--1.webp": [
    {
     "anchor_x": 704,
@@ -8583,6 +11579,56 @@
     "w": 337,
     "x": 1055,
     "y": 90
+   }
+  ],
+  "rx/periodic_table_trends.webp": [
+   {
+    "anchor_x": 260,
+    "anchor_y": 492,
+    "en": "Radius ↑ Down a Group",
+    "h": 66,
+    "hi": "समूह में त्रिज्या वृद्धि ↑",
+    "info_en": "New electron shells are added down a group (Li → Na → K), increasing atomic size despite higher nuclear charge.",
+    "info_hi": "समूह में ऊपर से नीचे जाने पर नए इलेक्ट्रॉन कोश जुड़ते हैं, जिससे परमाणु आकार बढ़ता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 555,
+    "anchor_y": 268,
+    "en": "Radius ↓ Across Period",
+    "h": 66,
+    "hi": "आवर्त में त्रिज्या में कमी",
+    "info_en": "Increasing nuclear charge pulls same-shell electrons closer from Li to F, shrinking atomic radius.",
+    "info_hi": "आवर्त में बाएँ से दाएँ नाभिकीय आवेश बढ़ने से इलेक्ट्रॉन पास खिंचते हैं और त्रिज्या घटती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 655,
+    "anchor_y": 475,
+    "en": "Metallic Character",
+    "h": 66,
+    "hi": "धात्विक गुण (बाएँ अधिक)",
+    "info_en": "Larger atoms on the left/bottom lose valence electrons easily, showing strong metallic character.",
+    "info_hi": "बाएँ और नीचे के बड़े परमाणु आसानी से इलेक्ट्रॉन त्यागकर प्रबल धात्विक गुण दिखाते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1070,
+    "anchor_y": 448,
+    "en": "Metalloids & Non-Metals",
+    "h": 66,
+    "hi": "उपधातु सीमा व अधातु",
+    "info_en": "A zig-zag metalloid line (B, Si, Ge, As) separates metals from electron-gaining non-metals on the right.",
+    "info_hi": "टेढ़ी-मेढ़ी उपधातु रेखा (B, Si, Ge) धातुओं को दाईं ओर के अधातुओं से अलग करती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
    }
   ],
   "rx/ph--1.webp": [
@@ -9003,6 +12049,56 @@
     "y": 90
    }
   ],
+  "rx/phloem_translocation.webp": [
+   {
+    "anchor_x": 165,
+    "anchor_y": 460,
+    "en": "Phloem Parenchyma",
+    "h": 66,
+    "hi": "फ्लोएम मृदुतक",
+    "info_en": "Living thin-walled parenchyma cells alongside sieve tubes store starch, radial solutes and organic compounds.",
+    "info_hi": "चालनी नलिकाओं के पास स्थित जीवित मृदुतक कोशिकाएँ स्टार्च और कार्बनिक भोज्य पदार्थ संचित करती हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 525,
+    "anchor_y": 435,
+    "en": "Sieve Tube & Plate",
+    "h": 66,
+    "hi": "चालनी नलिका व पट्टिका",
+    "info_en": "Tubular living elements joined end-to-end across perforated sieve plates translocate sucrose both upward and downward.",
+    "info_hi": "छिद्रित चालनी पट्टिकाओं से जुड़ी नलिकाएँ पत्तियों से बने शर्करा भोजन को ऊपर व नीचे ले जाती हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 875,
+    "anchor_y": 470,
+    "en": "Companion Cell",
+    "h": 66,
+    "hi": "सहचर कोशिका",
+    "info_en": "Nucleated mitochondria-rich cell linked via plasmodesmata that supplies ATP to load sugars into the sieve tube.",
+    "info_hi": "केंद्रक व सूत्रकणिका से युक्त सहचर कोशिका ATP ऊर्जा देकर चालनी नलिका में शर्करा परिवहन नियंत्रित करती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1215,
+    "anchor_y": 455,
+    "en": "Phloem Fibres",
+    "h": 66,
+    "hi": "फ्लोएम रेशे",
+    "info_en": "Thick-walled dead sclerenchymatous bast fibres give tensile mechanical strength to the vascular bundle.",
+    "info_hi": "मोटी भित्ति वाले मृत दृढ़ोतकी फ्लोएम रेशे संवहन पूल को यांत्रिक दृढ़ता प्रदान करते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/photosynthesis.webp": [
    {
     "anchor_x": 282,
@@ -9263,6 +12359,56 @@
     "y": 14
    }
   ],
+  "rx/positive_negative_zero_work.webp": [
+   {
+    "anchor_x": 250,
+    "anchor_y": 480,
+    "en": "Positive Work (θ = 0°)",
+    "h": 66,
+    "hi": "धनात्मक कार्य (+W)",
+    "info_en": "When force acts in the direction of displacement (cos 0° = +1), W = +F·s increases speed.",
+    "info_hi": "जब बल विस्थापन की दिशा में लगता है, तब किया गया कार्य धनात्मक (+Fs) होता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 390,
+    "en": "Displacement Vector (s)",
+    "h": 66,
+    "hi": "विस्थापन सदिश (s)",
+    "info_en": "In all three cases the cart moves horizontally rightward through displacement s.",
+    "info_hi": "तीनों स्थितियों में वस्तु का विस्थापन (s) क्षैतिज रूप से दाईं ओर है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 480,
+    "en": "Negative Work (θ = 180°)",
+    "h": 66,
+    "hi": "ऋणात्मक कार्य (−W)",
+    "info_en": "Retarding friction opposes motion (cos 180° = −1), doing negative work W = −f·s.",
+    "info_hi": "गति के विपरीत लगने वाला घर्षण बल ऋणात्मक कार्य (−fs) करता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1158,
+    "anchor_y": 430,
+    "en": "Zero Work (θ = 90°)",
+    "h": 66,
+    "hi": "शून्य कार्य (W = 0)",
+    "info_en": "Upward lift/normal force perpendicular to horizontal displacement does zero work (cos 90° = 0).",
+    "info_hi": "विस्थापन के लंबवत (90°) बल द्वारा किया गया कार्य शून्य होता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/prevent_corrosion.webp": [
    {
     "anchor_x": 225,
@@ -9372,6 +12518,56 @@
     "info_hi": "ऊपर त्वरित लिफ्ट: “छद्म बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/rainwater_harvesting_watershed.webp": [
+   {
+    "anchor_x": 265,
+    "anchor_y": 265,
+    "en": "Rooftop Catchment",
+    "h": 66,
+    "hi": "छत वर्षा-जल संग्रहण",
+    "info_en": "Clean roof runoff is channelled via pipes instead of flowing away into drains.",
+    "info_hi": "छत पर गिरने वाले वर्षा जल को पाइपों द्वारा एकत्र कर सीधे पुनर्भरण गड्ढे में भेजा जाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 460,
+    "anchor_y": 445,
+    "en": "Sand–Gravel Filter Pit",
+    "h": 66,
+    "hi": "रेत-बजरी छनन गड्ढा",
+    "info_en": "Removes silt and debris before recharging underground wells and borewells.",
+    "info_hi": "जल को भूमिगत जलस्तर में भेजने से पहले रेत और बजरी की परतें अशुद्धियाँ छानती हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 910,
+    "anchor_y": 565,
+    "en": "Underground Aquifer",
+    "h": 66,
+    "hi": "भू-जल स्तर पुनर्भरण",
+    "info_en": "Stored underground water never evaporates, does not breed mosquitoes and moisturises vegetation.",
+    "info_hi": "भूमिगत संचित जल वाष्पित नहीं होता, मच्छर नहीं पनपते और बड़े क्षेत्र में नमी बनी रहती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1090,
+    "anchor_y": 375,
+    "en": "Watershed Check Dam",
+    "h": 66,
+    "hi": "चेक डैम / खादिन बंध",
+    "info_en": "Earthen or stone bunds slow runoff, prevent soil erosion and give water time to percolate.",
+    "info_hi": "छोटे रोक-बाँध व खादिन जल-प्रवाह धीमा कर मृदा अपरदन रोकते हैं और रिसाव बढ़ाते हैं।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -10199,6 +13395,56 @@
     "y": 90
    }
   ],
+  "rx/right_hand_thumb_rule.webp": [
+   {
+    "anchor_x": 650,
+    "anchor_y": 300,
+    "en": "Upward Thumb = Current (I)",
+    "h": 66,
+    "hi": "अँगूठा = विद्युत धारा (I)",
+    "info_en": "Point the thumb of your right hand in the direction of conventional electric current I.",
+    "info_hi": "दाहिने हाथ का सीधा अँगूठा चालक में प्रवाहित विद्युत धारा (I) की दिशा दर्शाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 175,
+    "en": "Current-Carrying Wire",
+    "h": 66,
+    "hi": "धारावाही सीधा चालक",
+    "info_en": "Reversing current direction flips the thumb downward and reverses the circular magnetic field.",
+    "info_hi": "धारा की दिशा उलटने पर अँगूठा नीचे हो जाता है और चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 715,
+    "anchor_y": 405,
+    "en": "Curled Fingers (Right Hand)",
+    "h": 66,
+    "hi": "मुड़ी उँगलियाँ (दाहिना हाथ)",
+    "info_en": "Fingers wrapped around the conductor trace the sense of the circular magnetic field lines.",
+    "info_hi": "चालक के चारों ओर लिपटी उँगलियाँ चुम्बकीय क्षेत्र रेखाओं के घुमाव की दिशा बताती हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 960,
+    "anchor_y": 465,
+    "en": "Circular Field Lines (B)",
+    "h": 66,
+    "hi": "वृत्ताकार चुम्बकीय क्षेत्र",
+    "info_en": "Viewed from above an upward current, magnetic field B circulates anticlockwise.",
+    "info_hi": "ऊपर की ओर जाती धारा के चारों ओर चुम्बकीय क्षेत्र रेखाएँ वामावर्त वृत्त बनाती हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/rutherford_vs_bohr.webp": [
    {
     "anchor_x": 204,
@@ -10384,6 +13630,156 @@
     "info_hi": "प्रक्षेपण पर्दा: “प्रकाश प्रकीर्णन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।",
     "w": 268,
     "x": 1126,
+    "y": 14
+   }
+  ],
+  "rx/science_math_tech_society.webp": [
+   {
+    "anchor_x": 260,
+    "anchor_y": 380,
+    "en": "Mathematical Laws",
+    "h": 66,
+    "hi": "गणितीय सूत्र व नियम",
+    "info_en": "Mathematics expresses physical relationships precisely so outcomes can be calculated reliably.",
+    "info_hi": "गणित प्राकृतिक नियमों को सटीक समीकरणों में व्यक्त कर पूर्वानुमान संभव बनाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 375,
+    "en": "Technological Devices",
+    "h": 66,
+    "hi": "तकनीकी यंत्र व सौर पैनल",
+    "info_en": "Scientific principles enable solar cells, sensors, vaccines and communication networks.",
+    "info_hi": "वैज्ञानिक सिद्धांतों के अनुप्रयोग से सौर सेल, चिकित्सा यंत्र और संचार तकनीकें बनती हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 930,
+    "anchor_y": 395,
+    "en": "Power & Data Link",
+    "h": 66,
+    "hi": "ऊर्जा व सूचना प्रवाह",
+    "info_en": "Engineering converts laboratory discoveries into scalable infrastructure.",
+    "info_hi": "अभियांत्रिकी प्रयोगशाला की खोजों को समाजोपयोगी तंत्र में बदलती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1150,
+    "anchor_y": 390,
+    "en": "Societal Well-Being",
+    "h": 66,
+    "hi": "समाज व जन-कल्याण",
+    "info_en": "Informed citizens use scientific evidence for healthcare, clean energy and environmental stewardship.",
+    "info_hi": "विज्ञान आधारित निर्णय स्वास्थ्य, स्वच्छ ऊर्जा और पर्यावरण संरक्षण को सुदृढ़ करते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/science_observation_patterns.webp": [
+   {
+    "anchor_x": 290,
+    "anchor_y": 265,
+    "en": "Natural Phenomenon",
+    "h": 66,
+    "hi": "प्राकृतिक घटना व पैटर्न",
+    "info_en": "Inquiry begins by noticing repeatable patterns, such as shoots curving toward directional light.",
+    "info_hi": "विज्ञान की शुरुआत प्रकृति के दोहराए जाने वाले पैटर्न को ध्यान से देखने से होती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 530,
+    "anchor_y": 400,
+    "en": "Quantitative Scale",
+    "h": 66,
+    "hi": "मात्रात्मक मापन पैमाना",
+    "info_en": "Rulers, clocks and balances turn qualitative impressions into objective numerical measurements.",
+    "info_hi": "पैमाने व यंत्र अनुमान के स्थान पर सटीक संख्यात्मक माप देते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 730,
+    "anchor_y": 340,
+    "en": "Close Inspection",
+    "h": 66,
+    "hi": "सूक्ष्म प्रेक्षण",
+    "info_en": "Optical instruments extend human senses to reveal fine structural details.",
+    "info_hi": "आवर्धक लेंस व यंत्र मानव इंद्रियों की क्षमता बढ़ाकर सूक्ष्म विवरण दिखाते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1120,
+    "anchor_y": 405,
+    "en": "Systematic Data Log",
+    "h": 66,
+    "hi": "व्यवस्थित प्रेक्षण अभिलेख",
+    "info_en": "Recording observations before jumping to explanations provides verifiable raw scientific data.",
+    "info_hi": "दिनांक व माप को सारणी या आलेख में दर्ज करने से वैज्ञानिक व्याख्या का आधार बनता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/scientific_models_unseen.webp": [
+   {
+    "anchor_x": 250,
+    "anchor_y": 385,
+    "en": "Subatomic Shell Model",
+    "h": 66,
+    "hi": "परमाणु कक्षक प्रतिरूप",
+    "info_en": "Visualises invisible electrons and nuclei whose energy transitions predict spectral lines.",
+    "info_hi": "अदृश्य इलेक्ट्रॉन व नाभिक की संरचना को समझाने और स्पेक्ट्रम की भविष्यवाणी करने वाला मॉडल।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 390,
+    "en": "3D Cellular Model",
+    "h": 66,
+    "hi": "त्रिविमीय कोशिका प्रतिरूप",
+    "info_en": "Represents microscopic organelles and membrane transport at human-readable scale.",
+    "info_hi": "सूक्ष्म कोशिकांगों और झिल्ली परिवहन को स्पष्ट अनुपात में दर्शाने वाला मॉडल।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1158,
+    "anchor_y": 390,
+    "en": "Field-Line Representation",
+    "h": 66,
+    "hi": "चुम्बकीय क्षेत्र-रेखा मॉडल",
+    "info_en": "Faraday's field lines make invisible magnetic forces concrete and mathematically testable.",
+    "info_hi": "अदृश्य चुम्बकीय बल क्षेत्र की दिशा व प्रबलता को रेखाओं द्वारा दृश्य बनाता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1158,
+    "anchor_y": 545,
+    "en": "Testable Predictions",
+    "h": 66,
+    "hi": "परीक्षणीय पूर्वानुमान",
+    "info_en": "Scientific models are refined or replaced whenever new experimental data demand better accuracy.",
+    "info_hi": "नए प्रायोगिक प्रमाण मिलने पर वैज्ञानिक प्रतिरूपों को सुधारा और परिष्कृत किया जाता है।",
+    "w": 337,
+    "x": 1055,
     "y": 14
    }
   ],
@@ -10821,6 +14217,56 @@
     "y": 14
    }
   ],
+  "rx/simple_permanent_tissues.webp": [
+   {
+    "anchor_x": 225,
+    "anchor_y": 445,
+    "en": "Parenchyma",
+    "h": 66,
+    "hi": "मृदुतक (पैरेन्काइमा)",
+    "info_en": "Living thin-walled unspecialised cells with loose intercellular air spaces that store food and nutrients.",
+    "info_hi": "पतली भित्ति व अंतरकोशिकीय स्थान वाली जीवित कोशिकाएँ जो भोजन संचय करती हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 410,
+    "anchor_y": 515,
+    "en": "Large Central Vacuole",
+    "h": 66,
+    "hi": "बड़ी केन्द्रीय रसधानी",
+    "info_en": "Turgid central vacuoles maintain osmotic pressure and cushion soft plant organs.",
+    "info_hi": "स्फीत केन्द्रीय रसधानी कोमल पादप भागों को सहारा और जल संतुलन देती है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 700,
+    "anchor_y": 455,
+    "en": "Collenchyma",
+    "h": 66,
+    "hi": "स्थूलकोण ऊतक",
+    "info_en": "Elongated living cells irregularly thickened at corners provide flexible mechanical support without breaking.",
+    "info_hi": "कोनों पर मोटी भित्ति वाली जीवित कोशिकाएँ पत्तियों व तनों को लचीला यांत्रिक सहारा देती हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1140,
+    "anchor_y": 465,
+    "en": "Sclerenchyma",
+    "h": 66,
+    "hi": "दृढ़ोतक (स्क्लेरेन्काइमा)",
+    "info_en": "Dead cells with thick lignified secondary walls and narrow lumen give hard, rigid structural strength.",
+    "info_hi": "लिग्निन से मोटी भित्ति वाली मृत कोशिकाएँ पौधे को कठोरता और दृढ़ मजबूती प्रदान करती हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/skeleton_joint--1.webp": [
    {
     "anchor_x": 710,
@@ -11079,6 +14525,106 @@
     "w": 420,
     "x": 817,
     "y": 90
+   }
+  ],
+  "rx/solar_panel_and_cooker.webp": [
+   {
+    "anchor_x": 340,
+    "anchor_y": 410,
+    "en": "Silicon Solar Cell Panel",
+    "h": 66,
+    "hi": "सिलिकॉन सौर सेल पैनल",
+    "info_en": "Interconnected silicon cells with silver wiring convert sunlight directly into electricity with no moving parts.",
+    "info_hi": "सिलिकॉन अर्धचालक सौर सेल बिना किसी गतिमान पुर्जे के धूप को सीधे विद्युत में बदलते हैं।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 165,
+    "en": "Incident Solar Energy",
+    "h": 66,
+    "hi": "आपतित सौर विकिरण",
+    "info_en": "Clean, inexhaustible radiant energy powers both photovoltaic cells and thermal solar cookers.",
+    "info_hi": "सूर्य की विकिरण ऊर्जा प्रकाश-विद्युत तथा तापीय दोनों उपकरणों का स्रोत है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 990,
+    "anchor_y": 412,
+    "en": "Glass Lid & Black Interior",
+    "h": 66,
+    "hi": "काँच का ढक्कन व काली सतह",
+    "info_en": "Black surfaces absorb maximum heat while the glass sheet traps infrared rays via the greenhouse effect.",
+    "info_hi": "काली सतह अधिक ऊष्मा सोखती है और काँच की प्लेट ग्रीनहाउस प्रभाव से ऊष्मा बाहर जाने से रोकती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1182,
+    "anchor_y": 315,
+    "en": "Plane Reflector Mirror",
+    "h": 66,
+    "hi": "समतल परावर्तक दर्पण",
+    "info_en": "Angled mirror reflects extra sunlight into the cooker box to reach 100–140 °C.",
+    "info_hi": "झुका हुआ समतल दर्पण अतिरिक्त धूप को बॉक्स के भीतर केंद्रित कर ताप बढ़ाता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/solution_solute_solvent.webp": [
+   {
+    "anchor_x": 210,
+    "anchor_y": 555,
+    "en": "Solute Component",
+    "h": 66,
+    "hi": "विलेय घटक",
+    "info_en": "The minor component (such as copper sulphate or salt) that dissolves into the solvent.",
+    "info_hi": "कम मात्रा वाला घटक जो विलायक में घुल जाता है, विलेय कहलाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 620,
+    "anchor_y": 410,
+    "en": "Solvent Medium",
+    "h": 66,
+    "hi": "विलायक माध्यम",
+    "info_en": "The major liquid component (water) that dissolves the solute uniformly throughout its volume.",
+    "info_hi": "अधिक मात्रा वाला माध्यम (जैसे जल) जो विलेय को समान रूप से घोलता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 750,
+    "anchor_y": 452,
+    "en": "Zero Beam Scattering",
+    "h": 66,
+    "hi": "प्रकाश प्रकीर्णन नहीं",
+    "info_en": "True solutions do not show the Tyndall effect because solute particles are too small to scatter light.",
+    "info_hi": "वास्तविक विलयन में कण अतिसूक्ष्म होने के कारण प्रकाश किरण का प्रकीर्णन नहीं होता।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1120,
+    "anchor_y": 410,
+    "en": "Sub-nanometre (< 1 nm)",
+    "h": 66,
+    "hi": "1 nm से छोटे कण",
+    "info_en": "Dissolved ions/molecules (< 10⁻⁹ m) never settle on standing and cannot be separated by filtration.",
+    "info_hi": "1 नैनोमीटर से छोटे कण न तो नीचे बैठते हैं और न ही छानने से अलग होते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
    }
   ],
   "rx/sound--1.webp": [
@@ -11439,6 +14985,156 @@
     "y": 90
    }
   ],
+  "rx/straight_conductor_field.webp": [
+   {
+    "anchor_x": 630,
+    "anchor_y": 230,
+    "en": "Straight Current (I)",
+    "h": 66,
+    "hi": "सीधा धारावाही चालक (I)",
+    "info_en": "Electric current flowing vertically through the straight copper wire generates a surrounding magnetic field.",
+    "info_hi": "सीधे ताँबे के तार में प्रवाहित धारा (I) अपने चारों ओर चुम्बकीय क्षेत्र उत्पन्न करती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 630,
+    "anchor_y": 408,
+    "en": "Concentric Field Circles",
+    "h": 66,
+    "hi": "संकेंद्री चुम्बकीय वृत्त",
+    "info_en": "Iron filings align in concentric circles centred on the wire; closer spacing near the wire shows stronger B.",
+    "info_hi": "लौह-चूर्ण तार के चारों ओर संकेंद्री वृत्त बनाता है; तार के पास क्षेत्र अधिक प्रबल (B ∝ 1/r) होता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 852,
+    "anchor_y": 408,
+    "en": "Tangent Compass Needle",
+    "h": 66,
+    "hi": "स्पर्शरेखीय दिक्सूचक सुई",
+    "info_en": "A magnetic compass needle placed at any point aligns tangentially to give the local field direction.",
+    "info_hi": "वृत्त के किसी बिंदु पर रखी दिक्सूचक सुई की उत्तर दिशा चुम्बकीय क्षेत्र की दिशा बताती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1210,
+    "anchor_y": 385,
+    "en": "Variable Rheostat",
+    "h": 66,
+    "hi": "धारा नियंत्रक (रियोस्टैट)",
+    "info_en": "Increasing current I increases compass deflection; reversing current reverses needle direction.",
+    "info_hi": "धारा I बढ़ाने पर चुम्बकीय क्षेत्र बढ़ता है और धारा उलटने पर क्षेत्र की दिशा भी उलट जाती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/symbols_valency_formulae.webp": [
+   {
+    "anchor_x": 230,
+    "anchor_y": 300,
+    "en": "Element Symbols (Al, O)",
+    "h": 66,
+    "hi": "तत्व प्रतीक (Al, O)",
+    "info_en": "Write metal/electropositive symbol on the left and non-metal/electronegative symbol on the right.",
+    "info_hi": "धनात्मक धातु प्रतीक बाईं ओर तथा ऋणात्मक अधातु प्रतीक दाईं ओर लिखा जाता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 345,
+    "anchor_y": 435,
+    "en": "Crossing Valencies",
+    "h": 66,
+    "hi": "संयोजकता का तिर्यक नियम",
+    "info_en": "Valency 3 of Al and valency 2 of O cross over to become subscripts of the partner atom.",
+    "info_hi": "दोनों तत्वों की संयोजकताओं को अदल-बदल कर पाद-अंक (subscript) के रूप में लिखते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 345,
+    "anchor_y": 525,
+    "en": "Neutral Formula (Al₂O₃)",
+    "h": 66,
+    "hi": "उदासीन सूत्र (Al₂O₃)",
+    "info_en": "Two Al³⁺ (+6) balance three O²⁻ (−6), giving the simplest electrically neutral ratio.",
+    "info_hi": "दो Al³⁺ (+6) और तीन O²⁻ (−6) मिलकर कुल आवेश शून्य करते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 980,
+    "anchor_y": 350,
+    "en": "Combining Capacity",
+    "h": 66,
+    "hi": "संयोजन क्षमता मॉडल",
+    "info_en": "Valency measures the number of bonds or electron transfers an atom makes to attain a stable octet.",
+    "info_hi": "किसी परमाणु द्वारा अष्टक पूर्ण करने हेतु बनाए गए बंधों की संख्या उसकी संयोजकता कहलाती है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/taxonomic_hierarchy_ranks.webp": [
+   {
+    "anchor_x": 105,
+    "anchor_y": 420,
+    "en": "Shared Traits Increase ↓",
+    "h": 66,
+    "hi": "समान लक्षण बढ़ते हैं ↓",
+    "info_en": "Moving downward from Kingdom to Species increases similarity and evolutionary closeness.",
+    "info_hi": "जगत से जाति की ओर नीचे आने पर जीवों में समान लक्षणों की संख्या बढ़ती जाती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 180,
+    "en": "Kingdom (Broadest Rank)",
+    "h": 66,
+    "hi": "जगत (सर्वोच्च व व्यापक स्तर)",
+    "info_en": "Highest rank holding the largest number of diverse organisms with only basic traits in common.",
+    "info_hi": "सर्वोच्च श्रेणी जिसमें सर्वाधिक संख्या में जीव आते हैं पर समान गुण कम होते हैं।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 302,
+    "en": "Phylum / Division & Class",
+    "h": 66,
+    "hi": "संघ / विभाग तथा वर्ग",
+    "info_en": "Animals use Phylum while plants use Division above Class, Order and Family.",
+    "info_hi": "जंतुओं के लिए संघ (Phylum) तथा पादपों के लिए विभाग (Division) शब्द प्रयोग होता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 545,
+    "en": "Species (Basic Unit)",
+    "h": 66,
+    "hi": "जाति (वर्गीकरण की मूल इकाई)",
+    "info_en": "Smallest basic unit comprising organisms capable of interbreeding to produce fertile offspring.",
+    "info_hi": "वर्गीकरण की सबसे छोटी मूल इकाई जिसके जीव आपस में जनन कर उर्वर संतति उत्पन्न करते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/teeth.webp": [
    {
     "anchor_x": 113,
@@ -11511,6 +15207,56 @@
     "w": 420,
     "x": 974,
     "y": 90
+   }
+  ],
+  "rx/thomson_plum_pudding.webp": [
+   {
+    "anchor_x": 380,
+    "anchor_y": 295,
+    "en": "Positive Charge Sphere",
+    "h": 66,
+    "hi": "धनावेशित गोला",
+    "info_en": "Thomson proposed the atom is a continuous, uniformly positively charged sphere (~10⁻¹⁰ m radius).",
+    "info_hi": "थॉमसन के अनुसार परमाणु एकसमान रूप से वितरित धन आवेश का गोला है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 490,
+    "anchor_y": 650,
+    "en": "Electrically Neutral Atom",
+    "h": 66,
+    "hi": "विद्युत उदासीन परमाणु",
+    "info_en": "Total positive and negative charges are equal in magnitude, making the whole atom neutral.",
+    "info_hi": "ऋणात्मक और धनात्मक आवेश परिमाण में समान होने से परमाणु विद्युत रूप से उदासीन होता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 535,
+    "anchor_y": 390,
+    "en": "Embedded Electrons (e⁻)",
+    "h": 66,
+    "hi": "धँसे हुए इलेक्ट्रॉन (e⁻)",
+    "info_en": "Negatively charged electrons are studded inside the positive sphere like plums in a pudding.",
+    "info_hi": "ऋणावेशित इलेक्ट्रॉन धनावेशित गोले में पुडिंग के सूखे मेवों की तरह धँसे रहते हैं।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1070,
+    "anchor_y": 465,
+    "en": "Watermelon Analogy",
+    "h": 66,
+    "hi": "तरबूज सदृश प्रतिरूप",
+    "info_en": "Edible red pulp represents distributed positive charge while black seeds represent electrons.",
+    "info_hi": "तरबूज का लाल भाग धन आवेश और काले बीज इलेक्ट्रॉनों की स्थिति समझाते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
    }
   ],
   "rx/tissue_connective.webp": [
@@ -12085,6 +15831,106 @@
     "y": 14
    }
   ],
+  "rx/voluntary_involuntary_actions.webp": [
+   {
+    "anchor_x": 370,
+    "anchor_y": 285,
+    "en": "Cerebrum (Conscious)",
+    "h": 66,
+    "hi": "प्रमस्तिष्क (ऐच्छिक कार्य)",
+    "info_en": "Thinking part of the forebrain initiates conscious voluntary actions such as writing, walking and speaking.",
+    "info_hi": "अग्रमस्तिष्क का प्रमस्तिष्क सोच-समझकर किए जाने वाले ऐच्छिक कार्यों को नियंत्रित करता है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 390,
+    "anchor_y": 475,
+    "en": "Medulla (Involuntary)",
+    "h": 66,
+    "hi": "मेडुला (अनैच्छिक क्रियाएँ)",
+    "info_en": "Hindbrain medulla regulates blood pressure, salivation, vomiting, heartbeat and breathing automatically.",
+    "info_hi": "पश्चमस्तिष्क का मेडुला रक्तचाप, लार आना, हृदय स्पंदन व श्वसन जैसी अनैच्छिक क्रियाएँ चलाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 472,
+    "anchor_y": 418,
+    "en": "Cerebellum (Posture)",
+    "h": 66,
+    "hi": "अनुमस्तिष्क (संतुलन)",
+    "info_en": "Coordinates precision of voluntary movements like riding a bicycle and maintaining body balance.",
+    "info_hi": "अनुमस्तिष्क शरीर की मुद्रा, संतुलन और ऐच्छिक गतियों की सटीकता बनाए रखता है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1060,
+    "anchor_y": 270,
+    "en": "Skeletal vs Smooth Effectors",
+    "h": 66,
+    "hi": "कंकाल व चिकनी पेशियाँ",
+    "info_en": "Voluntary nerves drive striated skeletal muscles; autonomic pathways regulate cardiac and smooth visceral muscles.",
+    "info_hi": "ऐच्छिक तंत्रिकाएँ कंकाल पेशियों को तथा स्वायत्त तंत्रिकाएँ हृदय व आँत की पेशियों को चलाती हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/wind_hydro_tidal_turbines.webp": [
+   {
+    "anchor_x": 240,
+    "anchor_y": 295,
+    "en": "Wind Kinetic Energy",
+    "h": 66,
+    "hi": "पवन चक्की टरबाइन",
+    "info_en": "Moving air (> 15 km/h) turns rotor blades coupled directly to an electric generator.",
+    "info_hi": "15 km/h से तेज बहती पवन टरबाइन के ब्लेड घुमाकर जनित्र द्वारा विद्युत बनाती है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 585,
+    "anchor_y": 340,
+    "en": "Elevated Dam Reservoir",
+    "h": 66,
+    "hi": "ऊँचा जल-भंडार (mgh)",
+    "info_en": "Impounded river water stores gravitational potential energy mgh behind the dam.",
+    "info_hi": "बाँध के पीछे संचित ऊँचा जल गुरुत्वीय स्थितिज ऊर्जा (mgh) रखता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 832,
+    "anchor_y": 518,
+    "en": "Hydro Turbine & Generator",
+    "h": 66,
+    "hi": "पेनस्टॉक व जल-टरबाइन",
+    "info_en": "Falling water rushes down the penstock to spin turbine blades and generate hydroelectricity.",
+    "info_hi": "गिरते जल की गतिज ऊर्जा टरबाइन घुमाकर स्वच्छ जल-विद्युत उत्पन्न करती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1160,
+    "anchor_y": 498,
+    "en": "Tidal Barrage Turbine",
+    "h": 66,
+    "hi": "ज्वारीय बाँध टरबाइन",
+    "info_en": "Gravitational pull of the Moon creates high and low tides whose water head turns coastal turbines.",
+    "info_hi": "चंद्रमा के गुरुत्वाकर्षण से उठते-गिरते ज्वार-भाटे संकरे बाँध की टरबाइन घुमाते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
   "rx/work_energy.webp": [
    {
     "anchor_x": 507,
@@ -12157,6 +16003,106 @@
     "w": 420,
     "x": 972,
     "y": 90
+   }
+  ],
+  "rx/work_energy_theorem_cart.webp": [
+   {
+    "anchor_x": 335,
+    "anchor_y": 475,
+    "en": "Initial Velocity (u)",
+    "h": 66,
+    "hi": "प्रारंभिक वेग (u)",
+    "info_en": "Moving cart enters with initial kinetic energy Kᵢ = ½mu².",
+    "info_hi": "गतिशील गाड़ी की प्रारंभिक गतिज ऊर्जा Kᵢ = ½mu² है।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 690,
+    "anchor_y": 415,
+    "en": "Net Work Done (F·s)",
+    "h": 66,
+    "hi": "परिणामी बल का कार्य (F·s)",
+    "info_en": "Constant net force F acting over displacement s transfers mechanical energy to the cart.",
+    "info_hi": "विस्थापन s तक लगा परिणामी बल F वस्तु को यांत्रिक ऊर्जा देता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 1035,
+    "anchor_y": 290,
+    "en": "Final Kinetic Energy (½mv²)",
+    "h": 66,
+    "hi": "अंतिम गतिज ऊर्जा (½mv²)",
+    "info_en": "Speed rises from u to v so kinetic energy grows by exactly W_net.",
+    "info_hi": "वेग u से बढ़कर v होने पर गतिज ऊर्जा बढ़कर ½mv² हो जाती है।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1150,
+    "anchor_y": 475,
+    "en": "W_net = ΔK",
+    "h": 66,
+    "hi": "कार्य-ऊर्जा प्रमेय (W = ΔK)",
+    "info_en": "Using v² − u² = 2as gives F·s = ma·s = ½m(v² − u²).",
+    "info_hi": "किया गया कुल कार्य गतिज ऊर्जा में परिवर्तन (½mv² − ½mu²) के बराबर होता है।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
+   }
+  ],
+  "rx/writing_chemical_formulae.webp": [
+   {
+    "anchor_x": 250,
+    "anchor_y": 410,
+    "en": "Sodium Carbonate (Na₂CO₃)",
+    "h": 66,
+    "hi": "सोडियम कार्बोनेट (Na₂CO₃)",
+    "info_en": "Single carbonate ion CO₃²⁻ needs no brackets when its subscript is 1.",
+    "info_hi": "जब बहुपरमाणुक आयन की संख्या 1 हो (जैसे CO₃²⁻), तब कोष्ठक नहीं लगाते।",
+    "w": 337,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 280,
+    "en": "Cation First, Anion Next",
+    "h": 66,
+    "hi": "धनायन पहले, ऋणायन बाद में",
+    "info_en": "Charges of the positive metal ion and negative ion must balance to zero.",
+    "info_hi": "सूत्र में धातु धनायन पहले और अधातु/बहुपरमाणुक ऋणायन बाद में लिखा जाता है।",
+    "w": 337,
+    "x": 361,
+    "y": 14
+   },
+   {
+    "anchor_x": 704,
+    "anchor_y": 515,
+    "en": "Bracket Rule: Ca(OH)₂",
+    "h": 66,
+    "hi": "कोष्ठक नियम: Ca(OH)₂",
+    "info_en": "Enclose polyatomic OH⁻ in parentheses before writing subscript 2 so both O and H are doubled.",
+    "info_hi": "दो या अधिक बहुपरमाणुक आयन होने पर कोष्ठक लगाकर बाहर पाद-अंक लिखते हैं, जैसे Ca(OH)₂।",
+    "w": 337,
+    "x": 708,
+    "y": 14
+   },
+   {
+    "anchor_x": 1158,
+    "anchor_y": 515,
+    "en": "Ammonium Sulphate",
+    "h": 66,
+    "hi": "अमोनियम सल्फेट (NH₄)₂SO₄",
+    "info_en": "Two NH₄⁺ (+1 each) balance one SO₄²⁻ (−2) in (NH₄)₂SO₄.",
+    "info_hi": "दो अमोनियम आयन (NH₄⁺) एक सल्फेट आयन (SO₄²⁻) के आवेश को संतुलित करते हैं।",
+    "w": 337,
+    "x": 1055,
+    "y": 14
    }
   ]
  },

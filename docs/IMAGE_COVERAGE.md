@@ -1,135 +1,39 @@
-# 2D image coverage
+# 2D / 3D Plate Coverage (`266 / 266` — 100% Complete)
 
-**193 of 266 sections** show a realistic plate or a 3D-rendered teaching view first (`assets/2d/rx/`, imported from `anveshix/ifinite-horizon`).
-The **73 sections below** still show only the generated composite plate. Each needs a new illustration in `ifinite-horizon` (`public/2d/<class>/<subject>/images/<id>.webp` + an entry with bilingual `marks` in `assets/va-2d.js`), then:
+**266 of 266** NCERT Class IX & Class X sections across all **33** chapters now have bespoke,
+high-resolution (`1408×768`, `11:6`) WebP plates stored once in `assets/2d/rx/` with anchored
+bilingual (`EN + HI`) callouts and tap-to-inspect explanations in `src/realistic_plates.json`.
 
-```bash
-python3 tools/import_realistic_plates.py ../ifinite-horizon   # after adding the id to MAP/EXTRA in the script
-npm run build && npm run qa
-```
+- **193 sections**: Imported & curated in `src/realistic_plates.json` (`anveshix/ifinite-horizon`).
+- **73 sections**: Newly authored scientific 3D & studio textbook plates (`tools/plates_73/`),
+  covering every previously unmapped Chemistry, Physics, Biology, Inquiry, Energy & Sustainability topic.
+- **0 missing sections remain.**
 
-## Cell: The Building Block of Life (`c9_cell`, Class IX) — 1 missing
-- § 2.10 Biomolecules and cell functions
+## Newly Delivered 73 Plates by Chapter
 
-## Tissues in Action (`c9_tissues`, Class IX) — 3 missing
-- § 3.3 Meristematic tissues
-- § 3.4 Simple permanent plant tissues
-- § 3.6 Phloem: food transport
-
-## Why Do We Fall Ill (`c9_disease`, Class IX) — 2 missing
-- § 2 Concept 2
-- § 3 Concept 3
-
-## Chemical Reactions and Equations (`c10_reactions`, Class X) — 2 missing
-- § 1.1 Chemical changes and their evidence
-- § 1.8 Exothermic and endothermic reactions
-
-## Metals and Non-metals (`c10_metals`, Class X) — 1 missing
-- § 3.8 Alloys and their uses
-
-## Carbon and its Compounds (`c10_carbon`, Class X) — 8 missing
-- § 4.2.2 Chains, branches and rings
-- § 4.2.3 A functional group changes everything
-- § 4.2.5 Naming a carbon compound
-- § 4.3.1 Clean blue flame or sooty yellow?
-- § 4.3.2 Ethanol becomes ethanoic acid
-- § 4.3.3 Addition across the double bond
-- § 4.3.4 Chlorine replaces hydrogen
-- § 4.4.2 Weak acid, four tests
-
-## Heredity (`c10_heredity`, Class X) — 1 missing
-- § 8.4 Dihybrid cross and independent assortment
-
-## Light – Reflection and Refraction (`c10_light`, Class X) — 1 missing
-- § 9.2.4 Mirror formula & magnification
-
-## The Human Eye and the Colourful World (`c10_eye`, Class X) — 1 missing
-- § 10.8 Twinkling, planets and atmospheric refraction
-
-## Electricity (`c10_electricity`, Class X) — 1 missing
-- § 11.8 Electric power and energy
-
-## Magnetic Effects of Electric Current (`c10_magnetism`, Class X) — 3 missing
-- § 12.2 Field due to a straight current-carrying conductor
-- § 12.3 Right-hand thumb rule
-- § 12.7 Direct and alternating current
-
-## Life Processes (`c10_life`, Class X) — 1 missing
-- § 5.3 Heterotrophic nutrition
-
-## Control and Coordination (`c10_control`, Class X) — 2 missing
-- § 6.6 Voluntary, involuntary and autonomic actions
-- § 6.8 Feedback control and coordination
-
-## How do Organisms Reproduce? (`c10_repro`, Class X) — 4 missing
-- § 7.1 Variation and the need for reproduction
-- § 7.7 Fertilisation, embryo and menstrual cycle
-- § 7.8 Reproductive health and contraception
-- § 7.9 HIV, AIDS and women's health
-
-## Our Environment (`c10_env`, Class X) — 1 missing
-- § 13.1 Ecosystem and its components
-
-## Exploration: Entering the World of Secondary Science (`c9_exploration`, Class IX) — 5 missing
-- § 1.1 Science begins with observation
-- § 1.2 Focused questions guide investigation
-- § 1.4 Experiments produce evidence
-- § 1.5 Models connect the unseen to the seen
-- § 1.6 Science links mathematics, technology and society
-
-## Exploring Mixtures and their Separation (`c9_mixtures`, Class IX) — 4 missing
-- § 5.2 Solutions and their components
-- § 5.5 Mass by mass percentage
-- § 5.6 Mass by volume and volume by volume
-- § 5.10 Centrifugation and coagulation
-
-## How Forces Affect Motion (`c9_forces`, Class IX) — 1 missing
-- § 6.3 Balanced forces
-
-## Work, Energy, and Simple Machines (`c9_work_energy`, Class IX) — 3 missing
-- § 7.2 Positive, negative and zero work
-- § 7.5 Work-energy theorem
-- § 7.7 Power and its unit
-
-## Journey Inside the Atom (`c9_atom`, Class IX) — 5 missing
-- § 8.4 Thomson's plum-pudding model
-- § 8.8 Atomic number and mass number
-- § 8.9 Isotopes and isobars
-- § 8.11 Symbols of elements
-- § 8.12 Symbols, valency and formulae
-
-## Atomic Foundations of Matter (`c9_atomic_foundations`, Class IX) — 4 missing
-- § 9.2 Law of constant proportion
-- § 9.7 Writing chemical formulae
-- § 9.8 Molecular mass
-- § 9.9 Formula unit mass
-
-## Reproduction: How Life Continues (`c9_reproduction9`, Class IX) — 2 missing
-- § 11.8 Gametes, menstrual cycle and pregnancy
-- § 11.9 Reproductive health, hygiene and birth control
-
-## Patterns in Life: Diversity and Classification (`c9_diversity`, Class IX) — 5 missing
-- § 12.1 Why classification is needed
-- § 12.4 Major divisions of plants
-- § 12.5 Major divisions of animals
-- § 12.6 Binomial nomenclature
-- § 12.7 Hierarchy of taxonomic ranks
-
-## Periodic Classification of Elements (formative only) (`c10_periodic`, Class X) — 5 missing
-- § P.1 Döbereiner's triads
-- § P.2 Newlands' law of octaves
-- § P.3 Mendeleev's periodic table
-- § P.4 The modern periodic law
-- § P.5 Trends in the modern table
-
-## Sources of Energy (outside 2026-27 syllabus) (`c10_sources`, Class X) — 4 missing
-- § S.1 Conventional and non-conventional sources
-- § S.2 Solar energy, panels and cookers
-- § S.3 Wind, hydro and tidal energy
-- § S.4 Biomass, biogas and nuclear energy
-
-## Sustainable Management of Natural Resources (outside 2026-27) (`c10_sustainable`, Class X) — 3 missing
-- § M.2 Forest and wildlife conservation
-- § M.3 Water harvesting and watershed management
-- § M.4 Coal, petroleum and the 3Rs
-
+- **`c10_carbon`** (8): `§4.2.2` -> `rx/carbon_chains_branches_rings.webp` (3D / Studio), `§4.2.3` -> `rx/functional_groups_carbon.webp` (3D / Studio), `§4.2.5` -> `rx/iupac_carbon_naming.webp` (3D / Studio), `§4.3.1` -> `rx/clean_vs_sooty_flame.webp` (3D / Studio), `§4.3.2` -> `rx/ethanol_oxidation_kmno4.webp` (3D / Studio), `§4.3.3` -> `rx/alkene_hydrogenation_ni.webp` (3D / Studio), `§4.3.4` -> `rx/methane_chlorination_uv.webp` (3D / Studio), `§4.4.2` -> `rx/ethanoic_acid_tests.webp` (3D / Studio)
+- **`c10_control`** (2): `§6.6` -> `rx/voluntary_involuntary_actions.webp` (3D / Studio), `§6.8` -> `rx/hormonal_feedback_loop.webp` (3D / Studio)
+- **`c10_electricity`** (1): `§11.8` -> `rx/electric_power_kwh_energy.webp` (3D / Studio)
+- **`c10_env`** (1): `§13.1` -> `rx/ecosystem_biotic_abiotic.webp` (3D / Studio)
+- **`c10_eye`** (1): `§10.8` -> `rx/atmospheric_refraction_twinkling.webp` (3D / Studio)
+- **`c10_heredity`** (1): `§8.4` -> `rx/dihybrid_cross_punnett.webp` (3D / Studio)
+- **`c10_life`** (1): `§5.3` -> `rx/heterotrophic_nutrition_modes.webp` (3D / Studio)
+- **`c10_light`** (1): `§9.2.4` -> `rx/mirror_formula_magnification.webp` (3D / Studio)
+- **`c10_magnetism`** (3): `§12.2` -> `rx/straight_conductor_field.webp` (3D / Studio), `§12.3` -> `rx/right_hand_thumb_rule.webp` (3D / Studio), `§12.7` -> `rx/direct_vs_alternating_current.webp` (3D / Studio)
+- **`c10_metals`** (1): `§3.8` -> `rx/alloys_atomic_lattice.webp` (AI 3D)
+- **`c10_periodic`** (5): `§P.1` -> `rx/dobereiner_triads.webp` (3D / Studio), `§P.2` -> `rx/newlands_octaves.webp` (3D / Studio), `§P.3` -> `rx/mendeleev_periodic_table.webp` (3D / Studio), `§P.4` -> `rx/modern_periodic_law.webp` (3D / Studio), `§P.5` -> `rx/periodic_table_trends.webp` (3D / Studio)
+- **`c10_reactions`** (2): `§1.1` -> `rx/chemical_change_evidence.webp` (AI 3D), `§1.8` -> `rx/exothermic_endothermic.webp` (AI 3D)
+- **`c10_repro`** (4): `§7.1` -> `rx/dna_copying_variation.webp` (3D / Studio), `§7.7` -> `rx/fertilisation_implantation_cycle.webp` (3D / Studio), `§7.8` -> `rx/contraceptive_methods_overview.webp` (3D / Studio), `§7.9` -> `rx/hiv_immunity_health.webp` (3D / Studio)
+- **`c10_sources`** (4): `§S.1` -> `rx/conventional_vs_nonconventional.webp` (3D / Studio), `§S.2` -> `rx/solar_panel_and_cooker.webp` (3D / Studio), `§S.3` -> `rx/wind_hydro_tidal_turbines.webp` (3D / Studio), `§S.4` -> `rx/biogas_and_nuclear_energy.webp` (3D / Studio)
+- **`c10_sustainable`** (3): `§M.2` -> `rx/forest_wildlife_conservation.webp` (3D / Studio), `§M.3` -> `rx/rainwater_harvesting_watershed.webp` (3D / Studio), `§M.4` -> `rx/coal_petroleum_and_3rs.webp` (3D / Studio)
+- **`c9_atom`** (5): `§8.4` -> `rx/thomson_plum_pudding.webp` (3D / Studio), `§8.8` -> `rx/atomic_and_mass_number.webp` (3D / Studio), `§8.9` -> `rx/isotopes_and_isobars.webp` (3D / Studio), `§8.11` -> `rx/element_symbols_iupac.webp` (3D / Studio), `§8.12` -> `rx/symbols_valency_formulae.webp` (3D / Studio)
+- **`c9_atomic_foundations`** (4): `§9.2` -> `rx/law_constant_proportion.webp` (3D / Studio), `§9.7` -> `rx/writing_chemical_formulae.webp` (3D / Studio), `§9.8` -> `rx/molecular_mass_u.webp` (3D / Studio), `§9.9` -> `rx/formula_unit_mass.webp` (3D / Studio)
+- **`c9_cell`** (1): `§2.10` -> `rx/biomolecules_cell.webp` (AI 3D)
+- **`c9_disease`** (2): `§2` -> `rx/disease_transmission_modes.webp` (AI 3D), `§3` -> `rx/disease_prevention_immunity.webp` (AI 3D)
+- **`c9_diversity`** (5): `§12.1` -> `rx/need_for_classification.webp` (3D / Studio), `§12.4` -> `rx/major_plant_divisions.webp` (3D / Studio), `§12.5` -> `rx/major_animal_divisions.webp` (3D / Studio), `§12.6` -> `rx/binomial_nomenclature_linnaeus.webp` (3D / Studio), `§12.7` -> `rx/taxonomic_hierarchy_ranks.webp` (3D / Studio)
+- **`c9_exploration`** (5): `§1.1` -> `rx/science_observation_patterns.webp` (3D / Studio), `§1.2` -> `rx/focused_testable_question.webp` (3D / Studio), `§1.4` -> `rx/controlled_experiment_evidence.webp` (3D / Studio), `§1.5` -> `rx/scientific_models_unseen.webp` (3D / Studio), `§1.6` -> `rx/science_math_tech_society.webp` (3D / Studio)
+- **`c9_forces`** (1): `§6.3` -> `rx/balanced_forces_equilibrium.webp` (3D / Studio)
+- **`c9_mixtures`** (4): `§5.2` -> `rx/solution_solute_solvent.webp` (3D / Studio), `§5.5` -> `rx/mass_by_mass_percent.webp` (3D / Studio), `§5.6` -> `rx/concentration_mv_vv.webp` (3D / Studio), `§5.10` -> `rx/centrifugation_coagulation.webp` (3D / Studio)
+- **`c9_reproduction9`** (2): `§11.8` -> `rx/gametes_cycle_pregnancy.webp` (3D / Studio), `§11.9` -> `rx/adolescent_reproductive_hygiene.webp` (3D / Studio)
+- **`c9_tissues`** (3): `§3.3` -> `rx/meristematic_tissues.webp` (AI 3D), `§3.4` -> `rx/simple_permanent_tissues.webp` (AI 3D), `§3.6` -> `rx/phloem_translocation.webp` (AI 3D)
+- **`c9_work_energy`** (3): `§7.2` -> `rx/positive_negative_zero_work.webp` (3D / Studio), `§7.5` -> `rx/work_energy_theorem_cart.webp` (3D / Studio), `§7.7` -> `rx/mechanical_power_watt.webp` (3D / Studio)

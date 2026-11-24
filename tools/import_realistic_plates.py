@@ -275,6 +275,26 @@ def main():
                     credits[fname] = entry["credit"]
                 files.add(fname)
 
+    # Preserve in-repo authored SciVerse 3D plates (from tools/plates_73) when re-importing upstream plates
+    if OUT_JSON.exists():
+        prev = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+        prev_credits = prev.get("credits") or {}
+        in_repo = {
+            fname for fname, cred in prev_credits.items()
+            if "SciVerse 3D NCERT textbook plate" in str(cred)
+        }
+        for wid, secs in (prev.get("assets") or {}).items():
+            for sec, lst in secs.items():
+                kept = [f for f in lst if f in in_repo and (ROOT / "assets" / "2d" / f).exists()]
+                if kept and not assets.get(wid, {}).get(sec):
+                    assets.setdefault(wid, {})[sec] = kept
+                    for f in kept:
+                        files.add(f)
+                        if f in (prev.get("labels") or {}):
+                            labels[f] = prev["labels"][f]
+                        if f in prev_credits:
+                            credits[f] = prev_credits[f]
+
     # the shared store holds exactly the referenced images
     for old in store.glob("*.webp"):
         if "rx/" + old.name not in files:
