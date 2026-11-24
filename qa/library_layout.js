@@ -1,0 +1,84 @@
+#!/usr/bin/env node
+/* Compact library layout and navigation in desktop and emulated phone views. */
+const assert = require('assert');
+let playwright;
+try { playwright = require('playwright'); } catch (_) {}
+if (!playwright) {
+  if (process.env.QA_REQUIRE_BROWSER === '1') { console.error('FAIL library_layout: playwright not installed'); process.exit(1); }
+  console.log('SKIP library_layout: playwright not installed'); process.exit(0);
+}
+const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
+(async () => {
+  const b = await playwright.chromium.launch({
+    ...(process.env.QA_CHROMIUM_EXECUTABLE ? { executablePath: process.env.QA_CHROMIUM_EXECUTABLE } : {}),
+    args: ['--no-sandbox', '--disable-dev-shm-usage', '--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader']
+  });
+  try {
+    for (const [name, width, height, mode] of [['desktop', 1440, 900, '3d'], ['phone', 390, 844, '2d'], ['small-phone', 360, 640, '2d']]) {
+      const p = await b.newPage({ viewport: { width, height }, isMobile: width < 500, hasTouch: width < 500 });
+      const errors = [];
+      p.on('pageerror', e => errors.push(e.message));
+      await p.goto(base + '?mode=' + mode, { waitUntil: 'load' });
+      await p.waitForSelector('#classCardX');
+      const layout = await p.evaluate(() => {
+        const a = document.querySelector('#classCardIX').getBoundingClientRect();
+        const b = document.querySelector('#classCardX').getBoundingClientRect();
+        return {firstTop: a.top, secondBottom: b.bottom, width: document.documentElement.scrollWidth, screenWidth: innerWidth};
+      });
+      assert(layout.firstTop < 150, `${name}: excessive space above books`);
+      assert(layout.secondBottom <= height, `${name}: both class books should be visible without scrolling: ${JSON.stringify(layout)}`);
+      assert(layout.width <= layout.screenWidth, `${name}: horizontal overflow`);
+      assert(await p.locator('#svLibSearchBtn').isVisible());
+      assert(await p.locator('#btnFlipbookTop').isVisible());
+      assert(!(await p.locator('#chapterSelect').isVisible()));
+      if (mode === '3d') {
+        for (const id of ['btnO3', 'btnParts', 'btnProjector']) {
+          assert(!(await p.locator('#' + id).isVisible()), `${id} should not clutter the library`);
+        }
+      }
+      assert.equal(await p.locator('.lib-head,.sv-lib-search-row').count(), 0, 'large hero/search block returned');
+      await p.locator('#langSelect').selectOption('hi');
+      assert((await p.locator('.lib-section-title').innerText()).includes('कक्षा'));
+      await p.locator('#langSelect').selectOption('en');
+      assert.equal(await p.locator('.lib-section-title').innerText(), 'Choose a class');
+      await p.locator('#langSelect').selectOption('both');
+      await p.locator('#svLibSearchBtn').click();
+      await p.locator('#svSearchInput').fill('cell');
+      assert((await p.locator('#svSearchResults .sv-hit').count()) > 0);
+      await p.locator('#svSearchClose').click();
+      await p.locator('#btnFlipbookTop').click();
+      assert(await p.locator('#svFlipbookModal').isVisible());
+      await p.locator('#svFlipClose').click();
+      for (const cls of ['IX', 'X']) {
+        await p.locator('#classCard' + cls).click();
+        assert(await p.locator('#libDrawer').isVisible());
+        assert((await p.locator('#ldList [data-ch]').count()) > 0);
+        const row = p.locator('#ldList [data-ch]:has(.ld-thumb)').first();
+        if (await row.count()) {
+          // Measure in one frame while the drawer's entrance animation may be running.
+          const geometry = await row.evaluate(el => {
+            const image = el.querySelector('.ld-thumb').getBoundingClientRect();
+            const title = el.querySelector('.ld-body').getBoundingClientRect();
+            const box = el.getBoundingClientRect();
+            return {imageRight: image.right, titleLeft: title.left, titleRight: title.right, rowRight: box.right};
+          });
+          assert(geometry.imageRight <= geometry.titleLeft + 1, `${name}: chapter thumbnail overlaps title`);
+          assert(geometry.titleRight <= geometry.rowRight + 1, `${name}: chapter title overflows its row`);
+        }
+        await p.locator('#ldClose').click();
+      }
+      if (mode === '3d') {
+        await p.locator('#libShelf').click();
+        assert(await p.locator('#worldHud').evaluate(e => e.classList.contains('shelf-mode')));
+        await p.locator('#shelfBack').click();
+        await p.locator('#classCardIX').click();
+        await p.locator('#ldList [data-ch]').first().click();
+        await p.waitForFunction(() => EV.view === 'book');
+        assert(await p.locator('#chapterSelect').isVisible(), 'chapter control did not return in book view');
+      }
+      assert.deepEqual(errors, []);
+      await p.close();
+      console.log(`PASS library_layout: ${name} ${width}x${height} · books visible, search/language/flipbook/class navigation`);
+    }
+  } finally { await b.close(); }
+})().catch(e => { console.error(e); process.exit(1); });

@@ -2463,8 +2463,9 @@ function boot() {
   if ($("btnFar")) $("btnFar").onclick = () => setFarRead(!farPrev);
   if (new URLSearchParams(location.search).get("far") === "1") setFarRead(true);
   if ($("btnCompileTop")) $("btnCompileTop").onclick = () => setView("compiler");
-  $("btnEnter").onclick = () => { if (!EV.world) EV.world = getWorld("c10_carbon"); setView("book"); };
-  if ($("btnEnterShelf")) $("btnEnterShelf").onclick = $("btnEnter").onclick;
+  const enterBook = () => { if (!EV.world) EV.world = getWorld("c10_carbon"); setView("book"); };
+  if ($("btnEnter")) $("btnEnter").onclick = enterBook;
+  if ($("btnEnterShelf")) $("btnEnterShelf").onclick = enterBook;
   $("btnHelp").onclick = showHelp;
   $("btnHome").onclick = goHome;
   if ($("btnHomeFloat")) $("btnHomeFloat").onclick = goHome;
@@ -2639,6 +2640,8 @@ const EVLIB = (function () {
       "2D फ़्लिपबुक • 3D मॉडल • इंटरैक्टिव प्रयोग • हिंदी–अंग्रेज़ी शिक्षण — शुरू करने के लिए कक्षा चुनें।",
       "2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English"],
     ["lib.resume", "Open book →", "पुस्तक खोलें →", "Open book →"],
+    ["lib.chooseClass", "Choose a class", "अपनी कक्षा चुनें", "Choose a class / अपनी कक्षा चुनें"],
+    ["lib.searchShort", "Search", "खोजें", "Search / खोजें"],
     ["lib.back", "← All classes", "← सभी कक्षाएँ", "← All classes / सभी कक्षाएँ"],
     ["lib.backShelf", "← Library dashboard", "← पुस्तकालय डैशबोर्ड", "← Library / पुस्तकालय"],
     ["lib.close", "Close chapter list", "अध्याय सूची बंद करें", "Close / बंद करें"],
@@ -2665,7 +2668,6 @@ const EVLIB = (function () {
 
   if (typeof EVDICT !== "undefined") KEYS.forEach(k => EVDICT.register(k[0], k[1], k[2], k[3]));
 
-  const K = key => 'data-i18n="' + esc(key) + '"';
   const A = (en, hi) => 'data-i18n="' + esc((typeof EVDICT !== "undefined") ? EVDICT.auto(en, hi) : String(en)) + '"';
   const text = (en, hi) => (typeof EVDICT !== "undefined") ? EVDICT.get(EVDICT.auto(en, hi), EV.lang) : BI(en, hi);
   const rowsFor = c => CATALOGUE_ALL.filter(x => x.cls === c && STUDENT_CHAPTERS.indexOf(x.id) >= 0);
@@ -2678,10 +2680,6 @@ const EVLIB = (function () {
   function render() {
     if (!installed) return;
     const ix = rowsFor("IX"), x = rowsFor("X");
-    const totalSpreads = ix.concat(x).reduce((n, c) => n + nSpreads(c), 0);
-    const stat = (n, keyName) => '<span class="lib-stat"><b>' + n + '</b><small ' + K(keyName) + '>' +
-      esc((typeof EVDICT !== "undefined") ? EVDICT.get(keyName, EV.lang) : keyName) + '</small></span>';
-    html($("libStats"), stat(2, "lib.statClasses") + stat(ix.length + x.length, "lib.statChapters") + stat(totalSpreads, "lib.statSpreads"));
     [["IX", ix], ["X", x]].forEach(pair => {
       const c = pair[0], rows = pair[1];
       const spreads = rows.reduce((n, r) => n + nSpreads(r), 0);

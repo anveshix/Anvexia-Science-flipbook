@@ -26,7 +26,7 @@ const options = {
     page.on('request', r => { if (new URL(r.url()).origin !== new URL(base).origin && /^https?:/.test(r.url())) external.add(r.url()); });
     page.on('response', r => { if (r.status() >= 400) badResponses.push(`${r.status()} ${r.url()}`); });
     await page.goto(base + '?mode=2d', { waitUntil: 'load' });
-    await page.locator('#btnLibFlipbook').click();
+    await page.locator('#btnFlipbookTop').click();
     assert(await page.locator('#svFlipbookModal').isVisible());
     await page.locator('#svFlipChapter').selectOption('c9_cell');
     await page.waitForFunction(() => document.querySelector('#svFlipCounter').textContent.includes('2.1'));
@@ -52,7 +52,7 @@ const options = {
     if (newChapterSrc !== expectedFirst) errors.push(`Chapter switch inherited image cycle: got ${newChapterSrc}, expected ${expectedFirst}`);
     // Return to Cell for the remaining control checks.
     await page.reload({ waitUntil: 'load' });
-    await page.locator('#btnLibFlipbook').click();
+    await page.locator('#btnFlipbookTop').click();
     await page.locator('#svFlipChapter').selectOption('c9_cell');
     await page.locator('#svFlipLangBtn').click();
     assert.equal(await page.evaluate(() => EV.lang), 'hi');

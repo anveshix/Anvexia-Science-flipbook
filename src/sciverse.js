@@ -1005,24 +1005,9 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
   function install() {
     // Topbar & Library triggers
     if ($("btnFlipbookTop")) $("btnFlipbookTop").onclick = () => openFlipbook();
-    if ($("btnLibFlipbook")) $("btnLibFlipbook").onclick = () => openFlipbook();
     if ($("btnSearchTop")) $("btnSearchTop").onclick = () => openSearch();
     if ($("svLibSearchBtn")) $("svLibSearchBtn").onclick = () => openSearch();
     if ($("btnOpenHigher")) $("btnOpenHigher").onclick = () => openHigherStudio();
-
-    // 4 Interactive Hero Pillars
-    if ($("svPillarFlipbook")) $("svPillarFlipbook").onclick = () => openFlipbook();
-    if ($("svPillar3D")) $("svPillar3D").onclick = () => {
-      if (window.EV_2D_ONLY) { openFlipbook(); return; }
-      if (!EV.world) EV.world = getWorld("c10_carbon");
-      setView("book");
-    };
-    if ($("svPillarExp")) $("svPillarExp").onclick = () => {
-      if (window.EV_2D_ONLY) { openFlipbook(EV.world ? EV.world.id : "c10_light", 0); return; }
-      openChapter(EV.world ? EV.world.id : "c10_light");
-      toast(BI("Predict → Adjust sliders & 3D handles → Earn your Discovery Stamp!", "अनुमान लगाएँ → स्लाइडर व 3D हैंडल चलाएँ → डिस्कवरी स्टैम्प पाएँ!"), "ok");
-    };
-    if ($("svPillarLang")) $("svPillarLang").onclick = cycleLanguage;
 
     // 2D Flipbook modal controls
     if ($("svFlipClose")) $("svFlipClose").onclick = closeFlipbook;
