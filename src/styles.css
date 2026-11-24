@@ -1422,6 +1422,18 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
  --fs:1;background:var(--paper);color:var(--ink);box-sizing:border-box;overflow:hidden;
  border:1px solid #C9D1DC;font-family:"Segoe UI",Roboto,"Noto Sans",Arial,'Noto Sans Devanagari Embedded',sans-serif;
 }
+/* explicit page-corner targets: a corner click always turns the page, even
+   over scrollable content, labels or hotspots */
+.svf-corner{
+ position:absolute;width:64px;height:64px;padding:0;border:0;margin:0;z-index:9;
+ background:transparent;cursor:pointer;-webkit-tap-highlight-color:transparent;
+ touch-action:manipulation;
+}
+.svf-corner.tl{left:0;top:0}
+.svf-corner.tr{right:0;top:0}
+.svf-corner.bl{left:0;bottom:0}
+.svf-corner.br{right:0;bottom:0}
+.svf-corner:focus-visible{outline:3px solid var(--blue);outline-offset:-4px}
 /* paper meets the spine: a soft gutter shadow, no texture */
 .svf-left-page{background:linear-gradient(270deg,rgba(20,33,61,.10),rgba(20,33,61,0) 34px),var(--paper)}
 .svf-right-page{background:linear-gradient(90deg,rgba(20,33,61,.10),rgba(20,33,61,0) 34px),var(--paper)}
