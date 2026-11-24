@@ -6,6 +6,7 @@ chapter/section exists in the runtime chapter data; every placement has
 bilingual anchored labels inside the image; chips never overlap; the
 generated composite plates are kept as fallbacks (never deleted).
 """
+import csv
 import json
 import re
 import struct
@@ -16,6 +17,26 @@ ROOT = Path(__file__).resolve().parent.parent
 data = json.loads((ROOT / "src/realistic_plates.json").read_text(encoding="utf-8"))
 labels = json.loads((ROOT / "src/label_data.json").read_text(encoding="utf-8"))
 errors = []
+
+# Locally generated drafts must survive upstream re-imports and stay first in
+# their section while keeping their own bilingual metadata.
+local = json.loads((ROOT / "src/local_illustrations.json").read_text(encoding="utf-8"))
+local_files = set()
+with (ROOT / "ROLLOUT_STATUS.csv").open(encoding="utf-8-sig", newline="") as f:
+    runtime_sections = {(r["chapter_id"], r["section"]) for r in csv.DictReader(f)}
+for chapter, sections in local["assets"].items():
+    for section, names in sections.items():
+        if (chapter, section) not in runtime_sections:
+            errors.append(f"unknown local section: {chapter}/{section}")
+        actual = data["assets"].get(chapter, {}).get(section, [])
+        if actual[:len(names)] != names:
+            errors.append(f"local plate order/mapping mismatch: {chapter}/{section}")
+        for name in names:
+            local_files.add(name)
+            if not name.startswith("rx/local_") or data["labels"].get(name) != local["labels"].get(name):
+                errors.append(f"local plate labels mismatch: {name}")
+if local_files != set(local["labels"]):
+    errors.append("local label keys differ from local plate files")
 
 
 def webp_size(b):

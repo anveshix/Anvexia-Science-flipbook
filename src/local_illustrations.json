@@ -1,0 +1,179 @@
+{
+ "assets": {
+  "c10_env": {
+   "13.1": [
+    "rx/local_c10_env_13_1.webp"
+   ]
+  },
+  "c10_metals": {
+   "3.8": [
+    "rx/local_c10_metals_3_8.webp"
+   ]
+  },
+  "c9_exploration": {
+   "1.1": [
+    "rx/local_c9_exploration_1_1.webp"
+   ]
+  },
+  "c9_forces": {
+   "6.3": [
+    "rx/local_c9_forces_6_3.webp"
+   ]
+  }
+ },
+ "labels": {
+  "rx/local_c10_env_13_1.webp": [
+   {
+    "anchor_x": 272,
+    "anchor_y": 506,
+    "en": "Aquatic plants",
+    "h": 66,
+    "hi": "जलीय पौधे",
+    "info_en": "Plants are living components that can make food using sunlight.",
+    "info_hi": "पौधे सजीव घटक हैं जो सूर्य के प्रकाश से भोजन बना सकते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 479,
+    "anchor_y": 482,
+    "en": "Fish",
+    "h": 66,
+    "hi": "मछली",
+    "info_en": "Fish are living consumers in the pond ecosystem.",
+    "info_hi": "मछली तालाब के पारितंत्र में सजीव उपभोक्ता हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 905,
+    "anchor_y": 420,
+    "en": "Water and sunlight",
+    "h": 66,
+    "hi": "जल और सूर्य का प्रकाश",
+    "info_en": "Water and sunlight are non-living components of the ecosystem.",
+    "info_hi": "जल और सूर्य का प्रकाश पारितंत्र के निर्जीव घटक हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_metals_3_8.webp": [
+   {
+    "anchor_x": 425,
+    "anchor_y": 512,
+    "en": "Steel cutlery",
+    "h": 66,
+    "hi": "इस्पात के बर्तन",
+    "info_en": "Steel is an alloy based on iron; stainless steel is commonly used for cutlery.",
+    "info_hi": "इस्पात लौह आधारित मिश्रधातु है; कटलरी के लिए प्रायः स्टेनलेस स्टील का उपयोग होता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 795,
+    "anchor_y": 503,
+    "en": "Brass handle",
+    "h": 66,
+    "hi": "पीतल का हैंडल",
+    "info_en": "Brass is an alloy mainly of copper and zinc, often used for hardware.",
+    "info_hi": "पीतल मुख्यतः ताँबे और जस्ते की मिश्रधातु है, जिसका उपयोग हार्डवेयर में होता है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1160,
+    "anchor_y": 589,
+    "en": "Bronze medal",
+    "h": 66,
+    "hi": "काँस्य पदक",
+    "info_en": "Bronze is commonly an alloy of copper and tin; medals may use other materials too.",
+    "info_hi": "काँस्य प्रायः ताँबे और टिन की मिश्रधातु है; पदक अन्य पदार्थों के भी हो सकते हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_exploration_1_1.webp": [
+   {
+    "anchor_x": 414,
+    "anchor_y": 414,
+    "en": "Leaf",
+    "h": 66,
+    "hi": "पत्ती",
+    "info_en": "Careful observation can reveal features such as a leaf’s shape and veins.",
+    "info_hi": "ध्यान से देखने पर पत्ती का आकार और उसकी शिराएँ जैसे गुण दिखाई देते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 742,
+    "anchor_y": 293,
+    "en": "Magnifying glass",
+    "h": 66,
+    "hi": "आवर्धक काँच",
+    "info_en": "A magnifying glass helps us examine small details.",
+    "info_hi": "आवर्धक काँच छोटे विवरणों को देखने में मदद करता है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 946,
+    "anchor_y": 569,
+    "en": "Notebook",
+    "h": 66,
+    "hi": "नोटबुक",
+    "info_en": "Recording observations helps us compare evidence and ask questions.",
+    "info_hi": "अवलोकन लिखने से साक्ष्य की तुलना और प्रश्न पूछने में मदद मिलती है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_forces_6_3.webp": [
+   {
+    "anchor_x": 290,
+    "anchor_y": 507,
+    "en": "Opposing forces",
+    "h": 66,
+    "hi": "विपरीत बल",
+    "info_en": "The arrows represent equal forces acting in opposite directions on the same crate.",
+    "info_hi": "तीर एक ही बक्से पर विपरीत दिशाओं में लगने वाले समान बल दिखाते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 700,
+    "anchor_y": 490,
+    "en": "Crate at rest",
+    "h": 66,
+    "hi": "विराम पर बक्सा",
+    "info_en": "The horizontal forces cancel; the support force and gravity also balance vertically.",
+    "info_hi": "क्षैतिज बल एक-दूसरे को संतुलित करते हैं; ऊर्ध्वाधर दिशा में अभिलंब बल और गुरुत्व भी संतुलित हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1100,
+    "anchor_y": 507,
+    "en": "Zero net force",
+    "h": 66,
+    "hi": "शून्य परिणामी बल",
+    "info_en": "Balanced forces mean zero acceleration; an object may be at rest or move at constant velocity.",
+    "info_hi": "संतुलित बलों से त्वरण शून्य होता है; वस्तु विराम में या स्थिर वेग से चल सकती है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ]
+ },
+ "source": "AI-generated conceptual drafts created for Sci-flip; subject and language review pending."
+}

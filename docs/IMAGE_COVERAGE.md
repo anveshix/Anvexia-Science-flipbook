@@ -1,7 +1,8 @@
 # 2D image coverage
 
-**193 of 266 sections** show a realistic plate or a 3D-rendered teaching view first (`assets/2d/rx/`, imported from `anveshix/ifinite-horizon`).
-The **73 sections below** still show only the generated composite plate. Each needs a new illustration in `ifinite-horizon` (`public/2d/<class>/<subject>/images/<id>.webp` + an entry with bilingual `marks` in `assets/va-2d.js`), then:
+**197 of 266 sections** show a realistic plate, a 3D-rendered teaching view, or a locally generated illustration first (`assets/2d/rx/`). The four local AI-generated drafts cover IX Exploration 1.1, IX Forces 6.3, X Metals 3.8 and X Environment 13.1. They have bilingual hotspots and remain subject and language review pending. The alloy objects are illustrative examples; their actual composition cannot be determined from appearance, and the medal lettering is not meaningful.
+
+The **69 sections below** still show only the generated composite plate. For upstream illustrations, add an image in `ifinite-horizon` (`public/2d/<class>/<subject>/images/<id>.webp` + an entry with bilingual `marks` in `assets/va-2d.js`), then:
 
 ```bash
 python3 tools/import_realistic_plates.py ../ifinite-horizon   # after adding the id to MAP/EXTRA in the script
@@ -23,9 +24,6 @@ npm run build && npm run qa
 ## Chemical Reactions and Equations (`c10_reactions`, Class X) — 2 missing
 - § 1.1 Chemical changes and their evidence
 - § 1.8 Exothermic and endothermic reactions
-
-## Metals and Non-metals (`c10_metals`, Class X) — 1 missing
-- § 3.8 Alloys and their uses
 
 ## Carbon and its Compounds (`c10_carbon`, Class X) — 8 missing
 - § 4.2.2 Chains, branches and rings
@@ -67,11 +65,7 @@ npm run build && npm run qa
 - § 7.8 Reproductive health and contraception
 - § 7.9 HIV, AIDS and women's health
 
-## Our Environment (`c10_env`, Class X) — 1 missing
-- § 13.1 Ecosystem and its components
-
-## Exploration: Entering the World of Secondary Science (`c9_exploration`, Class IX) — 5 missing
-- § 1.1 Science begins with observation
+## Exploration: Entering the World of Secondary Science (`c9_exploration`, Class IX) — 4 missing
 - § 1.2 Focused questions guide investigation
 - § 1.4 Experiments produce evidence
 - § 1.5 Models connect the unseen to the seen
@@ -82,9 +76,6 @@ npm run build && npm run qa
 - § 5.5 Mass by mass percentage
 - § 5.6 Mass by volume and volume by volume
 - § 5.10 Centrifugation and coagulation
-
-## How Forces Affect Motion (`c9_forces`, Class IX) — 1 missing
-- § 6.3 Balanced forces
 
 ## Work, Energy, and Simple Machines (`c9_work_energy`, Class IX) — 3 missing
 - § 7.2 Positive, negative and zero work

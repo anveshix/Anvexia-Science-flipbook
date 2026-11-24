@@ -16,7 +16,7 @@ Full verbatim license texts for all bundled libraries and fonts are embedded ins
 
 ## 2D teaching plates (`assets/2d/rx/`)
 
-Imported from `anveshix/ifinite-horizon` (main) by `tools/import_realistic_plates.py`. Illustrative teaching images, not to scale and not micrographs.
+Most are imported from `anveshix/ifinite-horizon` (main) by `tools/import_realistic_plates.py`. The four `rx/local_*` plates were AI-generated for Sci-flip; their local mappings and bilingual hotspots are maintained in `src/local_illustrations.json`. All are illustrative teaching images, not to scale and not micrographs; the new drafts await scientific and language review.
 
 These anatomy renders are adapted from BodyParts3D and Z-Anatomy and are shared under **CC BY-SA 4.0**:
 
