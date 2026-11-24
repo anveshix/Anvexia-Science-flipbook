@@ -289,7 +289,7 @@ function renderLesson() {
   const rawV = sp.vocab || [], rawVHi = sp.vocabHi || [];
   const terms = VOC(sp).slice(0, 3).map((v, i) => `<span title="${esc(v[1])}"><b>${EV.lang === "both" && rawVHi.length ? BX(rawV[i] && rawV[i][0], rawVHi[i] && rawVHi[i][0]) : esc(v[0])}</b></span>`).join(" · ");
   html($("lessonCard"), `
-    <div class="lc-head"><span>§ ${esc(sp.section)} · ${esc(t("predict"))}</span>
+    <div class="lc-head"><span>${esc(sp.section)} · ${esc(t("predict"))}</span>
       <span><button class="btn ghost tiny" id="btnNarrate" title="${esc(t("narrate"))}" data-i18n-title="narrate" data-i18n-aria="narrate">◖</button>
       <span class="stamp ${pg.stamped ? "earned" : ""}" id="stampBadge">${pg.stamped ? "★ " + esc(t("stamp")) : "☆"}</span></span></div>
     <h2>${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(title)}</h2>
@@ -1878,14 +1878,14 @@ function renderPageBar() {
   html($("pageBar"), `
     <button class="btn ghost" id="btnPrev" ${idx === 0 ? "disabled" : ""}>←</button>
     <div class="pdots">${dots}</div>
-    <div class="pb-center"><b>${esc(t("spread"))} ${idx + 1} ${esc(t("of"))} ${n}</b><small>§${esc(w.spreads[idx].section)} · ${esc(w.spreads[idx].short)}</small></div>
+    <div class="pb-center"><b>${esc(t("spread"))} ${idx + 1} ${esc(t("of"))} ${n}</b><small>${esc(w.spreads[idx].section)} · ${esc(w.spreads[idx].short)}</small></div>
     <button class="btn primary" id="btnNext" ${idx === n - 1 ? "disabled" : ""}>→</button>
     <div class="plate-view" role="group" aria-label="${esc(uiTxt("plate2d.toggle"))}" data-i18n-aria="plate2d.toggle">
       <button class="btn ghost tiny ${WORLD.plate2d ? "active" : ""}" id="plate2d" data-plate="2d" title="${esc(uiTxt("plate2d.label"))}" data-i18n-title="plate2d.label" data-i18n-aria="plate2d.label" ${WORLD.plate2dAvailable(w) ? "" : "disabled"}>2D</button>
       <button class="btn ghost tiny ${WORLD.plate2d ? "" : "active"}" id="plate3d" data-plate="3d" title="${esc(uiTxt("plate3d.label"))}" data-i18n-title="plate3d.label" data-i18n-aria="plate3d.label">3D</button>
     </div>
     <div class="pager-tools">
-      <button class="btn ghost tiny sv-page-flip-btn" id="btnPageFlipbook" type="button" title="${esc(uiTxt("sv.flipbookSub"))}" data-i18n="sv.flipbookBtn">📖 ${esc(uiTxt("sv.flipbookBtn"))}</button>
+      <button class="btn ghost tiny sv-page-flip-btn" id="btnPageFlipbook" type="button" title="${esc(uiTxt("sv.flipbookSub"))}" data-i18n="sv.flipbookBtn">${esc(uiTxt("sv.flipbookBtn"))}</button>
       ${EVRASTER.has(w,w.spreads[idx]) ? `<button class="btn ghost tiny ${EVRASTER.enabled ? 'active' : ''}" id="btnAIDraft" type="button" aria-pressed="${EVRASTER.enabled}" data-i18n="draft.button" data-i18n-title="draft.toggle" data-i18n-aria="draft.toggle">${esc(uiTxt("draft.button"))}</button>` : ''}
       <button class="btn ghost tiny" id="btnZoomFigure" type="button" title="${esc(uiTxt("zoom.open"))}" data-i18n-title="zoom.open" data-i18n-aria="zoom.open" data-i18n="zoom.short">${esc(uiTxt("zoom.short"))}</button>
       <button class="btn ghost tiny ${EV.panels.left ? "active" : ""}" data-panel="left" title="${esc(t("panelLeft"))}" data-i18n-title="panelLeft" data-i18n-aria="panelLeft">◧ ${esc(BI("Predict", "अनुमान"))}</button>
@@ -2619,8 +2619,8 @@ function showHelp() {
 const EVLIB = (function () {
   'use strict';
   const KEYS = [
-    ["lib.eyebrow", "SCIVERSE 3D · CBSE / NCERT SCIENCE", "साइवर्स 3D · सीबीएसई / NCERT विज्ञान", "SCIVERSE 3D · CBSE / NCERT SCIENCE"],
-    ["lib.title", "SciVerse 3D", "साइवर्स 3D · SciVerse 3D", "SciVerse 3D / साइवर्स 3D"],
+    ["lib.eyebrow", "ANVEXIA · CBSE / NCERT SCIENCE", "अन्वेक्सिया · सीबीएसई / NCERT विज्ञान", "ANVEXIA · CBSE / NCERT SCIENCE"],
+    ["lib.title", "Anvexia", "Anvexia", "Anvexia"],
     ["lib.sub", "Class IX–X Science mastery · extensible to Class XI–XII. Choose a textbook or launch any learning mode below.",
       "कक्षा IX–X विज्ञान दक्षता · कक्षा XI–XII तक विस्तार योग्य। नीचे पाठ्यपुस्तक या शिक्षण मोड चुनें।",
       "Class IX–X Science · XI–XII Ready / कक्षा IX–X विज्ञान · द्विभाषी"],

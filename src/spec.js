@@ -10,7 +10,7 @@
 
 const I18N = {
   en: {
-    brand: "SciVerse 3D", tagline: "Explore Science. Experience Discovery.",
+    brand: "Anvexia", tagline: "Science, brought to life.",
     world: "Meta World", book: "Open Book", flipbook: "2D Flipbook", search: "Search Science", compiler: "Chapter Compiler", spec: "World Spec", quiz: "Chapter Quiz", research: "Repo Research", teacher: "Teacher Desk",
     enterWorld: "Open book", openChapter: "Open chapter", compile: "Compile chapter", validate: "Validate spec",
     paste: "Paste your NCERT / CBSE chapter text here (Class IX–XII)…", demo: "Load sample chapter", upload: "Upload .txt / .md / .pdf",
@@ -49,7 +49,7 @@ const I18N = {
     copied: "Copied", saved: "Saved", worldOf: "WORLD OF"
   },
   hi: {
-    brand: "SciVerse 3D · साइवर्स", tagline: "विज्ञान का अन्वेषण करें। खोज का अनुभव लें।",
+    brand: "Anvexia", tagline: "विज्ञान को जीवंत देखिए।",
     world: "मेटा वर्ल्ड", book: "खुली किताब", flipbook: "2D फ़्लिपबुक", search: "विज्ञान खोजें", compiler: "चैप्टर कंपाइलर", spec: "वर्ल्ड स्पेक", quiz: "अध्याय प्रश्नोत्तरी", research: "रेपो रिसर्च", teacher: "शिक्षक डेस्क",
     enterWorld: "किताब खोलें", openChapter: "अध्याय खोलें", compile: "अध्याय कंपाइल करें", validate: "स्पेक जाँचें",
     paste: "अपना NCERT / CBSE अध्याय (कक्षा IX–XII) यहाँ पेस्ट करें…", demo: "नमूना अध्याय लोड करें", upload: ".txt / .md / .pdf अपलोड",
@@ -97,7 +97,7 @@ Object.keys(I18N.en).forEach(k => {
   I18N.both[k] = (hi && en !== hi && (en.length + hi.length) <= 30) ? en + " · " + hi : en;
 });
 Object.assign(I18N.both, {
-  brand: "SciVerse 3D", tagline: "Explore Science. Experience Discovery. · विज्ञान की खोज",
+  brand: "Anvexia", tagline: "Science, brought to life. · विज्ञान को जीवंत देखिए।",
   flipbook: "2D Flipbook · फ़्लिपबुक", search: "Search · खोजें",
   langLabel: "EN + हिंदी", predict: "PREDICT · अनुमान", meters: "READINGS · रीडिंग",
   challenge: "CHALLENGE · चुनौती", keyTerms: "KEY TERMS · शब्द", check: "Lock · पक्का",
@@ -536,7 +536,7 @@ function repairSpread(s, i) {
   }
   const seeds = [
     [cut(s.short || s.title, 26), cut(s.conceptHi || s.concept, 58)],
-    ["NCERT §" + s.section, cut(hi, 48)],
+    ["NCERT " + s.section, cut(hi, 48)],
     ["OBSERVE · प्रेक्षण", "Move the control and read the live meters."]
   ];
   const v = (s.vocab || []).slice();
@@ -603,7 +603,7 @@ function validateWorld(w) {
 }
 
 /* Production prompt: the AI writes ONLY WorldSpec JSON, never 3D code. */
-const GEMINI_PROMPT = `You are the SciVerse 3D chapter compiler for CBSE / NCERT Science (Classes IX–X, extensible to XI–XII).
+const GEMINI_PROMPT = `You are the Anvexia chapter compiler for CBSE / NCERT Science (Classes IX–X, extensible to XI–XII).
 The 3D book + 2D Flipbook engine is already written. You DO NOT write code. You write ONE JSON object
 (WorldSpec) that the engine renders as an interactive 3D textbook world and 2D Flipbook.
 

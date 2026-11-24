@@ -1,13 +1,13 @@
-# SciVerse 3D
+# Anvexia
 
-**Explore Science. Experience Discovery.**
-*विज्ञान का अन्वेषण करें। खोज का अनुभव लें।*
+**Science, brought to life.**
+*विज्ञान को जीवंत देखिए।*
 
 `2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning`
 
 ---
 
-**SciVerse 3D** is an offline-first, self-contained bilingual (**English + हिंदी**) interactive science platform built for **CBSE / NCERT Class IX & X Science** (33 chapters · 266 spreads · 274 high-resolution `1408 × 768` 2D scientific plates · 580 bilingual MCQs) with clean architectural scalability to **Class XI & XII** Physics, Chemistry, and Biology.
+**Anvexia** is an offline-first, self-contained bilingual (**English + हिंदी**) interactive science platform built for **CBSE / NCERT Class IX & X Science** (33 chapters · 266 spreads · 274 high-resolution `1408 × 768` 2D scientific plates · 580 bilingual MCQs) with clean architectural scalability to **Class XI & XII** Physics, Chemistry, and Biology.
 
 ## Core Pillars
 
@@ -21,7 +21,7 @@
 
 All runtime libraries are vendored and bundled offline into `index.html` (`< 5.0 MB` strict initial payload budget, **zero** external CDN/network requests, strict SHA-256 script CSP):
 
-| Package | Version | License | Role in SciVerse 3D |
+| Package | Version | License | Role in Anvexia |
 | --- | --- | --- | --- |
 | `three` (custom r187 IIFE) | `0.187.x` | MIT | Shared 3D WebGL textbook world, pop-up apparatus, ray optics & organs |
 | `page-flip` (`StPageFlip`) | `2.0.7` | MIT | Tactile 2D hardcover & soft-page Science Flipbooks |

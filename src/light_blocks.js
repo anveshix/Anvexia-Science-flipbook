@@ -292,7 +292,7 @@ const KIND = { id: "kind", label: "Surface (0 = concave, 1 = convex)", min: 0, m
 const LIGHT_BLOCKS = {
   reflection: LIGHT({
     mode: "plane", kind: "mirror", icon: "◑", label: "Laws of reflection · plane mirror",
-    title: "§9.1 · LAWS OF REFLECTION", note: "∠i = ∠r  ·  incident ray, normal and reflected ray lie in one plane",
+    title: "9.1 · LAWS OF REFLECTION", note: "∠i = ∠r  ·  incident ray, normal and reflected ray lie in one plane",
     controls: [
       { id: "i", label: "Angle of incidence i", min: 0, max: 75, value: 35, unit: "°" },
       { id: "d", label: "Object distance from mirror", min: 5, max: 30, value: 20, unit: "cm" }
@@ -300,17 +300,17 @@ const LIGHT_BLOCKS = {
   }),
   mirror: LIGHT({
     mode: "optic", kind: "mirror", icon: "◐", label: "Spherical mirror · image formation",
-    title: "§9.2 · SPHERICAL MIRROR", note: "R = 2f  ·  ray parallel to axis → focus  ·  ray through C returns",
+    title: "9.2 · SPHERICAL MIRROR", note: "R = 2f  ·  ray parallel to axis → focus  ·  ray through C returns",
     controls: [U, F, KIND]
   }),
   mirrorformula: LIGHT({
     mode: "graph", kind: "mirror", icon: "∫", label: "Mirror formula & magnification",
-    title: "§9.2.4 · MIRROR FORMULA", note: "1/v + 1/u = 1/f   ·   m = −v/u   ·   R = 2f",
+    title: "9.2.4 · MIRROR FORMULA", note: "1/v + 1/u = 1/f   ·   m = −v/u   ·   R = 2f",
     controls: [U, F, KIND]
   }),
   slab: LIGHT({
     mode: "slab", kind: "lens", icon: "▭", label: "Refraction · rectangular glass slab",
-    title: "§9.3.1 · GLASS SLAB", note: "n₁ sin i = n₂ sin r  ·  emergent ray ∥ incident ray  ·  lateral shift",
+    title: "9.3.1 · GLASS SLAB", note: "n₁ sin i = n₂ sin r  ·  emergent ray ∥ incident ray  ·  lateral shift",
     controls: [
       { id: "i", label: "Angle of incidence i", min: 0, max: 75, value: 35, unit: "°" },
       { id: "n", label: "Refractive index of glass", min: 1, max: 2.2, value: 1.5, unit: "" }
@@ -318,17 +318,17 @@ const LIGHT_BLOCKS = {
   }),
   lens: LIGHT({
     mode: "optic", kind: "lens", icon: "◍", label: "Spherical lens · image formation",
-    title: "§9.3.3 · SPHERICAL LENS", note: "ray ∥ axis → focus  ·  ray through optical centre goes straight",
+    title: "9.3.3 · SPHERICAL LENS", note: "ray ∥ axis → focus  ·  ray through optical centre goes straight",
     controls: [U, F, KIND]
   }),
   lensformula: LIGHT({
     mode: "graph", kind: "lens", icon: "∑", label: "Lens formula & magnification",
-    title: "§9.3.7 · LENS FORMULA", note: "1/v − 1/u = 1/f   ·   m = v/u   ·   P = 1/f(m)",
+    title: "9.3.7 · LENS FORMULA", note: "1/v − 1/u = 1/f   ·   m = v/u   ·   P = 1/f(m)",
     controls: [U, F, KIND]
   }),
   lenspower: LIGHT({
     mode: "power", kind: "lens", icon: "D", label: "Power of a lens · dioptre",
-    title: "§9.3.8 · POWER OF A LENS", note: "P = 1/f (metre)  ·  P = P₁ + P₂ + ⋯  ·  unit: dioptre (D)",
+    title: "9.3.8 · POWER OF A LENS", note: "P = 1/f (metre)  ·  P = P₁ + P₂ + ⋯  ·  unit: dioptre (D)",
     controls: [
       { id: "f1", label: "Lens 1 focal length", min: 10, max: 200, value: 50, unit: "cm" },
       { id: "f2", label: "Lens 2 focal length (+/−)", min: -200, max: 200, value: 50, unit: "cm" }
@@ -612,8 +612,8 @@ const O3 = (function () {
     const residual = rnd(1 / d.v + 1 / d.u - 1 / d.f, 10);
     return {
       title_en: 'O3 · spherical mirror / raymirror', title_hi: 'O3 · गोलीय दर्पण / raymirror',
-      caption_en: 'NCERT §9.2: R = 2f. Two rays locate the image top; the signed mirror formula predicts v and m.',
-      caption_hi: 'NCERT §9.2: R = 2f। दो किरणें प्रतिबिम्ब का शीर्ष ढूँढती हैं; चिह्नित दर्पण सूत्र v व m बताता है।',
+      caption_en: 'NCERT 9.2: R = 2f. Two rays locate the image top; the signed mirror formula predicts v and m.',
+      caption_hi: 'NCERT 9.2: R = 2f। दो किरणें प्रतिबिम्ब का शीर्ष ढूँढती हैं; चिह्नित दर्पण सूत्र v व m बताता है।',
       hint_en: 'Drag u and f: F, C, the image arrow and every ray segment are recomputed.',
       hint_hi: 'u व f खींचें: F, C, प्रतिबिम्ब तीर और हर किरण खंड फिर से गणना होते हैं।',
       equation: FORMULAS.mirror, equation_hi: 'दर्पण सूत्र · 1/v + 1/u = 1/f',
@@ -653,8 +653,8 @@ const O3 = (function () {
     const residual = rnd(1 / d.v - 1 / d.u - 1 / d.f, 10);
     return {
       title_en: 'O3 · spherical lens / raylens', title_hi: 'O3 · गोलीय लेंस / raylens',
-      caption_en: 'NCERT §9.3: a parallel ray refracts through F; a ray through the optical centre is undeviated. P = 1/f(m).',
-      caption_hi: 'NCERT §9.3: समांतर किरण F से होकर अपवर्तित; प्रकाशिक केन्द्र से किरण अविचलित। P = 1/f(m)।',
+      caption_en: 'NCERT 9.3: a parallel ray refracts through F; a ray through the optical centre is undeviated. P = 1/f(m).',
+      caption_hi: 'NCERT 9.3: समांतर किरण F से होकर अपवर्तित; प्रकाशिक केन्द्र से किरण अविचलित। P = 1/f(m)।',
       hint_en: 'Drag u and f: the lens formula recomputes v, m, power and every dynamic segment.',
       hint_hi: 'u व f खींचें: लेंस सूत्र v, m, क्षमता और हर गतिशील खंड फिर से गणना करता है।',
       equation: FORMULAS.lens, equation_hi: 'लेंस सूत्र · 1/v − 1/u = 1/f',
@@ -691,8 +691,8 @@ const O3 = (function () {
     const sinResidual = i < 0.5 ? 0 : rnd(Math.sin(deg(i)) / Math.sin(deg(rr)) - nn, 6);
     return {
       title_en: 'O3 · rectangular glass slab / rayslab', title_hi: 'O3 · आयताकार काँच की पट्टी / rayslab',
-      caption_en: 'NCERT §9.3.1: n₁ sin i = n₂ sin r. The emergent ray is parallel to the incident ray with a lateral shift.',
-      caption_hi: 'NCERT §9.3.1: n₁ sin i = n₂ sin r। निर्गत किरण आपतित किरण के समांतर, पार्श्व विस्थापन सहित।',
+      caption_en: 'NCERT 9.3.1: n₁ sin i = n₂ sin r. The emergent ray is parallel to the incident ray with a lateral shift.',
+      caption_hi: 'NCERT 9.3.1: n₁ sin i = n₂ sin r। निर्गत किरण आपतित किरण के समांतर, पार्श्व विस्थापन सहित।',
       hint_en: 'Set i = 0 for normal incidence: the ray passes straight through with zero shift.',
       hint_hi: 'i = 0 करें: अभिलंब आपतन पर किरण बिना मुड़े, शून्य विस्थापन से निकलती है।',
       equation: FORMULAS.snell, equation_hi: 'स्नेल का नियम · n₁ sin i = n₂ sin r',
@@ -732,8 +732,8 @@ const O3 = (function () {
       ]);
       return {
         title_en: 'O3 · power of a lens / raygraph', title_hi: 'O3 · लेंस की क्षमता / raygraph',
-        caption_en: 'NCERT §9.3.8: P = 1/f(m); thin lenses in contact add algebraically. One dioptre is one inverse metre.',
-        caption_hi: 'NCERT §9.3.8: P = 1/f(m); संपर्क के पतले लेंसों की क्षमता बीजीय रूप से जुड़ती है।',
+        caption_en: 'NCERT 9.3.8: P = 1/f(m); thin lenses in contact add algebraically. One dioptre is one inverse metre.',
+        caption_hi: 'NCERT 9.3.8: P = 1/f(m); संपर्क के पतले लेंसों की क्षमता बीजीय रूप से जुड़ती है।',
         hint_en: 'Combine +2.0 D and +0.25 D and read +2.25 D; make P zero for f = ∞.',
         hint_hi: '+2.0 D व +0.25 D जोड़ें और +2.25 D पढ़ें; P = 0 पर f = ∞।',
         equation: FORMULAS.power, equation_hi: 'क्षमता · P = 1/f(m)',

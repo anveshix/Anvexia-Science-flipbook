@@ -1,6 +1,6 @@
 /* ==========================================================================
-   SciVerse 3D — Experience & Discovery Layer
-   "Explore Science. Experience Discovery."
+   Anvexia — Experience & Discovery Layer
+   "Science, brought to life."
    Pillars:
      1. 2D Flipbooks           — Tactile hardcover illustrated flipbook (StPageFlip)
      2. 3D Models              — Synchronized bridge to shared Three.js r187 world
@@ -236,7 +236,7 @@ const SCIVERSE = (function () {
       } else {
         const sIdx = currentFlipSpreadIndex();
         const sp = flipWorld.spreads[sIdx];
-        counter.textContent = `§ ${sp.section} · ${BI("Spread", "स्प्रेड")} ${sIdx + 1} / ${total}`;
+        counter.textContent = `${sp.section} · ${BI("Spread", "स्प्रेड")} ${sIdx + 1} / ${total}`;
       }
     }
     const activeIdx = p < FIRST_SPREAD_PAGE ? -1 : (p >= spreadPage(total) ? total : currentFlipSpreadIndex());
@@ -274,7 +274,7 @@ const SCIVERSE = (function () {
     const tocItems = w.spreads.map((sp, i) => {
       const stamped = (EV.progress[pkey(w, sp)] || {}).stamped;
       return `<button type="button" class="svf-toc-row svf-interactive" data-svf-goto="${i}">
-        <span class="svf-toc-sec">§ ${esc(sp.section)}</span>
+        <span class="svf-toc-sec">${esc(sp.section)}</span>
         <span class="svf-toc-ttl">${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</span>
         <span class="svf-toc-st">${stamped ? "★" : "→"}</span>
       </button>`;
@@ -284,10 +284,10 @@ const SCIVERSE = (function () {
     let pages = `
       <div class="svf-page svf-cover svf-hard" data-density="hard">
         <div class="svf-cover-inner">
-          <div class="svf-cover-kicker">SCIVERSE 3D · ${esc(BI("CLASS", "कक्षा"))} ${esc(w.cls || "X")} · ${esc(subjLabel.toUpperCase())}</div>
+          <div class="svf-cover-kicker">ANVEXIA · ${esc(BI("CLASS", "कक्षा"))} ${esc(w.cls || "X")} · ${esc(subjLabel.toUpperCase())}</div>
           <div class="svf-cover-ornament" aria-hidden="true">⚛</div>
           <h2 class="svf-cover-title">${EV.lang === "both" ? BX(w.title, w.titleHi) : esc(BI(w.title, w.titleHi))}</h2>
-          <p class="svf-cover-tag">Explore Science. Experience Discovery.</p>
+          <p class="svf-cover-tag">${esc(BI("Science, brought to life.", "विज्ञान को जीवंत देखिए।"))}</p>
           <div class="svf-cover-pills">
             <span>${w.spreads.length} ${esc(BI("Illustrated Spreads", "सचित्र स्प्रेड"))}</span>
             <span>★ ${stamps}/${w.spreads.length} ${esc(BI("Stamped", "पूर्ण"))}</span>
@@ -297,7 +297,7 @@ const SCIVERSE = (function () {
       </div>
       <div class="svf-page svf-toc-page">
         <div class="svf-page-inner">
-          <div class="svf-phead"><span>${esc(BI("Contents", "विषय-सूची"))}</span><span>${w.spreads.length} §</span></div>
+          <div class="svf-phead"><span>${esc(BI("Contents", "विषय-सूची"))}</span><span>${w.spreads.length} ${esc(BI("sections", "खंड"))}</span></div>
           <div class="svf-toc-list">${tocItems}</div>
         </div>
       </div>
@@ -352,7 +352,7 @@ const SCIVERSE = (function () {
       <div class="svf-page svf-left-page" data-spread="${i}">
         <div class="svf-page-inner">
           <div class="svf-phead">
-            <span class="svf-sec">§ ${esc(sp.section)}</span>
+            <span class="svf-sec">${esc(sp.section)}</span>
             <span class="svf-stamp ${pg.stamped ? "earned" : ""}">${pg.stamped ? "★ " + esc(t("stamp")) : esc(BI("Section", "खंड")) + " " + (i + 1) + " / " + w.spreads.length}</span>
           </div>
           <h3 class="svf-title">${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</h3>
@@ -397,7 +397,7 @@ const SCIVERSE = (function () {
     pages += `
       <div class="svf-page svf-cover svf-back svf-hard" data-density="hard">
         <div class="svf-cover-inner">
-          <div class="svf-cover-kicker">SCIVERSE 3D · CHAPTER COMPLETE</div>
+          <div class="svf-cover-kicker">ANVEXIA · CHAPTER COMPLETE</div>
           <h2 class="svf-cover-title">${esc(BI("Ready to Test Your Mastery?", "अपनी समझ जाँचने के लिए तैयार?"))}</h2>
           <p class="svf-cover-tag">★ ${stamps} / ${w.spreads.length} ${esc(BI("Discovery Stamps Earned", "डिस्कवरी स्टैम्प अर्जित"))}</p>
           <div class="svf-back-actions svf-interactive">
@@ -613,7 +613,7 @@ const SCIVERSE = (function () {
       dots.innerHTML = `<button type="button" class="pdot" data-svf-jump="-1" title="Cover">C</button>` +
         w.spreads.map((s, idx) => {
           const st = (EV.progress[pkey(w, s)] || {}).stamped ? "stamped" : "";
-          return `<button type="button" class="pdot ${st}" data-svf-jump="${idx}" title="§ ${esc(s.section)} ${esc(s.title)}">${idx + 1}</button>`;
+          return `<button type="button" class="pdot ${st}" data-svf-jump="${idx}" title="${esc(s.section)} ${esc(s.title)}">${idx + 1}</button>`;
         }).join("");
       dots.querySelectorAll("[data-svf-jump]").forEach(b => {
         b.onclick = () => {
@@ -764,14 +764,14 @@ const SCIVERSE = (function () {
           <div class="sv-hit-meta">
             <span class="sv-hit-cls">Class ${esc(h.cls)}</span>
             <span class="sv-hit-subj ${esc(h.subject)}">${esc(subjBadge(h.subject))}</span>
-            <span class="sv-hit-ch">${esc(BI(h.chapterTitle, h.chapterHi))} · § ${esc(h.section)}</span>
+            <span class="sv-hit-ch" data-section="${esc(h.section)}">${esc(BI(h.chapterTitle, h.chapterHi))} · ${esc(h.section)}</span>
           </div>
           <div class="sv-hit-title">${EV.lang === "both" ? BX(h.title, h.titleHi) : esc(BI(h.title, h.titleHi))}</div>
           ${h.formula ? `<div class="sv-hit-eq">${esc(h.formula)}</div>` : ""}
         </div>
         <div class="sv-hit-btns">
-          <button type="button" class="btn ghost tiny" data-hit-2d="${idx}" title="Open in 2D Flipbook">📖 2D</button>
-          <button type="button" class="btn primary tiny" data-hit-3d="${idx}" title="Open in Book">📘 Open</button>
+          <button type="button" class="btn ghost tiny" data-hit-2d="${idx}" title="Open in 2D Flipbook">2D</button>
+          <button type="button" class="btn primary tiny" data-hit-3d="${idx}" title="Open in Book">Open</button>
         </div>
       </div>
     `;}).join("");
@@ -887,7 +887,7 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
     if (!drawer || !listEl) return;
     if (window.EVLIB) EVLIB.setLibrary(true);
 
-    $("ldEyebrow").textContent = BI("SCIVERSE 3D · CLASS XI & XII EXPANSION STUDIO", "साइवर्स 3D · कक्षा XI व XII विस्तार स्टूडियो");
+    $("ldEyebrow").textContent = BI("ANVEXIA · CLASS XI & XII EXPANSION STUDIO", "अन्वेक्सिया · कक्षा XI व XII विस्तार स्टूडियो");
     $("ldTitle").textContent = BI("Higher Classes · Class XI & XII Science", "उच्च कक्षाएँ · कक्षा XI व XII विज्ञान");
     $("ldSub").textContent = BI(
       "4 instant Class XI–XII PCM/PCB blueprints + 7 bridge chapters + full custom NCERT XI–XII compiler",
@@ -949,7 +949,7 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
           title: bp.title,
           cls: bp.cls,
           subject: bp.subject,
-          source: `SciVerse 3D · Class ${bp.cls} Blueprint`
+          source: `Anvexia · Class ${bp.cls} Blueprint`
         });
         w.id = bp.id;
         w.titleHi = bp.hi;

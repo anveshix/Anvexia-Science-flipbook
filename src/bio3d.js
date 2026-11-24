@@ -655,7 +655,7 @@ const BIO3D = (function () {
     const rt = route(world, sp);
     return {
       model: id, en: m.en, hi: m.hi, ncert: m.ncert,
-      section: "§ " + (sp.section || ""), cls: (world && world.cls) || "IX",
+      section: "" + (sp.section || ""), cls: (world && world.cls) || "IX",
       subject: (world && world.subject) || "bio",
       caption: String(sp.fig || ""), captionHi: String(sp.figHi || sp.fig || ""),
       routedBy: rt.by, shared: shared,

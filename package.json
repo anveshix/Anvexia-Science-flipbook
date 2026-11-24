@@ -1,7 +1,7 @@
 {
-  "name": "sciverse-3d",
+  "name": "anvexia",
   "version": "2.0.0",
-  "description": "SciVerse 3D — Explore Science. Experience Discovery. 2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning (Class IX–X Science, extensible to Class XI–XII).",
+  "description": "Anvexia — Science, brought to life. 2D Flipbooks • 3D Models • Interactive Experiments • Hindi–English Learning (Class IX–X Science, extensible to Class XI–XII).",
   "private": true,
   "license": "SEE LICENSE IN vendor/THIRD_PARTY_LICENSES.txt",
   "author": "Paras Pranav",
