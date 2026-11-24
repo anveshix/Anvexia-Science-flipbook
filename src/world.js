@@ -1008,7 +1008,13 @@ const WORLD = (function () {
     function retryFailed() {
       for (const [src, entry] of cache) if (entry.failed) cache.delete(src);
     }
-    return { get, warm, retryFailed, has: (w, sp) => !!fileFor(w, sp) };
+    function failed(world, sp) {
+      const file = fileFor(world, sp);
+      if (!file) return false;
+      const e = cache.get(EVPLATE_SRC(world.id, file));
+      return !!(e && e.failed);
+    }
+    return { get, warm, retryFailed, failed, has: (w, sp) => !!fileFor(w, sp) };
   })();
   function drawRasterPlate(x, sp, img, X, Y, W, H) {
     x.save();
@@ -1030,11 +1036,23 @@ const WORLD = (function () {
     x.strokeStyle = "#163e66"; x.lineWidth = 3; x.strokeRect(X + 1.5, Y + 1.5, W - 3, H - 3);
     x.restore();
   }
+  /* 2D-only: while the realistic plate is decoding (or if it fails), the page
+     never falls back to the old vector line diagram. A neutral plate shell is
+     painted instead; the real image replaces it on the next repaint. */
+  function drawPlatePlaceholder(x, sp, X, Y, W, H, failed) {
+    x.save();
+    x.fillStyle = "#0b1828"; x.fillRect(X, Y, W, H);
+    x.strokeStyle = "#163e66"; x.lineWidth = 3; x.strokeRect(X + 1.5, Y + 1.5, W - 3, H - 3);
+    x.textAlign = "center";
+    x.fillStyle = "#eaf4ff"; x.font = "700 22px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
+    drawFitted(x, failed ? BI("2D illustration unavailable", "2D चित्र उपलब्ध नहीं") : BI("Loading 2D illustration…", "2D चित्र लोड हो रहा है…"),
+      X + W / 2, Y + H / 2, W - 40, x.font, 2, 0, 60, 14);
+    x.restore();
+  }
   function figurePlate(x, sp, X, Y, W, H) {
     const raster = plate2d ? RASTER.get(currentWorld, sp) : null;
     if (raster) drawRasterPlate(x, sp, raster, X, Y, W, H);
-    else if (plate2d && EVPLATE2D.has(currentWorld, sp)) draw2DPlate(x, sp, X, Y, W, H);
-    else if (plate2d) drawBigDiagram(x, sp, X, Y, W, H); /* honest local fallback underneath draft */
+    else if (plate2d) drawPlatePlaceholder(x, sp, X, Y, W, H, RASTER.failed && RASTER.failed(currentWorld, sp));
     else if (figureMode === "3d" && FIGURE3D.ready) draw3DPlate(x, sp, X, Y, W, H);
     else drawBigDiagram(x, sp, X, Y, W, H);   /* honest GPU-failure fallback */
   }

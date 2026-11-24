@@ -218,7 +218,7 @@ const report = vm.runInContext(`
         kinds[3] !== "svf-left-page" || kinds[4] !== "svf-right-page" || kinds.length % 2 !== 0) {
       throw new Error("Flipbook page parity broken: " + kinds.slice(0, 6).join(","));
     }
-    if (window.EV_2D_ONLY) throw new Error("3D must be the default when WebGL is available");
+    if (!window.EV_2D_ONLY) throw new Error("2D must be the default; ?mode=3d is the QA escape hatch");
     SCIVERSE.closeFlipbook();
 
     // Verify Higher Classes (XI & XII) studio & compiler support
@@ -249,24 +249,24 @@ const report = vm.runInContext(`
     }
     // Verify all 33 chapters activate realistic topic images by default on openChapter()
     const thumbs33 = CATALOGUE_ALL.map(c => EVRASTER.firstThumb(c.id)).filter(Boolean);
-    if (EVRASTER.filesFor("c10_light", "9.1").join() !== "rx/reflection.webp,9-01-reflection-laws.jpg") {
-      throw new Error("Realistic plate must come first, generated composite kept second: " + EVRASTER.filesFor("c10_light", "9.1").join());
+    if (EVRASTER.filesFor("c10_light", "9.1").join() !== "rx/reflection.webp") {
+      throw new Error("Only the realistic plate may be offered as a reading image: " + EVRASTER.filesFor("c10_light", "9.1").join());
     }
     if (thumbs33.length !== 33) {
       throw new Error("Expected 33 chapter thumbnails from EVRASTER, got " + thumbs33.length);
     }
     openChapter("c10_light");
-    EVRASTER.frame();
+    if (!SCIVERSE.isFlipOpen()) throw new Error("2D-only: openChapter must open the flipbook");
     if (!EVRASTER.enabled || !WORLD.plate2d) {
       throw new Error("Realistic topic image should be enabled by default on openChapter");
     }
-    const draftImgSrc = document.getElementById("aiDraftImage").src || "";
-    if (!draftImgSrc.includes("assets/2d/rx/reflection.webp")) {
-      throw new Error("Expected realistic image rx/reflection.webp, got: " + draftImgSrc);
+    const flipHtml2 = document.getElementById("svFlipBook").innerHTML;
+    if (!flipHtml2.includes("assets/2d/rx/reflection.webp")) {
+      throw new Error("Expected realistic image rx/reflection.webp in the opened flipbook");
     }
-    // Verify 2D <-> 3D toggle preserves FSM health
+    // 2D-only: an explicit 3D request must never replace the realistic plate.
     setPlateView("3d");
-    if (WORLD.plate2d !== false) throw new Error("Expected 3D mode after setPlateView('3d')");
+    if (WORLD.plate2d !== true) throw new Error("2D-only: setPlateView('3d') must keep the realistic plate");
     setPlateView("2d");
     if (WORLD.plate2d !== true || !EVRASTER.enabled) throw new Error("Expected 2D realistic image restored");
 

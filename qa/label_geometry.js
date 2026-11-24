@@ -97,7 +97,7 @@ function verifyStaticGeometry() {
       });
       const errors = [];
       p.on("pageerror", e => errors.push(e.message));
-      await p.goto(base + "?world=c10_control&spread=2", { waitUntil: "load", timeout: 60000 });
+      await p.goto(base + "?mode=3d&world=c10_control&spread=2", { waitUntil: "load", timeout: 60000 });
       await p.evaluate(() => setLanguage("both"));
       await p.locator("#plate2d").click();
       await p.waitForFunction(() => EVRASTER.isVisible());

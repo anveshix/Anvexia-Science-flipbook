@@ -156,7 +156,13 @@ const SCIVERSE = (function () {
   const FIRST_SPREAD_PAGE = 3;
   const spreadPage = i => FIRST_SPREAD_PAGE + i * 2;
   const plateSrc = (wid, file) => EVPLATE_SRC(wid, file);
-  const plateFiles = (w, sp) => (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+  /* Only realistic 2D plates are shown in the flipbook. The generated
+     composite JPEGs are line diagrams; they are never offered as a page
+     image, so the old diagram can never reappear through the ↻ cycle. */
+  const plateFiles = (w, sp) => {
+    const all = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+    return all.filter(f => String(f).indexOf("rx/") === 0);
+  };
   const decoded = new Map(); // src -> Promise, keeps decoded bitmaps warm for page turns
   function warmImage(src) {
     if (!src || decoded.has(src)) return decoded.get(src);
@@ -255,7 +261,7 @@ const SCIVERSE = (function () {
       const sIdx = +host.dataset.svfSp;
       const sp = w.spreads[sIdx];
       if (!sp) return;
-      const files = EVRASTER.filesFor ? EVRASTER.filesFor(w.id, sp.section) : [];
+      const files = plateFiles(w, sp);
       const fIdx = flipPlateIdx[sIdx] || 0;
       const file = files[fIdx];
       if (file) {
@@ -473,7 +479,7 @@ const SCIVERSE = (function () {
         e.stopPropagation();
         const sIdx = +btn.dataset.svfCycle;
         const sp = w.spreads[sIdx];
-        const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+        const files = plateFiles(w, sp);
         if (files.length > 1) {
           const n = ((flipPlateIdx[sIdx] || 0) + 1) % files.length;
           flipPlateIdx[sIdx] = n;
@@ -500,7 +506,7 @@ const SCIVERSE = (function () {
         const sp = w.spreads[sIdx];
         const host = book.querySelector(`.svf-plate-host[data-svf-sp="${sIdx}"]`);
         const img = host && host.querySelector("img");
-        const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(w.id, sp.section) : [];
+        const files = plateFiles(w, sp);
         const file = files[flipPlateIdx[sIdx] || 0];
         if (img && typeof EVZOOM !== "undefined" && EVZOOM.openImg) {
           EVZOOM.openImg(img.src, BI(sp.title, sp.titleHi), file ? EVPLATE_KEY(w.id, file) : "");
@@ -595,9 +601,10 @@ const SCIVERSE = (function () {
     if (!book) { destroyFlipInstance(); book = $("svFlipBook"); }
 
     const w = customWorld || (chapterId ? getWorld(chapterId) : (EV.world || getWorld("c10_carbon")));
-    // Preserve image cycling when rebuilding the same chapter (e.g. language
-    // or resize), but never carry a spread index into a different chapter.
-    if (flipWorld && flipWorld.id !== w.id) flipPlateIdx = {};
+    // A fresh open always starts on the realistic 2D plate (index 0). Only a
+    // rebuild while the book is already open (language switch, resize) keeps
+    // the current illustration cycle; never carry an index across chapters.
+    if (!isFlipOpen() || (flipWorld && flipWorld.id !== w.id)) flipPlateIdx = {};
     flipWorld = w;
     const targetSpread = typeof spreadIdx === "number" ? Math.max(0, Math.min(w.spreads.length - 1, spreadIdx))
       : (EV.world && EV.world.id === w.id ? (WORLD.index || 0) : 0);
@@ -755,7 +762,7 @@ const SCIVERSE = (function () {
 
     const subjBadge = s => s === "phy" ? "Physics · भौतिकी" : s === "chem" ? "Chemistry · रसायन" : "Biology · जीव";
     box.innerHTML = currentHits.map((h, idx) => {
-      const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(h.chapterId, h.section) : [];
+      const files = (typeof EVRASTER !== "undefined" && EVRASTER.filesFor) ? EVRASTER.filesFor(h.chapterId, h.section).filter(f => String(f).indexOf("rx/") === 0) : [];
       const thumb = files.length ? EVPLATE_SRC(h.chapterId, files[0]) : "";
       return `
       <div class="sv-hit ${idx === selectedHitIdx ? "sel" : ""}" data-hit-idx="${idx}">

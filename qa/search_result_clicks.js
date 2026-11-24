@@ -24,7 +24,7 @@ const base = process.env.QA_BASE || 'http://127.0.0.1:8080/';
       const p = await b.newPage({viewport: {width: 1280, height: 720}});
       const errors = [];
       p.on('pageerror', e => errors.push(e.message));
-      await p.goto(base + (mode === '2d' ? '?mode=2d' : ''), {waitUntil: 'load'});
+      await p.goto(base + (mode === '2d' ? '?mode=2d' : '?mode=3d'), {waitUntil: 'load'});
       await p.locator('#svLibSearchBtn').click();
       await p.locator('#svSearchInput').fill('cell');
       await p.waitForSelector('#svSearchResults .sv-hit');
