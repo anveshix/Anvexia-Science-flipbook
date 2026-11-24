@@ -365,9 +365,20 @@
     "rx/reproductive_system.webp"
    ]
   },
+  "c10_sources": {
+   "S.2": [
+    "rx/local_c10_sources_s_2.webp"
+   ]
+  },
   "c10_sustainable": {
    "M.1": [
     "rx/population.webp"
+   ],
+   "M.2": [
+    "rx/local_c10_sustainable_m_2.webp"
+   ],
+   "M.3": [
+    "rx/local_c10_sustainable_m_3.webp"
    ]
   },
   "c9_atom": {
@@ -521,8 +532,17 @@
    "1.1": [
     "rx/local_c9_exploration_1_1.webp"
    ],
+   "1.2": [
+    "rx/local_c9_exploration_1_2.webp"
+   ],
    "1.3": [
     "rx/measurement_si_units.webp"
+   ],
+   "1.4": [
+    "rx/local_c9_exploration_1_4.webp"
+   ],
+   "1.6": [
+    "rx/local_c9_exploration_1_6.webp"
    ]
   },
   "c9_forces": {
@@ -575,6 +595,9 @@
   "c9_mixtures": {
    "5.1": [
     "rx/separation.webp"
+   ],
+   "5.2": [
+    "rx/local_c9_mixtures_5_2.webp"
    ],
    "5.3": [
     "rx/tyndall--3.webp"
@@ -737,6 +760,9 @@
    ],
    "7.6": [
     "rx/work_energy.webp"
+   ],
+   "7.7": [
+    "rx/local_c9_work_energy_7_7.webp"
    ],
    "7.8": [
     "rx/simple_machines.webp"
@@ -7013,6 +7039,120 @@
     "y": 14
    }
   ],
+  "rx/local_c10_sources_s_2.webp": [
+   {
+    "anchor_x": 166,
+    "anchor_y": 113,
+    "en": "Sunlight",
+    "h": 66,
+    "hi": "सूर्य का प्रकाश",
+    "info_en": "Solar energy reaches Earth as radiation from the Sun.",
+    "info_hi": "सौर ऊर्जा सूर्य से विकिरण के रूप में पृथ्वी तक पहुँचती है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 360,
+    "anchor_y": 279,
+    "en": "Solar panels",
+    "h": 66,
+    "hi": "सौर पैनल",
+    "info_en": "Photovoltaic panels convert sunlight into electrical energy.",
+    "info_hi": "फोटोवोल्टिक पैनल सूर्य के प्रकाश को विद्युत ऊर्जा में बदलते हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1055,
+    "anchor_y": 567,
+    "en": "Solar cooker",
+    "h": 66,
+    "hi": "सौर कुकर",
+    "info_en": "A solar cooker uses sunlight to heat food; its design differs from a photovoltaic panel.",
+    "info_hi": "सौर कुकर भोजन गर्म करने के लिए सूर्य के प्रकाश का उपयोग करता है; इसकी बनावट सौर पैनल से अलग है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_sustainable_m_2.webp": [
+   {
+    "anchor_x": 367,
+    "anchor_y": 381,
+    "en": "Forest habitat",
+    "h": 66,
+    "hi": "वन आवास",
+    "info_en": "Forests provide habitat for many organisms.",
+    "info_hi": "वन अनेक जीवों को आवास प्रदान करते हैं।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 824,
+    "anchor_y": 577,
+    "en": "Wildlife",
+    "h": 66,
+    "hi": "वन्यजीव",
+    "info_en": "Protecting habitats helps conserve biodiversity.",
+    "info_hi": "आवास की रक्षा करने से जैव विविधता के संरक्षण में मदद मिलती है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1215,
+    "anchor_y": 461,
+    "en": "Observation",
+    "h": 66,
+    "hi": "अवलोकन",
+    "info_en": "Wildlife monitoring is one part of conservation; the scene is illustrative.",
+    "info_hi": "वन्यजीवों की निगरानी संरक्षण का एक भाग है; दृश्य सांकेतिक है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c10_sustainable_m_3.webp": [
+   {
+    "anchor_x": 410,
+    "anchor_y": 223,
+    "en": "Roof",
+    "h": 66,
+    "hi": "छत",
+    "info_en": "Rain falling on a roof can be collected for storage or recharge.",
+    "info_hi": "छत पर गिरने वाले वर्षाजल को भंडारण या पुनर्भरण के लिए एकत्र किया जा सकता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 683,
+    "anchor_y": 342,
+    "en": "Gutter and pipe",
+    "h": 66,
+    "hi": "नाली और पाइप",
+    "info_en": "Gutters and downpipes can convey roof runoff to a tank.",
+    "info_hi": "नाली और पाइप छत का पानी टंकी तक पहुँचा सकते हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 820,
+    "anchor_y": 507,
+    "en": "Storage tank",
+    "h": 66,
+    "hi": "भंडारण टंकी",
+    "info_en": "Stored rainwater may be used for suitable purposes; drinking requires appropriate treatment. This is not a construction plan.",
+    "info_hi": "संग्रहीत वर्षाजल उपयुक्त कार्यों में उपयोग हो सकता है; पीने के लिए उचित उपचार आवश्यक है। यह निर्माण योजना नहीं है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
   "rx/local_c9_exploration_1_1.webp": [
    {
     "anchor_x": 414,
@@ -7051,6 +7191,120 @@
     "y": 14
    }
   ],
+  "rx/local_c9_exploration_1_2.webp": [
+   {
+    "anchor_x": 350,
+    "anchor_y": 409,
+    "en": "Plant near window",
+    "h": 66,
+    "hi": "खिड़की के पास पौधा",
+    "info_en": "The plant is a possible subject for observation.",
+    "info_hi": "पौधा अवलोकन का एक संभावित विषय है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 681,
+    "anchor_y": 553,
+    "en": "Focused question",
+    "h": 66,
+    "hi": "केंद्रित प्रश्न",
+    "info_en": "A testable question might ask how light affects plant growth. This image shows no experiment or result.",
+    "info_hi": "परीक्षण योग्य प्रश्न पूछ सकता है कि प्रकाश पौधे की वृद्धि को कैसे प्रभावित करता है। चित्र कोई प्रयोग या परिणाम नहीं दिखाता।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1241,
+    "anchor_y": 427,
+    "en": "Comparison plant",
+    "h": 66,
+    "hi": "तुलना के लिए पौधा",
+    "info_en": "A fair investigation would control other factors and collect observations over time.",
+    "info_hi": "निष्पक्ष जाँच में अन्य कारकों को नियंत्रित कर समय के साथ अवलोकन इकट्ठे किए जाते हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_exploration_1_4.webp": [
+   {
+    "anchor_x": 571,
+    "anchor_y": 577,
+    "en": "Record observations",
+    "h": 66,
+    "hi": "अवलोकन दर्ज करें",
+    "info_en": "Recording observations helps make evidence available for comparison.",
+    "info_hi": "अवलोकन लिखने से तुलना के लिए साक्ष्य उपलब्ध होता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 872,
+    "anchor_y": 412,
+    "en": "Thermometer",
+    "h": 66,
+    "hi": "तापमापी",
+    "info_en": "A thermometer can measure temperature; this drawing has no usable scale or reading.",
+    "info_hi": "तापमापी तापमान माप सकता है; इस चित्र में उपयोग योग्य पैमाना या माप नहीं है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 854,
+    "anchor_y": 555,
+    "en": "Water sample",
+    "h": 66,
+    "hi": "जल का नमूना",
+    "info_en": "Measurements can be repeated to investigate a question; the illustration is not a protocol.",
+    "info_hi": "प्रश्न की जाँच के लिए माप दोहराए जा सकते हैं; चित्र प्रयोग की विधि नहीं है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_exploration_1_6.webp": [
+   {
+    "anchor_x": 469,
+    "anchor_y": 636,
+    "en": "Mathematics",
+    "h": 66,
+    "hi": "गणित",
+    "info_en": "Mathematics helps describe and compare scientific observations.",
+    "info_hi": "गणित वैज्ञानिक अवलोकनों को व्यक्त करने और उनकी तुलना करने में मदद करता है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 729,
+    "anchor_y": 415,
+    "en": "Turbine model",
+    "h": 66,
+    "hi": "टर्बाइन का मॉडल",
+    "info_en": "A model can help explore ideas; the illustration is not a circuit or construction guide.",
+    "info_hi": "मॉडल से विचारों को समझा जा सकता है; यह चित्र परिपथ या निर्माण का मार्गदर्शन नहीं है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1103,
+    "anchor_y": 251,
+    "en": "Wind turbine",
+    "h": 66,
+    "hi": "पवन टर्बाइन",
+    "info_en": "Science and technology can be applied to community needs, including energy.",
+    "info_hi": "विज्ञान और प्रौद्योगिकी ऊर्जा सहित समुदाय की जरूरतों में उपयोगी हो सकते हैं।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
   "rx/local_c9_forces_6_3.webp": [
    {
     "anchor_x": 290,
@@ -7084,6 +7338,82 @@
     "hi": "शून्य परिणामी बल",
     "info_en": "Balanced forces mean zero acceleration; an object may be at rest or move at constant velocity.",
     "info_hi": "संतुलित बलों से त्वरण शून्य होता है; वस्तु विराम में या स्थिर वेग से चल सकती है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_mixtures_5_2.webp": [
+   {
+    "anchor_x": 345,
+    "anchor_y": 457,
+    "en": "Solution",
+    "h": 66,
+    "hi": "विलयन",
+    "info_en": "A solution is a homogeneous mixture. In this example salt is dissolved in water; a clear appearance alone cannot identify a liquid.",
+    "info_hi": "विलयन समांगी मिश्रण है। इस उदाहरण में नमक जल में घुला है; केवल पारदर्शिता से द्रव की पहचान नहीं होती।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 746,
+    "anchor_y": 572,
+    "en": "Solute",
+    "h": 66,
+    "hi": "विलेय",
+    "info_en": "The substance that dissolves is the solute; here salt is an example.",
+    "info_hi": "घुलने वाला पदार्थ विलेय है; यहाँ नमक एक उदाहरण है।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 1116,
+    "anchor_y": 504,
+    "en": "Solvent",
+    "h": 66,
+    "hi": "विलायक",
+    "info_en": "The solvent dissolves the solute; here water is an example.",
+    "info_hi": "विलायक विलेय को घोलता है; यहाँ जल एक उदाहरण है।",
+    "w": 450,
+    "x": 944,
+    "y": 14
+   }
+  ],
+  "rx/local_c9_work_energy_7_7.webp": [
+   {
+    "anchor_x": 433,
+    "anchor_y": 535,
+    "en": "Time",
+    "h": 66,
+    "hi": "समय",
+    "info_en": "A stopwatch can measure the time taken; no particular time is shown here.",
+    "info_hi": "स्टॉपवॉच में लगा समय मापा जा सकता है; यहाँ कोई निश्चित समय नहीं दिखाया गया है।",
+    "w": 450,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 838,
+    "anchor_y": 422,
+    "en": "Climbing",
+    "h": 66,
+    "hi": "सीढ़ी चढ़ना",
+    "info_en": "Climbing raises the person and bag against gravity.",
+    "info_hi": "सीढ़ी चढ़ने पर व्यक्ति और बैग गुरुत्व के विरुद्ध ऊपर उठते हैं।",
+    "w": 450,
+    "x": 479,
+    "y": 14
+   },
+   {
+    "anchor_x": 957,
+    "anchor_y": 645,
+    "en": "Power",
+    "h": 66,
+    "hi": "शक्ति",
+    "info_en": "Average power is work done divided by time taken; its SI unit is the watt.",
+    "info_hi": "औसत शक्ति किया गया कार्य भाग लगे हुए समय है; इसका SI मात्रक वाट है।",
     "w": 450,
     "x": 944,
     "y": 14

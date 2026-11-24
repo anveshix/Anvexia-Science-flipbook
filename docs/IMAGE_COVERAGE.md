@@ -1,8 +1,8 @@
 # 2D image coverage
 
-**197 of 266 sections** show a realistic plate, a 3D-rendered teaching view, or a locally generated illustration first (`assets/2d/rx/`). The four local AI-generated drafts cover IX Exploration 1.1, IX Forces 6.3, X Metals 3.8 and X Environment 13.1. They have bilingual hotspots and remain subject and language review pending. The alloy objects are illustrative examples; their actual composition cannot be determined from appearance, and the medal lettering is not meaningful.
+**205 of 266 sections** show a realistic plate, a 3D-rendered teaching view, or a locally generated illustration first (`assets/2d/rx/`). The twelve local AI-generated drafts cover IX Exploration 1.1, 1.2, 1.4 and 1.6; IX Forces 6.3; IX Mixtures 5.2; IX Work and Energy 7.7; X Metals 3.8; X Environment 13.1; X Sources S.2; and X Sustainable Management M.2 and M.3. They have bilingual hotspots and remain subject and language review pending. The alloy objects are illustrative examples; their actual composition cannot be determined from appearance, and the medal lettering is not meaningful.
 
-The **69 sections below** still show only the generated composite plate. For upstream illustrations, add an image in `ifinite-horizon` (`public/2d/<class>/<subject>/images/<id>.webp` + an entry with bilingual `marks` in `assets/va-2d.js`), then:
+The **61 sections below** still show only the generated composite plate. For upstream illustrations, add an image in `ifinite-horizon` (`public/2d/<class>/<subject>/images/<id>.webp` + an entry with bilingual `marks` in `assets/va-2d.js`), then:
 
 ```bash
 python3 tools/import_realistic_plates.py ../ifinite-horizon   # after adding the id to MAP/EXTRA in the script
@@ -65,22 +65,17 @@ npm run build && npm run qa
 - § 7.8 Reproductive health and contraception
 - § 7.9 HIV, AIDS and women's health
 
-## Exploration: Entering the World of Secondary Science (`c9_exploration`, Class IX) — 4 missing
-- § 1.2 Focused questions guide investigation
-- § 1.4 Experiments produce evidence
+## Exploration: Entering the World of Secondary Science (`c9_exploration`, Class IX) — 1 missing
 - § 1.5 Models connect the unseen to the seen
-- § 1.6 Science links mathematics, technology and society
 
-## Exploring Mixtures and their Separation (`c9_mixtures`, Class IX) — 4 missing
-- § 5.2 Solutions and their components
+## Exploring Mixtures and their Separation (`c9_mixtures`, Class IX) — 3 missing
 - § 5.5 Mass by mass percentage
 - § 5.6 Mass by volume and volume by volume
 - § 5.10 Centrifugation and coagulation
 
-## Work, Energy, and Simple Machines (`c9_work_energy`, Class IX) — 3 missing
+## Work, Energy, and Simple Machines (`c9_work_energy`, Class IX) — 2 missing
 - § 7.2 Positive, negative and zero work
 - § 7.5 Work-energy theorem
-- § 7.7 Power and its unit
 
 ## Journey Inside the Atom (`c9_atom`, Class IX) — 5 missing
 - § 8.4 Thomson's plum-pudding model
@@ -113,14 +108,18 @@ npm run build && npm run qa
 - § P.4 The modern periodic law
 - § P.5 Trends in the modern table
 
-## Sources of Energy (outside 2026-27 syllabus) (`c10_sources`, Class X) — 4 missing
+## Sources of Energy (outside 2026-27 syllabus) (`c10_sources`, Class X) — 3 missing
 - § S.1 Conventional and non-conventional sources
-- § S.2 Solar energy, panels and cookers
 - § S.3 Wind, hydro and tidal energy
 - § S.4 Biomass, biogas and nuclear energy
 
-## Sustainable Management of Natural Resources (outside 2026-27) (`c10_sustainable`, Class X) — 3 missing
-- § M.2 Forest and wildlife conservation
-- § M.3 Water harvesting and watershed management
+## Sustainable Management of Natural Resources (outside 2026-27) (`c10_sustainable`, Class X) — 1 missing
 - § M.4 Coal, petroleum and the 3Rs
 
+
+## Rejected candidates (not used in the app)
+
+- `rejected/c9_exploration/1-5-model-order-draft.webp`: solar-system model has unreliable planet ordering and proportions; do not use it to teach astronomy.
+- `rejected/c10_sources/s-3-tidal-context-draft.webp`: underwater turbines appear in an ambiguous river/dam setting with no evident tidal flow; it does not adequately explain tidal energy.
+
+All new AI scenes are illustrative drafts, not procedures, measurements or evidence of experiments. In the solutions image, water and the example solution cannot be distinguished by appearance alone. The rainwater scene is not a construction plan and does not show treatment for drinking. The Sources and Sustainable Management sections are outside the 2026–27 syllabus.
