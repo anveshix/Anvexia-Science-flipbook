@@ -536,7 +536,7 @@ export const CHEM_PLATES = [
       roundRect(ctx, 975, 520, 52, 430, 8); ctx.fill(); ctx.stroke();
       ctx.fillStyle = "#fde047"; ctx.fillRect(977, 522, 48, 210);
       ctx.restore();
-      drawFloorTag(ctx, 1000, 1310, "Weak Acid (pH ≈ 4)", "#ea580c");
+      drawFloorTag(ctx, 1000, 1310, "Weak Acid (pH depends on concentration)", "#ea580c");
 
       // 3. Reaction flask: CH3COOH + Na2CO3 -> brisk CO2 bubbles + delivery tube to 4. Milky lime water
       drawBeaker(ctx, 1480, 700, 390, 460, "rgba(226,232,240,0.55)", 0.58, { bubbles: 22 });
@@ -555,7 +555,7 @@ export const CHEM_PLATES = [
     },
     marks: makeLabels([
       { x: 200, y: 420, en: "Glacial Acetic Acid", hi: "ग्लेशियल ऐसीटिक अम्ल", info_en: "Pure anhydrous ethanoic acid freezes at 290 K (17 °C) into ice-like crystals in cool weather.", info_hi: "शुद्ध एथेनोइक अम्ल का गलनांक 290 K होता है, इसलिए सर्दियों में यह बर्फ जैसा जम जाता है।" },
-      { x: 500, y: 390, en: "Weak Acid (pH ~ 4)", hi: "दुर्बल अम्ल (pH ~ 4)", info_en: "Ethanoic acid ionises only partially in water, turning universal indicator orange rather than deep red.", info_hi: "जल में आंशिक आयनन के कारण यह खनिज अम्लों की तुलना में दुर्बल अम्ल है।" },
+      { x: 500, y: 390, en: "Weak Acid", hi: "दुर्बल अम्ल", info_en: "Ethanoic acid ionises partially in water. Its pH and indicator colour depend on concentration, not acid strength alone.", info_hi: "एथेनोइक अम्ल जल में आंशिक आयनित होता है। इसका pH और सूचक का रंग सांद्रता पर भी निर्भर करते हैं।" },
       { x: 838, y: 460, en: "Carbonate Effervescence", hi: "कार्बोनेट से बुदबुदाहट", info_en: "Reacts with Na₂CO₃ or NaHCO₃ to form sodium ethanoate, water and brisk CO₂ bubbles.", info_hi: "सोडियम कार्बोनेट या बाइकार्बोनेट के साथ अभिक्रिया कर तीव्र CO₂ गैस छोड़ता है।" },
       { x: 1178, y: 485, en: "Milky Lime Water", hi: "दूधिया चूने का पानी", info_en: "Evolved CO₂ gas reacts with Ca(OH)₂ lime water to form white insoluble CaCO₃ suspension.", info_hi: "निकली हुई CO₂ गैस चूने के पानी को श्वेत कैल्सियम कार्बोनेट बनने से दूधिया कर देती है।" }
     ])
@@ -814,7 +814,7 @@ export const CHEM_PLATES = [
         drawSphere3D(ctx, cx + dx, cy + dy, 34, "electron", { glow: "rgba(96,165,250,0.65)", symbol: "−" });
       }
       ctx.restore();
-      drawFloorTag(ctx, 980, 1300, "J. J. Thomson (1898) · Total (+) = Total (−)", "#991b1b");
+      drawFloorTag(ctx, 980, 1300, "J. J. Thomson (1904) · Total (+) = Total (−)", "#991b1b");
 
       // Right: Cutaway Watermelon / Plum-Pudding visual analogy + electrical neutrality balance
       floorShadow(ctx, 2140, 1175, 290, 36, 0.15);
@@ -1032,7 +1032,7 @@ export const CHEM_PLATES = [
     render() {
       const { cv, ctx } = studioCanvas({ horizon: 1180 });
       // Three pure H2O sources (Rain, River, Lab Synthesis) converging to 9 g H2O -> 1 g H2 : 8 g O2
-      for (const [sy, col, lbl] of [[490, "#38bdf8", "Rain H₂O"], [740, "#0284c7", "River H₂O"], [990, "#2563eb", "Lab H₂O"]]) {
+      for (const [sy, col, lbl] of [[490, "#38bdf8", "Purified rain water"], [740, "#0284c7", "Purified river water"], [990, "#2563eb", "Lab water"]]) {
         drawSphere3D(ctx, 320, sy, 52, "N", { glow: "rgba(56,189,248,0.35)" });
         drawFloorTag(ctx, 320, sy + 84, lbl, col);
         drawArrow(ctx, 410, sy, 760, 740, col, 6, 20);
@@ -1042,33 +1042,31 @@ export const CHEM_PLATES = [
       renderMolecule3D(ctx, [{ el: "O", pos: [0, 0.25, 0] }, { el: "H", pos: [-0.85, -0.45, 0] }, { el: "H", pos: [0.85, -0.45, 0] }], [[0,1,1],[0,2,1]], [1020, 860], 0.15, 0, 105, true);
       drawFloorTag(ctx, 1020, 1300, "9 g Pure H₂O", "#0369a1");
 
-      drawArrow(ctx, 1290, 820, 1580, 820, "#0f172a", 9, 28);
+      drawArrow(ctx, 1290, 820, 1490, 820, "#0f172a", 9, 28);
 
-      // Right: Precision Mass Ratio Scale showing 1 g Hydrogen (2×1 u) : 8 g Oxygen (16 u) = 1 : 8
+      // The two element masses are a proportional example, not equal weights
+      // on a balance. Separate cards avoid implying that 1 g balances 8 g.
       floorShadow(ctx, 2140, 1170, 430, 36, 0.16);
       ctx.save();
-      // Pedestal
-      ctx.fillStyle = "#475569"; roundRect(ctx, 2110, 680, 60, 480, 16); ctx.fill();
-      ctx.fillStyle = "#334155"; roundRect(ctx, 1940, 1130, 400, 44, 16); ctx.fill();
-      // Horizontal beam showing fixed ratio 1 : 8
-      ctx.strokeStyle = "#0f172a"; ctx.lineWidth = 14;
-      ctx.beginPath(); ctx.moveTo(1740, 700); ctx.lineTo(2540, 700); ctx.stroke();
-      // Left pan: 2 H spheres (2 u -> 1 part)
+      ctx.fillStyle = "#f8fafc"; ctx.strokeStyle = "#cbd5e1"; ctx.lineWidth = 4;
+      for (const x of [1540, 2320]) {
+        roundRect(ctx, x, 665, 430, 380, 24); ctx.fill(); ctx.stroke();
+      }
+      // Two H spheres are a molecular representation, not gram-sized samples.
       drawSphere3D(ctx, 1710, 850, 32, "H", { symbol: "H" });
       drawSphere3D(ctx, 1780, 850, 32, "H", { symbol: "H" });
-      drawFloorTag(ctx, 1745, 960, "1 g  H  (2 u)", "#334155");
-      // Right pan: 1 large O sphere (16 u -> 8 parts)
+      drawFloorTag(ctx, 1745, 960, "H: about 1 g", "#334155");
       drawSphere3D(ctx, 2540, 835, 76, "O", { symbol: "O" });
-      drawFloorTag(ctx, 2540, 960, "8 g  O  (16 u)", "#b91c1c");
+      drawFloorTag(ctx, 2540, 960, "O: about 8 g", "#b91c1c");
       ctx.restore();
-      drawFloorTag(ctx, 2140, 1300, "Fixed Mass Ratio  H : O  =  1 : 8", "#b91c1c");
+      drawFloorTag(ctx, 2140, 1300, "Approximate mass ratio  H : O  =  1 : 8", "#b91c1c");
       return cv;
     },
     marks: makeLabels([
-      { x: 160, y: 370, en: "Independent of Source", hi: "स्रोत से स्वतंत्र", info_en: "Whether water comes from rain, rivers or laboratory synthesis, its elemental ratio never varies.", info_hi: "वर्षा, नदी या प्रयोगशाला—किसी भी स्रोत से प्राप्त शुद्ध जल में तत्वों का अनुपात सदैव समान रहता है।" },
+      { x: 160, y: 370, en: "Independent of Source", hi: "स्रोत से स्वतंत्र", info_en: "Pure water has the same composition regardless of source; rain and river water contain other substances unless purified.", info_hi: "स्रोत कोई भी हो, शुद्ध जल का संघटन समान होता है; वर्षा और नदी के जल में शुद्ध करने से पहले अन्य पदार्थ होते हैं।" },
       { x: 510, y: 430, en: "Pure Compound (H₂O)", hi: "शुद्ध यौगिक (H₂O)", info_en: "Proust's Law applies to every pure chemical compound: fixed elements in fixed proportion by mass.", info_hi: "प्राउस्ट के नियम के अनुसार किसी शुद्ध यौगिक में तत्व सदैव निश्चित द्रव्यमान अनुपात में होते हैं।" },
-      { x: 872, y: 425, en: "Hydrogen Mass (1 Part)", hi: "हाइड्रोजन भाग (1 ग्राम)", info_en: "Two H atoms contribute 2 × 1 u = 2 u, giving 1 part by mass when simplified.", info_hi: "दो हाइड्रोजन परमाणुओं का कुल द्रव्यमान 2 u होता है, जो अनुपात में 1 भाग बनता है।" },
-      { x: 1270, y: 418, en: "Oxygen Mass (8 Parts)", hi: "ऑक्सीजन भाग (8 ग्राम)", info_en: "One O atom contributes 16 u, so 2 : 16 simplifies to an invariant 1 : 8 mass ratio.", info_hi: "एक ऑक्सीजन परमाणु (16 u) के कारण जल में H : O का द्रव्यमान अनुपात सदैव 1 : 8 रहता है।" }
+      { x: 872, y: 425, en: "Hydrogen Mass (1 Part)", hi: "हाइड्रोजन भाग (1 ग्राम)", info_en: "Using rounded atomic masses, two H atoms contribute about 2 u. In approximately 9 g of pure water, hydrogen contributes about 1 g.", info_hi: "पूर्णांकित परमाणु द्रव्यमान से दो H परमाणुओं का द्रव्यमान लगभग 2 u है। लगभग 9 ग्राम शुद्ध जल में हाइड्रोजन लगभग 1 ग्राम होता है।" },
+      { x: 1270, y: 418, en: "Oxygen Mass (8 Parts)", hi: "ऑक्सीजन भाग (8 ग्राम)", info_en: "Using rounded atomic masses, one O atom contributes about 16 u: 2 : 16 gives the approximate H : O mass ratio 1 : 8.", info_hi: "पूर्णांकित परमाणु द्रव्यमान से एक O परमाणु लगभग 16 u का है: 2 : 16 से H : O का लगभग 1 : 8 द्रव्यमान अनुपात मिलता है।" }
     ])
   },
 
@@ -1422,7 +1420,7 @@ export const CHEM_PLATES = [
     },
     marks: makeLabels([
       { x: 275, y: 370, en: "Moseley's X-Ray Law", hi: "मोज़ले का आधुनिक नियम", info_en: "Henry Moseley showed √ν varies linearly with atomic number Z, proving Z is more fundamental than mass.", info_hi: "हेनरी मोज़ले ने सिद्ध किया कि परमाणु द्रव्यमान की तुलना में परमाणु क्रमांक (Z) अधिक मौलिक गुण है।" },
-      { x: 565, y: 360, en: "Groups 1–2 (s-Block)", hi: "समूह 1–2 (संयोजी इलेक्ट्रॉन)", info_en: "Elements in the same vertical group have identical valence electron configurations and similar chemistry.", info_hi: "एक ही ऊर्ध्वाधर समूह के तत्वों में संयोजी इलेक्ट्रॉनों की संख्या समान होती है।" },
+      { x: 565, y: 360, en: "Groups 1–2 (s-Block)", hi: "समूह 1–2 (संयोजी इलेक्ट्रॉन)", info_en: "Groups 1 and 2 have similar outer-shell patterns within each group; the shell number changes down the group.", info_hi: "समूह 1 और 2 में प्रत्येक समूह के तत्वों का बाहरी इलेक्ट्रॉन विन्यास समान प्रकार का होता है; कोश संख्या नीचे जाने पर बदलती है।" },
       { x: 875, y: 410, en: "7 Horizontal Periods", hi: "7 क्षैतिज आवर्त (कोश संख्या)", info_en: "Each new period starts filling a new principal electron shell (K, L, M, N…); Z rises by +1 per step.", info_hi: "प्रत्येक नया आवर्त एक नए इलेक्ट्रॉन कोश के भरने को दर्शाता है तथा Z एक-एक कर बढ़ता है।" },
       { x: 1185, y: 360, en: "Groups 13–18 & f-Block", hi: "समूह 13–18 व f-ब्लॉक", info_en: "18 vertical columns and 7 periods cleanly resolve isotope placement and Co/Ni mass anomalies.", info_hi: "आधुनिक आवर्त सारणी के 18 समूह व 7 आवर्त समस्थानिकों की स्थिति स्वतः स्पष्ट कर देते हैं।" }
     ])

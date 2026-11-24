@@ -977,45 +977,22 @@ body[data-theme="classroom"] .dock .popt span,
  background-size:46px 46px,46px 46px;
  mask-image:linear-gradient(180deg,#000 0%,rgba(0,0,0,.35) 100%);
 }
-#worldHud.library-mode .lib-constellation{
- position:absolute;right:2%;top:2%;width:min(360px,32vw);height:auto;pointer-events:none;opacity:.55;
+/* A compact heading and search leave the library cards in focus. */
+#worldHud.library-mode .lib-toolbar{
+ position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px;
+ width:100%;max-width:min(1920px,98vw);margin:0 auto 12px;
 }
-/* ---------------- header ---------------- */
-#worldHud.library-mode .lib-head{
- position:relative;z-index:2;display:flex;justify-content:space-between;align-items:flex-end;
- gap:22px;flex-wrap:wrap;width:100%;max-width:1180px;margin:0 auto 20px;
+#worldHud.library-mode .lib-section-title{margin:0;color:#eef4fb;font-size:clamp(15px,1.3vw,19px);line-height:1.3;font-weight:700}
+#worldHud.library-mode .lib-search-compact{
+ display:inline-flex;align-items:center;gap:8px;flex:none;min-height:38px;padding:7px 13px;
+ font:inherit;font-size:12px;font-weight:700;color:#dcebff;cursor:pointer;
+ background:rgba(20,44,82,.72);border:1px solid rgba(143,195,255,.42);border-radius:9px;
 }
-#worldHud.library-mode .lib-head-text{min-width:0;max-width:660px}
-#worldHud.library-mode .lib-eyebrow{
- font-size:10.5px;letter-spacing:2.6px;font-weight:800;color:#f0c477;text-transform:uppercase;
- display:flex;align-items:center;gap:10px;
-}
-#worldHud.library-mode .lib-eyebrow::before{content:"";width:26px;height:2px;background:#f0c477;display:inline-block}
-#worldHud.library-mode .lib-title{
- font-family:Georgia,'Noto Sans Devanagari Embedded',serif;font-size:clamp(27px,3.1vw,43px);
- line-height:1.08;margin:12px 0 9px;font-weight:700;color:#fbf6ea;letter-spacing:-.4px;
- text-shadow:0 6px 26px rgba(0,0,0,.35);
-}
-#worldHud.library-mode .lib-sub{
- margin:0;font-size:clamp(12px,1.15vw,15px);line-height:1.6;color:#b9cde8;max-width:600px;
-}
-#worldHud.library-mode .lib-head-side{display:flex;flex-direction:column;align-items:flex-end;gap:12px}
-#worldHud.library-mode .lib-actions{display:flex;align-items:center;justify-content:flex-end;gap:9px;flex-wrap:wrap}
-#worldHud.library-mode .lib-open-btn{font-size:11.5px;padding:9px 14px;white-space:nowrap;border-radius:999px}
-#worldHud.library-mode .lib-stats{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}
-#worldHud.library-mode .lib-stat{
- display:flex;flex-direction:column;align-items:center;min-width:78px;padding:9px 12px;border-radius:11px;
- background:rgba(255,255,255,.065);border:1px solid rgba(143,195,255,.24);
- box-shadow:0 8px 22px rgba(2,10,24,.22);
-}
-#worldHud.library-mode .lib-stat b{font-family:Georgia,serif;font-size:20px;line-height:1.1;color:#fbf6ea}
-#worldHud.library-mode .lib-stat small{font-size:9px;letter-spacing:1.1px;text-transform:uppercase;color:#9fb9d8;margin-top:3px}
-#worldHud.library-mode .lib-shelf-btn{
- appearance:none;cursor:pointer;font:inherit;font-size:12px;font-weight:700;color:#dcebff;
- background:rgba(20,44,82,.7);border:1px solid rgba(143,195,255,.42);border-radius:999px;
- padding:9px 16px;transition:.18s;white-space:nowrap;
-}
-#worldHud.library-mode .lib-shelf-btn:hover{background:#2b5794;border-color:#8fc3ff;transform:translateY(-1px)}
+#worldHud.library-mode .lib-search-compact:hover{border-color:#7ce7ff;background:#244c80}
+#worldHud.library-mode .lib-search-compact:focus-visible,#worldHud.library-mode .lib-shelf-link:focus-visible{outline:3px solid #f0c477;outline-offset:2px}
+#worldHud.library-mode .lib-search-compact span:first-child{font-size:18px;line-height:1;color:#7ce7ff}
+#worldHud.library-mode .lib-shelf-link{font:inherit;font-weight:700;background:none;border:0;padding:4px 0;color:#c9dcf5;cursor:pointer}
+#worldHud.library-mode .lib-shelf-link:hover{color:#fff;text-decoration:underline}
 /* ---------------- open-book: two class cards ---------------- */
 #worldHud.library-mode .lib-book{
  position:relative;z-index:2;flex:1 1 auto;min-height:390px;width:100%;max-width:1180px;margin:0 auto;
@@ -1028,7 +1005,7 @@ body[data-theme="classroom"] .dock .popt span,
 }
 #worldHud.library-mode .lib-page{
  appearance:none;-webkit-appearance:none;margin:0;border:0;outline:0;font:inherit;color:#16243a;
- cursor:pointer;text-align:left;position:relative;display:grid;grid-template-columns:minmax(128px,196px) minmax(0,1fr);
+ cursor:pointer;text-align:left;position:relative;display:grid;grid-template-columns:minmax(145px,240px) minmax(0,1fr);
  align-items:center;gap:clamp(12px,1.7vw,26px);padding:clamp(16px,2vw,28px);
  background:linear-gradient(158deg,#fbf6e8 0%,#f2e9d3 100%);transition:background .2s,transform .2s;
 }
@@ -1041,7 +1018,7 @@ body[data-theme="classroom"] .dock .popt span,
 #worldHud.library-mode .lib-page:hover .lp-cover{transform:translateY(-6px) rotate(-1.2deg)}
 #worldHud.library-mode .lib-page-x:hover .lp-cover{transform:translateY(-6px) rotate(1.2deg)}
 /* cover art */
-#worldHud.library-mode .lp-art{position:relative;display:block;width:100%;max-width:196px;justify-self:center}
+#worldHud.library-mode .lp-art{position:relative;display:block;width:100%;max-width:230px;justify-self:center}
 #worldHud.library-mode .lp-cover{
  display:block;width:100%;height:auto;filter:drop-shadow(0 18px 22px rgba(12,22,42,.42));
  transition:transform .24s ease;transform-origin:50% 70%;
@@ -1197,22 +1174,17 @@ body[data-theme="classroom"] .dock .popt span,
 #worldHud.library-mode .lib-drawer .ld-panel{pointer-events:auto}
 /* ---------------- responsive ---------------- */
 @media(max-width:1080px){
- #worldHud.library-mode .lib-head{align-items:flex-start}
- #worldHud.library-mode .lib-head-side{align-items:flex-start}
- #worldHud.library-mode .lib-stats{justify-content:flex-start}
  #worldHud.library-mode .lib-page{grid-template-columns:minmax(110px,150px) minmax(0,1fr);gap:14px;padding:16px}
  #worldHud.library-mode .lp-spread{height:46px}
  #worldHud.library-mode .lp-cta{margin-top:12px}
 }
 @media(max-width:820px){
  #worldHud.library-mode .lib{padding:18px 14px 22px}
- #worldHud.library-mode .lib-constellation{display:none}
  #worldHud.library-mode .lib-book{flex:none;grid-template-columns:1fr;min-height:0;overflow:hidden}
  #worldHud.library-mode .lib-book::after{display:none}
  #worldHud.library-mode .lib-page-x{border-top:2px dashed #c8b78f}
  #worldHud.library-mode .lib-page{grid-template-columns:110px minmax(0,1fr);min-height:270px;overflow:hidden}
  #worldHud.library-mode .lp-art{max-width:110px}
- #worldHud.library-mode .lib-title{font-size:27px}
  #worldHud.library-mode .lib-foot-note{display:none}
 }
 /* Universal Home when the top bar is hidden by the opt-in projector mode or
@@ -1232,8 +1204,6 @@ body:has(.modal:not([hidden])) .home-fab{display:grid}
 }
 @media(max-height:700px){
  #worldHud.library-mode .lib-book{min-height:330px}
- #worldHud.library-mode .lib-title{font-size:26px;margin:8px 0 6px}
- #worldHud.library-mode .lib-head{margin-bottom:12px}
 }
 
 /* Zoom overlay: no extra WebGL canvas; model is a one-shot high-res image. */
@@ -1310,7 +1280,7 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
  .p4-bar .p4-lang{min-width:100px;max-width:150px}
  .p4-btn,.p4-bar .p4-lang{min-height:40px;font-size:13px}
 }
-@media(prefers-reduced-motion:reduce){.lib-page,.lp-cover,.lib-shelf-btn{transition:none!important;animation:none!important}}
+@media(prefers-reduced-motion:reduce){.lib-page,.lp-cover{transition:none!important;animation:none!important}}
 /* Leave room for the zoom caption and make long explanations scrollable. */
 .evzoom-image{max-height:calc(100vh - 240px)}
 .evzoom-caption{flex:0 0 auto;max-height:72px;overflow-y:auto;line-height:1.35}
@@ -1340,46 +1310,7 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
 }
 .sv-search-trigger{font-size:15px}
 
-/* Hero Headline & Interactive 4-Pillar Strip */
-.sv-hero-brand{
- background:linear-gradient(100deg,#ffffff 0%,#7ce7ff 52%,#f7c96f 100%);
- -webkit-background-clip:text;background-clip:text;color:transparent;
-}
-.sv-hero-sep{opacity:.45;font-weight:400;margin:0 4px}
-.sv-hero-tag{font-size:.76em;font-weight:650;color:#eaf4ff}
-.sv-pillars{
- display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:12px;
-}
-.sv-pillar{
- appearance:none;border:1px solid rgba(143,195,255,.34);
- background:rgba(15,34,64,.72);color:#e9f4ff;
- border-radius:999px;padding:6px 12px;font-size:12px;font-weight:700;
- display:inline-flex;align-items:center;gap:6px;cursor:pointer;transition:.18s;
-}
-.sv-pillar i{font-style:normal;font-size:13px}
-.sv-pillar:hover{
- background:rgba(37,79,138,.88);border-color:#7ce7ff;transform:translateY(-1px);
- box-shadow:0 6px 16px rgba(10,25,52,.35);
-}
-.sv-pillar-dot{color:#f0c477;opacity:.65;font-size:12px;user-select:none}
-
-/* Instant Bilingual Search Bar on Library Dashboard */
-.sv-lib-search-row{
- position:relative;z-index:2;width:100%;max-width:min(1920px,98vw);margin:0 auto 12px;
-}
-.sv-search-bar{
- width:100%;display:flex;align-items:center;gap:11px;padding:11px 16px;
- border-radius:12px;border:1px solid rgba(143,195,255,.32);
- background:rgba(10,24,48,.74);color:#cfe2f7;cursor:pointer;text-align:left;
- font-size:13.5px;transition:.18s;box-shadow:0 10px 26px rgba(2,8,20,.28);
-}
-.sv-search-bar:hover{border-color:#7ce7ff;background:rgba(16,36,68,.88);color:#fff}
 .sv-search-ico{font-size:17px;color:#7ce7ff;line-height:1}
-.sv-search-txt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.sv-kbd{
- font-family:monospace;font-size:11px;padding:3px 8px;border-radius:6px;
- background:rgba(255,255,255,.09);border:1px solid rgba(143,195,255,.28);color:#dcebff;
-}
 
 /* Higher Classes (Class XI & XII) Expansion Card */
 .sv-higher-card{
@@ -1397,7 +1328,8 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
 }
 .sv-higher-title{font-size:15px;color:#fff}
 .sv-higher-sub{font-size:12.5px;color:#c9dcf5}
-.sv-higher-btn{border-color:#f0c477!important;color:#ffeab8!important;font-weight:750}
+.sv-higher-btn{border-color:#f0c477!important;background:#1c315a!important;color:#fff4d9!important;font-weight:750}
+.sv-higher-btn:hover{background:#29477c!important}
 .sv-higher-compiler-cta{
  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
  padding:12px 14px;margin-bottom:12px;border-radius:11px;
@@ -1414,11 +1346,29 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
 #worldHud.library-mode #libDash{
  padding:14px clamp(8px,1.2vw,18px) 16px;
 }
-#worldHud.library-mode .lib-head,
+/* On the library, book-specific controls are noise. They return as soon as a
+   chapter or the 3D shelf opens; search remains next to the class heading. */
+#app:has(#worldHud.library-mode:not([hidden])) .topbar :is(#chapterSelect,#sectionSelect,.top-context,#btnHome,#btnSearchTop,#btnBookTop,#btnShotTop,#btnFocus,#btnQuizTop,#btnBoard,#btnTheme,#btn30ft,#btnFar,#btn3d,#btnReader,#btnO3,#btnParts,#btnProjector){display:none!important}
+#app:has(#worldHud.library-mode:not([hidden])) .top-actions{margin-left:auto}
+@media(max-width:700px){
+ #app:has(#worldHud.library-mode:not([hidden])) .top-actions #btnFlipbookTop{display:inline-flex!important;align-items:center;justify-content:center;min-width:34px;padding:6px}
+ #app:has(#worldHud.library-mode:not([hidden])) #btnFlipbookTop span:last-child{display:none}
+}
 #worldHud.library-mode .lib-book,
 #worldHud.library-mode .lib-foot{
  max-width:min(1920px,98vw);
  width:100%;
+}
+@media(max-width:820px){
+ #worldHud.library-mode .lib-book{min-height:0}
+ #worldHud.library-mode .lib-page{min-height:220px;padding:15px;gap:12px}
+ #worldHud.library-mode .lp-kicker{font-size:8px;letter-spacing:1px}
+ #worldHud.library-mode .lp-name{font-size:26px;margin:4px 0 2px}
+ #worldHud.library-mode .lp-meta{margin-top:9px;gap:5px}
+ #worldHud.library-mode .lp-meta .lp-pill:nth-child(n+3),
+ #worldHud.library-mode .lp-rule,#worldHud.library-mode .lp-inside-label,
+ #worldHud.library-mode .lp-preview,#worldHud.library-mode .lp-spread{display:none}
+ #worldHud.library-mode .lp-cta{margin-top:12px}
 }
 .dock{
  padding:0 6px 4px;
@@ -1482,7 +1432,7 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
 /* ===================== Flipbook reader · textbook plate design =====================
    Paper #FFFFFF · ink #14213D · Hindi #6B2140 · textbook blue #1F5FBF · rule #DCE1E8.
    One memorable element: the figure. Everything else is quiet and readable.
-   --fs is set per page by fitPages() so content always fits without scrolling. */
+   --fs is set per page by fitPages(); long pages remain readable by scrolling. */
 .sv-flip-book{--ink:#14213D;--ink2:#334155;--hi:#6B2140;--blue:#1F5FBF;--rule:#DCE1E8;--paper:#FFFFFF;--wash:#F5F7FA;--ok:#13795B;--bad:#B42318}
 .svf-page{
  --fs:1;background:var(--paper);color:var(--ink);box-sizing:border-box;overflow:hidden;
@@ -1495,6 +1445,10 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
  height:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:calc(14px * var(--fs));
  padding:calc(26px * var(--fs)) calc(34px * var(--fs)) calc(16px * var(--fs));overflow:hidden;position:relative;
 }
+.svf-page-inner.svf-scrollable{overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;scrollbar-width:thin}
+.svf-page-inner.svf-scrollable> *{flex-shrink:0}
+.svf-page-inner.svf-scrollable:focus-visible{outline:3px solid var(--blue);outline-offset:-3px}
+.svf-page-inner.svf-scrollable .svf-phead::after{content:"Scroll ↓ · नीचे स्क्रॉल करें";color:var(--blue);font-size:11px;white-space:nowrap}
 .svf-page .bi-hi{color:var(--hi);font-weight:600}
 .svf-page .bi-hi::before{content:none}
 /* page head: section number + progress, quiet */
@@ -1658,8 +1612,6 @@ body.mode-2d #btnParts,
 body.mode-2d #evbPanel,
 body.mode-2d #btnProjector,
 body.mode-2d #p4Bar,
-body.mode-2d #svPillar3D,
-body.mode-2d #svPillar3D + .sv-pillar-dot,
 body.mode-2d #libShelf,
 body.mode-2d #svFlipOpen3D,
 body.mode-2d .sv-hit-btns [data-hit-2d],
@@ -1701,3 +1653,94 @@ body.mode-2d #btnFar{display:none!important}
 .ev-label-layer.ev-compact .ev-label-pop{font-size:11.5px;line-height:1.35;overflow-y:auto;padding:6px 26px 6px 8px}
 .ev-label-layer.ev-compact .ev-label-pop strong{font-size:12.5px}
 .svf-fsep{color:#94A3B8;margin:0 .35em}
+
+/* Field-notebook palette: warm paper, forest green and clay instead of a
+   generic blue dashboard. Science diagrams and high-contrast content stay intact. */
+#app:has(#worldHud.library-mode:not([hidden])) .topbar{
+ background:#faf8f1;border-bottom:1px solid #d4d9c8;
+}
+#app:has(#worldHud.library-mode:not([hidden])) .brand-mark{
+ background:#244b38;border-color:#244b38;box-shadow:none;
+}
+#app:has(#worldHud.library-mode:not([hidden])) .brand-name{background:none;color:#253d31}
+#app:has(#worldHud.library-mode:not([hidden])) .brand-sub{color:#536b59}
+#app:has(#worldHud.library-mode:not([hidden])) .topbar :is(.btn,.lang-select){
+ background:#faf8f1;color:#263e30;border-color:#a4b09e;
+}
+#app:has(#worldHud.library-mode:not([hidden])) .topbar .btn:hover{background:#e5ebdf;border-color:#315d43}
+#app:has(#worldHud.library-mode:not([hidden])) .topbar .sv-flip-trigger{
+ background:#315b43!important;border-color:#315b43!important;color:#fffdf5!important;
+}
+#app:has(#worldHud.library-mode:not([hidden])) .topbar .sv-flip-trigger:hover{background:#234735!important}
+#worldHud.library-mode .lib{
+ color:#273e30;
+ background:linear-gradient(145deg,#e8ede1 0%,#f3f0e4 58%,#e4e8da 100%);
+}
+#worldHud.library-mode .lib::before{
+ opacity:.42;background-image:linear-gradient(rgba(73,103,76,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(73,103,76,.09) 1px,transparent 1px);
+}
+#worldHud.library-mode .lib-section-title{color:#263e30}
+#worldHud.library-mode .lib-search-compact{color:#284c36;background:#faf9f1;border-color:#aabca7}
+#worldHud.library-mode .lib-search-compact:hover{background:#e4ecdd;border-color:#517a5c}
+#worldHud.library-mode .lib-search-compact span:first-child{color:#356e49}
+#worldHud.library-mode .lib-search-compact:focus-visible,#worldHud.library-mode .lib-shelf-link:focus-visible{outline-color:#985239}
+#worldHud.library-mode .lib-shelf-link{color:#315d43}
+#worldHud.library-mode .lib-shelf-link:hover{color:#1d402d}
+#worldHud.library-mode .lib-book{box-shadow:0 16px 40px rgba(47,65,45,.14),0 0 0 1px #d9ddcc}
+#worldHud.library-mode .lib-book::after{background:linear-gradient(90deg,transparent,rgba(68,69,47,.10) 42%,rgba(255,255,255,.55) 52%,rgba(68,69,47,.10) 62%,transparent)}
+#worldHud.library-mode .lib-page{color:#263c2e;background:linear-gradient(150deg,#fffcf2,#f6f0e2)}
+#worldHud.library-mode .lib-page-x{background:linear-gradient(210deg,#fffcf2,#f4ecdc)}
+#worldHud.library-mode .lib-page:hover{background:#fffdf5}
+#worldHud.library-mode .lib-page:focus-visible{box-shadow:inset 0 0 0 3px #396b49}
+#worldHud.library-mode .lp-name{color:#243e30}
+#worldHud.library-mode .lp-preview span{color:#485b49}
+#worldHud.library-mode .lp-preview span::before{color:#718d70}
+#worldHud.library-mode .lp-pill{background:#e5eddf;color:#315638;border-color:#c1d3bc}
+#worldHud.library-mode .lp-mini-left b{background:#5d8a67}
+#worldHud.library-mode .lp-mini-right{background:radial-gradient(circle at 50% 45%,#f1f3e5,#dce8d7)}
+#worldHud.library-mode .lp-mini-right em{border-color:#5f8965}
+#worldHud.library-mode .lp-cta{background:#315e43;box-shadow:0 6px 14px rgba(40,75,51,.18)}
+#worldHud.library-mode .lib-page-x .lp-cta{background:#925139}
+#worldHud.library-mode .lib-page:hover .lp-cta{box-shadow:0 8px 18px rgba(40,65,43,.23)}
+#worldHud.library-mode .lib-credit{color:#647966}
+#worldHud.library-mode .sv-higher-card{background:#344f3c;border-color:#344f3c;box-shadow:0 8px 20px rgba(40,65,43,.12)}
+#worldHud.library-mode .sv-higher-badge{background:#4b684c;border-color:#a8bc94;color:#fff6d9}
+#worldHud.library-mode .sv-higher-sub{color:#e0eadd}
+#worldHud.library-mode .sv-higher-btn{background:#f9f4e7!important;border-color:#f9f4e7!important;color:#294a35!important}
+#worldHud.library-mode .sv-higher-btn:hover{background:#e5eadb!important}
+#worldHud .ld-panel{border-left-color:#446e4c;box-shadow:-20px 0 45px rgba(34,48,36,.25)}
+#worldHud .ld-head{background:#31523d;border-bottom-color:#cb9a68}
+#worldHud .ld-sub{color:#e1eadb}
+#worldHud .ld-row{border-left-color:#648b65;color:#2b3f30}
+#worldHud .ld-row:hover{background:#edf3e9;border-color:#648b65}
+#worldHud .ld-row:focus-visible{outline-color:#396b49}
+#worldHud .ld-row.active{background:#e5efe2}
+#worldHud .ld-num,#worldHud .ld-tag{background:#e5eddf;color:#315638;border-color:#c1d3bc}
+#worldHud .ld-row b{color:#293e30}
+#worldHud .ld-arrow,#worldHud .ld-back{color:#315d43}
+#worldHud .ld-back{border-color:#acbfa9}
+#worldHud .ld-back:hover{background:#e5eddf}
+/* Reading and search surfaces share the same quiet botanical chrome. */
+.sv-modal-scrim{background:rgba(25,37,27,.82)}
+.sv-flip-shell{background:radial-gradient(circle at 50% 20%,#3b5741,#1f3428 88%)}
+.sv-flip-top,.sv-flip-foot{background:#20382a;border-color:#6a836a}
+.sv-flip-counter{color:#f1f1df}
+.sv-flip-hint{color:#d4e1ce}
+.sv-search-panel{background:#2b4232;border-color:#829980}
+.sv-search-head,.sv-search-foot{background:#21382b;border-color:#617a61}
+.sv-search-filters{background:#263d2e;border-color:#617a61}
+.sv-chip{background:#3b5940;border-color:#759176;color:#f0f3e9}
+.sv-chip.on,.sv-chip:hover{background:#a45b3d;border-color:#e1b497;color:#fff}
+.sv-hit{background:#354f3a;border-color:#66836a}
+.sv-hit.sel,.sv-hit:hover{background:#45654a;border-color:#c7ddbd}
+.sv-hit-meta,.sv-search-empty,.sv-search-foot{color:#d3e3ce}
+.sv-hit-eq{color:#e4d8ab}
+/* Chapters with an image need their own grid track; rows without one keep the
+   original four-column layout (including XI–XII studio rows). */
+#worldHud .ld-row:has(.ld-thumb){grid-template-columns:30px 68px minmax(0,1fr) auto 14px}
+#worldHud .ld-thumb{border-color:#c8d3c2;background:#e6ede1}
+@media(max-width:480px){
+ #worldHud .ld-row:has(.ld-thumb){grid-template-columns:30px 56px minmax(0,1fr) 14px}
+ #worldHud .ld-row:has(.ld-thumb) .ld-thumb{width:56px;height:36px}
+ #worldHud .ld-row:has(.ld-thumb) .ld-tag{display:none}
+}

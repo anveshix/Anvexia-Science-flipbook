@@ -4,6 +4,7 @@
 WebP plate mapped in `src/realistic_plates.json` with bilingual anchored callouts. This
 is mapping coverage, not proof of scientific accuracy, comprehensive concept coverage,
 or teacher approval. Illustrations and labels remain subject to independent review.
+See [the targeted plate review](PLATE_REVIEW.md) for fixes and outstanding review scope.
 
 - **193 sections**: Imported and curated from `anveshix/ifinite-horizon`.
 - **73 sections**: In-repo 3D & studio plates (`tools/plates_73/`) cover the previously unmapped runtime sections.

@@ -1,0 +1,56 @@
+chapter_id,section,plate,screening_status,subject_teacher_review,notes
+c10_carbon,4.2.2,rx/carbon_chains_branches_rings.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_carbon,4.2.3,rx/functional_groups_carbon.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_carbon,4.2.5,rx/iupac_carbon_naming.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_carbon,4.3.1,rx/clean_vs_sooty_flame.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_carbon,4.3.2,rx/ethanol_oxidation_kmno4.webp,thumbnail screened only,pending,"Review reagent chemistry, claims about safety and permanganate colour; do not use illustration as a procedure."
+c10_carbon,4.3.3,rx/alkene_hydrogenation_ni.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_carbon,4.3.4,rx/methane_chlorination_uv.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_carbon,4.4.2,rx/ethanoic_acid_tests.webp,thumbnail screened; targeted correction,pending,pH now qualified; apparatus is schematic and not a safety guide.
+c10_control,6.6,rx/voluntary_involuntary_actions.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_control,6.8,rx/hormonal_feedback_loop.webp,thumbnail screened; targeted correction,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_electricity,11.8,rx/electric_power_kwh_energy.webp,thumbnail screened; targeted correction,pending,Removed misleading voltmeter wiring; replaced by a constant-power energy calculation.
+c10_eye,10.8,rx/atmospheric_refraction_twinkling.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_life,5.3,rx/heterotrophic_nutrition_modes.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_magnetism,12.3,rx/right_hand_thumb_rule.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_magnetism,12.7,rx/direct_vs_alternating_current.webp,thumbnail screened; targeted correction,pending,"Steady DC is an example, not a definition of every direct current."
+c10_periodic,P.1,rx/dobereiner_triads.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_periodic,P.2,rx/newlands_octaves.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_periodic,P.3,rx/mendeleev_periodic_table.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_periodic,P.4,rx/modern_periodic_law.webp,thumbnail screened; targeted correction,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_periodic,P.5,rx/periodic_table_trends.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_reactions,1.1,rx/chemical_change_evidence.webp,thumbnail screened only,pending,"AI depiction: verify apparatus, hazardous materials and hotspot targets; not a laboratory procedure."
+c10_reactions,1.8,rx/exothermic_endothermic.webp,thumbnail screened only,pending,AI depiction: confirm that visual evidence corresponds to described reactions and temperatures; no procedure should be inferred.
+c10_repro,7.1,rx/dna_copying_variation.webp,thumbnail screened; targeted correction,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_repro,7.7,rx/fertilisation_implantation_cycle.webp,thumbnail screened; targeted correction,pending,"Timing text revised; medical review still needed for anatomy, implantation and menstruation."
+c10_repro,7.8,rx/contraceptive_methods_overview.webp,thumbnail screened; targeted correction,pending,Mechanisms and risk claims revised; clinical review remains essential.
+c10_repro,7.9,rx/hiv_immunity_health.webp,thumbnail screened only,pending,Needs medical review: screening alone does not prevent transmission; verify prevention and treatment wording.
+c10_sources,S.1,rx/conventional_vs_nonconventional.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_sources,S.3,rx/wind_hydro_tidal_turbines.webp,thumbnail screened; targeted correction,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_sources,S.4,rx/biogas_and_nuclear_energy.webp,thumbnail screened; targeted correction,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c10_sustainable,M.4,rx/coal_petroleum_and_3rs.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_atom,8.11,rx/element_symbols_iupac.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_atom,8.12,rx/symbols_valency_formulae.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_atom,8.8,rx/atomic_and_mass_number.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_atom,8.9,rx/isotopes_and_isobars.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_atomic_foundations,9.7,rx/writing_chemical_formulae.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_atomic_foundations,9.8,rx/molecular_mass_u.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_atomic_foundations,9.9,rx/formula_unit_mass.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_cell,2.10,rx/biomolecules_cell.webp,thumbnail screened only,pending,AI illustration: confirm molecular depictions and anchors do not imply DNA is part of a membrane.
+c9_disease,3,rx/disease_prevention_immunity.webp,thumbnail screened; targeted correction,pending,AI image; water-treatment and vaccine explanations qualified; topic identity remains provisional.
+c9_diversity,12.1,rx/need_for_classification.webp,thumbnail screened; targeted correction,pending,Removed exclusive decision tree that incorrectly grouped all unicellular eukaryotes as protists.
+c9_diversity,12.4,rx/major_plant_divisions.webp,thumbnail screened only,pending,Historical school classification and ladder-like evolutionary diagram need botanical review.
+c9_diversity,12.5,rx/major_animal_divisions.webp,thumbnail screened only,pending,Omitted animal phyla and simplified evolutionary progression need zoology review.
+c9_diversity,12.6,rx/binomial_nomenclature_linnaeus.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_diversity,12.7,rx/taxonomic_hierarchy_ranks.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_exploration,1.5,rx/scientific_models_unseen.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_mixtures,5.10,rx/centrifugation_coagulation.webp,thumbnail screened only,pending,"Verify centrifuge depiction, alum/coagulation explanation and anchors."
+c9_mixtures,5.5,rx/mass_by_mass_percent.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_mixtures,5.6,rx/concentration_mv_vv.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_reproduction9,11.8,rx/gametes_cycle_pregnancy.webp,thumbnail screened; targeted correction,pending,"Example timing clarified; anatomy, graphic and bilingual medical text remain for review."
+c9_reproduction9,11.9,rx/adolescent_reproductive_hygiene.webp,thumbnail screened; targeted correction,pending,Removed absolute prevention claims; qualified medical review pending.
+c9_tissues,3.3,rx/meristematic_tissues.webp,thumbnail screened only,pending,"AI illustration: verify exact meristem targets, cell anatomy and vacuole claim."
+c9_tissues,3.4,rx/simple_permanent_tissues.webp,thumbnail screened only,pending,AI illustration: verify the scientific anatomy and label-to-feature targets.
+c9_tissues,3.6,rx/phloem_translocation.webp,thumbnail screened only,pending,"AI illustration: verify anatomy, sieve plates, companion cells, and transport direction."
+c9_work_energy,7.2,rx/positive_negative_zero_work.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."
+c9_work_energy,7.5,rx/work_energy_theorem_cart.webp,thumbnail screened only,pending,"Needs full-size science, Hindi-label, anchor and accessibility review; thumbnail screening is not approval."

@@ -166,26 +166,26 @@ export const AI_9_PLATES = [
       {
         x: 165, y: 560,
         en: "Soap & Sanitation", hi: "साबुन व स्वच्छता",
-        info_en: "Handwashing with soap disrupts lipid envelopes of microbes and breaks contact transmission chains.",
-        info_hi: "साबुन से हाथ धोने पर रोगाणुओं का लिपिड आवरण टूटता है और संक्रमण की कड़ी रुकती है।"
+        info_en: "Washing hands with soap and water removes microbes and reduces transmission; not all microbes have lipid envelopes.",
+        info_hi: "साबुन और पानी से हाथ धोने पर रोगाणु हटते हैं और संक्रमण का जोखिम घटता है; सभी रोगाणुओं में लिपिड आवरण नहीं होता।"
       },
       {
         x: 525, y: 530,
         en: "Safe Clean Water", hi: "शुद्ध पेयजल छनन",
-        info_en: "Multi-stage filtration and chlorination/boiling eliminate waterborne pathogens at the community level.",
-        info_hi: "बहु-स्तरीय जल छनन और शुद्धिकरण समुदाय को जलजनित रोगों से बचाते हैं।"
+        info_en: "Water treatment can reduce microbial risks when properly designed and maintained. This illustration is not a treatment guide; methods vary by contaminant.",
+        info_hi: "उचित जल उपचार रोगाणुओं का जोखिम घटा सकता है। यह चित्र उपचार का निर्देश नहीं है; विधि संदूषक पर निर्भर करती है।"
       },
       {
         x: 855, y: 585,
         en: "Vaccine Immunisation", hi: "टीकाकरण (प्रतिरक्षण)",
-        info_en: "Vaccines safely introduce weakened or killed antigens so the immune system builds long-lasting memory cells.",
-        info_hi: "टीका निष्क्रिय या दुर्बल प्रतिजन देकर प्रतिरक्षा तंत्र में दीर्घकालिक स्मृति कोशिकाएँ तैयार करता है।"
+        info_en: "Vaccines train immune responses using different platforms, including components or genetic instructions; protection and duration vary by vaccine.",
+        info_hi: "अलग टीके विभिन्न तरीकों से प्रतिरक्षा प्रतिक्रिया तैयार करते हैं; सुरक्षा और उसकी अवधि टीके के अनुसार बदलती है।"
       },
       {
         x: 1225, y: 520,
         en: "Antibodies & Memory", hi: "प्रतिरक्षी व स्मृति",
-        info_en: "Specific Y-shaped antibodies rapidly recognise and neutralise invading pathogens upon real exposure.",
-        info_hi: "विशिष्ट Y-आकार के प्रतिरक्षी वास्तविक संक्रमण होने पर रोगाणुओं को तुरंत पहचानकर निष्क्रिय कर देते हैं।"
+        info_en: "Antibodies can recognise specific targets; immune protection involves several mechanisms and is not always immediate or complete.",
+        info_hi: "प्रतिरक्षी विशिष्ट लक्ष्यों को पहचान सकते हैं; प्रतिरक्षा में कई प्रक्रियाएँ हैं और सुरक्षा हमेशा तुरंत या पूर्ण नहीं होती।"
       }
     ])
   },

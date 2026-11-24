@@ -6,8 +6,8 @@ Usage:
   python3 make_publish.py --headers-only  # build index.html + publish/_headers + publish/nginx.conf
 
 The CSP and security headers are regenerated from the exact inline-script/style
-hashes. All 274 2D scientific plates across 33 chapters are verified and included
-in the offline ZIP when full packaging runs.
+hashes. The offline ZIP includes the JPEG drafts and all WebP plates referenced
+by the runtime mapping. Inclusion is not scientific or teacher approval.
 """
 import argparse
 import base64
@@ -91,6 +91,25 @@ def main() -> None:
         print("headers         ", "publish/_headers + publish/nginx.conf regenerated")
         return
 
+    # The runtime prepends these shared WebPs to the chapter JPEG lists. Package
+    # the mapping, not a hard-coded count or glob, so new first views cannot be
+    # silently omitted. Reject paths outside the shared store and missing files.
+    realistic = json.loads((ROOT / "src/realistic_plates.json").read_text(encoding="utf-8"))
+    webps = set()
+    for sections in realistic["assets"].values():
+        for files in sections.values():
+            for name in files:
+                path = pathlib.PurePosixPath(name)
+                if (len(path.parts) != 2 or path.parts[0] != "rx" or
+                        path.suffix != ".webp" or str(path) != name):
+                    raise SystemExit("Invalid shared plate path: " + name)
+                item = ROOT / "assets/2d" / name
+                if not item.is_file() or item.is_symlink():
+                    raise SystemExit("Missing or symlinked shared plate: " + str(item))
+                webps.add(name)
+    if not webps:
+        raise SystemExit("No shared WebP plates found in runtime mapping")
+
     dst = ROOT / "publish" / "index.html"
     shutil.copyfile(src, dst)
 
@@ -113,6 +132,11 @@ def main() -> None:
                 target = "assets/2d/" + ch + "/" + item.name
                 z.write(item, target)
                 members.append(target)
+
+        for name in sorted(webps):
+            target = "assets/2d/" + name
+            z.write(ROOT / target, target)
+            members.append(target)
 
         for name in ["DRAFT_REVIEW.html", "DRAFT_MANIFEST.json", "ROLLOUT_STATUS.csv"]:
             item = review_src / name
@@ -170,7 +194,10 @@ def main() -> None:
           "style unsafe-inline for dynamic DOM styles · header-only frame-ancestors")
     print("headers         ", "publish/_headers + publish/nginx.conf regenerated")
     print("publish package ", zpath, os.path.getsize(zpath), "bytes")
-    print("files           ", len(members), "archive entries")
+    print("files           ", len(members), "archive entries ·", len(webps), "referenced WebPs")
+    # Packaging is not complete until the independent mapping/byte-parity audit
+    # passes; do not depend on an optional server or silently skip a missing ZIP.
+    subprocess.run([sys.executable, "qa/audit_draft_integration.py", "--require-zip", "--no-http"], check=True)
 
 
 if __name__ == "__main__":

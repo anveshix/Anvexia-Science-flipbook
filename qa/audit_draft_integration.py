@@ -6,9 +6,11 @@ Checks:
 - Exact chapter-qualified section keys & supplemental image order vs EVRASTER
 - All 274 regular local JPEGs in assets/2d/<chapter>/*.jpg (1408x768 verified)
 - Exact 274-key / 516-hotspot parity with src/label_data.json
+- All unique runtime-mapped shared WebPs, including ZIP and local HTTP byte parity
 - Optional eduverse-publish.zip and local HTTP (:8080) byte-for-byte parity
 """
 from pathlib import Path
+import argparse
 import csv
 import hashlib
 import json
@@ -20,6 +22,11 @@ import zipfile
 ROOT = Path(__file__).resolve().parent.parent
 BASE = ROOT if (ROOT / "ROLLOUT_STATUS.csv").exists() else (ROOT.parent / "eduverse_2d_assets")
 TOPIC_AUDIT = (ROOT / "eduverse_topic_audit") if (ROOT / "eduverse_topic_audit").exists() else (ROOT.parent / "eduverse_topic_audit")
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--zip", type=Path, default=ROOT / "eduverse-publish.zip", help="ZIP to verify, if present")
+parser.add_argument("--require-zip", action="store_true", help="Fail rather than skip if ZIP is missing")
+parser.add_argument("--no-http", action="store_true", help="Do not probe a local server")
+args = parser.parse_args()
 
 
 def jpeg_dimensions(data: bytes) -> tuple[int, int]:
@@ -79,33 +86,53 @@ for chapter, section in sorted(keys):
 assert len(refs) == len(set(refs)) == 274
 assert set(short_keys) == set(label_data.keys()), "Mismatch between EVRASTER assets and label_data.json"
 
-zpath = ROOT / "eduverse-publish.zip"
+realistic = json.loads((ROOT / "src/realistic_plates.json").read_text(encoding="utf-8"))
+webp_refs = set()
+for sections in realistic["assets"].values():
+    for files in sections.values():
+        for name in files:
+            path = Path(name)
+            assert len(path.parts) == 2 and path.parts[0] == "rx" and path.suffix == ".webp" and path.as_posix() == name, name
+            ref = "assets/2d/" + name
+            assert (ROOT / ref).is_file() and not (ROOT / ref).is_symlink(), ref
+            webp_refs.add(ref)
+assert webp_refs, "No mapped shared WebPs"
+
+zpath = args.zip
+if args.require_zip:
+    assert zpath.is_file(), f"Required ZIP missing: {zpath}"
 if zpath.exists():
     with zipfile.ZipFile(zpath) as z:
         assert z.testzip() is None
-        assert set(refs) == {n for n in z.namelist() if n.startswith("assets/2d/") and n.endswith(".jpg")}
+        names = z.namelist()
+        assert len(names) == len(set(names)), "Duplicate ZIP entries"
+        assert set(refs) == {n for n in names if n.startswith("assets/2d/") and n.endswith(".jpg")}, "ZIP JPEG set mismatch"
+        missing = webp_refs - set(names)
+        assert not missing, f"ZIP missing {len(missing)} mapped WebPs: {sorted(missing)[:5]}"
         assert z.read("index.html") == (ROOT / "index.html").read_bytes()
         if (ROOT / "publish/index.html").exists():
             assert z.read("index.html") == (ROOT / "publish/index.html").read_bytes()
         assert z.read("review/ROLLOUT_STATUS.csv") == (BASE / "ROLLOUT_STATUS.csv").read_bytes()
         assert z.read("review/CONCEPT_TRACKER_FIRST_PASS.csv") == (TOPIC_AUDIT / "CONCEPT_TRACKER_FIRST_PASS.csv").read_bytes()
-        for ref in refs:
-            assert z.read(ref) == (ROOT / ref).read_bytes(), ref
+        for ref in set(refs) | webp_refs:
+            assert z.read(ref) == (ROOT / ref).read_bytes(), f"ZIP content mismatch: {ref}"
 
 http_checked = False
-try:
-    root_bytes = urllib.request.urlopen("http://127.0.0.1:8080/", timeout=3).read()
-    assert root_bytes == (ROOT / "index.html").read_bytes()
-    for ref in refs:
-        assert urllib.request.urlopen("http://127.0.0.1:8080/" + ref, timeout=5).read() == (ROOT / ref).read_bytes(), ref
-    http_checked = True
-except (urllib.error.URLError, TimeoutError):
-    pass
+if not args.no_http:
+    try:
+        root_bytes = urllib.request.urlopen("http://127.0.0.1:8080/", timeout=3).read()
+    except (urllib.error.URLError, TimeoutError):
+        root_bytes = None
+    if root_bytes is not None:
+        assert root_bytes == (ROOT / "index.html").read_bytes()
+        for ref in sorted(set(refs) | webp_refs):
+            assert urllib.request.urlopen("http://127.0.0.1:8080/" + ref, timeout=5).read() == (ROOT / ref).read_bytes(), ref
+        http_checked = True
 
 print(
     f"PASS: {len(keys)} mapped spreads in {len(assets)} chapters; "
-    f"{len(refs)} 1408x768 JPEGs; 516 bilingual hotspots; "
-    f"ZIP={'verified' if zpath.exists() else 'skipped'}; "
+    f"{len(refs)} 1408x768 JPEGs; 516 bilingual hotspots; {len(webp_refs)} unique mapped WebPs; "
+    f"ZIP={'verified (JPEGs + mapped WebPs)' if zpath.exists() else 'skipped'}; "
     f"HTTP(:8080)={'verified' if http_checked else 'skipped'}."
 )
 print("Index SHA-256:", hashlib.sha256((ROOT / "index.html").read_bytes()).hexdigest())

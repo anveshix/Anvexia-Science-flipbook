@@ -78,6 +78,7 @@ function verifyStaticGeometry() {
   let playwright = null;
   try { playwright = require("playwright"); } catch (_) {}
   if (!playwright) {
+    if (process.env.QA_REQUIRE_BROWSER === "1") throw new Error("playwright not installed; real-browser geometry required");
     verifyStaticGeometry();
     return;
   }
@@ -85,7 +86,8 @@ function verifyStaticGeometry() {
   for (const mobile of [false, true]) {
     const b = await chromium.launch({
       headless: true,
-      args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-webgl", "--ignore-gpu-blocklist", "--no-sandbox", "--disable-dev-shm-usage"]
+      ...(process.env.QA_CHROMIUM_EXECUTABLE ? { executablePath: process.env.QA_CHROMIUM_EXECUTABLE } : {}),
+      args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-webgl", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist", "--no-sandbox", "--disable-dev-shm-usage"]
     });
     try {
       const p = await b.newPage({
