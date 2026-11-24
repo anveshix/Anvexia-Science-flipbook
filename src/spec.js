@@ -345,6 +345,41 @@ const WORLDS = {
       sc: { params: { levels: ["STIMULUS", "SIGNAL", "RESPONSE"] }, challenge: { text: "Open all 3 layers.", target: { key: "opened", value: 3, op: "gte" } } },
       q: ["Hormones are transported by:", ["Axons", "Blood", "Synapses"], 1, "Endocrine glands are ductless and secrete into blood."]
     })
+  ],
+  c9_disease: [
+    S("cell", "Health, disease & infectious agents", "स्वास्थ्य, रोग तथा संक्रामक कारक", "1", {
+      c: "Health is complete physical, mental and social well-being. Acute diseases last briefly while chronic ones persist; infectious agents include viruses, bacteria, fungi, protozoa and helminths.",
+      ch: "स्वास्थ्य शारीरिक, मानसिक व सामाजिक सुस्थिति है। तीव्र रोग अल्पकालिक और दीर्घकालिक रोग लंबे चलते हैं; विषाणु, जीवाणु, कवक व प्रोटोज़ोआ संक्रामक कारक हैं।",
+      f: ["PATHOGENS", "Viruses · Bacteria · Fungi · Protozoa", "Antibiotics block bacterial cell-wall synthesis, not viruses."],
+      v: [["Acute vs chronic", "Short-lived cold vs long-term elephantiasis/TB."], ["Pathogen", "Disease-causing microbe or parasite."], ["Antibiotic", "Blocks bacterial biochemical pathways."]],
+      p: ["Why do antibiotics fail against the common cold?", ["Cold is too mild", "Viruses lack bacterial cell-wall pathways", "Antibiotics evaporate"], 1],
+      e: "Penicillin inhibits bacterial cell-wall synthesis; viruses use host-cell machinery and build no peptidoglycan wall.",
+      fig: "Fig. 1 — Pathogen structure and cellular target.", hint: "Inspect each structural part of the microbe and host target.",
+      sc: { params: { mode: "animal" }, challenge: { text: "Identify all 5 cellular structures.", target: { key: "found", value: 5, op: "gte" } } },
+      q: ["Kala-azar is caused by the protozoan:", ["Staphylococcus", "Leishmania", "SARS virus"], 1, "Leishmania is a flagellated protozoan parasite."]
+    }),
+    S("flow", "Means of spread of infectious diseases", "संक्रामक रोगों के संचरण के माध्यम", "2", {
+      c: "Communicable diseases spread from an infected person to a healthy host via airborne droplets, contaminated water or food, direct contact, or biological vectors such as female Anopheles and Aedes mosquitoes.",
+      ch: "संक्रामक रोग वायु-बूंदों, दूषित जल व भोजन, प्रत्यक्ष संपर्क अथवा मादा एनोफ़िलीज़ व एडीज़ मच्छर जैसे रोगवाहकों द्वारा स्वस्थ व्यक्ति तक फैलते हैं।",
+      f: ["ROUTES", "Air · Water/Food · Contact · Vector", "Breaking the transmission link stops an outbreak."],
+      v: [["Droplet nuclei", "Tiny respiratory particles carrying TB/flu microbes."], ["Waterborne", "Cholera and hepatitis spread via contaminated water."], ["Vector", "Organism carrying pathogens between hosts (e.g. mosquito)."]],
+      p: ["Malaria and dengue spread primarily through:", ["Airborne dust", "Mosquito vectors", "Genetic inheritance"], 1],
+      e: "Female mosquitoes require blood protein to mature eggs and transfer Plasmodium or dengue virus between human hosts.",
+      fig: "Fig. 2 — Four pathways of communicable transmission.", hint: "Advance through each transmission stage to trace and block spread.",
+      sc: { params: { stages: ["SOURCE", "PATHWAY", "VECTOR", "HOST"] }, challenge: { text: "Trace all 4 transmission stages.", target: { key: "stage", value: 3, op: "gte" } } },
+      q: ["Cholera is predominantly transmitted through:", ["Contaminated water", "Mosquito bite", "Loud sound"], 0, "Vibrio cholerae spreads via faecal contamination of drinking water."]
+    }),
+    S("stack", "Treatment, prevention & immunisation", "उपचार, निवारण एवं टीकाकरण", "3", {
+      c: "Treatment reduces symptoms and eliminates microbes; prevention combines public hygiene, safe water and vector control with specific immunisation, where vaccines train memory lymphocytes to neutralise future infection rapidly.",
+      ch: "उपचार लक्षण घटाकर रोगाणु नष्ट करता है; निवारण में स्वच्छ जल, मच्छर नियंत्रण तथा टीकाकरण शामिल हैं, जहाँ टीके स्मृति कोशिकाएँ बनाकर भविष्य के संक्रमण से बचाते हैं।",
+      f: ["IMMUNITY", "Vaccine antigen ⟶ Memory cells ⟶ Rapid antibodies", "Prevention is safer and broader than cure."],
+      v: [["Inflammation", "Immune recruitment causing local swelling and fever."], ["Immunisation", "Priming immune memory using weakened/killed antigen."], ["Antibody", "Specific Y-shaped protein neutralising a pathogen."]],
+      p: ["A vaccine protects against future infection mainly by:", ["Heating blood", "Creating immune memory cells", "Dissolving skin"], 1],
+      e: "First exposure to harmless vaccine antigen builds memory B and T cells that respond swiftly upon real exposure.",
+      fig: "Fig. 3 — Layered lines of public and immune defence.", hint: "Open each defence layer from hygiene to specific immunity.",
+      sc: { params: { levels: ["HYGIENE", "ANTIBODIES", "MEMORY"] }, challenge: { text: "Open all 3 defence layers.", target: { key: "opened", value: 3, op: "gte" } } },
+      q: ["Who pioneered the first smallpox vaccine?", ["Edward Jenner", "Isaac Newton", "Gregor Mendel"], 0, "Edward Jenner used cowpox (vacca) exposure to protect against smallpox."]
+    })
   ]
 };
 
