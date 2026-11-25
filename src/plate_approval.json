@@ -4,7 +4,7 @@
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1286 labels, all with Devanagari Hindi",
+   "detail": "1290 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "288 unique SHA-256",
+   "detail": "289 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "288 plates",
+   "detail": "289 plates",
    "ok": true
   }
  },
@@ -391,6 +391,22 @@
     }
    ],
    "sha256": "920ccf43bf8e00bad077409a09e8a6d88c4603849fbdff774d2b45013da4375b",
+   "width": 1376
+  },
+  {
+   "bytes": 80808,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_11_division_cancer.webp",
+   "height": 768,
+   "id": "c9_cell_2_11_division_cancer",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.11"
+    }
+   ],
+   "sha256": "d051745d7ea33e960c2652550cc3d3c85cb4ad993782d20f86788994fd8ae9af",
    "width": 1376
   },
   {
@@ -5009,17 +5025,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 17090202,
+  "bytes": 17171010,
   "chapters": 33,
-  "creditsRecorded": 91,
+  "creditsRecorded": 92,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 12,
+   "1376x768": 13,
    "1408x768": 198
   },
-  "labels": 1286,
-  "plates": 288,
+  "labels": 1290,
+  "plates": 289,
   "sections": 266,
-  "uniqueSha256": 288
+  "uniqueSha256": 289
  }
 }

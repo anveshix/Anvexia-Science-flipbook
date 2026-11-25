@@ -577,6 +577,7 @@
     "rx/biomolecules_cell.webp"
    ],
    "2.11": [
+    "rx/c9_cell_2_11_division_cancer.webp",
     "rx/recombinant_insulin.webp",
     "rx/bioreactor_growth_curve.webp"
    ],
@@ -1070,7 +1071,8 @@
   "rx/c9_cell_2_7_mitochondria_chloroplast.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_cell_2_8_er_golgi_lysosome.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_cell_2_9_cell_division.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_cell_2_10_biomolecules.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_cell_2_10_biomolecules.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_11_division_cancer.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -17079,6 +17081,56 @@
     "hi": "राइबोसोम",
     "info_en": "Ribosome: labelled part of the illustration “Biomolecules Inside a Cell”. Illustrative, not to scale.",
     "info_hi": "राइबोसोम: “कोशिका के भीतर जैव-अणु” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_11_division_cancer.webp": [
+   {
+    "x": 250,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 286,
+    "anchor_y": 445,
+    "en": "Cell in mitosis",
+    "hi": "समसूत्री विभाजन",
+    "info_en": "Cell in mitosis: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "समसूत्री विभाजन: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 508,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 850,
+    "anchor_y": 380,
+    "en": "Tumour-like mass",
+    "hi": "गाँठ जैसा पिंड",
+    "info_en": "Tumour-like mass: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "गाँठ जैसा पिंड: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 766,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1146,
+    "anchor_y": 620,
+    "en": "Petri dish",
+    "hi": "पेट्री डिश",
+    "info_en": "Petri dish: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "पेट्री डिश: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 1024,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 235,
+    "anchor_y": 190,
+    "en": "Microscope",
+    "hi": "सूक्ष्मदर्शी",
+    "info_en": "Microscope: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "सूक्ष्मदर्शी: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },
