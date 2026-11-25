@@ -3191,8 +3191,8 @@
       "title": "Homogeneous and heterogeneous mixtures",
       "titleHi": "समांगी और विषमांगी मिश्रण",
       "short": "Homogeneous and hetero",
-      "concept": "Homogeneous mixtures have uniform composition throughout; heterogeneous mixtures have visible parts.",
-      "conceptHi": "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी में अलग-अलग भाग दिखते हैं।",
+      "concept": "A mixture with the same composition everywhere is homogeneous; one whose parts can be told apart is heterogeneous.",
+      "conceptHi": "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भाग पहचाने जा सकें वह विषमांगी।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3200,20 +3200,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
-        "options": ["A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount.", "Suspension particles settle down when left undisturbed."],
+        "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
-        "why": "A solution is homogeneous while a suspension is heterogeneous."
+        "why": "Sugar water is equally sweet in the first and the last sip."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'समांगी और विषमांगी मिश्रण' से मेल खाता है?",
-        "options": ["विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 0,
-        "why": "विलयन समांगी और निलंबन विषमांगी मिश्रण है।"
+        "why": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।"
       },
-      "explain": "A solution is homogeneous while a suspension is heterogeneous.",
-      "explainHi": "विलयन समांगी और निलंबन विषमांगी मिश्रण है।",
-      "vocab": [["Mixture", "Homogeneous mixtures have uniform composition throughout; "], ["Solution", "Homogeneous mixtures have uniform composition throughout; "], ["Solute", "Homogeneous mixtures have uniform composition throughout; "]],
-      "vocabHi": [["मिश्रण", "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी मे"], ["विलयन", "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी मे"], ["विलेय", "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी मे"]],
+      "explain": "Sugar water is equally sweet in the first and the last sip.",
+      "explainHi": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।",
+      "vocab": [["Mixture", "A mixture with the same composition everywhere is homogene"], ["Solution", "A mixture with the same composition everywhere is homogene"], ["Solute", "A mixture with the same composition everywhere is homogene"]],
+      "vocabHi": [["मिश्रण", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"], ["विलयन", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"], ["विलेय", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"]],
       "fig": "3D layers · Homogeneous and heterogeneous mixtures · Solution → Colloid → Suspension → Visible parts",
       "figHi": "3D layers चित्र · समांगी और विषमांगी मिश्रण · Solution / Colloid / Suspension",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3229,9 +3229,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
-        "options": ["A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount.", "Suspension particles settle down when left undisturbed."],
+        "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
-        "why": "A solution is homogeneous while a suspension is heterogeneous."
+        "why": "Sugar water is equally sweet in the first and the last sip."
       },
       "scene": {
         "type": "atlas",
@@ -3252,8 +3252,8 @@
       "title": "Solutions and their components",
       "titleHi": "विलयन और उसके घटक",
       "short": "Solutions and their co",
-      "concept": "A solution has a solute dissolved in a solvent; its particles are smaller than one nanometre.",
-      "conceptHi": "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमीटर से छोटे होते हैं।",
+      "concept": "A solution is a homogeneous mixture of a solute dissolved in a solvent; its particles are smaller than one nanometre.",
+      "conceptHi": "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनोमीटर से छोटे होते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3261,20 +3261,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Solutions and their components?",
-        "options": ["Suspension particles settle down when left undisturbed.", "The solvent is the component present in larger amount.", "Scattering of light by colloids is called the Tyndall effect."],
+        "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
-        "why": "The solvent is the component present in larger amount."
+        "why": "Concentration is the amount of solute in a given amount of solution."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'विलयन और उसके घटक' से मेल खाता है?",
-        "options": ["निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"],
+        "options": ["गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"],
         "a": 1,
-        "why": "विलायक वह घटक है जो अधिक मात्रा में होता है।"
+        "why": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"
       },
-      "explain": "The solvent is the component present in larger amount.",
-      "explainHi": "विलायक वह घटक है जो अधिक मात्रा में होता है।",
-      "vocab": [["Solution", "A solution has a solute dissolved in a solvent; its partic"], ["Solute", "A solution has a solute dissolved in a solvent; its partic"], ["Solvent", "A solution has a solute dissolved in a solvent; its partic"]],
-      "vocabHi": [["विलयन", "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमी"], ["विलेय", "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमी"], ["विलायक", "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमी"]],
+      "explain": "Concentration is the amount of solute in a given amount of solution.",
+      "explainHi": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।",
+      "vocab": [["Solution", "A solution is a homogeneous mixture of a solute dissolved "], ["Solute", "A solution is a homogeneous mixture of a solute dissolved "], ["Solvent", "A solution is a homogeneous mixture of a solute dissolved "]],
+      "vocabHi": [["विलयन", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"], ["विलेय", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"], ["विलायक", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"]],
       "fig": "3D molecule · Solutions and their components · Solute → Solvent → Solution → Particle",
       "figHi": "3D molecule चित्र · विलयन और उसके घटक · Solute / Solvent / Solution",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3290,9 +3290,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Solutions and their components?",
-        "options": ["Suspension particles settle down when left undisturbed.", "The solvent is the component present in larger amount.", "Scattering of light by colloids is called the Tyndall effect."],
+        "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
-        "why": "The solvent is the component present in larger amount."
+        "why": "Concentration is the amount of solute in a given amount of solution."
       },
       "scene": {
         "type": "atlas",
@@ -3313,8 +3313,8 @@
       "title": "Suspensions",
       "titleHi": "निलंबन",
       "short": "Suspensions",
-      "concept": "Suspensions have particles visible to the eye that settle on standing and can be filtered.",
-      "conceptHi": "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने जा सकते हैं।",
+      "concept": "Suspension particles are large enough to be seen, stay suspended while stirred and settle out when left standing.",
+      "conceptHi": "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बने रहते हैं और रखने पर बैठ जाते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3322,20 +3322,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Suspensions?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Suspension particles settle down when left undisturbed."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
-        "why": "Suspension particles settle down when left undisturbed."
+        "why": "Muddy water clears only partly on filtering: finer particles stay."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'निलंबन' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 2,
-        "why": "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"
+        "why": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"
       },
-      "explain": "Suspension particles settle down when left undisturbed.",
-      "explainHi": "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।",
-      "vocab": [["Solute", "Suspensions have particles visible to the eye that settle "], ["Solvent", "Suspensions have particles visible to the eye that settle "], ["Colloid", "Suspensions have particles visible to the eye that settle "]],
-      "vocabHi": [["विलेय", "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने"], ["विलायक", "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने"], ["कोलॉइड", "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने"]],
+      "explain": "Muddy water clears only partly on filtering: finer particles stay.",
+      "explainHi": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।",
+      "vocab": [["Solute", "Suspension particles are large enough to be seen, stay sus"], ["Solvent", "Suspension particles are large enough to be seen, stay sus"], ["Colloid", "Suspension particles are large enough to be seen, stay sus"]],
+      "vocabHi": [["विलेय", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"], ["विलायक", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"], ["कोलॉइड", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"]],
       "fig": "3D layers · Suspensions · Particle → Water → Settling → Sediment",
       "figHi": "3D layers चित्र · निलंबन · Particle / Water / Settling",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3351,9 +3351,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Suspensions?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Suspension particles settle down when left undisturbed."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
-        "why": "Suspension particles settle down when left undisturbed."
+        "why": "Muddy water clears only partly on filtering: finer particles stay."
       },
       "scene": {
         "type": "atlas",
@@ -3374,8 +3374,8 @@
       "title": "Colloids and Tyndall effect",
       "titleHi": "कोलॉइड और टिण्डल प्रभाव",
       "short": "Colloids and Tyndall e",
-      "concept": "Colloidal particles do not settle, pass through filter paper and scatter a beam of light.",
-      "conceptHi": "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की किरण बिखेरते हैं।",
+      "concept": "Colloid particles are 1 to 1000 nm across, never settle, and scatter a beam of light so its path becomes visible.",
+      "conceptHi": "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रकाश बिखेरकर किरण का मार्ग दिखा देते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3383,20 +3383,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Colloids and Tyndall effect?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Volume by volume percentage is used for two liquids."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
-        "why": "Scattering of light by colloids is called the Tyndall effect."
+        "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कोलॉइड और टिण्डल प्रभाव' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 0,
-        "why": "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"
+        "why": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"
       },
-      "explain": "Scattering of light by colloids is called the Tyndall effect.",
-      "explainHi": "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।",
-      "vocab": [["Solvent", "Colloidal particles do not settle, pass through filter pap"], ["Colloid", "Colloidal particles do not settle, pass through filter pap"], ["Distillation", "Colloidal particles do not settle, pass through filter pap"]],
-      "vocabHi": [["विलायक", "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की"], ["कोलॉइड", "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की"], ["आसवन", "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की"]],
+      "explain": "The Tyndall effect is light scattered by colloidal or suspended particles.",
+      "explainHi": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।",
+      "vocab": [["Solvent", "Colloid particles are 1 to 1000 nm across, never settle, a"], ["Colloid", "Colloid particles are 1 to 1000 nm across, never settle, a"], ["Distillation", "Colloid particles are 1 to 1000 nm across, never settle, a"]],
+      "vocabHi": [["विलायक", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"], ["कोलॉइड", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"], ["आसवन", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"]],
       "fig": "3D rays · Colloids and Tyndall effect · Light → Colloid → Scatter → Observer",
       "figHi": "3D rays चित्र · कोलॉइड और टिण्डल प्रभाव · Light / Colloid / Scatter",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3412,9 +3412,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Colloids and Tyndall effect?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Volume by volume percentage is used for two liquids."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
-        "why": "Scattering of light by colloids is called the Tyndall effect."
+        "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       },
       "scene": {
         "type": "atlas",
@@ -3435,8 +3435,8 @@
       "title": "Mass by mass percentage",
       "titleHi": "द्रव्यमान-द्रव्यमान प्रतिशत",
       "short": "Mass by mass percentag",
-      "concept": "Mass-by-mass concentration is solute mass divided by total solution mass, multiplied by 100.",
-      "conceptHi": "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव्यमान से गुणा 100 है।",
+      "concept": "Mass by mass percentage is the mass of solute divided by the mass of solution, multiplied by 100.",
+      "conceptHi": "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान से भाग देकर 100 से गुणा करने पर मिलता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3444,20 +3444,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Mass by mass percentage?",
-        "options": ["Volume by volume percentage is used for two liquids.", "A 10 percent solution has 10 g solute in 100 g solution.", "Evaporation recovers a dissolved solid by removing the solvent."],
+        "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
-        "why": "A 10 percent solution has 10 g solute in 100 g solution."
+        "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'द्रव्यमान-द्रव्यमान प्रतिशत' से मेल खाता है?",
-        "options": ["आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"],
+        "options": ["अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"],
         "a": 1,
-        "why": "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।"
+        "why": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।"
       },
-      "explain": "A 10 percent solution has 10 g solute in 100 g solution.",
-      "explainHi": "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।",
-      "vocab": [["Colloid", "Mass-by-mass concentration is solute mass divided by total"], ["Distillation", "Mass-by-mass concentration is solute mass divided by total"], ["Mixture", "Mass-by-mass concentration is solute mass divided by total"]],
-      "vocabHi": [["कोलॉइड", "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव"], ["आसवन", "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव"], ["मिश्रण", "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव"]],
+      "explain": "10 g of salt in 90 g of water gives a 10% m/m solution.",
+      "explainHi": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।",
+      "vocab": [["Colloid", "Mass by mass percentage is the mass of solute divided by t"], ["Distillation", "Mass by mass percentage is the mass of solute divided by t"], ["Mixture", "Mass by mass percentage is the mass of solute divided by t"]],
+      "vocabHi": [["कोलॉइड", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"], ["आसवन", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"], ["मिश्रण", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"]],
       "fig": "3D bars · Mass by mass percentage · Solute → Solvent → Total → Percent",
       "figHi": "3D bars चित्र · द्रव्यमान-द्रव्यमान प्रतिशत · Solute / Solvent / Total",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3473,9 +3473,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Mass by mass percentage?",
-        "options": ["Volume by volume percentage is used for two liquids.", "A 10 percent solution has 10 g solute in 100 g solution.", "Evaporation recovers a dissolved solid by removing the solvent."],
+        "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
-        "why": "A 10 percent solution has 10 g solute in 100 g solution."
+        "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       },
       "scene": {
         "type": "atlas",
@@ -3496,8 +3496,8 @@
       "title": "Mass by volume and volume by volume",
       "titleHi": "द्रव्यमान-आयतन और आयतन-आयतन",
       "short": "Mass by volume and vol",
-      "concept": "Concentration can also be expressed as solute mass per solution volume or as volume of solute per volume of solution.",
-      "conceptHi": "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयतन प्रति विलयन आयतन से भी लिखी जाती है।",
+      "concept": "Mass by volume percentage is grams of solute per 100 mL of solution; volume by volume is mL per 100 mL.",
+      "conceptHi": "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं, आयतन-आयतन प्रतिशत 100 mL में mL।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3505,20 +3505,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Mass by volume and volume by volume?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Volume by volume percentage is used for two liquids."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
-        "why": "Volume by volume percentage is used for two liquids."
+        "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'द्रव्यमान-आयतन और आयतन-आयतन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 2,
-        "why": "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"
+        "why": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"
       },
-      "explain": "Volume by volume percentage is used for two liquids.",
-      "explainHi": "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।",
-      "vocab": [["Distillation", "Concentration can also be expressed as solute mass per sol"], ["Mixture", "Concentration can also be expressed as solute mass per sol"], ["Solution", "Concentration can also be expressed as solute mass per sol"]],
-      "vocabHi": [["आसवन", "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयत"], ["मिश्रण", "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयत"], ["विलयन", "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयत"]],
+      "explain": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.",
+      "explainHi": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।",
+      "vocab": [["Distillation", "Mass by volume percentage is grams of solute per 100 mL of"], ["Mixture", "Mass by volume percentage is grams of solute per 100 mL of"], ["Solution", "Mass by volume percentage is grams of solute per 100 mL of"]],
+      "vocabHi": [["आसवन", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"], ["मिश्रण", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"], ["विलयन", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"]],
       "fig": "3D bars · Mass by volume and volume by volume · Mass per vol → Vol per vol → Units → Use",
       "figHi": "3D bars चित्र · द्रव्यमान-आयतन और आयतन-आयतन · Mass per vol / Vol per vol / Units",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3534,9 +3534,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Mass by volume and volume by volume?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Volume by volume percentage is used for two liquids."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
-        "why": "Volume by volume percentage is used for two liquids."
+        "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       },
       "scene": {
         "type": "atlas",
@@ -3557,8 +3557,8 @@
       "title": "Filtration, evaporation and sedimentation",
       "titleHi": "छानना, वाष्पन और अवसादन",
       "short": "Filtration, evaporatio",
-      "concept": "Separation uses differences in particle size, volatility and density of the components.",
-      "conceptHi": "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित होता है।",
+      "concept": "Separation exploits a difference in particle size, boiling point or density between the components of a mixture.",
+      "conceptHi": "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के अंतर का उपयोग करता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3566,20 +3566,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
-        "why": "Evaporation recovers a dissolved solid by removing the solvent."
+        "why": "Evaporation drives off water and leaves common salt behind."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'छानना, वाष्पन और अवसादन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 0,
-        "why": "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"
+        "why": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"
       },
-      "explain": "Evaporation recovers a dissolved solid by removing the solvent.",
-      "explainHi": "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।",
-      "vocab": [["Mixture", "Separation uses differences in particle size, volatility a"], ["Solution", "Separation uses differences in particle size, volatility a"], ["Solute", "Separation uses differences in particle size, volatility a"]],
-      "vocabHi": [["मिश्रण", "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित हो"], ["विलयन", "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित हो"], ["विलेय", "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित हो"]],
+      "explain": "Evaporation drives off water and leaves common salt behind.",
+      "explainHi": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।",
+      "vocab": [["Mixture", "Separation exploits a difference in particle size, boiling"], ["Solution", "Separation exploits a difference in particle size, boiling"], ["Solute", "Separation exploits a difference in particle size, boiling"]],
+      "vocabHi": [["मिश्रण", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "], ["विलयन", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "], ["विलेय", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "]],
       "fig": "3D flow · Filtration, evaporation and sedimentation · Mixture → Filter → Residue → Evaporate",
       "figHi": "3D flow चित्र · छानना, वाष्पन और अवसादन · Mixture / Filter / Residue",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3595,9 +3595,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
-        "why": "Evaporation recovers a dissolved solid by removing the solvent."
+        "why": "Evaporation drives off water and leaves common salt behind."
       },
       "scene": {
         "type": "atlas",
@@ -3618,8 +3618,8 @@
       "title": "Crystallisation and distillation",
       "titleHi": "क्रिस्टलीकरण और आसवन",
       "short": "Crystallisation and di",
-      "concept": "Crystallisation gives pure crystals; distillation separates liquids using different boiling points.",
-      "conceptHi": "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथनांक वाले द्रव अलग करता है।",
+      "concept": "Crystallisation cools a saturated solution so pure crystals form; distillation boils off the liquid with the lower boiling point.",
+      "conceptHi": "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते हैं, आसवन में कम क्वथनांक वाला द्रव उड़ता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3627,20 +3627,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Crystallisation and distillation?",
-        "options": ["Sublimation separates a solid that turns directly into vapour.", "Fractional distillation separates miscible liquids with close boiling points.", "Adding an electrolyte can coagulate a colloid."],
+        "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
-        "why": "Fractional distillation separates miscible liquids with close boiling points."
+        "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'क्रिस्टलीकरण और आसवन' से मेल खाता है?",
-        "options": ["ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"],
+        "options": ["काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"],
         "a": 1,
-        "why": "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।"
+        "why": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।"
       },
-      "explain": "Fractional distillation separates miscible liquids with close boiling points.",
-      "explainHi": "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।",
-      "vocab": [["Solution", "Crystallisation gives pure crystals; distillation separate"], ["Solute", "Crystallisation gives pure crystals; distillation separate"], ["Solvent", "Crystallisation gives pure crystals; distillation separate"]],
-      "vocabHi": [["विलयन", "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथन"], ["विलेय", "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथन"], ["विलायक", "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथन"]],
+      "explain": "Acetone boils at 56 °C, water at 100 °C, so they distil apart.",
+      "explainHi": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।",
+      "vocab": [["Solution", "Crystallisation cools a saturated solution so pure crystal"], ["Solute", "Crystallisation cools a saturated solution so pure crystal"], ["Solvent", "Crystallisation cools a saturated solution so pure crystal"]],
+      "vocabHi": [["विलयन", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"], ["विलेय", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"], ["विलायक", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"]],
       "fig": "3D cycle · Crystallisation and distillation · Heat → Vapour → Condenser → Distillate",
       "figHi": "3D cycle चित्र · क्रिस्टलीकरण और आसवन · Heat / Vapour / Condenser",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3656,9 +3656,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Crystallisation and distillation?",
-        "options": ["Sublimation separates a solid that turns directly into vapour.", "Fractional distillation separates miscible liquids with close boiling points.", "Adding an electrolyte can coagulate a colloid."],
+        "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
-        "why": "Fractional distillation separates miscible liquids with close boiling points."
+        "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       },
       "scene": {
         "type": "atlas",
@@ -3679,8 +3679,8 @@
       "title": "Chromatography and sublimation",
       "titleHi": "वर्णलेखन और ऊर्ध्वपातन",
       "short": "Chromatography and sub",
-      "concept": "Paper chromatography separates dissolved substances by different movement through a stationary phase.",
-      "conceptHi": "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार्थ अलग होते हैं।",
+      "concept": "Paper chromatography carries dyes up a strip at different speeds; sublimation turns camphor straight into vapour.",
+      "conceptHi": "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपातन में कपूर सीधे वाष्प बन जाता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3688,20 +3688,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Chromatography and sublimation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
-        "why": "Sublimation separates a solid that turns directly into vapour."
+        "why": "A black ink spot splits into several colours as water rises."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'वर्णलेखन और ऊर्ध्वपातन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 2,
-        "why": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"
+        "why": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"
       },
-      "explain": "Sublimation separates a solid that turns directly into vapour.",
-      "explainHi": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।",
-      "vocab": [["Solute", "Paper chromatography separates dissolved substances by dif"], ["Solvent", "Paper chromatography separates dissolved substances by dif"], ["Colloid", "Paper chromatography separates dissolved substances by dif"]],
-      "vocabHi": [["विलेय", "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार"], ["विलायक", "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार"], ["कोलॉइड", "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार"]],
+      "explain": "A black ink spot splits into several colours as water rises.",
+      "explainHi": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।",
+      "vocab": [["Solute", "Paper chromatography carries dyes up a strip at different "], ["Solvent", "Paper chromatography carries dyes up a strip at different "], ["Colloid", "Paper chromatography carries dyes up a strip at different "]],
+      "vocabHi": [["विलेय", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"], ["विलायक", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"], ["कोलॉइड", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"]],
       "fig": "3D layers · Chromatography and sublimation · Spot → Solvent front → Dyes → Sublimate",
       "figHi": "3D layers चित्र · वर्णलेखन और ऊर्ध्वपातन · Spot / Solvent front / Dyes",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3717,9 +3717,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Chromatography and sublimation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
-        "why": "Sublimation separates a solid that turns directly into vapour."
+        "why": "A black ink spot splits into several colours as water rises."
       },
       "scene": {
         "type": "atlas",
@@ -3740,8 +3740,8 @@
       "title": "Centrifugation and coagulation",
       "titleHi": "अपकेन्द्रण और स्कंदन",
       "short": "Centrifugation and coa",
-      "concept": "Centrifugation spins out fine suspended particles; coagulation joins colloidal particles so they settle.",
-      "conceptHi": "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण जोड़कर बैठाता है।",
+      "concept": "Centrifugation spins heavier particles to the bottom of a tube; alum coagulates fine mud so it settles.",
+      "conceptHi": "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद के महीन कण जोड़कर बैठा देती है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3749,20 +3749,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Centrifugation and coagulation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
-        "why": "Adding an electrolyte can coagulate a colloid."
+        "why": "Blood separates into plasma and cells in a centrifuge."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'अपकेन्द्रण और स्कंदन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"],
         "a": 0,
-        "why": "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"
+        "why": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"
       },
-      "explain": "Adding an electrolyte can coagulate a colloid.",
-      "explainHi": "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।",
-      "vocab": [["Solvent", "Centrifugation spins out fine suspended particles; coagula"], ["Colloid", "Centrifugation spins out fine suspended particles; coagula"], ["Distillation", "Centrifugation spins out fine suspended particles; coagula"]],
-      "vocabHi": [["विलायक", "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण "], ["कोलॉइड", "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण "], ["आसवन", "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण "]],
+      "explain": "Blood separates into plasma and cells in a centrifuge.",
+      "explainHi": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।",
+      "vocab": [["Solvent", "Centrifugation spins heavier particles to the bottom of a "], ["Colloid", "Centrifugation spins heavier particles to the bottom of a "], ["Distillation", "Centrifugation spins heavier particles to the bottom of a "]],
+      "vocabHi": [["विलायक", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"], ["कोलॉइड", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"], ["आसवन", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"]],
       "fig": "3D cycle · Centrifugation and coagulation · Spin → Pellet → Supernatant → Coagulate",
       "figHi": "3D cycle चित्र · अपकेन्द्रण और स्कंदन · Spin / Pellet / Supernatant",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3778,9 +3778,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Centrifugation and coagulation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
-        "why": "Adding an electrolyte can coagulate a colloid."
+        "why": "Blood separates into plasma and cells in a centrifuge."
       },
       "scene": {
         "type": "atlas",
@@ -3873,172 +3873,172 @@
         "hi": "समांगी और विषमांगी मिश्रण",
         "color": "#3f8f7f",
         "spread": 0,
-        "desc": "A solution is homogeneous while a suspension is heterogeneous."
+        "desc": "Sugar water is equally sweet in the first and the last sip."
       }, {
         "id": "5.2",
         "en": "Solutions and their components",
         "hi": "विलयन और उसके घटक",
         "color": "#3f8f7f",
         "spread": 1,
-        "desc": "The solvent is the component present in larger amount."
+        "desc": "Concentration is the amount of solute in a given amount of solution."
       }, {
         "id": "5.3",
         "en": "Suspensions",
         "hi": "निलंबन",
         "color": "#3f8f7f",
         "spread": 2,
-        "desc": "Suspension particles settle down when left undisturbed."
+        "desc": "Muddy water clears only partly on filtering: finer particles stay."
       }, {
         "id": "5.4",
         "en": "Colloids and Tyndall effect",
         "hi": "कोलॉइड और टिण्डल प्रभाव",
         "color": "#3f8f7f",
         "spread": 3,
-        "desc": "Scattering of light by colloids is called the Tyndall effect."
+        "desc": "The Tyndall effect is light scattered by colloidal or suspended partic"
       }, {
         "id": "5.5",
         "en": "Mass by mass percentage",
         "hi": "द्रव्यमान-द्रव्यमान प्रतिशत",
         "color": "#3f8f7f",
         "spread": 4,
-        "desc": "A 10 percent solution has 10 g solute in 100 g solution."
+        "desc": "10 g of salt in 90 g of water gives a 10% m/m solution."
       }, {
         "id": "5.6",
         "en": "Mass by volume and volume by volume",
         "hi": "द्रव्यमान-आयतन और आयतन-आयतन",
         "color": "#3f8f7f",
         "spread": 5,
-        "desc": "Volume by volume percentage is used for two liquids."
+        "desc": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       }, {
         "id": "5.7",
         "en": "Filtration, evaporation and sedimentation",
         "hi": "छानना, वाष्पन और अवसादन",
         "color": "#3f8f7f",
         "spread": 6,
-        "desc": "Evaporation recovers a dissolved solid by removing the solvent."
+        "desc": "Evaporation drives off water and leaves common salt behind."
       }, {
         "id": "5.8",
         "en": "Crystallisation and distillation",
         "hi": "क्रिस्टलीकरण और आसवन",
         "color": "#3f8f7f",
         "spread": 7,
-        "desc": "Fractional distillation separates miscible liquids with close boiling "
+        "desc": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       }, {
         "id": "5.9",
         "en": "Chromatography and sublimation",
         "hi": "वर्णलेखन और ऊर्ध्वपातन",
         "color": "#3f8f7f",
         "spread": 8,
-        "desc": "Sublimation separates a solid that turns directly into vapour."
+        "desc": "A black ink spot splits into several colours as water rises."
       }, {
         "id": "5.10",
         "en": "Centrifugation and coagulation",
         "hi": "अपकेन्द्रण और स्कंदन",
         "color": "#3f8f7f",
         "spread": 9,
-        "desc": "Adding an electrolyte can coagulate a colloid."
+        "desc": "Blood separates into plasma and cells in a centrifuge."
       }],
       "quiz": [{
         "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
-        "options": ["A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount.", "Suspension particles settle down when left undisturbed."],
+        "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
-        "why": "A solution is homogeneous while a suspension is heterogeneous."
+        "why": "Sugar water is equally sweet in the first and the last sip."
       }, {
         "q": "Which statement belongs to Solutions and their components?",
-        "options": ["Suspension particles settle down when left undisturbed.", "The solvent is the component present in larger amount.", "Scattering of light by colloids is called the Tyndall effect."],
+        "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
-        "why": "The solvent is the component present in larger amount."
+        "why": "Concentration is the amount of solute in a given amount of solution."
       }, {
         "q": "Which statement belongs to Suspensions?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Suspension particles settle down when left undisturbed."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
-        "why": "Suspension particles settle down when left undisturbed."
+        "why": "Muddy water clears only partly on filtering: finer particles stay."
       }, {
         "q": "Which statement belongs to Colloids and Tyndall effect?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Volume by volume percentage is used for two liquids."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
-        "why": "Scattering of light by colloids is called the Tyndall effect."
+        "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       }, {
         "q": "Which statement belongs to Mass by mass percentage?",
-        "options": ["Volume by volume percentage is used for two liquids.", "A 10 percent solution has 10 g solute in 100 g solution.", "Evaporation recovers a dissolved solid by removing the solvent."],
+        "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
-        "why": "A 10 percent solution has 10 g solute in 100 g solution."
+        "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       }, {
         "q": "Which statement belongs to Mass by volume and volume by volume?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Volume by volume percentage is used for two liquids."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
-        "why": "Volume by volume percentage is used for two liquids."
+        "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       }, {
         "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
-        "why": "Evaporation recovers a dissolved solid by removing the solvent."
+        "why": "Evaporation drives off water and leaves common salt behind."
       }, {
         "q": "Which statement belongs to Crystallisation and distillation?",
-        "options": ["Sublimation separates a solid that turns directly into vapour.", "Fractional distillation separates miscible liquids with close boiling points.", "Adding an electrolyte can coagulate a colloid."],
+        "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
-        "why": "Fractional distillation separates miscible liquids with close boiling points."
+        "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       }, {
         "q": "Which statement belongs to Chromatography and sublimation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
-        "why": "Sublimation separates a solid that turns directly into vapour."
+        "why": "A black ink spot splits into several colours as water rises."
       }, {
         "q": "Which statement belongs to Centrifugation and coagulation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
-        "why": "Adding an electrolyte can coagulate a colloid."
+        "why": "Blood separates into plasma and cells in a centrifuge."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'समांगी और विषमांगी मिश्रण' से मेल खाता है?",
-        "options": ["विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 0,
-        "why": "विलयन समांगी और निलंबन विषमांगी मिश्रण है।"
+        "why": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।"
       }, {
         "q": "कौन-सा कथन 'विलयन और उसके घटक' से मेल खाता है?",
-        "options": ["निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"],
+        "options": ["गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"],
         "a": 1,
-        "why": "विलायक वह घटक है जो अधिक मात्रा में होता है।"
+        "why": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"
       }, {
         "q": "कौन-सा कथन 'निलंबन' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 2,
-        "why": "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"
+        "why": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"
       }, {
         "q": "कौन-सा कथन 'कोलॉइड और टिण्डल प्रभाव' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 0,
-        "why": "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"
+        "why": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"
       }, {
         "q": "कौन-सा कथन 'द्रव्यमान-द्रव्यमान प्रतिशत' से मेल खाता है?",
-        "options": ["आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"],
+        "options": ["अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"],
         "a": 1,
-        "why": "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।"
+        "why": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।"
       }, {
         "q": "कौन-सा कथन 'द्रव्यमान-आयतन और आयतन-आयतन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 2,
-        "why": "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"
+        "why": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"
       }, {
         "q": "कौन-सा कथन 'छानना, वाष्पन और अवसादन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 0,
-        "why": "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"
+        "why": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"
       }, {
         "q": "कौन-सा कथन 'क्रिस्टलीकरण और आसवन' से मेल खाता है?",
-        "options": ["ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"],
+        "options": ["काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"],
         "a": 1,
-        "why": "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।"
+        "why": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।"
       }, {
         "q": "कौन-सा कथन 'वर्णलेखन और ऊर्ध्वपातन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 2,
-        "why": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"
+        "why": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"
       }, {
         "q": "कौन-सा कथन 'अपकेन्द्रण और स्कंदन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"],
         "a": 0,
-        "why": "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"
+        "why": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"
       }],
       "status": "assessed"
     };

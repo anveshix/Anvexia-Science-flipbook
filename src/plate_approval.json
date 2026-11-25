@@ -4,7 +4,7 @@
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1371 labels, all with Devanagari Hindi",
+   "detail": "1411 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "309 unique SHA-256",
+   "detail": "319 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "309 plates",
+   "detail": "319 plates",
    "ok": true
   }
  },
@@ -551,6 +551,166 @@
     }
    ],
    "sha256": "825d92abfe13641653a149190086688a3464a44777756afc65dd12dc07807ba5",
+   "width": 1376
+  },
+  {
+   "bytes": 57104,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_10_centrifuge.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_10_centrifuge",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.10"
+    }
+   ],
+   "sha256": "7d189c162fb0134abce23bd2fe7751c3addc9ddd07841af8706a8002231b8286",
+   "width": 1376
+  },
+  {
+   "bytes": 36986,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_1_three_beakers.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_1_three_beakers",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.1"
+    }
+   ],
+   "sha256": "548e20decf0cbfe3ee7cb27681de61fb082e469c037e2486c2de7b9bf3bc8ab2",
+   "width": 1376
+  },
+  {
+   "bytes": 75688,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_2_solution.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_2_solution",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.2"
+    }
+   ],
+   "sha256": "3489ada47ab949835511af637d01edf1ba50a8bfa338feb68f3bb19d51cc69e4",
+   "width": 1376
+  },
+  {
+   "bytes": 40996,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_3_suspension.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_3_suspension",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.3"
+    }
+   ],
+   "sha256": "8ca640ac6c732bf7cd68432bf678725f6ca60bbecdee192654493db56f6e6548",
+   "width": 1376
+  },
+  {
+   "bytes": 33810,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_4_tyndall.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_4_tyndall",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.4"
+    }
+   ],
+   "sha256": "c5116fcf8924a8fd8cb34a81f5a416cf09f1eb220c19a1ad3b8f80b70024c9c7",
+   "width": 1376
+  },
+  {
+   "bytes": 47954,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_5_mass_percent.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_5_mass_percent",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.5"
+    }
+   ],
+   "sha256": "2c5cbd45d897b26c192dc800488334cc09dbfb974a0c43e87d7db8ba3089740c",
+   "width": 1376
+  },
+  {
+   "bytes": 33744,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_6_concentration_units.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_6_concentration_units",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.6"
+    }
+   ],
+   "sha256": "4fd1c13b53e8585dc2b2a1e248c9a784c9cd11d31acf6a260253f7be00f9c5ac",
+   "width": 1376
+  },
+  {
+   "bytes": 149100,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_7_salt_pans.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_7_salt_pans",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.7"
+    }
+   ],
+   "sha256": "2633fc16c2b30c8f5cdf8821f6bd3c0770ca2492de404c0e89adddd9532e8542",
+   "width": 1376
+  },
+  {
+   "bytes": 45798,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_8_distillation.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_8_distillation",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.8"
+    }
+   ],
+   "sha256": "b58a57106d1a0aef612d7a7ac78df6221261c5928a22f61e1f22cd9f06f674ee",
+   "width": 1376
+  },
+  {
+   "bytes": 23110,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_mixtures_5_9_chromatography.webp",
+   "height": 768,
+   "id": "c9_mixtures_5_9_chromatography",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_mixtures",
+     "section": "5.9"
+    }
+   ],
+   "sha256": "652f864b4e7efa155bbdc55b53ea1d59985f85e65479fc4f6a23cfbd14ad3aa1",
    "width": 1376
   },
   {
@@ -5345,17 +5505,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 18700804,
+  "bytes": 19245094,
   "chapters": 33,
-  "creditsRecorded": 112,
+  "creditsRecorded": 122,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 33,
+   "1376x768": 43,
    "1408x768": 198
   },
-  "labels": 1371,
-  "plates": 309,
+  "labels": 1411,
+  "plates": 319,
   "sections": 266,
-  "uniqueSha256": 309
+  "uniqueSha256": 319
  }
 }

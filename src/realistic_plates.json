@@ -770,37 +770,47 @@
   },
   "c9_mixtures": {
    "5.1": [
+    "rx/c9_mixtures_5_1_three_beakers.webp",
     "rx/separation.webp"
    ],
    "5.10": [
+    "rx/c9_mixtures_5_10_centrifuge.webp",
     "rx/centrifugation_coagulation.webp"
    ],
    "5.2": [
     "rx/local_c9_mixtures_5_2.webp",
+    "rx/c9_mixtures_5_2_solution.webp",
     "rx/solution_solute_solvent.webp"
    ],
    "5.3": [
+    "rx/c9_mixtures_5_3_suspension.webp",
     "rx/tyndall--3.webp"
    ],
    "5.4": [
+    "rx/c9_mixtures_5_4_tyndall.webp",
     "rx/tyndall.webp",
     "rx/tyndall--1.webp"
    ],
    "5.5": [
+    "rx/c9_mixtures_5_5_mass_percent.webp",
     "rx/mass_by_mass_percent.webp"
    ],
    "5.6": [
+    "rx/c9_mixtures_5_6_concentration_units.webp",
     "rx/concentration_mv_vv.webp"
    ],
    "5.7": [
+    "rx/c9_mixtures_5_7_salt_pans.webp",
     "rx/separation.webp",
     "rx/evaporation.webp",
     "rx/tyndall--2.webp"
    ],
    "5.8": [
+    "rx/c9_mixtures_5_8_distillation.webp",
     "rx/fractional_distillation.webp"
    ],
    "5.9": [
+    "rx/c9_mixtures_5_9_chromatography.webp",
     "rx/column_chromatography.webp"
    ]
   },
@@ -1112,7 +1122,17 @@
   "rx/c9_motion_4_6_distance_time_graph.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_motion_4_7_velocity_time_graph.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_motion_4_8_kinematic_equations.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_motion_4_9_circular_motion.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_motion_4_9_circular_motion.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_1_three_beakers.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_2_solution.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_3_suspension.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_4_tyndall.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_5_mass_percent.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_6_concentration_units.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_7_salt_pans.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_8_distillation.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_9_chromatography.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_10_centrifuge.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -18183,6 +18203,506 @@
     "hi": "केंद्र",
     "info_en": "Centre: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
     "info_hi": "केंद्र: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_1_three_beakers.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 350,
+    "anchor_y": 430,
+    "en": "Solution",
+    "hi": "विलयन",
+    "info_en": "Solution: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "विलयन: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 430,
+    "en": "Suspension",
+    "hi": "निलंबन",
+    "info_en": "Suspension: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "निलंबन: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1050,
+    "anchor_y": 430,
+    "en": "Colloid",
+    "hi": "कोलॉइड",
+    "info_en": "Colloid: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "कोलॉइड: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 430,
+    "en": "Light beam",
+    "hi": "प्रकाश किरण",
+    "info_en": "Light beam: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "प्रकाश किरण: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_2_solution.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 624,
+    "anchor_y": 580,
+    "en": "Dissolving sugar",
+    "hi": "घुलती चीनी",
+    "info_en": "Dissolving sugar: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "घुलती चीनी: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 544,
+    "anchor_y": 360,
+    "en": "Solute particles",
+    "hi": "विलेय कण",
+    "info_en": "Solute particles: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "विलेय कण: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 800,
+    "anchor_y": 250,
+    "en": "Water molecules",
+    "hi": "जल अणु",
+    "info_en": "Water molecules: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "जल अणु: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 794,
+    "anchor_y": 120,
+    "en": "Stirring spoon",
+    "hi": "चम्मच",
+    "info_en": "Stirring spoon: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "चम्मच: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_3_suspension.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 490,
+    "anchor_y": 350,
+    "en": "Muddy water",
+    "hi": "गादयुक्त जल",
+    "info_en": "Muddy water: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "गादयुक्त जल: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 490,
+    "anchor_y": 570,
+    "en": "Settled sediment",
+    "hi": "बैठा अवसाद",
+    "info_en": "Settled sediment: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "बैठा अवसाद: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 212,
+    "en": "Filter paper",
+    "hi": "फिल्टर पेपर",
+    "info_en": "Filter paper: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "फिल्टर पेपर: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 940,
+    "anchor_y": 532,
+    "en": "Filtrate",
+    "hi": "निस्पंद",
+    "info_en": "Filtrate: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "निस्पंद: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_4_tyndall.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 420,
+    "anchor_y": 300,
+    "en": "Milky colloid",
+    "hi": "दूधिया कोलॉइड",
+    "info_en": "Milky colloid: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "दूधिया कोलॉइड: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 420,
+    "anchor_y": 440,
+    "en": "Scattered light",
+    "hi": "बिखरा प्रकाश",
+    "info_en": "Scattered light: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "बिखरा प्रकाश: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 960,
+    "anchor_y": 400,
+    "en": "Clear solution",
+    "hi": "स्वच्छ विलयन",
+    "info_en": "Clear solution: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "स्वच्छ विलयन: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 60,
+    "anchor_y": 372,
+    "en": "Laser source",
+    "hi": "लेज़र स्रोत",
+    "info_en": "Laser source: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "लेज़र स्रोत: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_5_mass_percent.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 480,
+    "en": "Salt on the pan",
+    "hi": "तुला पर नमक",
+    "info_en": "Salt on the pan: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "तुला पर नमक: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 930,
+    "anchor_y": 430,
+    "en": "Weighed beaker",
+    "hi": "तोला बीकर",
+    "info_en": "Weighed beaker: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "तोला बीकर: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1000,
+    "anchor_y": 180,
+    "en": "Salt falling",
+    "hi": "गिरता नमक",
+    "info_en": "Salt falling: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "गिरता नमक: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 300,
+    "anchor_y": 120,
+    "en": "Balance beam",
+    "hi": "तुला दंड",
+    "info_en": "Balance beam: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "तुला दंड: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_6_concentration_units.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 534,
+    "anchor_y": 400,
+    "en": "Measuring cylinder",
+    "hi": "मापन सिलिंडर",
+    "info_en": "Measuring cylinder: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "मापन सिलिंडर: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 834,
+    "anchor_y": 190,
+    "en": "Saline drip",
+    "hi": "सैलाइन ड्रिप",
+    "info_en": "Saline drip: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "सैलाइन ड्रिप: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 850,
+    "anchor_y": 420,
+    "en": "Pipette",
+    "hi": "पिपेट",
+    "info_en": "Pipette: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "पिपेट: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 694,
+    "anchor_y": 630,
+    "en": "Drop",
+    "hi": "बूँद",
+    "info_en": "Drop: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "बूँद: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_7_salt_pans.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 800,
+    "anchor_y": 272,
+    "en": "Salt pans",
+    "hi": "नमक के तालाब",
+    "info_en": "Salt pans: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "नमक के तालाब: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 500,
+    "anchor_y": 412,
+    "en": "Brine evaporating",
+    "hi": "उबलता लवण",
+    "info_en": "Brine evaporating: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "उबलता लवण: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1200,
+    "anchor_y": 432,
+    "en": "Salt crust",
+    "hi": "नमक की परत",
+    "info_en": "Salt crust: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "नमक की परत: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 210,
+    "anchor_y": 122,
+    "en": "Sunset heat",
+    "hi": "सूर्य की गर्मी",
+    "info_en": "Sunset heat: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "सूर्य की गर्मी: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_8_distillation.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 354,
+    "anchor_y": 400,
+    "en": "Boiling flask",
+    "hi": "उबलता फ्लास्क",
+    "info_en": "Boiling flask: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "उबलता फ्लास्क: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 750,
+    "anchor_y": 260,
+    "en": "Condenser",
+    "hi": "संघनित्र",
+    "info_en": "Condenser: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "संघनित्र: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1074,
+    "anchor_y": 500,
+    "en": "Distillate",
+    "hi": "आसवित द्रव",
+    "info_en": "Distillate: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "आसवित द्रव: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 364,
+    "anchor_y": 620,
+    "en": "Burner",
+    "hi": "बर्नर",
+    "info_en": "Burner: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "बर्नर: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_9_chromatography.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 680,
+    "anchor_y": 580,
+    "en": "Ink spot",
+    "hi": "स्याही का धब्बा",
+    "info_en": "Ink spot: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "स्याही का धब्बा: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 390,
+    "en": "Colour bands",
+    "hi": "रंग पट्टियाँ",
+    "info_en": "Colour bands: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "रंग पट्टियाँ: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 120,
+    "en": "Chromatography paper",
+    "hi": "वर्णलेखन कागज़",
+    "info_en": "Chromatography paper: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "वर्णलेखन कागज़: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 560,
+    "anchor_y": 640,
+    "en": "Solvent rising",
+    "hi": "चढ़ता विलायक",
+    "info_en": "Solvent rising: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "चढ़ता विलायक: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_10_centrifuge.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 350,
+    "en": "Blood tubes",
+    "hi": "रक्त की नलियाँ",
+    "info_en": "Blood tubes: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "रक्त की नलियाँ: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 624,
+    "anchor_y": 400,
+    "en": "Separated layers",
+    "hi": "अलग परतें",
+    "info_en": "Separated layers: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "अलग परतें: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1000,
+    "anchor_y": 480,
+    "en": "Alum powder",
+    "hi": "फिटकरी",
+    "info_en": "Alum powder: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "फिटकरी: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 250,
+    "anchor_y": 200,
+    "en": "Centrifuge",
+    "hi": "अपकेंद्रण यंत्र",
+    "info_en": "Centrifuge: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "अपकेंद्रण यंत्र: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },
