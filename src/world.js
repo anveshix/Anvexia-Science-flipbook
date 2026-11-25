@@ -795,6 +795,12 @@ const WORLD = (function () {
     return both ? (en + (hiText && hiText !== en ? " · " + hiText : ""))
                 : (hi ? (hiText || en) : en);
   };
+  /* Where this figure comes from, in a student's words. The engine used to
+     print its own diagram kind ("SCENE BLOCK · TREE") on the page. */
+  function textbookLine(sp, world) {
+    const ch = String((sp && sp.section) || "").split(".")[0];
+    return "NCERT  ·  Class " + ((world && world.cls) || "IX") + (ch ? "  ·  Ch " + ch : "");
+  }
   function zoneLabel(x, txt, y) {
     x.fillStyle = PC.hi; x.font = "900 28px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
     drawFitted(x, txt, 84, y, 732, x.font, 1, 0); return y + 44;
@@ -817,7 +823,12 @@ const WORLD = (function () {
        section eyebrow must sit higher than the old 208px; 196 + 24 keeps a
        clean gap and no glyph can cross into the title zone. */
     let y = 196;
-    y = zoneLabel(x, "" + sp.section + "  ·  CBSE 2026-27  ·  " + String(sp.status || "assessed").toUpperCase(), y) + 24;
+    /* A student's page says where it sits in the book, not what the build
+       pipeline thinks of it: no "assessed" and no exam-board tag. */
+    const idx = (world && world.spreads) ? world.spreads.indexOf(sp) : -1;
+    const total = (world && world.spreads && world.spreads.length) || 0;
+    const where = (idx >= 0 && total > 1) ? "  ·  Section " + (idx + 1) + " of " + total : "";
+    y = zoneLabel(x, "" + sp.section + where + "  ·  Class " + (world.cls || "IX"), y) + 24;
     x.fillStyle = PC.ink;
     y = wrap(x, both || !hi ? sp.title : sp.titleHi, 84, y, 732, 60, 2,
              "900 54px Georgia, 'Noto Sans Devanagari Embedded', serif");
@@ -826,74 +837,61 @@ const WORLD = (function () {
       y = wrap(x, sp.titleHi, 84, y + 10, 732, 50, 2,
                "900 46px Georgia, 'Noto Sans Devanagari Embedded', serif");
     }
-    y = Math.min(y + 28, 500);   /* keep the 2-line Hindi title clear of CORE CONCEPT */
+    y = Math.min(y + 24, 470);
     y = zoneLabel(x, both ? "CORE CONCEPT · मुख्य विचार" : (hi ? "मुख्य विचार" : "CORE CONCEPT"), y);
+    /* The page belongs to the textbook paragraph. The old layout spent 152px
+       on a prediction box and 94px repeating the same fact as "KEY FACT" —
+       and the KEY TERMS band printed concept[:58] as if it were a definition.
+       All three are gone; the paragraph gets the whole body zone. */
+    const bodyBottom = 1000;
     x.fillStyle = PC.ink;
-    if (both || !hi) y = wrap(x, sp.concept, 84, y, 732, 44, 4,
-                              "800 38px Georgia, 'Noto Sans Devanagari Embedded', serif");
+    if (both || !hi) {
+      const enLines = Math.max(4, Math.min(8, Math.floor((bodyBottom - y - 40) / 44)));
+      y = wrap(x, sp.concept, 84, y, 732, 44, enLines,
+               "800 38px Georgia, 'Noto Sans Devanagari Embedded', serif");
+    }
     if (both || hi) {
       /* Devanagari rises ~32px above its baseline: keep the separator clear of the headstroke */
       x.strokeStyle = PC.rule; x.lineWidth = 3; x.beginPath(); x.moveTo(84, y - 10); x.lineTo(816, y - 10); x.stroke();
       x.fillStyle = PC.accent;
-      y = wrap(x, sp.conceptHi, 84, y + 32, 732, 38, 2,
+      const hiLines = Math.max(2, Math.min(5, Math.floor((bodyBottom - y - 32) / 38)));
+      y = wrap(x, sp.conceptHi, 84, y + 32, 732, 38, hiLines,
                "800 32px Georgia, 'Noto Sans Devanagari Embedded', serif");
     }
-    y = Math.min(y + 14, 770);
-    if (sp.formula) {
-      x.fillStyle = PC.pale; x.fillRect(84, y, 732, 104);
-      x.strokeStyle = PC.boxline; x.lineWidth = 4; x.strokeRect(84, y, 732, 104);
-      x.fillStyle = PC.amber; x.font = "900 23px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-      drawFitted(x, sp.formula.label.toUpperCase(), 102, y + 28, 690, x.font, 1, 0);
-      x.fillStyle = PC.ink; x.font = "900 44px Georgia, 'Noto Sans Devanagari Embedded', serif";
-      drawFitted(x, sp.formula.eq, 102, y + 66, 690, x.font, 1, 0);
-      x.fillStyle = PC.accent; x.font = "700 23px Georgia, 'Noto Sans Devanagari Embedded', serif";
-      drawFitted(x, sp.formula.note || "", 102, y + 94, 690, x.font, 1, 0);
+    /* The chapter formula is printed once, on the opening spread, instead of
+       nine times in a row. */
+    if (sp.formula && idx <= 0 && bodyBottom - y > 84) {
+      const fh = 76;
+      x.fillStyle = PC.pale; x.fillRect(84, y + 12, 732, fh);
+      x.strokeStyle = PC.boxline; x.lineWidth = 4; x.strokeRect(84, y + 12, 732, fh);
+      x.fillStyle = PC.amber; x.font = "900 20px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
+      drawFitted(x, sp.formula.label.toUpperCase(), 102, y + 40, 690, x.font, 1, 0);
+      x.fillStyle = PC.ink; x.font = "900 36px Georgia, 'Noto Sans Devanagari Embedded', serif";
+      drawFitted(x, sp.formula.eq, 102, y + 74, 690, x.font, 1, 0);
     }
-    /* KEY TERMS: adaptive band that fills whatever space is left. */
-    const bandTop = y + 104 + 16, bandBottom = 878;
-    if (bandBottom - bandTop >= 70) {
-      const bh = bandBottom - bandTop, v = (VOC(sp) || []).slice(0, 3);
-      x.fillStyle = PC.pale; x.fillRect(84, bandTop, 732, bh);
-      x.strokeStyle = PC.boxline; x.lineWidth = 3; x.strokeRect(84, bandTop, 732, bh);
-      x.fillStyle = PC.hi; x.font = "900 24px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-      x.fillText(both ? "KEY TERMS · मुख्य शब्द" : (hi ? "मुख्य शब्द" : "KEY TERMS"), 102, bandTop + 32);
-      const avail = bh - 46, rows = Math.max(1, Math.min(3, Math.floor(avail / 30)));
-      const rh = avail / rows, fs = Math.max(20, Math.min(27, Math.round(rh * 0.72)));
-      if (rows === 1) {
-        x.fillStyle = PC.ink; x.font = "900 " + fs + "px Georgia, 'Noto Sans Devanagari Embedded', serif";
-        drawFitted(x, v.map(q => q[0]).join("  ·  "), 102, bandTop + 46 + rh * 0.72, 690, x.font, 1, 0);
-      } else v.slice(0, rows).forEach((pair, i) => {
-        const yy = bandTop + 46 + i * rh + rh * 0.72;
-        x.fillStyle = PC.ink; x.font = "900 " + fs + "px Georgia, 'Noto Sans Devanagari Embedded', serif";
-        drawFitted(x, pair[0], 102, yy, 328, x.font, 1, 0);
-        x.fillStyle = PC.accent; x.font = "800 " + Math.max(20, fs - 3) + "px Georgia, 'Noto Sans Devanagari Embedded', serif";
-        drawFitted(x, pair[1], 452, yy, 350, x.font, 1, 0);
-      });
-    }
-    y = 892;
+    /* CHECK YOUR UNDERSTANDING — one slim strip at the foot of the page.
+       It is a textbook's in-text question, not a game prompt, and it no
+       longer shares the page with the answer printed underneath. */
+    y = 1006;
     const pr = P(sp);
-    x.fillStyle = "#ffffff"; x.fillRect(84, y, 732, 152);
-    x.strokeStyle = PC.boxline; x.lineWidth = 4; x.strokeRect(84, y, 732, 152);
-    x.fillStyle = PC.hi; x.font = "900 24px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText(both ? "PREDICT FIRST · पहले अनुमान" : (hi ? "पहले अनुमान लगाएँ" : "PREDICT FIRST"), 102, y + 28);
-    x.fillStyle = PC.ink; x.font = "800 28px Georgia, 'Noto Sans Devanagari Embedded', serif";
-    const qEnd = drawOneLine(x, pr.q, 102, y + 60, 690, x.font, 12);
-    /* Three full-width options used to be stacked at fixed 25px baselines;
-       a wrapped bilingual question then landed on top of option B. Options
-       now own three independent columns with their own height budget. */
-    const oy = qEnd + 12, colGap = 14, colW = (690 - 2 * colGap) / 3;
+    /* The strip owns the whole band down to the folio: in bilingual mode an
+       option needs up to four lines (English + Hindi), so a 108px box with a
+       40px option budget printed the third and fourth lines through the border. */
+    const stripH = 150;
+    x.fillStyle = "#ffffff"; x.fillRect(84, y, 732, stripH);
+    x.strokeStyle = PC.boxline; x.lineWidth = 4; x.strokeRect(84, y, 732, stripH);
+    x.fillStyle = PC.hi; x.font = "900 19px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
+    x.fillText(both ? "CHECK YOUR UNDERSTANDING · जाँच" : (hi ? "जाँच" : "CHECK YOUR UNDERSTANDING"), 102, y + 22);
+    x.fillStyle = PC.ink; x.font = "700 18px Georgia, 'Noto Sans Devanagari Embedded', serif";
+    drawOneLine(x, pr.q, 102, y + 42, 690, x.font, 13);
+    /* Options own three independent columns with an explicit pixel budget. */
+    const oy = y + 64, colGap = 14, colW = (690 - 2 * colGap) / 3;
+    const optH = y + stripH - 6 - oy;
     (pr.options || []).slice(0, 3).forEach((o, i) => {
-      x.fillStyle = PC.ink; x.font = "800 20px Georgia, 'Noto Sans Devanagari Embedded', serif";
+      x.fillStyle = PC.ink; x.font = "700 17px Georgia, 'Noto Sans Devanagari Embedded', serif";
       drawFitted(x, String.fromCharCode(65 + i) + ".  " + o,
-                 102 + i * (colW + colGap), oy, colW, x.font, 3, 0, 42, 12);
+                 102 + i * (colW + colGap), oy, colW, x.font, 4, 0, optH, 13);
     });
-    y = 1058;
-    x.fillStyle = PC.band; x.fillRect(84, y, 732, 94);
-    x.strokeStyle = PC.accent; x.lineWidth = 3; x.strokeRect(84, y, 732, 94);
-    x.fillStyle = PC.accent; x.font = "900 23px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText(both ? "KEY FACT · मुख्य तथ्य" : (hi ? "मुख्य तथ्य" : "KEY FACT"), 102, y + 28);
-    x.fillStyle = PC.ink; x.font = "800 32px Georgia, 'Noto Sans Devanagari Embedded', serif";
-    drawFitted(x, both || !hi ? sp.explain : (sp.explainHi || sp.explain), 102, y + 66, 690, x.font, 2, 12);
     folio(x, num);
     return c;
   }
@@ -1070,13 +1068,13 @@ const WORLD = (function () {
       "800 30px Georgia, 'Noto Sans Devanagari Embedded', serif",
       { ink: PC.ink, accent: PC.accent, lh: 13, colLines: 3, fullLines: 2 }) + 10;
     x.fillStyle = PC.hi; x.font = "900 27px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText(both ? "TRY THIS · करके देखें" : (hi ? "करके देखें" : "TRY THIS"), 96, y); y += 34;
+    x.fillText(both ? "ACTIVITY · क्रियाकलाप" : (hi ? "क्रियाकलाप" : "ACTIVITY"), 96, y); y += 34;
     y = captionPair(x, y, sp.tryHint, sp.hintHi || sp.tryHint,
       "800 28px Georgia, 'Noto Sans Devanagari Embedded', serif",
       { ink: PC.ink, accent: PC.accent, lh: 13, colLines: 3, fullLines: 2 }) + 10;
     x.fillStyle = PC.rule; x.font = "700 26px Arial, sans-serif";
-    const scene = "SCENE · " + (BLOCKS[sp.scene.type] ? BLOCKS[sp.scene.type].label : sp.scene.type).toUpperCase();
-    y = drawFitted(x, scene, 96, y, 708, x.font, 1, 0) + 8;
+    /* The page says where the figure comes from, not which engine block drew it. */
+    y = drawFitted(x, textbookLine(sp, world), 96, y, 708, x.font, 1, 0) + 8;
     const remaining = 1110 - y;
     const lines = Math.max(2, Math.min(5, Math.floor(remaining / 11)));
     x.fillStyle = PC.ink; x.font = "900 30px Georgia, 'Noto Sans Devanagari Embedded', serif";
@@ -1092,7 +1090,7 @@ const WORLD = (function () {
      classroom. All 227 topics remain in the detail plate and the dock. */
   function bigLeft(sp, world, num) {
     const { c, x } = pageCanvas(), hi = lang === "hi", both = lang === "both";
-    classroomHead(x, world, sp, "TEXT · 30 FT", num);
+    classroomHead(x, world, sp, "TEXT", num);
     x.textAlign = "left";
     /* 30 FT plate: one flowing cursor, explicit vertical budgets, EN and HI
        in separate columns, and a hard 16px floor for every teaching line.
@@ -1100,7 +1098,11 @@ const WORLD = (function () {
        KEY FACT; nothing is abbreviated to make the layout look tidy. */
     let y = 224;
     x.fillStyle = PC.hi; x.font = "900 34px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    y = drawFitted(x, "" + sp.section + "  ·  CBSE 2026-27  ·  30 FT / बड़ा बोर्ड",
+    /* A student's page says where it sits in the book, not which build mode drew it. */
+    const bIdx = (world && world.spreads) ? world.spreads.indexOf(sp) : -1;
+    const bTot = (world && world.spreads && world.spreads.length) || 0;
+    const bWhere = (bIdx >= 0 && bTot > 1) ? "  ·  Section " + (bIdx + 1) + " of " + bTot : "";
+    y = drawFitted(x, "" + sp.section + bWhere + "  ·  Class " + (world.cls || "IX"),
                    84, y, 732, x.font, 1, 38, 46, 24) + 34;
     x.fillStyle = PC.ink; x.font = "900 56px Georgia, 'Noto Sans Devanagari Embedded', serif";
     y = drawFitted(x, both || !hi ? sp.title : sp.titleHi, 84, y, 732,
@@ -1140,7 +1142,7 @@ const WORLD = (function () {
   }
   function bigRight(sp, world, num) {
     const { c, x } = pageCanvas(), hi = lang === "hi", both = lang === "both";
-    classroomHead(x, world, sp, "FIGURE · 30 FT", num);
+    classroomHead(x, world, sp, "FIGURE", num);
     figurePlate(x, sp, 96, 196, 708, 610);
     /* The dense explain text belongs to the left 30 FT plate and to the
        detail plate. Here the captions get the reclaimed space so EN/HI can
@@ -1154,7 +1156,7 @@ const WORLD = (function () {
       { ink: PC.ink, accent: PC.accent, x0: 96, width: 708, gap: 20,
         lh: 22, colLines: 5, fullLines: 4, maxH: 100, minPx: 16 }) + 14;
     x.fillStyle = PC.hi; x.font = "900 36px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText(both ? "TRY THIS · करके देखें" : (hi ? "करके देखें" : "TRY THIS"), 96, y); y += 44;
+    x.fillText(both ? "ACTIVITY · क्रियाकलाप" : (hi ? "क्रियाकलाप" : "ACTIVITY"), 96, y); y += 44;
     captionPair(x, y, sp.tryHint, sp.hintHi || sp.tryHint,
       "900 28px Georgia, 'Noto Sans Devanagari Embedded', serif",
       { ink: PC.ink, accent: PC.accent, x0: 96, width: 708, gap: 20,
@@ -1228,7 +1230,7 @@ const WORLD = (function () {
     x.fillStyle = "#fbf7ec"; x.strokeStyle = "#c9b98f"; x.lineWidth = 3;
     x.fillRect(84, y, 732, 214); x.strokeRect(84, y, 732, 214);
     x.fillStyle = "#b3573b"; x.font = "600 23px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-    x.fillText(both ? "PREDICT FIRST · पहले अनुमान" : (hi ? "पहले अनुमान लगाएँ" : "PREDICT FIRST"), 104, y + 32);
+    x.fillText(both ? "CHECK YOUR UNDERSTANDING · जाँच" : (hi ? "जाँच" : "CHECK YOUR UNDERSTANDING"), 104, y + 32);
     x.fillStyle = "#26333f";
     const pr = P(sp);
     let py;
@@ -1249,14 +1251,14 @@ const WORLD = (function () {
     x.setLineDash([9, 8]); x.strokeStyle = "#b8a679"; x.lineWidth = 2;
     x.strokeRect(84, 1002, 732, 92); x.setLineDash([]);
     x.fillStyle = "#8b7a5a"; x.font = "italic 24px Georgia, 'Noto Sans Devanagari Embedded', serif"; x.textAlign = "center";
-    x.fillText(both ? "✦  WHY? फ्लैप उठाएँ · lift the flap  ✦" : (hi ? "✦  उत्तर जानने के लिए फ्लैप उठाएँ  ✦" : "✦  lift the flap on screen to reveal WHY  ✦"), 450, 1056);
+    x.fillText(both ? "✦  answer first, then read the explanation  ✦" : (hi ? "✦  पहले उत्तर दें, फिर व्याख्या पढ़ें  ✦" : "✦  answer first, then read the explanation  ✦"), 450, 1056);
     x.textAlign = "left";
     return c;
   }
   function drawRight(sp, world, num) {
     if (TH()) return classroomRight(sp, world, num);
     const { c, x } = pageCanvas(), hi = lang === "hi", both = lang === "both";
-    head(x, world, sp, plate2d ? (both ? "FIGURE · चित्र" : "FIGURE") : (both ? "POP-UP · 3D" : "POP-UP"), num);
+    head(x, world, sp, plate2d ? (both ? "FIGURE · चित्र" : "FIGURE") : (both ? "FIGURE · 3D" : "FIGURE"), num);
     if (plate2d) {
       /* Use the same viewport as the overlay and classroom texture, including
          the leaf during a page turn. The studio placeholder is for 3D only. */
@@ -1279,22 +1281,22 @@ const WORLD = (function () {
       x.fillStyle = "#7a4b2a"; x.font = "bold 19px Georgia, 'Noto Sans Devanagari Embedded', serif";
       drawFitted(x, sp.figHi || sp.fig, 96, 956, 708, x.font, 2, 14);
       x.fillStyle = "#b3573b"; x.font = "600 21px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-      x.fillText("TRY THIS · करके देखें", 96, 992);
+      x.fillText("ACTIVITY · क्रियाकलाप", 96, 992);
       x.fillStyle = "#4c5745"; x.font = "bold 18px Georgia, 'Noto Sans Devanagari Embedded', serif";
       drawFitted(x, sp.tryHint, 96, 1018, 708, x.font, 2, 14);
       x.fillStyle = "#6b5a33"; x.font = "bold 18px Georgia, 'Noto Sans Devanagari Embedded', serif";
       drawFitted(x, sp.hintHi || sp.tryHint, 96, 1046, 708, x.font, 2, 14);
       x.fillStyle = "#9a8a68"; x.font = "19px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-      drawFitted(x, "SCENE BLOCK  ·  " + (BLOCKS[sp.scene.type] ? BLOCKS[sp.scene.type].label : sp.scene.type).toUpperCase(), 96, 1084, 708, x.font, 1, 0);
+      drawFitted(x, textbookLine(sp, world), 96, 1084, 708, x.font, 1, 0);
     } else {
       x.fillStyle = "#8a6a2f"; x.font = "600 23px Arial, 'Noto Sans Devanagari Embedded', sans-serif"; x.fillText(hi ? "चित्र" : "FIGURE", 96, 898);
       x.fillStyle = "#37424c";
       drawFitted(x, sp.figHi && hi ? sp.figHi : sp.fig, 96, 930, 708, "bold 25px Georgia, 'Noto Sans Devanagari Embedded', serif", 2, 14);
-      x.fillStyle = "#b3573b"; x.font = "600 22px Arial, 'Noto Sans Devanagari Embedded', sans-serif"; x.fillText(hi ? "करके देखें" : "TRY THIS", 96, 986);
+      x.fillStyle = "#b3573b"; x.font = "600 22px Arial, 'Noto Sans Devanagari Embedded', sans-serif"; x.fillText(hi ? "क्रियाकलाप" : "ACTIVITY", 96, 986);
       x.fillStyle = "#4c5745";
       drawFitted(x, hi && sp.hintHi ? sp.hintHi : sp.tryHint, 96, 1016, 708, "bold 24px Georgia, 'Noto Sans Devanagari Embedded', serif", 2, 14);
       x.fillStyle = "#9a8a68"; x.font = "21px Arial, 'Noto Sans Devanagari Embedded', sans-serif";
-      drawFitted(x, "SCENE BLOCK  ·  " + (BLOCKS[sp.scene.type] ? BLOCKS[sp.scene.type].label : sp.scene.type).toUpperCase(), 96, 1060, 708, x.font, 1, 0);
+      drawFitted(x, textbookLine(sp, world), 96, 1060, 708, x.font, 1, 0);
     }
     return c;
   }

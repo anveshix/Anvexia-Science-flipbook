@@ -162,8 +162,10 @@ def build_spread(ch, i, t):
     pos = i % 3
     opts, hopts = [d1["fact"], d2["fact"]], [d1["hfact"], d2["hfact"]]
     opts.insert(pos, t["fact"]); hopts.insert(pos, t["hfact"])
-    q = f"Which statement belongs to {t['en']}?"
-    qh = f"कौन-सा कथन '{t['hi']}' से मेल खाता है?"
+    # A textbook's in-text question, not a sorting game: the child has just
+    # read the section, and picks the statement that is true for it.
+    q = f"Which statement is correct about {t['en']}?"
+    qh = f"'{t['hi']}' के बारे में कौन-सा कथन सही है?"
     ans = pos
     why = t["fact"]
     whyh = t["hfact"]
@@ -178,7 +180,7 @@ def build_spread(ch, i, t):
     hint = f"Move {p0['label']} and watch {r0}; touch two diagram cards."
     hinthi = f"{p0['label']} बदलें और {r0} देखें, दो चित्र कार्ड छूएँ।"
 
-    return dict(
+    sp = dict(
         id=f"{ch['id']}_{t['sec'].replace('.', '_').replace(' ', '_')}",
         section=t["sec"], title=t["en"], titleHi=t["hi"], short=t["en"][:22],
         concept=t["concept"], conceptHi=t["hconcept"],
@@ -191,10 +193,11 @@ def build_spread(ch, i, t):
         figHi=f"3D {t['kind']} चित्र · {t['hi']} · " + " / ".join(t["labels"][:3]),
         tryHint=hint, hintHi=hinthi,
         challenge=challenge_for(ch),
-        quiz=dict(q=q, options=opts, a=ans, why=why),
         scene=dict(type="atlas", fig=dict(kind=t["kind"], labels=t["labels"]),
-                   controls=ch["params"], readouts=ch["readouts"], params={}),
-        status=t["status"])
+                   controls=ch["params"], readouts=ch["readouts"], params={}))
+    if t["status"] != "assessed":
+        sp["status"] = t["status"]
+    return sp
 
 
 def js_value(v, indent=0):
@@ -361,7 +364,10 @@ def main():
                 return str(v)
             return js(v)
         lines.append(f"  WORLDS[{js(c['id'])}] = {emit(spreads)};")
-        quiz = [dict(q=s["quiz"]["q"], options=s["quiz"]["options"], a=s["quiz"]["a"], why=s["quiz"]["why"]) for s in spreads]
+        # the inert pack still carries a quiz array, but it is the SAME item
+        # as the spread prediction: do not ship it twice in WORLDS.
+        quiz = [dict(q=s["predict"]["q"], options=s["predict"]["options"], a=s["predict"]["a"],
+                     why=s["predict"]["why"]) for s in spreads]
         quiz_hi = [dict(q=s["predictHi"]["q"], options=s["predictHi"]["options"], a=s["predictHi"]["a"], why=s["predictHi"]["why"]) for s in spreads]
         sections = [dict(id=t["sec"], en=t["en"], hi=t["hi"], spread=i, color=c["color"]) for i, t in enumerate(c["topics"])]
         groups = [dict(id=t["sec"], en=t["en"], hi=t["hi"], color=c["color"], spread=i,
