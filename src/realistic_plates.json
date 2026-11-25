@@ -577,6 +577,7 @@
     "rx/biomolecules_cell.webp"
    ],
    "2.11": [
+    "rx/c9_cell_2_11_division_cancer.webp",
     "rx/recombinant_insulin.webp",
     "rx/bioreactor_growth_curve.webp"
    ],
@@ -769,68 +770,87 @@
   },
   "c9_mixtures": {
    "5.1": [
+    "rx/c9_mixtures_5_1_three_beakers.webp",
     "rx/separation.webp"
    ],
    "5.10": [
+    "rx/c9_mixtures_5_10_centrifuge.webp",
     "rx/centrifugation_coagulation.webp"
    ],
    "5.2": [
     "rx/local_c9_mixtures_5_2.webp",
+    "rx/c9_mixtures_5_2_solution.webp",
     "rx/solution_solute_solvent.webp"
    ],
    "5.3": [
+    "rx/c9_mixtures_5_3_suspension.webp",
     "rx/tyndall--3.webp"
    ],
    "5.4": [
+    "rx/c9_mixtures_5_4_tyndall.webp",
     "rx/tyndall.webp",
     "rx/tyndall--1.webp"
    ],
    "5.5": [
+    "rx/c9_mixtures_5_5_mass_percent.webp",
     "rx/mass_by_mass_percent.webp"
    ],
    "5.6": [
+    "rx/c9_mixtures_5_6_concentration_units.webp",
     "rx/concentration_mv_vv.webp"
    ],
    "5.7": [
+    "rx/c9_mixtures_5_7_salt_pans.webp",
     "rx/separation.webp",
     "rx/evaporation.webp",
     "rx/tyndall--2.webp"
    ],
    "5.8": [
+    "rx/c9_mixtures_5_8_distillation.webp",
     "rx/fractional_distillation.webp"
    ],
    "5.9": [
+    "rx/c9_mixtures_5_9_chromatography.webp",
     "rx/column_chromatography.webp"
    ]
   },
   "c9_motion": {
    "4.1": [
+    "rx/c9_motion_4_1_reference_point.webp",
     "rx/frames_vectors_motion.webp",
     "rx/motion.webp"
    ],
    "4.2": [
+    "rx/c9_motion_4_2_distance_displacement.webp",
     "rx/frames_vectors_motion.webp"
    ],
    "4.3": [
+    "rx/c9_motion_4_3_average_speed.webp",
     "rx/motion.webp"
    ],
    "4.4": [
+    "rx/c9_motion_4_4_average_velocity.webp",
     "rx/motion--1.webp"
    ],
    "4.5": [
+    "rx/c9_motion_4_5_acceleration.webp",
     "rx/motion--2.webp",
     "rx/motion--3.webp"
    ],
    "4.6": [
+    "rx/c9_motion_4_6_distance_time_graph.webp",
     "rx/motion--1.webp"
    ],
    "4.7": [
+    "rx/c9_motion_4_7_velocity_time_graph.webp",
     "rx/motion--2.webp"
    ],
    "4.8": [
+    "rx/c9_motion_4_8_kinematic_equations.webp",
     "rx/motion--2.webp"
    ],
    "4.9": [
+    "rx/c9_motion_4_9_circular_motion.webp",
     "rx/circular_motion.webp"
    ]
   },
@@ -910,39 +930,50 @@
   },
   "c9_tissues": {
    "3.1": [
+    "rx/c9_tissues_3_1_cell_to_tissue.webp",
     "rx/tissue_epithelial.webp"
    ],
    "3.10": [
+    "rx/c9_tissues_3_10_knee_joint.webp",
     "rx/skeleton_joint.webp",
     "rx/skeleton_joint--1.webp",
     "rx/skeleton_joint--2.webp"
    ],
    "3.11": [
+    "rx/c9_tissues_3_11_care_posture_yoga.webp",
     "rx/balanced_diet.webp"
    ],
    "3.2": [
+    "rx/c9_tissues_3_2_levels_of_organisation.webp",
     "rx/skin.webp"
    ],
    "3.3": [
+    "rx/c9_tissues_3_3_meristem_tips.webp",
     "rx/meristematic_tissues.webp"
    ],
    "3.4": [
+    "rx/c9_tissues_3_4_simple_permanent.webp",
     "rx/simple_permanent_tissues.webp"
    ],
    "3.5": [
+    "rx/c9_tissues_3_5_xylem_transport.webp",
     "rx/absorption_roots.webp",
     "rx/transpiration.webp"
    ],
    "3.6": [
+    "rx/c9_tissues_3_6_phloem_transport.webp",
     "rx/phloem_translocation.webp"
    ],
    "3.7": [
+    "rx/c9_tissues_3_7_epithelial_types.webp",
     "rx/tissue_epithelial.webp"
    ],
    "3.8": [
+    "rx/c9_tissues_3_8_connective_tissues.webp",
     "rx/tissue_connective.webp"
    ],
    "3.9": [
+    "rx/c9_tissues_3_9_muscle_nerve.webp",
     "rx/tissue_muscular.webp",
     "rx/tissue_nervous.webp",
     "rx/nervous_system--1.webp"
@@ -1070,7 +1101,38 @@
   "rx/c9_cell_2_7_mitochondria_chloroplast.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_cell_2_8_er_golgi_lysosome.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_cell_2_9_cell_division.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_cell_2_10_biomolecules.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_cell_2_10_biomolecules.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_11_division_cancer.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_1_cell_to_tissue.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_2_levels_of_organisation.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_3_meristem_tips.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_4_simple_permanent.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_5_xylem_transport.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_6_phloem_transport.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_7_epithelial_types.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_8_connective_tissues.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_9_muscle_nerve.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_10_knee_joint.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_11_care_posture_yoga.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_1_reference_point.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_2_distance_displacement.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_3_average_speed.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_4_average_velocity.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_5_acceleration.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_6_distance_time_graph.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_7_velocity_time_graph.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_8_kinematic_equations.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_9_circular_motion.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_1_three_beakers.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_2_solution.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_3_suspension.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_4_tyndall.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_5_mass_percent.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_6_concentration_units.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_7_salt_pans.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_8_distillation.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_9_chromatography.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_mixtures_5_10_centrifuge.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -17079,6 +17141,1568 @@
     "hi": "राइबोसोम",
     "info_en": "Ribosome: labelled part of the illustration “Biomolecules Inside a Cell”. Illustrative, not to scale.",
     "info_hi": "राइबोसोम: “कोशिका के भीतर जैव-अणु” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_11_division_cancer.webp": [
+   {
+    "x": 250,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 286,
+    "anchor_y": 445,
+    "en": "Cell in mitosis",
+    "hi": "समसूत्री विभाजन",
+    "info_en": "Cell in mitosis: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "समसूत्री विभाजन: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 508,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 850,
+    "anchor_y": 380,
+    "en": "Tumour-like mass",
+    "hi": "गाँठ जैसा पिंड",
+    "info_en": "Tumour-like mass: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "गाँठ जैसा पिंड: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 766,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1146,
+    "anchor_y": 620,
+    "en": "Petri dish",
+    "hi": "पेट्री डिश",
+    "info_en": "Petri dish: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "पेट्री डिश: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 1024,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 235,
+    "anchor_y": 190,
+    "en": "Microscope",
+    "hi": "सूक्ष्मदर्शी",
+    "info_en": "Microscope: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
+    "info_hi": "सूक्ष्मदर्शी: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_1_cell_to_tissue.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 120,
+    "en": "Single cell",
+    "hi": "एकल कोशिका",
+    "info_en": "Single cell: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "एकल कोशिका: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 170,
+    "anchor_y": 150,
+    "en": "Nucleus",
+    "hi": "केन्द्रक",
+    "info_en": "Nucleus: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "केन्द्रक: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 950,
+    "anchor_y": 180,
+    "en": "Tissue sheet",
+    "hi": "ऊतक परत",
+    "info_en": "Tissue sheet: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "ऊतक परत: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 300,
+    "en": "Cell boundary",
+    "hi": "कोशिका सीमा",
+    "info_en": "Cell boundary: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "कोशिका सीमा: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_2_levels_of_organisation.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 100,
+    "anchor_y": 180,
+    "en": "Cell",
+    "hi": "कोशिका",
+    "info_en": "Cell: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "कोशिका: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 300,
+    "anchor_y": 180,
+    "en": "Tissue",
+    "hi": "ऊतक",
+    "info_en": "Tissue: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "ऊतक: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 520,
+    "anchor_y": 180,
+    "en": "Organ",
+    "hi": "अंग",
+    "info_en": "Organ: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "अंग: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 180,
+    "en": "Organ system",
+    "hi": "अंग तंत्र",
+    "info_en": "Organ system: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "अंग तंत्र: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_3_meristem_tips.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 200,
+    "anchor_y": 300,
+    "en": "Root tip",
+    "hi": "मूल शीर्ष",
+    "info_en": "Root tip: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "मूल शीर्ष: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 300,
+    "en": "Shoot tip",
+    "hi": "प्ररोह शीर्ष",
+    "info_en": "Shoot tip: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "प्ररोह शीर्ष: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 500,
+    "anchor_y": 300,
+    "en": "Dividing cells",
+    "hi": "विभाजित कोशिकाएँ",
+    "info_en": "Dividing cells: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "विभाजित कोशिकाएँ: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 350,
+    "anchor_y": 420,
+    "en": "Large nucleus",
+    "hi": "बड़ा केन्द्रक",
+    "info_en": "Large nucleus: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "बड़ा केन्द्रक: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_4_simple_permanent.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 350,
+    "en": "Parenchyma",
+    "hi": "पैरेनकाइमा",
+    "info_en": "Parenchyma: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "पैरेनकाइमा: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 690,
+    "anchor_y": 350,
+    "en": "Collenchyma",
+    "hi": "कॉलेनकाइमा",
+    "info_en": "Collenchyma: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "कॉलेनकाइमा: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1200,
+    "anchor_y": 350,
+    "en": "Sclerenchyma",
+    "hi": "स्क्लेरेनकाइमा",
+    "info_en": "Sclerenchyma: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "स्क्लेरेनकाइमा: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1250,
+    "anchor_y": 300,
+    "en": "Lignified wall",
+    "hi": "लिग्निन भित्ति",
+    "info_en": "Lignified wall: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "लिग्निन भित्ति: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_5_xylem_transport.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 500,
+    "anchor_y": 350,
+    "en": "Xylem vessel",
+    "hi": "जाइलम वाहिका",
+    "info_en": "Xylem vessel: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "जाइलम वाहिका: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 200,
+    "en": "Water rising",
+    "hi": "ऊपर उठता जल",
+    "info_en": "Water rising: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "ऊपर उठता जल: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 800,
+    "anchor_y": 400,
+    "en": "Tracheid",
+    "hi": "ट्रैकीड",
+    "info_en": "Tracheid: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "ट्रैकीड: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 250,
+    "anchor_y": 300,
+    "en": "Ground tissue",
+    "hi": "ग्राउंड ऊतक",
+    "info_en": "Ground tissue: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "ग्राउंड ऊतक: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_6_phloem_transport.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 300,
+    "en": "Sieve tube",
+    "hi": "चालनी नलिका",
+    "info_en": "Sieve tube: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "चालनी नलिका: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 250,
+    "en": "Sieve plate",
+    "hi": "चालनी प्लेट",
+    "info_en": "Sieve plate: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "चालनी प्लेट: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 850,
+    "anchor_y": 350,
+    "en": "Companion cell",
+    "hi": "सहचर कोशिका",
+    "info_en": "Companion cell: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "सहचर कोशिका: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 400,
+    "en": "Sugar transport",
+    "hi": "शर्करा परिवहन",
+    "info_en": "Sugar transport: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "शर्करा परिवहन: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_7_epithelial_types.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 120,
+    "anchor_y": 350,
+    "en": "Squamous",
+    "hi": "शल्की",
+    "info_en": "Squamous: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "शल्की: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 380,
+    "anchor_y": 350,
+    "en": "Cuboidal",
+    "hi": "घनाकार",
+    "info_en": "Cuboidal: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "घनाकार: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 640,
+    "anchor_y": 350,
+    "en": "Columnar",
+    "hi": "स्तम्भी",
+    "info_en": "Columnar: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "स्तम्भी: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 330,
+    "en": "Ciliated",
+    "hi": "पक्ष्मीय",
+    "info_en": "Ciliated: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "पक्ष्मीय: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_8_connective_tissues.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 130,
+    "anchor_y": 400,
+    "en": "Blood",
+    "hi": "रक्त",
+    "info_en": "Blood: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "रक्त: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 350,
+    "anchor_y": 350,
+    "en": "Bone",
+    "hi": "अस्थि",
+    "info_en": "Bone: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "अस्थि: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 560,
+    "anchor_y": 380,
+    "en": "Cartilage",
+    "hi": "उपास्थि",
+    "info_en": "Cartilage: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "उपास्थि: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 760,
+    "anchor_y": 350,
+    "en": "Tendon",
+    "hi": "स्नायु",
+    "info_en": "Tendon: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "स्नायु: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 1046,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 960,
+    "anchor_y": 350,
+    "en": "Ligament",
+    "hi": "स्नायुबंध",
+    "info_en": "Ligament: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "स्नायुबंध: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_9_muscle_nerve.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 250,
+    "en": "Skeletal muscle",
+    "hi": "कंकाल पेशी",
+    "info_en": "Skeletal muscle: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "कंकाल पेशी: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 300,
+    "en": "Smooth muscle",
+    "hi": "चिकनी पेशी",
+    "info_en": "Smooth muscle: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "चिकनी पेशी: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 280,
+    "en": "Cardiac muscle",
+    "hi": "हृदय पेशी",
+    "info_en": "Cardiac muscle: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "हृदय पेशी: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 300,
+    "anchor_y": 420,
+    "en": "Neuron",
+    "hi": "न्यूरॉन",
+    "info_en": "Neuron: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "न्यूरॉन: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_10_knee_joint.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 250,
+    "en": "Bone",
+    "hi": "अस्थि",
+    "info_en": "Bone: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "अस्थि: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 650,
+    "anchor_y": 420,
+    "en": "Cartilage",
+    "hi": "उपास्थि",
+    "info_en": "Cartilage: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "उपास्थि: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 520,
+    "anchor_y": 300,
+    "en": "Tendon",
+    "hi": "स्नायु",
+    "info_en": "Tendon: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "स्नायु: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 750,
+    "anchor_y": 450,
+    "en": "Ligament",
+    "hi": "स्नायुबंध",
+    "info_en": "Ligament: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "स्नायुबंध: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_11_care_posture_yoga.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 215,
+    "anchor_y": 330,
+    "en": "Slouched spine",
+    "hi": "कुबड़ी रीढ़",
+    "info_en": "Slouched spine: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "कुबड़ी रीढ़: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 395,
+    "anchor_y": 330,
+    "en": "Upright spine",
+    "hi": "सीधी रीढ़",
+    "info_en": "Upright spine: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "सीधी रीढ़: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 820,
+    "anchor_y": 300,
+    "en": "Yoga pose",
+    "hi": "योग मुद्रा",
+    "info_en": "Yoga pose: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "योग मुद्रा: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1120,
+    "anchor_y": 430,
+    "en": "Calcium-rich food",
+    "hi": "कैल्शियम युक्त भोजन",
+    "info_en": "Calcium-rich food: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "कैल्शियम युक्त भोजन: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_1_reference_point.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 160,
+    "anchor_y": 400,
+    "en": "Reference point",
+    "hi": "सन्दर्भ बिंदु",
+    "info_en": "Reference point: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "सन्दर्भ बिंदु: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 880,
+    "anchor_y": 380,
+    "en": "Runner in motion",
+    "hi": "गति में धावक",
+    "info_en": "Runner in motion: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "गति में धावक: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1240,
+    "anchor_y": 560,
+    "en": "Forward direction",
+    "hi": "अग्र दिशा",
+    "info_en": "Forward direction: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "अग्र दिशा: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 320,
+    "anchor_y": 580,
+    "en": "Backward direction",
+    "hi": "पश्च दिशा",
+    "info_en": "Backward direction: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "पश्च दिशा: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_2_distance_displacement.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 170,
+    "anchor_y": 320,
+    "en": "Start flag",
+    "hi": "प्रारंभ ध्वजा",
+    "info_en": "Start flag: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "प्रारंभ ध्वजा: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 260,
+    "en": "Winding path",
+    "hi": "घुमावदार पथ",
+    "info_en": "Winding path: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "घुमावदार पथ: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 430,
+    "en": "Straight arrow",
+    "hi": "सरल तीर",
+    "info_en": "Straight arrow: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "सरल तीर: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1280,
+    "anchor_y": 200,
+    "en": "Finish flag",
+    "hi": "अंतिम ध्वजा",
+    "info_en": "Finish flag: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "अंतिम ध्वजा: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_3_average_speed.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 210,
+    "en": "Stopwatch",
+    "hi": "स्टॉपवॉच",
+    "info_en": "Stopwatch: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "स्टॉपवॉच: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 460,
+    "anchor_y": 500,
+    "en": "Leading runner",
+    "hi": "अग्रणी धावक",
+    "info_en": "Leading runner: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "अग्रणी धावक: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 860,
+    "anchor_y": 500,
+    "en": "Middle runner",
+    "hi": "मध्य धावक",
+    "info_en": "Middle runner: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "मध्य धावक: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1050,
+    "anchor_y": 480,
+    "en": "Trailing runner",
+    "hi": "पिछड़ा धावक",
+    "info_en": "Trailing runner: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "पिछड़ा धावक: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_4_average_velocity.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 620,
+    "anchor_y": 160,
+    "en": "Forward velocity",
+    "hi": "अग्र वेग",
+    "info_en": "Forward velocity: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "अग्र वेग: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 620,
+    "anchor_y": 330,
+    "en": "Swimmer",
+    "hi": "तैराक",
+    "info_en": "Swimmer: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "तैराक: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 760,
+    "anchor_y": 520,
+    "en": "Return direction",
+    "hi": "प्रत्यावर्ती दिशा",
+    "info_en": "Return direction: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "प्रत्यावर्ती दिशा: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 250,
+    "anchor_y": 300,
+    "en": "Lane rope",
+    "hi": "लेन रस्सी",
+    "info_en": "Lane rope: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "लेन रस्सी: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_5_acceleration.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 670,
+    "anchor_y": 130,
+    "en": "Ball at start",
+    "hi": "प्रारंभिक गेंद",
+    "info_en": "Ball at start: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "प्रारंभिक गेंद: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 680,
+    "anchor_y": 370,
+    "en": "Speed rising",
+    "hi": "चाल बढ़ती हुई",
+    "info_en": "Speed rising: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "चाल बढ़ती हुई: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 620,
+    "en": "Longest arrow",
+    "hi": "सबसे लंबा तीर",
+    "info_en": "Longest arrow: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "सबसे लंबा तीर: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 830,
+    "anchor_y": 350,
+    "en": "Downward pull",
+    "hi": "अधोमुख त्वरण",
+    "info_en": "Downward pull: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "अधोमुख त्वरण: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_6_distance_time_graph.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 440,
+    "anchor_y": 100,
+    "en": "Position axis",
+    "hi": "स्थिति अक्ष",
+    "info_en": "Position axis: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "स्थिति अक्ष: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 960,
+    "anchor_y": 650,
+    "en": "Time axis",
+    "hi": "समय अक्ष",
+    "info_en": "Time axis: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "समय अक्ष: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 980,
+    "anchor_y": 300,
+    "en": "Straight line",
+    "hi": "सीधी रेखा",
+    "info_en": "Straight line: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "सीधी रेखा: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 890,
+    "anchor_y": 80,
+    "en": "Curved line",
+    "hi": "मुड़ी रेखा",
+    "info_en": "Curved line: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "मुड़ी रेखा: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_7_velocity_time_graph.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 680,
+    "anchor_y": 380,
+    "en": "Flat line",
+    "hi": "समतल रेखा",
+    "info_en": "Flat line: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "समतल रेखा: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 760,
+    "anchor_y": 300,
+    "en": "Rising line",
+    "hi": "चढ़ती रेखा",
+    "info_en": "Rising line: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "चढ़ती रेखा: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 640,
+    "anchor_y": 430,
+    "en": "Falling line",
+    "hi": "गिरती रेखा",
+    "info_en": "Falling line: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "गिरती रेखा: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 620,
+    "anchor_y": 510,
+    "en": "Shaded area",
+    "hi": "छायांकित क्षेत्र",
+    "info_en": "Shaded area: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "छायांकित क्षेत्र: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_8_kinematic_equations.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 380,
+    "anchor_y": 330,
+    "en": "Initial velocity",
+    "hi": "प्रारंभिक वेग",
+    "info_en": "Initial velocity: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "प्रारंभिक वेग: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 280,
+    "en": "Rectangle area",
+    "hi": "आयत क्षेत्र",
+    "info_en": "Rectangle area: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "आयत क्षेत्र: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 500,
+    "en": "Triangle area",
+    "hi": "त्रिभुज क्षेत्र",
+    "info_en": "Triangle area: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "त्रिभुज क्षेत्र: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 310,
+    "anchor_y": 450,
+    "en": "Car at origin",
+    "hi": "मूल बिंदु पर कार",
+    "info_en": "Car at origin: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "मूल बिंदु पर कार: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_9_circular_motion.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 870,
+    "anchor_y": 180,
+    "en": "Marble",
+    "hi": "कंचा",
+    "info_en": "Marble: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "कंचा: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 210,
+    "en": "Tangent arrow",
+    "hi": "स्पर्श रेखा तीर",
+    "info_en": "Tangent arrow: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "स्पर्श रेखा तीर: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 400,
+    "en": "Circular ring",
+    "hi": "वृत्तीय वलय",
+    "info_en": "Circular ring: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "वृत्तीय वलय: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 690,
+    "anchor_y": 450,
+    "en": "Centre",
+    "hi": "केंद्र",
+    "info_en": "Centre: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "केंद्र: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_1_three_beakers.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 350,
+    "anchor_y": 430,
+    "en": "Solution",
+    "hi": "विलयन",
+    "info_en": "Solution: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "विलयन: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 430,
+    "en": "Suspension",
+    "hi": "निलंबन",
+    "info_en": "Suspension: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "निलंबन: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1050,
+    "anchor_y": 430,
+    "en": "Colloid",
+    "hi": "कोलॉइड",
+    "info_en": "Colloid: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "कोलॉइड: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 430,
+    "en": "Light beam",
+    "hi": "प्रकाश किरण",
+    "info_en": "Light beam: labelled part of the illustration “Classifying Mixtures”. Illustrative, not to scale.",
+    "info_hi": "प्रकाश किरण: “मिश्रणों का वर्गीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_2_solution.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 624,
+    "anchor_y": 580,
+    "en": "Dissolving sugar",
+    "hi": "घुलती चीनी",
+    "info_en": "Dissolving sugar: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "घुलती चीनी: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 544,
+    "anchor_y": 360,
+    "en": "Solute particles",
+    "hi": "विलेय कण",
+    "info_en": "Solute particles: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "विलेय कण: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 800,
+    "anchor_y": 250,
+    "en": "Water molecules",
+    "hi": "जल अणु",
+    "info_en": "Water molecules: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "जल अणु: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 794,
+    "anchor_y": 120,
+    "en": "Stirring spoon",
+    "hi": "चम्मच",
+    "info_en": "Stirring spoon: labelled part of the illustration “Solutions”. Illustrative, not to scale.",
+    "info_hi": "चम्मच: “विलयन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_3_suspension.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 490,
+    "anchor_y": 350,
+    "en": "Muddy water",
+    "hi": "गादयुक्त जल",
+    "info_en": "Muddy water: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "गादयुक्त जल: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 490,
+    "anchor_y": 570,
+    "en": "Settled sediment",
+    "hi": "बैठा अवसाद",
+    "info_en": "Settled sediment: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "बैठा अवसाद: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 212,
+    "en": "Filter paper",
+    "hi": "फिल्टर पेपर",
+    "info_en": "Filter paper: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "फिल्टर पेपर: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 940,
+    "anchor_y": 532,
+    "en": "Filtrate",
+    "hi": "निस्पंद",
+    "info_en": "Filtrate: labelled part of the illustration “Suspensions”. Illustrative, not to scale.",
+    "info_hi": "निस्पंद: “निलंबन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_4_tyndall.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 420,
+    "anchor_y": 300,
+    "en": "Milky colloid",
+    "hi": "दूधिया कोलॉइड",
+    "info_en": "Milky colloid: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "दूधिया कोलॉइड: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 420,
+    "anchor_y": 440,
+    "en": "Scattered light",
+    "hi": "बिखरा प्रकाश",
+    "info_en": "Scattered light: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "बिखरा प्रकाश: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 960,
+    "anchor_y": 400,
+    "en": "Clear solution",
+    "hi": "स्वच्छ विलयन",
+    "info_en": "Clear solution: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "स्वच्छ विलयन: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 60,
+    "anchor_y": 372,
+    "en": "Laser source",
+    "hi": "लेज़र स्रोत",
+    "info_en": "Laser source: labelled part of the illustration “Colloids and the Tyndall Effect”. Illustrative, not to scale.",
+    "info_hi": "लेज़र स्रोत: “कोलॉइड और टिण्डल प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_5_mass_percent.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 480,
+    "en": "Salt on the pan",
+    "hi": "तुला पर नमक",
+    "info_en": "Salt on the pan: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "तुला पर नमक: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 930,
+    "anchor_y": 430,
+    "en": "Weighed beaker",
+    "hi": "तोला बीकर",
+    "info_en": "Weighed beaker: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "तोला बीकर: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1000,
+    "anchor_y": 180,
+    "en": "Salt falling",
+    "hi": "गिरता नमक",
+    "info_en": "Salt falling: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "गिरता नमक: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 300,
+    "anchor_y": 120,
+    "en": "Balance beam",
+    "hi": "तुला दंड",
+    "info_en": "Balance beam: labelled part of the illustration “Mass by Mass Percentage”. Illustrative, not to scale.",
+    "info_hi": "तुला दंड: “द्रव्यमान प्रतिशत” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_6_concentration_units.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 534,
+    "anchor_y": 400,
+    "en": "Measuring cylinder",
+    "hi": "मापन सिलिंडर",
+    "info_en": "Measuring cylinder: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "मापन सिलिंडर: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 834,
+    "anchor_y": 190,
+    "en": "Saline drip",
+    "hi": "सैलाइन ड्रिप",
+    "info_en": "Saline drip: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "सैलाइन ड्रिप: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 850,
+    "anchor_y": 420,
+    "en": "Pipette",
+    "hi": "पिपेट",
+    "info_en": "Pipette: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "पिपेट: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 694,
+    "anchor_y": 630,
+    "en": "Drop",
+    "hi": "बूँद",
+    "info_en": "Drop: labelled part of the illustration “Other Ways to Express Concentration”. Illustrative, not to scale.",
+    "info_hi": "बूँद: “सान्द्रता व्यक्त करने के अन्य तरीके” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_7_salt_pans.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 800,
+    "anchor_y": 272,
+    "en": "Salt pans",
+    "hi": "नमक के तालाब",
+    "info_en": "Salt pans: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "नमक के तालाब: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 500,
+    "anchor_y": 412,
+    "en": "Brine evaporating",
+    "hi": "उबलता लवण",
+    "info_en": "Brine evaporating: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "उबलता लवण: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1200,
+    "anchor_y": 432,
+    "en": "Salt crust",
+    "hi": "नमक की परत",
+    "info_en": "Salt crust: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "नमक की परत: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 210,
+    "anchor_y": 122,
+    "en": "Sunset heat",
+    "hi": "सूर्य की गर्मी",
+    "info_en": "Sunset heat: labelled part of the illustration “Separation by Evaporation and Filtration”. Illustrative, not to scale.",
+    "info_hi": "सूर्य की गर्मी: “वाष्पन और निस्पंदन से पृथक्करण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_8_distillation.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 354,
+    "anchor_y": 400,
+    "en": "Boiling flask",
+    "hi": "उबलता फ्लास्क",
+    "info_en": "Boiling flask: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "उबलता फ्लास्क: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 750,
+    "anchor_y": 260,
+    "en": "Condenser",
+    "hi": "संघनित्र",
+    "info_en": "Condenser: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "संघनित्र: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1074,
+    "anchor_y": 500,
+    "en": "Distillate",
+    "hi": "आसवित द्रव",
+    "info_en": "Distillate: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "आसवित द्रव: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 364,
+    "anchor_y": 620,
+    "en": "Burner",
+    "hi": "बर्नर",
+    "info_en": "Burner: labelled part of the illustration “Crystallisation and Distillation”. Illustrative, not to scale.",
+    "info_hi": "बर्नर: “क्रिस्टलीकरण और आसवन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_9_chromatography.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 680,
+    "anchor_y": 580,
+    "en": "Ink spot",
+    "hi": "स्याही का धब्बा",
+    "info_en": "Ink spot: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "स्याही का धब्बा: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 390,
+    "en": "Colour bands",
+    "hi": "रंग पट्टियाँ",
+    "info_en": "Colour bands: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "रंग पट्टियाँ: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 120,
+    "en": "Chromatography paper",
+    "hi": "वर्णलेखन कागज़",
+    "info_en": "Chromatography paper: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "वर्णलेखन कागज़: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 560,
+    "anchor_y": 640,
+    "en": "Solvent rising",
+    "hi": "चढ़ता विलायक",
+    "info_en": "Solvent rising: labelled part of the illustration “Chromatography and Sublimation”. Illustrative, not to scale.",
+    "info_hi": "चढ़ता विलायक: “वर्णलेखन और ऊर्ध्वपातन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_mixtures_5_10_centrifuge.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 350,
+    "en": "Blood tubes",
+    "hi": "रक्त की नलियाँ",
+    "info_en": "Blood tubes: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "रक्त की नलियाँ: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 624,
+    "anchor_y": 400,
+    "en": "Separated layers",
+    "hi": "अलग परतें",
+    "info_en": "Separated layers: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "अलग परतें: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1000,
+    "anchor_y": 480,
+    "en": "Alum powder",
+    "hi": "फिटकरी",
+    "info_en": "Alum powder: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "फिटकरी: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 250,
+    "anchor_y": 200,
+    "en": "Centrifuge",
+    "hi": "अपकेंद्रण यंत्र",
+    "info_en": "Centrifuge: labelled part of the illustration “Centrifugation and Coagulation”. Illustrative, not to scale.",
+    "info_hi": "अपकेंद्रण यंत्र: “अपकेंद्रण और स्कंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },

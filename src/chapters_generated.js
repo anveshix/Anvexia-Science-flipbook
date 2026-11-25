@@ -1475,8 +1475,8 @@
       "title": "What a tissue is",
       "titleHi": "ऊतक क्या है",
       "short": "What a tissue is",
-      "concept": "A tissue is a group of similar cells with a common origin working together for one function.",
-      "conceptHi": "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है, उसे ऊतक कहते हैं।",
+      "concept": "A tissue is a group of similar cells with a common origin, working together for one function. Muscles move, blood carries, xylem conducts water.",
+      "conceptHi": "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम करता है, ऊतक कहलाता है। पेशी चलाती है, रक्त ले जाता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1484,20 +1484,20 @@
       },
       "predict": {
         "q": "Which statement belongs to What a tissue is?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
-        "why": "Similar cells performing one shared function form a tissue."
+        "why": "A tissue is a group of similar cells performing one shared function."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'ऊतक क्या है' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 0,
         "why": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"
       },
-      "explain": "Similar cells performing one shared function form a tissue.",
+      "explain": "A tissue is a group of similar cells performing one shared function.",
       "explainHi": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।",
-      "vocab": [["Tissue", "A tissue is a group of similar cells with a common origin "], ["Meristem", "A tissue is a group of similar cells with a common origin "], ["Xylem", "A tissue is a group of similar cells with a common origin "]],
-      "vocabHi": [["ऊतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है,"], ["विभज्योतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है,"], ["जाइलम", "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है,"]],
+      "vocab": [["Tissue", "A tissue is a group of similar cells with a common origin,"], ["Meristem", "A tissue is a group of similar cells with a common origin,"], ["Xylem", "A tissue is a group of similar cells with a common origin,"]],
+      "vocabHi": [["ऊतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "], ["विभज्योतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "], ["जाइलम", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "]],
       "fig": "3D tree · What a tissue is · Cell → Tissue → Organ → System",
       "figHi": "3D tree चित्र · ऊतक क्या है · Cell / Tissue / Organ",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1513,9 +1513,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to What a tissue is?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
-        "why": "Similar cells performing one shared function form a tissue."
+        "why": "A tissue is a group of similar cells performing one shared function."
       },
       "scene": {
         "type": "atlas",
@@ -1536,8 +1536,8 @@
       "title": "Levels of organisation in organisms",
       "titleHi": "जीवों में संगठन के स्तर",
       "short": "Levels of organisation",
-      "concept": "Cells form tissues, tissues form organs, organs form systems and systems form an organism.",
-      "conceptHi": "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते हैं।",
+      "concept": "Cells form tissues, tissues form organs, organs form organ systems, and systems together make an organism. Division of labour rises at each step.",
+      "conceptHi": "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते हैं। हर स्तर पर श्रम-विभाजन बढ़ता जाता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1551,13 +1551,13 @@
       },
       "predictHi": {
         "q": "कौन-सा कथन 'जीवों में संगठन के स्तर' से मेल खाता है?",
-        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
+        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
         "a": 1,
         "why": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"
       },
       "explain": "Division of labour increases from cell level to organ-system level.",
       "explainHi": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।",
-      "vocab": [["Meristem", "Cells form tissues, tissues form organs, organs form syste"], ["Xylem", "Cells form tissues, tissues form organs, organs form syste"], ["Phloem", "Cells form tissues, tissues form organs, organs form syste"]],
+      "vocab": [["Meristem", "Cells form tissues, tissues form organs, organs form organ"], ["Xylem", "Cells form tissues, tissues form organs, organs form organ"], ["Phloem", "Cells form tissues, tissues form organs, organs form organ"]],
       "vocabHi": [["विभज्योतक", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "], ["जाइलम", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "], ["फ्लोएम", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "]],
       "fig": "3D layers · Levels of organisation in organisms · Cell → Tissue → Organ → System",
       "figHi": "3D layers चित्र · जीवों में संगठन के स्तर · Cell / Tissue / Organ",
@@ -1597,8 +1597,8 @@
       "title": "Meristematic tissues",
       "titleHi": "विभज्योतक ऊतक",
       "short": "Meristematic tissues",
-      "concept": "Meristem cells divide continuously at tips and sides, causing growth in length and girth.",
-      "conceptHi": "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर लम्बाई और मोटाई बढ़ाती हैं।",
+      "concept": "Meristem cells are small and thin-walled with a large nucleus and no vacuoles. Apical, lateral and intercalary meristems add length, girth and branches.",
+      "conceptHi": "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली होती हैं, रिक्तिका नहीं होती। ये लंबाई, मोटाई और शाखाएँ बढ़ाती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1612,14 +1612,14 @@
       },
       "predictHi": {
         "q": "कौन-सा कथन 'विभज्योतक ऊतक' से मेल खाता है?",
-        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 2,
-        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"
+        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"
       },
       "explain": "Apical, intercalary and lateral meristems add length and girth to plants.",
-      "explainHi": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।",
-      "vocab": [["Xylem", "Meristem cells divide continuously at tips and sides, caus"], ["Phloem", "Meristem cells divide continuously at tips and sides, caus"], ["Epithelium", "Meristem cells divide continuously at tips and sides, caus"]],
-      "vocabHi": [["जाइलम", "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर"], ["फ्लोएम", "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर"], ["उपकला", "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर"]],
+      "explainHi": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।",
+      "vocab": [["Xylem", "Meristem cells are small and thin-walled with a large nucl"], ["Phloem", "Meristem cells are small and thin-walled with a large nucl"], ["Epithelium", "Meristem cells are small and thin-walled with a large nucl"]],
+      "vocabHi": [["जाइलम", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"], ["फ्लोएम", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"], ["उपकला", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"]],
       "fig": "3D tree · Meristematic tissues · Meristem → Apical → Intercalary → Lateral",
       "figHi": "3D tree चित्र · विभज्योतक ऊतक · Meristem / Apical / Intercalary",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1658,8 +1658,8 @@
       "title": "Simple permanent plant tissues",
       "titleHi": "सरल स्थायी पादप ऊतक",
       "short": "Simple permanent plant",
-      "concept": "Parenchyma stores food, collenchyma gives flexible support and sclerenchyma gives rigid strength.",
-      "conceptHi": "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और स्क्लेरेनकाइमा कठोर मज़बूती देता है।",
+      "concept": "Parenchyma stores food and floats aquatic plants, collenchyma bends without breaking, and lignified sclerenchyma gives hard, rigid strength.",
+      "conceptHi": "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़ता है, और लिग्निन युक्त स्क्लेरेनकाइमा कठोर मज़बूती देता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1679,8 +1679,8 @@
       },
       "explain": "Dead sclerenchyma fibres with lignin give plants mechanical strength.",
       "explainHi": "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।",
-      "vocab": [["Phloem", "Parenchyma stores food, collenchyma gives flexible support"], ["Epithelium", "Parenchyma stores food, collenchyma gives flexible support"], ["Neuron", "Parenchyma stores food, collenchyma gives flexible support"]],
-      "vocabHi": [["फ्लोएम", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और "], ["उपकला", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और "], ["न्यूरॉन", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और "]],
+      "vocab": [["Phloem", "Parenchyma stores food and floats aquatic plants, collench"], ["Epithelium", "Parenchyma stores food and floats aquatic plants, collench"], ["Neuron", "Parenchyma stores food and floats aquatic plants, collench"]],
+      "vocabHi": [["फ्लोएम", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"], ["उपकला", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"], ["न्यूरॉन", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"]],
       "fig": "3D layers · Simple permanent plant tissues · Parenchyma → Collenchyma → Sclerenchyma → Support",
       "figHi": "3D layers चित्र · सरल स्थायी पादप ऊतक · Parenchyma / Collenchyma / Sclerenchyma",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1719,8 +1719,8 @@
       "title": "Xylem: water transport",
       "titleHi": "जाइलम: जल परिवहन",
       "short": "Xylem: water transport",
-      "concept": "Xylem vessels and tracheids carry water and minerals upward from roots to leaves.",
-      "conceptHi": "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक ऊपर ले जाती हैं।",
+      "concept": "Xylem has tracheids, vessels, fibres and living xylem parenchyma. Its dead tubular cells carry water and minerals upward and strengthen the plant.",
+      "conceptHi": "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते हैं। इसकी मृत नलिकाएँ जल और खनिज ऊपर ले जाती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1740,8 +1740,8 @@
       },
       "explain": "Xylem transport is unidirectional, from root to leaf.",
       "explainHi": "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।",
-      "vocab": [["Epithelium", "Xylem vessels and tracheids carry water and minerals upwar"], ["Neuron", "Xylem vessels and tracheids carry water and minerals upwar"], ["Tissue", "Xylem vessels and tracheids carry water and minerals upwar"]],
-      "vocabHi": [["उपकला", "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक"], ["न्यूरॉन", "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक"], ["ऊतक", "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक"]],
+      "vocab": [["Epithelium", "Xylem has tracheids, vessels, fibres and living xylem pare"], ["Neuron", "Xylem has tracheids, vessels, fibres and living xylem pare"], ["Tissue", "Xylem has tracheids, vessels, fibres and living xylem pare"]],
+      "vocabHi": [["उपकला", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"], ["न्यूरॉन", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"], ["ऊतक", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"]],
       "fig": "3D flow · Xylem: water transport · Root → Xylem → Stem → Leaf",
       "figHi": "3D flow चित्र · जाइलम: जल परिवहन · Root / Xylem / Stem",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1780,8 +1780,8 @@
       "title": "Phloem: food transport",
       "titleHi": "फ्लोएम: भोजन परिवहन",
       "short": "Phloem: food transport",
-      "concept": "Sieve tubes and companion cells translocate sugar from leaves to storage and growing parts.",
-      "conceptHi": "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और वृद्धि स्थलों तक पहुँचाती हैं।",
+      "concept": "Phloem is mostly living: sieve tubes carry sugar from leaves to storage and growing parts, and companion cells load and unload that sugar.",
+      "conceptHi": "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा भंडार तक ले जाती हैं और सहचर कोशिकाएँ उसे लादती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1801,8 +1801,8 @@
       },
       "explain": "Phloem translocation is bidirectional, source to sink.",
       "explainHi": "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।",
-      "vocab": [["Neuron", "Sieve tubes and companion cells translocate sugar from lea"], ["Tissue", "Sieve tubes and companion cells translocate sugar from lea"], ["Meristem", "Sieve tubes and companion cells translocate sugar from lea"]],
-      "vocabHi": [["न्यूरॉन", "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और"], ["ऊतक", "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और"], ["विभज्योतक", "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और"]],
+      "vocab": [["Neuron", "Phloem is mostly living: sieve tubes carry sugar from leav"], ["Tissue", "Phloem is mostly living: sieve tubes carry sugar from leav"], ["Meristem", "Phloem is mostly living: sieve tubes carry sugar from leav"]],
+      "vocabHi": [["न्यूरॉन", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "], ["ऊतक", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "], ["विभज्योतक", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "]],
       "fig": "3D cycle · Phloem: food transport · Leaf → Sieve tube → Stem → Root",
       "figHi": "3D cycle चित्र · फ्लोएम: भोजन परिवहन · Leaf / Sieve tube / Stem",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1841,8 +1841,8 @@
       "title": "Epithelial tissue",
       "titleHi": "उपकला ऊतक",
       "short": "Epithelial tissue",
-      "concept": "Epithelium covers and protects surfaces as squamous, cuboidal, columnar or ciliated sheets.",
-      "conceptHi": "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में सतहों को ढकती और बचाती है।",
+      "concept": "Epithelium is made of tightly packed cells. It covers the body and lines the mouth, lungs, vessels and gut, blocking germs and water loss.",
+      "conceptHi": "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और मुँह, फेफड़ों, वाहिकाओं और आँतों की परत बनती है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1862,8 +1862,8 @@
       },
       "explain": "Tightly packed epithelial cells form a continuous protective covering.",
       "explainHi": "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।",
-      "vocab": [["Tissue", "Epithelium covers and protects surfaces as squamous, cuboi"], ["Meristem", "Epithelium covers and protects surfaces as squamous, cuboi"], ["Xylem", "Epithelium covers and protects surfaces as squamous, cuboi"]],
-      "vocabHi": [["ऊतक", "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में "], ["विभज्योतक", "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में "], ["जाइलम", "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में "]],
+      "vocab": [["Tissue", "Epithelium is made of tightly packed cells. It covers the "], ["Meristem", "Epithelium is made of tightly packed cells. It covers the "], ["Xylem", "Epithelium is made of tightly packed cells. It covers the "]],
+      "vocabHi": [["ऊतक", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"], ["विभज्योतक", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"], ["जाइलम", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"]],
       "fig": "3D layers · Epithelial tissue · Squamous → Cuboidal → Columnar → Ciliated",
       "figHi": "3D layers चित्र · उपकला ऊतक · Squamous / Cuboidal / Columnar",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1902,8 +1902,8 @@
       "title": "Connective tissue",
       "titleHi": "संयोजी ऊतक",
       "short": "Connective tissue",
-      "concept": "Blood, bone, cartilage, areolar and adipose tissues connect, support and transport materials.",
-      "conceptHi": "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देते और पदार्थ पहुँचाते हैं।",
+      "concept": "Connective tissue links and supports: blood is fluid, bone is rigid, cartilage cushions, tendons join muscle to bone and ligaments join bone to bone.",
+      "conceptHi": "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, उपास्थि गद्दी, स्नायु पेशी को अस्थि से जोड़ते हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1911,20 +1911,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Connective tissue?",
-        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Bones and muscles form levers pivoted at joints."],
+        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'संयोजी ऊतक' से मेल खाता है?",
-        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"],
+        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"],
         "a": 1,
         "why": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।"
       },
       "explain": "Blood is a fluid connective tissue with plasma and suspended cells.",
       "explainHi": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।",
-      "vocab": [["Meristem", "Blood, bone, cartilage, areolar and adipose tissues connec"], ["Xylem", "Blood, bone, cartilage, areolar and adipose tissues connec"], ["Phloem", "Blood, bone, cartilage, areolar and adipose tissues connec"]],
-      "vocabHi": [["विभज्योतक", "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देत"], ["जाइलम", "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देत"], ["फ्लोएम", "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देत"]],
+      "vocab": [["Meristem", "Connective tissue links and supports: blood is fluid, bone"], ["Xylem", "Connective tissue links and supports: blood is fluid, bone"], ["Phloem", "Connective tissue links and supports: blood is fluid, bone"]],
+      "vocabHi": [["विभज्योतक", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "], ["जाइलम", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "], ["फ्लोएम", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "]],
       "fig": "3D molecule · Connective tissue · Plasma → RBC → WBC → Platelet",
       "figHi": "3D molecule चित्र · संयोजी ऊतक · Plasma / RBC / WBC",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1940,7 +1940,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Connective tissue?",
-        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Bones and muscles form levers pivoted at joints."],
+        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       },
@@ -1963,8 +1963,8 @@
       "title": "Muscular and nervous tissue",
       "titleHi": "पेशी और तंत्रिका ऊतक",
       "short": "Muscular and nervous t",
-      "concept": "Muscle tissue contracts for movement; nervous tissue carries electrical impulses through neurons.",
-      "conceptHi": "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से विद्युत आवेग ले जाता है।",
+      "concept": "Skeletal muscle is voluntary and striated, smooth muscle is involuntary, cardiac muscle never tires, and neurons carry the impulses.",
+      "conceptHi": "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेशी बिना थके धड़कती है, और न्यूरॉन आवेग ले जाते हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1972,20 +1972,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       },
       "explain": "A neuron has a cell body, dendrites and a long axon.",
       "explainHi": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।",
-      "vocab": [["Xylem", "Muscle tissue contracts for movement; nervous tissue carri"], ["Phloem", "Muscle tissue contracts for movement; nervous tissue carri"], ["Epithelium", "Muscle tissue contracts for movement; nervous tissue carri"]],
-      "vocabHi": [["जाइलम", "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से वि"], ["फ्लोएम", "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से वि"], ["उपकला", "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से वि"]],
+      "vocab": [["Xylem", "Skeletal muscle is voluntary and striated, smooth muscle i"], ["Phloem", "Skeletal muscle is voluntary and striated, smooth muscle i"], ["Epithelium", "Skeletal muscle is voluntary and striated, smooth muscle i"]],
+      "vocabHi": [["जाइलम", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"], ["फ्लोएम", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"], ["उपकला", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"]],
       "fig": "3D tree · Muscular and nervous tissue · Neuron → Dendrite → Axon → Muscle",
       "figHi": "3D tree चित्र · पेशी और तंत्रिका ऊतक · Neuron / Dendrite / Axon",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2001,7 +2001,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       },
@@ -2024,8 +2024,8 @@
       "title": "Musculoskeletal system and its care",
       "titleHi": "कंकाल-पेशी तंत्र और उसकी देखभाल",
       "short": "Musculoskeletal system",
-      "concept": "Bones and skeletal muscles act together as levers; posture, nutrition and exercise prevent injury.",
-      "conceptHi": "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं, सही मुद्रा, आहार और व्यायाम चोट बचाते हैं।",
+      "concept": "Bones and skeletal muscles work as levers: tendons anchor muscle to bone, ligaments hold bone to bone, and joints set the limit of movement.",
+      "conceptHi": "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पेशी को अस्थि से, स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -2033,20 +2033,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Similar cells performing one shared function form a tissue."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
-        "why": "Bones and muscles form levers pivoted at joints."
+        "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
-        "why": "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"
+        "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       },
-      "explain": "Bones and muscles form levers pivoted at joints.",
-      "explainHi": "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।",
-      "vocab": [["Phloem", "Bones and skeletal muscles act together as levers; posture"], ["Epithelium", "Bones and skeletal muscles act together as levers; posture"], ["Neuron", "Bones and skeletal muscles act together as levers; posture"]],
-      "vocabHi": [["फ्लोएम", "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं,"], ["उपकला", "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं,"], ["न्यूरॉन", "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं,"]],
+      "explain": "Tendons connect muscle to bone and ligaments connect bone to bone.",
+      "explainHi": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।",
+      "vocab": [["Phloem", "Bones and skeletal muscles work as levers: tendons anchor "], ["Epithelium", "Bones and skeletal muscles work as levers: tendons anchor "], ["Neuron", "Bones and skeletal muscles work as levers: tendons anchor "]],
+      "vocabHi": [["फ्लोएम", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"], ["उपकला", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"], ["न्यूरॉन", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"]],
       "fig": "3D machine · Musculoskeletal system and its care · Bone → Joint → Muscle → Lever",
       "figHi": "3D machine चित्र · कंकाल-पेशी तंत्र और उसकी देखभाल · Bone / Joint / Muscle",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2062,9 +2062,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Similar cells performing one shared function form a tissue."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
-        "why": "Bones and muscles form levers pivoted at joints."
+        "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       },
       "scene": {
         "type": "atlas",
@@ -2085,8 +2085,8 @@
       "title": "Injury, posture, nutrition and exercise",
       "titleHi": "चोट, मुद्रा, पोषण और व्यायाम",
       "short": "Injury, posture, nutri",
-      "concept": "Sprains, fractures and poor posture are reduced by calcium, vitamin D, warm-up and safe loading.",
-      "conceptHi": "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग और खराब मुद्रा की आशंका घटती है।",
+      "concept": "Correct posture, calcium-rich food, exercise and yoga keep bones strong and joints flexible; a slouched spine or a torn ligament stiffens them.",
+      "conceptHi": "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबूत व जोड़ लचीले रखते हैं; कुबड़ी रीढ़ व फटा स्नायुबंध जोड़ जकड़ता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -2094,20 +2094,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Balanced nutrition and graded exercise protect the musculoskeletal system."
+        "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
-        "why": "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।"
+        "why": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।"
       },
-      "explain": "Balanced nutrition and graded exercise protect the musculoskeletal system.",
-      "explainHi": "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।",
-      "vocab": [["Epithelium", "Sprains, fractures and poor posture are reduced by calcium"], ["Neuron", "Sprains, fractures and poor posture are reduced by calcium"], ["Tissue", "Sprains, fractures and poor posture are reduced by calcium"]],
-      "vocabHi": [["उपकला", "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग "], ["न्यूरॉन", "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग "], ["ऊतक", "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग "]],
+      "explain": "Cartilage discs cushion the vertebrae; ribs let the chest expand.",
+      "explainHi": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।",
+      "vocab": [["Epithelium", "Correct posture, calcium-rich food, exercise and yoga keep"], ["Neuron", "Correct posture, calcium-rich food, exercise and yoga keep"], ["Tissue", "Correct posture, calcium-rich food, exercise and yoga keep"]],
+      "vocabHi": [["उपकला", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"], ["न्यूरॉन", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"], ["ऊतक", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"]],
       "fig": "3D cycle · Injury, posture, nutrition and exercise · Nutrition → Exercise → Rest → Posture",
       "figHi": "3D cycle चित्र · चोट, मुद्रा, पोषण और व्यायाम · Nutrition / Exercise / Rest",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2123,9 +2123,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Balanced nutrition and graded exercise protect the musculoskeletal system."
+        "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       },
       "scene": {
         "type": "atlas",
@@ -2224,7 +2224,7 @@
         "hi": "ऊतक क्या है",
         "color": "#4f9c6b",
         "spread": 0,
-        "desc": "Similar cells performing one shared function form a tissue."
+        "desc": "A tissue is a group of similar cells performing one shared function."
       }, {
         "id": "3.2",
         "en": "Levels of organisation in organisms",
@@ -2287,20 +2287,20 @@
         "hi": "कंकाल-पेशी तंत्र और उसकी देखभाल",
         "color": "#4f9c6b",
         "spread": 9,
-        "desc": "Bones and muscles form levers pivoted at joints."
+        "desc": "Tendons connect muscle to bone and ligaments connect bone to bone."
       }, {
         "id": "3.11",
         "en": "Injury, posture, nutrition and exercise",
         "hi": "चोट, मुद्रा, पोषण और व्यायाम",
         "color": "#4f9c6b",
         "spread": 10,
-        "desc": "Balanced nutrition and graded exercise protect the musculoskeletal sys"
+        "desc": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       }],
       "quiz": [{
         "q": "Which statement belongs to What a tissue is?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
-        "why": "Similar cells performing one shared function form a tissue."
+        "why": "A tissue is a group of similar cells performing one shared function."
       }, {
         "q": "Which statement belongs to Levels of organisation in organisms?",
         "options": ["Apical, intercalary and lateral meristems add length and girth to plants.", "Division of labour increases from cell level to organ-system level.", "Dead sclerenchyma fibres with lignin give plants mechanical strength."],
@@ -2333,40 +2333,40 @@
         "why": "Tightly packed epithelial cells form a continuous protective covering."
       }, {
         "q": "Which statement belongs to Connective tissue?",
-        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Bones and muscles form levers pivoted at joints."],
+        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       }, {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       }, {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Similar cells performing one shared function form a tissue."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
-        "why": "Bones and muscles form levers pivoted at joints."
+        "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       }, {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Balanced nutrition and graded exercise protect the musculoskeletal system."
+        "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'ऊतक क्या है' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 0,
         "why": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"
       }, {
         "q": "कौन-सा कथन 'जीवों में संगठन के स्तर' से मेल खाता है?",
-        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
+        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
         "a": 1,
         "why": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"
       }, {
         "q": "कौन-सा कथन 'विभज्योतक ऊतक' से मेल खाता है?",
-        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 2,
-        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"
+        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"
       }, {
         "q": "कौन-सा कथन 'सरल स्थायी पादप ऊतक' से मेल खाता है?",
         "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"],
@@ -2389,24 +2389,24 @@
         "why": "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।"
       }, {
         "q": "कौन-सा कथन 'संयोजी ऊतक' से मेल खाता है?",
-        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"],
+        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"],
         "a": 1,
         "why": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।"
       }, {
         "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       }, {
         "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
-        "why": "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"
+        "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       }, {
         "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
-        "why": "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।"
+        "why": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।"
       }],
       "status": "assessed"
     };
@@ -2417,8 +2417,8 @@
       "title": "Rest, motion and frame of reference",
       "titleHi": "विराम, गति और सन्दर्भ फ़्रेम",
       "short": "Rest, motion and frame",
-      "concept": "An object is at rest or in motion only relative to a chosen reference point.",
-      "conceptHi": "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्ष ही होता है।",
+      "concept": "Position is the distance and direction of an object from a fixed reference point; motion means that this position changes with time.",
+      "conceptHi": "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती है; समय के साथ स्थिति बदलने पर वस्तु गति में कहलाती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2426,20 +2426,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Rest, motion and frame of reference?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
-        "why": "Motion is always described relative to a reference frame."
+        "why": "Along a straight line, right of the origin is positive and left negative."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'विराम, गति और सन्दर्भ फ़्रेम' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 0,
-        "why": "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"
+        "why": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"
       },
-      "explain": "Motion is always described relative to a reference frame.",
-      "explainHi": "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।",
-      "vocab": [["Motion", "An object is at rest or in motion only relative to a chose"], ["Displacement", "An object is at rest or in motion only relative to a chose"], ["Velocity", "An object is at rest or in motion only relative to a chose"]],
-      "vocabHi": [["गति", "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्"], ["विस्थापन", "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्"], ["वेग", "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्"]],
+      "explain": "Along a straight line, right of the origin is positive and left negative.",
+      "explainHi": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।",
+      "vocab": [["Motion", "Position is the distance and direction of an object from a"], ["Displacement", "Position is the distance and direction of an object from a"], ["Velocity", "Position is the distance and direction of an object from a"]],
+      "vocabHi": [["गति", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"], ["विस्थापन", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"], ["वेग", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"]],
       "fig": "3D flow · Rest, motion and frame of reference · Object → Reference → Position → Change",
       "figHi": "3D flow चित्र · विराम, गति और सन्दर्भ फ़्रेम · Object / Reference / Position",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2455,9 +2455,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Rest, motion and frame of reference?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
-        "why": "Motion is always described relative to a reference frame."
+        "why": "Along a straight line, right of the origin is positive and left negative."
       },
       "scene": {
         "type": "atlas",
@@ -2478,8 +2478,8 @@
       "title": "Distance and displacement",
       "titleHi": "दूरी और विस्थापन",
       "short": "Distance and displacem",
-      "concept": "Distance is total path length and has no direction; displacement is the shortest change in position with direction.",
-      "conceptHi": "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन स्थिति में न्यूनतम दिशात्मक परिवर्तन है।",
+      "concept": "Distance travelled is the whole path length; displacement is the straight change in position, so it can never exceed the distance.",
+      "conceptHi": "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन है, इसलिए वह दूरी से अधिक नहीं हो सकता।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2487,20 +2487,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Distance and displacement?",
-        "options": ["Average speed uses total distance, not the magnitude of displacement.", "Displacement can be zero after a round trip while distance is not.", "A change of direction changes velocity even at constant speed."],
+        "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
-        "why": "Displacement can be zero after a round trip while distance is not."
+        "why": "A ball thrown up and caught back at the same point has zero displacement."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'दूरी और विस्थापन' से मेल खाता है?",
-        "options": ["औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"],
+        "options": ["चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"],
         "a": 1,
-        "why": "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।"
+        "why": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।"
       },
-      "explain": "Displacement can be zero after a round trip while distance is not.",
-      "explainHi": "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।",
-      "vocab": [["Displacement", "Distance is total path length and has no direction; displa"], ["Velocity", "Distance is total path length and has no direction; displa"], ["Acceleration", "Distance is total path length and has no direction; displa"]],
-      "vocabHi": [["विस्थापन", "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन"], ["वेग", "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन"], ["त्वरण", "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन"]],
+      "explain": "A ball thrown up and caught back at the same point has zero displacement.",
+      "explainHi": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।",
+      "vocab": [["Displacement", "Distance travelled is the whole path length; displacement "], ["Velocity", "Distance travelled is the whole path length; displacement "], ["Acceleration", "Distance travelled is the whole path length; displacement "]],
+      "vocabHi": [["विस्थापन", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"], ["वेग", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"], ["त्वरण", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"]],
       "fig": "3D rays · Distance and displacement · Start → Path → Turn → End",
       "figHi": "3D rays चित्र · दूरी और विस्थापन · Start / Path / Turn",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2516,9 +2516,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Distance and displacement?",
-        "options": ["Average speed uses total distance, not the magnitude of displacement.", "Displacement can be zero after a round trip while distance is not.", "A change of direction changes velocity even at constant speed."],
+        "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
-        "why": "Displacement can be zero after a round trip while distance is not."
+        "why": "A ball thrown up and caught back at the same point has zero displacement."
       },
       "scene": {
         "type": "atlas",
@@ -2539,8 +2539,8 @@
       "title": "Speed and average speed",
       "titleHi": "चाल और औसत चाल",
       "short": "Speed and average spee",
-      "concept": "Speed is distance travelled per unit time; average speed is total distance divided by total time.",
-      "conceptHi": "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल समय से भाग देने पर मिलती है।",
+      "concept": "Average speed is total distance divided by the time interval; equal distances in equal times mean uniform motion.",
+      "conceptHi": "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बराबर समय में बराबर दूरी एकसमान गति कहलाती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2548,20 +2548,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Speed and average speed?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
-        "why": "Average speed uses total distance, not the magnitude of displacement."
+        "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'चाल और औसत चाल' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 2,
-        "why": "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"
+        "why": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"
       },
-      "explain": "Average speed uses total distance, not the magnitude of displacement.",
-      "explainHi": "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।",
-      "vocab": [["Velocity", "Speed is distance travelled per unit time; average speed i"], ["Acceleration", "Speed is distance travelled per unit time; average speed i"], ["Graph", "Speed is distance travelled per unit time; average speed i"]],
-      "vocabHi": [["वेग", "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल"], ["त्वरण", "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल"], ["आलेख", "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल"]],
+      "explain": "The Ganitakaumudi of the 14th century used speed to time a meeting.",
+      "explainHi": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।",
+      "vocab": [["Velocity", "Average speed is total distance divided by the time interv"], ["Acceleration", "Average speed is total distance divided by the time interv"], ["Graph", "Average speed is total distance divided by the time interv"]],
+      "vocabHi": [["वेग", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"], ["त्वरण", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"], ["आलेख", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"]],
       "fig": "3D bars · Speed and average speed · Trip A → Trip B → Trip C → Average",
       "figHi": "3D bars चित्र · चाल और औसत चाल · Trip A / Trip B / Trip C",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2577,9 +2577,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Speed and average speed?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
-        "why": "Average speed uses total distance, not the magnitude of displacement."
+        "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       },
       "scene": {
         "type": "atlas",
@@ -2600,8 +2600,8 @@
       "title": "Velocity and uniform velocity",
       "titleHi": "वेग और एकसमान वेग",
       "short": "Velocity and uniform v",
-      "concept": "Velocity is displacement per unit time with direction; uniform velocity means equal displacement in equal intervals.",
-      "conceptHi": "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में बराबर अंतराल में बराबर विस्थापन होता है।",
+      "concept": "Average velocity is displacement divided by the time interval and keeps the direction of that displacement; a round trip averages zero.",
+      "conceptHi": "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और उसी की दिशा रखता है; चक्कर में औसत शून्य होता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2609,20 +2609,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Velocity and uniform velocity?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "A steeper distance-time line means greater speed."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
-        "why": "A change of direction changes velocity even at constant speed."
+        "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'वेग और एकसमान वेग' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 0,
-        "why": "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"
+        "why": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"
       },
-      "explain": "A change of direction changes velocity even at constant speed.",
-      "explainHi": "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।",
-      "vocab": [["Acceleration", "Velocity is displacement per unit time with direction; uni"], ["Graph", "Velocity is displacement per unit time with direction; uni"], ["Reference", "Velocity is displacement per unit time with direction; uni"]],
-      "vocabHi": [["त्वरण", "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में ब"], ["आलेख", "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में ब"], ["सन्दर्भ बिंदु", "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में ब"]],
+      "explain": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.",
+      "explainHi": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।",
+      "vocab": [["Acceleration", "Average velocity is displacement divided by the time inter"], ["Graph", "Average velocity is displacement divided by the time inter"], ["Reference", "Average velocity is displacement divided by the time inter"]],
+      "vocabHi": [["त्वरण", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "], ["आलेख", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "], ["सन्दर्भ बिंदु", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "]],
       "fig": "3D graph · Velocity and uniform velocity · t0 → t1 → t2 → Straight line",
       "figHi": "3D graph चित्र · वेग और एकसमान वेग · t0 / t1 / t2",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2638,9 +2638,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Velocity and uniform velocity?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "A steeper distance-time line means greater speed."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
-        "why": "A change of direction changes velocity even at constant speed."
+        "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       },
       "scene": {
         "type": "atlas",
@@ -2661,8 +2661,8 @@
       "title": "Acceleration and retardation",
       "titleHi": "त्वरण और मंदन",
       "short": "Acceleration and retar",
-      "concept": "Acceleration is the rate of change of velocity; negative acceleration is called retardation.",
-      "conceptHi": "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते हैं।",
+      "concept": "Average acceleration is the change in velocity divided by the time interval; speeding up makes it act along the velocity.",
+      "conceptHi": "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता है; गति बढ़ने पर यह वेग की दिशा में लगता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2670,20 +2670,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Acceleration and retardation?",
-        "options": ["A steeper distance-time line means greater speed.", "Acceleration has units of metres per second squared.", "Area under a velocity-time graph equals displacement."],
+        "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
-        "why": "Acceleration has units of metres per second squared."
+        "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'त्वरण और मंदन' से मेल खाता है?",
-        "options": ["दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"],
+        "options": ["ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"],
         "a": 1,
-        "why": "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।"
+        "why": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।"
       },
-      "explain": "Acceleration has units of metres per second squared.",
-      "explainHi": "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।",
-      "vocab": [["Graph", "Acceleration is the rate of change of velocity; negative a"], ["Reference", "Acceleration is the rate of change of velocity; negative a"], ["Motion", "Acceleration is the rate of change of velocity; negative a"]],
-      "vocabHi": [["आलेख", "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते है"], ["सन्दर्भ बिंदु", "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते है"], ["गति", "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते है"]],
+      "explain": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².",
+      "explainHi": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।",
+      "vocab": [["Graph", "Average acceleration is the change in velocity divided by "], ["Reference", "Average acceleration is the change in velocity divided by "], ["Motion", "Average acceleration is the change in velocity divided by "]],
+      "vocabHi": [["आलेख", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "], ["सन्दर्भ बिंदु", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "], ["गति", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "]],
       "fig": "3D graph · Acceleration and retardation · Slowing → Uniform → Speeding → Slope",
       "figHi": "3D graph चित्र · त्वरण और मंदन · Slowing / Uniform / Speeding",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2699,9 +2699,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Acceleration and retardation?",
-        "options": ["A steeper distance-time line means greater speed.", "Acceleration has units of metres per second squared.", "Area under a velocity-time graph equals displacement."],
+        "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
-        "why": "Acceleration has units of metres per second squared."
+        "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       },
       "scene": {
         "type": "atlas",
@@ -2722,8 +2722,8 @@
       "title": "Distance-time graphs",
       "titleHi": "दूरी-समय आलेख",
       "short": "Distance-time graphs",
-      "concept": "On a distance-time graph the slope gives speed; a horizontal line means the object is at rest.",
-      "conceptHi": "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विराम है।",
+      "concept": "A straight distance-time line means constant speed, a curved one changing speed, and a line parallel to the time axis means rest.",
+      "conceptHi": "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती रहती है, और समय अक्ष के समानांतर रेखा विराम बताती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2731,20 +2731,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Distance-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "A steeper distance-time line means greater speed."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
-        "why": "A steeper distance-time line means greater speed."
+        "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'दूरी-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 2,
-        "why": "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"
+        "why": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"
       },
-      "explain": "A steeper distance-time line means greater speed.",
-      "explainHi": "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।",
-      "vocab": [["Reference", "On a distance-time graph the slope gives speed; a horizont"], ["Motion", "On a distance-time graph the slope gives speed; a horizont"], ["Displacement", "On a distance-time graph the slope gives speed; a horizont"]],
-      "vocabHi": [["सन्दर्भ बिंदु", "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विर"], ["गति", "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विर"], ["विस्थापन", "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विर"]],
+      "explain": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.",
+      "explainHi": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।",
+      "vocab": [["Reference", "A straight distance-time line means constant speed, a curv"], ["Motion", "A straight distance-time line means constant speed, a curv"], ["Displacement", "A straight distance-time line means constant speed, a curv"]],
+      "vocabHi": [["सन्दर्भ बिंदु", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"], ["गति", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"], ["विस्थापन", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"]],
       "fig": "3D graph · Distance-time graphs · Rest → Slow → Fast → Steeper",
       "figHi": "3D graph चित्र · दूरी-समय आलेख · Rest / Slow / Fast",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2760,9 +2760,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Distance-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "A steeper distance-time line means greater speed."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
-        "why": "A steeper distance-time line means greater speed."
+        "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       },
       "scene": {
         "type": "atlas",
@@ -2783,8 +2783,8 @@
       "title": "Velocity-time graphs",
       "titleHi": "वेग-समय आलेख",
       "short": "Velocity-time graphs",
-      "concept": "The slope of a velocity-time graph gives acceleration and the area under it gives displacement.",
-      "conceptHi": "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्थापन देता है।",
+      "concept": "On a velocity-time graph the slope is the acceleration and the area between the line and the time axis is displacement.",
+      "conceptHi": "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के बीच का क्षेत्रफल विस्थापन होता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2792,20 +2792,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Velocity-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
-        "why": "Area under a velocity-time graph equals displacement."
+        "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'वेग-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 0,
-        "why": "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"
+        "why": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"
       },
-      "explain": "Area under a velocity-time graph equals displacement.",
-      "explainHi": "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।",
-      "vocab": [["Motion", "The slope of a velocity-time graph gives acceleration and "], ["Displacement", "The slope of a velocity-time graph gives acceleration and "], ["Velocity", "The slope of a velocity-time graph gives acceleration and "]],
-      "vocabHi": [["गति", "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्था"], ["विस्थापन", "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्था"], ["वेग", "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्था"]],
+      "explain": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement.",
+      "explainHi": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।",
+      "vocab": [["Motion", "On a velocity-time graph the slope is the acceleration and"], ["Displacement", "On a velocity-time graph the slope is the acceleration and"], ["Velocity", "On a velocity-time graph the slope is the acceleration and"]],
+      "vocabHi": [["गति", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "], ["विस्थापन", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "], ["वेग", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "]],
       "fig": "3D graph · Velocity-time graphs · u → v → Area → Displacement",
       "figHi": "3D graph चित्र · वेग-समय आलेख · u / v / Area",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2821,9 +2821,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Velocity-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
-        "why": "Area under a velocity-time graph equals displacement."
+        "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       },
       "scene": {
         "type": "atlas",
@@ -2844,8 +2844,8 @@
       "title": "Kinematic equations by graphical method",
       "titleHi": "आलेखी विधि से गति के समीकरण",
       "short": "Kinematic equations by",
-      "concept": "From a velocity-time graph we derive v = u + at, s = ut + ½at² and v² = u² + 2as.",
-      "conceptHi": "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as प्राप्त होते हैं।",
+      "concept": "v = u + at comes from the slope of a velocity-time line, s = ut + ½at² from its area, and v² = u² + 2as by removing t.",
+      "conceptHi": "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½at², और t हटाने पर v² = u² + 2as।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2853,20 +2853,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Kinematic equations by graphical method?",
-        "options": ["Uniform circular motion is accelerated motion with changing direction.", "The three kinematic equations hold only for constant acceleration.", "Motion is always described relative to a reference frame."],
+        "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
-        "why": "The three kinematic equations hold only for constant acceleration."
+        "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'आलेखी विधि से गति के समीकरण' से मेल खाता है?",
-        "options": ["एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"],
+        "options": ["एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"],
         "a": 1,
-        "why": "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।"
+        "why": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।"
       },
-      "explain": "The three kinematic equations hold only for constant acceleration.",
-      "explainHi": "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।",
-      "vocab": [["Displacement", "From a velocity-time graph we derive v = u + at, s = ut + "], ["Velocity", "From a velocity-time graph we derive v = u + at, s = ut + "], ["Acceleration", "From a velocity-time graph we derive v = u + at, s = ut + "]],
-      "vocabHi": [["विस्थापन", "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as"], ["वेग", "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as"], ["त्वरण", "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as"]],
+      "explain": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.",
+      "explainHi": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।",
+      "vocab": [["Displacement", "v = u + at comes from the slope of a velocity-time line, s"], ["Velocity", "v = u + at comes from the slope of a velocity-time line, s"], ["Acceleration", "v = u + at comes from the slope of a velocity-time line, s"]],
+      "vocabHi": [["विस्थापन", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"], ["वेग", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"], ["त्वरण", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"]],
       "fig": "3D graph · Kinematic equations by graphical method · u+at → Area → v² → Constant a",
       "figHi": "3D graph चित्र · आलेखी विधि से गति के समीकरण · u+at / Area / v²",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2882,9 +2882,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Kinematic equations by graphical method?",
-        "options": ["Uniform circular motion is accelerated motion with changing direction.", "The three kinematic equations hold only for constant acceleration.", "Motion is always described relative to a reference frame."],
+        "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
-        "why": "The three kinematic equations hold only for constant acceleration."
+        "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       },
       "scene": {
         "type": "atlas",
@@ -2905,8 +2905,8 @@
       "title": "Uniform circular motion",
       "titleHi": "एकसमान वृत्तीय गति",
       "short": "Uniform circular motio",
-      "concept": "An object moving at constant speed on a circle still accelerates because its direction changes continuously.",
-      "conceptHi": "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि उसकी दिशा लगातार बदलती है।",
+      "concept": "In uniform circular motion speed stays constant but the velocity turns along the tangent, so the motion is accelerated.",
+      "conceptHi": "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा के अनुसार घूमता रहता है, इसलिए गति त्वरित होती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2914,20 +2914,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Uniform circular motion?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
-        "why": "Uniform circular motion is accelerated motion with changing direction."
+        "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'एकसमान वृत्तीय गति' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 2,
-        "why": "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"
+        "why": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"
       },
-      "explain": "Uniform circular motion is accelerated motion with changing direction.",
-      "explainHi": "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।",
-      "vocab": [["Velocity", "An object moving at constant speed on a circle still accel"], ["Acceleration", "An object moving at constant speed on a circle still accel"], ["Graph", "An object moving at constant speed on a circle still accel"]],
-      "vocabHi": [["वेग", "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि "], ["त्वरण", "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि "], ["आलेख", "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि "]],
+      "explain": "One revolution covers a distance of 2πR yet the displacement is zero.",
+      "explainHi": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।",
+      "vocab": [["Velocity", "In uniform circular motion speed stays constant but the ve"], ["Acceleration", "In uniform circular motion speed stays constant but the ve"], ["Graph", "In uniform circular motion speed stays constant but the ve"]],
+      "vocabHi": [["वेग", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"], ["त्वरण", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"], ["आलेख", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"]],
       "fig": "3D cycle · Uniform circular motion · Position 1 → Position 2 → Velocity → Centre",
       "figHi": "3D cycle चित्र · एकसमान वृत्तीय गति · Position 1 / Position 2 / Velocity",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2943,9 +2943,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Uniform circular motion?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
-        "why": "Uniform circular motion is accelerated motion with changing direction."
+        "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       },
       "scene": {
         "type": "atlas",
@@ -3032,155 +3032,155 @@
         "hi": "विराम, गति और सन्दर्भ फ़्रेम",
         "color": "#4f8fb0",
         "spread": 0,
-        "desc": "Motion is always described relative to a reference frame."
+        "desc": "Along a straight line, right of the origin is positive and left negati"
       }, {
         "id": "4.2",
         "en": "Distance and displacement",
         "hi": "दूरी और विस्थापन",
         "color": "#4f8fb0",
         "spread": 1,
-        "desc": "Displacement can be zero after a round trip while distance is not."
+        "desc": "A ball thrown up and caught back at the same point has zero displaceme"
       }, {
         "id": "4.3",
         "en": "Speed and average speed",
         "hi": "चाल और औसत चाल",
         "color": "#4f8fb0",
         "spread": 2,
-        "desc": "Average speed uses total distance, not the magnitude of displacement."
+        "desc": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       }, {
         "id": "4.4",
         "en": "Velocity and uniform velocity",
         "hi": "वेग और एकसमान वेग",
         "color": "#4f8fb0",
         "spread": 3,
-        "desc": "A change of direction changes velocity even at constant speed."
+        "desc": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       }, {
         "id": "4.5",
         "en": "Acceleration and retardation",
         "hi": "त्वरण और मंदन",
         "color": "#4f8fb0",
         "spread": 4,
-        "desc": "Acceleration has units of metres per second squared."
+        "desc": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       }, {
         "id": "4.6",
         "en": "Distance-time graphs",
         "hi": "दूरी-समय आलेख",
         "color": "#4f8fb0",
         "spread": 5,
-        "desc": "A steeper distance-time line means greater speed."
+        "desc": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       }, {
         "id": "4.7",
         "en": "Velocity-time graphs",
         "hi": "वेग-समय आलेख",
         "color": "#4f8fb0",
         "spread": 6,
-        "desc": "Area under a velocity-time graph equals displacement."
+        "desc": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       }, {
         "id": "4.8",
         "en": "Kinematic equations by graphical method",
         "hi": "आलेखी विधि से गति के समीकरण",
         "color": "#4f8fb0",
         "spread": 7,
-        "desc": "The three kinematic equations hold only for constant acceleration."
+        "desc": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112"
       }, {
         "id": "4.9",
         "en": "Uniform circular motion",
         "hi": "एकसमान वृत्तीय गति",
         "color": "#4f8fb0",
         "spread": 8,
-        "desc": "Uniform circular motion is accelerated motion with changing direction."
+        "desc": "One revolution covers a distance of 2πR yet the displacement is zero."
       }],
       "quiz": [{
         "q": "Which statement belongs to Rest, motion and frame of reference?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
-        "why": "Motion is always described relative to a reference frame."
+        "why": "Along a straight line, right of the origin is positive and left negative."
       }, {
         "q": "Which statement belongs to Distance and displacement?",
-        "options": ["Average speed uses total distance, not the magnitude of displacement.", "Displacement can be zero after a round trip while distance is not.", "A change of direction changes velocity even at constant speed."],
+        "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
-        "why": "Displacement can be zero after a round trip while distance is not."
+        "why": "A ball thrown up and caught back at the same point has zero displacement."
       }, {
         "q": "Which statement belongs to Speed and average speed?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
-        "why": "Average speed uses total distance, not the magnitude of displacement."
+        "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       }, {
         "q": "Which statement belongs to Velocity and uniform velocity?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "A steeper distance-time line means greater speed."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
-        "why": "A change of direction changes velocity even at constant speed."
+        "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       }, {
         "q": "Which statement belongs to Acceleration and retardation?",
-        "options": ["A steeper distance-time line means greater speed.", "Acceleration has units of metres per second squared.", "Area under a velocity-time graph equals displacement."],
+        "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
-        "why": "Acceleration has units of metres per second squared."
+        "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       }, {
         "q": "Which statement belongs to Distance-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "A steeper distance-time line means greater speed."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
-        "why": "A steeper distance-time line means greater speed."
+        "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       }, {
         "q": "Which statement belongs to Velocity-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
-        "why": "Area under a velocity-time graph equals displacement."
+        "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       }, {
         "q": "Which statement belongs to Kinematic equations by graphical method?",
-        "options": ["Uniform circular motion is accelerated motion with changing direction.", "The three kinematic equations hold only for constant acceleration.", "Motion is always described relative to a reference frame."],
+        "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
-        "why": "The three kinematic equations hold only for constant acceleration."
+        "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       }, {
         "q": "Which statement belongs to Uniform circular motion?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
-        "why": "Uniform circular motion is accelerated motion with changing direction."
+        "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'विराम, गति और सन्दर्भ फ़्रेम' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 0,
-        "why": "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"
+        "why": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"
       }, {
         "q": "कौन-सा कथन 'दूरी और विस्थापन' से मेल खाता है?",
-        "options": ["औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"],
+        "options": ["चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"],
         "a": 1,
-        "why": "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।"
+        "why": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।"
       }, {
         "q": "कौन-सा कथन 'चाल और औसत चाल' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 2,
-        "why": "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"
+        "why": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"
       }, {
         "q": "कौन-सा कथन 'वेग और एकसमान वेग' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 0,
-        "why": "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"
+        "why": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"
       }, {
         "q": "कौन-सा कथन 'त्वरण और मंदन' से मेल खाता है?",
-        "options": ["दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"],
+        "options": ["ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"],
         "a": 1,
-        "why": "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।"
+        "why": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।"
       }, {
         "q": "कौन-सा कथन 'दूरी-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 2,
-        "why": "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"
+        "why": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"
       }, {
         "q": "कौन-सा कथन 'वेग-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 0,
-        "why": "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"
+        "why": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"
       }, {
         "q": "कौन-सा कथन 'आलेखी विधि से गति के समीकरण' से मेल खाता है?",
-        "options": ["एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"],
+        "options": ["एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"],
         "a": 1,
-        "why": "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।"
+        "why": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।"
       }, {
         "q": "कौन-सा कथन 'एकसमान वृत्तीय गति' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 2,
-        "why": "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"
+        "why": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"
       }],
       "status": "assessed"
     };
@@ -3191,8 +3191,8 @@
       "title": "Homogeneous and heterogeneous mixtures",
       "titleHi": "समांगी और विषमांगी मिश्रण",
       "short": "Homogeneous and hetero",
-      "concept": "Homogeneous mixtures have uniform composition throughout; heterogeneous mixtures have visible parts.",
-      "conceptHi": "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी में अलग-अलग भाग दिखते हैं।",
+      "concept": "A mixture with the same composition everywhere is homogeneous; one whose parts can be told apart is heterogeneous.",
+      "conceptHi": "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भाग पहचाने जा सकें वह विषमांगी।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3200,20 +3200,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
-        "options": ["A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount.", "Suspension particles settle down when left undisturbed."],
+        "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
-        "why": "A solution is homogeneous while a suspension is heterogeneous."
+        "why": "Sugar water is equally sweet in the first and the last sip."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'समांगी और विषमांगी मिश्रण' से मेल खाता है?",
-        "options": ["विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 0,
-        "why": "विलयन समांगी और निलंबन विषमांगी मिश्रण है।"
+        "why": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।"
       },
-      "explain": "A solution is homogeneous while a suspension is heterogeneous.",
-      "explainHi": "विलयन समांगी और निलंबन विषमांगी मिश्रण है।",
-      "vocab": [["Mixture", "Homogeneous mixtures have uniform composition throughout; "], ["Solution", "Homogeneous mixtures have uniform composition throughout; "], ["Solute", "Homogeneous mixtures have uniform composition throughout; "]],
-      "vocabHi": [["मिश्रण", "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी मे"], ["विलयन", "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी मे"], ["विलेय", "समांगी मिश्रण में हर जगह एकसमान संघटन होता है, विषमांगी मे"]],
+      "explain": "Sugar water is equally sweet in the first and the last sip.",
+      "explainHi": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।",
+      "vocab": [["Mixture", "A mixture with the same composition everywhere is homogene"], ["Solution", "A mixture with the same composition everywhere is homogene"], ["Solute", "A mixture with the same composition everywhere is homogene"]],
+      "vocabHi": [["मिश्रण", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"], ["विलयन", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"], ["विलेय", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"]],
       "fig": "3D layers · Homogeneous and heterogeneous mixtures · Solution → Colloid → Suspension → Visible parts",
       "figHi": "3D layers चित्र · समांगी और विषमांगी मिश्रण · Solution / Colloid / Suspension",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3229,9 +3229,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
-        "options": ["A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount.", "Suspension particles settle down when left undisturbed."],
+        "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
-        "why": "A solution is homogeneous while a suspension is heterogeneous."
+        "why": "Sugar water is equally sweet in the first and the last sip."
       },
       "scene": {
         "type": "atlas",
@@ -3252,8 +3252,8 @@
       "title": "Solutions and their components",
       "titleHi": "विलयन और उसके घटक",
       "short": "Solutions and their co",
-      "concept": "A solution has a solute dissolved in a solvent; its particles are smaller than one nanometre.",
-      "conceptHi": "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमीटर से छोटे होते हैं।",
+      "concept": "A solution is a homogeneous mixture of a solute dissolved in a solvent; its particles are smaller than one nanometre.",
+      "conceptHi": "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनोमीटर से छोटे होते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3261,20 +3261,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Solutions and their components?",
-        "options": ["Suspension particles settle down when left undisturbed.", "The solvent is the component present in larger amount.", "Scattering of light by colloids is called the Tyndall effect."],
+        "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
-        "why": "The solvent is the component present in larger amount."
+        "why": "Concentration is the amount of solute in a given amount of solution."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'विलयन और उसके घटक' से मेल खाता है?",
-        "options": ["निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"],
+        "options": ["गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"],
         "a": 1,
-        "why": "विलायक वह घटक है जो अधिक मात्रा में होता है।"
+        "why": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"
       },
-      "explain": "The solvent is the component present in larger amount.",
-      "explainHi": "विलायक वह घटक है जो अधिक मात्रा में होता है।",
-      "vocab": [["Solution", "A solution has a solute dissolved in a solvent; its partic"], ["Solute", "A solution has a solute dissolved in a solvent; its partic"], ["Solvent", "A solution has a solute dissolved in a solvent; its partic"]],
-      "vocabHi": [["विलयन", "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमी"], ["विलेय", "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमी"], ["विलायक", "विलयन में विलेय विलायक में घुला होता है, इसके कण एक नैनोमी"]],
+      "explain": "Concentration is the amount of solute in a given amount of solution.",
+      "explainHi": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।",
+      "vocab": [["Solution", "A solution is a homogeneous mixture of a solute dissolved "], ["Solute", "A solution is a homogeneous mixture of a solute dissolved "], ["Solvent", "A solution is a homogeneous mixture of a solute dissolved "]],
+      "vocabHi": [["विलयन", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"], ["विलेय", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"], ["विलायक", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"]],
       "fig": "3D molecule · Solutions and their components · Solute → Solvent → Solution → Particle",
       "figHi": "3D molecule चित्र · विलयन और उसके घटक · Solute / Solvent / Solution",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3290,9 +3290,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Solutions and their components?",
-        "options": ["Suspension particles settle down when left undisturbed.", "The solvent is the component present in larger amount.", "Scattering of light by colloids is called the Tyndall effect."],
+        "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
-        "why": "The solvent is the component present in larger amount."
+        "why": "Concentration is the amount of solute in a given amount of solution."
       },
       "scene": {
         "type": "atlas",
@@ -3313,8 +3313,8 @@
       "title": "Suspensions",
       "titleHi": "निलंबन",
       "short": "Suspensions",
-      "concept": "Suspensions have particles visible to the eye that settle on standing and can be filtered.",
-      "conceptHi": "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने जा सकते हैं।",
+      "concept": "Suspension particles are large enough to be seen, stay suspended while stirred and settle out when left standing.",
+      "conceptHi": "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बने रहते हैं और रखने पर बैठ जाते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3322,20 +3322,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Suspensions?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Suspension particles settle down when left undisturbed."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
-        "why": "Suspension particles settle down when left undisturbed."
+        "why": "Muddy water clears only partly on filtering: finer particles stay."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'निलंबन' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 2,
-        "why": "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"
+        "why": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"
       },
-      "explain": "Suspension particles settle down when left undisturbed.",
-      "explainHi": "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।",
-      "vocab": [["Solute", "Suspensions have particles visible to the eye that settle "], ["Solvent", "Suspensions have particles visible to the eye that settle "], ["Colloid", "Suspensions have particles visible to the eye that settle "]],
-      "vocabHi": [["विलेय", "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने"], ["विलायक", "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने"], ["कोलॉइड", "निलंबन के कण दिखते हैं, बैठने पर नीचे बैठ जाते हैं और छाने"]],
+      "explain": "Muddy water clears only partly on filtering: finer particles stay.",
+      "explainHi": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।",
+      "vocab": [["Solute", "Suspension particles are large enough to be seen, stay sus"], ["Solvent", "Suspension particles are large enough to be seen, stay sus"], ["Colloid", "Suspension particles are large enough to be seen, stay sus"]],
+      "vocabHi": [["विलेय", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"], ["विलायक", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"], ["कोलॉइड", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"]],
       "fig": "3D layers · Suspensions · Particle → Water → Settling → Sediment",
       "figHi": "3D layers चित्र · निलंबन · Particle / Water / Settling",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3351,9 +3351,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Suspensions?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Suspension particles settle down when left undisturbed."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
-        "why": "Suspension particles settle down when left undisturbed."
+        "why": "Muddy water clears only partly on filtering: finer particles stay."
       },
       "scene": {
         "type": "atlas",
@@ -3374,8 +3374,8 @@
       "title": "Colloids and Tyndall effect",
       "titleHi": "कोलॉइड और टिण्डल प्रभाव",
       "short": "Colloids and Tyndall e",
-      "concept": "Colloidal particles do not settle, pass through filter paper and scatter a beam of light.",
-      "conceptHi": "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की किरण बिखेरते हैं।",
+      "concept": "Colloid particles are 1 to 1000 nm across, never settle, and scatter a beam of light so its path becomes visible.",
+      "conceptHi": "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रकाश बिखेरकर किरण का मार्ग दिखा देते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3383,20 +3383,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Colloids and Tyndall effect?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Volume by volume percentage is used for two liquids."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
-        "why": "Scattering of light by colloids is called the Tyndall effect."
+        "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कोलॉइड और टिण्डल प्रभाव' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 0,
-        "why": "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"
+        "why": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"
       },
-      "explain": "Scattering of light by colloids is called the Tyndall effect.",
-      "explainHi": "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।",
-      "vocab": [["Solvent", "Colloidal particles do not settle, pass through filter pap"], ["Colloid", "Colloidal particles do not settle, pass through filter pap"], ["Distillation", "Colloidal particles do not settle, pass through filter pap"]],
-      "vocabHi": [["विलायक", "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की"], ["कोलॉइड", "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की"], ["आसवन", "कोलॉइडी कण बैठते नहीं, छन्नी से निकल जाते हैं और प्रकाश की"]],
+      "explain": "The Tyndall effect is light scattered by colloidal or suspended particles.",
+      "explainHi": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।",
+      "vocab": [["Solvent", "Colloid particles are 1 to 1000 nm across, never settle, a"], ["Colloid", "Colloid particles are 1 to 1000 nm across, never settle, a"], ["Distillation", "Colloid particles are 1 to 1000 nm across, never settle, a"]],
+      "vocabHi": [["विलायक", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"], ["कोलॉइड", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"], ["आसवन", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"]],
       "fig": "3D rays · Colloids and Tyndall effect · Light → Colloid → Scatter → Observer",
       "figHi": "3D rays चित्र · कोलॉइड और टिण्डल प्रभाव · Light / Colloid / Scatter",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3412,9 +3412,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Colloids and Tyndall effect?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Volume by volume percentage is used for two liquids."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
-        "why": "Scattering of light by colloids is called the Tyndall effect."
+        "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       },
       "scene": {
         "type": "atlas",
@@ -3435,8 +3435,8 @@
       "title": "Mass by mass percentage",
       "titleHi": "द्रव्यमान-द्रव्यमान प्रतिशत",
       "short": "Mass by mass percentag",
-      "concept": "Mass-by-mass concentration is solute mass divided by total solution mass, multiplied by 100.",
-      "conceptHi": "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव्यमान से गुणा 100 है।",
+      "concept": "Mass by mass percentage is the mass of solute divided by the mass of solution, multiplied by 100.",
+      "conceptHi": "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान से भाग देकर 100 से गुणा करने पर मिलता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3444,20 +3444,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Mass by mass percentage?",
-        "options": ["Volume by volume percentage is used for two liquids.", "A 10 percent solution has 10 g solute in 100 g solution.", "Evaporation recovers a dissolved solid by removing the solvent."],
+        "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
-        "why": "A 10 percent solution has 10 g solute in 100 g solution."
+        "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'द्रव्यमान-द्रव्यमान प्रतिशत' से मेल खाता है?",
-        "options": ["आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"],
+        "options": ["अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"],
         "a": 1,
-        "why": "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।"
+        "why": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।"
       },
-      "explain": "A 10 percent solution has 10 g solute in 100 g solution.",
-      "explainHi": "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।",
-      "vocab": [["Colloid", "Mass-by-mass concentration is solute mass divided by total"], ["Distillation", "Mass-by-mass concentration is solute mass divided by total"], ["Mixture", "Mass-by-mass concentration is solute mass divided by total"]],
-      "vocabHi": [["कोलॉइड", "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव"], ["आसवन", "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव"], ["मिश्रण", "द्रव्यमान प्रतिशत विलेय का द्रव्यमान भाग कुल विलयन के द्रव"]],
+      "explain": "10 g of salt in 90 g of water gives a 10% m/m solution.",
+      "explainHi": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।",
+      "vocab": [["Colloid", "Mass by mass percentage is the mass of solute divided by t"], ["Distillation", "Mass by mass percentage is the mass of solute divided by t"], ["Mixture", "Mass by mass percentage is the mass of solute divided by t"]],
+      "vocabHi": [["कोलॉइड", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"], ["आसवन", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"], ["मिश्रण", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"]],
       "fig": "3D bars · Mass by mass percentage · Solute → Solvent → Total → Percent",
       "figHi": "3D bars चित्र · द्रव्यमान-द्रव्यमान प्रतिशत · Solute / Solvent / Total",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3473,9 +3473,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Mass by mass percentage?",
-        "options": ["Volume by volume percentage is used for two liquids.", "A 10 percent solution has 10 g solute in 100 g solution.", "Evaporation recovers a dissolved solid by removing the solvent."],
+        "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
-        "why": "A 10 percent solution has 10 g solute in 100 g solution."
+        "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       },
       "scene": {
         "type": "atlas",
@@ -3496,8 +3496,8 @@
       "title": "Mass by volume and volume by volume",
       "titleHi": "द्रव्यमान-आयतन और आयतन-आयतन",
       "short": "Mass by volume and vol",
-      "concept": "Concentration can also be expressed as solute mass per solution volume or as volume of solute per volume of solution.",
-      "conceptHi": "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयतन प्रति विलयन आयतन से भी लिखी जाती है।",
+      "concept": "Mass by volume percentage is grams of solute per 100 mL of solution; volume by volume is mL per 100 mL.",
+      "conceptHi": "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं, आयतन-आयतन प्रतिशत 100 mL में mL।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3505,20 +3505,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Mass by volume and volume by volume?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Volume by volume percentage is used for two liquids."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
-        "why": "Volume by volume percentage is used for two liquids."
+        "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'द्रव्यमान-आयतन और आयतन-आयतन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 2,
-        "why": "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"
+        "why": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"
       },
-      "explain": "Volume by volume percentage is used for two liquids.",
-      "explainHi": "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।",
-      "vocab": [["Distillation", "Concentration can also be expressed as solute mass per sol"], ["Mixture", "Concentration can also be expressed as solute mass per sol"], ["Solution", "Concentration can also be expressed as solute mass per sol"]],
-      "vocabHi": [["आसवन", "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयत"], ["मिश्रण", "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयत"], ["विलयन", "सान्द्रता विलयन के आयतन प्रति विलेय द्रव्यमान या विलेय आयत"]],
+      "explain": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.",
+      "explainHi": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।",
+      "vocab": [["Distillation", "Mass by volume percentage is grams of solute per 100 mL of"], ["Mixture", "Mass by volume percentage is grams of solute per 100 mL of"], ["Solution", "Mass by volume percentage is grams of solute per 100 mL of"]],
+      "vocabHi": [["आसवन", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"], ["मिश्रण", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"], ["विलयन", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"]],
       "fig": "3D bars · Mass by volume and volume by volume · Mass per vol → Vol per vol → Units → Use",
       "figHi": "3D bars चित्र · द्रव्यमान-आयतन और आयतन-आयतन · Mass per vol / Vol per vol / Units",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3534,9 +3534,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Mass by volume and volume by volume?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Volume by volume percentage is used for two liquids."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
-        "why": "Volume by volume percentage is used for two liquids."
+        "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       },
       "scene": {
         "type": "atlas",
@@ -3557,8 +3557,8 @@
       "title": "Filtration, evaporation and sedimentation",
       "titleHi": "छानना, वाष्पन और अवसादन",
       "short": "Filtration, evaporatio",
-      "concept": "Separation uses differences in particle size, volatility and density of the components.",
-      "conceptHi": "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित होता है।",
+      "concept": "Separation exploits a difference in particle size, boiling point or density between the components of a mixture.",
+      "conceptHi": "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के अंतर का उपयोग करता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3566,20 +3566,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
-        "why": "Evaporation recovers a dissolved solid by removing the solvent."
+        "why": "Evaporation drives off water and leaves common salt behind."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'छानना, वाष्पन और अवसादन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 0,
-        "why": "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"
+        "why": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"
       },
-      "explain": "Evaporation recovers a dissolved solid by removing the solvent.",
-      "explainHi": "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।",
-      "vocab": [["Mixture", "Separation uses differences in particle size, volatility a"], ["Solution", "Separation uses differences in particle size, volatility a"], ["Solute", "Separation uses differences in particle size, volatility a"]],
-      "vocabHi": [["मिश्रण", "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित हो"], ["विलयन", "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित हो"], ["विलेय", "पृथक्करण कण आकार, वाष्पशीलता और घनत्व के अंतर पर आधारित हो"]],
+      "explain": "Evaporation drives off water and leaves common salt behind.",
+      "explainHi": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।",
+      "vocab": [["Mixture", "Separation exploits a difference in particle size, boiling"], ["Solution", "Separation exploits a difference in particle size, boiling"], ["Solute", "Separation exploits a difference in particle size, boiling"]],
+      "vocabHi": [["मिश्रण", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "], ["विलयन", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "], ["विलेय", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "]],
       "fig": "3D flow · Filtration, evaporation and sedimentation · Mixture → Filter → Residue → Evaporate",
       "figHi": "3D flow चित्र · छानना, वाष्पन और अवसादन · Mixture / Filter / Residue",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3595,9 +3595,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
-        "why": "Evaporation recovers a dissolved solid by removing the solvent."
+        "why": "Evaporation drives off water and leaves common salt behind."
       },
       "scene": {
         "type": "atlas",
@@ -3618,8 +3618,8 @@
       "title": "Crystallisation and distillation",
       "titleHi": "क्रिस्टलीकरण और आसवन",
       "short": "Crystallisation and di",
-      "concept": "Crystallisation gives pure crystals; distillation separates liquids using different boiling points.",
-      "conceptHi": "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथनांक वाले द्रव अलग करता है।",
+      "concept": "Crystallisation cools a saturated solution so pure crystals form; distillation boils off the liquid with the lower boiling point.",
+      "conceptHi": "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते हैं, आसवन में कम क्वथनांक वाला द्रव उड़ता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3627,20 +3627,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Crystallisation and distillation?",
-        "options": ["Sublimation separates a solid that turns directly into vapour.", "Fractional distillation separates miscible liquids with close boiling points.", "Adding an electrolyte can coagulate a colloid."],
+        "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
-        "why": "Fractional distillation separates miscible liquids with close boiling points."
+        "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'क्रिस्टलीकरण और आसवन' से मेल खाता है?",
-        "options": ["ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"],
+        "options": ["काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"],
         "a": 1,
-        "why": "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।"
+        "why": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।"
       },
-      "explain": "Fractional distillation separates miscible liquids with close boiling points.",
-      "explainHi": "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।",
-      "vocab": [["Solution", "Crystallisation gives pure crystals; distillation separate"], ["Solute", "Crystallisation gives pure crystals; distillation separate"], ["Solvent", "Crystallisation gives pure crystals; distillation separate"]],
-      "vocabHi": [["विलयन", "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथन"], ["विलेय", "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथन"], ["विलायक", "क्रिस्टलीकरण से शुद्ध क्रिस्टल मिलते हैं, आसवन भिन्न क्वथन"]],
+      "explain": "Acetone boils at 56 °C, water at 100 °C, so they distil apart.",
+      "explainHi": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।",
+      "vocab": [["Solution", "Crystallisation cools a saturated solution so pure crystal"], ["Solute", "Crystallisation cools a saturated solution so pure crystal"], ["Solvent", "Crystallisation cools a saturated solution so pure crystal"]],
+      "vocabHi": [["विलयन", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"], ["विलेय", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"], ["विलायक", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"]],
       "fig": "3D cycle · Crystallisation and distillation · Heat → Vapour → Condenser → Distillate",
       "figHi": "3D cycle चित्र · क्रिस्टलीकरण और आसवन · Heat / Vapour / Condenser",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3656,9 +3656,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Crystallisation and distillation?",
-        "options": ["Sublimation separates a solid that turns directly into vapour.", "Fractional distillation separates miscible liquids with close boiling points.", "Adding an electrolyte can coagulate a colloid."],
+        "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
-        "why": "Fractional distillation separates miscible liquids with close boiling points."
+        "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       },
       "scene": {
         "type": "atlas",
@@ -3679,8 +3679,8 @@
       "title": "Chromatography and sublimation",
       "titleHi": "वर्णलेखन और ऊर्ध्वपातन",
       "short": "Chromatography and sub",
-      "concept": "Paper chromatography separates dissolved substances by different movement through a stationary phase.",
-      "conceptHi": "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार्थ अलग होते हैं।",
+      "concept": "Paper chromatography carries dyes up a strip at different speeds; sublimation turns camphor straight into vapour.",
+      "conceptHi": "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपातन में कपूर सीधे वाष्प बन जाता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3688,20 +3688,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Chromatography and sublimation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
-        "why": "Sublimation separates a solid that turns directly into vapour."
+        "why": "A black ink spot splits into several colours as water rises."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'वर्णलेखन और ऊर्ध्वपातन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 2,
-        "why": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"
+        "why": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"
       },
-      "explain": "Sublimation separates a solid that turns directly into vapour.",
-      "explainHi": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।",
-      "vocab": [["Solute", "Paper chromatography separates dissolved substances by dif"], ["Solvent", "Paper chromatography separates dissolved substances by dif"], ["Colloid", "Paper chromatography separates dissolved substances by dif"]],
-      "vocabHi": [["विलेय", "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार"], ["विलायक", "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार"], ["कोलॉइड", "कागज़ वर्णलेखन में स्थिर प्रावस्था पर अलग गति से घुले पदार"]],
+      "explain": "A black ink spot splits into several colours as water rises.",
+      "explainHi": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।",
+      "vocab": [["Solute", "Paper chromatography carries dyes up a strip at different "], ["Solvent", "Paper chromatography carries dyes up a strip at different "], ["Colloid", "Paper chromatography carries dyes up a strip at different "]],
+      "vocabHi": [["विलेय", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"], ["विलायक", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"], ["कोलॉइड", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"]],
       "fig": "3D layers · Chromatography and sublimation · Spot → Solvent front → Dyes → Sublimate",
       "figHi": "3D layers चित्र · वर्णलेखन और ऊर्ध्वपातन · Spot / Solvent front / Dyes",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3717,9 +3717,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Chromatography and sublimation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
-        "why": "Sublimation separates a solid that turns directly into vapour."
+        "why": "A black ink spot splits into several colours as water rises."
       },
       "scene": {
         "type": "atlas",
@@ -3740,8 +3740,8 @@
       "title": "Centrifugation and coagulation",
       "titleHi": "अपकेन्द्रण और स्कंदन",
       "short": "Centrifugation and coa",
-      "concept": "Centrifugation spins out fine suspended particles; coagulation joins colloidal particles so they settle.",
-      "conceptHi": "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण जोड़कर बैठाता है।",
+      "concept": "Centrifugation spins heavier particles to the bottom of a tube; alum coagulates fine mud so it settles.",
+      "conceptHi": "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद के महीन कण जोड़कर बैठा देती है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
@@ -3749,20 +3749,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Centrifugation and coagulation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
-        "why": "Adding an electrolyte can coagulate a colloid."
+        "why": "Blood separates into plasma and cells in a centrifuge."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'अपकेन्द्रण और स्कंदन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"],
         "a": 0,
-        "why": "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"
+        "why": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"
       },
-      "explain": "Adding an electrolyte can coagulate a colloid.",
-      "explainHi": "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।",
-      "vocab": [["Solvent", "Centrifugation spins out fine suspended particles; coagula"], ["Colloid", "Centrifugation spins out fine suspended particles; coagula"], ["Distillation", "Centrifugation spins out fine suspended particles; coagula"]],
-      "vocabHi": [["विलायक", "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण "], ["कोलॉइड", "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण "], ["आसवन", "अपकेन्द्रण महीन निलंबित कण अलग करता है, स्कंदन कोलॉइडी कण "]],
+      "explain": "Blood separates into plasma and cells in a centrifuge.",
+      "explainHi": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।",
+      "vocab": [["Solvent", "Centrifugation spins heavier particles to the bottom of a "], ["Colloid", "Centrifugation spins heavier particles to the bottom of a "], ["Distillation", "Centrifugation spins heavier particles to the bottom of a "]],
+      "vocabHi": [["विलायक", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"], ["कोलॉइड", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"], ["आसवन", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"]],
       "fig": "3D cycle · Centrifugation and coagulation · Spin → Pellet → Supernatant → Coagulate",
       "figHi": "3D cycle चित्र · अपकेन्द्रण और स्कंदन · Spin / Pellet / Supernatant",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3778,9 +3778,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Centrifugation and coagulation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
-        "why": "Adding an electrolyte can coagulate a colloid."
+        "why": "Blood separates into plasma and cells in a centrifuge."
       },
       "scene": {
         "type": "atlas",
@@ -3873,172 +3873,172 @@
         "hi": "समांगी और विषमांगी मिश्रण",
         "color": "#3f8f7f",
         "spread": 0,
-        "desc": "A solution is homogeneous while a suspension is heterogeneous."
+        "desc": "Sugar water is equally sweet in the first and the last sip."
       }, {
         "id": "5.2",
         "en": "Solutions and their components",
         "hi": "विलयन और उसके घटक",
         "color": "#3f8f7f",
         "spread": 1,
-        "desc": "The solvent is the component present in larger amount."
+        "desc": "Concentration is the amount of solute in a given amount of solution."
       }, {
         "id": "5.3",
         "en": "Suspensions",
         "hi": "निलंबन",
         "color": "#3f8f7f",
         "spread": 2,
-        "desc": "Suspension particles settle down when left undisturbed."
+        "desc": "Muddy water clears only partly on filtering: finer particles stay."
       }, {
         "id": "5.4",
         "en": "Colloids and Tyndall effect",
         "hi": "कोलॉइड और टिण्डल प्रभाव",
         "color": "#3f8f7f",
         "spread": 3,
-        "desc": "Scattering of light by colloids is called the Tyndall effect."
+        "desc": "The Tyndall effect is light scattered by colloidal or suspended partic"
       }, {
         "id": "5.5",
         "en": "Mass by mass percentage",
         "hi": "द्रव्यमान-द्रव्यमान प्रतिशत",
         "color": "#3f8f7f",
         "spread": 4,
-        "desc": "A 10 percent solution has 10 g solute in 100 g solution."
+        "desc": "10 g of salt in 90 g of water gives a 10% m/m solution."
       }, {
         "id": "5.6",
         "en": "Mass by volume and volume by volume",
         "hi": "द्रव्यमान-आयतन और आयतन-आयतन",
         "color": "#3f8f7f",
         "spread": 5,
-        "desc": "Volume by volume percentage is used for two liquids."
+        "desc": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       }, {
         "id": "5.7",
         "en": "Filtration, evaporation and sedimentation",
         "hi": "छानना, वाष्पन और अवसादन",
         "color": "#3f8f7f",
         "spread": 6,
-        "desc": "Evaporation recovers a dissolved solid by removing the solvent."
+        "desc": "Evaporation drives off water and leaves common salt behind."
       }, {
         "id": "5.8",
         "en": "Crystallisation and distillation",
         "hi": "क्रिस्टलीकरण और आसवन",
         "color": "#3f8f7f",
         "spread": 7,
-        "desc": "Fractional distillation separates miscible liquids with close boiling "
+        "desc": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       }, {
         "id": "5.9",
         "en": "Chromatography and sublimation",
         "hi": "वर्णलेखन और ऊर्ध्वपातन",
         "color": "#3f8f7f",
         "spread": 8,
-        "desc": "Sublimation separates a solid that turns directly into vapour."
+        "desc": "A black ink spot splits into several colours as water rises."
       }, {
         "id": "5.10",
         "en": "Centrifugation and coagulation",
         "hi": "अपकेन्द्रण और स्कंदन",
         "color": "#3f8f7f",
         "spread": 9,
-        "desc": "Adding an electrolyte can coagulate a colloid."
+        "desc": "Blood separates into plasma and cells in a centrifuge."
       }],
       "quiz": [{
         "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
-        "options": ["A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount.", "Suspension particles settle down when left undisturbed."],
+        "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
-        "why": "A solution is homogeneous while a suspension is heterogeneous."
+        "why": "Sugar water is equally sweet in the first and the last sip."
       }, {
         "q": "Which statement belongs to Solutions and their components?",
-        "options": ["Suspension particles settle down when left undisturbed.", "The solvent is the component present in larger amount.", "Scattering of light by colloids is called the Tyndall effect."],
+        "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
-        "why": "The solvent is the component present in larger amount."
+        "why": "Concentration is the amount of solute in a given amount of solution."
       }, {
         "q": "Which statement belongs to Suspensions?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Suspension particles settle down when left undisturbed."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
-        "why": "Suspension particles settle down when left undisturbed."
+        "why": "Muddy water clears only partly on filtering: finer particles stay."
       }, {
         "q": "Which statement belongs to Colloids and Tyndall effect?",
-        "options": ["Scattering of light by colloids is called the Tyndall effect.", "A 10 percent solution has 10 g solute in 100 g solution.", "Volume by volume percentage is used for two liquids."],
+        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
-        "why": "Scattering of light by colloids is called the Tyndall effect."
+        "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       }, {
         "q": "Which statement belongs to Mass by mass percentage?",
-        "options": ["Volume by volume percentage is used for two liquids.", "A 10 percent solution has 10 g solute in 100 g solution.", "Evaporation recovers a dissolved solid by removing the solvent."],
+        "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
-        "why": "A 10 percent solution has 10 g solute in 100 g solution."
+        "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       }, {
         "q": "Which statement belongs to Mass by volume and volume by volume?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Volume by volume percentage is used for two liquids."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
-        "why": "Volume by volume percentage is used for two liquids."
+        "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       }, {
         "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
-        "options": ["Evaporation recovers a dissolved solid by removing the solvent.", "Fractional distillation separates miscible liquids with close boiling points.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
-        "why": "Evaporation recovers a dissolved solid by removing the solvent."
+        "why": "Evaporation drives off water and leaves common salt behind."
       }, {
         "q": "Which statement belongs to Crystallisation and distillation?",
-        "options": ["Sublimation separates a solid that turns directly into vapour.", "Fractional distillation separates miscible liquids with close boiling points.", "Adding an electrolyte can coagulate a colloid."],
+        "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
-        "why": "Fractional distillation separates miscible liquids with close boiling points."
+        "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       }, {
         "q": "Which statement belongs to Chromatography and sublimation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "Sublimation separates a solid that turns directly into vapour."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
-        "why": "Sublimation separates a solid that turns directly into vapour."
+        "why": "A black ink spot splits into several colours as water rises."
       }, {
         "q": "Which statement belongs to Centrifugation and coagulation?",
-        "options": ["Adding an electrolyte can coagulate a colloid.", "A solution is homogeneous while a suspension is heterogeneous.", "The solvent is the component present in larger amount."],
+        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
-        "why": "Adding an electrolyte can coagulate a colloid."
+        "why": "Blood separates into plasma and cells in a centrifuge."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'समांगी और विषमांगी मिश्रण' से मेल खाता है?",
-        "options": ["विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 0,
-        "why": "विलयन समांगी और निलंबन विषमांगी मिश्रण है।"
+        "why": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।"
       }, {
         "q": "कौन-सा कथन 'विलयन और उसके घटक' से मेल खाता है?",
-        "options": ["निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।", "विलायक वह घटक है जो अधिक मात्रा में होता है।", "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"],
+        "options": ["गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"],
         "a": 1,
-        "why": "विलायक वह घटक है जो अधिक मात्रा में होता है।"
+        "why": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"
       }, {
         "q": "कौन-सा कथन 'निलंबन' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 2,
-        "why": "निलंबन के कण बिना हिलाए छोड़ने पर नीचे बैठ जाते हैं।"
+        "why": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"
       }, {
         "q": "कौन-सा कथन 'कोलॉइड और टिण्डल प्रभाव' से मेल खाता है?",
-        "options": ["कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 0,
-        "why": "कोलॉइड द्वारा प्रकाश बिखराव को टिण्डल प्रभाव कहते हैं।"
+        "why": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"
       }, {
         "q": "कौन-सा कथन 'द्रव्यमान-द्रव्यमान प्रतिशत' से मेल खाता है?",
-        "options": ["आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।", "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।", "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"],
+        "options": ["अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"],
         "a": 1,
-        "why": "10 प्रतिशत विलयन में 100 ग्राम विलयन में 10 ग्राम विलेय होता है।"
+        "why": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।"
       }, {
         "q": "कौन-सा कथन 'द्रव्यमान-आयतन और आयतन-आयतन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 2,
-        "why": "आयतन-आयतन प्रतिशत दो द्रवों के मिश्रण में प्रयोग होता है।"
+        "why": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"
       }, {
         "q": "कौन-सा कथन 'छानना, वाष्पन और अवसादन' से मेल खाता है?",
-        "options": ["वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 0,
-        "why": "वाष्पन में विलायक हटाकर घुला ठोस प्राप्त किया जाता है।"
+        "why": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"
       }, {
         "q": "कौन-सा कथन 'क्रिस्टलीकरण और आसवन' से मेल खाता है?",
-        "options": ["ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।", "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।", "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"],
+        "options": ["काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"],
         "a": 1,
-        "why": "प्रभाजी आसवन निकट क्वथनांक वाले मिश्रणीय द्रव अलग करता है।"
+        "why": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।"
       }, {
         "q": "कौन-सा कथन 'वर्णलेखन और ऊर्ध्वपातन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 2,
-        "why": "ऊर्ध्वपातन उस ठोस को अलग करता है जो सीधे वाष्प बन जाता है।"
+        "why": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"
       }, {
         "q": "कौन-सा कथन 'अपकेन्द्रण और स्कंदन' से मेल खाता है?",
-        "options": ["विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।", "विलयन समांगी और निलंबन विषमांगी मिश्रण है।", "विलायक वह घटक है जो अधिक मात्रा में होता है।"],
+        "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"],
         "a": 0,
-        "why": "विद्युत-अपघट्य मिलाने पर कोलॉइड का स्कंदन हो सकता है।"
+        "why": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"
       }],
       "status": "assessed"
     };
