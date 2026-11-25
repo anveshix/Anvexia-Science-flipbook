@@ -34,7 +34,8 @@ const options = {
     await host.locator('img').waitFor({ state: 'visible' });
     await page.locator('[data-svf-zoom="0"]').click();
     assert(await page.locator('.evzoom').isVisible());
-    await page.locator('.evzoom .ev-label-hit').first().click();
+    /* labels are pins + a figure key; click a key entry to open its note */
+    await page.locator('.evzoom .ev-key-item').first().click();
     assert(await page.locator('.evzoom .ev-label-pop').isVisible());
     await page.locator('.evzoom-close').click();
     const before = await host.locator('img').getAttribute('src');
@@ -60,8 +61,13 @@ const options = {
     assert.equal(await page.evaluate(() => EV.lang), 'en');
     await page.locator('#svFlipLangBtn').click();
     assert.equal(await page.evaluate(() => EV.lang), 'both');
-    await page.locator('.svf-left-page[data-spread="0"] .svf-opt').first().click();
-    assert(await page.locator('.svf-left-page[data-spread="0"] .svf-explain').isVisible(), 'prediction explanation not shown');
+    /* questions are collected at the end of the chapter; answer one there */
+    await page.evaluate(() => SCIVERSE.openFlipbook('c9_cell', 'questions'));
+    await page.waitForSelector('.svf-qpage .svf-qopt', {timeout: 10000});
+    await page.locator('.svf-qpage .svf-qopt').first().click();
+    assert(await page.locator('.svf-qpage .svf-qwhy').first().isVisible(), 'answer explanation not shown');
+    await page.evaluate(() => SCIVERSE.openFlipbook('c9_cell', 0));
+    await page.waitForTimeout(400);
     await page.locator('#svFlipNext').click();
     await page.waitForFunction(() => document.querySelector('#svFlipCounter').textContent.includes('2.2'), null, { timeout: 5000 });
     await page.locator('#svFlipClose').click();

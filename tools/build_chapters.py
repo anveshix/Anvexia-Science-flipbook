@@ -99,11 +99,25 @@ def parse():
                 status = bits[10] if len(bits) > 10 else "assessed"
                 assert kind in KINDS, f"unknown figure kind {kind} in {cur['id']} {sec}"
                 assert status in ("assessed", "formative", "archive"), status
+                # Optional tail: |status|bullets_en|bullets_hi|figure_note_en|figure_note_hi
+                # bullets are ';'-separated, three per section, NCERT-sourced.
+                if len(bits) > 10:
+                    assert len(bits) in (11, 15), f"{cur['id']} {sec}: @T has {len(bits)} fields, expected 11 or 15"
+                pts_en = [x.strip() for x in bits[11].split(";") if x.strip()] if len(bits) > 11 else []
+                pts_hi = [x.strip() for x in bits[12].split(";") if x.strip()] if len(bits) > 12 else []
+                if pts_en or pts_hi:
+                    assert len(pts_en) == len(pts_hi) == 3, f"{cur['id']} {sec}: need 3 bullets in each language"
+                fig_en = bits[13].strip() if len(bits) > 13 else ""
+                fig_hi = bits[14].strip() if len(bits) > 14 else ""
+                if fig_en or fig_hi:
+                    assert fig_en and fig_hi, f"{cur['id']} {sec}: figure note needs both languages"
                 labs = [x.strip() for x in labels.split(";") if x.strip()]
                 assert 3 <= len(labs) <= 8, f"{cur['id']} {sec}: need 3-8 labels, got {labs}"
                 cur["topics"].append(dict(sec=sec, en=en, hi=hi, concept=concept,
                                           hconcept=hconcept, fact=fact, hfact=hfact,
-                                          kind=kind, labels=labs, status=status))
+                                          kind=kind, labels=labs, status=status,
+                                          points_en=pts_en, points_hi=pts_hi,
+                                          fig_en=fig_en, fig_hi=fig_hi))
             else:
                 raise SystemExit(f"unknown line in {path.name}: {line[:80]}")
     return chapters
@@ -172,8 +186,17 @@ def build_spread(ch, i, t):
 
     fl, fe, fn = ch["formula"]
     terms = ch["terms"]
-    vocab = [[terms[(i + k) % len(terms)][0], t["concept"][:58]] for k in range(3)]
-    vocab_hi = [[terms[(i + k) % len(terms)][1], t["hconcept"][:58]] for k in range(3)]
+    # Key terms carry the term only. A definition that is the first 58
+    # characters of the concept sentence is not a definition, so the slot is
+    # left empty and every renderer falls back to the section text.
+    vocab = [[terms[(i + k) % len(terms)][0], ""] for k in range(3)]
+    vocab_hi = [[terms[(i + k) % len(terms)][1], ""] for k in range(3)]
+
+    # Three NCERT bullets under the paragraph: the extra text a textbook page
+    # carries (a definition, a number, an example) without inventing a second
+    # "predict" box.
+    points_en = t.get("points_en") or []
+    points_hi = t.get("points_hi") or []
 
     p0 = ch["params"][0] if ch["params"] else dict(label="control", min=0, max=1, value=1, id="p")
     r0 = ch["readouts"][0]["label"] if ch["readouts"] else "reading"
@@ -189,6 +212,8 @@ def build_spread(ch, i, t):
         predictHi=dict(q=qh, options=hopts, a=ans, why=whyh),
         explain=why, explainHi=whyh,
         vocab=vocab, vocabHi=vocab_hi,
+        points=points_en, pointsHi=points_hi,
+        figNote=t.get("fig_en", ""), figNoteHi=t.get("fig_hi", ""),
         fig=f"3D {t['kind']} · {t['en']} · " + " → ".join(t["labels"][:4]),
         figHi=f"3D {t['kind']} चित्र · {t['hi']} · " + " / ".join(t["labels"][:3]),
         tryHint=hint, hintHi=hinthi,
@@ -345,19 +370,21 @@ def main():
         # emit spread array with function-valued control labels
         lines.append(f"  LAB[{js(c['id'])}] = " + emit_lab(ctrl, rd) + ";")
         def emit(v, ind=2):
-            pad = "  " * ind
+            # compact: this file is generated, and the 5,000,000-byte initial
+            # payload cap is the real budget for chapter text.
+            pad = ""
             if isinstance(v, dict):
                 if "__ref__" in v:
                     return v["__ref__"]
                 parts = []
                 for k, val in v.items():
                     if isinstance(val, dict) and "en" in val and "hi" in val and k == "label":
-                        parts.append(f"{pad}  label: function(){{ return BI({js(val['en'])}, {js(val['hi'])}); }}")
+                        parts.append(f"label: function(){{ return BI({js(val['en'])}, {js(val['hi'])}); }}")
                     else:
-                        parts.append(f"{pad}  {json.dumps(k)}: {emit(val, ind + 1)}")
-                return "{\n" + ",\n".join(parts) + "\n" + pad + "}"
+                        parts.append(f"{json.dumps(k)}:{emit(val, ind + 1)}")
+                return "{" + ",".join(parts) + "}"
             if isinstance(v, list):
-                return "[" + ", ".join(emit(x, ind) for x in v) + "]"
+                return "[" + ",".join(emit(x, ind) for x in v) + "]"
             if isinstance(v, bool):
                 return "true" if v else "false"
             if isinstance(v, (int, float)):
@@ -371,7 +398,7 @@ def main():
         quiz_hi = [dict(q=s["predictHi"]["q"], options=s["predictHi"]["options"], a=s["predictHi"]["a"], why=s["predictHi"]["why"]) for s in spreads]
         sections = [dict(id=t["sec"], en=t["en"], hi=t["hi"], spread=i, color=c["color"]) for i, t in enumerate(c["topics"])]
         groups = [dict(id=t["sec"], en=t["en"], hi=t["hi"], color=c["color"], spread=i,
-                       desc=t["fact"][:70]) for i, t in enumerate(c["topics"])]
+                       desc=t["fact"][:48]) for i, t in enumerate(c["topics"])]
         pack = dict(
             id=c["id"], cls=c["cls"], title=c["en"], titleHi=c["hi"], source=c["source"],
             generated_by=f"EduVerse · CBSE 2026-27 · {c['en']} · {CREDIT}",

@@ -155,6 +155,13 @@ const SCIVERSE = (function () {
      page (3+2i) and its 2D plate on the right page (4+2i). Back cover=3+2n. */
   const FIRST_SPREAD_PAGE = 3;
   const spreadPage = i => FIRST_SPREAD_PAGE + i * 2;
+  /* A textbook keeps its exercises at the end of the chapter, not on every
+     page. The questions section owns the pages between the last spread and
+     the back cover. */
+  const QUESTIONS_PER_PAGE = 5;
+  const qPageCount = w => Math.max(1, Math.ceil(w.spreads.length / QUESTIONS_PER_PAGE));
+  const qFirstPage = w => spreadPage(w.spreads.length);
+  const backCoverPage = w => qFirstPage(w) + qPageCount(w);
   const plateSrc = (wid, file) => EVPLATE_SRC(wid, file);
   /* Only realistic 2D plates are shown in the flipbook. The generated
      composite JPEGs are line diagrams; they are never offered as a page
@@ -259,8 +266,7 @@ const SCIVERSE = (function () {
       e.preventDefault();
       e.stopPropagation();
       const p = flipInst.getCurrentPageIndex ? flipInst.getCurrentPageIndex() : 0;
-      const total = flipWorld.spreads.length;
-      const last = spreadPage(total);
+      const last = backCoverPage(flipWorld);
       const portrait = !!(flipInst.getOrientation && flipInst.getOrientation() === "portrait");
       let side = btn.dataset.svfCorner;
       if (portrait) {
@@ -276,7 +282,9 @@ const SCIVERSE = (function () {
         if (p >= last) return;
         if (portrait) { flipInst.flip(p + 1); updateFlipHud(p + 1); return; }
         if (p < FIRST_SPREAD_PAGE) { flipInst.flipNext(); return; }
-        const target = Math.min(last, p + (p % 2 === 1 ? 2 : 1));
+        /* the questions section is single-page: turn forward one page at a time */
+        if (p >= qFirstPage(flipWorld)) { flipInst.flipNext(); updateFlipHud(p + 1); return; }
+        const target = Math.min(qFirstPage(flipWorld), p + (p % 2 === 1 ? 2 : 1));
         if (target > p) { flipInst.flip(target); updateFlipHud(target); }
       } else {
         if (p <= 0) return;
@@ -307,15 +315,15 @@ const SCIVERSE = (function () {
     if (counter) {
       if (p < FIRST_SPREAD_PAGE) {
         counter.textContent = BI("Cover & Contents", "मुखपृष्ठ व सूची") + ` · ${total} ${BI("spreads", "स्प्रेड")}`;
-      } else if (p >= spreadPage(total)) {
-        counter.textContent = BI("Chapter Summary", "अध्याय सारांश");
+      } else if (p >= qFirstPage(flipWorld)) {
+        counter.textContent = BI("Chapter Questions", "अध्याय के प्रश्न");
       } else {
         const sIdx = currentFlipSpreadIndex(p);
         const sp = flipWorld.spreads[sIdx];
         counter.textContent = `${sp.section} · ${BI("Spread", "स्प्रेड")} ${sIdx + 1} / ${total}`;
       }
     }
-    const activeIdx = p < FIRST_SPREAD_PAGE ? -1 : (p >= spreadPage(total) ? total : currentFlipSpreadIndex(p));
+    const activeIdx = p < FIRST_SPREAD_PAGE ? -1 : (p >= qFirstPage(flipWorld) ? total : currentFlipSpreadIndex(p));
     const dots = $("svFlipDots");
     if (dots) {
       dots.querySelectorAll("[data-svf-jump]").forEach(btn => {
@@ -335,7 +343,8 @@ const SCIVERSE = (function () {
       const fIdx = flipPlateIdx[sIdx] || 0;
       const file = files[fIdx];
       if (file) {
-        EVLABEL.render(host, EVPLATE_KEY(w.id, file));
+        /* the key goes after the caption, in the empty space under the plate */
+        EVLABEL.render(host, EVPLATE_KEY(w.id, file), { keyHost: host.parentElement, popInKey: true });
       }
     });
   }
@@ -354,7 +363,12 @@ const SCIVERSE = (function () {
         <span class="svf-toc-ttl">${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</span>
         <span class="svf-toc-st">${stamped ? "★" : "→"}</span>
       </button>`;
-    }).join("");
+    }).join("") + `
+      <button type="button" class="svf-toc-row svf-interactive svf-toc-q" data-svf-goto-q="0">
+        <span class="svf-toc-sec">Q</span>
+        <span class="svf-toc-ttl">${esc(BI("Chapter Questions", "अध्याय के प्रश्न"))}</span>
+        <span class="svf-toc-st">→</span>
+      </button>`;
 
     // Page 0: Hard Front Cover
     let pages = `
@@ -387,10 +401,9 @@ const SCIVERSE = (function () {
         </div>
       </div>`;
 
-    // Spreads: 2 pages per NCERT section (Left = Bilingual Concept/Formula/Predict, Right = 2D Plate + Hotspots)
+    // Spreads: 2 pages per NCERT section (Left = Concept + NCERT points, Right = Plate + Figure note)
     w.spreads.forEach((sp, i) => {
       const pg = pget(w, sp);
-      const pr = P(sp), raw = sp.predict || { q: "", options: [], a: 0 }, rawHi = sp.predictHi;
       const files = plateFiles(w, sp);
       const curIdx = Math.min(files.length - 1, Math.max(0, flipPlateIdx[i] || 0));
       const curFile = files[curIdx] || "";
@@ -404,25 +417,20 @@ const SCIVERSE = (function () {
            </div>`
         : "";
 
-      /* Key terms: a definition that is only a clipped copy of the concept
-         sentence adds noise, so such terms are shown without it. */
-      const rawV = sp.vocab || [], rawVHi = sp.vocabHi || [];
-      const conceptAll = (sp.concept || "") + " " + (sp.conceptHi || "");
-      const isEcho = d => { const k = String(d || "").trim().replace(/[.……]+$/, ""); return !k || (k.length > 12 && conceptAll.indexOf(k.slice(0, Math.min(40, k.length))) >= 0); };
-      const termsHtml = VOC(sp).slice(0, 4).map((v, vi) => {
-        const term = EV.lang === "both" && rawVHi[vi] ? BX(rawV[vi] && rawV[vi][0], rawVHi[vi][0]) : esc(v[0]);
-        const def = isEcho(rawV[vi] && rawV[vi][1]) ? "" : esc(v[1]);
-        return `<div class="svf-term"><dt>${term}</dt>${def ? `<dd>${def}</dd>` : ""}</div>`;
-      }).join("");
+      /* Three NCERT bullets carry the extra text a textbook page has: a
+         definition, a number, an example. No question on the page — the
+         exercises live at the end of the chapter. */
+      const pts = sp.points || [], ptsHi = sp.pointsHi || [];
+      const pointsHtml = pts.length ? `<ul class="svf-points">${pts.map((p, pi) => {
+        const en = EV.lang === "hi" ? "" : `<span>${esc(p)}</span>`;
+        const hiTxt = (EV.lang === "both" || EV.lang === "hi") && ptsHi[pi]
+          ? `<span class="bi-hi">${esc(ptsHi[pi])}</span>` : "";
+        return `<li>${en}${hiTxt}</li>`;
+      }).join("")}</ul>` : "";
       const fig = `${esc(BI("Figure", "चित्र"))} ${esc(sp.section)}`;
-
-      const optsHtml = (pr.options || []).map((o, oi) => {
-        let cls = "svf-opt svf-interactive";
-        if (pg.locked) cls += oi === pr.a ? " correct" : (oi === pg.answer ? " wrong" : " dim");
-        else if (pg.answer === oi) cls += " picked";
-        const lbl = EV.lang === "both" && rawHi && rawHi.options ? BX(raw.options[oi], rawHi.options[oi]) : esc(o);
-        return `<button type="button" class="${cls}" data-svf-sp="${i}" data-svf-opt="${oi}" ${pg.locked ? "disabled" : ""}><b>${String.fromCharCode(65 + oi)}</b><span>${lbl}</span></button>`;
-      }).join("");
+      const figNote = sp.figNote
+        ? `<p class="svf-fignote">${EV.lang === "both" ? BX(sp.figNote, sp.figNoteHi || sp.figNote) : esc(EV.lang === "hi" ? (sp.figNoteHi || sp.figNote) : sp.figNote)}</p>`
+        : "";
 
       pages += `
       <div class="svf-page svf-left-page" data-spread="${i}">
@@ -434,11 +442,7 @@ const SCIVERSE = (function () {
           <h3 class="svf-title">${EV.lang === "both" ? BX(sp.title, sp.titleHi) : esc(BI(sp.title, sp.titleHi))}</h3>
           <p class="svf-concept">${EV.lang === "both" ? BX(sp.concept, sp.conceptHi) : esc(BI(sp.concept, sp.conceptHi))}</p>
           ${formulaHtml}
-          <div class="svf-predict" data-svf-predict="${i}">
-            <div class="svf-pq"><span class="svf-pq-tag">${esc(t("checkTag"))}</span>${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
-            <div class="svf-popts">${optsHtml}</div>
-            ${pg.locked ? `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>` : ""}
-          </div>
+          ${pointsHtml}
           <div class="svf-pnum">${spreadPage(i)}</div>
         </div>
       </div>
@@ -463,11 +467,40 @@ const SCIVERSE = (function () {
               <p>${esc(BI("The illustration for this section is not available yet. Read the concept on the facing page.", "इस खंड का चित्र अभी उपलब्ध नहीं है। सामने के पृष्ठ पर अवधारणा पढ़ें।"))}</p>
             </div>
           `}
-          ${termsHtml ? `<dl class="svf-terms"><div class="svf-terms-h">${esc(BI("Key terms", "मुख्य शब्द"))}</div>${termsHtml}</dl>` : ""}
+          ${figNote}
           <div class="svf-pnum">${spreadPage(i) + 1}</div>
         </div>
       </div>`;
     });
+
+    /* ------------------------- chapter exercises ------------------------- */
+    const qPages = qPageCount(w);
+    for (let qp = 0; qp < qPages; qp++) {
+      const from = qp * QUESTIONS_PER_PAGE;
+      const items = w.spreads.slice(from, from + QUESTIONS_PER_PAGE);
+      const cards = items.map((sp, k) => {
+        const qi = from + k, pr = P(sp), raw = sp.predict || { q: "", options: [], a: 0 }, rawHi = sp.predictHi;
+        const opts = (pr.options || []).map((o, oi) => {
+          const lbl = EV.lang === "both" && rawHi && rawHi.options ? BX(raw.options[oi], rawHi.options[oi]) : esc(o);
+          return `<button type="button" class="svf-qopt svf-interactive" data-svf-q="${qi}" data-svf-opt="${oi}"><b>${String.fromCharCode(65 + oi)}</b><span>${lbl}</span></button>`;
+        }).join("");
+        return `<div class="svf-q" data-svf-qcard="${qi}">
+          <div class="svf-qh"><b>${qi + 1}</b><span>${esc(sp.section)} · ${esc(BI(sp.title, sp.titleHi))}</span></div>
+          <p class="svf-qstem">${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</p>
+          <div class="svf-qopts">${opts}</div>
+          <div class="svf-qwhy" hidden></div>
+        </div>`;
+      }).join("");
+      pages += `
+      <div class="svf-page svf-qpage" data-qpage="${qp}">
+        <div class="svf-page-inner">
+          <div class="svf-phead"><span class="svf-sec">${esc(BI("Chapter Questions", "अध्याय के प्रश्न"))}</span><span>${esc(BI("Exercises", "अभ्यास"))} ${qp + 1} / ${qPages}</span></div>
+          <h3 class="svf-qtitle">${esc(BI("Answer these after reading the chapter", "अध्याय पढ़ने के बाद इनके उत्तर दें"))}</h3>
+          <div class="svf-qlist">${cards}</div>
+          <div class="svf-pnum">${spreadPage(w.spreads.length) + qp}</div>
+        </div>
+      </div>`;
+    }
 
     // Hard Back Cover
     pages += `
@@ -507,39 +540,45 @@ const SCIVERSE = (function () {
       };
     });
 
-    book.querySelectorAll("[data-svf-opt]").forEach(btn => {
+    /* The contents page links to the exercises the way a textbook's contents
+       lists its end-of-chapter questions. */
+    book.querySelectorAll("[data-svf-goto-q]").forEach(btn => {
       btn.onclick = e => {
         e.stopPropagation();
-        const sIdx = +btn.dataset.svfSp;
-        const optIdx = +btn.dataset.svfOpt;
-        const sp = w.spreads[sIdx];
-        if (!sp) return;
+        if (flipInst) flipInst.flip(qFirstPage(w));
+      };
+    });
+
+    /* Chapter exercises: one question per section, answered at the end of the
+       chapter. A correct answer completes that section in the progress table. */
+    book.querySelectorAll(".svf-qopt[data-svf-q]").forEach(btn => {
+      btn.onclick = e => {
+        e.stopPropagation();
+        const qi = +btn.dataset.svfQ, optIdx = +btn.dataset.svfOpt;
+        const sp = w.spreads[qi];
+        const card = btn.closest(".svf-q");
+        if (!sp || !card || card.dataset.answered) return;
+        card.dataset.answered = "1";
+        const correct = P(sp).a, ok = optIdx === correct;
+        card.querySelectorAll("[data-svf-qopt]").forEach(b => {
+          const oi = +b.dataset.svfOpt;
+          b.classList.add(oi === correct ? "correct" : (oi === optIdx ? "wrong" : "dim"));
+          b.disabled = true;
+        });
+        const why = card.querySelector(".svf-qwhy");
+        if (why) {
+          why.hidden = false;
+          why.innerHTML = EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi));
+        }
         const pg = pget(w, sp);
-        if (pg.locked) return;
-        pg.answer = optIdx;
-        pg.locked = true;
-        pg.flap = true;
+        pg.answer = optIdx; pg.locked = true; pg.flap = true;
+        const newly = ok && !pg.stamped;
+        if (ok) pg.stamped = true;
         saveProgress();
-        if (EV.world && EV.world.id === w.id && WORLD.index === sIdx) {
-          renderLesson(); renderMeters();
-        }
-        const ok = optIdx === P(sp).a;
-        /* update in place: never rebuild the book (no flicker, no page reset) */
-        const box = book.querySelector(`[data-svf-predict="${sIdx}"]`);
-        if (box) {
-          box.querySelectorAll("[data-svf-opt]").forEach(b => {
-            const oi = +b.dataset.svfOpt;
-            b.classList.remove("picked");
-            b.classList.add(oi === P(sp).a ? "correct" : (oi === optIdx ? "wrong" : "dim"));
-            b.disabled = true;
-          });
-          if (!box.querySelector(".svf-explain")) {
-            box.insertAdjacentHTML("beforeend", `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>`);
-          }
-          fitLive(box.closest(".svf-page"));
-        }
-        if (ok) celebrate("stamp");
-        toast(ok ? BI("Correct answer. Study the figure to confirm why.", "सही उत्तर। कारण समझने के लिए चित्र देखें।")
+        if (EV.world && EV.world.id === w.id) { renderLesson(); renderMeters(); }
+        fitLive(card.closest(".svf-page"));
+        if (newly) celebrate("stamp");
+        toast(ok ? BI("Correct. Study the figure to confirm why.", "सही। कारण समझने के लिए चित्र देखें।")
                  : BI("Answer recorded — read the explanation below.", "उत्तर दर्ज — नीचे व्याख्या पढ़ें।"), "ok");
       };
     });
@@ -562,7 +601,7 @@ const SCIVERSE = (function () {
               if ((flipPlateIdx[sIdx] || 0) !== n) return;
               if (typeof EVLABEL !== "undefined") EVLABEL.destroy(host);
               img.src = src;
-              if (typeof EVLABEL !== "undefined") EVLABEL.render(host, EVPLATE_KEY(w.id, files[n]));
+              if (typeof EVLABEL !== "undefined") EVLABEL.render(host, EVPLATE_KEY(w.id, files[n]), { keyHost: host.parentElement, popInKey: true });
             });
           }
         }
@@ -676,7 +715,9 @@ const SCIVERSE = (function () {
     // the current illustration cycle; never carry an index across chapters.
     if (!isFlipOpen() || (flipWorld && flipWorld.id !== w.id)) flipPlateIdx = {};
     flipWorld = w;
-    const targetSpread = typeof spreadIdx === "number" ? Math.max(0, Math.min(w.spreads.length - 1, spreadIdx))
+    const toQuestions = spreadIdx === "questions";
+    const targetSpread = toQuestions ? Math.max(0, w.spreads.length - 1)
+      : typeof spreadIdx === "number" ? Math.max(0, Math.min(w.spreads.length - 1, spreadIdx))
       : (EV.world && EV.world.id === w.id ? (WORLD.index || 0) : 0);
 
     modal.hidden = false;
@@ -702,7 +743,8 @@ const SCIVERSE = (function () {
       });
     }
 
-    const startPage = typeof spreadIdx === "number" || (EV.world && EV.world.id === w.id) ? spreadPage(targetSpread) : 0;
+    const startPage = toQuestions ? qFirstPage(w)
+      : typeof spreadIdx === "number" || (EV.world && EV.world.id === w.id) ? spreadPage(targetSpread) : 0;
     warmChapter(w, targetSpread);
     const rect = wrap.getBoundingClientRect();
     const availW = Math.max(320, rect.width || (window.innerWidth - 12));
