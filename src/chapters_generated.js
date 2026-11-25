@@ -1475,8 +1475,8 @@
       "title": "What a tissue is",
       "titleHi": "ऊतक क्या है",
       "short": "What a tissue is",
-      "concept": "A tissue is a group of similar cells with a common origin working together for one function.",
-      "conceptHi": "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है, उसे ऊतक कहते हैं।",
+      "concept": "A tissue is a group of similar cells with a common origin, working together for one function. Muscles move, blood carries, xylem conducts water.",
+      "conceptHi": "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम करता है, ऊतक कहलाता है। पेशी चलाती है, रक्त ले जाता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1484,20 +1484,20 @@
       },
       "predict": {
         "q": "Which statement belongs to What a tissue is?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
-        "why": "Similar cells performing one shared function form a tissue."
+        "why": "A tissue is a group of similar cells performing one shared function."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'ऊतक क्या है' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 0,
         "why": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"
       },
-      "explain": "Similar cells performing one shared function form a tissue.",
+      "explain": "A tissue is a group of similar cells performing one shared function.",
       "explainHi": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।",
-      "vocab": [["Tissue", "A tissue is a group of similar cells with a common origin "], ["Meristem", "A tissue is a group of similar cells with a common origin "], ["Xylem", "A tissue is a group of similar cells with a common origin "]],
-      "vocabHi": [["ऊतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है,"], ["विभज्योतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है,"], ["जाइलम", "समान उत्पत्ति वाली समान कोशिकाओं का समूह एक कार्य करता है,"]],
+      "vocab": [["Tissue", "A tissue is a group of similar cells with a common origin,"], ["Meristem", "A tissue is a group of similar cells with a common origin,"], ["Xylem", "A tissue is a group of similar cells with a common origin,"]],
+      "vocabHi": [["ऊतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "], ["विभज्योतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "], ["जाइलम", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "]],
       "fig": "3D tree · What a tissue is · Cell → Tissue → Organ → System",
       "figHi": "3D tree चित्र · ऊतक क्या है · Cell / Tissue / Organ",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1513,9 +1513,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to What a tissue is?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
-        "why": "Similar cells performing one shared function form a tissue."
+        "why": "A tissue is a group of similar cells performing one shared function."
       },
       "scene": {
         "type": "atlas",
@@ -1536,8 +1536,8 @@
       "title": "Levels of organisation in organisms",
       "titleHi": "जीवों में संगठन के स्तर",
       "short": "Levels of organisation",
-      "concept": "Cells form tissues, tissues form organs, organs form systems and systems form an organism.",
-      "conceptHi": "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते हैं।",
+      "concept": "Cells form tissues, tissues form organs, organs form organ systems, and systems together make an organism. Division of labour rises at each step.",
+      "conceptHi": "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते हैं। हर स्तर पर श्रम-विभाजन बढ़ता जाता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1551,13 +1551,13 @@
       },
       "predictHi": {
         "q": "कौन-सा कथन 'जीवों में संगठन के स्तर' से मेल खाता है?",
-        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
+        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
         "a": 1,
         "why": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"
       },
       "explain": "Division of labour increases from cell level to organ-system level.",
       "explainHi": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।",
-      "vocab": [["Meristem", "Cells form tissues, tissues form organs, organs form syste"], ["Xylem", "Cells form tissues, tissues form organs, organs form syste"], ["Phloem", "Cells form tissues, tissues form organs, organs form syste"]],
+      "vocab": [["Meristem", "Cells form tissues, tissues form organs, organs form organ"], ["Xylem", "Cells form tissues, tissues form organs, organs form organ"], ["Phloem", "Cells form tissues, tissues form organs, organs form organ"]],
       "vocabHi": [["विभज्योतक", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "], ["जाइलम", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "], ["फ्लोएम", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "]],
       "fig": "3D layers · Levels of organisation in organisms · Cell → Tissue → Organ → System",
       "figHi": "3D layers चित्र · जीवों में संगठन के स्तर · Cell / Tissue / Organ",
@@ -1597,8 +1597,8 @@
       "title": "Meristematic tissues",
       "titleHi": "विभज्योतक ऊतक",
       "short": "Meristematic tissues",
-      "concept": "Meristem cells divide continuously at tips and sides, causing growth in length and girth.",
-      "conceptHi": "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर लम्बाई और मोटाई बढ़ाती हैं।",
+      "concept": "Meristem cells are small and thin-walled with a large nucleus and no vacuoles. Apical, lateral and intercalary meristems add length, girth and branches.",
+      "conceptHi": "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली होती हैं, रिक्तिका नहीं होती। ये लंबाई, मोटाई और शाखाएँ बढ़ाती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1612,14 +1612,14 @@
       },
       "predictHi": {
         "q": "कौन-सा कथन 'विभज्योतक ऊतक' से मेल खाता है?",
-        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 2,
-        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"
+        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"
       },
       "explain": "Apical, intercalary and lateral meristems add length and girth to plants.",
-      "explainHi": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।",
-      "vocab": [["Xylem", "Meristem cells divide continuously at tips and sides, caus"], ["Phloem", "Meristem cells divide continuously at tips and sides, caus"], ["Epithelium", "Meristem cells divide continuously at tips and sides, caus"]],
-      "vocabHi": [["जाइलम", "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर"], ["फ्लोएम", "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर"], ["उपकला", "विभज्योतक कोशिकाएँ सिरों और किनारों पर लगातार विभाजित होकर"]],
+      "explainHi": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।",
+      "vocab": [["Xylem", "Meristem cells are small and thin-walled with a large nucl"], ["Phloem", "Meristem cells are small and thin-walled with a large nucl"], ["Epithelium", "Meristem cells are small and thin-walled with a large nucl"]],
+      "vocabHi": [["जाइलम", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"], ["फ्लोएम", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"], ["उपकला", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"]],
       "fig": "3D tree · Meristematic tissues · Meristem → Apical → Intercalary → Lateral",
       "figHi": "3D tree चित्र · विभज्योतक ऊतक · Meristem / Apical / Intercalary",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1658,8 +1658,8 @@
       "title": "Simple permanent plant tissues",
       "titleHi": "सरल स्थायी पादप ऊतक",
       "short": "Simple permanent plant",
-      "concept": "Parenchyma stores food, collenchyma gives flexible support and sclerenchyma gives rigid strength.",
-      "conceptHi": "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और स्क्लेरेनकाइमा कठोर मज़बूती देता है।",
+      "concept": "Parenchyma stores food and floats aquatic plants, collenchyma bends without breaking, and lignified sclerenchyma gives hard, rigid strength.",
+      "conceptHi": "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़ता है, और लिग्निन युक्त स्क्लेरेनकाइमा कठोर मज़बूती देता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1679,8 +1679,8 @@
       },
       "explain": "Dead sclerenchyma fibres with lignin give plants mechanical strength.",
       "explainHi": "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।",
-      "vocab": [["Phloem", "Parenchyma stores food, collenchyma gives flexible support"], ["Epithelium", "Parenchyma stores food, collenchyma gives flexible support"], ["Neuron", "Parenchyma stores food, collenchyma gives flexible support"]],
-      "vocabHi": [["फ्लोएम", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और "], ["उपकला", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और "], ["न्यूरॉन", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा लचीला सहारा और "]],
+      "vocab": [["Phloem", "Parenchyma stores food and floats aquatic plants, collench"], ["Epithelium", "Parenchyma stores food and floats aquatic plants, collench"], ["Neuron", "Parenchyma stores food and floats aquatic plants, collench"]],
+      "vocabHi": [["फ्लोएम", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"], ["उपकला", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"], ["न्यूरॉन", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"]],
       "fig": "3D layers · Simple permanent plant tissues · Parenchyma → Collenchyma → Sclerenchyma → Support",
       "figHi": "3D layers चित्र · सरल स्थायी पादप ऊतक · Parenchyma / Collenchyma / Sclerenchyma",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1719,8 +1719,8 @@
       "title": "Xylem: water transport",
       "titleHi": "जाइलम: जल परिवहन",
       "short": "Xylem: water transport",
-      "concept": "Xylem vessels and tracheids carry water and minerals upward from roots to leaves.",
-      "conceptHi": "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक ऊपर ले जाती हैं।",
+      "concept": "Xylem has tracheids, vessels, fibres and living xylem parenchyma. Its dead tubular cells carry water and minerals upward and strengthen the plant.",
+      "conceptHi": "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते हैं। इसकी मृत नलिकाएँ जल और खनिज ऊपर ले जाती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1740,8 +1740,8 @@
       },
       "explain": "Xylem transport is unidirectional, from root to leaf.",
       "explainHi": "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।",
-      "vocab": [["Epithelium", "Xylem vessels and tracheids carry water and minerals upwar"], ["Neuron", "Xylem vessels and tracheids carry water and minerals upwar"], ["Tissue", "Xylem vessels and tracheids carry water and minerals upwar"]],
-      "vocabHi": [["उपकला", "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक"], ["न्यूरॉन", "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक"], ["ऊतक", "जाइलम वाहिकाएँ और ट्रैकीड जड़ों से जल तथा खनिज पत्तियों तक"]],
+      "vocab": [["Epithelium", "Xylem has tracheids, vessels, fibres and living xylem pare"], ["Neuron", "Xylem has tracheids, vessels, fibres and living xylem pare"], ["Tissue", "Xylem has tracheids, vessels, fibres and living xylem pare"]],
+      "vocabHi": [["उपकला", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"], ["न्यूरॉन", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"], ["ऊतक", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"]],
       "fig": "3D flow · Xylem: water transport · Root → Xylem → Stem → Leaf",
       "figHi": "3D flow चित्र · जाइलम: जल परिवहन · Root / Xylem / Stem",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1780,8 +1780,8 @@
       "title": "Phloem: food transport",
       "titleHi": "फ्लोएम: भोजन परिवहन",
       "short": "Phloem: food transport",
-      "concept": "Sieve tubes and companion cells translocate sugar from leaves to storage and growing parts.",
-      "conceptHi": "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और वृद्धि स्थलों तक पहुँचाती हैं।",
+      "concept": "Phloem is mostly living: sieve tubes carry sugar from leaves to storage and growing parts, and companion cells load and unload that sugar.",
+      "conceptHi": "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा भंडार तक ले जाती हैं और सहचर कोशिकाएँ उसे लादती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1801,8 +1801,8 @@
       },
       "explain": "Phloem translocation is bidirectional, source to sink.",
       "explainHi": "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।",
-      "vocab": [["Neuron", "Sieve tubes and companion cells translocate sugar from lea"], ["Tissue", "Sieve tubes and companion cells translocate sugar from lea"], ["Meristem", "Sieve tubes and companion cells translocate sugar from lea"]],
-      "vocabHi": [["न्यूरॉन", "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और"], ["ऊतक", "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और"], ["विभज्योतक", "चालनी नलिकाएँ और सहचर कोशिकाएँ पत्तियों से शर्करा भंडार और"]],
+      "vocab": [["Neuron", "Phloem is mostly living: sieve tubes carry sugar from leav"], ["Tissue", "Phloem is mostly living: sieve tubes carry sugar from leav"], ["Meristem", "Phloem is mostly living: sieve tubes carry sugar from leav"]],
+      "vocabHi": [["न्यूरॉन", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "], ["ऊतक", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "], ["विभज्योतक", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "]],
       "fig": "3D cycle · Phloem: food transport · Leaf → Sieve tube → Stem → Root",
       "figHi": "3D cycle चित्र · फ्लोएम: भोजन परिवहन · Leaf / Sieve tube / Stem",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1841,8 +1841,8 @@
       "title": "Epithelial tissue",
       "titleHi": "उपकला ऊतक",
       "short": "Epithelial tissue",
-      "concept": "Epithelium covers and protects surfaces as squamous, cuboidal, columnar or ciliated sheets.",
-      "conceptHi": "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में सतहों को ढकती और बचाती है।",
+      "concept": "Epithelium is made of tightly packed cells. It covers the body and lines the mouth, lungs, vessels and gut, blocking germs and water loss.",
+      "conceptHi": "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और मुँह, फेफड़ों, वाहिकाओं और आँतों की परत बनती है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1862,8 +1862,8 @@
       },
       "explain": "Tightly packed epithelial cells form a continuous protective covering.",
       "explainHi": "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।",
-      "vocab": [["Tissue", "Epithelium covers and protects surfaces as squamous, cuboi"], ["Meristem", "Epithelium covers and protects surfaces as squamous, cuboi"], ["Xylem", "Epithelium covers and protects surfaces as squamous, cuboi"]],
-      "vocabHi": [["ऊतक", "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में "], ["विभज्योतक", "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में "], ["जाइलम", "उपकला शल्की, घनाकार, स्तम्भी या पक्ष्मीय परतों के रूप में "]],
+      "vocab": [["Tissue", "Epithelium is made of tightly packed cells. It covers the "], ["Meristem", "Epithelium is made of tightly packed cells. It covers the "], ["Xylem", "Epithelium is made of tightly packed cells. It covers the "]],
+      "vocabHi": [["ऊतक", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"], ["विभज्योतक", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"], ["जाइलम", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"]],
       "fig": "3D layers · Epithelial tissue · Squamous → Cuboidal → Columnar → Ciliated",
       "figHi": "3D layers चित्र · उपकला ऊतक · Squamous / Cuboidal / Columnar",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1902,8 +1902,8 @@
       "title": "Connective tissue",
       "titleHi": "संयोजी ऊतक",
       "short": "Connective tissue",
-      "concept": "Blood, bone, cartilage, areolar and adipose tissues connect, support and transport materials.",
-      "conceptHi": "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देते और पदार्थ पहुँचाते हैं।",
+      "concept": "Connective tissue links and supports: blood is fluid, bone is rigid, cartilage cushions, tendons join muscle to bone and ligaments join bone to bone.",
+      "conceptHi": "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, उपास्थि गद्दी, स्नायु पेशी को अस्थि से जोड़ते हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1911,20 +1911,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Connective tissue?",
-        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Bones and muscles form levers pivoted at joints."],
+        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'संयोजी ऊतक' से मेल खाता है?",
-        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"],
+        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"],
         "a": 1,
         "why": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।"
       },
       "explain": "Blood is a fluid connective tissue with plasma and suspended cells.",
       "explainHi": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।",
-      "vocab": [["Meristem", "Blood, bone, cartilage, areolar and adipose tissues connec"], ["Xylem", "Blood, bone, cartilage, areolar and adipose tissues connec"], ["Phloem", "Blood, bone, cartilage, areolar and adipose tissues connec"]],
-      "vocabHi": [["विभज्योतक", "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देत"], ["जाइलम", "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देत"], ["फ्लोएम", "रक्त, अस्थि, उपास्थि, ऐरियोलर और वसा ऊतक जोड़ते, सहारा देत"]],
+      "vocab": [["Meristem", "Connective tissue links and supports: blood is fluid, bone"], ["Xylem", "Connective tissue links and supports: blood is fluid, bone"], ["Phloem", "Connective tissue links and supports: blood is fluid, bone"]],
+      "vocabHi": [["विभज्योतक", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "], ["जाइलम", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "], ["फ्लोएम", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "]],
       "fig": "3D molecule · Connective tissue · Plasma → RBC → WBC → Platelet",
       "figHi": "3D molecule चित्र · संयोजी ऊतक · Plasma / RBC / WBC",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1940,7 +1940,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Connective tissue?",
-        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Bones and muscles form levers pivoted at joints."],
+        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       },
@@ -1963,8 +1963,8 @@
       "title": "Muscular and nervous tissue",
       "titleHi": "पेशी और तंत्रिका ऊतक",
       "short": "Muscular and nervous t",
-      "concept": "Muscle tissue contracts for movement; nervous tissue carries electrical impulses through neurons.",
-      "conceptHi": "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से विद्युत आवेग ले जाता है।",
+      "concept": "Skeletal muscle is voluntary and striated, smooth muscle is involuntary, cardiac muscle never tires, and neurons carry the impulses.",
+      "conceptHi": "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेशी बिना थके धड़कती है, और न्यूरॉन आवेग ले जाते हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -1972,20 +1972,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       },
       "explain": "A neuron has a cell body, dendrites and a long axon.",
       "explainHi": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।",
-      "vocab": [["Xylem", "Muscle tissue contracts for movement; nervous tissue carri"], ["Phloem", "Muscle tissue contracts for movement; nervous tissue carri"], ["Epithelium", "Muscle tissue contracts for movement; nervous tissue carri"]],
-      "vocabHi": [["जाइलम", "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से वि"], ["फ्लोएम", "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से वि"], ["उपकला", "पेशी ऊतक संकुचन से गति देता है, तंत्रिका ऊतक न्यूरॉन से वि"]],
+      "vocab": [["Xylem", "Skeletal muscle is voluntary and striated, smooth muscle i"], ["Phloem", "Skeletal muscle is voluntary and striated, smooth muscle i"], ["Epithelium", "Skeletal muscle is voluntary and striated, smooth muscle i"]],
+      "vocabHi": [["जाइलम", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"], ["फ्लोएम", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"], ["उपकला", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"]],
       "fig": "3D tree · Muscular and nervous tissue · Neuron → Dendrite → Axon → Muscle",
       "figHi": "3D tree चित्र · पेशी और तंत्रिका ऊतक · Neuron / Dendrite / Axon",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2001,7 +2001,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       },
@@ -2024,8 +2024,8 @@
       "title": "Musculoskeletal system and its care",
       "titleHi": "कंकाल-पेशी तंत्र और उसकी देखभाल",
       "short": "Musculoskeletal system",
-      "concept": "Bones and skeletal muscles act together as levers; posture, nutrition and exercise prevent injury.",
-      "conceptHi": "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं, सही मुद्रा, आहार और व्यायाम चोट बचाते हैं।",
+      "concept": "Bones and skeletal muscles work as levers: tendons anchor muscle to bone, ligaments hold bone to bone, and joints set the limit of movement.",
+      "conceptHi": "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पेशी को अस्थि से, स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -2033,20 +2033,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Similar cells performing one shared function form a tissue."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
-        "why": "Bones and muscles form levers pivoted at joints."
+        "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
-        "why": "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"
+        "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       },
-      "explain": "Bones and muscles form levers pivoted at joints.",
-      "explainHi": "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।",
-      "vocab": [["Phloem", "Bones and skeletal muscles act together as levers; posture"], ["Epithelium", "Bones and skeletal muscles act together as levers; posture"], ["Neuron", "Bones and skeletal muscles act together as levers; posture"]],
-      "vocabHi": [["फ्लोएम", "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं,"], ["उपकला", "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं,"], ["न्यूरॉन", "अस्थियाँ और कंकाल पेशियाँ उत्तोलक की तरह साथ काम करती हैं,"]],
+      "explain": "Tendons connect muscle to bone and ligaments connect bone to bone.",
+      "explainHi": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।",
+      "vocab": [["Phloem", "Bones and skeletal muscles work as levers: tendons anchor "], ["Epithelium", "Bones and skeletal muscles work as levers: tendons anchor "], ["Neuron", "Bones and skeletal muscles work as levers: tendons anchor "]],
+      "vocabHi": [["फ्लोएम", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"], ["उपकला", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"], ["न्यूरॉन", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"]],
       "fig": "3D machine · Musculoskeletal system and its care · Bone → Joint → Muscle → Lever",
       "figHi": "3D machine चित्र · कंकाल-पेशी तंत्र और उसकी देखभाल · Bone / Joint / Muscle",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2062,9 +2062,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Similar cells performing one shared function form a tissue."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
-        "why": "Bones and muscles form levers pivoted at joints."
+        "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       },
       "scene": {
         "type": "atlas",
@@ -2085,8 +2085,8 @@
       "title": "Injury, posture, nutrition and exercise",
       "titleHi": "चोट, मुद्रा, पोषण और व्यायाम",
       "short": "Injury, posture, nutri",
-      "concept": "Sprains, fractures and poor posture are reduced by calcium, vitamin D, warm-up and safe loading.",
-      "conceptHi": "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग और खराब मुद्रा की आशंका घटती है।",
+      "concept": "Calcium, vitamin D, warm-up and safe loading protect the musculoskeletal system, while poor posture and repeated sprains wear joints down.",
+      "conceptHi": "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपेशियों को बचाते हैं, गलत मुद्रा जोड़ों को घिसती है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -2094,20 +2094,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Calcium, vitamin D and warm-up protect bones and joints.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Balanced nutrition and graded exercise protect the musculoskeletal system."
+        "why": "Calcium, vitamin D and warm-up protect bones and joints."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
-        "why": "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।"
+        "why": "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।"
       },
-      "explain": "Balanced nutrition and graded exercise protect the musculoskeletal system.",
-      "explainHi": "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।",
-      "vocab": [["Epithelium", "Sprains, fractures and poor posture are reduced by calcium"], ["Neuron", "Sprains, fractures and poor posture are reduced by calcium"], ["Tissue", "Sprains, fractures and poor posture are reduced by calcium"]],
-      "vocabHi": [["उपकला", "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग "], ["न्यूरॉन", "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग "], ["ऊतक", "कैल्शियम, विटामिन D, वार्म-अप और सही भार से मोच, अस्थिभंग "]],
+      "explain": "Calcium, vitamin D and warm-up protect bones and joints.",
+      "explainHi": "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।",
+      "vocab": [["Epithelium", "Calcium, vitamin D, warm-up and safe loading protect the m"], ["Neuron", "Calcium, vitamin D, warm-up and safe loading protect the m"], ["Tissue", "Calcium, vitamin D, warm-up and safe loading protect the m"]],
+      "vocabHi": [["उपकला", "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपे"], ["न्यूरॉन", "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपे"], ["ऊतक", "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपे"]],
       "fig": "3D cycle · Injury, posture, nutrition and exercise · Nutrition → Exercise → Rest → Posture",
       "figHi": "3D cycle चित्र · चोट, मुद्रा, पोषण और व्यायाम · Nutrition / Exercise / Rest",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2123,9 +2123,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Calcium, vitamin D and warm-up protect bones and joints.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Balanced nutrition and graded exercise protect the musculoskeletal system."
+        "why": "Calcium, vitamin D and warm-up protect bones and joints."
       },
       "scene": {
         "type": "atlas",
@@ -2224,7 +2224,7 @@
         "hi": "ऊतक क्या है",
         "color": "#4f9c6b",
         "spread": 0,
-        "desc": "Similar cells performing one shared function form a tissue."
+        "desc": "A tissue is a group of similar cells performing one shared function."
       }, {
         "id": "3.2",
         "en": "Levels of organisation in organisms",
@@ -2287,20 +2287,20 @@
         "hi": "कंकाल-पेशी तंत्र और उसकी देखभाल",
         "color": "#4f9c6b",
         "spread": 9,
-        "desc": "Bones and muscles form levers pivoted at joints."
+        "desc": "Tendons connect muscle to bone and ligaments connect bone to bone."
       }, {
         "id": "3.11",
         "en": "Injury, posture, nutrition and exercise",
         "hi": "चोट, मुद्रा, पोषण और व्यायाम",
         "color": "#4f9c6b",
         "spread": 10,
-        "desc": "Balanced nutrition and graded exercise protect the musculoskeletal sys"
+        "desc": "Calcium, vitamin D and warm-up protect bones and joints."
       }],
       "quiz": [{
         "q": "Which statement belongs to What a tissue is?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
-        "why": "Similar cells performing one shared function form a tissue."
+        "why": "A tissue is a group of similar cells performing one shared function."
       }, {
         "q": "Which statement belongs to Levels of organisation in organisms?",
         "options": ["Apical, intercalary and lateral meristems add length and girth to plants.", "Division of labour increases from cell level to organ-system level.", "Dead sclerenchyma fibres with lignin give plants mechanical strength."],
@@ -2333,40 +2333,40 @@
         "why": "Tightly packed epithelial cells form a continuous protective covering."
       }, {
         "q": "Which statement belongs to Connective tissue?",
-        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Bones and muscles form levers pivoted at joints."],
+        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       }, {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       }, {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Bones and muscles form levers pivoted at joints.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Similar cells performing one shared function form a tissue."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
-        "why": "Bones and muscles form levers pivoted at joints."
+        "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       }, {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["Similar cells performing one shared function form a tissue.", "Balanced nutrition and graded exercise protect the musculoskeletal system.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Calcium, vitamin D and warm-up protect bones and joints.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Balanced nutrition and graded exercise protect the musculoskeletal system."
+        "why": "Calcium, vitamin D and warm-up protect bones and joints."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'ऊतक क्या है' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 0,
         "why": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"
       }, {
         "q": "कौन-सा कथन 'जीवों में संगठन के स्तर' से मेल खाता है?",
-        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
+        "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
         "a": 1,
         "why": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"
       }, {
         "q": "कौन-सा कथन 'विभज्योतक ऊतक' से मेल खाता है?",
-        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"],
+        "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 2,
-        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लम्बाई और मोटाई बढ़ाते हैं।"
+        "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"
       }, {
         "q": "कौन-सा कथन 'सरल स्थायी पादप ऊतक' से मेल खाता है?",
         "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"],
@@ -2389,24 +2389,24 @@
         "why": "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।"
       }, {
         "q": "कौन-सा कथन 'संयोजी ऊतक' से मेल खाता है?",
-        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"],
+        "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"],
         "a": 1,
         "why": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।"
       }, {
         "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       }, {
         "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
-        "options": ["अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
-        "why": "अस्थियाँ और पेशियाँ जोड़ों पर टिके उत्तोलक बनाती हैं।"
+        "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       }, {
         "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
-        "why": "संतुलित आहार और क्रमिक व्यायाम कंकाल-पेशी तंत्र की रक्षा करते हैं।"
+        "why": "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।"
       }],
       "status": "assessed"
     };

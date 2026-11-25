@@ -4,7 +4,7 @@
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1290 labels, all with Devanagari Hindi",
+   "detail": "1331 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "289 unique SHA-256",
+   "detail": "299 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "289 plates",
+   "detail": "299 plates",
    "ok": true
   }
  },
@@ -551,6 +551,166 @@
     }
    ],
    "sha256": "825d92abfe13641653a149190086688a3464a44777756afc65dd12dc07807ba5",
+   "width": 1376
+  },
+  {
+   "bytes": 61402,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_10_knee_joint.webp",
+   "height": 768,
+   "id": "c9_tissues_3_10_knee_joint",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.10"
+    }
+   ],
+   "sha256": "6fff05e82f5298ede48ffe6899e84587a884b3f75e1f0e72db5aa65e04fa7b04",
+   "width": 1376
+  },
+  {
+   "bytes": 96414,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_1_cell_to_tissue.webp",
+   "height": 768,
+   "id": "c9_tissues_3_1_cell_to_tissue",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.1"
+    }
+   ],
+   "sha256": "05b3c63d210030006460ddacc2a0f30d85eae6b79a2cff87efaa0c0762e43359",
+   "width": 1376
+  },
+  {
+   "bytes": 106968,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_2_levels_of_organisation.webp",
+   "height": 768,
+   "id": "c9_tissues_3_2_levels_of_organisation",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.2"
+    }
+   ],
+   "sha256": "b08c84cf4cacd6f12966d794716b7bea07a93d3352ba4f22a67ed33e66a600a2",
+   "width": 1376
+  },
+  {
+   "bytes": 136402,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_3_meristem_tips.webp",
+   "height": 768,
+   "id": "c9_tissues_3_3_meristem_tips",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.3"
+    }
+   ],
+   "sha256": "697dc1d7f88d75f29e45c62eb6a95c21c08edfd6a8898451004c6c49d1ab7375",
+   "width": 1376
+  },
+  {
+   "bytes": 87894,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_4_simple_permanent.webp",
+   "height": 768,
+   "id": "c9_tissues_3_4_simple_permanent",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.4"
+    }
+   ],
+   "sha256": "b0c371e561ccf008b5324c3d590630004e24ffc9a8d154293809d5578e39b762",
+   "width": 1376
+  },
+  {
+   "bytes": 124174,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_5_xylem_transport.webp",
+   "height": 768,
+   "id": "c9_tissues_3_5_xylem_transport",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.5"
+    }
+   ],
+   "sha256": "57abb29f8e0e736c33c53dc589d619738b83a6ece0e6eec074a448c252642ee2",
+   "width": 1376
+  },
+  {
+   "bytes": 135230,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_6_phloem_transport.webp",
+   "height": 768,
+   "id": "c9_tissues_3_6_phloem_transport",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.6"
+    }
+   ],
+   "sha256": "bbdc6a763be79a2dcc8683b22bf9aab436b85272bb29275349e8f81c114dc038",
+   "width": 1376
+  },
+  {
+   "bytes": 54272,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_7_epithelial_types.webp",
+   "height": 768,
+   "id": "c9_tissues_3_7_epithelial_types",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.7"
+    }
+   ],
+   "sha256": "9816023c8e79e86239f90fcab2d9166f4fc74efa2c0a746aa61ddc2640cfb32b",
+   "width": 1376
+  },
+  {
+   "bytes": 65094,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_8_connective_tissues.webp",
+   "height": 768,
+   "id": "c9_tissues_3_8_connective_tissues",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.8"
+    }
+   ],
+   "sha256": "77487df2889ff90f19cd6b449f88d5aaecf33e1a134c557de97cbc324e0d1227",
+   "width": 1376
+  },
+  {
+   "bytes": 91846,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_9_muscle_nerve.webp",
+   "height": 768,
+   "id": "c9_tissues_3_9_muscle_nerve",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.9"
+    }
+   ],
+   "sha256": "a15ced764d7a8a5c0a849303b0f8dcb877802a2ead1d2c695ea7bcf540fe2965",
    "width": 1376
   },
   {
@@ -5025,17 +5185,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 17171010,
+  "bytes": 18130706,
   "chapters": 33,
-  "creditsRecorded": 92,
+  "creditsRecorded": 102,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 13,
+   "1376x768": 23,
    "1408x768": 198
   },
-  "labels": 1290,
-  "plates": 289,
+  "labels": 1331,
+  "plates": 299,
   "sections": 266,
-  "uniqueSha256": 289
+  "uniqueSha256": 299
  }
 }

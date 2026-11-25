@@ -911,9 +911,11 @@
   },
   "c9_tissues": {
    "3.1": [
+    "rx/c9_tissues_3_1_cell_to_tissue.webp",
     "rx/tissue_epithelial.webp"
    ],
    "3.10": [
+    "rx/c9_tissues_3_10_knee_joint.webp",
     "rx/skeleton_joint.webp",
     "rx/skeleton_joint--1.webp",
     "rx/skeleton_joint--2.webp"
@@ -922,28 +924,36 @@
     "rx/balanced_diet.webp"
    ],
    "3.2": [
+    "rx/c9_tissues_3_2_levels_of_organisation.webp",
     "rx/skin.webp"
    ],
    "3.3": [
+    "rx/c9_tissues_3_3_meristem_tips.webp",
     "rx/meristematic_tissues.webp"
    ],
    "3.4": [
+    "rx/c9_tissues_3_4_simple_permanent.webp",
     "rx/simple_permanent_tissues.webp"
    ],
    "3.5": [
+    "rx/c9_tissues_3_5_xylem_transport.webp",
     "rx/absorption_roots.webp",
     "rx/transpiration.webp"
    ],
    "3.6": [
+    "rx/c9_tissues_3_6_phloem_transport.webp",
     "rx/phloem_translocation.webp"
    ],
    "3.7": [
+    "rx/c9_tissues_3_7_epithelial_types.webp",
     "rx/tissue_epithelial.webp"
    ],
    "3.8": [
+    "rx/c9_tissues_3_8_connective_tissues.webp",
     "rx/tissue_connective.webp"
    ],
    "3.9": [
+    "rx/c9_tissues_3_9_muscle_nerve.webp",
     "rx/tissue_muscular.webp",
     "rx/tissue_nervous.webp",
     "rx/nervous_system--1.webp"
@@ -1072,7 +1082,17 @@
   "rx/c9_cell_2_8_er_golgi_lysosome.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_cell_2_9_cell_division.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_cell_2_10_biomolecules.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_cell_2_11_division_cancer.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_cell_2_11_division_cancer.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_1_cell_to_tissue.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_2_levels_of_organisation.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_3_meristem_tips.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_4_simple_permanent.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_5_xylem_transport.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_6_phloem_transport.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_7_epithelial_types.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_8_connective_tissues.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_9_muscle_nerve.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_10_knee_joint.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -17131,6 +17151,518 @@
     "hi": "सूक्ष्मदर्शी",
     "info_en": "Microscope: labelled part of the illustration “Cell Division, Checkpoints and Tumour Growth”. Illustrative, not to scale.",
     "info_hi": "सूक्ष्मदर्शी: “कोशिका विभाजन, जाँच-बिंदु और गाँठ का विकास” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_1_cell_to_tissue.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 120,
+    "en": "Single cell",
+    "hi": "एकल कोशिका",
+    "info_en": "Single cell: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "एकल कोशिका: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 170,
+    "anchor_y": 150,
+    "en": "Nucleus",
+    "hi": "केन्द्रक",
+    "info_en": "Nucleus: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "केन्द्रक: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 950,
+    "anchor_y": 180,
+    "en": "Tissue sheet",
+    "hi": "ऊतक परत",
+    "info_en": "Tissue sheet: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "ऊतक परत: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 300,
+    "en": "Cell boundary",
+    "hi": "कोशिका सीमा",
+    "info_en": "Cell boundary: labelled part of the illustration “From One Cell to a Tissue”. Illustrative, not to scale.",
+    "info_hi": "कोशिका सीमा: “एक कोशिका से ऊतक तक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_2_levels_of_organisation.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 100,
+    "anchor_y": 180,
+    "en": "Cell",
+    "hi": "कोशिका",
+    "info_en": "Cell: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "कोशिका: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 300,
+    "anchor_y": 180,
+    "en": "Tissue",
+    "hi": "ऊतक",
+    "info_en": "Tissue: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "ऊतक: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 520,
+    "anchor_y": 180,
+    "en": "Organ",
+    "hi": "अंग",
+    "info_en": "Organ: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "अंग: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 180,
+    "en": "Organ system",
+    "hi": "अंग तंत्र",
+    "info_en": "Organ system: labelled part of the illustration “Levels of Organisation”. Illustrative, not to scale.",
+    "info_hi": "अंग तंत्र: “संगठन के स्तर” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_3_meristem_tips.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 200,
+    "anchor_y": 300,
+    "en": "Root tip",
+    "hi": "मूल शीर्ष",
+    "info_en": "Root tip: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "मूल शीर्ष: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 300,
+    "en": "Shoot tip",
+    "hi": "प्ररोह शीर्ष",
+    "info_en": "Shoot tip: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "प्ररोह शीर्ष: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 500,
+    "anchor_y": 300,
+    "en": "Dividing cells",
+    "hi": "विभाजित कोशिकाएँ",
+    "info_en": "Dividing cells: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "विभाजित कोशिकाएँ: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 350,
+    "anchor_y": 420,
+    "en": "Large nucleus",
+    "hi": "बड़ा केन्द्रक",
+    "info_en": "Large nucleus: labelled part of the illustration “Meristematic Tissue at Root and Shoot Tips”. Illustrative, not to scale.",
+    "info_hi": "बड़ा केन्द्रक: “जड़ और प्ररोह शीर्ष पर विभज्योतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_4_simple_permanent.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 350,
+    "en": "Parenchyma",
+    "hi": "पैरेनकाइमा",
+    "info_en": "Parenchyma: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "पैरेनकाइमा: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 690,
+    "anchor_y": 350,
+    "en": "Collenchyma",
+    "hi": "कॉलेनकाइमा",
+    "info_en": "Collenchyma: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "कॉलेनकाइमा: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1200,
+    "anchor_y": 350,
+    "en": "Sclerenchyma",
+    "hi": "स्क्लेरेनकाइमा",
+    "info_en": "Sclerenchyma: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "स्क्लेरेनकाइमा: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1250,
+    "anchor_y": 300,
+    "en": "Lignified wall",
+    "hi": "लिग्निन भित्ति",
+    "info_en": "Lignified wall: labelled part of the illustration “Simple Permanent Plant Tissues”. Illustrative, not to scale.",
+    "info_hi": "लिग्निन भित्ति: “सरल स्थायी पादप ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_5_xylem_transport.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 500,
+    "anchor_y": 350,
+    "en": "Xylem vessel",
+    "hi": "जाइलम वाहिका",
+    "info_en": "Xylem vessel: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "जाइलम वाहिका: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 200,
+    "en": "Water rising",
+    "hi": "ऊपर उठता जल",
+    "info_en": "Water rising: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "ऊपर उठता जल: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 800,
+    "anchor_y": 400,
+    "en": "Tracheid",
+    "hi": "ट्रैकीड",
+    "info_en": "Tracheid: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "ट्रैकीड: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 250,
+    "anchor_y": 300,
+    "en": "Ground tissue",
+    "hi": "ग्राउंड ऊतक",
+    "info_en": "Ground tissue: labelled part of the illustration “Xylem: Water and Mineral Transport”. Illustrative, not to scale.",
+    "info_hi": "ग्राउंड ऊतक: “जाइलम: जल और खनिज परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_6_phloem_transport.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 300,
+    "en": "Sieve tube",
+    "hi": "चालनी नलिका",
+    "info_en": "Sieve tube: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "चालनी नलिका: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 250,
+    "en": "Sieve plate",
+    "hi": "चालनी प्लेट",
+    "info_en": "Sieve plate: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "चालनी प्लेट: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 850,
+    "anchor_y": 350,
+    "en": "Companion cell",
+    "hi": "सहचर कोशिका",
+    "info_en": "Companion cell: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "सहचर कोशिका: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 400,
+    "en": "Sugar transport",
+    "hi": "शर्करा परिवहन",
+    "info_en": "Sugar transport: labelled part of the illustration “Phloem: Food Transport”. Illustrative, not to scale.",
+    "info_hi": "शर्करा परिवहन: “फ्लोएम: भोजन परिवहन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_7_epithelial_types.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 120,
+    "anchor_y": 350,
+    "en": "Squamous",
+    "hi": "शल्की",
+    "info_en": "Squamous: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "शल्की: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 380,
+    "anchor_y": 350,
+    "en": "Cuboidal",
+    "hi": "घनाकार",
+    "info_en": "Cuboidal: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "घनाकार: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 640,
+    "anchor_y": 350,
+    "en": "Columnar",
+    "hi": "स्तम्भी",
+    "info_en": "Columnar: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "स्तम्भी: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 330,
+    "en": "Ciliated",
+    "hi": "पक्ष्मीय",
+    "info_en": "Ciliated: labelled part of the illustration “Types of Epithelial Tissue”. Illustrative, not to scale.",
+    "info_hi": "पक्ष्मीय: “उपकला ऊतक के प्रकार” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_8_connective_tissues.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 130,
+    "anchor_y": 400,
+    "en": "Blood",
+    "hi": "रक्त",
+    "info_en": "Blood: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "रक्त: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 350,
+    "anchor_y": 350,
+    "en": "Bone",
+    "hi": "अस्थि",
+    "info_en": "Bone: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "अस्थि: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 560,
+    "anchor_y": 380,
+    "en": "Cartilage",
+    "hi": "उपास्थि",
+    "info_en": "Cartilage: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "उपास्थि: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 760,
+    "anchor_y": 350,
+    "en": "Tendon",
+    "hi": "स्नायु",
+    "info_en": "Tendon: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "स्नायु: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 1046,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 960,
+    "anchor_y": 350,
+    "en": "Ligament",
+    "hi": "स्नायुबंध",
+    "info_en": "Ligament: labelled part of the illustration “Connective Tissues”. Illustrative, not to scale.",
+    "info_hi": "स्नायुबंध: “संयोजी ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_9_muscle_nerve.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 150,
+    "anchor_y": 250,
+    "en": "Skeletal muscle",
+    "hi": "कंकाल पेशी",
+    "info_en": "Skeletal muscle: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "कंकाल पेशी: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 300,
+    "en": "Smooth muscle",
+    "hi": "चिकनी पेशी",
+    "info_en": "Smooth muscle: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "चिकनी पेशी: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 280,
+    "en": "Cardiac muscle",
+    "hi": "हृदय पेशी",
+    "info_en": "Cardiac muscle: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "हृदय पेशी: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 300,
+    "anchor_y": 420,
+    "en": "Neuron",
+    "hi": "न्यूरॉन",
+    "info_en": "Neuron: labelled part of the illustration “Muscle and Nervous Tissue”. Illustrative, not to scale.",
+    "info_hi": "न्यूरॉन: “पेशी और तंत्रिका ऊतक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_10_knee_joint.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 250,
+    "en": "Bone",
+    "hi": "अस्थि",
+    "info_en": "Bone: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "अस्थि: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 650,
+    "anchor_y": 420,
+    "en": "Cartilage",
+    "hi": "उपास्थि",
+    "info_en": "Cartilage: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "उपास्थि: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 520,
+    "anchor_y": 300,
+    "en": "Tendon",
+    "hi": "स्नायु",
+    "info_en": "Tendon: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "स्नायु: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 750,
+    "anchor_y": 450,
+    "en": "Ligament",
+    "hi": "स्नायुबंध",
+    "info_en": "Ligament: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
+    "info_hi": "स्नायुबंध: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },
