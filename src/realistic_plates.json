@@ -806,32 +806,41 @@
   },
   "c9_motion": {
    "4.1": [
+    "rx/c9_motion_4_1_reference_point.webp",
     "rx/frames_vectors_motion.webp",
     "rx/motion.webp"
    ],
    "4.2": [
+    "rx/c9_motion_4_2_distance_displacement.webp",
     "rx/frames_vectors_motion.webp"
    ],
    "4.3": [
+    "rx/c9_motion_4_3_average_speed.webp",
     "rx/motion.webp"
    ],
    "4.4": [
+    "rx/c9_motion_4_4_average_velocity.webp",
     "rx/motion--1.webp"
    ],
    "4.5": [
+    "rx/c9_motion_4_5_acceleration.webp",
     "rx/motion--2.webp",
     "rx/motion--3.webp"
    ],
    "4.6": [
+    "rx/c9_motion_4_6_distance_time_graph.webp",
     "rx/motion--1.webp"
    ],
    "4.7": [
+    "rx/c9_motion_4_7_velocity_time_graph.webp",
     "rx/motion--2.webp"
    ],
    "4.8": [
+    "rx/c9_motion_4_8_kinematic_equations.webp",
     "rx/motion--2.webp"
    ],
    "4.9": [
+    "rx/c9_motion_4_9_circular_motion.webp",
     "rx/circular_motion.webp"
    ]
   },
@@ -1094,7 +1103,16 @@
   "rx/c9_tissues_3_8_connective_tissues.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_tissues_3_9_muscle_nerve.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_tissues_3_10_knee_joint.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_tissues_3_11_care_posture_yoga.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_tissues_3_11_care_posture_yoga.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_1_reference_point.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_2_distance_displacement.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_3_average_speed.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_4_average_velocity.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_5_acceleration.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_6_distance_time_graph.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_7_velocity_time_graph.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_8_kinematic_equations.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_motion_4_9_circular_motion.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -17715,6 +17733,456 @@
     "hi": "कैल्शियम युक्त भोजन",
     "info_en": "Calcium-rich food: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
     "info_hi": "कैल्शियम युक्त भोजन: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_1_reference_point.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 160,
+    "anchor_y": 400,
+    "en": "Reference point",
+    "hi": "सन्दर्भ बिंदु",
+    "info_en": "Reference point: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "सन्दर्भ बिंदु: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 880,
+    "anchor_y": 380,
+    "en": "Runner in motion",
+    "hi": "गति में धावक",
+    "info_en": "Runner in motion: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "गति में धावक: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1240,
+    "anchor_y": 560,
+    "en": "Forward direction",
+    "hi": "अग्र दिशा",
+    "info_en": "Forward direction: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "अग्र दिशा: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 320,
+    "anchor_y": 580,
+    "en": "Backward direction",
+    "hi": "पश्च दिशा",
+    "info_en": "Backward direction: labelled part of the illustration “Rest, Motion and Frame of Reference”. Illustrative, not to scale.",
+    "info_hi": "पश्च दिशा: “विराम, गति और सन्दर्भ फ़्रेम” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_2_distance_displacement.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 170,
+    "anchor_y": 320,
+    "en": "Start flag",
+    "hi": "प्रारंभ ध्वजा",
+    "info_en": "Start flag: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "प्रारंभ ध्वजा: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 260,
+    "en": "Winding path",
+    "hi": "घुमावदार पथ",
+    "info_en": "Winding path: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "घुमावदार पथ: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 430,
+    "en": "Straight arrow",
+    "hi": "सरल तीर",
+    "info_en": "Straight arrow: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "सरल तीर: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1280,
+    "anchor_y": 200,
+    "en": "Finish flag",
+    "hi": "अंतिम ध्वजा",
+    "info_en": "Finish flag: labelled part of the illustration “Distance and Displacement”. Illustrative, not to scale.",
+    "info_hi": "अंतिम ध्वजा: “दूरी और विस्थापन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_3_average_speed.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 700,
+    "anchor_y": 210,
+    "en": "Stopwatch",
+    "hi": "स्टॉपवॉच",
+    "info_en": "Stopwatch: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "स्टॉपवॉच: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 460,
+    "anchor_y": 500,
+    "en": "Leading runner",
+    "hi": "अग्रणी धावक",
+    "info_en": "Leading runner: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "अग्रणी धावक: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 860,
+    "anchor_y": 500,
+    "en": "Middle runner",
+    "hi": "मध्य धावक",
+    "info_en": "Middle runner: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "मध्य धावक: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1050,
+    "anchor_y": 480,
+    "en": "Trailing runner",
+    "hi": "पिछड़ा धावक",
+    "info_en": "Trailing runner: labelled part of the illustration “Speed and Average Speed”. Illustrative, not to scale.",
+    "info_hi": "पिछड़ा धावक: “चाल और औसत चाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_4_average_velocity.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 620,
+    "anchor_y": 160,
+    "en": "Forward velocity",
+    "hi": "अग्र वेग",
+    "info_en": "Forward velocity: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "अग्र वेग: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 620,
+    "anchor_y": 330,
+    "en": "Swimmer",
+    "hi": "तैराक",
+    "info_en": "Swimmer: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "तैराक: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 760,
+    "anchor_y": 520,
+    "en": "Return direction",
+    "hi": "प्रत्यावर्ती दिशा",
+    "info_en": "Return direction: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "प्रत्यावर्ती दिशा: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 250,
+    "anchor_y": 300,
+    "en": "Lane rope",
+    "hi": "लेन रस्सी",
+    "info_en": "Lane rope: labelled part of the illustration “Velocity and Uniform Velocity”. Illustrative, not to scale.",
+    "info_hi": "लेन रस्सी: “वेग और एकसमान वेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_5_acceleration.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 670,
+    "anchor_y": 130,
+    "en": "Ball at start",
+    "hi": "प्रारंभिक गेंद",
+    "info_en": "Ball at start: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "प्रारंभिक गेंद: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 680,
+    "anchor_y": 370,
+    "en": "Speed rising",
+    "hi": "चाल बढ़ती हुई",
+    "info_en": "Speed rising: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "चाल बढ़ती हुई: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 620,
+    "en": "Longest arrow",
+    "hi": "सबसे लंबा तीर",
+    "info_en": "Longest arrow: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "सबसे लंबा तीर: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 830,
+    "anchor_y": 350,
+    "en": "Downward pull",
+    "hi": "अधोमुख त्वरण",
+    "info_en": "Downward pull: labelled part of the illustration “Acceleration and Retardation”. Illustrative, not to scale.",
+    "info_hi": "अधोमुख त्वरण: “त्वरण और मंदन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_6_distance_time_graph.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 440,
+    "anchor_y": 100,
+    "en": "Position axis",
+    "hi": "स्थिति अक्ष",
+    "info_en": "Position axis: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "स्थिति अक्ष: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 960,
+    "anchor_y": 650,
+    "en": "Time axis",
+    "hi": "समय अक्ष",
+    "info_en": "Time axis: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "समय अक्ष: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 980,
+    "anchor_y": 300,
+    "en": "Straight line",
+    "hi": "सीधी रेखा",
+    "info_en": "Straight line: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "सीधी रेखा: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 890,
+    "anchor_y": 80,
+    "en": "Curved line",
+    "hi": "मुड़ी रेखा",
+    "info_en": "Curved line: labelled part of the illustration “Distance-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "मुड़ी रेखा: “दूरी-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_7_velocity_time_graph.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 680,
+    "anchor_y": 380,
+    "en": "Flat line",
+    "hi": "समतल रेखा",
+    "info_en": "Flat line: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "समतल रेखा: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 760,
+    "anchor_y": 300,
+    "en": "Rising line",
+    "hi": "चढ़ती रेखा",
+    "info_en": "Rising line: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "चढ़ती रेखा: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 640,
+    "anchor_y": 430,
+    "en": "Falling line",
+    "hi": "गिरती रेखा",
+    "info_en": "Falling line: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "गिरती रेखा: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 620,
+    "anchor_y": 510,
+    "en": "Shaded area",
+    "hi": "छायांकित क्षेत्र",
+    "info_en": "Shaded area: labelled part of the illustration “Velocity-Time Graphs”. Illustrative, not to scale.",
+    "info_hi": "छायांकित क्षेत्र: “वेग-समय आलेख” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_8_kinematic_equations.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 380,
+    "anchor_y": 330,
+    "en": "Initial velocity",
+    "hi": "प्रारंभिक वेग",
+    "info_en": "Initial velocity: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "प्रारंभिक वेग: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 660,
+    "anchor_y": 280,
+    "en": "Rectangle area",
+    "hi": "आयत क्षेत्र",
+    "info_en": "Rectangle area: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "आयत क्षेत्र: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 500,
+    "en": "Triangle area",
+    "hi": "त्रिभुज क्षेत्र",
+    "info_en": "Triangle area: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "त्रिभुज क्षेत्र: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 310,
+    "anchor_y": 450,
+    "en": "Car at origin",
+    "hi": "मूल बिंदु पर कार",
+    "info_en": "Car at origin: labelled part of the illustration “Kinematic Equations from a Graph”. Illustrative, not to scale.",
+    "info_hi": "मूल बिंदु पर कार: “आलेख से गति के समीकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_motion_4_9_circular_motion.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 870,
+    "anchor_y": 180,
+    "en": "Marble",
+    "hi": "कंचा",
+    "info_en": "Marble: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "कंचा: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 600,
+    "anchor_y": 210,
+    "en": "Tangent arrow",
+    "hi": "स्पर्श रेखा तीर",
+    "info_en": "Tangent arrow: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "स्पर्श रेखा तीर: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 400,
+    "anchor_y": 400,
+    "en": "Circular ring",
+    "hi": "वृत्तीय वलय",
+    "info_en": "Circular ring: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "वृत्तीय वलय: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 690,
+    "anchor_y": 450,
+    "en": "Centre",
+    "hi": "केंद्र",
+    "info_en": "Centre: labelled part of the illustration “Uniform Circular Motion”. Illustrative, not to scale.",
+    "info_hi": "केंद्र: “एकसमान वृत्तीय गति” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },

@@ -4,7 +4,7 @@
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1335 labels, all with Devanagari Hindi",
+   "detail": "1371 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "300 unique SHA-256",
+   "detail": "309 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "300 plates",
+   "detail": "309 plates",
    "ok": true
   }
  },
@@ -551,6 +551,150 @@
     }
    ],
    "sha256": "825d92abfe13641653a149190086688a3464a44777756afc65dd12dc07807ba5",
+   "width": 1376
+  },
+  {
+   "bytes": 25004,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_1_reference_point.webp",
+   "height": 768,
+   "id": "c9_motion_4_1_reference_point",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.1"
+    }
+   ],
+   "sha256": "e5eade31f7ff4f302fb100024237f8402f4dfd945a1bc8f4e917babcbed13b7b",
+   "width": 1376
+  },
+  {
+   "bytes": 88002,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_2_distance_displacement.webp",
+   "height": 768,
+   "id": "c9_motion_4_2_distance_displacement",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.2"
+    }
+   ],
+   "sha256": "c2041a43f5acee14d913736b36dcf559f89c0f441a6ebce7af90ac1301f213a1",
+   "width": 1376
+  },
+  {
+   "bytes": 109690,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_3_average_speed.webp",
+   "height": 768,
+   "id": "c9_motion_4_3_average_speed",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.3"
+    }
+   ],
+   "sha256": "78a96cceec351faa56c61c6eed54aa9b1e0c3ff0ef63303a48d1637759c1f7a1",
+   "width": 1376
+  },
+  {
+   "bytes": 87516,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_4_average_velocity.webp",
+   "height": 768,
+   "id": "c9_motion_4_4_average_velocity",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.4"
+    }
+   ],
+   "sha256": "44e782d32a14ca99a958618c456b015fd709f87affaaabae62dea577ad9b0910",
+   "width": 1376
+  },
+  {
+   "bytes": 15588,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_5_acceleration.webp",
+   "height": 768,
+   "id": "c9_motion_4_5_acceleration",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.5"
+    }
+   ],
+   "sha256": "3365469905529c9a173d5f54107a083137dea716e387972a618db98da6e177b4",
+   "width": 1376
+  },
+  {
+   "bytes": 39158,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_6_distance_time_graph.webp",
+   "height": 768,
+   "id": "c9_motion_4_6_distance_time_graph",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.6"
+    }
+   ],
+   "sha256": "b356aa065567d18052c3a43b7cc35eab6e62dfd366e0b26ef6720ad611b157ee",
+   "width": 1376
+  },
+  {
+   "bytes": 77532,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_7_velocity_time_graph.webp",
+   "height": 768,
+   "id": "c9_motion_4_7_velocity_time_graph",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.7"
+    }
+   ],
+   "sha256": "fe4d45bb140e4d9b2fba285d54aa15f090dcfb7257cdf7c0f85473a51ce4e2a6",
+   "width": 1376
+  },
+  {
+   "bytes": 31102,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_8_kinematic_equations.webp",
+   "height": 768,
+   "id": "c9_motion_4_8_kinematic_equations",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.8"
+    }
+   ],
+   "sha256": "909e7ad3f73a28b3ed19e69ca7a12a5fe0cac0efb754ceef444bcbe4474675f0",
+   "width": 1376
+  },
+  {
+   "bytes": 36614,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_motion_4_9_circular_motion.webp",
+   "height": 768,
+   "id": "c9_motion_4_9_circular_motion",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_motion",
+     "section": "4.9"
+    }
+   ],
+   "sha256": "36fd6b992c705c556c6b7eac8fc76bc6680ad8bef9ac1802b5969e6ae317b367",
    "width": 1376
   },
   {
@@ -5201,17 +5345,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 18190598,
+  "bytes": 18700804,
   "chapters": 33,
-  "creditsRecorded": 103,
+  "creditsRecorded": 112,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 24,
+   "1376x768": 33,
    "1408x768": 198
   },
-  "labels": 1335,
-  "plates": 300,
+  "labels": 1371,
+  "plates": 309,
   "sections": 266,
-  "uniqueSha256": 300
+  "uniqueSha256": 309
  }
 }

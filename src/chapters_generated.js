@@ -2417,8 +2417,8 @@
       "title": "Rest, motion and frame of reference",
       "titleHi": "विराम, गति और सन्दर्भ फ़्रेम",
       "short": "Rest, motion and frame",
-      "concept": "An object is at rest or in motion only relative to a chosen reference point.",
-      "conceptHi": "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्ष ही होता है।",
+      "concept": "Position is the distance and direction of an object from a fixed reference point; motion means that this position changes with time.",
+      "conceptHi": "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती है; समय के साथ स्थिति बदलने पर वस्तु गति में कहलाती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2426,20 +2426,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Rest, motion and frame of reference?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
-        "why": "Motion is always described relative to a reference frame."
+        "why": "Along a straight line, right of the origin is positive and left negative."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'विराम, गति और सन्दर्भ फ़्रेम' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 0,
-        "why": "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"
+        "why": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"
       },
-      "explain": "Motion is always described relative to a reference frame.",
-      "explainHi": "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।",
-      "vocab": [["Motion", "An object is at rest or in motion only relative to a chose"], ["Displacement", "An object is at rest or in motion only relative to a chose"], ["Velocity", "An object is at rest or in motion only relative to a chose"]],
-      "vocabHi": [["गति", "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्"], ["विस्थापन", "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्"], ["वेग", "किसी वस्तु का विराम या गति चुने गए सन्दर्भ बिंदु के सापेक्"]],
+      "explain": "Along a straight line, right of the origin is positive and left negative.",
+      "explainHi": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।",
+      "vocab": [["Motion", "Position is the distance and direction of an object from a"], ["Displacement", "Position is the distance and direction of an object from a"], ["Velocity", "Position is the distance and direction of an object from a"]],
+      "vocabHi": [["गति", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"], ["विस्थापन", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"], ["वेग", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"]],
       "fig": "3D flow · Rest, motion and frame of reference · Object → Reference → Position → Change",
       "figHi": "3D flow चित्र · विराम, गति और सन्दर्भ फ़्रेम · Object / Reference / Position",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2455,9 +2455,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Rest, motion and frame of reference?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
-        "why": "Motion is always described relative to a reference frame."
+        "why": "Along a straight line, right of the origin is positive and left negative."
       },
       "scene": {
         "type": "atlas",
@@ -2478,8 +2478,8 @@
       "title": "Distance and displacement",
       "titleHi": "दूरी और विस्थापन",
       "short": "Distance and displacem",
-      "concept": "Distance is total path length and has no direction; displacement is the shortest change in position with direction.",
-      "conceptHi": "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन स्थिति में न्यूनतम दिशात्मक परिवर्तन है।",
+      "concept": "Distance travelled is the whole path length; displacement is the straight change in position, so it can never exceed the distance.",
+      "conceptHi": "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन है, इसलिए वह दूरी से अधिक नहीं हो सकता।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2487,20 +2487,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Distance and displacement?",
-        "options": ["Average speed uses total distance, not the magnitude of displacement.", "Displacement can be zero after a round trip while distance is not.", "A change of direction changes velocity even at constant speed."],
+        "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
-        "why": "Displacement can be zero after a round trip while distance is not."
+        "why": "A ball thrown up and caught back at the same point has zero displacement."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'दूरी और विस्थापन' से मेल खाता है?",
-        "options": ["औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"],
+        "options": ["चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"],
         "a": 1,
-        "why": "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।"
+        "why": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।"
       },
-      "explain": "Displacement can be zero after a round trip while distance is not.",
-      "explainHi": "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।",
-      "vocab": [["Displacement", "Distance is total path length and has no direction; displa"], ["Velocity", "Distance is total path length and has no direction; displa"], ["Acceleration", "Distance is total path length and has no direction; displa"]],
-      "vocabHi": [["विस्थापन", "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन"], ["वेग", "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन"], ["त्वरण", "दूरी तय किए गए पथ की कुल लम्बाई है और दिशाहीन है, विस्थापन"]],
+      "explain": "A ball thrown up and caught back at the same point has zero displacement.",
+      "explainHi": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।",
+      "vocab": [["Displacement", "Distance travelled is the whole path length; displacement "], ["Velocity", "Distance travelled is the whole path length; displacement "], ["Acceleration", "Distance travelled is the whole path length; displacement "]],
+      "vocabHi": [["विस्थापन", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"], ["वेग", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"], ["त्वरण", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"]],
       "fig": "3D rays · Distance and displacement · Start → Path → Turn → End",
       "figHi": "3D rays चित्र · दूरी और विस्थापन · Start / Path / Turn",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2516,9 +2516,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Distance and displacement?",
-        "options": ["Average speed uses total distance, not the magnitude of displacement.", "Displacement can be zero after a round trip while distance is not.", "A change of direction changes velocity even at constant speed."],
+        "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
-        "why": "Displacement can be zero after a round trip while distance is not."
+        "why": "A ball thrown up and caught back at the same point has zero displacement."
       },
       "scene": {
         "type": "atlas",
@@ -2539,8 +2539,8 @@
       "title": "Speed and average speed",
       "titleHi": "चाल और औसत चाल",
       "short": "Speed and average spee",
-      "concept": "Speed is distance travelled per unit time; average speed is total distance divided by total time.",
-      "conceptHi": "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल समय से भाग देने पर मिलती है।",
+      "concept": "Average speed is total distance divided by the time interval; equal distances in equal times mean uniform motion.",
+      "conceptHi": "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बराबर समय में बराबर दूरी एकसमान गति कहलाती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2548,20 +2548,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Speed and average speed?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
-        "why": "Average speed uses total distance, not the magnitude of displacement."
+        "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'चाल और औसत चाल' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 2,
-        "why": "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"
+        "why": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"
       },
-      "explain": "Average speed uses total distance, not the magnitude of displacement.",
-      "explainHi": "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।",
-      "vocab": [["Velocity", "Speed is distance travelled per unit time; average speed i"], ["Acceleration", "Speed is distance travelled per unit time; average speed i"], ["Graph", "Speed is distance travelled per unit time; average speed i"]],
-      "vocabHi": [["वेग", "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल"], ["त्वरण", "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल"], ["आलेख", "चाल प्रति इकाई समय में तय दूरी है, औसत चाल कुल दूरी को कुल"]],
+      "explain": "The Ganitakaumudi of the 14th century used speed to time a meeting.",
+      "explainHi": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।",
+      "vocab": [["Velocity", "Average speed is total distance divided by the time interv"], ["Acceleration", "Average speed is total distance divided by the time interv"], ["Graph", "Average speed is total distance divided by the time interv"]],
+      "vocabHi": [["वेग", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"], ["त्वरण", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"], ["आलेख", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"]],
       "fig": "3D bars · Speed and average speed · Trip A → Trip B → Trip C → Average",
       "figHi": "3D bars चित्र · चाल और औसत चाल · Trip A / Trip B / Trip C",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2577,9 +2577,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Speed and average speed?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
-        "why": "Average speed uses total distance, not the magnitude of displacement."
+        "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       },
       "scene": {
         "type": "atlas",
@@ -2600,8 +2600,8 @@
       "title": "Velocity and uniform velocity",
       "titleHi": "वेग और एकसमान वेग",
       "short": "Velocity and uniform v",
-      "concept": "Velocity is displacement per unit time with direction; uniform velocity means equal displacement in equal intervals.",
-      "conceptHi": "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में बराबर अंतराल में बराबर विस्थापन होता है।",
+      "concept": "Average velocity is displacement divided by the time interval and keeps the direction of that displacement; a round trip averages zero.",
+      "conceptHi": "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और उसी की दिशा रखता है; चक्कर में औसत शून्य होता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2609,20 +2609,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Velocity and uniform velocity?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "A steeper distance-time line means greater speed."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
-        "why": "A change of direction changes velocity even at constant speed."
+        "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'वेग और एकसमान वेग' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 0,
-        "why": "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"
+        "why": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"
       },
-      "explain": "A change of direction changes velocity even at constant speed.",
-      "explainHi": "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।",
-      "vocab": [["Acceleration", "Velocity is displacement per unit time with direction; uni"], ["Graph", "Velocity is displacement per unit time with direction; uni"], ["Reference", "Velocity is displacement per unit time with direction; uni"]],
-      "vocabHi": [["त्वरण", "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में ब"], ["आलेख", "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में ब"], ["सन्दर्भ बिंदु", "वेग दिशा सहित प्रति इकाई समय विस्थापन है, एकसमान वेग में ब"]],
+      "explain": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.",
+      "explainHi": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।",
+      "vocab": [["Acceleration", "Average velocity is displacement divided by the time inter"], ["Graph", "Average velocity is displacement divided by the time inter"], ["Reference", "Average velocity is displacement divided by the time inter"]],
+      "vocabHi": [["त्वरण", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "], ["आलेख", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "], ["सन्दर्भ बिंदु", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "]],
       "fig": "3D graph · Velocity and uniform velocity · t0 → t1 → t2 → Straight line",
       "figHi": "3D graph चित्र · वेग और एकसमान वेग · t0 / t1 / t2",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2638,9 +2638,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Velocity and uniform velocity?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "A steeper distance-time line means greater speed."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
-        "why": "A change of direction changes velocity even at constant speed."
+        "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       },
       "scene": {
         "type": "atlas",
@@ -2661,8 +2661,8 @@
       "title": "Acceleration and retardation",
       "titleHi": "त्वरण और मंदन",
       "short": "Acceleration and retar",
-      "concept": "Acceleration is the rate of change of velocity; negative acceleration is called retardation.",
-      "conceptHi": "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते हैं।",
+      "concept": "Average acceleration is the change in velocity divided by the time interval; speeding up makes it act along the velocity.",
+      "conceptHi": "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता है; गति बढ़ने पर यह वेग की दिशा में लगता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2670,20 +2670,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Acceleration and retardation?",
-        "options": ["A steeper distance-time line means greater speed.", "Acceleration has units of metres per second squared.", "Area under a velocity-time graph equals displacement."],
+        "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
-        "why": "Acceleration has units of metres per second squared."
+        "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'त्वरण और मंदन' से मेल खाता है?",
-        "options": ["दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"],
+        "options": ["ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"],
         "a": 1,
-        "why": "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।"
+        "why": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।"
       },
-      "explain": "Acceleration has units of metres per second squared.",
-      "explainHi": "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।",
-      "vocab": [["Graph", "Acceleration is the rate of change of velocity; negative a"], ["Reference", "Acceleration is the rate of change of velocity; negative a"], ["Motion", "Acceleration is the rate of change of velocity; negative a"]],
-      "vocabHi": [["आलेख", "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते है"], ["सन्दर्भ बिंदु", "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते है"], ["गति", "त्वरण वेग परिवर्तन की दर है, ऋणात्मक त्वरण को मंदन कहते है"]],
+      "explain": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².",
+      "explainHi": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।",
+      "vocab": [["Graph", "Average acceleration is the change in velocity divided by "], ["Reference", "Average acceleration is the change in velocity divided by "], ["Motion", "Average acceleration is the change in velocity divided by "]],
+      "vocabHi": [["आलेख", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "], ["सन्दर्भ बिंदु", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "], ["गति", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "]],
       "fig": "3D graph · Acceleration and retardation · Slowing → Uniform → Speeding → Slope",
       "figHi": "3D graph चित्र · त्वरण और मंदन · Slowing / Uniform / Speeding",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2699,9 +2699,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Acceleration and retardation?",
-        "options": ["A steeper distance-time line means greater speed.", "Acceleration has units of metres per second squared.", "Area under a velocity-time graph equals displacement."],
+        "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
-        "why": "Acceleration has units of metres per second squared."
+        "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       },
       "scene": {
         "type": "atlas",
@@ -2722,8 +2722,8 @@
       "title": "Distance-time graphs",
       "titleHi": "दूरी-समय आलेख",
       "short": "Distance-time graphs",
-      "concept": "On a distance-time graph the slope gives speed; a horizontal line means the object is at rest.",
-      "conceptHi": "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विराम है।",
+      "concept": "A straight distance-time line means constant speed, a curved one changing speed, and a line parallel to the time axis means rest.",
+      "conceptHi": "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती रहती है, और समय अक्ष के समानांतर रेखा विराम बताती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2731,20 +2731,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Distance-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "A steeper distance-time line means greater speed."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
-        "why": "A steeper distance-time line means greater speed."
+        "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'दूरी-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 2,
-        "why": "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"
+        "why": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"
       },
-      "explain": "A steeper distance-time line means greater speed.",
-      "explainHi": "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।",
-      "vocab": [["Reference", "On a distance-time graph the slope gives speed; a horizont"], ["Motion", "On a distance-time graph the slope gives speed; a horizont"], ["Displacement", "On a distance-time graph the slope gives speed; a horizont"]],
-      "vocabHi": [["सन्दर्भ बिंदु", "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विर"], ["गति", "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विर"], ["विस्थापन", "दूरी-समय आलेख की ढाल चाल देती है, क्षैतिज रेखा का अर्थ विर"]],
+      "explain": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.",
+      "explainHi": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।",
+      "vocab": [["Reference", "A straight distance-time line means constant speed, a curv"], ["Motion", "A straight distance-time line means constant speed, a curv"], ["Displacement", "A straight distance-time line means constant speed, a curv"]],
+      "vocabHi": [["सन्दर्भ बिंदु", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"], ["गति", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"], ["विस्थापन", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"]],
       "fig": "3D graph · Distance-time graphs · Rest → Slow → Fast → Steeper",
       "figHi": "3D graph चित्र · दूरी-समय आलेख · Rest / Slow / Fast",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2760,9 +2760,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Distance-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "A steeper distance-time line means greater speed."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
-        "why": "A steeper distance-time line means greater speed."
+        "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       },
       "scene": {
         "type": "atlas",
@@ -2783,8 +2783,8 @@
       "title": "Velocity-time graphs",
       "titleHi": "वेग-समय आलेख",
       "short": "Velocity-time graphs",
-      "concept": "The slope of a velocity-time graph gives acceleration and the area under it gives displacement.",
-      "conceptHi": "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्थापन देता है।",
+      "concept": "On a velocity-time graph the slope is the acceleration and the area between the line and the time axis is displacement.",
+      "conceptHi": "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के बीच का क्षेत्रफल विस्थापन होता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2792,20 +2792,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Velocity-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
-        "why": "Area under a velocity-time graph equals displacement."
+        "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'वेग-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 0,
-        "why": "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"
+        "why": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"
       },
-      "explain": "Area under a velocity-time graph equals displacement.",
-      "explainHi": "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।",
-      "vocab": [["Motion", "The slope of a velocity-time graph gives acceleration and "], ["Displacement", "The slope of a velocity-time graph gives acceleration and "], ["Velocity", "The slope of a velocity-time graph gives acceleration and "]],
-      "vocabHi": [["गति", "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्था"], ["विस्थापन", "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्था"], ["वेग", "वेग-समय आलेख की ढाल त्वरण और उसके नीचे का क्षेत्रफल विस्था"]],
+      "explain": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement.",
+      "explainHi": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।",
+      "vocab": [["Motion", "On a velocity-time graph the slope is the acceleration and"], ["Displacement", "On a velocity-time graph the slope is the acceleration and"], ["Velocity", "On a velocity-time graph the slope is the acceleration and"]],
+      "vocabHi": [["गति", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "], ["विस्थापन", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "], ["वेग", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "]],
       "fig": "3D graph · Velocity-time graphs · u → v → Area → Displacement",
       "figHi": "3D graph चित्र · वेग-समय आलेख · u / v / Area",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2821,9 +2821,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Velocity-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
-        "why": "Area under a velocity-time graph equals displacement."
+        "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       },
       "scene": {
         "type": "atlas",
@@ -2844,8 +2844,8 @@
       "title": "Kinematic equations by graphical method",
       "titleHi": "आलेखी विधि से गति के समीकरण",
       "short": "Kinematic equations by",
-      "concept": "From a velocity-time graph we derive v = u + at, s = ut + ½at² and v² = u² + 2as.",
-      "conceptHi": "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as प्राप्त होते हैं।",
+      "concept": "v = u + at comes from the slope of a velocity-time line, s = ut + ½at² from its area, and v² = u² + 2as by removing t.",
+      "conceptHi": "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½at², और t हटाने पर v² = u² + 2as।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2853,20 +2853,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Kinematic equations by graphical method?",
-        "options": ["Uniform circular motion is accelerated motion with changing direction.", "The three kinematic equations hold only for constant acceleration.", "Motion is always described relative to a reference frame."],
+        "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
-        "why": "The three kinematic equations hold only for constant acceleration."
+        "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'आलेखी विधि से गति के समीकरण' से मेल खाता है?",
-        "options": ["एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"],
+        "options": ["एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"],
         "a": 1,
-        "why": "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।"
+        "why": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।"
       },
-      "explain": "The three kinematic equations hold only for constant acceleration.",
-      "explainHi": "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।",
-      "vocab": [["Displacement", "From a velocity-time graph we derive v = u + at, s = ut + "], ["Velocity", "From a velocity-time graph we derive v = u + at, s = ut + "], ["Acceleration", "From a velocity-time graph we derive v = u + at, s = ut + "]],
-      "vocabHi": [["विस्थापन", "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as"], ["वेग", "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as"], ["त्वरण", "वेग-समय आलेख से v = u + at, s = ut + ½at² और v² = u² + 2as"]],
+      "explain": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.",
+      "explainHi": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।",
+      "vocab": [["Displacement", "v = u + at comes from the slope of a velocity-time line, s"], ["Velocity", "v = u + at comes from the slope of a velocity-time line, s"], ["Acceleration", "v = u + at comes from the slope of a velocity-time line, s"]],
+      "vocabHi": [["विस्थापन", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"], ["वेग", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"], ["त्वरण", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"]],
       "fig": "3D graph · Kinematic equations by graphical method · u+at → Area → v² → Constant a",
       "figHi": "3D graph चित्र · आलेखी विधि से गति के समीकरण · u+at / Area / v²",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2882,9 +2882,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Kinematic equations by graphical method?",
-        "options": ["Uniform circular motion is accelerated motion with changing direction.", "The three kinematic equations hold only for constant acceleration.", "Motion is always described relative to a reference frame."],
+        "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
-        "why": "The three kinematic equations hold only for constant acceleration."
+        "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       },
       "scene": {
         "type": "atlas",
@@ -2905,8 +2905,8 @@
       "title": "Uniform circular motion",
       "titleHi": "एकसमान वृत्तीय गति",
       "short": "Uniform circular motio",
-      "concept": "An object moving at constant speed on a circle still accelerates because its direction changes continuously.",
-      "conceptHi": "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि उसकी दिशा लगातार बदलती है।",
+      "concept": "In uniform circular motion speed stays constant but the velocity turns along the tangent, so the motion is accelerated.",
+      "conceptHi": "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा के अनुसार घूमता रहता है, इसलिए गति त्वरित होती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
@@ -2914,20 +2914,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Uniform circular motion?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
-        "why": "Uniform circular motion is accelerated motion with changing direction."
+        "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'एकसमान वृत्तीय गति' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 2,
-        "why": "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"
+        "why": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"
       },
-      "explain": "Uniform circular motion is accelerated motion with changing direction.",
-      "explainHi": "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।",
-      "vocab": [["Velocity", "An object moving at constant speed on a circle still accel"], ["Acceleration", "An object moving at constant speed on a circle still accel"], ["Graph", "An object moving at constant speed on a circle still accel"]],
-      "vocabHi": [["वेग", "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि "], ["त्वरण", "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि "], ["आलेख", "वृत्त पर स्थिर चाल से चलती वस्तु का त्वरण होता है क्योंकि "]],
+      "explain": "One revolution covers a distance of 2πR yet the displacement is zero.",
+      "explainHi": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।",
+      "vocab": [["Velocity", "In uniform circular motion speed stays constant but the ve"], ["Acceleration", "In uniform circular motion speed stays constant but the ve"], ["Graph", "In uniform circular motion speed stays constant but the ve"]],
+      "vocabHi": [["वेग", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"], ["त्वरण", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"], ["आलेख", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"]],
       "fig": "3D cycle · Uniform circular motion · Position 1 → Position 2 → Velocity → Centre",
       "figHi": "3D cycle चित्र · एकसमान वृत्तीय गति · Position 1 / Position 2 / Velocity",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2943,9 +2943,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Uniform circular motion?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
-        "why": "Uniform circular motion is accelerated motion with changing direction."
+        "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       },
       "scene": {
         "type": "atlas",
@@ -3032,155 +3032,155 @@
         "hi": "विराम, गति और सन्दर्भ फ़्रेम",
         "color": "#4f8fb0",
         "spread": 0,
-        "desc": "Motion is always described relative to a reference frame."
+        "desc": "Along a straight line, right of the origin is positive and left negati"
       }, {
         "id": "4.2",
         "en": "Distance and displacement",
         "hi": "दूरी और विस्थापन",
         "color": "#4f8fb0",
         "spread": 1,
-        "desc": "Displacement can be zero after a round trip while distance is not."
+        "desc": "A ball thrown up and caught back at the same point has zero displaceme"
       }, {
         "id": "4.3",
         "en": "Speed and average speed",
         "hi": "चाल और औसत चाल",
         "color": "#4f8fb0",
         "spread": 2,
-        "desc": "Average speed uses total distance, not the magnitude of displacement."
+        "desc": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       }, {
         "id": "4.4",
         "en": "Velocity and uniform velocity",
         "hi": "वेग और एकसमान वेग",
         "color": "#4f8fb0",
         "spread": 3,
-        "desc": "A change of direction changes velocity even at constant speed."
+        "desc": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       }, {
         "id": "4.5",
         "en": "Acceleration and retardation",
         "hi": "त्वरण और मंदन",
         "color": "#4f8fb0",
         "spread": 4,
-        "desc": "Acceleration has units of metres per second squared."
+        "desc": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       }, {
         "id": "4.6",
         "en": "Distance-time graphs",
         "hi": "दूरी-समय आलेख",
         "color": "#4f8fb0",
         "spread": 5,
-        "desc": "A steeper distance-time line means greater speed."
+        "desc": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       }, {
         "id": "4.7",
         "en": "Velocity-time graphs",
         "hi": "वेग-समय आलेख",
         "color": "#4f8fb0",
         "spread": 6,
-        "desc": "Area under a velocity-time graph equals displacement."
+        "desc": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       }, {
         "id": "4.8",
         "en": "Kinematic equations by graphical method",
         "hi": "आलेखी विधि से गति के समीकरण",
         "color": "#4f8fb0",
         "spread": 7,
-        "desc": "The three kinematic equations hold only for constant acceleration."
+        "desc": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112"
       }, {
         "id": "4.9",
         "en": "Uniform circular motion",
         "hi": "एकसमान वृत्तीय गति",
         "color": "#4f8fb0",
         "spread": 8,
-        "desc": "Uniform circular motion is accelerated motion with changing direction."
+        "desc": "One revolution covers a distance of 2πR yet the displacement is zero."
       }],
       "quiz": [{
         "q": "Which statement belongs to Rest, motion and frame of reference?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
-        "why": "Motion is always described relative to a reference frame."
+        "why": "Along a straight line, right of the origin is positive and left negative."
       }, {
         "q": "Which statement belongs to Distance and displacement?",
-        "options": ["Average speed uses total distance, not the magnitude of displacement.", "Displacement can be zero after a round trip while distance is not.", "A change of direction changes velocity even at constant speed."],
+        "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
-        "why": "Displacement can be zero after a round trip while distance is not."
+        "why": "A ball thrown up and caught back at the same point has zero displacement."
       }, {
         "q": "Which statement belongs to Speed and average speed?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "Average speed uses total distance, not the magnitude of displacement."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
-        "why": "Average speed uses total distance, not the magnitude of displacement."
+        "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       }, {
         "q": "Which statement belongs to Velocity and uniform velocity?",
-        "options": ["A change of direction changes velocity even at constant speed.", "Acceleration has units of metres per second squared.", "A steeper distance-time line means greater speed."],
+        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
-        "why": "A change of direction changes velocity even at constant speed."
+        "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       }, {
         "q": "Which statement belongs to Acceleration and retardation?",
-        "options": ["A steeper distance-time line means greater speed.", "Acceleration has units of metres per second squared.", "Area under a velocity-time graph equals displacement."],
+        "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
-        "why": "Acceleration has units of metres per second squared."
+        "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       }, {
         "q": "Which statement belongs to Distance-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "A steeper distance-time line means greater speed."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
-        "why": "A steeper distance-time line means greater speed."
+        "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       }, {
         "q": "Which statement belongs to Velocity-time graphs?",
-        "options": ["Area under a velocity-time graph equals displacement.", "The three kinematic equations hold only for constant acceleration.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
-        "why": "Area under a velocity-time graph equals displacement."
+        "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       }, {
         "q": "Which statement belongs to Kinematic equations by graphical method?",
-        "options": ["Uniform circular motion is accelerated motion with changing direction.", "The three kinematic equations hold only for constant acceleration.", "Motion is always described relative to a reference frame."],
+        "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
-        "why": "The three kinematic equations hold only for constant acceleration."
+        "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       }, {
         "q": "Which statement belongs to Uniform circular motion?",
-        "options": ["Motion is always described relative to a reference frame.", "Displacement can be zero after a round trip while distance is not.", "Uniform circular motion is accelerated motion with changing direction."],
+        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
-        "why": "Uniform circular motion is accelerated motion with changing direction."
+        "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'विराम, गति और सन्दर्भ फ़्रेम' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 0,
-        "why": "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"
+        "why": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"
       }, {
         "q": "कौन-सा कथन 'दूरी और विस्थापन' से मेल खाता है?",
-        "options": ["औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"],
+        "options": ["चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"],
         "a": 1,
-        "why": "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।"
+        "why": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।"
       }, {
         "q": "कौन-सा कथन 'चाल और औसत चाल' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 2,
-        "why": "औसत चाल कुल दूरी से निकलती है, विस्थापन के परिमाण से नहीं।"
+        "why": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"
       }, {
         "q": "कौन-सा कथन 'वेग और एकसमान वेग' से मेल खाता है?",
-        "options": ["चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 0,
-        "why": "चाल स्थिर रहने पर भी दिशा बदलने से वेग बदल जाता है।"
+        "why": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"
       }, {
         "q": "कौन-सा कथन 'त्वरण और मंदन' से मेल खाता है?",
-        "options": ["दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।", "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।", "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"],
+        "options": ["ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"],
         "a": 1,
-        "why": "त्वरण की इकाई मीटर प्रति वर्ग सेकंड होती है।"
+        "why": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।"
       }, {
         "q": "कौन-सा कथन 'दूरी-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 2,
-        "why": "दूरी-समय रेखा जितनी खड़ी हो चाल उतनी अधिक होती है।"
+        "why": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"
       }, {
         "q": "कौन-सा कथन 'वेग-समय आलेख' से मेल खाता है?",
-        "options": ["वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 0,
-        "why": "वेग-समय आलेख के नीचे का क्षेत्रफल विस्थापन के बराबर है।"
+        "why": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"
       }, {
         "q": "कौन-सा कथन 'आलेखी विधि से गति के समीकरण' से मेल खाता है?",
-        "options": ["एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।", "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।", "गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।"],
+        "options": ["एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"],
         "a": 1,
-        "why": "गति के तीनों समीकरण केवल एकसमान त्वरण के लिए मान्य हैं।"
+        "why": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।"
       }, {
         "q": "कौन-सा कथन 'एकसमान वृत्तीय गति' से मेल खाता है?",
-        "options": ["गति का वर्णन सदैव सन्दर्भ फ़्रेम के सापेक्ष होता है।", "चक्कर लगाकर लौटने पर विस्थापन शून्य परंतु दूरी शून्य नहीं होती।", "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"],
+        "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 2,
-        "why": "एकसमान वृत्तीय गति दिशा बदलने के कारण त्वरित गति है।"
+        "why": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"
       }],
       "status": "assessed"
     };
