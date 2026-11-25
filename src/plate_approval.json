@@ -1,10 +1,10 @@
 {
- "approvedAt": "2026-11-24",
+ "approvedAt": "2026-11-25",
  "approvedBy": "Anvexia repository owner",
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1246 labels, all with Devanagari Hindi",
+   "detail": "1286 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "278 unique SHA-256",
+   "detail": "288 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "278 plates",
+   "detail": "288 plates",
    "ok": true
   }
  },
@@ -376,6 +376,166 @@
    ],
    "sha256": "ea293c6fe32fba8836dbec78f2ea2fbc778bb735b28add4bbdf4e32c8e062139",
    "width": 1408
+  },
+  {
+   "bytes": 116844,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_10_biomolecules.webp",
+   "height": 768,
+   "id": "c9_cell_2_10_biomolecules",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.10"
+    }
+   ],
+   "sha256": "920ccf43bf8e00bad077409a09e8a6d88c4603849fbdff774d2b45013da4375b",
+   "width": 1376
+  },
+  {
+   "bytes": 63482,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_1_hooke_microscope.webp",
+   "height": 768,
+   "id": "c9_cell_2_1_hooke_microscope",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.1"
+    }
+   ],
+   "sha256": "e7cc47812b1b620205ec247f8e621776c916838ee9dfae71e61544bebe7fa432",
+   "width": 1376
+  },
+  {
+   "bytes": 127036,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_2_plant_animal_cell.webp",
+   "height": 768,
+   "id": "c9_cell_2_2_plant_animal_cell",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.2"
+    }
+   ],
+   "sha256": "020a4d33c0e086dcd95de2eb2f6553728e7254485f76b9adfe1380b9121cd833",
+   "width": 1376
+  },
+  {
+   "bytes": 80188,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_3_prokaryote_eukaryote.webp",
+   "height": 768,
+   "id": "c9_cell_2_3_prokaryote_eukaryote",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.3"
+    }
+   ],
+   "sha256": "30f8d43a5fe5502e9b32640416aadedfd08b19827d9c380a23efdd151dfeb75d",
+   "width": 1376
+  },
+  {
+   "bytes": 172814,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_4_plasma_membrane.webp",
+   "height": 768,
+   "id": "c9_cell_2_4_plasma_membrane",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.4"
+    }
+   ],
+   "sha256": "c5e65b28d5b35be40a2c296164baad073b1afde31727d754cbee0bea1f0b3a69",
+   "width": 1376
+  },
+  {
+   "bytes": 128824,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_5_cell_wall_vacuole.webp",
+   "height": 768,
+   "id": "c9_cell_2_5_cell_wall_vacuole",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.5"
+    }
+   ],
+   "sha256": "c1c571ae157cee74fab201fba79ee19a63eabaa1563575e94421521d4361e1fd",
+   "width": 1376
+  },
+  {
+   "bytes": 128398,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_6_nucleus_chromosomes.webp",
+   "height": 768,
+   "id": "c9_cell_2_6_nucleus_chromosomes",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.6"
+    }
+   ],
+   "sha256": "987fa351378bea2c418b7dd24db94bb158479761e986576c51254da1020b9c8d",
+   "width": 1376
+  },
+  {
+   "bytes": 76786,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_7_mitochondria_chloroplast.webp",
+   "height": 768,
+   "id": "c9_cell_2_7_mitochondria_chloroplast",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.7"
+    }
+   ],
+   "sha256": "a90b1f0332e9d58c0caddcc71fa99352153cda359b93a5a21fcba19d0de19214",
+   "width": 1376
+  },
+  {
+   "bytes": 134480,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_8_er_golgi_lysosome.webp",
+   "height": 768,
+   "id": "c9_cell_2_8_er_golgi_lysosome",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.8"
+    }
+   ],
+   "sha256": "c1a84c114c3a66bcdb691503cf3354cb290ee9c1a112040f9b3b40a1d306611d",
+   "width": 1376
+  },
+  {
+   "bytes": 116882,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_cell_2_9_cell_division.webp",
+   "height": 768,
+   "id": "c9_cell_2_9_cell_division",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_cell",
+     "section": "2.9"
+    }
+   ],
+   "sha256": "825d92abfe13641653a149190086688a3464a44777756afc65dd12dc07807ba5",
+   "width": 1376
   },
   {
    "bytes": 28936,
@@ -4849,17 +5009,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 15944468,
+  "bytes": 17090202,
   "chapters": 33,
-  "creditsRecorded": 81,
+  "creditsRecorded": 91,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 2,
+   "1376x768": 12,
    "1408x768": 198
   },
-  "labels": 1246,
-  "plates": 278,
+  "labels": 1286,
+  "plates": 288,
   "sections": 266,
-  "uniqueSha256": 278
+  "uniqueSha256": 288
  }
 }

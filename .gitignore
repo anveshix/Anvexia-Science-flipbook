@@ -10,3 +10,7 @@ __pycache__/
 # Generated duplicate publish bundle & large offline zip (reproducible via `python3 make_publish.py`)
 publish/index.html
 eduverse-publish.zip
+
+# Source textbooks & uncompressed illustration masters (kept local, never shipped)
+google_drive/
+assets/2d/gen/

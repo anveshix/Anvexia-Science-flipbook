@@ -568,10 +568,12 @@
   },
   "c9_cell": {
    "2.1": [
+    "rx/c9_cell_2_1_hooke_microscope.webp",
     "rx/compound_microscope.webp",
     "rx/microscope_resolution.webp"
    ],
    "2.10": [
+    "rx/c9_cell_2_10_biomolecules.webp",
     "rx/biomolecules_cell.webp"
    ],
    "2.11": [
@@ -579,33 +581,41 @@
     "rx/bioreactor_growth_curve.webp"
    ],
    "2.2": [
+    "rx/c9_cell_2_2_plant_animal_cell.webp",
     "rx/cell_plant.webp",
     "rx/cell_animal.webp"
    ],
    "2.3": [
+    "rx/c9_cell_2_3_prokaryote_eukaryote.webp",
     "rx/bacteriophage_virus.webp"
    ],
    "2.4": [
+    "rx/c9_cell_2_4_plasma_membrane.webp",
     "rx/cell_membrane.webp",
     "rx/osmosis_tonicity.webp",
     "rx/cell_membrane--2.webp",
     "rx/cell_membrane--1.webp"
    ],
    "2.5": [
+    "rx/c9_cell_2_5_cell_wall_vacuole.webp",
     "rx/cell_plant.webp"
    ],
    "2.6": [
+    "rx/c9_cell_2_6_nucleus_chromosomes.webp",
     "rx/cell_nucleus.webp",
     "rx/chromosome_structure.webp"
    ],
    "2.7": [
+    "rx/c9_cell_2_7_mitochondria_chloroplast.webp",
     "rx/cell_mitochondria.webp",
     "rx/photosynthesis.webp"
    ],
    "2.8": [
+    "rx/c9_cell_2_8_er_golgi_lysosome.webp",
     "rx/cell_organelles.webp"
    ],
    "2.9": [
+    "rx/c9_cell_2_9_cell_division.webp",
     "rx/cell_cycle_division.webp",
     "rx/cell_cycle_division--3.webp",
     "rx/cell_cycle_division--4.webp",
@@ -1050,7 +1060,17 @@
   "rx/voluntary_involuntary_actions.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
   "rx/wind_hydro_tidal_turbines.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
   "rx/work_energy_theorem_cart.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
-  "rx/writing_chemical_formulae.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)"
+  "rx/writing_chemical_formulae.webp": "SciVerse 3D NCERT textbook plate (CC0 / in-repo scientific illustration)",
+  "rx/c9_cell_2_1_hooke_microscope.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_2_plant_animal_cell.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_3_prokaryote_eukaryote.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_4_plasma_membrane.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_5_cell_wall_vacuole.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_6_nucleus_chromosomes.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_7_mitochondria_chloroplast.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_8_er_golgi_lysosome.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_9_cell_division.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_cell_2_10_biomolecules.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -16559,6 +16579,506 @@
     "w": 337,
     "x": 1055,
     "y": 14
+   }
+  ],
+  "rx/c9_cell_2_1_hooke_microscope.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 634,
+    "anchor_y": 95,
+    "en": "Body tube",
+    "hi": "नलिका",
+    "info_en": "Body tube: labelled part of the illustration “Hooke's Microscope and Cork Cells”. Illustrative, not to scale.",
+    "info_hi": "नलिका: “हुक का सूक्ष्मदर्शी और बाक़ की कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 728,
+    "anchor_y": 352,
+    "en": "Objective lens",
+    "hi": "अभिदृश्यक लेंस",
+    "info_en": "Objective lens: labelled part of the illustration “Hooke's Microscope and Cork Cells”. Illustrative, not to scale.",
+    "info_hi": "अभिदृश्यक लेंस: “हुक का सूक्ष्मदर्शी और बाक़ की कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 951,
+    "anchor_y": 530,
+    "en": "Cork cells",
+    "hi": "बाक़ की कोशिकाएँ",
+    "info_en": "Cork cells: labelled part of the illustration “Hooke's Microscope and Cork Cells”. Illustrative, not to scale.",
+    "info_hi": "बाक़ की कोशिकाएँ: “हुक का सूक्ष्मदर्शी और बाक़ की कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 189,
+    "anchor_y": 325,
+    "en": "Candle light",
+    "hi": "मोमबत्ती",
+    "info_en": "Candle light: labelled part of the illustration “Hooke's Microscope and Cork Cells”. Illustrative, not to scale.",
+    "info_hi": "मोमबत्ती: “हुक का सूक्ष्मदर्शी और बाक़ की कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_2_plant_animal_cell.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 97,
+    "anchor_y": 300,
+    "en": "Cell wall",
+    "hi": "कोशिका भित्ति",
+    "info_en": "Cell wall: labelled part of the illustration “Plant Cell and Animal Cell”. Illustrative, not to scale.",
+    "info_hi": "कोशिका भित्ति: “पादप कोशिका और जन्तु कोशिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 307,
+    "anchor_y": 150,
+    "en": "Chloroplast",
+    "hi": "हरितलवक",
+    "info_en": "Chloroplast: labelled part of the illustration “Plant Cell and Animal Cell”. Illustrative, not to scale.",
+    "info_hi": "हरितलवक: “पादप कोशिका और जन्तु कोशिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 368,
+    "anchor_y": 300,
+    "en": "Vacuole",
+    "hi": "रिक्तिका",
+    "info_en": "Vacuole: labelled part of the illustration “Plant Cell and Animal Cell”. Illustrative, not to scale.",
+    "info_hi": "रिक्तिका: “पादप कोशिका और जन्तु कोशिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1023,
+    "anchor_y": 330,
+    "en": "Nucleus",
+    "hi": "केन्द्रक",
+    "info_en": "Nucleus: labelled part of the illustration “Plant Cell and Animal Cell”. Illustrative, not to scale.",
+    "info_hi": "केन्द्रक: “पादप कोशिका और जन्तु कोशिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_3_prokaryote_eukaryote.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 307,
+    "anchor_y": 230,
+    "en": "Nucleoid",
+    "hi": "न्यूक्लिऑइड",
+    "info_en": "Nucleoid: labelled part of the illustration “Prokaryotic and Eukaryotic Cells”. Illustrative, not to scale.",
+    "info_hi": "न्यूक्लिऑइड: “प्रोकैरियोटी और यूकैरियोटी कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 153,
+    "anchor_y": 540,
+    "en": "Flagellum",
+    "hi": "कशाभिका",
+    "info_en": "Flagellum: labelled part of the illustration “Prokaryotic and Eukaryotic Cells”. Illustrative, not to scale.",
+    "info_hi": "कशाभिका: “प्रोकैरियोटी और यूकैरियोटी कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 256,
+    "anchor_y": 150,
+    "en": "Cell membrane",
+    "hi": "कोशिका झिल्ली",
+    "info_en": "Cell membrane: labelled part of the illustration “Prokaryotic and Eukaryotic Cells”. Illustrative, not to scale.",
+    "info_hi": "कोशिका झिल्ली: “प्रोकैरियोटी और यूकैरियोटी कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 962,
+    "anchor_y": 330,
+    "en": "Nucleus",
+    "hi": "केन्द्रक",
+    "info_en": "Nucleus: labelled part of the illustration “Prokaryotic and Eukaryotic Cells”. Illustrative, not to scale.",
+    "info_hi": "केन्द्रक: “प्रोकैरियोटी और यूकैरियोटी कोशिकाएँ” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_4_plasma_membrane.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 256,
+    "anchor_y": 430,
+    "en": "Lipid bilayer",
+    "hi": "वसा द्विस्तर",
+    "info_en": "Lipid bilayer: labelled part of the illustration “Plasma Membrane and Channel Proteins”. Illustrative, not to scale.",
+    "info_hi": "वसा द्विस्तर: “जीवद्रव्य झिल्ली और चैनल प्रोटीन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 634,
+    "anchor_y": 380,
+    "en": "Channel protein",
+    "hi": "चैनल प्रोटीन",
+    "info_en": "Channel protein: labelled part of the illustration “Plasma Membrane and Channel Proteins”. Illustrative, not to scale.",
+    "info_hi": "चैनल प्रोटीन: “जीवद्रव्य झिल्ली और चैनल प्रोटीन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 716,
+    "anchor_y": 240,
+    "en": "Water",
+    "hi": "जल",
+    "info_en": "Water: labelled part of the illustration “Plasma Membrane and Channel Proteins”. Illustrative, not to scale.",
+    "info_hi": "जल: “जीवद्रव्य झिल्ली और चैनल प्रोटीन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 256,
+    "anchor_y": 150,
+    "en": "Sugar chain",
+    "hi": "शर्करा शृंखला",
+    "info_en": "Sugar chain: labelled part of the illustration “Plasma Membrane and Channel Proteins”. Illustrative, not to scale.",
+    "info_hi": "शर्करा शृंखला: “जीवद्रव्य झिल्ली और चैनल प्रोटीन” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_5_cell_wall_vacuole.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 256,
+    "anchor_y": 600,
+    "en": "Cell wall",
+    "hi": "कोशिका भित्ति",
+    "info_en": "Cell wall: labelled part of the illustration “Cellulose Cell Wall and Vacuole”. Illustrative, not to scale.",
+    "info_hi": "कोशिका भित्ति: “सेलुलोज़ भित्ति और रिक्तिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 491,
+    "anchor_y": 230,
+    "en": "Vacuole",
+    "hi": "रिक्तिका",
+    "info_en": "Vacuole: labelled part of the illustration “Cellulose Cell Wall and Vacuole”. Illustrative, not to scale.",
+    "info_hi": "रिक्तिका: “सेलुलोज़ भित्ति और रिक्तिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 716,
+    "anchor_y": 290,
+    "en": "Nucleus",
+    "hi": "केन्द्रक",
+    "info_en": "Nucleus: labelled part of the illustration “Cellulose Cell Wall and Vacuole”. Illustrative, not to scale.",
+    "info_hi": "केन्द्रक: “सेलुलोज़ भित्ति और रिक्तिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 429,
+    "anchor_y": 470,
+    "en": "Chloroplast",
+    "hi": "हरितलवक",
+    "info_en": "Chloroplast: labelled part of the illustration “Cellulose Cell Wall and Vacuole”. Illustrative, not to scale.",
+    "info_hi": "हरितलवक: “सेलुलोज़ भित्ति और रिक्तिका” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_6_nucleus_chromosomes.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 706,
+    "anchor_y": 330,
+    "en": "Nucleolus",
+    "hi": "नाभिक",
+    "info_en": "Nucleolus: labelled part of the illustration “Nucleus, Nucleolus and Chromosomes”. Illustrative, not to scale.",
+    "info_hi": "नाभिक: “केन्द्रक, नाभिक और गुणसूत्र” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 429,
+    "anchor_y": 380,
+    "en": "Chromosome",
+    "hi": "गुणसूत्र",
+    "info_en": "Chromosome: labelled part of the illustration “Nucleus, Nucleolus and Chromosomes”. Illustrative, not to scale.",
+    "info_hi": "गुणसूत्र: “केन्द्रक, नाभिक और गुणसूत्र” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 920,
+    "anchor_y": 300,
+    "en": "DNA",
+    "hi": "डी.एन.ए.",
+    "info_en": "DNA: labelled part of the illustration “Nucleus, Nucleolus and Chromosomes”. Illustrative, not to scale.",
+    "info_hi": "डी.एन.ए.: “केन्द्रक, नाभिक और गुणसूत्र” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 256,
+    "anchor_y": 390,
+    "en": "Nuclear pore",
+    "hi": "केन्द्रक छिद्र",
+    "info_en": "Nuclear pore: labelled part of the illustration “Nucleus, Nucleolus and Chromosomes”. Illustrative, not to scale.",
+    "info_hi": "केन्द्रक छिद्र: “केन्द्रक, नाभिक और गुणसूत्र” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_7_mitochondria_chloroplast.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 256,
+    "anchor_y": 330,
+    "en": "Cristae",
+    "hi": "क्रिस्टा",
+    "info_en": "Cristae: labelled part of the illustration “Mitochondrion and Chloroplast”. Illustrative, not to scale.",
+    "info_hi": "क्रिस्टा: “माइटोकॉन्ड्रिया और हरितलवक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 184,
+    "anchor_y": 150,
+    "en": "Outer membrane",
+    "hi": "बाह्य झिल्ली",
+    "info_en": "Outer membrane: labelled part of the illustration “Mitochondrion and Chloroplast”. Illustrative, not to scale.",
+    "info_hi": "बाह्य झिल्ली: “माइटोकॉन्ड्रिया और हरितलवक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1105,
+    "anchor_y": 330,
+    "en": "Thylakoids",
+    "hi": "थाइलेकॉइड",
+    "info_en": "Thylakoids: labelled part of the illustration “Mitochondrion and Chloroplast”. Illustrative, not to scale.",
+    "info_hi": "थाइलेकॉइड: “माइटोकॉन्ड्रिया और हरितलवक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1176,
+    "anchor_y": 200,
+    "en": "Chloroplast",
+    "hi": "हरितलवक",
+    "info_en": "Chloroplast: labelled part of the illustration “Mitochondrion and Chloroplast”. Illustrative, not to scale.",
+    "info_hi": "हरितलवक: “माइटोकॉन्ड्रिया और हरितलवक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_8_er_golgi_lysosome.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 256,
+    "anchor_y": 250,
+    "en": "Rough ER",
+    "hi": "खुरदरी जालिका",
+    "info_en": "Rough ER: labelled part of the illustration “Endoplasmic Reticulum and Golgi Apparatus”. Illustrative, not to scale.",
+    "info_hi": "खुरदरी जालिका: “अंतर्द्रव्यी जालिका और गॉल्जी उपकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 460,
+    "anchor_y": 470,
+    "en": "Smooth ER",
+    "hi": "चिकनी जालिका",
+    "info_en": "Smooth ER: labelled part of the illustration “Endoplasmic Reticulum and Golgi Apparatus”. Illustrative, not to scale.",
+    "info_hi": "चिकनी जालिका: “अंतर्द्रव्यी जालिका और गॉल्जी उपकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 818,
+    "anchor_y": 300,
+    "en": "Golgi stack",
+    "hi": "गॉल्जी स्टैक",
+    "info_en": "Golgi stack: labelled part of the illustration “Endoplasmic Reticulum and Golgi Apparatus”. Illustrative, not to scale.",
+    "info_hi": "गॉल्जी स्टैक: “अंतर्द्रव्यी जालिका और गॉल्जी उपकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 900,
+    "anchor_y": 490,
+    "en": "Vesicle",
+    "hi": "थैली",
+    "info_en": "Vesicle: labelled part of the illustration “Endoplasmic Reticulum and Golgi Apparatus”. Illustrative, not to scale.",
+    "info_hi": "थैली: “अंतर्द्रव्यी जालिका और गॉल्जी उपकरण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_9_cell_division.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 655,
+    "anchor_y": 400,
+    "en": "Chromosomes",
+    "hi": "गुणसूत्र",
+    "info_en": "Chromosomes: labelled part of the illustration “Mitosis: Chromosomes and Spindle”. Illustrative, not to scale.",
+    "info_hi": "गुणसूत्र: “समसूत्री विभाजन: गुणसूत्र और तरुक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 409,
+    "anchor_y": 300,
+    "en": "Spindle",
+    "hi": "तरुक",
+    "info_en": "Spindle: labelled part of the illustration “Mitosis: Chromosomes and Spindle”. Illustrative, not to scale.",
+    "info_hi": "तरुक: “समसूत्री विभाजन: गुणसूत्र और तरुक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 716,
+    "anchor_y": 620,
+    "en": "Furrow",
+    "hi": "खाँच",
+    "info_en": "Furrow: labelled part of the illustration “Mitosis: Chromosomes and Spindle”. Illustrative, not to scale.",
+    "info_hi": "खाँच: “समसूत्री विभाजन: गुणसूत्र और तरुक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 972,
+    "anchor_y": 350,
+    "en": "Daughter cell",
+    "hi": "पुत्री कोशिका",
+    "info_en": "Daughter cell: labelled part of the illustration “Mitosis: Chromosomes and Spindle”. Illustrative, not to scale.",
+    "info_hi": "पुत्री कोशिका: “समसूत्री विभाजन: गुणसूत्र और तरुक” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_cell_2_10_biomolecules.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1176,
+    "anchor_y": 250,
+    "en": "DNA helix",
+    "hi": "DNA कुंडली",
+    "info_en": "DNA helix: labelled part of the illustration “Biomolecules Inside a Cell”. Illustrative, not to scale.",
+    "info_hi": "DNA कुंडली: “कोशिका के भीतर जैव-अणु” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 511,
+    "anchor_y": 200,
+    "en": "Protein",
+    "hi": "प्रोटीन",
+    "info_en": "Protein: labelled part of the illustration “Biomolecules Inside a Cell”. Illustrative, not to scale.",
+    "info_hi": "प्रोटीन: “कोशिका के भीतर जैव-अणु” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 307,
+    "anchor_y": 450,
+    "en": "Lipid",
+    "hi": "वसा",
+    "info_en": "Lipid: labelled part of the illustration “Biomolecules Inside a Cell”. Illustrative, not to scale.",
+    "info_hi": "वसा: “कोशिका के भीतर जैव-अणु” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 869,
+    "anchor_y": 300,
+    "en": "Ribosome",
+    "hi": "राइबोसोम",
+    "info_en": "Ribosome: labelled part of the illustration “Biomolecules Inside a Cell”. Illustrative, not to scale.",
+    "info_hi": "राइबोसोम: “कोशिका के भीतर जैव-अणु” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },
