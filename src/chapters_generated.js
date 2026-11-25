@@ -4052,7 +4052,7 @@
       "concept": "A force is a push or a pull arising from an interaction between two objects; it has both magnitude and direction and is measured in newtons.",
       "conceptHi": "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव है; इसमें परिमाण और दिशा दोनों होते हैं।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
@@ -4111,9 +4111,9 @@
       "titleHi": "बल के प्रभाव",
       "short": "Effects of force",
       "concept": "A force can set an object moving, stop it, turn it, or change its shape, and a change in magnitude or direction changes its effect.",
-      "conceptHi": "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार बदल सकता है।",
+      "conceptHi": "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार बदल सकता है; परिमाण या दिशा बदलने से प्रभाव बदलता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
@@ -4172,9 +4172,9 @@
       "titleHi": "संतुलित बल",
       "short": "Balanced forces",
       "concept": "Balanced forces cancel, so the object keeps resting or moving uniformly; unbalanced forces accelerate it.",
-      "conceptHi": "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विराम या एकसमान गति में रहती है।",
+      "conceptHi": "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विराम या एकसमान गति में रहती है; असंतुलित बल त्वरित करते हैं।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
@@ -4232,10 +4232,10 @@
       "title": "Unbalanced forces change motion",
       "titleHi": "असंतुलित बल गति बदलते हैं",
       "short": "Unbalanced forces chan",
-      "concept": "Forces on one object add as vectors, and an unbalanced pair leaves a net force that accelerates the object along the larger force.",
+      "concept": "Forces add as vectors — same direction they add, opposite they subtract — and the unbalanced net force accelerates the object along it.",
       "conceptHi": "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म का परिणामी बल वस्तु को बड़े बल की दिशा में त्वरित करता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
@@ -4253,7 +4253,7 @@
       },
       "explain": "10 N and 6 N in opposite directions leave a net force of 4 N.",
       "explainHi": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।",
-      "vocab": [["Momentum", "Forces on one object add as vectors, and an unbalanced pai"], ["Net force", "Forces on one object add as vectors, and an unbalanced pai"], ["Newton", "Forces on one object add as vectors, and an unbalanced pai"]],
+      "vocab": [["Momentum", "Forces add as vectors — same direction they add, opposite "], ["Net force", "Forces add as vectors — same direction they add, opposite "], ["Newton", "Forces add as vectors — same direction they add, opposite "]],
       "vocabHi": [["संवेग", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "], ["परिणामी बल", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "], ["न्यूटन", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "]],
       "fig": "3D field · Unbalanced forces change motion · Net force → Acceleration → Velocity → New path",
       "figHi": "3D field चित्र · असंतुलित बल गति बदलते हैं · Net force / Acceleration / Velocity",
@@ -4296,19 +4296,19 @@
       "concept": "Friction acts along the surfaces in contact, opposite to motion, and a box moves only when the applied force exceeds it.",
       "conceptHi": "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण से अधिक होने पर ही बक्सा चलता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Friction opposes relative motion?",
-        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Momentum is mass times velocity, p = mv, in the direction of motion."],
+        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
         "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'घर्षण सापेक्ष गति का विरोध करता है' से मेल खाता है?",
-        "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।"],
+        "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"],
         "a": 1,
         "why": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।"
       },
@@ -4331,7 +4331,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Friction opposes relative motion?",
-        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Momentum is mass times velocity, p = mv, in the direction of motion."],
+        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
         "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       },
@@ -4357,19 +4357,19 @@
       "concept": "An object stays at rest or in uniform straight-line motion unless a net external force acts on it — that is inertia.",
       "conceptHi": "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रेखीय गति में रहती है — यही जड़त्व है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Newton's first law and inertia?",
-        "options": ["Momentum is mass times velocity, p = mv, in the direction of motion.", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
         "why": "With zero friction a moving object would never stop on its own."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'न्यूटन का प्रथम नियम और जड़त्व' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 2,
         "why": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"
       },
@@ -4392,7 +4392,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Newton's first law and inertia?",
-        "options": ["Momentum is mass times velocity, p = mv, in the direction of motion.", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
         "why": "With zero friction a moving object would never stop on its own."
       },
@@ -4415,28 +4415,28 @@
       "title": "Newton's second law and momentum",
       "titleHi": "न्यूटन का दूसरा नियम और संवेग",
       "short": "Newton's second law an",
-      "concept": "A net force accelerates an object in its own direction, F = ma, and equals the rate at which its momentum changes.",
-      "conceptHi": "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, और संवेग परिवर्तन की दर के बराबर होता है।",
+      "concept": "A net force accelerates an object along itself, F = ma, and equals the rate of change of momentum; near Earth weight W = mg.",
+      "conceptHi": "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, और संवेग परिवर्तन की दर के बराबर है; पृथ्वी के निकट भार W = mg।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Newton's second law and momentum?",
-        "options": ["Momentum is mass times velocity, p = mv, in the direction of motion.", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
-        "why": "Momentum is mass times velocity, p = mv, in the direction of motion."
+        "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'न्यूटन का दूसरा नियम और संवेग' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 0,
-        "why": "संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।"
+        "why": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"
       },
-      "explain": "Momentum is mass times velocity, p = mv, in the direction of motion.",
-      "explainHi": "संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।",
-      "vocab": [["Force", "A net force accelerates an object in its own direction, F "], ["Inertia", "A net force accelerates an object in its own direction, F "], ["Friction", "A net force accelerates an object in its own direction, F "]],
+      "explain": "Two boxes joined by a string move as one system: a = F/(m1 + m2).",
+      "explainHi": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।",
+      "vocab": [["Force", "A net force accelerates an object along itself, F = ma, an"], ["Inertia", "A net force accelerates an object along itself, F = ma, an"], ["Friction", "A net force accelerates an object along itself, F = ma, an"]],
       "vocabHi": [["बल", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "], ["जड़त्व", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "], ["घर्षण", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "]],
       "fig": "3D graph · Newton's second law and momentum · m → F → a → p = mv",
       "figHi": "3D graph चित्र · न्यूटन का दूसरा नियम और संवेग · m / F / a",
@@ -4453,9 +4453,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Newton's second law and momentum?",
-        "options": ["Momentum is mass times velocity, p = mv, in the direction of motion.", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
-        "why": "Momentum is mass times velocity, p = mv, in the direction of motion."
+        "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       },
       "scene": {
         "type": "atlas",
@@ -4479,7 +4479,7 @@
       "concept": "For every action an equal and opposite reaction acts on the other body, so the pair never cancels.",
       "conceptHi": "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लगती है, इसलिए युग्म कभी निरस्त नहीं होता।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
@@ -4540,7 +4540,7 @@
       "concept": "In an isolated system the total momentum stays constant: a rocket throws gas down and gains momentum up.",
       "conceptHi": "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फेंकता है और ऊपर संवेग पाता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
@@ -4706,7 +4706,7 @@
         "hi": "न्यूटन का दूसरा नियम और संवेग",
         "color": "#5d8ad6",
         "spread": 6,
-        "desc": "Momentum is mass times velocity, p = mv, in the direction of motion."
+        "desc": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       }, {
         "id": "6.8",
         "en": "Newton's third law",
@@ -4744,19 +4744,19 @@
         "why": "10 N and 6 N in opposite directions leave a net force of 4 N."
       }, {
         "q": "Which statement belongs to Friction opposes relative motion?",
-        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Momentum is mass times velocity, p = mv, in the direction of motion."],
+        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
         "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       }, {
         "q": "Which statement belongs to Newton's first law and inertia?",
-        "options": ["Momentum is mass times velocity, p = mv, in the direction of motion.", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
         "why": "With zero friction a moving object would never stop on its own."
       }, {
         "q": "Which statement belongs to Newton's second law and momentum?",
-        "options": ["Momentum is mass times velocity, p = mv, in the direction of motion.", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
-        "why": "Momentum is mass times velocity, p = mv, in the direction of motion."
+        "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       }, {
         "q": "Which statement belongs to Newton's third law?",
         "options": ["Chandrayaan-3's Vikram lander fired forward to slow itself down.", "A gun recoils because the bullet pushes back on it with 2 N.", "A spring balance measures the magnitude of a force in newtons."],
@@ -4790,19 +4790,19 @@
         "why": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"
       }, {
         "q": "कौन-सा कथन 'घर्षण सापेक्ष गति का विरोध करता है' से मेल खाता है?",
-        "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।"],
+        "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"],
         "a": 1,
         "why": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।"
       }, {
         "q": "कौन-सा कथन 'न्यूटन का प्रथम नियम और जड़त्व' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 2,
         "why": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"
       }, {
         "q": "कौन-सा कथन 'न्यूटन का दूसरा नियम और संवेग' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 0,
-        "why": "संवेग द्रव्यमान गुणा वेग है, p = mv, गति की दिशा में।"
+        "why": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"
       }, {
         "q": "कौन-सा कथन 'न्यूटन का तृतीय नियम' से मेल खाता है?",
         "options": ["चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"],

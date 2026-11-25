@@ -731,11 +731,11 @@
    ],
    "6.3": [
     "rx/local_c9_forces_6_3.webp",
-    "rx/c9_forces_6_3_balanced_tug.webp",
+    "rx/c9_forces_6_3_tug_of_war.webp",
     "rx/balanced_forces_equilibrium.webp"
    ],
    "6.4": [
-    "rx/c9_forces_6_4_net_force_cart.webp",
+    "rx/c9_forces_6_4_net_force_arrows.webp",
     "rx/newton_laws--2.webp"
    ],
    "6.5": [
@@ -750,6 +750,7 @@
     "rx/newton_laws--4.webp"
    ],
    "6.7": [
+    "rx/c9_forces_6_7_cart_pulley.webp",
     "rx/c9_forces_6_7_momentum.webp",
     "rx/newton_laws.webp",
     "rx/newton_laws--2.webp"
@@ -1145,14 +1146,15 @@
   "rx/c9_mixtures_5_10_centrifuge.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_1_push_and_pull.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_2_effects_of_force.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_forces_6_3_balanced_tug.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_forces_6_4_net_force_cart.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_5_friction_arrows.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_5b_friction_surfaces.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_6_inertia.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_7_momentum.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_8_third_law.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_forces_6_9_rocket.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_forces_6_9_rocket.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_forces_6_3_tug_of_war.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_forces_6_4_net_force_arrows.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_forces_6_7_cart_pulley.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -18781,148 +18783,48 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 370,
-    "anchor_y": 400,
-    "en": "Push on crate",
-    "hi": "बक्से पर धक्का",
-    "info_en": "Push on crate: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
-    "info_hi": "बक्से पर धक्का: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   },
-   {
-    "x": 272,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 720,
-    "anchor_y": 400,
-    "en": "Bat on ball",
-    "hi": "गेंद पर बल्ला",
-    "info_en": "Bat on ball: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
-    "info_hi": "गेंद पर बल्ला: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   },
-   {
-    "x": 530,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 1200,
-    "anchor_y": 300,
-    "en": "Squeezed lemon",
-    "hi": "निचोड़ा नींबू",
-    "info_en": "Squeezed lemon: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
-    "info_hi": "निचोड़ा नींबू: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   },
-   {
-    "x": 788,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 200,
+    "anchor_x": 270,
     "anchor_y": 330,
-    "en": "Force arrow",
-    "hi": "बल का तीर",
-    "info_en": "Force arrow: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
-    "info_hi": "बल का तीर: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   }
-  ],
-  "rx/c9_forces_6_3_balanced_tug.webp": [
-   {
-    "x": 14,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 200,
-    "anchor_y": 380,
-    "en": "Left team",
-    "hi": "बाईं टीम",
-    "info_en": "Left team: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
-    "info_hi": "बाईं टीम: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+    "en": "Hand pushes crate",
+    "hi": "हाथ बक्सा धकेलता है",
+    "info_en": "Hand pushes crate: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
+    "info_hi": "हाथ बक्सा धकेलता है: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    },
    {
     "x": 272,
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 574,
-    "anchor_y": 370,
-    "en": "Taut rope",
-    "hi": "तनी रस्सी",
-    "info_en": "Taut rope: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
-    "info_hi": "तनी रस्सी: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+    "anchor_x": 470,
+    "anchor_y": 430,
+    "en": "Crate slides",
+    "hi": "बक्सा फिसलता है",
+    "info_en": "Crate slides: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
+    "info_hi": "बक्सा फिसलता है: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    },
    {
     "x": 530,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 1000,
-    "anchor_y": 380,
-    "en": "Right team",
-    "hi": "दाईं टीम",
-    "info_en": "Right team: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
-    "info_hi": "दाईं टीम: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   },
-   {
-    "x": 788,
     "y": 14,
     "w": 250,
     "h": 66,
     "anchor_x": 700,
-    "anchor_y": 460,
-    "en": "Unbalanced pull",
-    "hi": "असंतुलित खिंचाव",
-    "info_en": "Unbalanced pull: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
-    "info_hi": "असंतुलित खिंचाव: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   }
-  ],
-  "rx/c9_forces_6_4_net_force_cart.webp": [
-   {
-    "x": 14,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 534,
-    "anchor_y": 290,
-    "en": "Cart",
-    "hi": "गाड़ी",
-    "info_en": "Cart: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
-    "info_hi": "गाड़ी: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   },
-   {
-    "x": 272,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 1084,
-    "anchor_y": 400,
-    "en": "Pulley",
-    "hi": "घिरनी",
-    "info_en": "Pulley: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
-    "info_hi": "घिरनी: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
-   },
-   {
-    "x": 530,
-    "y": 14,
-    "w": 250,
-    "h": 66,
-    "anchor_x": 1104,
-    "anchor_y": 620,
-    "en": "Hanging cup",
-    "hi": "लटकता कप",
-    "info_en": "Hanging cup: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
-    "info_hi": "लटकता कप: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+    "anchor_y": 390,
+    "en": "Bat turns the ball",
+    "hi": "बल्ला गेंद मोड़ता है",
+    "info_en": "Bat turns the ball: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
+    "info_hi": "बल्ला गेंद मोड़ता है: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    },
    {
     "x": 788,
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 880,
-    "anchor_y": 340,
-    "en": "Thread",
-    "hi": "धागा",
-    "info_en": "Thread: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
-    "info_hi": "धागा: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+    "anchor_x": 1200,
+    "anchor_y": 290,
+    "en": "Lemon changes shape",
+    "hi": "नींबू आकार बदलता है",
+    "info_en": "Lemon changes shape: labelled part of the illustration “Effects of force”. Illustrative, not to scale.",
+    "info_hi": "नींबू आकार बदलता है: “बल के प्रभाव” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ],
   "rx/c9_forces_6_5_friction_arrows.webp": [
@@ -18931,8 +18833,8 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 660,
-    "anchor_y": 550,
+    "anchor_x": 620,
+    "anchor_y": 390,
     "en": "Weight downward",
     "hi": "नीचे भार",
     "info_en": "Weight downward: labelled part of the illustration “Friction opposes relative motion”. Illustrative, not to scale.",
@@ -18943,8 +18845,8 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 670,
-    "anchor_y": 120,
+    "anchor_x": 690,
+    "anchor_y": 470,
     "en": "Normal force",
     "hi": "अभिलंब बल",
     "info_en": "Normal force: labelled part of the illustration “Friction opposes relative motion”. Illustrative, not to scale.",
@@ -18955,8 +18857,8 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 990,
-    "anchor_y": 272,
+    "anchor_x": 1060,
+    "anchor_y": 340,
     "en": "Applied force",
     "hi": "लगाया बल",
     "info_en": "Applied force: labelled part of the illustration “Friction opposes relative motion”. Illustrative, not to scale.",
@@ -18967,8 +18869,8 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 400,
-    "anchor_y": 332,
+    "anchor_x": 545,
+    "anchor_y": 560,
     "en": "Friction backward",
     "hi": "पीछे घर्षण",
     "info_en": "Friction backward: labelled part of the illustration “Friction opposes relative motion”. Illustrative, not to scale.",
@@ -19067,8 +18969,8 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 700,
-    "anchor_y": 620,
+    "anchor_x": 1180,
+    "anchor_y": 690,
     "en": "Smooth floor",
     "hi": "चिकनी सतह",
     "info_en": "Smooth floor: labelled part of the illustration “Newton's first law and inertia”. Illustrative, not to scale.",
@@ -19081,8 +18983,8 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 390,
-    "anchor_y": 290,
+    "anchor_x": 1010,
+    "anchor_y": 250,
     "en": "Truck: large momentum",
     "hi": "ट्रक: बड़ा संवेग",
     "info_en": "Truck: large momentum: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
@@ -19105,24 +19007,24 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 640,
-    "anchor_y": 532,
-    "en": "Momentum arrow",
-    "hi": "संवेग तीर",
-    "info_en": "Momentum arrow: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
-    "info_hi": "संवेग तीर: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+    "anchor_x": 700,
+    "anchor_y": 300,
+    "en": "Long arrow: more momentum",
+    "hi": "लंबा तीर: अधिक संवेग",
+    "info_en": "Long arrow: more momentum: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
+    "info_hi": "लंबा तीर: अधिक संवेग: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    },
    {
     "x": 788,
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 1150,
-    "anchor_y": 300,
-    "en": "Same speed, different mass",
-    "hi": "समान चाल, भिन्न द्रव्यमान",
-    "info_en": "Same speed, different mass: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
-    "info_hi": "समान चाल, भिन्न द्रव्यमान: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+    "anchor_x": 640,
+    "anchor_y": 532,
+    "en": "Short arrow: less momentum",
+    "hi": "छोटा तीर: कम संवेग",
+    "info_en": "Short arrow: less momentum: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
+    "info_hi": "छोटा तीर: कम संवेग: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ],
   "rx/c9_forces_6_8_third_law.webp": [
@@ -19167,8 +19069,8 @@
     "y": 14,
     "w": 250,
     "h": 66,
-    "anchor_x": 1204,
-    "anchor_y": 362,
+    "anchor_x": 1060,
+    "anchor_y": 400,
     "en": "Canoe moves forward",
     "hi": "कनू आगे बढ़ता है",
     "info_en": "Canoe moves forward: labelled part of the illustration “Newton's third law”. Illustrative, not to scale.",
@@ -19223,6 +19125,156 @@
     "hi": "लॉन्च की लपटें",
     "info_en": "Launch plume: labelled part of the illustration “Conservation of momentum”. Illustrative, not to scale.",
     "info_hi": "लॉन्च की लपटें: “संवेग संरक्षण” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_forces_6_3_tug_of_war.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 320,
+    "anchor_y": 330,
+    "en": "Left team pulls left",
+    "hi": "बाईं टीम बाएँ खींचती है",
+    "info_en": "Left team pulls left: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
+    "info_hi": "बाईं टीम बाएँ खींचती है: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 470,
+    "anchor_y": 372,
+    "en": "Taut rope",
+    "hi": "तनी रस्सी",
+    "info_en": "Taut rope: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
+    "info_hi": "तनी रस्सी: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1080,
+    "anchor_y": 330,
+    "en": "Right team pulls right",
+    "hi": "दाईं टीम दाएँ खींचती है",
+    "info_en": "Right team pulls right: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
+    "info_hi": "दाईं टीम दाएँ खींचती है: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 686,
+    "anchor_y": 400,
+    "en": "Ribbon stays still",
+    "hi": "रिबन स्थिर रहता है",
+    "info_en": "Ribbon stays still: labelled part of the illustration “Balanced forces”. Illustrative, not to scale.",
+    "info_hi": "रिबन स्थिर रहता है: “संतुलित बल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_forces_6_4_net_force_arrows.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 520,
+    "anchor_y": 385,
+    "en": "Push: 10 N to the right",
+    "hi": "धक्का: 10 N दाएँ",
+    "info_en": "Push: 10 N to the right: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
+    "info_hi": "धक्का: 10 N दाएँ: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 990,
+    "anchor_y": 385,
+    "en": "Opposing push: 6 N",
+    "hi": "विरोधी धक्का: 6 N",
+    "info_en": "Opposing push: 6 N: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
+    "info_hi": "विरोधी धक्का: 6 N: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 690,
+    "anchor_y": 300,
+    "en": "Crate",
+    "hi": "बक्सा",
+    "info_en": "Crate: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
+    "info_hi": "बक्सा: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 830,
+    "anchor_y": 500,
+    "en": "Crate slides right",
+    "hi": "बक्सा दाएँ फिसलता है",
+    "info_en": "Crate slides right: labelled part of the illustration “Unbalanced forces change motion”. Illustrative, not to scale.",
+    "info_hi": "बक्सा दाएँ फिसलता है: “असंतुलित बल गति बदलते हैं” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_forces_6_7_cart_pulley.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 545,
+    "anchor_y": 265,
+    "en": "Cart",
+    "hi": "गाड़ी",
+    "info_en": "Cart: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
+    "info_hi": "गाड़ी: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 880,
+    "anchor_y": 305,
+    "en": "Thread over pulley",
+    "hi": "घिरनी पर धागा",
+    "info_en": "Thread over pulley: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
+    "info_hi": "घिरनी पर धागा: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1125,
+    "anchor_y": 630,
+    "en": "Cup of coins",
+    "hi": "सिक्कों का कप",
+    "info_en": "Cup of coins: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
+    "info_hi": "सिक्कों का कप: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1075,
+    "anchor_y": 355,
+    "en": "Pulley",
+    "hi": "घिरनी",
+    "info_en": "Pulley: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
+    "info_hi": "घिरनी: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },

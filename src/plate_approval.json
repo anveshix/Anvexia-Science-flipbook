@@ -4,7 +4,7 @@
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1451 labels, all with Devanagari Hindi",
+   "detail": "1455 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "329 unique SHA-256",
+   "detail": "330 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "329 plates",
+   "detail": "330 plates",
    "ok": true
   }
  },
@@ -586,11 +586,11 @@
    "width": 1376
   },
   {
-   "bytes": 54184,
+   "bytes": 53066,
    "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-   "file": "rx/c9_forces_6_3_balanced_tug.webp",
+   "file": "rx/c9_forces_6_3_tug_of_war.webp",
    "height": 768,
-   "id": "c9_forces_6_3_balanced_tug",
+   "id": "c9_forces_6_3_tug_of_war",
    "labels": 4,
    "sections": [
     {
@@ -598,15 +598,15 @@
      "section": "6.3"
     }
    ],
-   "sha256": "400079a022f68d207b4f21b49688719ea508a3e43c3c4cad526544c262736dd6",
+   "sha256": "225feb4028bca4eb52c044d3c6a3e0c059306a79be72b3cabbc580d6405e667f",
    "width": 1376
   },
   {
-   "bytes": 34658,
+   "bytes": 26832,
    "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-   "file": "rx/c9_forces_6_4_net_force_cart.webp",
+   "file": "rx/c9_forces_6_4_net_force_arrows.webp",
    "height": 768,
-   "id": "c9_forces_6_4_net_force_cart",
+   "id": "c9_forces_6_4_net_force_arrows",
    "labels": 4,
    "sections": [
     {
@@ -614,11 +614,11 @@
      "section": "6.4"
     }
    ],
-   "sha256": "3e9f5c21395083e42a7903d89526e837bcb4c773f695cbb1d4f77793b80dbdec",
+   "sha256": "6ede6886f6a16a2f2c05cbfd457c6e180f67d96541af1595c03ba2aa541bb0b5",
    "width": 1376
   },
   {
-   "bytes": 102036,
+   "bytes": 63232,
    "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
    "file": "rx/c9_forces_6_5_friction_arrows.webp",
    "height": 768,
@@ -630,7 +630,7 @@
      "section": "6.5"
     }
    ],
-   "sha256": "c483d31c53fd54e7b8ee4aed6c4d311602d98eec5ca0959b51bf74ecd6cb4ee7",
+   "sha256": "c934a31f3e2af6c9594e556f015fd52510957a9d21bca6f7eec42b508d7f8cf4",
    "width": 1376
   },
   {
@@ -663,6 +663,22 @@
     }
    ],
    "sha256": "cf9041c9d792cd9dcac1b731e3786c58fe81e165567aa58dc3b3bcc831498c56",
+   "width": 1376
+  },
+  {
+   "bytes": 34658,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_7_cart_pulley.webp",
+   "height": 768,
+   "id": "c9_forces_6_7_cart_pulley",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.7"
+    }
+   ],
+   "sha256": "3e9f5c21395083e42a7903d89526e837bcb4c773f695cbb1d4f77793b80dbdec",
    "width": 1376
   },
   {
@@ -5665,17 +5681,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 19858920,
+  "bytes": 19845830,
   "chapters": 33,
-  "creditsRecorded": 132,
+  "creditsRecorded": 133,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 53,
+   "1376x768": 54,
    "1408x768": 198
   },
-  "labels": 1451,
-  "plates": 329,
+  "labels": 1455,
+  "plates": 330,
   "sections": 266,
-  "uniqueSha256": 329
+  "uniqueSha256": 330
  }
 }
