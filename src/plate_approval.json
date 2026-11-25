@@ -4,7 +4,7 @@
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1411 labels, all with Devanagari Hindi",
+   "detail": "1455 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "319 unique SHA-256",
+   "detail": "330 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "319 plates",
+   "detail": "330 plates",
    "ok": true
   }
  },
@@ -551,6 +551,182 @@
     }
    ],
    "sha256": "825d92abfe13641653a149190086688a3464a44777756afc65dd12dc07807ba5",
+   "width": 1376
+  },
+  {
+   "bytes": 84440,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_1_push_and_pull.webp",
+   "height": 768,
+   "id": "c9_forces_6_1_push_and_pull",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.1"
+    }
+   ],
+   "sha256": "227de8ae6b1b851317fd171768c86a6d8742b1482c7159d205d1c3fe777ab1bc",
+   "width": 1376
+  },
+  {
+   "bytes": 76818,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_2_effects_of_force.webp",
+   "height": 768,
+   "id": "c9_forces_6_2_effects_of_force",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.2"
+    }
+   ],
+   "sha256": "8011b14e4f693abb84bfb9680f42f213967dba7826b2161bd13409b6d37bfe14",
+   "width": 1376
+  },
+  {
+   "bytes": 53066,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_3_tug_of_war.webp",
+   "height": 768,
+   "id": "c9_forces_6_3_tug_of_war",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.3"
+    }
+   ],
+   "sha256": "225feb4028bca4eb52c044d3c6a3e0c059306a79be72b3cabbc580d6405e667f",
+   "width": 1376
+  },
+  {
+   "bytes": 26832,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_4_net_force_arrows.webp",
+   "height": 768,
+   "id": "c9_forces_6_4_net_force_arrows",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.4"
+    }
+   ],
+   "sha256": "6ede6886f6a16a2f2c05cbfd457c6e180f67d96541af1595c03ba2aa541bb0b5",
+   "width": 1376
+  },
+  {
+   "bytes": 63232,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_5_friction_arrows.webp",
+   "height": 768,
+   "id": "c9_forces_6_5_friction_arrows",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.5"
+    }
+   ],
+   "sha256": "c934a31f3e2af6c9594e556f015fd52510957a9d21bca6f7eec42b508d7f8cf4",
+   "width": 1376
+  },
+  {
+   "bytes": 45120,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_5b_friction_surfaces.webp",
+   "height": 768,
+   "id": "c9_forces_6_5b_friction_surfaces",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.5"
+    }
+   ],
+   "sha256": "c829d03364d50276498401cafcab116f0d5a347ae00ca7a64cc9b0a922640786",
+   "width": 1376
+  },
+  {
+   "bytes": 30534,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_6_inertia.webp",
+   "height": 768,
+   "id": "c9_forces_6_6_inertia",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.6"
+    }
+   ],
+   "sha256": "cf9041c9d792cd9dcac1b731e3786c58fe81e165567aa58dc3b3bcc831498c56",
+   "width": 1376
+  },
+  {
+   "bytes": 34658,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_7_cart_pulley.webp",
+   "height": 768,
+   "id": "c9_forces_6_7_cart_pulley",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.7"
+    }
+   ],
+   "sha256": "3e9f5c21395083e42a7903d89526e837bcb4c773f695cbb1d4f77793b80dbdec",
+   "width": 1376
+  },
+  {
+   "bytes": 60998,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_7_momentum.webp",
+   "height": 768,
+   "id": "c9_forces_6_7_momentum",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.7"
+    }
+   ],
+   "sha256": "c63886e5845e3076abefda15a1515ad234fb526e731ab50c526f0b69a2398fab",
+   "width": 1376
+  },
+  {
+   "bytes": 37654,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_8_third_law.webp",
+   "height": 768,
+   "id": "c9_forces_6_8_third_law",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.8"
+    }
+   ],
+   "sha256": "637b1f1a528d234ab6f4b4a4cd73d0b866e21678b1e6055f76472d704be1288b",
+   "width": 1376
+  },
+  {
+   "bytes": 87384,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_forces_6_9_rocket.webp",
+   "height": 768,
+   "id": "c9_forces_6_9_rocket",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_forces",
+     "section": "6.9"
+    }
+   ],
+   "sha256": "15b164d27151da766fe7b1fc2df0cbad05007c4d791d8a0f869e764e477e7368",
    "width": 1376
   },
   {
@@ -5505,17 +5681,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 19245094,
+  "bytes": 19845830,
   "chapters": 33,
-  "creditsRecorded": 122,
+  "creditsRecorded": 133,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 43,
+   "1376x768": 54,
    "1408x768": 198
   },
-  "labels": 1411,
-  "plates": 319,
+  "labels": 1455,
+  "plates": 330,
   "sections": 266,
-  "uniqueSha256": 319
+  "uniqueSha256": 330
  }
 }

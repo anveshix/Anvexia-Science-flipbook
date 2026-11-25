@@ -4049,29 +4049,29 @@
       "title": "Force as a push or a pull",
       "titleHi": "धक्का या खिंचाव के रूप में बल",
       "short": "Force as a push or a p",
-      "concept": "A force is an interaction that can change speed, direction or shape; its SI unit is the newton.",
-      "conceptHi": "बल वह अंतःक्रिया है जो चाल, दिशा या आकार बदल सकती है, इसकी SI इकाई न्यूटन है।",
+      "concept": "A force is a push or a pull arising from an interaction between two objects; it has both magnitude and direction and is measured in newtons.",
+      "conceptHi": "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव है; इसमें परिमाण और दिशा दोनों होते हैं।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Force as a push or a pull?",
-        "options": ["One newton accelerates 1 kg by 1 metre per second squared.", "A force may change shape without changing motion.", "Balanced forces change neither speed nor direction."],
+        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "A tug of war rope stays still while both teams pull equally."],
         "a": 0,
-        "why": "One newton accelerates 1 kg by 1 metre per second squared."
+        "why": "A spring balance measures the magnitude of a force in newtons."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'धक्का या खिंचाव के रूप में बल' से मेल खाता है?",
-        "options": ["एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।", "बल गति बदले बिना भी आकार बदल सकता है।", "संतुलित बल न चाल बदलते हैं न दिशा।"],
+        "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 0,
-        "why": "एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।"
+        "why": "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"
       },
-      "explain": "One newton accelerates 1 kg by 1 metre per second squared.",
-      "explainHi": "एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।",
-      "vocab": [["Force", "A force is an interaction that can change speed, direction"], ["Inertia", "A force is an interaction that can change speed, direction"], ["Friction", "A force is an interaction that can change speed, direction"]],
-      "vocabHi": [["बल", "बल वह अंतःक्रिया है जो चाल, दिशा या आकार बदल सकती है, इसकी"], ["जड़त्व", "बल वह अंतःक्रिया है जो चाल, दिशा या आकार बदल सकती है, इसकी"], ["घर्षण", "बल वह अंतःक्रिया है जो चाल, दिशा या आकार बदल सकती है, इसकी"]],
+      "explain": "A spring balance measures the magnitude of a force in newtons.",
+      "explainHi": "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।",
+      "vocab": [["Force", "A force is a push or a pull arising from an interaction be"], ["Inertia", "A force is a push or a pull arising from an interaction be"], ["Friction", "A force is a push or a pull arising from an interaction be"]],
+      "vocabHi": [["बल", "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव"], ["जड़त्व", "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव"], ["घर्षण", "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव"]],
       "fig": "3D field · Force as a push or a pull · Push → Pull → Shape → Speed",
       "figHi": "3D field चित्र · धक्का या खिंचाव के रूप में बल · Push / Pull / Shape",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4087,9 +4087,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Force as a push or a pull?",
-        "options": ["One newton accelerates 1 kg by 1 metre per second squared.", "A force may change shape without changing motion.", "Balanced forces change neither speed nor direction."],
+        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "A tug of war rope stays still while both teams pull equally."],
         "a": 0,
-        "why": "One newton accelerates 1 kg by 1 metre per second squared."
+        "why": "A spring balance measures the magnitude of a force in newtons."
       },
       "scene": {
         "type": "atlas",
@@ -4110,29 +4110,29 @@
       "title": "Effects of force",
       "titleHi": "बल के प्रभाव",
       "short": "Effects of force",
-      "concept": "A force can start or stop motion, change direction, or deform an object.",
-      "conceptHi": "बल गति शुरू या रोक सकता है, दिशा बदल सकता है या वस्तु का आकार बिगाड़ सकता है।",
+      "concept": "A force can set an object moving, stop it, turn it, or change its shape, and a change in magnitude or direction changes its effect.",
+      "conceptHi": "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार बदल सकता है; परिमाण या दिशा बदलने से प्रभाव बदलता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Effects of force?",
-        "options": ["Balanced forces change neither speed nor direction.", "A force may change shape without changing motion.", "Acceleration is always in the direction of the net force."],
+        "options": ["A tug of war rope stays still while both teams pull equally.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "10 N and 6 N in opposite directions leave a net force of 4 N."],
         "a": 1,
-        "why": "A force may change shape without changing motion."
+        "why": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'बल के प्रभाव' से मेल खाता है?",
-        "options": ["संतुलित बल न चाल बदलते हैं न दिशा।", "बल गति बदले बिना भी आकार बदल सकता है।", "त्वरण सदैव परिणामी बल की दिशा में होता है।"],
+        "options": ["रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"],
         "a": 1,
-        "why": "बल गति बदले बिना भी आकार बदल सकता है।"
+        "why": "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।"
       },
-      "explain": "A force may change shape without changing motion.",
-      "explainHi": "बल गति बदले बिना भी आकार बदल सकता है।",
-      "vocab": [["Inertia", "A force can start or stop motion, change direction, or def"], ["Friction", "A force can start or stop motion, change direction, or def"], ["Momentum", "A force can start or stop motion, change direction, or def"]],
-      "vocabHi": [["जड़त्व", "बल गति शुरू या रोक सकता है, दिशा बदल सकता है या वस्तु का आ"], ["घर्षण", "बल गति शुरू या रोक सकता है, दिशा बदल सकता है या वस्तु का आ"], ["संवेग", "बल गति शुरू या रोक सकता है, दिशा बदल सकता है या वस्तु का आ"]],
+      "explain": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.",
+      "explainHi": "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।",
+      "vocab": [["Inertia", "A force can set an object moving, stop it, turn it, or cha"], ["Friction", "A force can set an object moving, stop it, turn it, or cha"], ["Momentum", "A force can set an object moving, stop it, turn it, or cha"]],
+      "vocabHi": [["जड़त्व", "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार"], ["घर्षण", "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार"], ["संवेग", "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार"]],
       "fig": "3D tree · Effects of force · Force → Motion → Direction → Deformation",
       "figHi": "3D tree चित्र · बल के प्रभाव · Force / Motion / Direction",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4148,9 +4148,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Effects of force?",
-        "options": ["Balanced forces change neither speed nor direction.", "A force may change shape without changing motion.", "Acceleration is always in the direction of the net force."],
+        "options": ["A tug of war rope stays still while both teams pull equally.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "10 N and 6 N in opposite directions leave a net force of 4 N."],
         "a": 1,
-        "why": "A force may change shape without changing motion."
+        "why": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball."
       },
       "scene": {
         "type": "atlas",
@@ -4171,29 +4171,29 @@
       "title": "Balanced forces",
       "titleHi": "संतुलित बल",
       "short": "Balanced forces",
-      "concept": "Balanced forces give zero net force, so the object keeps its state of rest or uniform motion.",
-      "conceptHi": "संतुलित बलों का परिणामी बल शून्य होता है, इसलिए वस्तु विराम या एकसमान गति में रहती है।",
+      "concept": "Balanced forces cancel, so the object keeps resting or moving uniformly; unbalanced forces accelerate it.",
+      "conceptHi": "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विराम या एकसमान गति में रहती है; असंतुलित बल त्वरित करते हैं।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Balanced forces?",
-        "options": ["Acceleration is always in the direction of the net force.", "Rolling friction is much smaller than sliding friction.", "Balanced forces change neither speed nor direction."],
+        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "A tug of war rope stays still while both teams pull equally."],
         "a": 2,
-        "why": "Balanced forces change neither speed nor direction."
+        "why": "A tug of war rope stays still while both teams pull equally."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'संतुलित बल' से मेल खाता है?",
-        "options": ["त्वरण सदैव परिणामी बल की दिशा में होता है।", "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।", "संतुलित बल न चाल बदलते हैं न दिशा।"],
+        "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 2,
-        "why": "संतुलित बल न चाल बदलते हैं न दिशा।"
+        "why": "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"
       },
-      "explain": "Balanced forces change neither speed nor direction.",
-      "explainHi": "संतुलित बल न चाल बदलते हैं न दिशा।",
-      "vocab": [["Friction", "Balanced forces give zero net force, so the object keeps i"], ["Momentum", "Balanced forces give zero net force, so the object keeps i"], ["Net force", "Balanced forces give zero net force, so the object keeps i"]],
-      "vocabHi": [["घर्षण", "संतुलित बलों का परिणामी बल शून्य होता है, इसलिए वस्तु विरा"], ["संवेग", "संतुलित बलों का परिणामी बल शून्य होता है, इसलिए वस्तु विरा"], ["परिणामी बल", "संतुलित बलों का परिणामी बल शून्य होता है, इसलिए वस्तु विरा"]],
+      "explain": "A tug of war rope stays still while both teams pull equally.",
+      "explainHi": "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।",
+      "vocab": [["Friction", "Balanced forces cancel, so the object keeps resting or mov"], ["Momentum", "Balanced forces cancel, so the object keeps resting or mov"], ["Net force", "Balanced forces cancel, so the object keeps resting or mov"]],
+      "vocabHi": [["घर्षण", "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विर"], ["संवेग", "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विर"], ["परिणामी बल", "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विर"]],
       "fig": "3D bars · Balanced forces · Left force → Right force → Net zero → No change",
       "figHi": "3D bars चित्र · संतुलित बल · Left force / Right force / Net zero",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4209,9 +4209,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Balanced forces?",
-        "options": ["Acceleration is always in the direction of the net force.", "Rolling friction is much smaller than sliding friction.", "Balanced forces change neither speed nor direction."],
+        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "A tug of war rope stays still while both teams pull equally."],
         "a": 2,
-        "why": "Balanced forces change neither speed nor direction."
+        "why": "A tug of war rope stays still while both teams pull equally."
       },
       "scene": {
         "type": "atlas",
@@ -4232,29 +4232,29 @@
       "title": "Unbalanced forces change motion",
       "titleHi": "असंतुलित बल गति बदलते हैं",
       "short": "Unbalanced forces chan",
-      "concept": "A non-zero net force produces acceleration in its own direction.",
-      "conceptHi": "शून्येतर परिणामी बल अपनी दिशा में त्वरण उत्पन्न करता है।",
+      "concept": "Forces add as vectors — same direction they add, opposite they subtract — and the unbalanced net force accelerates the object along it.",
+      "conceptHi": "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म का परिणामी बल वस्तु को बड़े बल की दिशा में त्वरित करता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Unbalanced forces change motion?",
-        "options": ["Acceleration is always in the direction of the net force.", "Rolling friction is much smaller than sliding friction.", "Inertia is the natural resistance to a change in state of motion."],
+        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "With zero friction a moving object would never stop on its own."],
         "a": 0,
-        "why": "Acceleration is always in the direction of the net force."
+        "why": "10 N and 6 N in opposite directions leave a net force of 4 N."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'असंतुलित बल गति बदलते हैं' से मेल खाता है?",
-        "options": ["त्वरण सदैव परिणामी बल की दिशा में होता है।", "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।", "जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।"],
+        "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 0,
-        "why": "त्वरण सदैव परिणामी बल की दिशा में होता है।"
+        "why": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"
       },
-      "explain": "Acceleration is always in the direction of the net force.",
-      "explainHi": "त्वरण सदैव परिणामी बल की दिशा में होता है।",
-      "vocab": [["Momentum", "A non-zero net force produces acceleration in its own dire"], ["Net force", "A non-zero net force produces acceleration in its own dire"], ["Newton", "A non-zero net force produces acceleration in its own dire"]],
-      "vocabHi": [["संवेग", "शून्येतर परिणामी बल अपनी दिशा में त्वरण उत्पन्न करता है।"], ["परिणामी बल", "शून्येतर परिणामी बल अपनी दिशा में त्वरण उत्पन्न करता है।"], ["न्यूटन", "शून्येतर परिणामी बल अपनी दिशा में त्वरण उत्पन्न करता है।"]],
+      "explain": "10 N and 6 N in opposite directions leave a net force of 4 N.",
+      "explainHi": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।",
+      "vocab": [["Momentum", "Forces add as vectors — same direction they add, opposite "], ["Net force", "Forces add as vectors — same direction they add, opposite "], ["Newton", "Forces add as vectors — same direction they add, opposite "]],
+      "vocabHi": [["संवेग", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "], ["परिणामी बल", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "], ["न्यूटन", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "]],
       "fig": "3D field · Unbalanced forces change motion · Net force → Acceleration → Velocity → New path",
       "figHi": "3D field चित्र · असंतुलित बल गति बदलते हैं · Net force / Acceleration / Velocity",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4270,9 +4270,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Unbalanced forces change motion?",
-        "options": ["Acceleration is always in the direction of the net force.", "Rolling friction is much smaller than sliding friction.", "Inertia is the natural resistance to a change in state of motion."],
+        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "With zero friction a moving object would never stop on its own."],
         "a": 0,
-        "why": "Acceleration is always in the direction of the net force."
+        "why": "10 N and 6 N in opposite directions leave a net force of 4 N."
       },
       "scene": {
         "type": "atlas",
@@ -4293,29 +4293,29 @@
       "title": "Friction opposes relative motion",
       "titleHi": "घर्षण सापेक्ष गति का विरोध करता है",
       "short": "Friction opposes relat",
-      "concept": "Friction acts opposite to sliding; static friction is larger than sliding friction.",
-      "conceptHi": "घर्षण फिसलन के विपरीत लगता है, स्थैतिक घर्षण सर्पी घर्षण से अधिक होता है।",
+      "concept": "Friction acts along the surfaces in contact, opposite to motion, and a box moves only when the applied force exceeds it.",
+      "conceptHi": "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण से अधिक होने पर ही बक्सा चलता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Friction opposes relative motion?",
-        "options": ["Inertia is the natural resistance to a change in state of motion.", "Rolling friction is much smaller than sliding friction.", "Momentum is mass times velocity and has direction."],
+        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
-        "why": "Rolling friction is much smaller than sliding friction."
+        "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'घर्षण सापेक्ष गति का विरोध करता है' से मेल खाता है?",
-        "options": ["जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।", "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।", "संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।"],
+        "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"],
         "a": 1,
-        "why": "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।"
+        "why": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।"
       },
-      "explain": "Rolling friction is much smaller than sliding friction.",
-      "explainHi": "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।",
-      "vocab": [["Net force", "Friction acts opposite to sliding; static friction is larg"], ["Newton", "Friction acts opposite to sliding; static friction is larg"], ["Force", "Friction acts opposite to sliding; static friction is larg"]],
-      "vocabHi": [["परिणामी बल", "घर्षण फिसलन के विपरीत लगता है, स्थैतिक घर्षण सर्पी घर्षण स"], ["न्यूटन", "घर्षण फिसलन के विपरीत लगता है, स्थैतिक घर्षण सर्पी घर्षण स"], ["बल", "घर्षण फिसलन के विपरीत लगता है, स्थैतिक घर्षण सर्पी घर्षण स"]],
+      "explain": "Smoother surfaces mean smaller friction, so the coins travel farther.",
+      "explainHi": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।",
+      "vocab": [["Net force", "Friction acts along the surfaces in contact, opposite to m"], ["Newton", "Friction acts along the surfaces in contact, opposite to m"], ["Force", "Friction acts along the surfaces in contact, opposite to m"]],
+      "vocabHi": [["परिणामी बल", "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण "], ["न्यूटन", "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण "], ["बल", "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण "]],
       "fig": "3D layers · Friction opposes relative motion · Surface → Static → Sliding → Rolling",
       "figHi": "3D layers चित्र · घर्षण सापेक्ष गति का विरोध करता है · Surface / Static / Sliding",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4331,9 +4331,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Friction opposes relative motion?",
-        "options": ["Inertia is the natural resistance to a change in state of motion.", "Rolling friction is much smaller than sliding friction.", "Momentum is mass times velocity and has direction."],
+        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
-        "why": "Rolling friction is much smaller than sliding friction."
+        "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       },
       "scene": {
         "type": "atlas",
@@ -4354,29 +4354,29 @@
       "title": "Newton's first law and inertia",
       "titleHi": "न्यूटन का प्रथम नियम और जड़त्व",
       "short": "Newton's first law and",
-      "concept": "An object stays at rest or in uniform straight-line motion unless a net external force acts.",
-      "conceptHi": "जब तक बाह्य परिणामी बल न लगे वस्तु विराम या एकसमान सरल रेखीय गति में रहती है।",
+      "concept": "An object stays at rest or in uniform straight-line motion unless a net external force acts on it — that is inertia.",
+      "conceptHi": "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रेखीय गति में रहती है — यही जड़त्व है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Newton's first law and inertia?",
-        "options": ["Momentum is mass times velocity and has direction.", "Action and reaction act on different bodies so they do not cancel.", "Inertia is the natural resistance to a change in state of motion."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
-        "why": "Inertia is the natural resistance to a change in state of motion."
+        "why": "With zero friction a moving object would never stop on its own."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'न्यूटन का प्रथम नियम और जड़त्व' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।", "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।", "जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 2,
-        "why": "जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।"
+        "why": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"
       },
-      "explain": "Inertia is the natural resistance to a change in state of motion.",
-      "explainHi": "जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।",
+      "explain": "With zero friction a moving object would never stop on its own.",
+      "explainHi": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।",
       "vocab": [["Newton", "An object stays at rest or in uniform straight-line motion"], ["Force", "An object stays at rest or in uniform straight-line motion"], ["Inertia", "An object stays at rest or in uniform straight-line motion"]],
-      "vocabHi": [["न्यूटन", "जब तक बाह्य परिणामी बल न लगे वस्तु विराम या एकसमान सरल रेख"], ["बल", "जब तक बाह्य परिणामी बल न लगे वस्तु विराम या एकसमान सरल रेख"], ["जड़त्व", "जब तक बाह्य परिणामी बल न लगे वस्तु विराम या एकसमान सरल रेख"]],
+      "vocabHi": [["न्यूटन", "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रे"], ["बल", "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रे"], ["जड़त्व", "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रे"]],
       "fig": "3D flow · Newton's first law and inertia · Rest → No net force → Uniform motion → Inertia",
       "figHi": "3D flow चित्र · न्यूटन का प्रथम नियम और जड़त्व · Rest / No net force / Uniform motion",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4392,9 +4392,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Newton's first law and inertia?",
-        "options": ["Momentum is mass times velocity and has direction.", "Action and reaction act on different bodies so they do not cancel.", "Inertia is the natural resistance to a change in state of motion."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
-        "why": "Inertia is the natural resistance to a change in state of motion."
+        "why": "With zero friction a moving object would never stop on its own."
       },
       "scene": {
         "type": "atlas",
@@ -4415,29 +4415,29 @@
       "title": "Newton's second law and momentum",
       "titleHi": "न्यूटन का दूसरा नियम और संवेग",
       "short": "Newton's second law an",
-      "concept": "Net force equals rate of change of momentum; for constant mass F = ma.",
-      "conceptHi": "परिणामी बल संवेग परिवर्तन की दर है, स्थिर द्रव्यमान के लिए F = ma।",
+      "concept": "A net force accelerates an object along itself, F = ma, and equals the rate of change of momentum; near Earth weight W = mg.",
+      "conceptHi": "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, और संवेग परिवर्तन की दर के बराबर है; पृथ्वी के निकट भार W = mg।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Newton's second law and momentum?",
-        "options": ["Momentum is mass times velocity and has direction.", "Action and reaction act on different bodies so they do not cancel.", "Rocket propulsion follows conservation of momentum."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
-        "why": "Momentum is mass times velocity and has direction."
+        "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'न्यूटन का दूसरा नियम और संवेग' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।", "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।", "रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 0,
-        "why": "संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।"
+        "why": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"
       },
-      "explain": "Momentum is mass times velocity and has direction.",
-      "explainHi": "संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।",
-      "vocab": [["Force", "Net force equals rate of change of momentum; for constant "], ["Inertia", "Net force equals rate of change of momentum; for constant "], ["Friction", "Net force equals rate of change of momentum; for constant "]],
-      "vocabHi": [["बल", "परिणामी बल संवेग परिवर्तन की दर है, स्थिर द्रव्यमान के लिए"], ["जड़त्व", "परिणामी बल संवेग परिवर्तन की दर है, स्थिर द्रव्यमान के लिए"], ["घर्षण", "परिणामी बल संवेग परिवर्तन की दर है, स्थिर द्रव्यमान के लिए"]],
+      "explain": "Two boxes joined by a string move as one system: a = F/(m1 + m2).",
+      "explainHi": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।",
+      "vocab": [["Force", "A net force accelerates an object along itself, F = ma, an"], ["Inertia", "A net force accelerates an object along itself, F = ma, an"], ["Friction", "A net force accelerates an object along itself, F = ma, an"]],
+      "vocabHi": [["बल", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "], ["जड़त्व", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "], ["घर्षण", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "]],
       "fig": "3D graph · Newton's second law and momentum · m → F → a → p = mv",
       "figHi": "3D graph चित्र · न्यूटन का दूसरा नियम और संवेग · m / F / a",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4453,9 +4453,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Newton's second law and momentum?",
-        "options": ["Momentum is mass times velocity and has direction.", "Action and reaction act on different bodies so they do not cancel.", "Rocket propulsion follows conservation of momentum."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
-        "why": "Momentum is mass times velocity and has direction."
+        "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       },
       "scene": {
         "type": "atlas",
@@ -4476,29 +4476,29 @@
       "title": "Newton's third law",
       "titleHi": "न्यूटन का तृतीय नियम",
       "short": "Newton's third law",
-      "concept": "Every action has an equal and opposite reaction acting on a different body.",
-      "conceptHi": "हर क्रिया के बराबर और विपरीत प्रतिक्रिया होती है जो दूसरी वस्तु पर लगती है।",
+      "concept": "For every action an equal and opposite reaction acts on the other body, so the pair never cancels.",
+      "conceptHi": "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लगती है, इसलिए युग्म कभी निरस्त नहीं होता।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Newton's third law?",
-        "options": ["Rocket propulsion follows conservation of momentum.", "Action and reaction act on different bodies so they do not cancel.", "One newton accelerates 1 kg by 1 metre per second squared."],
+        "options": ["Chandrayaan-3's Vikram lander fired forward to slow itself down.", "A gun recoils because the bullet pushes back on it with 2 N.", "A spring balance measures the magnitude of a force in newtons."],
         "a": 1,
-        "why": "Action and reaction act on different bodies so they do not cancel."
+        "why": "A gun recoils because the bullet pushes back on it with 2 N."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'न्यूटन का तृतीय नियम' से मेल खाता है?",
-        "options": ["रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।", "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।", "एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।"],
+        "options": ["चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"],
         "a": 1,
-        "why": "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।"
+        "why": "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।"
       },
-      "explain": "Action and reaction act on different bodies so they do not cancel.",
-      "explainHi": "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।",
-      "vocab": [["Inertia", "Every action has an equal and opposite reaction acting on "], ["Friction", "Every action has an equal and opposite reaction acting on "], ["Momentum", "Every action has an equal and opposite reaction acting on "]],
-      "vocabHi": [["जड़त्व", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया होती है जो दूसरी "], ["घर्षण", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया होती है जो दूसरी "], ["संवेग", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया होती है जो दूसरी "]],
+      "explain": "A gun recoils because the bullet pushes back on it with 2 N.",
+      "explainHi": "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।",
+      "vocab": [["Inertia", "For every action an equal and opposite reaction acts on th"], ["Friction", "For every action an equal and opposite reaction acts on th"], ["Momentum", "For every action an equal and opposite reaction acts on th"]],
+      "vocabHi": [["जड़त्व", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लग"], ["घर्षण", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लग"], ["संवेग", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लग"]],
       "fig": "3D rays · Newton's third law · Body A → Action → Body B → Reaction",
       "figHi": "3D rays चित्र · न्यूटन का तृतीय नियम · Body A / Action / Body B",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4514,9 +4514,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Newton's third law?",
-        "options": ["Rocket propulsion follows conservation of momentum.", "Action and reaction act on different bodies so they do not cancel.", "One newton accelerates 1 kg by 1 metre per second squared."],
+        "options": ["Chandrayaan-3's Vikram lander fired forward to slow itself down.", "A gun recoils because the bullet pushes back on it with 2 N.", "A spring balance measures the magnitude of a force in newtons."],
         "a": 1,
-        "why": "Action and reaction act on different bodies so they do not cancel."
+        "why": "A gun recoils because the bullet pushes back on it with 2 N."
       },
       "scene": {
         "type": "atlas",
@@ -4537,29 +4537,29 @@
       "title": "Conservation of momentum",
       "titleHi": "संवेग संरक्षण",
       "short": "Conservation of moment",
-      "concept": "In an isolated system total momentum before a collision equals total momentum after it.",
-      "conceptHi": "विलगित निकाय में टक्कर से पहले और बाद का कुल संवेग बराबर रहता है।",
+      "concept": "In an isolated system the total momentum stays constant: a rocket throws gas down and gains momentum up.",
+      "conceptHi": "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फेंकता है और ऊपर संवेग पाता है।",
       "formula": {
-        "label": "NEWTON'S SECOND LAW · न्यूटन का दूसरा नियम",
+        "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
         "q": "Which statement belongs to Conservation of momentum?",
-        "options": ["One newton accelerates 1 kg by 1 metre per second squared.", "A force may change shape without changing motion.", "Rocket propulsion follows conservation of momentum."],
+        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 2,
-        "why": "Rocket propulsion follows conservation of momentum."
+        "why": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'संवेग संरक्षण' से मेल खाता है?",
-        "options": ["एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।", "बल गति बदले बिना भी आकार बदल सकता है।", "रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।"],
+        "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 2,
-        "why": "रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।"
+        "why": "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"
       },
-      "explain": "Rocket propulsion follows conservation of momentum.",
-      "explainHi": "रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।",
-      "vocab": [["Friction", "In an isolated system total momentum before a collision eq"], ["Momentum", "In an isolated system total momentum before a collision eq"], ["Net force", "In an isolated system total momentum before a collision eq"]],
-      "vocabHi": [["घर्षण", "विलगित निकाय में टक्कर से पहले और बाद का कुल संवेग बराबर र"], ["संवेग", "विलगित निकाय में टक्कर से पहले और बाद का कुल संवेग बराबर र"], ["परिणामी बल", "विलगित निकाय में टक्कर से पहले और बाद का कुल संवेग बराबर र"]],
+      "explain": "Chandrayaan-3's Vikram lander fired forward to slow itself down.",
+      "explainHi": "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।",
+      "vocab": [["Friction", "In an isolated system the total momentum stays constant: a"], ["Momentum", "In an isolated system the total momentum stays constant: a"], ["Net force", "In an isolated system the total momentum stays constant: a"]],
+      "vocabHi": [["घर्षण", "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फे"], ["संवेग", "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फे"], ["परिणामी बल", "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फे"]],
       "fig": "3D cycle · Conservation of momentum · Before → Collision → After → Total p",
       "figHi": "3D cycle चित्र · संवेग संरक्षण · Before / Collision / After",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4575,9 +4575,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Conservation of momentum?",
-        "options": ["One newton accelerates 1 kg by 1 metre per second squared.", "A force may change shape without changing motion.", "Rocket propulsion follows conservation of momentum."],
+        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 2,
-        "why": "Rocket propulsion follows conservation of momentum."
+        "why": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
       },
       "scene": {
         "type": "atlas",
@@ -4664,155 +4664,155 @@
         "hi": "धक्का या खिंचाव के रूप में बल",
         "color": "#5d8ad6",
         "spread": 0,
-        "desc": "One newton accelerates 1 kg by 1 metre per second squared."
+        "desc": "A spring balance measures the magnitude of a force in newtons."
       }, {
         "id": "6.2",
         "en": "Effects of force",
         "hi": "बल के प्रभाव",
         "color": "#5d8ad6",
         "spread": 1,
-        "desc": "A force may change shape without changing motion."
+        "desc": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball."
       }, {
         "id": "6.3",
         "en": "Balanced forces",
         "hi": "संतुलित बल",
         "color": "#5d8ad6",
         "spread": 2,
-        "desc": "Balanced forces change neither speed nor direction."
+        "desc": "A tug of war rope stays still while both teams pull equally."
       }, {
         "id": "6.4",
         "en": "Unbalanced forces change motion",
         "hi": "असंतुलित बल गति बदलते हैं",
         "color": "#5d8ad6",
         "spread": 3,
-        "desc": "Acceleration is always in the direction of the net force."
+        "desc": "10 N and 6 N in opposite directions leave a net force of 4 N."
       }, {
         "id": "6.5",
         "en": "Friction opposes relative motion",
         "hi": "घर्षण सापेक्ष गति का विरोध करता है",
         "color": "#5d8ad6",
         "spread": 4,
-        "desc": "Rolling friction is much smaller than sliding friction."
+        "desc": "Smoother surfaces mean smaller friction, so the coins travel farther."
       }, {
         "id": "6.6",
         "en": "Newton's first law and inertia",
         "hi": "न्यूटन का प्रथम नियम और जड़त्व",
         "color": "#5d8ad6",
         "spread": 5,
-        "desc": "Inertia is the natural resistance to a change in state of motion."
+        "desc": "With zero friction a moving object would never stop on its own."
       }, {
         "id": "6.7",
         "en": "Newton's second law and momentum",
         "hi": "न्यूटन का दूसरा नियम और संवेग",
         "color": "#5d8ad6",
         "spread": 6,
-        "desc": "Momentum is mass times velocity and has direction."
+        "desc": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       }, {
         "id": "6.8",
         "en": "Newton's third law",
         "hi": "न्यूटन का तृतीय नियम",
         "color": "#5d8ad6",
         "spread": 7,
-        "desc": "Action and reaction act on different bodies so they do not cancel."
+        "desc": "A gun recoils because the bullet pushes back on it with 2 N."
       }, {
         "id": "6.9",
         "en": "Conservation of momentum",
         "hi": "संवेग संरक्षण",
         "color": "#5d8ad6",
         "spread": 8,
-        "desc": "Rocket propulsion follows conservation of momentum."
+        "desc": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
       }],
       "quiz": [{
         "q": "Which statement belongs to Force as a push or a pull?",
-        "options": ["One newton accelerates 1 kg by 1 metre per second squared.", "A force may change shape without changing motion.", "Balanced forces change neither speed nor direction."],
+        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "A tug of war rope stays still while both teams pull equally."],
         "a": 0,
-        "why": "One newton accelerates 1 kg by 1 metre per second squared."
+        "why": "A spring balance measures the magnitude of a force in newtons."
       }, {
         "q": "Which statement belongs to Effects of force?",
-        "options": ["Balanced forces change neither speed nor direction.", "A force may change shape without changing motion.", "Acceleration is always in the direction of the net force."],
+        "options": ["A tug of war rope stays still while both teams pull equally.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "10 N and 6 N in opposite directions leave a net force of 4 N."],
         "a": 1,
-        "why": "A force may change shape without changing motion."
+        "why": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball."
       }, {
         "q": "Which statement belongs to Balanced forces?",
-        "options": ["Acceleration is always in the direction of the net force.", "Rolling friction is much smaller than sliding friction.", "Balanced forces change neither speed nor direction."],
+        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "A tug of war rope stays still while both teams pull equally."],
         "a": 2,
-        "why": "Balanced forces change neither speed nor direction."
+        "why": "A tug of war rope stays still while both teams pull equally."
       }, {
         "q": "Which statement belongs to Unbalanced forces change motion?",
-        "options": ["Acceleration is always in the direction of the net force.", "Rolling friction is much smaller than sliding friction.", "Inertia is the natural resistance to a change in state of motion."],
+        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "With zero friction a moving object would never stop on its own."],
         "a": 0,
-        "why": "Acceleration is always in the direction of the net force."
+        "why": "10 N and 6 N in opposite directions leave a net force of 4 N."
       }, {
         "q": "Which statement belongs to Friction opposes relative motion?",
-        "options": ["Inertia is the natural resistance to a change in state of motion.", "Rolling friction is much smaller than sliding friction.", "Momentum is mass times velocity and has direction."],
+        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
-        "why": "Rolling friction is much smaller than sliding friction."
+        "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       }, {
         "q": "Which statement belongs to Newton's first law and inertia?",
-        "options": ["Momentum is mass times velocity and has direction.", "Action and reaction act on different bodies so they do not cancel.", "Inertia is the natural resistance to a change in state of motion."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
-        "why": "Inertia is the natural resistance to a change in state of motion."
+        "why": "With zero friction a moving object would never stop on its own."
       }, {
         "q": "Which statement belongs to Newton's second law and momentum?",
-        "options": ["Momentum is mass times velocity and has direction.", "Action and reaction act on different bodies so they do not cancel.", "Rocket propulsion follows conservation of momentum."],
+        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
-        "why": "Momentum is mass times velocity and has direction."
+        "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       }, {
         "q": "Which statement belongs to Newton's third law?",
-        "options": ["Rocket propulsion follows conservation of momentum.", "Action and reaction act on different bodies so they do not cancel.", "One newton accelerates 1 kg by 1 metre per second squared."],
+        "options": ["Chandrayaan-3's Vikram lander fired forward to slow itself down.", "A gun recoils because the bullet pushes back on it with 2 N.", "A spring balance measures the magnitude of a force in newtons."],
         "a": 1,
-        "why": "Action and reaction act on different bodies so they do not cancel."
+        "why": "A gun recoils because the bullet pushes back on it with 2 N."
       }, {
         "q": "Which statement belongs to Conservation of momentum?",
-        "options": ["One newton accelerates 1 kg by 1 metre per second squared.", "A force may change shape without changing motion.", "Rocket propulsion follows conservation of momentum."],
+        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 2,
-        "why": "Rocket propulsion follows conservation of momentum."
+        "why": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'धक्का या खिंचाव के रूप में बल' से मेल खाता है?",
-        "options": ["एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।", "बल गति बदले बिना भी आकार बदल सकता है।", "संतुलित बल न चाल बदलते हैं न दिशा।"],
+        "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 0,
-        "why": "एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।"
+        "why": "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"
       }, {
         "q": "कौन-सा कथन 'बल के प्रभाव' से मेल खाता है?",
-        "options": ["संतुलित बल न चाल बदलते हैं न दिशा।", "बल गति बदले बिना भी आकार बदल सकता है।", "त्वरण सदैव परिणामी बल की दिशा में होता है।"],
+        "options": ["रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"],
         "a": 1,
-        "why": "बल गति बदले बिना भी आकार बदल सकता है।"
+        "why": "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।"
       }, {
         "q": "कौन-सा कथन 'संतुलित बल' से मेल खाता है?",
-        "options": ["त्वरण सदैव परिणामी बल की दिशा में होता है।", "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।", "संतुलित बल न चाल बदलते हैं न दिशा।"],
+        "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 2,
-        "why": "संतुलित बल न चाल बदलते हैं न दिशा।"
+        "why": "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"
       }, {
         "q": "कौन-सा कथन 'असंतुलित बल गति बदलते हैं' से मेल खाता है?",
-        "options": ["त्वरण सदैव परिणामी बल की दिशा में होता है।", "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।", "जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।"],
+        "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 0,
-        "why": "त्वरण सदैव परिणामी बल की दिशा में होता है।"
+        "why": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"
       }, {
         "q": "कौन-सा कथन 'घर्षण सापेक्ष गति का विरोध करता है' से मेल खाता है?",
-        "options": ["जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।", "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।", "संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।"],
+        "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"],
         "a": 1,
-        "why": "लोटनिक घर्षण सर्पी घर्षण से बहुत कम होता है।"
+        "why": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।"
       }, {
         "q": "कौन-सा कथन 'न्यूटन का प्रथम नियम और जड़त्व' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।", "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।", "जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 2,
-        "why": "जड़त्व गति की स्थिति बदलने का स्वाभाविक विरोध है।"
+        "why": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"
       }, {
         "q": "कौन-सा कथन 'न्यूटन का दूसरा नियम और संवेग' से मेल खाता है?",
-        "options": ["संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।", "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।", "रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।"],
+        "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 0,
-        "why": "संवेग द्रव्यमान गुणा वेग है और दिशात्मक राशि है।"
+        "why": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"
       }, {
         "q": "कौन-सा कथन 'न्यूटन का तृतीय नियम' से मेल खाता है?",
-        "options": ["रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।", "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।", "एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।"],
+        "options": ["चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"],
         "a": 1,
-        "why": "क्रिया और प्रतिक्रिया अलग वस्तुओं पर लगती हैं इसलिए एक-दूसरे को निरस्त नहीं करतीं।"
+        "why": "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।"
       }, {
         "q": "कौन-सा कथन 'संवेग संरक्षण' से मेल खाता है?",
-        "options": ["एक न्यूटन 1 किग्रा को 1 मीटर प्रति वर्ग सेकंड का त्वरण देता है।", "बल गति बदले बिना भी आकार बदल सकता है।", "रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।"],
+        "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 2,
-        "why": "रॉकेट प्रणोदन संवेग संरक्षण पर आधारित है।"
+        "why": "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"
       }],
       "status": "assessed"
     };
