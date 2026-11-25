@@ -19,13 +19,13 @@
         "note": "प्रेक्षण से प्रश्न, प्रयोग से प्रमाण"
       },
       "predict": {
-        "q": "Which statement belongs to Science begins with observation?",
+        "q": "Which statement is correct about Science begins with observation?",
         "options": ["Observation comes before explanation in the scientific method.", "A testable question names the quantities that will be measured.", "Precise terms prevent wrong conclusions from correct measurements."],
         "a": 0,
         "why": "Observation comes before explanation in the scientific method."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विज्ञान प्रेक्षण से शुरू होता है' से मेल खाता है?",
+        "q": "'विज्ञान प्रेक्षण से शुरू होता है' के बारे में कौन-सा कथन सही है?",
         "options": ["वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।", "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।", "सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।"],
         "a": 0,
         "why": "वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।"
@@ -47,12 +47,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Science begins with observation?",
-        "options": ["Observation comes before explanation in the scientific method.", "A testable question names the quantities that will be measured.", "Precise terms prevent wrong conclusions from correct measurements."],
-        "a": 0,
-        "why": "Observation comes before explanation in the scientific method."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -64,8 +58,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_exploration_1_2",
       "section": "1.2",
@@ -80,13 +73,13 @@
         "note": "प्रेक्षण से प्रश्न, प्रयोग से प्रमाण"
       },
       "predict": {
-        "q": "Which statement belongs to Focused questions guide investigation?",
+        "q": "Which statement is correct about Focused questions guide investigation?",
         "options": ["Precise terms prevent wrong conclusions from correct measurements.", "A testable question names the quantities that will be measured.", "Repeatable measurements, not a single lucky reading, count as evidence."],
         "a": 1,
         "why": "A testable question names the quantities that will be measured."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'केन्द्रित प्रश्न जाँच का मार्ग दिखाते हैं' से मेल खाता है?",
+        "q": "'केन्द्रित प्रश्न जाँच का मार्ग दिखाते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।", "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।", "एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।"],
         "a": 1,
         "why": "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।"
@@ -108,12 +101,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Focused questions guide investigation?",
-        "options": ["Precise terms prevent wrong conclusions from correct measurements.", "A testable question names the quantities that will be measured.", "Repeatable measurements, not a single lucky reading, count as evidence."],
-        "a": 1,
-        "why": "A testable question names the quantities that will be measured."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -125,8 +112,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_exploration_1_3",
       "section": "1.3",
@@ -141,13 +127,13 @@
         "note": "प्रेक्षण से प्रश्न, प्रयोग से प्रमाण"
       },
       "predict": {
-        "q": "Which statement belongs to Scientific language must be precise?",
+        "q": "Which statement is correct about Scientific language must be precise?",
         "options": ["Repeatable measurements, not a single lucky reading, count as evidence.", "A model is useful only when its predictions can be tested.", "Precise terms prevent wrong conclusions from correct measurements."],
         "a": 2,
         "why": "Precise terms prevent wrong conclusions from correct measurements."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वैज्ञानिक भाषा सटीक होनी चाहिए' से मेल खाता है?",
+        "q": "'वैज्ञानिक भाषा सटीक होनी चाहिए' के बारे में कौन-सा कथन सही है?",
         "options": ["एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।", "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।", "सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।"],
         "a": 2,
         "why": "सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।"
@@ -169,12 +155,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Scientific language must be precise?",
-        "options": ["Repeatable measurements, not a single lucky reading, count as evidence.", "A model is useful only when its predictions can be tested.", "Precise terms prevent wrong conclusions from correct measurements."],
-        "a": 2,
-        "why": "Precise terms prevent wrong conclusions from correct measurements."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -186,8 +166,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_exploration_1_4",
       "section": "1.4",
@@ -202,13 +181,13 @@
         "note": "प्रेक्षण से प्रश्न, प्रयोग से प्रमाण"
       },
       "predict": {
-        "q": "Which statement belongs to Experiments produce evidence?",
+        "q": "Which statement is correct about Experiments produce evidence?",
         "options": ["Repeatable measurements, not a single lucky reading, count as evidence.", "A model is useful only when its predictions can be tested.", "Scientific ideas are tested in society through technology and evidence."],
         "a": 0,
         "why": "Repeatable measurements, not a single lucky reading, count as evidence."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रयोग प्रमाण देते हैं' से मेल खाता है?",
+        "q": "'प्रयोग प्रमाण देते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।", "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।", "वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।"],
         "a": 0,
         "why": "एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।"
@@ -230,12 +209,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Experiments produce evidence?",
-        "options": ["Repeatable measurements, not a single lucky reading, count as evidence.", "A model is useful only when its predictions can be tested.", "Scientific ideas are tested in society through technology and evidence."],
-        "a": 0,
-        "why": "Repeatable measurements, not a single lucky reading, count as evidence."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -247,8 +220,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_exploration_1_5",
       "section": "1.5",
@@ -263,13 +235,13 @@
         "note": "प्रेक्षण से प्रश्न, प्रयोग से प्रमाण"
       },
       "predict": {
-        "q": "Which statement belongs to Models connect the unseen to the seen?",
+        "q": "Which statement is correct about Models connect the unseen to the seen?",
         "options": ["Scientific ideas are tested in society through technology and evidence.", "A model is useful only when its predictions can be tested.", "Observation comes before explanation in the scientific method."],
         "a": 1,
         "why": "A model is useful only when its predictions can be tested."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रतिरूप अदृश्य को दृश्य से जोड़ते हैं' से मेल खाता है?",
+        "q": "'प्रतिरूप अदृश्य को दृश्य से जोड़ते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।", "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।", "वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।"],
         "a": 1,
         "why": "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।"
@@ -291,12 +263,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Models connect the unseen to the seen?",
-        "options": ["Scientific ideas are tested in society through technology and evidence.", "A model is useful only when its predictions can be tested.", "Observation comes before explanation in the scientific method."],
-        "a": 1,
-        "why": "A model is useful only when its predictions can be tested."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -308,8 +274,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_exploration_1_6",
       "section": "1.6",
@@ -324,13 +289,13 @@
         "note": "प्रेक्षण से प्रश्न, प्रयोग से प्रमाण"
       },
       "predict": {
-        "q": "Which statement belongs to Science links mathematics, technology and society?",
+        "q": "Which statement is correct about Science links mathematics, technology and society?",
         "options": ["Observation comes before explanation in the scientific method.", "A testable question names the quantities that will be measured.", "Scientific ideas are tested in society through technology and evidence."],
         "a": 2,
         "why": "Scientific ideas are tested in society through technology and evidence."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विज्ञान गणित, तकनीक और समाज को जोड़ता है' से मेल खाता है?",
+        "q": "'विज्ञान गणित, तकनीक और समाज को जोड़ता है' के बारे में कौन-सा कथन सही है?",
         "options": ["वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।", "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।", "वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।"],
         "a": 2,
         "why": "वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।"
@@ -352,12 +317,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Science links mathematics, technology and society?",
-        "options": ["Observation comes before explanation in the scientific method.", "A testable question names the quantities that will be measured.", "Scientific ideas are tested in society through technology and evidence."],
-        "a": 2,
-        "why": "Scientific ideas are tested in society through technology and evidence."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -369,8 +328,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_exploration"] = {
       "id": "c9_exploration",
@@ -463,63 +421,63 @@
         "desc": "Scientific ideas are tested in society through technology and evidence"
       }],
       "quiz": [{
-        "q": "Which statement belongs to Science begins with observation?",
+        "q": "Which statement is correct about Science begins with observation?",
         "options": ["Observation comes before explanation in the scientific method.", "A testable question names the quantities that will be measured.", "Precise terms prevent wrong conclusions from correct measurements."],
         "a": 0,
         "why": "Observation comes before explanation in the scientific method."
       }, {
-        "q": "Which statement belongs to Focused questions guide investigation?",
+        "q": "Which statement is correct about Focused questions guide investigation?",
         "options": ["Precise terms prevent wrong conclusions from correct measurements.", "A testable question names the quantities that will be measured.", "Repeatable measurements, not a single lucky reading, count as evidence."],
         "a": 1,
         "why": "A testable question names the quantities that will be measured."
       }, {
-        "q": "Which statement belongs to Scientific language must be precise?",
+        "q": "Which statement is correct about Scientific language must be precise?",
         "options": ["Repeatable measurements, not a single lucky reading, count as evidence.", "A model is useful only when its predictions can be tested.", "Precise terms prevent wrong conclusions from correct measurements."],
         "a": 2,
         "why": "Precise terms prevent wrong conclusions from correct measurements."
       }, {
-        "q": "Which statement belongs to Experiments produce evidence?",
+        "q": "Which statement is correct about Experiments produce evidence?",
         "options": ["Repeatable measurements, not a single lucky reading, count as evidence.", "A model is useful only when its predictions can be tested.", "Scientific ideas are tested in society through technology and evidence."],
         "a": 0,
         "why": "Repeatable measurements, not a single lucky reading, count as evidence."
       }, {
-        "q": "Which statement belongs to Models connect the unseen to the seen?",
+        "q": "Which statement is correct about Models connect the unseen to the seen?",
         "options": ["Scientific ideas are tested in society through technology and evidence.", "A model is useful only when its predictions can be tested.", "Observation comes before explanation in the scientific method."],
         "a": 1,
         "why": "A model is useful only when its predictions can be tested."
       }, {
-        "q": "Which statement belongs to Science links mathematics, technology and society?",
+        "q": "Which statement is correct about Science links mathematics, technology and society?",
         "options": ["Observation comes before explanation in the scientific method.", "A testable question names the quantities that will be measured.", "Scientific ideas are tested in society through technology and evidence."],
         "a": 2,
         "why": "Scientific ideas are tested in society through technology and evidence."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'विज्ञान प्रेक्षण से शुरू होता है' से मेल खाता है?",
+        "q": "'विज्ञान प्रेक्षण से शुरू होता है' के बारे में कौन-सा कथन सही है?",
         "options": ["वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।", "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।", "सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।"],
         "a": 0,
         "why": "वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।"
       }, {
-        "q": "कौन-सा कथन 'केन्द्रित प्रश्न जाँच का मार्ग दिखाते हैं' से मेल खाता है?",
+        "q": "'केन्द्रित प्रश्न जाँच का मार्ग दिखाते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।", "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।", "एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।"],
         "a": 1,
         "why": "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।"
       }, {
-        "q": "कौन-सा कथन 'वैज्ञानिक भाषा सटीक होनी चाहिए' से मेल खाता है?",
+        "q": "'वैज्ञानिक भाषा सटीक होनी चाहिए' के बारे में कौन-सा कथन सही है?",
         "options": ["एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।", "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।", "सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।"],
         "a": 2,
         "why": "सटीक शब्द सही माप से गलत निष्कर्ष लगने से बचाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'प्रयोग प्रमाण देते हैं' से मेल खाता है?",
+        "q": "'प्रयोग प्रमाण देते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।", "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।", "वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।"],
         "a": 0,
         "why": "एक भाग्यशाली माप नहीं, दोहराए जा सकने वाले माप प्रमाण माने जाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'प्रतिरूप अदृश्य को दृश्य से जोड़ते हैं' से मेल खाता है?",
+        "q": "'प्रतिरूप अदृश्य को दृश्य से जोड़ते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।", "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।", "वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।"],
         "a": 1,
         "why": "प्रतिरूप तभी उपयोगी है जब उसकी भविष्यवाणी जाँची जा सके।"
       }, {
-        "q": "कौन-सा कथन 'विज्ञान गणित, तकनीक और समाज को जोड़ता है' से मेल खाता है?",
+        "q": "'विज्ञान गणित, तकनीक और समाज को जोड़ता है' के बारे में कौन-सा कथन सही है?",
         "options": ["वैज्ञानिक पद्धति में व्याख्या से पहले प्रेक्षण आता है।", "जाँच योग्य प्रश्न में मापी जाने वाली राशियों के नाम होते हैं।", "वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।"],
         "a": 2,
         "why": "वैज्ञानिक विचार समाज में तकनीक और प्रमाण से परखे जाते हैं।"
@@ -533,29 +491,29 @@
       "title": "Discovery of the cell",
       "titleHi": "कोशिका की खोज",
       "short": "Discovery of the cell",
-      "concept": "Robert Hooke built his own microscope and in 1665 saw box-like compartments in a thin cork slice. He named them cells.",
-      "conceptHi": "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन में बक्से जैसी खानें देखीं और उन्हें कोशिका कहा।",
+      "concept": "In 1665 Robert Hooke sliced a thin piece of cork and looked at it through a self-made microscope. He saw tiny box-like compartments and named them cells. What Hooke saw were dead cell walls; the living cell, with its jelly-like contents, was described later by scientists using better lenses.",
+      "conceptHi": "1665 में रॉबर्ट हुक ने कॉर्क की पतली परत को अपने बनाए सूक्ष्मदर्शी से देखा। उन्हें छोटे-छोटे बक्से जैसे कक्ष दिखे जिन्हें उन्होंने कोशिका कहा। हुक को मृत कोशिका भित्तियाँ दिखीं; जीवित कोशिका का वर्णन बाद में बेहतर लेंसों से हुआ।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Discovery of the cell?",
+        "q": "Which statement is correct about Discovery of the cell?",
         "options": ["Hooke coined the term cell after observing dead cork tissue.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 0,
         "why": "Hooke coined the term cell after observing dead cork tissue."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कोशिका की खोज' से मेल खाता है?",
+        "q": "'कोशिका की खोज' के बारे में कौन-सा कथन सही है?",
         "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 0,
         "why": "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"
       },
       "explain": "Hooke coined the term cell after observing dead cork tissue.",
       "explainHi": "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।",
-      "vocab": [["Cell", "Robert Hooke built his own microscope and in 1665 saw box-"], ["Nucleus", "Robert Hooke built his own microscope and in 1665 saw box-"], ["Membrane", "Robert Hooke built his own microscope and in 1665 saw box-"]],
-      "vocabHi": [["कोशिका", "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन म"], ["केन्द्रक", "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन म"], ["झिल्ली", "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन म"]],
+      "vocab": [["Cell", "In 1665 Robert Hooke sliced a thin piece of cork and looke"], ["Nucleus", "In 1665 Robert Hooke sliced a thin piece of cork and looke"], ["Membrane", "In 1665 Robert Hooke sliced a thin piece of cork and looke"]],
+      "vocabHi": [["कोशिका", "1665 में रॉबर्ट हुक ने कॉर्क की पतली परत को अपने बनाए सूक्"], ["केन्द्रक", "1665 में रॉबर्ट हुक ने कॉर्क की पतली परत को अपने बनाए सूक्"], ["झिल्ली", "1665 में रॉबर्ट हुक ने कॉर्क की पतली परत को अपने बनाए सूक्"]],
       "fig": "3D flow · Discovery of the cell · Cork → Lens → Boxes → Cell name",
       "figHi": "3D flow चित्र · कोशिका की खोज · Cork / Lens / Boxes",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -569,12 +527,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Discovery of the cell?",
-        "options": ["Hooke coined the term cell after observing dead cork tissue.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
-        "a": 0,
-        "why": "Hooke coined the term cell after observing dead cork tissue."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -586,37 +538,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_2",
       "section": "2.2",
       "title": "Plant cell and animal cell",
       "titleHi": "पादप कोशिका और जन्तु कोशिका",
       "short": "Plant cell and animal ",
-      "concept": "Onion peel cells are box-shaped and regularly arranged, cheek cells are irregular. Plant cells keep a wall, chloroplasts and a large vacuole.",
-      "conceptHi": "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अनियमित। पादप कोशिका में भित्ति और हरितलवक होते हैं।",
+      "concept": "Both plant and animal cells have a cell membrane, cytoplasm, nucleus and mitochondria. A plant cell in addition has a cell wall outside the membrane, a large central vacuole and green chloroplasts, which is why it looks box-like and can make food; an animal cell is rounder and has no chloroplast.",
+      "conceptHi": "पादप और प्राणी कोशिका दोनों में कोशिका झिल्ली, कोशिकाद्रव्य, केंद्रक और माइटोकॉन्ड्रिया होते हैं। पादप कोशिका में झिल्ली के बाहर कोशिका भित्ति, एक बड़ा केंद्रीय रिक्तिका और हरे क्लोरोप्लास्ट होते हैं, इसलिए वह बक्से जैसी दिखती है और भोजन बना सकती है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Plant cell and animal cell?",
+        "q": "Which statement is correct about Plant cell and animal cell?",
         "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "Osmosis is the diffusion of water across a selectively permeable membrane."],
         "a": 1,
         "why": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पादप कोशिका और जन्तु कोशिका' से मेल खाता है?",
+        "q": "'पादप कोशिका और जन्तु कोशिका' के बारे में कौन-सा कथन सही है?",
         "options": ["केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"],
         "a": 1,
         "why": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"
       },
       "explain": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.",
       "explainHi": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।",
-      "vocab": [["Nucleus", "Onion peel cells are box-shaped and regularly arranged, ch"], ["Membrane", "Onion peel cells are box-shaped and regularly arranged, ch"], ["Organelle", "Onion peel cells are box-shaped and regularly arranged, ch"]],
-      "vocabHi": [["केन्द्रक", "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अ"], ["झिल्ली", "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अ"], ["अंगक", "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अ"]],
+      "vocab": [["Nucleus", "Both plant and animal cells have a cell membrane, cytoplas"], ["Membrane", "Both plant and animal cells have a cell membrane, cytoplas"], ["Organelle", "Both plant and animal cells have a cell membrane, cytoplas"]],
+      "vocabHi": [["केन्द्रक", "पादप और प्राणी कोशिका दोनों में कोशिका झिल्ली, कोशिकाद्रव्"], ["झिल्ली", "पादप और प्राणी कोशिका दोनों में कोशिका झिल्ली, कोशिकाद्रव्"], ["अंगक", "पादप और प्राणी कोशिका दोनों में कोशिका झिल्ली, कोशिकाद्रव्"]],
       "fig": "3D cell · Plant cell and animal cell · Wall → Membrane → Nucleus → Chloroplast",
       "figHi": "3D cell चित्र · पादप कोशिका और जन्तु कोशिका · Wall / Membrane / Nucleus",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -630,12 +581,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Plant cell and animal cell?",
-        "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "Osmosis is the diffusion of water across a selectively permeable membrane."],
-        "a": 1,
-        "why": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -647,37 +592,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_3",
       "section": "2.3",
       "title": "Prokaryotic and eukaryotic cells",
       "titleHi": "प्रोकैरियोटी और यूकैरियोटी कोशिका",
       "short": "Prokaryotic and eukary",
-      "concept": "A bacterial cell has no membrane-bound nucleus and its DNA lies in the nucleoid. Plant and animal cells keep a true nucleus and organelles.",
-      "conceptHi": "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड में। पादप और जनतु कोशिका में सच्चा केन्द्रक होता है।",
+      "concept": "A prokaryotic cell, such as a bacterium, has no nuclear membrane; its DNA lies naked in the cytoplasm and it has no membrane-bound organelles. A eukaryotic cell, such as a plant or animal cell, keeps its DNA inside a nucleus and has membrane-bound organelles like mitochondria and the endoplasmic reticulum.",
+      "conceptHi": "जीवाणु जैसी प्रोकैरियोटिक कोशिका में केंद्रक झिल्ली नहीं होती; उसका DNA कोशिकाद्रव्य में खुला रहता है और झिल्लीबद्ध कोशिकांग नहीं होते। पादप या प्राणी कोशिका जैसी यूकैरियोटिक कोशिका अपना DNA केंद्रक के भीतर रखती है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Prokaryotic and eukaryotic cells?",
+        "q": "Which statement is correct about Prokaryotic and eukaryotic cells?",
         "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 2,
         "why": "A true nucleus with a nuclear membrane defines a eukaryotic cell."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रोकैरियोटी और यूकैरियोटी कोशिका' से मेल खाता है?",
+        "q": "'प्रोकैरियोटी और यूकैरियोटी कोशिका' के बारे में कौन-सा कथन सही है?",
         "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 2,
         "why": "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"
       },
       "explain": "A true nucleus with a nuclear membrane defines a eukaryotic cell.",
       "explainHi": "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।",
-      "vocab": [["Membrane", "A bacterial cell has no membrane-bound nucleus and its DNA"], ["Organelle", "A bacterial cell has no membrane-bound nucleus and its DNA"], ["Osmosis", "A bacterial cell has no membrane-bound nucleus and its DNA"]],
-      "vocabHi": [["झिल्ली", "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड"], ["अंगक", "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड"], ["परासरण", "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड"]],
+      "vocab": [["Membrane", "A prokaryotic cell, such as a bacterium, has no nuclear me"], ["Organelle", "A prokaryotic cell, such as a bacterium, has no nuclear me"], ["Osmosis", "A prokaryotic cell, such as a bacterium, has no nuclear me"]],
+      "vocabHi": [["झिल्ली", "जीवाणु जैसी प्रोकैरियोटिक कोशिका में केंद्रक झिल्ली नहीं ह"], ["अंगक", "जीवाणु जैसी प्रोकैरियोटिक कोशिका में केंद्रक झिल्ली नहीं ह"], ["परासरण", "जीवाणु जैसी प्रोकैरियोटिक कोशिका में केंद्रक झिल्ली नहीं ह"]],
       "fig": "3D tree · Prokaryotic and eukaryotic cells · Cell → Prokaryote → Eukaryote → Nucleus",
       "figHi": "3D tree चित्र · प्रोकैरियोटी और यूकैरियोटी कोशिका · Cell / Prokaryote / Eukaryote",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -691,12 +635,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Prokaryotic and eukaryotic cells?",
-        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
-        "a": 2,
-        "why": "A true nucleus with a nuclear membrane defines a eukaryotic cell."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -708,37 +646,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_4",
       "section": "2.4",
       "title": "Plasma membrane and permeability",
       "titleHi": "जीवद्रव्य झिल्ली और पारगम्यता",
       "short": "Plasma membrane and pe",
-      "concept": "The plasma membrane is 7-10 nm thick, a fluid mosaic of lipid and protein. Water crosses it by osmosis, while salt and sugar are held back.",
-      "conceptHi": "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मोज़ेक। जल परासरण से निकलता है, लवण रुक जाता है।",
+      "concept": "The plasma membrane is a thin, flexible living boundary that surrounds every cell. It is selectively permeable: it lets some substances pass in and out and stops others, by diffusion and osmosis, so the cell can take in food, water and oxygen and get rid of waste.",
+      "conceptHi": "प्लाज्मा झिल्ली प्रत्येक कोशिका को घेरने वाली पतली, लचीली और जीवित सीमा है। यह चयनात्मक पारगम्य है: कुछ पदार्थों को अंदर-बाहर जाने देती है और कुछ को रोकती है, इसलिए कोशिका भोजन, जल और ऑक्सीजन ले सकती है और अपशिष्ट बाहर कर सकती है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Plasma membrane and permeability?",
+        "q": "Which statement is correct about Plasma membrane and permeability?",
         "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 0,
         "why": "Osmosis is the diffusion of water across a selectively permeable membrane."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जीवद्रव्य झिल्ली और पारगम्यता' से मेल खाता है?",
+        "q": "'जीवद्रव्य झिल्ली और पारगम्यता' के बारे में कौन-सा कथन सही है?",
         "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 0,
         "why": "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"
       },
       "explain": "Osmosis is the diffusion of water across a selectively permeable membrane.",
       "explainHi": "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।",
-      "vocab": [["Organelle", "The plasma membrane is 7-10 nm thick, a fluid mosaic of li"], ["Osmosis", "The plasma membrane is 7-10 nm thick, a fluid mosaic of li"], ["Mitochondrion", "The plasma membrane is 7-10 nm thick, a fluid mosaic of li"]],
-      "vocabHi": [["अंगक", "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मो"], ["परासरण", "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मो"], ["माइटोकॉन्ड्रिया", "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मो"]],
+      "vocab": [["Organelle", "The plasma membrane is a thin, flexible living boundary th"], ["Osmosis", "The plasma membrane is a thin, flexible living boundary th"], ["Mitochondrion", "The plasma membrane is a thin, flexible living boundary th"]],
+      "vocabHi": [["अंगक", "प्लाज्मा झिल्ली प्रत्येक कोशिका को घेरने वाली पतली, लचीली "], ["परासरण", "प्लाज्मा झिल्ली प्रत्येक कोशिका को घेरने वाली पतली, लचीली "], ["माइटोकॉन्ड्रिया", "प्लाज्मा झिल्ली प्रत्येक कोशिका को घेरने वाली पतली, लचीली "]],
       "fig": "3D layers · Plasma membrane and permeability · Outside → Lipid bilayer → Channel → Inside",
       "figHi": "3D layers चित्र · जीवद्रव्य झिल्ली और पारगम्यता · Outside / Lipid bilayer / Channel",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -752,12 +689,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Plasma membrane and permeability?",
-        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
-        "a": 0,
-        "why": "Osmosis is the diffusion of water across a selectively permeable membrane."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -769,37 +700,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_5",
       "section": "2.5",
       "title": "Cell wall and vacuoles",
       "titleHi": "कोशिका भित्ति और रिक्तिका",
       "short": "Cell wall and vacuoles",
-      "concept": "Plant cells have a cellulose wall outside the membrane. It is rigid but permeable, so roots still absorb water and leaves stay firm in wind.",
-      "conceptHi": "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारगम्य है, इसलिए जड़ें जल ले पाती हैं और पत्तियाँ तनी रहती हैं।",
+      "concept": "Plant cells are covered outside the plasma membrane by a cell wall of cellulose, which is freely permeable and gives the cell rigidity and a fixed shape. The central vacuole is a large sac of cell sap bound by a membrane; it stores water, sugars and salts and keeps the cell firm by turgor pressure.",
+      "conceptHi": "पादप कोशिकाओं के बाहर प्लाज्मा झिल्ली के ऊपर सेलुलोज की कोशिका भित्ति होती है, जो सर्वपारगम्य है और कोशिका को दृढ़ता तथा निश्चित आकार देती है। केंद्रीय रिक्तिका कोशिका रस से भरा बड़ा थैला है जो जल, शर्करा और लवण रखती है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Cell wall and vacuoles?",
+        "q": "Which statement is correct about Cell wall and vacuoles?",
         "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "The cell wall is freely permeable and made mainly of cellulose.", "Mitochondria release energy by respiration and store it as ATP."],
         "a": 1,
         "why": "The cell wall is freely permeable and made mainly of cellulose."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कोशिका भित्ति और रिक्तिका' से मेल खाता है?",
+        "q": "'कोशिका भित्ति और रिक्तिका' के बारे में कौन-सा कथन सही है?",
         "options": ["केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"],
         "a": 1,
         "why": "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।"
       },
       "explain": "The cell wall is freely permeable and made mainly of cellulose.",
       "explainHi": "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।",
-      "vocab": [["Osmosis", "Plant cells have a cellulose wall outside the membrane. It"], ["Mitochondrion", "Plant cells have a cellulose wall outside the membrane. It"], ["Cell", "Plant cells have a cellulose wall outside the membrane. It"]],
-      "vocabHi": [["परासरण", "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारग"], ["माइटोकॉन्ड्रिया", "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारग"], ["कोशिका", "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारग"]],
+      "vocab": [["Osmosis", "Plant cells are covered outside the plasma membrane by a c"], ["Mitochondrion", "Plant cells are covered outside the plasma membrane by a c"], ["Cell", "Plant cells are covered outside the plasma membrane by a c"]],
+      "vocabHi": [["परासरण", "पादप कोशिकाओं के बाहर प्लाज्मा झिल्ली के ऊपर सेलुलोज की को"], ["माइटोकॉन्ड्रिया", "पादप कोशिकाओं के बाहर प्लाज्मा झिल्ली के ऊपर सेलुलोज की को"], ["कोशिका", "पादप कोशिकाओं के बाहर प्लाज्मा झिल्ली के ऊपर सेलुलोज की को"]],
       "fig": "3D layers · Cell wall and vacuoles · Wall → Membrane → Cytoplasm → Vacuole",
       "figHi": "3D layers चित्र · कोशिका भित्ति और रिक्तिका · Wall / Membrane / Cytoplasm",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -813,12 +743,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Cell wall and vacuoles?",
-        "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "The cell wall is freely permeable and made mainly of cellulose.", "Mitochondria release energy by respiration and store it as ATP."],
-        "a": 1,
-        "why": "The cell wall is freely permeable and made mainly of cellulose."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -830,37 +754,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_6",
       "section": "2.6",
       "title": "Nucleus and chromosomes",
       "titleHi": "केन्द्रक और गुणसूत्र",
       "short": "Nucleus and chromosome",
-      "concept": "The nucleus has a double membrane with pores and a dense nucleolus. Its chromosomes carry DNA, coiled from chromatin before division.",
-      "conceptHi": "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती है। गुणसूत्रों में DNA रहता है, विभाजन से पहले क्रोमैटिन सिकुड़ता है।",
+      "concept": "The nucleus is a spherical body wrapped in a double membrane with pores, and it holds the cell's hereditary material. That material is chromatin, which condenses into chromosomes just before the cell divides. Each chromosome is one molecule of DNA with proteins, and it carries the genes.",
+      "conceptHi": "केंद्रक झिल्ली से घिरा गोलाकार कोशिकांग है जिसमें छिद्र होते हैं और जो कोशिका का आनुवंशिक पदार्थ रखता है। यह पदार्थ क्रोमैटिन है, जो विभाजन से ठीक पहले गुणसूत्रों में संघनित हो जाता है। प्रत्येक गुणसूत्र प्रोटीन के साथ DNA का एक अणु होता है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Nucleus and chromosomes?",
+        "q": "Which statement is correct about Nucleus and chromosomes?",
         "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 2,
         "why": "Chromosomes inside the nucleus carry hereditary information as DNA."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'केन्द्रक और गुणसूत्र' से मेल खाता है?",
+        "q": "'केन्द्रक और गुणसूत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 2,
         "why": "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"
       },
       "explain": "Chromosomes inside the nucleus carry hereditary information as DNA.",
       "explainHi": "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।",
-      "vocab": [["Mitochondrion", "The nucleus has a double membrane with pores and a dense n"], ["Cell", "The nucleus has a double membrane with pores and a dense n"], ["Nucleus", "The nucleus has a double membrane with pores and a dense n"]],
-      "vocabHi": [["माइटोकॉन्ड्रिया", "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती ह"], ["कोशिका", "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती ह"], ["केन्द्रक", "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती ह"]],
+      "vocab": [["Mitochondrion", "The nucleus is a spherical body wrapped in a double membra"], ["Cell", "The nucleus is a spherical body wrapped in a double membra"], ["Nucleus", "The nucleus is a spherical body wrapped in a double membra"]],
+      "vocabHi": [["माइटोकॉन्ड्रिया", "केंद्रक झिल्ली से घिरा गोलाकार कोशिकांग है जिसमें छिद्र हो"], ["कोशिका", "केंद्रक झिल्ली से घिरा गोलाकार कोशिकांग है जिसमें छिद्र हो"], ["केन्द्रक", "केंद्रक झिल्ली से घिरा गोलाकार कोशिकांग है जिसमें छिद्र हो"]],
       "fig": "3D cell · Nucleus and chromosomes · Nucleus → Nuclear membrane → Chromosome → DNA",
       "figHi": "3D cell चित्र · केन्द्रक और गुणसूत्र · Nucleus / Nuclear membrane / Chromosome",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -874,12 +797,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Nucleus and chromosomes?",
-        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
-        "a": 2,
-        "why": "Chromosomes inside the nucleus carry hereditary information as DNA."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -891,37 +808,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_7",
       "section": "2.7",
       "title": "Mitochondria and chloroplast",
       "titleHi": "माइटोकॉन्ड्रिया और हरितलवक",
       "short": "Mitochondria and chlor",
-      "concept": "Mitochondria fold their inner membrane into cristae, raising the surface for respiration that releases energy as ATP. Chloroplasts trap light.",
-      "conceptHi": "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन की सतह बढ़ाती है और ऊर्जा ATP में छोड़ती है।",
+      "concept": "Mitochondria are rod-shaped organelles with a folded inner membrane; they carry out cellular respiration and release energy as ATP, so they are called the powerhouses of the cell. Chloroplasts are green plastids found only in plant cells; they contain chlorophyll and carry out photosynthesis.",
+      "conceptHi": "माइटोकॉन्ड्रिया मुड़ी भीतरी झिल्ली वाले दंडाकार कोशिकांग हैं; ये कोशिकीय श्वसन करके ATP के रूप में ऊर्जा देते हैं, इसलिए इन्हें कोशिका का पावरहाउस कहते हैं। क्लोरोप्लास्ट केवल पादप कोशिकाओं में पाए जाने वाले हरे प्लास्टिड हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Mitochondria and chloroplast?",
+        "q": "Which statement is correct about Mitochondria and chloroplast?",
         "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
         "a": 0,
         "why": "Mitochondria release energy by respiration and store it as ATP."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'माइटोकॉन्ड्रिया और हरितलवक' से मेल खाता है?",
+        "q": "'माइटोकॉन्ड्रिया और हरितलवक' के बारे में कौन-सा कथन सही है?",
         "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 0,
         "why": "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"
       },
       "explain": "Mitochondria release energy by respiration and store it as ATP.",
       "explainHi": "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।",
-      "vocab": [["Cell", "Mitochondria fold their inner membrane into cristae, raisi"], ["Nucleus", "Mitochondria fold their inner membrane into cristae, raisi"], ["Membrane", "Mitochondria fold their inner membrane into cristae, raisi"]],
-      "vocabHi": [["कोशिका", "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन "], ["केन्द्रक", "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन "], ["झिल्ली", "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन "]],
+      "vocab": [["Cell", "Mitochondria are rod-shaped organelles with a folded inner"], ["Nucleus", "Mitochondria are rod-shaped organelles with a folded inner"], ["Membrane", "Mitochondria are rod-shaped organelles with a folded inner"]],
+      "vocabHi": [["कोशिका", "माइटोकॉन्ड्रिया मुड़ी भीतरी झिल्ली वाले दंडाकार कोशिकांग ह"], ["केन्द्रक", "माइटोकॉन्ड्रिया मुड़ी भीतरी झिल्ली वाले दंडाकार कोशिकांग ह"], ["झिल्ली", "माइटोकॉन्ड्रिया मुड़ी भीतरी झिल्ली वाले दंडाकार कोशिकांग ह"]],
       "fig": "3D molecule · Mitochondria and chloroplast · Light → Chloroplast → Sugar → Mitochondrion",
       "figHi": "3D molecule चित्र · माइटोकॉन्ड्रिया और हरितलवक · Light / Chloroplast / Sugar",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -935,12 +851,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Mitochondria and chloroplast?",
-        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
-        "a": 0,
-        "why": "Mitochondria release energy by respiration and store it as ATP."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -952,37 +862,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_8",
       "section": "2.8",
       "title": "Endoplasmic reticulum, Golgi and lysosomes",
       "titleHi": "अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम",
       "short": "Endoplasmic reticulum,",
-      "concept": "Rough ER studded with ribosomes makes proteins, smooth ER makes fats. Golgi stacks package them into vesicles and lysosomes digest worn parts.",
-      "conceptHi": "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों में पैक करता है और लाइसोसोम घिसे भाग पचाते हैं।",
+      "concept": "The endoplasmic reticulum is a network of membranes that makes and transports proteins and lipids; rough ER carries ribosomes and smooth ER does not. The Golgi apparatus packs these products into vesicles, and lysosomes are membrane-bound sacs of digestive enzymes that break down waste and worn-out parts.",
+      "conceptHi": "अंतःप्रद्रव्यी जालिका झिल्लियों का जाल है जो प्रोटीन और वसा बनाती तथा ढोती है; रुक्ष ER पर राइबोसोम होते हैं, चिकने पर नहीं। गॉल्जी उपकरण इन्हें थैलियों में पैक करता है, और लाइसोसोम पाचक एंजाइमों से भरे थैले होते हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Endoplasmic reticulum, Golgi and lysosomes?",
+        "q": "Which statement is correct about Endoplasmic reticulum, Golgi and lysosomes?",
         "options": ["Meiosis reduces the chromosome number by half to form gametes.", "The Golgi apparatus modifies and packages material for transport.", "Proteins built at ribosomes act as enzymes and structural material."],
         "a": 1,
         "why": "The Golgi apparatus modifies and packages material for transport."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम' से मेल खाता है?",
+        "q": "'अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम' के बारे में कौन-सा कथन सही है?",
         "options": ["अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।"],
         "a": 1,
         "why": "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।"
       },
       "explain": "The Golgi apparatus modifies and packages material for transport.",
       "explainHi": "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।",
-      "vocab": [["Nucleus", "Rough ER studded with ribosomes makes proteins, smooth ER "], ["Membrane", "Rough ER studded with ribosomes makes proteins, smooth ER "], ["Organelle", "Rough ER studded with ribosomes makes proteins, smooth ER "]],
-      "vocabHi": [["केन्द्रक", "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों "], ["झिल्ली", "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों "], ["अंगक", "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों "]],
+      "vocab": [["Nucleus", "The endoplasmic reticulum is a network of membranes that m"], ["Membrane", "The endoplasmic reticulum is a network of membranes that m"], ["Organelle", "The endoplasmic reticulum is a network of membranes that m"]],
+      "vocabHi": [["केन्द्रक", "अंतःप्रद्रव्यी जालिका झिल्लियों का जाल है जो प्रोटीन और वस"], ["झिल्ली", "अंतःप्रद्रव्यी जालिका झिल्लियों का जाल है जो प्रोटीन और वस"], ["अंगक", "अंतःप्रद्रव्यी जालिका झिल्लियों का जाल है जो प्रोटीन और वस"]],
       "fig": "3D flow · Endoplasmic reticulum, Golgi and lysosomes · Rough ER → Smooth ER → Golgi → Vesicle",
       "figHi": "3D flow चित्र · अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम · Rough ER / Smooth ER / Golgi",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -996,12 +905,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Endoplasmic reticulum, Golgi and lysosomes?",
-        "options": ["Meiosis reduces the chromosome number by half to form gametes.", "The Golgi apparatus modifies and packages material for transport.", "Proteins built at ribosomes act as enzymes and structural material."],
-        "a": 1,
-        "why": "The Golgi apparatus modifies and packages material for transport."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1013,37 +916,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_9",
       "section": "2.9",
       "title": "Cell division: mitosis and meiosis",
       "titleHi": "कोशिका विभाजन: समसूत्री और अर्धसूत्री",
       "short": "Cell division: mitosis",
-      "concept": "A cell copies its chromosomes before dividing. Mitosis gives two identical cells for growth and repair, meiosis halves the number for gametes.",
-      "conceptHi": "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्री विभाजन से दो समान कोशिकाएँ मिलती हैं।",
+      "concept": "A cell grows only up to a certain size, and then it divides. Before dividing it copies its chromosomes, so each daughter cell gets a complete set. In onion root tips the dividing cells show clearly seen chromosomes; this is how a cut heals and how a seedling grows, by cells dividing again and again.",
+      "conceptHi": "कोशिका केवल एक सीमित आकार तक बढ़ती है, फिर वह विभाजित होती है। विभाजन से पहले वह अपने गुणसूत्रों की प्रतिलिपि बनाती है, ताकि प्रत्येक संतति कोशिका को पूरा समुच्चय मिले। प्याज की जड़ के सिरे में विभाजित होती कोशिकाओं में गुणसूत्र स्पष्ट दिखते हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Cell division: mitosis and meiosis?",
+        "q": "Which statement is correct about Cell division: mitosis and meiosis?",
         "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Meiosis reduces the chromosome number by half to form gametes."],
         "a": 2,
         "why": "Meiosis reduces the chromosome number by half to form gametes."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कोशिका विभाजन: समसूत्री और अर्धसूत्री' से मेल खाता है?",
+        "q": "'कोशिका विभाजन: समसूत्री और अर्धसूत्री' के बारे में कौन-सा कथन सही है?",
         "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 2,
         "why": "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"
       },
       "explain": "Meiosis reduces the chromosome number by half to form gametes.",
       "explainHi": "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।",
-      "vocab": [["Membrane", "A cell copies its chromosomes before dividing. Mitosis giv"], ["Organelle", "A cell copies its chromosomes before dividing. Mitosis giv"], ["Osmosis", "A cell copies its chromosomes before dividing. Mitosis giv"]],
-      "vocabHi": [["झिल्ली", "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्"], ["अंगक", "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्"], ["परासरण", "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्"]],
+      "vocab": [["Membrane", "A cell grows only up to a certain size, and then it divide"], ["Organelle", "A cell grows only up to a certain size, and then it divide"], ["Osmosis", "A cell grows only up to a certain size, and then it divide"]],
+      "vocabHi": [["झिल्ली", "कोशिका केवल एक सीमित आकार तक बढ़ती है, फिर वह विभाजित होती"], ["अंगक", "कोशिका केवल एक सीमित आकार तक बढ़ती है, फिर वह विभाजित होती"], ["परासरण", "कोशिका केवल एक सीमित आकार तक बढ़ती है, फिर वह विभाजित होती"]],
       "fig": "3D cycle · Cell division: mitosis and meiosis · Parent → Replication → Mitosis → Meiosis",
       "figHi": "3D cycle चित्र · कोशिका विभाजन: समसूत्री और अर्धसूत्री · Parent / Replication / Mitosis",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -1057,12 +959,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Cell division: mitosis and meiosis?",
-        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Meiosis reduces the chromosome number by half to form gametes."],
-        "a": 2,
-        "why": "Meiosis reduces the chromosome number by half to form gametes."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1074,37 +970,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_10",
       "section": "2.10",
       "title": "Biomolecules and cell functions",
       "titleHi": "जैव-अणु और कोशिका कार्य",
       "short": "Biomolecules and cell ",
-      "concept": "Carbohydrates, proteins, lipids and nucleic acids build the cell and run its reactions. Ribosomes assemble proteins, some of them enzymes.",
-      "conceptHi": "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनाते और अभिक्रियाएँ चलाते हैं। राइबोसोम प्रोटीन जोड़ते हैं।",
+      "concept": "A cell is built from a few kinds of molecules. Carbohydrates and fats store energy, proteins do the work of the cell as enzymes and structural parts, and nucleic acids store information. Water makes up most of the cell, and minerals such as calcium and iron act as cofactors.",
+      "conceptHi": "कोशिका कुछ ही प्रकार के अणुओं से बनती है। कार्बोहाइड्रेट और वसा ऊर्जा संचित करते हैं, प्रोटीन एंजाइम और ढाँचे के रूप में कोशिका का काम करते हैं, और न्यूक्लिक अम्ल सूचना रखते हैं। जल कोशिका का अधिकांश भाग है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Biomolecules and cell functions?",
+        "q": "Which statement is correct about Biomolecules and cell functions?",
         "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell after observing dead cork tissue."],
         "a": 0,
         "why": "Proteins built at ribosomes act as enzymes and structural material."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जैव-अणु और कोशिका कार्य' से मेल खाता है?",
+        "q": "'जैव-अणु और कोशिका कार्य' के बारे में कौन-सा कथन सही है?",
         "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"],
         "a": 0,
         "why": "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।"
       },
       "explain": "Proteins built at ribosomes act as enzymes and structural material.",
       "explainHi": "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।",
-      "vocab": [["Organelle", "Carbohydrates, proteins, lipids and nucleic acids build th"], ["Osmosis", "Carbohydrates, proteins, lipids and nucleic acids build th"], ["Mitochondrion", "Carbohydrates, proteins, lipids and nucleic acids build th"]],
-      "vocabHi": [["अंगक", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनात"], ["परासरण", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनात"], ["माइटोकॉन्ड्रिया", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनात"]],
+      "vocab": [["Organelle", "A cell is built from a few kinds of molecules. Carbohydrat"], ["Osmosis", "A cell is built from a few kinds of molecules. Carbohydrat"], ["Mitochondrion", "A cell is built from a few kinds of molecules. Carbohydrat"]],
+      "vocabHi": [["अंगक", "कोशिका कुछ ही प्रकार के अणुओं से बनती है। कार्बोहाइड्रेट औ"], ["परासरण", "कोशिका कुछ ही प्रकार के अणुओं से बनती है। कार्बोहाइड्रेट औ"], ["माइटोकॉन्ड्रिया", "कोशिका कुछ ही प्रकार के अणुओं से बनती है। कार्बोहाइड्रेट औ"]],
       "fig": "3D molecule · Biomolecules and cell functions · Carbohydrate → Protein → Lipid → Nucleic acid",
       "figHi": "3D molecule चित्र · जैव-अणु और कोशिका कार्य · Carbohydrate / Protein / Lipid",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -1118,12 +1013,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Biomolecules and cell functions?",
-        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell after observing dead cork tissue."],
-        "a": 0,
-        "why": "Proteins built at ribosomes act as enzymes and structural material."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1135,37 +1024,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_cell_2_11",
       "section": "2.11",
       "title": "Recent advances, cell division and cancer",
       "titleHi": "नई खोजें, विभाजन और कैंसर",
       "short": "Recent advances, cell ",
-      "concept": "Checkpoints control cell division. When they fail, cells divide without limit and form a tumour, which is why cancer is a disease of division.",
-      "conceptHi": "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना सीमा बाँटती हैं और गाँठ बनती है।",
+      "concept": "Cell division is normally controlled: cells divide when the body needs new cells and stop when they touch their neighbours. When this control fails, cells keep dividing and form a lump of abnormal cells called a cancer. Cancer cells can break away and spread to other parts of the body.",
+      "conceptHi": "कोशिका विभाजन सामान्यतः नियंत्रित होता है: शरीर को नई कोशिकाओं की आवश्यकता होने पर ही कोशिकाएँ बँटती हैं और आस-पास की कोशिकाओं को छूने पर रुक जाती हैं। जब यह नियंत्रण टूट जाता है तो कोशिकाएँ बँटती रहती हैं और असामान्य कोशिकाओं की गाँठ बन जाती है, जिसे कैंसर कहते हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
         "note": "कोशिका से ऊतक, अंग और तंत्र बनते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Recent advances, cell division and cancer?",
+        "q": "Which statement is correct about Recent advances, cell division and cancer?",
         "options": ["Hooke coined the term cell after observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."],
         "a": 1,
         "why": "Cancer arises when checkpoints controlling cell division fail."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'नई खोजें, विभाजन और कैंसर' से मेल खाता है?",
+        "q": "'नई खोजें, विभाजन और कैंसर' के बारे में कौन-सा कथन सही है?",
         "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"],
         "a": 1,
         "why": "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।"
       },
       "explain": "Cancer arises when checkpoints controlling cell division fail.",
       "explainHi": "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।",
-      "vocab": [["Osmosis", "Checkpoints control cell division. When they fail, cells d"], ["Mitochondrion", "Checkpoints control cell division. When they fail, cells d"], ["Cell", "Checkpoints control cell division. When they fail, cells d"]],
-      "vocabHi": [["परासरण", "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना "], ["माइटोकॉन्ड्रिया", "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना "], ["कोशिका", "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना "]],
+      "vocab": [["Osmosis", "Cell division is normally controlled: cells divide when th"], ["Mitochondrion", "Cell division is normally controlled: cells divide when th"], ["Cell", "Cell division is normally controlled: cells divide when th"]],
+      "vocabHi": [["परासरण", "कोशिका विभाजन सामान्यतः नियंत्रित होता है: शरीर को नई कोशि"], ["माइटोकॉन्ड्रिया", "कोशिका विभाजन सामान्यतः नियंत्रित होता है: शरीर को नई कोशि"], ["कोशिका", "कोशिका विभाजन सामान्यतः नियंत्रित होता है: शरीर को नई कोशि"]],
       "fig": "3D cycle · Recent advances, cell division and cancer · Normal division → Checkpoint → Mutation → Tumour",
       "figHi": "3D cycle चित्र · नई खोजें, विभाजन और कैंसर · Normal division / Checkpoint / Mutation",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -1179,12 +1067,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Recent advances, cell division and cancer?",
-        "options": ["Hooke coined the term cell after observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."],
-        "a": 1,
-        "why": "Cancer arises when checkpoints controlling cell division fail."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1196,8 +1078,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_cell"] = {
       "id": "c9_cell",
@@ -1355,113 +1236,113 @@
         "desc": "Cancer arises when checkpoints controlling cell division fail."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Discovery of the cell?",
+        "q": "Which statement is correct about Discovery of the cell?",
         "options": ["Hooke coined the term cell after observing dead cork tissue.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 0,
         "why": "Hooke coined the term cell after observing dead cork tissue."
       }, {
-        "q": "Which statement belongs to Plant cell and animal cell?",
+        "q": "Which statement is correct about Plant cell and animal cell?",
         "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "Osmosis is the diffusion of water across a selectively permeable membrane."],
         "a": 1,
         "why": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."
       }, {
-        "q": "Which statement belongs to Prokaryotic and eukaryotic cells?",
+        "q": "Which statement is correct about Prokaryotic and eukaryotic cells?",
         "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 2,
         "why": "A true nucleus with a nuclear membrane defines a eukaryotic cell."
       }, {
-        "q": "Which statement belongs to Plasma membrane and permeability?",
+        "q": "Which statement is correct about Plasma membrane and permeability?",
         "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 0,
         "why": "Osmosis is the diffusion of water across a selectively permeable membrane."
       }, {
-        "q": "Which statement belongs to Cell wall and vacuoles?",
+        "q": "Which statement is correct about Cell wall and vacuoles?",
         "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "The cell wall is freely permeable and made mainly of cellulose.", "Mitochondria release energy by respiration and store it as ATP."],
         "a": 1,
         "why": "The cell wall is freely permeable and made mainly of cellulose."
       }, {
-        "q": "Which statement belongs to Nucleus and chromosomes?",
+        "q": "Which statement is correct about Nucleus and chromosomes?",
         "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 2,
         "why": "Chromosomes inside the nucleus carry hereditary information as DNA."
       }, {
-        "q": "Which statement belongs to Mitochondria and chloroplast?",
+        "q": "Which statement is correct about Mitochondria and chloroplast?",
         "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
         "a": 0,
         "why": "Mitochondria release energy by respiration and store it as ATP."
       }, {
-        "q": "Which statement belongs to Endoplasmic reticulum, Golgi and lysosomes?",
+        "q": "Which statement is correct about Endoplasmic reticulum, Golgi and lysosomes?",
         "options": ["Meiosis reduces the chromosome number by half to form gametes.", "The Golgi apparatus modifies and packages material for transport.", "Proteins built at ribosomes act as enzymes and structural material."],
         "a": 1,
         "why": "The Golgi apparatus modifies and packages material for transport."
       }, {
-        "q": "Which statement belongs to Cell division: mitosis and meiosis?",
+        "q": "Which statement is correct about Cell division: mitosis and meiosis?",
         "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Meiosis reduces the chromosome number by half to form gametes."],
         "a": 2,
         "why": "Meiosis reduces the chromosome number by half to form gametes."
       }, {
-        "q": "Which statement belongs to Biomolecules and cell functions?",
+        "q": "Which statement is correct about Biomolecules and cell functions?",
         "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell after observing dead cork tissue."],
         "a": 0,
         "why": "Proteins built at ribosomes act as enzymes and structural material."
       }, {
-        "q": "Which statement belongs to Recent advances, cell division and cancer?",
+        "q": "Which statement is correct about Recent advances, cell division and cancer?",
         "options": ["Hooke coined the term cell after observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."],
         "a": 1,
         "why": "Cancer arises when checkpoints controlling cell division fail."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'कोशिका की खोज' से मेल खाता है?",
+        "q": "'कोशिका की खोज' के बारे में कौन-सा कथन सही है?",
         "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 0,
         "why": "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"
       }, {
-        "q": "कौन-सा कथन 'पादप कोशिका और जन्तु कोशिका' से मेल खाता है?",
+        "q": "'पादप कोशिका और जन्तु कोशिका' के बारे में कौन-सा कथन सही है?",
         "options": ["केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"],
         "a": 1,
         "why": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"
       }, {
-        "q": "कौन-सा कथन 'प्रोकैरियोटी और यूकैरियोटी कोशिका' से मेल खाता है?",
+        "q": "'प्रोकैरियोटी और यूकैरियोटी कोशिका' के बारे में कौन-सा कथन सही है?",
         "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 2,
         "why": "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"
       }, {
-        "q": "कौन-सा कथन 'जीवद्रव्य झिल्ली और पारगम्यता' से मेल खाता है?",
+        "q": "'जीवद्रव्य झिल्ली और पारगम्यता' के बारे में कौन-सा कथन सही है?",
         "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 0,
         "why": "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"
       }, {
-        "q": "कौन-सा कथन 'कोशिका भित्ति और रिक्तिका' से मेल खाता है?",
+        "q": "'कोशिका भित्ति और रिक्तिका' के बारे में कौन-सा कथन सही है?",
         "options": ["केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"],
         "a": 1,
         "why": "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।"
       }, {
-        "q": "कौन-सा कथन 'केन्द्रक और गुणसूत्र' से मेल खाता है?",
+        "q": "'केन्द्रक और गुणसूत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 2,
         "why": "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'माइटोकॉन्ड्रिया और हरितलवक' से मेल खाता है?",
+        "q": "'माइटोकॉन्ड्रिया और हरितलवक' के बारे में कौन-सा कथन सही है?",
         "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 0,
         "why": "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"
       }, {
-        "q": "कौन-सा कथन 'अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम' से मेल खाता है?",
+        "q": "'अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम' के बारे में कौन-सा कथन सही है?",
         "options": ["अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।"],
         "a": 1,
         "why": "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।"
       }, {
-        "q": "कौन-सा कथन 'कोशिका विभाजन: समसूत्री और अर्धसूत्री' से मेल खाता है?",
+        "q": "'कोशिका विभाजन: समसूत्री और अर्धसूत्री' के बारे में कौन-सा कथन सही है?",
         "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 2,
         "why": "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"
       }, {
-        "q": "कौन-सा कथन 'जैव-अणु और कोशिका कार्य' से मेल खाता है?",
+        "q": "'जैव-अणु और कोशिका कार्य' के बारे में कौन-सा कथन सही है?",
         "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"],
         "a": 0,
         "why": "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।"
       }, {
-        "q": "कौन-सा कथन 'नई खोजें, विभाजन और कैंसर' से मेल खाता है?",
+        "q": "'नई खोजें, विभाजन और कैंसर' के बारे में कौन-सा कथन सही है?",
         "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"],
         "a": 1,
         "why": "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।"
@@ -1475,29 +1356,29 @@
       "title": "What a tissue is",
       "titleHi": "ऊतक क्या है",
       "short": "What a tissue is",
-      "concept": "A tissue is a group of similar cells with a common origin, working together for one function. Muscles move, blood carries, xylem conducts water.",
-      "conceptHi": "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम करता है, ऊतक कहलाता है। पेशी चलाती है, रक्त ले जाता है।",
+      "concept": "A tissue is a group of cells of similar structure and function that work together. In a plant or an animal, cells first specialise, then group into tissues, then into organs and organ systems. A single muscle cell cannot move a bone, but a whole muscle tissue can.",
+      "conceptHi": "ऊतक समान संरचना और कार्य वाली कोशिकाओं का समूह है जो मिलकर काम करता है। पादप या प्राणी में कोशिकाएँ पहले विशिष्ट होती हैं, फिर ऊतकों में, फिर अंगों और अंग-तंत्रों में संगठित होती हैं। एक अकेली पेशी कोशिका हड्डी नहीं हिला सकती, पर पूरा पेशी ऊतक हिला सकता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to What a tissue is?",
+        "q": "Which statement is correct about What a tissue is?",
         "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
         "why": "A tissue is a group of similar cells performing one shared function."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ऊतक क्या है' से मेल खाता है?",
+        "q": "'ऊतक क्या है' के बारे में कौन-सा कथन सही है?",
         "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 0,
         "why": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"
       },
       "explain": "A tissue is a group of similar cells performing one shared function.",
       "explainHi": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।",
-      "vocab": [["Tissue", "A tissue is a group of similar cells with a common origin,"], ["Meristem", "A tissue is a group of similar cells with a common origin,"], ["Xylem", "A tissue is a group of similar cells with a common origin,"]],
-      "vocabHi": [["ऊतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "], ["विभज्योतक", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "], ["जाइलम", "समान उत्पत्ति वाली समान कोशिकाओं का समूह जो एक साथ एक काम "]],
+      "vocab": [["Tissue", "A tissue is a group of cells of similar structure and func"], ["Meristem", "A tissue is a group of cells of similar structure and func"], ["Xylem", "A tissue is a group of cells of similar structure and func"]],
+      "vocabHi": [["ऊतक", "ऊतक समान संरचना और कार्य वाली कोशिकाओं का समूह है जो मिलकर"], ["विभज्योतक", "ऊतक समान संरचना और कार्य वाली कोशिकाओं का समूह है जो मिलकर"], ["जाइलम", "ऊतक समान संरचना और कार्य वाली कोशिकाओं का समूह है जो मिलकर"]],
       "fig": "3D tree · What a tissue is · Cell → Tissue → Organ → System",
       "figHi": "3D tree चित्र · ऊतक क्या है · Cell / Tissue / Organ",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1511,12 +1392,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to What a tissue is?",
-        "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
-        "a": 0,
-        "why": "A tissue is a group of similar cells performing one shared function."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1528,37 +1403,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_2",
       "section": "3.2",
       "title": "Levels of organisation in organisms",
       "titleHi": "जीवों में संगठन के स्तर",
       "short": "Levels of organisation",
-      "concept": "Cells form tissues, tissues form organs, organs form organ systems, and systems together make an organism. Division of labour rises at each step.",
-      "conceptHi": "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते हैं। हर स्तर पर श्रम-विभाजन बढ़ता जाता है।",
+      "concept": "The body is organised at several levels: cells, tissues, organs and organ systems. Each level is built from the one below it, and each organ is made of several tissues working together, as the heart is made of muscle, connective and nervous tissue.",
+      "conceptHi": "शरीर कई स्तरों पर संगठित है: कोशिका, ऊतक, अंग और अंग-तंत्र। प्रत्येक स्तर अपने नीचे के स्तर से बनता है, और प्रत्येक अंग कई ऊतकों से मिलकर बनता है, जैसे हृदय पेशी, संयोजी और तंत्रिका ऊतक से बना है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Levels of organisation in organisms?",
+        "q": "Which statement is correct about Levels of organisation in organisms?",
         "options": ["Apical, intercalary and lateral meristems add length and girth to plants.", "Division of labour increases from cell level to organ-system level.", "Dead sclerenchyma fibres with lignin give plants mechanical strength."],
         "a": 1,
         "why": "Division of labour increases from cell level to organ-system level."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जीवों में संगठन के स्तर' से मेल खाता है?",
+        "q": "'जीवों में संगठन के स्तर' के बारे में कौन-सा कथन सही है?",
         "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
         "a": 1,
         "why": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"
       },
       "explain": "Division of labour increases from cell level to organ-system level.",
       "explainHi": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।",
-      "vocab": [["Meristem", "Cells form tissues, tissues form organs, organs form organ"], ["Xylem", "Cells form tissues, tissues form organs, organs form organ"], ["Phloem", "Cells form tissues, tissues form organs, organs form organ"]],
-      "vocabHi": [["विभज्योतक", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "], ["जाइलम", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "], ["फ्लोएम", "कोशिकाएँ ऊतक, ऊतक अंग, अंग तंत्र और तंत्र मिलकर जीव बनाते "]],
+      "vocab": [["Meristem", "The body is organised at several levels: cells, tissues, o"], ["Xylem", "The body is organised at several levels: cells, tissues, o"], ["Phloem", "The body is organised at several levels: cells, tissues, o"]],
+      "vocabHi": [["विभज्योतक", "शरीर कई स्तरों पर संगठित है: कोशिका, ऊतक, अंग और अंग-तंत्र"], ["जाइलम", "शरीर कई स्तरों पर संगठित है: कोशिका, ऊतक, अंग और अंग-तंत्र"], ["फ्लोएम", "शरीर कई स्तरों पर संगठित है: कोशिका, ऊतक, अंग और अंग-तंत्र"]],
       "fig": "3D layers · Levels of organisation in organisms · Cell → Tissue → Organ → System",
       "figHi": "3D layers चित्र · जीवों में संगठन के स्तर · Cell / Tissue / Organ",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1572,12 +1446,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Levels of organisation in organisms?",
-        "options": ["Apical, intercalary and lateral meristems add length and girth to plants.", "Division of labour increases from cell level to organ-system level.", "Dead sclerenchyma fibres with lignin give plants mechanical strength."],
-        "a": 1,
-        "why": "Division of labour increases from cell level to organ-system level."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1589,37 +1457,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_3",
       "section": "3.3",
       "title": "Meristematic tissues",
       "titleHi": "विभज्योतक ऊतक",
       "short": "Meristematic tissues",
-      "concept": "Meristem cells are small and thin-walled with a large nucleus and no vacuoles. Apical, lateral and intercalary meristems add length, girth and branches.",
-      "conceptHi": "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली होती हैं, रिक्तिका नहीं होती। ये लंबाई, मोटाई और शाखाएँ बढ़ाती हैं।",
+      "concept": "Meristematic tissue is found at the growing tips of roots and shoots. Its cells are small, thin-walled, densely packed and keep dividing, which is why a seedling grows longer and a cut branch sprouts again. As they divide, some cells change into permanent tissue.",
+      "conceptHi": "मेरिस्टेमी ऊतक जड़ और तने के बढ़ते सिरों पर पाया जाता है। इसकी कोशिकाएँ छोटी, पतली भित्ति वाली, घनी और निरंतर विभाजित होती रहती हैं, इसलिए पौधा लंबा होता है और कटी डाली फिर पल्लवित होती है। विभाजन के साथ कुछ कोशिकाएँ स्थायी ऊतक में बदल जाती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Meristematic tissues?",
+        "q": "Which statement is correct about Meristematic tissues?",
         "options": ["Dead sclerenchyma fibres with lignin give plants mechanical strength.", "Xylem transport is unidirectional, from root to leaf.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 2,
         "why": "Apical, intercalary and lateral meristems add length and girth to plants."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विभज्योतक ऊतक' से मेल खाता है?",
+        "q": "'विभज्योतक ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 2,
         "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"
       },
       "explain": "Apical, intercalary and lateral meristems add length and girth to plants.",
       "explainHi": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।",
-      "vocab": [["Xylem", "Meristem cells are small and thin-walled with a large nucl"], ["Phloem", "Meristem cells are small and thin-walled with a large nucl"], ["Epithelium", "Meristem cells are small and thin-walled with a large nucl"]],
-      "vocabHi": [["जाइलम", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"], ["फ्लोएम", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"], ["उपकला", "विभज्योतक कोशिकाएँ छोटी, पतली भित्ति और बड़े केन्द्रक वाली"]],
+      "vocab": [["Xylem", "Meristematic tissue is found at the growing tips of roots "], ["Phloem", "Meristematic tissue is found at the growing tips of roots "], ["Epithelium", "Meristematic tissue is found at the growing tips of roots "]],
+      "vocabHi": [["जाइलम", "मेरिस्टेमी ऊतक जड़ और तने के बढ़ते सिरों पर पाया जाता है। "], ["फ्लोएम", "मेरिस्टेमी ऊतक जड़ और तने के बढ़ते सिरों पर पाया जाता है। "], ["उपकला", "मेरिस्टेमी ऊतक जड़ और तने के बढ़ते सिरों पर पाया जाता है। "]],
       "fig": "3D tree · Meristematic tissues · Meristem → Apical → Intercalary → Lateral",
       "figHi": "3D tree चित्र · विभज्योतक ऊतक · Meristem / Apical / Intercalary",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1633,12 +1500,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Meristematic tissues?",
-        "options": ["Dead sclerenchyma fibres with lignin give plants mechanical strength.", "Xylem transport is unidirectional, from root to leaf.", "Apical, intercalary and lateral meristems add length and girth to plants."],
-        "a": 2,
-        "why": "Apical, intercalary and lateral meristems add length and girth to plants."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1650,37 +1511,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_4",
       "section": "3.4",
       "title": "Simple permanent plant tissues",
       "titleHi": "सरल स्थायी पादप ऊतक",
       "short": "Simple permanent plant",
-      "concept": "Parenchyma stores food and floats aquatic plants, collenchyma bends without breaking, and lignified sclerenchyma gives hard, rigid strength.",
-      "conceptHi": "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़ता है, और लिग्निन युक्त स्क्लेरेनकाइमा कठोर मज़बूती देता है।",
+      "concept": "Permanent tissue is made of cells that have stopped dividing and have taken a fixed shape. Parenchyma is a simple permanent tissue with thin walls that stores food; collenchyma has thicker corners and gives flexibility; sclerenchyma has thick lignified walls and gives mechanical strength.",
+      "conceptHi": "स्थायी ऊतक ऐसी कोशिकाओं से बनता है जो विभाजन रोककर निश्चित आकार ले चुकी हैं। पैरेन्काइमा पतली भित्ति वाला सरल ऊतक है जो भोजन संचित करता है; कोलेन्काइमा के कोने मोटे होते हैं और लचीलापन देते हैं; स्क्लेरेन्काइमा की मोटी लिग्निन युक्त भित्तियाँ यांत्रिक शक्ति देती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Simple permanent plant tissues?",
+        "q": "Which statement is correct about Simple permanent plant tissues?",
         "options": ["Dead sclerenchyma fibres with lignin give plants mechanical strength.", "Xylem transport is unidirectional, from root to leaf.", "Phloem translocation is bidirectional, source to sink."],
         "a": 0,
         "why": "Dead sclerenchyma fibres with lignin give plants mechanical strength."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सरल स्थायी पादप ऊतक' से मेल खाता है?",
+        "q": "'सरल स्थायी पादप ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"],
         "a": 0,
         "why": "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"
       },
       "explain": "Dead sclerenchyma fibres with lignin give plants mechanical strength.",
       "explainHi": "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।",
-      "vocab": [["Phloem", "Parenchyma stores food and floats aquatic plants, collench"], ["Epithelium", "Parenchyma stores food and floats aquatic plants, collench"], ["Neuron", "Parenchyma stores food and floats aquatic plants, collench"]],
-      "vocabHi": [["फ्लोएम", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"], ["उपकला", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"], ["न्यूरॉन", "पैरेनकाइमा भोजन संग्रह करता है, कॉलेनकाइमा बिना टूटे मुड़त"]],
+      "vocab": [["Phloem", "Permanent tissue is made of cells that have stopped dividi"], ["Epithelium", "Permanent tissue is made of cells that have stopped dividi"], ["Neuron", "Permanent tissue is made of cells that have stopped dividi"]],
+      "vocabHi": [["फ्लोएम", "स्थायी ऊतक ऐसी कोशिकाओं से बनता है जो विभाजन रोककर निश्चित"], ["उपकला", "स्थायी ऊतक ऐसी कोशिकाओं से बनता है जो विभाजन रोककर निश्चित"], ["न्यूरॉन", "स्थायी ऊतक ऐसी कोशिकाओं से बनता है जो विभाजन रोककर निश्चित"]],
       "fig": "3D layers · Simple permanent plant tissues · Parenchyma → Collenchyma → Sclerenchyma → Support",
       "figHi": "3D layers चित्र · सरल स्थायी पादप ऊतक · Parenchyma / Collenchyma / Sclerenchyma",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1694,12 +1554,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Simple permanent plant tissues?",
-        "options": ["Dead sclerenchyma fibres with lignin give plants mechanical strength.", "Xylem transport is unidirectional, from root to leaf.", "Phloem translocation is bidirectional, source to sink."],
-        "a": 0,
-        "why": "Dead sclerenchyma fibres with lignin give plants mechanical strength."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1711,37 +1565,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_5",
       "section": "3.5",
       "title": "Xylem: water transport",
       "titleHi": "जाइलम: जल परिवहन",
       "short": "Xylem: water transport",
-      "concept": "Xylem has tracheids, vessels, fibres and living xylem parenchyma. Its dead tubular cells carry water and minerals upward and strengthen the plant.",
-      "conceptHi": "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते हैं। इसकी मृत नलिकाएँ जल और खनिज ऊपर ले जाती हैं।",
+      "concept": "Xylem is a complex tissue of vessels, tracheids, fibres and parenchyma that carries water and dissolved minerals from the roots up to the leaves. Its walls are thick and lignified, and the cells are dead at maturity, so it also supports the plant.",
+      "conceptHi": "जाइलम वाहिकाओं, ट्रेकीड, तंतुओं और पैरेन्काइमा का जटिल ऊतक है जो जड़ों से पानी और घुले खनिजों को पत्तियों तक ले जाता है। इसकी भित्तियाँ मोटी और लिग्निन युक्त होती हैं और कोशिकाएँ परिपक्वता पर मृत होती हैं, इसलिए यह पौधे को आधार भी देता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Xylem: water transport?",
+        "q": "Which statement is correct about Xylem: water transport?",
         "options": ["Phloem translocation is bidirectional, source to sink.", "Xylem transport is unidirectional, from root to leaf.", "Tightly packed epithelial cells form a continuous protective covering."],
         "a": 1,
         "why": "Xylem transport is unidirectional, from root to leaf."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जाइलम: जल परिवहन' से मेल खाता है?",
+        "q": "'जाइलम: जल परिवहन' के बारे में कौन-सा कथन सही है?",
         "options": ["फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।"],
         "a": 1,
         "why": "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।"
       },
       "explain": "Xylem transport is unidirectional, from root to leaf.",
       "explainHi": "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।",
-      "vocab": [["Epithelium", "Xylem has tracheids, vessels, fibres and living xylem pare"], ["Neuron", "Xylem has tracheids, vessels, fibres and living xylem pare"], ["Tissue", "Xylem has tracheids, vessels, fibres and living xylem pare"]],
-      "vocabHi": [["उपकला", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"], ["न्यूरॉन", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"], ["ऊतक", "जाइलम में ट्रैकीड, वाहिकाएँ, रेशे और जीवित पैरेनकाइमा होते"]],
+      "vocab": [["Epithelium", "Xylem is a complex tissue of vessels, tracheids, fibres an"], ["Neuron", "Xylem is a complex tissue of vessels, tracheids, fibres an"], ["Tissue", "Xylem is a complex tissue of vessels, tracheids, fibres an"]],
+      "vocabHi": [["उपकला", "जाइलम वाहिकाओं, ट्रेकीड, तंतुओं और पैरेन्काइमा का जटिल ऊतक"], ["न्यूरॉन", "जाइलम वाहिकाओं, ट्रेकीड, तंतुओं और पैरेन्काइमा का जटिल ऊतक"], ["ऊतक", "जाइलम वाहिकाओं, ट्रेकीड, तंतुओं और पैरेन्काइमा का जटिल ऊतक"]],
       "fig": "3D flow · Xylem: water transport · Root → Xylem → Stem → Leaf",
       "figHi": "3D flow चित्र · जाइलम: जल परिवहन · Root / Xylem / Stem",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1755,12 +1608,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Xylem: water transport?",
-        "options": ["Phloem translocation is bidirectional, source to sink.", "Xylem transport is unidirectional, from root to leaf.", "Tightly packed epithelial cells form a continuous protective covering."],
-        "a": 1,
-        "why": "Xylem transport is unidirectional, from root to leaf."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1772,37 +1619,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_6",
       "section": "3.6",
       "title": "Phloem: food transport",
       "titleHi": "फ्लोएम: भोजन परिवहन",
       "short": "Phloem: food transport",
-      "concept": "Phloem is mostly living: sieve tubes carry sugar from leaves to storage and growing parts, and companion cells load and unload that sugar.",
-      "conceptHi": "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा भंडार तक ले जाती हैं और सहचर कोशिकाएँ उसे लादती हैं।",
+      "concept": "Phloem is a complex tissue of sieve tubes, companion cells, fibres and parenchyma that carries the food made in the leaves to every part of the plant. Unlike xylem, its cells are living, and the food moves both upward and downward.",
+      "conceptHi": "फ्लोएम चालनी नलिकाओं, सहचर कोशिकाओं, तंतुओं और पैरेन्काइमा का जटिल ऊतक है जो पत्तियों में बने भोजन को पौधे के हर भाग तक पहुँचाता है। जाइलम से भिन्न इसकी कोशिकाएँ जीवित होती हैं और भोजन ऊपर तथा नीचे दोनों दिशाओं में जाता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Phloem: food transport?",
+        "q": "Which statement is correct about Phloem: food transport?",
         "options": ["Tightly packed epithelial cells form a continuous protective covering.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Phloem translocation is bidirectional, source to sink."],
         "a": 2,
         "why": "Phloem translocation is bidirectional, source to sink."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'फ्लोएम: भोजन परिवहन' से मेल खाता है?",
+        "q": "'फ्लोएम: भोजन परिवहन' के बारे में कौन-सा कथन सही है?",
         "options": ["कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"],
         "a": 2,
         "why": "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"
       },
       "explain": "Phloem translocation is bidirectional, source to sink.",
       "explainHi": "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।",
-      "vocab": [["Neuron", "Phloem is mostly living: sieve tubes carry sugar from leav"], ["Tissue", "Phloem is mostly living: sieve tubes carry sugar from leav"], ["Meristem", "Phloem is mostly living: sieve tubes carry sugar from leav"]],
-      "vocabHi": [["न्यूरॉन", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "], ["ऊतक", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "], ["विभज्योतक", "फ्लोएम मुख्यतः जीवित है: चालनी नलिकाएँ पत्तियों से शर्करा "]],
+      "vocab": [["Neuron", "Phloem is a complex tissue of sieve tubes, companion cells"], ["Tissue", "Phloem is a complex tissue of sieve tubes, companion cells"], ["Meristem", "Phloem is a complex tissue of sieve tubes, companion cells"]],
+      "vocabHi": [["न्यूरॉन", "फ्लोएम चालनी नलिकाओं, सहचर कोशिकाओं, तंतुओं और पैरेन्काइमा"], ["ऊतक", "फ्लोएम चालनी नलिकाओं, सहचर कोशिकाओं, तंतुओं और पैरेन्काइमा"], ["विभज्योतक", "फ्लोएम चालनी नलिकाओं, सहचर कोशिकाओं, तंतुओं और पैरेन्काइमा"]],
       "fig": "3D cycle · Phloem: food transport · Leaf → Sieve tube → Stem → Root",
       "figHi": "3D cycle चित्र · फ्लोएम: भोजन परिवहन · Leaf / Sieve tube / Stem",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1816,12 +1662,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Phloem: food transport?",
-        "options": ["Tightly packed epithelial cells form a continuous protective covering.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Phloem translocation is bidirectional, source to sink."],
-        "a": 2,
-        "why": "Phloem translocation is bidirectional, source to sink."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1833,37 +1673,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_7",
       "section": "3.7",
       "title": "Epithelial tissue",
       "titleHi": "उपकला ऊतक",
       "short": "Epithelial tissue",
-      "concept": "Epithelium is made of tightly packed cells. It covers the body and lines the mouth, lungs, vessels and gut, blocking germs and water loss.",
-      "conceptHi": "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और मुँह, फेफड़ों, वाहिकाओं और आँतों की परत बनती है।",
+      "concept": "Epithelial tissue covers the body and lines its cavities and organs. Its cells are tightly packed on a thin basement membrane, with almost no space between them. Squamous epithelium is flat and lines the lungs, cuboidal lines the kidney tubules, and columnar lines the intestine.",
+      "conceptHi": "उपकला ऊतक शरीर को ढकता है और उसकी गुहाओं तथा अंगों को अस्तर देता है। इसकी कोशिकाएँ पतली आधार-झिल्ली पर घनी रहती हैं और उनके बीच लगभग कोई स्थान नहीं होता। वर्गाकार उपकला वृक्क नलिकाओं पर और स्तंभाकार उपकला आँत पर पाई जाती है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Epithelial tissue?",
+        "q": "Which statement is correct about Epithelial tissue?",
         "options": ["Tightly packed epithelial cells form a continuous protective covering.", "Blood is a fluid connective tissue with plasma and suspended cells.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 0,
         "why": "Tightly packed epithelial cells form a continuous protective covering."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'उपकला ऊतक' से मेल खाता है?",
+        "q": "'उपकला ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 0,
         "why": "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।"
       },
       "explain": "Tightly packed epithelial cells form a continuous protective covering.",
       "explainHi": "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।",
-      "vocab": [["Tissue", "Epithelium is made of tightly packed cells. It covers the "], ["Meristem", "Epithelium is made of tightly packed cells. It covers the "], ["Xylem", "Epithelium is made of tightly packed cells. It covers the "]],
-      "vocabHi": [["ऊतक", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"], ["विभज्योतक", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"], ["जाइलम", "उपकला कसकर जुड़ी कोशिकाओं की बनती है। यह शरीर को ढकती और म"]],
+      "vocab": [["Tissue", "Epithelial tissue covers the body and lines its cavities a"], ["Meristem", "Epithelial tissue covers the body and lines its cavities a"], ["Xylem", "Epithelial tissue covers the body and lines its cavities a"]],
+      "vocabHi": [["ऊतक", "उपकला ऊतक शरीर को ढकता है और उसकी गुहाओं तथा अंगों को अस्त"], ["विभज्योतक", "उपकला ऊतक शरीर को ढकता है और उसकी गुहाओं तथा अंगों को अस्त"], ["जाइलम", "उपकला ऊतक शरीर को ढकता है और उसकी गुहाओं तथा अंगों को अस्त"]],
       "fig": "3D layers · Epithelial tissue · Squamous → Cuboidal → Columnar → Ciliated",
       "figHi": "3D layers चित्र · उपकला ऊतक · Squamous / Cuboidal / Columnar",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1877,12 +1716,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Epithelial tissue?",
-        "options": ["Tightly packed epithelial cells form a continuous protective covering.", "Blood is a fluid connective tissue with plasma and suspended cells.", "A neuron has a cell body, dendrites and a long axon."],
-        "a": 0,
-        "why": "Tightly packed epithelial cells form a continuous protective covering."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1894,37 +1727,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_8",
       "section": "3.8",
       "title": "Connective tissue",
       "titleHi": "संयोजी ऊतक",
       "short": "Connective tissue",
-      "concept": "Connective tissue links and supports: blood is fluid, bone is rigid, cartilage cushions, tendons join muscle to bone and ligaments join bone to bone.",
-      "conceptHi": "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, उपास्थि गद्दी, स्नायु पेशी को अस्थि से जोड़ते हैं।",
+      "concept": "Connective tissue supports, binds and protects the other tissues. Its cells are scattered in a non-living matrix, which is why blood is a connective tissue with a liquid matrix, bone has a hard matrix, cartilage has a flexible one and areolar tissue has a soft one.",
+      "conceptHi": "संयोजी ऊतक अन्य ऊतकों को आधार देता, जोड़ता और उनकी रक्षा करता है। इसकी कोशिकाएँ एक निर्जीव आधार में बिखरी रहती हैं, इसलिए रक्त द्रव आधार वाला, अस्थि कठोर आधार वाला और उपास्थि लचीला आधार वाला संयोजी ऊतक है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Connective tissue?",
+        "q": "Which statement is correct about Connective tissue?",
         "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'संयोजी ऊतक' से मेल खाता है?",
+        "q": "'संयोजी ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"],
         "a": 1,
         "why": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।"
       },
       "explain": "Blood is a fluid connective tissue with plasma and suspended cells.",
       "explainHi": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।",
-      "vocab": [["Meristem", "Connective tissue links and supports: blood is fluid, bone"], ["Xylem", "Connective tissue links and supports: blood is fluid, bone"], ["Phloem", "Connective tissue links and supports: blood is fluid, bone"]],
-      "vocabHi": [["विभज्योतक", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "], ["जाइलम", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "], ["फ्लोएम", "संयोजी ऊतक जोड़ता और सहारा देता है: रक्त तरल, अस्थि कठोर, "]],
+      "vocab": [["Meristem", "Connective tissue supports, binds and protects the other t"], ["Xylem", "Connective tissue supports, binds and protects the other t"], ["Phloem", "Connective tissue supports, binds and protects the other t"]],
+      "vocabHi": [["विभज्योतक", "संयोजी ऊतक अन्य ऊतकों को आधार देता, जोड़ता और उनकी रक्षा क"], ["जाइलम", "संयोजी ऊतक अन्य ऊतकों को आधार देता, जोड़ता और उनकी रक्षा क"], ["फ्लोएम", "संयोजी ऊतक अन्य ऊतकों को आधार देता, जोड़ता और उनकी रक्षा क"]],
       "fig": "3D molecule · Connective tissue · Plasma → RBC → WBC → Platelet",
       "figHi": "3D molecule चित्र · संयोजी ऊतक · Plasma / RBC / WBC",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1938,12 +1770,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Connective tissue?",
-        "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
-        "a": 1,
-        "why": "Blood is a fluid connective tissue with plasma and suspended cells."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -1955,37 +1781,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_9",
       "section": "3.9",
       "title": "Muscular and nervous tissue",
       "titleHi": "पेशी और तंत्रिका ऊतक",
       "short": "Muscular and nervous t",
-      "concept": "Skeletal muscle is voluntary and striated, smooth muscle is involuntary, cardiac muscle never tires, and neurons carry the impulses.",
-      "conceptHi": "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेशी बिना थके धड़कती है, और न्यूरॉन आवेग ले जाते हैं।",
+      "concept": "Muscle tissue is made of elongated cells that contract and relax to move the body; it may be striated and voluntary, smooth and involuntary, or cardiac and involuntary in the heart. Nervous tissue is made of neurons that carry impulses, with a cell body, dendrites and a long axon.",
+      "conceptHi": "पेशी ऊतक लंबी कोशिकाओं से बनता है जो संकुचित और शिथिल होकर शरीर को चलाती हैं; यह रेखित और ऐच्छिक, चिकनी और अनैच्छिक, या हृदय की अनैच्छिक हो सकती है। तंत्रिका ऊतक तंत्रिका कोशिकाओं से बनता है जो आवेग ले जाती हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Muscular and nervous tissue?",
+        "q": "Which statement is correct about Muscular and nervous tissue?",
         "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
+        "q": "'पेशी और तंत्रिका ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       },
       "explain": "A neuron has a cell body, dendrites and a long axon.",
       "explainHi": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।",
-      "vocab": [["Xylem", "Skeletal muscle is voluntary and striated, smooth muscle i"], ["Phloem", "Skeletal muscle is voluntary and striated, smooth muscle i"], ["Epithelium", "Skeletal muscle is voluntary and striated, smooth muscle i"]],
-      "vocabHi": [["जाइलम", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"], ["फ्लोएम", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"], ["उपकला", "कंकाल पेशी ऐच्छिक और धारीदार, चिकनी पेशी अऐच्छिक, हृदय पेश"]],
+      "vocab": [["Xylem", "Muscle tissue is made of elongated cells that contract and"], ["Phloem", "Muscle tissue is made of elongated cells that contract and"], ["Epithelium", "Muscle tissue is made of elongated cells that contract and"]],
+      "vocabHi": [["जाइलम", "पेशी ऊतक लंबी कोशिकाओं से बनता है जो संकुचित और शिथिल होकर"], ["फ्लोएम", "पेशी ऊतक लंबी कोशिकाओं से बनता है जो संकुचित और शिथिल होकर"], ["उपकला", "पेशी ऊतक लंबी कोशिकाओं से बनता है जो संकुचित और शिथिल होकर"]],
       "fig": "3D tree · Muscular and nervous tissue · Neuron → Dendrite → Axon → Muscle",
       "figHi": "3D tree चित्र · पेशी और तंत्रिका ऊतक · Neuron / Dendrite / Axon",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -1999,12 +1824,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
-        "a": 2,
-        "why": "A neuron has a cell body, dendrites and a long axon."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2016,37 +1835,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_10",
       "section": "3.10",
       "title": "Musculoskeletal system and its care",
       "titleHi": "कंकाल-पेशी तंत्र और उसकी देखभाल",
       "short": "Musculoskeletal system",
-      "concept": "Bones and skeletal muscles work as levers: tendons anchor muscle to bone, ligaments hold bone to bone, and joints set the limit of movement.",
-      "conceptHi": "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पेशी को अस्थि से, स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।",
+      "concept": "The knee is a hinge joint between the thigh bone and the shin bone, so it bends and straightens in one plane only. Its surfaces are covered with cartilage and it is held together by ligaments, with a lubricating synovial fluid that lets the bones glide smoothly.",
+      "conceptHi": "घुटना जाँघ की हड्डी और पिंडली की हड्डी के बीच का कबजा संधि है, इसलिए यह केवल एक तल में मुड़ता और सीधा होता है। इसकी सतहों पर उपास्थि होती है और स्नायु इसे जोड़े रखते हैं।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Musculoskeletal system and its care?",
+        "q": "Which statement is correct about Musculoskeletal system and its care?",
         "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
         "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
+        "q": "'कंकाल-पेशी तंत्र और उसकी देखभाल' के बारे में कौन-सा कथन सही है?",
         "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
         "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       },
       "explain": "Tendons connect muscle to bone and ligaments connect bone to bone.",
       "explainHi": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।",
-      "vocab": [["Phloem", "Bones and skeletal muscles work as levers: tendons anchor "], ["Epithelium", "Bones and skeletal muscles work as levers: tendons anchor "], ["Neuron", "Bones and skeletal muscles work as levers: tendons anchor "]],
-      "vocabHi": [["फ्लोएम", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"], ["उपकला", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"], ["न्यूरॉन", "अस्थि और कंकाल पेशी उत्तोलक की तरह काम करते हैं: स्नायु पे"]],
+      "vocab": [["Phloem", "The knee is a hinge joint between the thigh bone and the s"], ["Epithelium", "The knee is a hinge joint between the thigh bone and the s"], ["Neuron", "The knee is a hinge joint between the thigh bone and the s"]],
+      "vocabHi": [["फ्लोएम", "घुटना जाँघ की हड्डी और पिंडली की हड्डी के बीच का कबजा संधि"], ["उपकला", "घुटना जाँघ की हड्डी और पिंडली की हड्डी के बीच का कबजा संधि"], ["न्यूरॉन", "घुटना जाँघ की हड्डी और पिंडली की हड्डी के बीच का कबजा संधि"]],
       "fig": "3D machine · Musculoskeletal system and its care · Bone → Joint → Muscle → Lever",
       "figHi": "3D machine चित्र · कंकाल-पेशी तंत्र और उसकी देखभाल · Bone / Joint / Muscle",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2060,12 +1878,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
-        "a": 0,
-        "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2077,37 +1889,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_tissues_3_11",
       "section": "3.11",
       "title": "Injury, posture, nutrition and exercise",
       "titleHi": "चोट, मुद्रा, पोषण और व्यायाम",
       "short": "Injury, posture, nutri",
-      "concept": "Correct posture, calcium-rich food, exercise and yoga keep bones strong and joints flexible; a slouched spine or a torn ligament stiffens them.",
-      "conceptHi": "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबूत व जोड़ लचीले रखते हैं; कुबड़ी रीढ़ व फटा स्नायुबंध जोड़ जकड़ता है।",
+      "concept": "The musculoskeletal system needs care: good posture keeps the spine straight, exercise strengthens muscles and bones, and a balanced diet supplies calcium and protein. Yoga poses stretch and strengthen the back, and warming up before sport protects joints and muscles from injury.",
+      "conceptHi": "मस्कुलोस्केलेटल तंत्र की देखभाल जरूरी है: सही मुद्रा रीढ़ को सीधा रखती है, व्यायाम पेशियों और हड्डियों को मजबूत करता है और संतुलित आहार कैल्शियम तथा प्रोटीन देता है। योग पीठ को लचीला बनाता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
         "note": "कोशिका से जीव तक संगठन के स्तर"
       },
       "predict": {
-        "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
+        "q": "Which statement is correct about Injury, posture, nutrition and exercise?",
         "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
         "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
+        "q": "'चोट, मुद्रा, पोषण और व्यायाम' के बारे में कौन-सा कथन सही है?",
         "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
         "why": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।"
       },
       "explain": "Cartilage discs cushion the vertebrae; ribs let the chest expand.",
       "explainHi": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।",
-      "vocab": [["Epithelium", "Correct posture, calcium-rich food, exercise and yoga keep"], ["Neuron", "Correct posture, calcium-rich food, exercise and yoga keep"], ["Tissue", "Correct posture, calcium-rich food, exercise and yoga keep"]],
-      "vocabHi": [["उपकला", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"], ["न्यूरॉन", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"], ["ऊतक", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"]],
+      "vocab": [["Epithelium", "The musculoskeletal system needs care: good posture keeps "], ["Neuron", "The musculoskeletal system needs care: good posture keeps "], ["Tissue", "The musculoskeletal system needs care: good posture keeps "]],
+      "vocabHi": [["उपकला", "मस्कुलोस्केलेटल तंत्र की देखभाल जरूरी है: सही मुद्रा रीढ़ "], ["न्यूरॉन", "मस्कुलोस्केलेटल तंत्र की देखभाल जरूरी है: सही मुद्रा रीढ़ "], ["ऊतक", "मस्कुलोस्केलेटल तंत्र की देखभाल जरूरी है: सही मुद्रा रीढ़ "]],
       "fig": "3D cycle · Injury, posture, nutrition and exercise · Nutrition → Exercise → Rest → Posture",
       "figHi": "3D cycle चित्र · चोट, मुद्रा, पोषण और व्यायाम · Nutrition / Exercise / Rest",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2121,12 +1932,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
-        "a": 1,
-        "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2138,8 +1943,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_tissues"] = {
       "id": "c9_tissues",
@@ -2297,113 +2101,113 @@
         "desc": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       }],
       "quiz": [{
-        "q": "Which statement belongs to What a tissue is?",
+        "q": "Which statement is correct about What a tissue is?",
         "options": ["A tissue is a group of similar cells performing one shared function.", "Division of labour increases from cell level to organ-system level.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 0,
         "why": "A tissue is a group of similar cells performing one shared function."
       }, {
-        "q": "Which statement belongs to Levels of organisation in organisms?",
+        "q": "Which statement is correct about Levels of organisation in organisms?",
         "options": ["Apical, intercalary and lateral meristems add length and girth to plants.", "Division of labour increases from cell level to organ-system level.", "Dead sclerenchyma fibres with lignin give plants mechanical strength."],
         "a": 1,
         "why": "Division of labour increases from cell level to organ-system level."
       }, {
-        "q": "Which statement belongs to Meristematic tissues?",
+        "q": "Which statement is correct about Meristematic tissues?",
         "options": ["Dead sclerenchyma fibres with lignin give plants mechanical strength.", "Xylem transport is unidirectional, from root to leaf.", "Apical, intercalary and lateral meristems add length and girth to plants."],
         "a": 2,
         "why": "Apical, intercalary and lateral meristems add length and girth to plants."
       }, {
-        "q": "Which statement belongs to Simple permanent plant tissues?",
+        "q": "Which statement is correct about Simple permanent plant tissues?",
         "options": ["Dead sclerenchyma fibres with lignin give plants mechanical strength.", "Xylem transport is unidirectional, from root to leaf.", "Phloem translocation is bidirectional, source to sink."],
         "a": 0,
         "why": "Dead sclerenchyma fibres with lignin give plants mechanical strength."
       }, {
-        "q": "Which statement belongs to Xylem: water transport?",
+        "q": "Which statement is correct about Xylem: water transport?",
         "options": ["Phloem translocation is bidirectional, source to sink.", "Xylem transport is unidirectional, from root to leaf.", "Tightly packed epithelial cells form a continuous protective covering."],
         "a": 1,
         "why": "Xylem transport is unidirectional, from root to leaf."
       }, {
-        "q": "Which statement belongs to Phloem: food transport?",
+        "q": "Which statement is correct about Phloem: food transport?",
         "options": ["Tightly packed epithelial cells form a continuous protective covering.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Phloem translocation is bidirectional, source to sink."],
         "a": 2,
         "why": "Phloem translocation is bidirectional, source to sink."
       }, {
-        "q": "Which statement belongs to Epithelial tissue?",
+        "q": "Which statement is correct about Epithelial tissue?",
         "options": ["Tightly packed epithelial cells form a continuous protective covering.", "Blood is a fluid connective tissue with plasma and suspended cells.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 0,
         "why": "Tightly packed epithelial cells form a continuous protective covering."
       }, {
-        "q": "Which statement belongs to Connective tissue?",
+        "q": "Which statement is correct about Connective tissue?",
         "options": ["A neuron has a cell body, dendrites and a long axon.", "Blood is a fluid connective tissue with plasma and suspended cells.", "Tendons connect muscle to bone and ligaments connect bone to bone."],
         "a": 1,
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       }, {
-        "q": "Which statement belongs to Muscular and nervous tissue?",
+        "q": "Which statement is correct about Muscular and nervous tissue?",
         "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       }, {
-        "q": "Which statement belongs to Musculoskeletal system and its care?",
+        "q": "Which statement is correct about Musculoskeletal system and its care?",
         "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
         "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       }, {
-        "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
+        "q": "Which statement is correct about Injury, posture, nutrition and exercise?",
         "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
         "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'ऊतक क्या है' से मेल खाता है?",
+        "q": "'ऊतक क्या है' के बारे में कौन-सा कथन सही है?",
         "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 0,
         "why": "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"
       }, {
-        "q": "कौन-सा कथन 'जीवों में संगठन के स्तर' से मेल खाता है?",
+        "q": "'जीवों में संगठन के स्तर' के बारे में कौन-सा कथन सही है?",
         "options": ["शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।", "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"],
         "a": 1,
         "why": "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"
       }, {
-        "q": "कौन-सा कथन 'विभज्योतक ऊतक' से मेल खाता है?",
+        "q": "'विभज्योतक ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"],
         "a": 2,
         "why": "शीर्ष, अंतर्वेशी और पार्श्व विभज्योतक पौधे की लंबाई और मोटाई बढ़ाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'सरल स्थायी पादप ऊतक' से मेल खाता है?",
+        "q": "'सरल स्थायी पादप ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"],
         "a": 0,
         "why": "लिग्निन युक्त मृत स्क्लेरेनकाइमा रेशे पौधे को यांत्रिक मज़बूती देते हैं।"
       }, {
-        "q": "कौन-सा कथन 'जाइलम: जल परिवहन' से मेल खाता है?",
+        "q": "'जाइलम: जल परिवहन' के बारे में कौन-सा कथन सही है?",
         "options": ["फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।", "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।", "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।"],
         "a": 1,
         "why": "जाइलम का परिवहन एकदिशीय होता है, जड़ से पत्ती तक।"
       }, {
-        "q": "कौन-सा कथन 'फ्लोएम: भोजन परिवहन' से मेल खाता है?",
+        "q": "'फ्लोएम: भोजन परिवहन' के बारे में कौन-सा कथन सही है?",
         "options": ["कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"],
         "a": 2,
         "why": "फ्लोएम का परिवहन द्विदिशीय होता है, स्रोत से संग्रह स्थल तक।"
       }, {
-        "q": "कौन-सा कथन 'उपकला ऊतक' से मेल खाता है?",
+        "q": "'उपकला ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 0,
         "why": "कसकर जुड़ी उपकला कोशिकाएँ लगातार सुरक्षात्मक परत बनाती हैं।"
       }, {
-        "q": "कौन-सा कथन 'संयोजी ऊतक' से मेल खाता है?",
+        "q": "'संयोजी ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।", "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।", "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"],
         "a": 1,
         "why": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।"
       }, {
-        "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
+        "q": "'पेशी और तंत्रिका ऊतक' के बारे में कौन-सा कथन सही है?",
         "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       }, {
-        "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
+        "q": "'कंकाल-पेशी तंत्र और उसकी देखभाल' के बारे में कौन-सा कथन सही है?",
         "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
         "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       }, {
-        "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
+        "q": "'चोट, मुद्रा, पोषण और व्यायाम' के बारे में कौन-सा कथन सही है?",
         "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
         "why": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।"
@@ -2417,29 +2221,29 @@
       "title": "Rest, motion and frame of reference",
       "titleHi": "विराम, गति और सन्दर्भ फ़्रेम",
       "short": "Rest, motion and frame",
-      "concept": "Position is the distance and direction of an object from a fixed reference point; motion means that this position changes with time.",
-      "conceptHi": "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती है; समय के साथ स्थिति बदलने पर वस्तु गति में कहलाती है।",
+      "concept": "An object is in motion only when its position changes with time with respect to a reference point. A passenger sitting in a moving train is at rest with respect to the train but in motion with respect to the platform, so motion is always described relative to a chosen point.",
+      "conceptHi": "कोई वस्तु तभी गति में है जब उसकी स्थिति किसी संदर्भ बिंदु के सापेक्ष समय के साथ बदले। चलती ट्रेन में बैठा यात्री ट्रेन के सापेक्ष विराम में है पर प्लेटफॉर्म के सापेक्ष गति में, इसलिए गति हमेशा संदर्भ के सापेक्ष बताई जाती है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Rest, motion and frame of reference?",
+        "q": "Which statement is correct about Rest, motion and frame of reference?",
         "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
         "why": "Along a straight line, right of the origin is positive and left negative."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विराम, गति और सन्दर्भ फ़्रेम' से मेल खाता है?",
+        "q": "'विराम, गति और सन्दर्भ फ़्रेम' के बारे में कौन-सा कथन सही है?",
         "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 0,
         "why": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"
       },
       "explain": "Along a straight line, right of the origin is positive and left negative.",
       "explainHi": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।",
-      "vocab": [["Motion", "Position is the distance and direction of an object from a"], ["Displacement", "Position is the distance and direction of an object from a"], ["Velocity", "Position is the distance and direction of an object from a"]],
-      "vocabHi": [["गति", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"], ["विस्थापन", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"], ["वेग", "वस्तु की स्थिति सन्दर्भ बिंदु से दूरी और दिशा से बताई जाती"]],
+      "vocab": [["Motion", "An object is in motion only when its position changes with"], ["Displacement", "An object is in motion only when its position changes with"], ["Velocity", "An object is in motion only when its position changes with"]],
+      "vocabHi": [["गति", "कोई वस्तु तभी गति में है जब उसकी स्थिति किसी संदर्भ बिंदु "], ["विस्थापन", "कोई वस्तु तभी गति में है जब उसकी स्थिति किसी संदर्भ बिंदु "], ["वेग", "कोई वस्तु तभी गति में है जब उसकी स्थिति किसी संदर्भ बिंदु "]],
       "fig": "3D flow · Rest, motion and frame of reference · Object → Reference → Position → Change",
       "figHi": "3D flow चित्र · विराम, गति और सन्दर्भ फ़्रेम · Object / Reference / Position",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2453,12 +2257,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Rest, motion and frame of reference?",
-        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
-        "a": 0,
-        "why": "Along a straight line, right of the origin is positive and left negative."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2470,37 +2268,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_2",
       "section": "4.2",
       "title": "Distance and displacement",
       "titleHi": "दूरी और विस्थापन",
       "short": "Distance and displacem",
-      "concept": "Distance travelled is the whole path length; displacement is the straight change in position, so it can never exceed the distance.",
-      "conceptHi": "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन है, इसलिए वह दूरी से अधिक नहीं हो सकता।",
+      "concept": "Distance is the total path covered by an object, and it is a scalar. Displacement is the shortest straight-line change from the starting point to the end point, and it is a vector, so a round trip of 5 km back home has distance 10 km but displacement zero.",
+      "conceptHi": "दूरी वस्तु द्वारा तय किया गया कुल पथ है, यह अदिश है। विस्थापन प्रारंभिक बिंदु से अंतिम बिंदु तक सबसे छोटा सरल रेखीय परिवर्तन है, यह सदिश है, इसलिए 5 km जाकर घर लौटने पर दूरी 10 km पर विस्थापन शून्य होता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Distance and displacement?",
+        "q": "Which statement is correct about Distance and displacement?",
         "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
         "why": "A ball thrown up and caught back at the same point has zero displacement."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'दूरी और विस्थापन' से मेल खाता है?",
+        "q": "'दूरी और विस्थापन' के बारे में कौन-सा कथन सही है?",
         "options": ["चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"],
         "a": 1,
         "why": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।"
       },
       "explain": "A ball thrown up and caught back at the same point has zero displacement.",
       "explainHi": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।",
-      "vocab": [["Displacement", "Distance travelled is the whole path length; displacement "], ["Velocity", "Distance travelled is the whole path length; displacement "], ["Acceleration", "Distance travelled is the whole path length; displacement "]],
-      "vocabHi": [["विस्थापन", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"], ["वेग", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"], ["त्वरण", "दूरी पूरे पथ की लंबाई है, विस्थापन स्थिति में सरल परिवर्तन"]],
+      "vocab": [["Displacement", "Distance is the total path covered by an object, and it is"], ["Velocity", "Distance is the total path covered by an object, and it is"], ["Acceleration", "Distance is the total path covered by an object, and it is"]],
+      "vocabHi": [["विस्थापन", "दूरी वस्तु द्वारा तय किया गया कुल पथ है, यह अदिश है। विस्थ"], ["वेग", "दूरी वस्तु द्वारा तय किया गया कुल पथ है, यह अदिश है। विस्थ"], ["त्वरण", "दूरी वस्तु द्वारा तय किया गया कुल पथ है, यह अदिश है। विस्थ"]],
       "fig": "3D rays · Distance and displacement · Start → Path → Turn → End",
       "figHi": "3D rays चित्र · दूरी और विस्थापन · Start / Path / Turn",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2514,12 +2311,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Distance and displacement?",
-        "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
-        "a": 1,
-        "why": "A ball thrown up and caught back at the same point has zero displacement."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2531,37 +2322,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_3",
       "section": "4.3",
       "title": "Speed and average speed",
       "titleHi": "चाल और औसत चाल",
       "short": "Speed and average spee",
-      "concept": "Average speed is total distance divided by the time interval; equal distances in equal times mean uniform motion.",
-      "conceptHi": "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बराबर समय में बराबर दूरी एकसमान गति कहलाती है।",
+      "concept": "The speed of an object is the distance it covers in unit time, and average speed is the total distance divided by the total time taken. A car that covers 120 km in 3 hours has an average speed of 40 km/h, even if its speedometer reading kept changing on the way.",
+      "conceptHi": "वस्तु की चाल प्रति इकाई समय में तय की गई दूरी है, और औसत चाल कुल दूरी को कुल समय से भाग देने पर मिलती है। 3 घंटे में 120 km चली कार की औसत चाल 40 km/h है, भले ही रास्ते में स्पीडोमीटर का पाठ्यांक बदलता रहा हो।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Speed and average speed?",
+        "q": "Which statement is correct about Speed and average speed?",
         "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
         "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'चाल और औसत चाल' से मेल खाता है?",
+        "q": "'चाल और औसत चाल' के बारे में कौन-सा कथन सही है?",
         "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 2,
         "why": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"
       },
       "explain": "The Ganitakaumudi of the 14th century used speed to time a meeting.",
       "explainHi": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।",
-      "vocab": [["Velocity", "Average speed is total distance divided by the time interv"], ["Acceleration", "Average speed is total distance divided by the time interv"], ["Graph", "Average speed is total distance divided by the time interv"]],
-      "vocabHi": [["वेग", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"], ["त्वरण", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"], ["आलेख", "औसत चाल कुल दूरी को समय अंतराल से भाग देने पर मिलती है; बर"]],
+      "vocab": [["Velocity", "The speed of an object is the distance it covers in unit t"], ["Acceleration", "The speed of an object is the distance it covers in unit t"], ["Graph", "The speed of an object is the distance it covers in unit t"]],
+      "vocabHi": [["वेग", "वस्तु की चाल प्रति इकाई समय में तय की गई दूरी है, और औसत च"], ["त्वरण", "वस्तु की चाल प्रति इकाई समय में तय की गई दूरी है, और औसत च"], ["आलेख", "वस्तु की चाल प्रति इकाई समय में तय की गई दूरी है, और औसत च"]],
       "fig": "3D bars · Speed and average speed · Trip A → Trip B → Trip C → Average",
       "figHi": "3D bars चित्र · चाल और औसत चाल · Trip A / Trip B / Trip C",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2575,12 +2365,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Speed and average speed?",
-        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
-        "a": 2,
-        "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2592,37 +2376,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_4",
       "section": "4.4",
       "title": "Velocity and uniform velocity",
       "titleHi": "वेग और एकसमान वेग",
       "short": "Velocity and uniform v",
-      "concept": "Average velocity is displacement divided by the time interval and keeps the direction of that displacement; a round trip averages zero.",
-      "conceptHi": "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और उसी की दिशा रखता है; चक्कर में औसत शून्य होता है।",
+      "concept": "Velocity is the displacement per unit time in a given direction, and average velocity is the total displacement divided by the total time. A body that returns to its starting point has zero average velocity even after travelling a long distance.",
+      "conceptHi": "वेग किसी निर्दिष्ट दिशा में प्रति इकाई समय विस्थापन है, और औसत वेग कुल विस्थापन को कुल समय से भाग देने पर मिलता है। अपने प्रारंभिक बिंदु पर लौटती वस्तु का औसत वेग शून्य होता है, भले ही वह लंबा रास्ता तय करे।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Velocity and uniform velocity?",
+        "q": "Which statement is correct about Velocity and uniform velocity?",
         "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
         "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वेग और एकसमान वेग' से मेल खाता है?",
+        "q": "'वेग और एकसमान वेग' के बारे में कौन-सा कथन सही है?",
         "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 0,
         "why": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"
       },
       "explain": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.",
       "explainHi": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।",
-      "vocab": [["Acceleration", "Average velocity is displacement divided by the time inter"], ["Graph", "Average velocity is displacement divided by the time inter"], ["Reference", "Average velocity is displacement divided by the time inter"]],
-      "vocabHi": [["त्वरण", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "], ["आलेख", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "], ["सन्दर्भ बिंदु", "औसत वेग विस्थापन को समय अंतराल से भाग देने पर मिलता है और "]],
+      "vocab": [["Acceleration", "Velocity is the displacement per unit time in a given dire"], ["Graph", "Velocity is the displacement per unit time in a given dire"], ["Reference", "Velocity is the displacement per unit time in a given dire"]],
+      "vocabHi": [["त्वरण", "वेग किसी निर्दिष्ट दिशा में प्रति इकाई समय विस्थापन है, और"], ["आलेख", "वेग किसी निर्दिष्ट दिशा में प्रति इकाई समय विस्थापन है, और"], ["सन्दर्भ बिंदु", "वेग किसी निर्दिष्ट दिशा में प्रति इकाई समय विस्थापन है, और"]],
       "fig": "3D graph · Velocity and uniform velocity · t0 → t1 → t2 → Straight line",
       "figHi": "3D graph चित्र · वेग और एकसमान वेग · t0 / t1 / t2",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2636,12 +2419,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Velocity and uniform velocity?",
-        "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
-        "a": 0,
-        "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2653,37 +2430,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_5",
       "section": "4.5",
       "title": "Acceleration and retardation",
       "titleHi": "त्वरण और मंदन",
       "short": "Acceleration and retar",
-      "concept": "Average acceleration is the change in velocity divided by the time interval; speeding up makes it act along the velocity.",
-      "conceptHi": "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता है; गति बढ़ने पर यह वेग की दिशा में लगता है।",
+      "concept": "Acceleration is the change in velocity per unit time. It is positive when the velocity increases, negative when it decreases, and zero for uniform velocity. A body starting from rest and reaching 20 m/s in 5 s has an acceleration of 4 m/s².",
+      "conceptHi": "त्वरण प्रति इकाई समय में वेग में परिवर्तन है। वेग बढ़ने पर यह धनात्मक, घटने पर ऋणात्मक और एकसमान वेग में शून्य होता है। विराम से चलकर 5 s में 20 m/s पहुँची वस्तु का त्वरण 4 m/s² है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Acceleration and retardation?",
+        "q": "Which statement is correct about Acceleration and retardation?",
         "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
         "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'त्वरण और मंदन' से मेल खाता है?",
+        "q": "'त्वरण और मंदन' के बारे में कौन-सा कथन सही है?",
         "options": ["ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"],
         "a": 1,
         "why": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।"
       },
       "explain": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².",
       "explainHi": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।",
-      "vocab": [["Graph", "Average acceleration is the change in velocity divided by "], ["Reference", "Average acceleration is the change in velocity divided by "], ["Motion", "Average acceleration is the change in velocity divided by "]],
-      "vocabHi": [["आलेख", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "], ["सन्दर्भ बिंदु", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "], ["गति", "औसत त्वरण वेग परिवर्तन को समय अंतराल से भाग देने पर मिलता "]],
+      "vocab": [["Graph", "Acceleration is the change in velocity per unit time. It i"], ["Reference", "Acceleration is the change in velocity per unit time. It i"], ["Motion", "Acceleration is the change in velocity per unit time. It i"]],
+      "vocabHi": [["आलेख", "त्वरण प्रति इकाई समय में वेग में परिवर्तन है। वेग बढ़ने पर"], ["सन्दर्भ बिंदु", "त्वरण प्रति इकाई समय में वेग में परिवर्तन है। वेग बढ़ने पर"], ["गति", "त्वरण प्रति इकाई समय में वेग में परिवर्तन है। वेग बढ़ने पर"]],
       "fig": "3D graph · Acceleration and retardation · Slowing → Uniform → Speeding → Slope",
       "figHi": "3D graph चित्र · त्वरण और मंदन · Slowing / Uniform / Speeding",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2697,12 +2473,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Acceleration and retardation?",
-        "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
-        "a": 1,
-        "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2714,37 +2484,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_6",
       "section": "4.6",
       "title": "Distance-time graphs",
       "titleHi": "दूरी-समय आलेख",
       "short": "Distance-time graphs",
-      "concept": "A straight distance-time line means constant speed, a curved one changing speed, and a line parallel to the time axis means rest.",
-      "conceptHi": "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती रहती है, और समय अक्ष के समानांतर रेखा विराम बताती है।",
+      "concept": "A distance–time graph shows how far an object has gone at each instant. A straight line sloping upward means uniform speed, a horizontal line means the object is at rest, and a curved line means the speed is changing. The slope of the line gives the speed.",
+      "conceptHi": "दूरी-समय ग्राफ दिखाता है कि वस्तु ने किस क्षण कितनी दूरी तय की। ऊपर की ओर बढ़ी सीधी रेखा एकसमान चाल बताती है, क्षैतिज रेखा विराम बताती है और मुड़ी रेखा बदलती चाल बताती है। रेखा का ढाल चाल देता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Distance-time graphs?",
+        "q": "Which statement is correct about Distance-time graphs?",
         "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
         "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'दूरी-समय आलेख' से मेल खाता है?",
+        "q": "'दूरी-समय आलेख' के बारे में कौन-सा कथन सही है?",
         "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 2,
         "why": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"
       },
       "explain": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.",
       "explainHi": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।",
-      "vocab": [["Reference", "A straight distance-time line means constant speed, a curv"], ["Motion", "A straight distance-time line means constant speed, a curv"], ["Displacement", "A straight distance-time line means constant speed, a curv"]],
-      "vocabHi": [["सन्दर्भ बिंदु", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"], ["गति", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"], ["विस्थापन", "दूरी-समय रेखा सीधी हो तो चाल नियत, मुड़ी हुई हो तो बदलती र"]],
+      "vocab": [["Reference", "A distance–time graph shows how far an object has gone at "], ["Motion", "A distance–time graph shows how far an object has gone at "], ["Displacement", "A distance–time graph shows how far an object has gone at "]],
+      "vocabHi": [["सन्दर्भ बिंदु", "दूरी-समय ग्राफ दिखाता है कि वस्तु ने किस क्षण कितनी दूरी त"], ["गति", "दूरी-समय ग्राफ दिखाता है कि वस्तु ने किस क्षण कितनी दूरी त"], ["विस्थापन", "दूरी-समय ग्राफ दिखाता है कि वस्तु ने किस क्षण कितनी दूरी त"]],
       "fig": "3D graph · Distance-time graphs · Rest → Slow → Fast → Steeper",
       "figHi": "3D graph चित्र · दूरी-समय आलेख · Rest / Slow / Fast",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2758,12 +2527,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Distance-time graphs?",
-        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
-        "a": 2,
-        "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2775,37 +2538,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_7",
       "section": "4.7",
       "title": "Velocity-time graphs",
       "titleHi": "वेग-समय आलेख",
       "short": "Velocity-time graphs",
-      "concept": "On a velocity-time graph the slope is the acceleration and the area between the line and the time axis is displacement.",
-      "conceptHi": "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के बीच का क्षेत्रफल विस्थापन होता है।",
+      "concept": "A velocity–time graph shows how velocity changes with time. A horizontal line means uniform velocity, a straight sloping line means uniform acceleration, and the area under the graph gives the displacement. A negative slope means the body is slowing down.",
+      "conceptHi": "वेग-समय ग्राफ दिखाता है कि वेग समय के साथ कैसे बदलता है। क्षैतिज रेखा एकसमान वेग बताती है, सीधी ढाल वाली रेखा एकसमान त्वरण बताती है और ग्राफ के नीचे का क्षेत्रफल विस्थापन देता है। ऋणात्मक ढाल का अर्थ है वस्तु धीमी हो रही है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Velocity-time graphs?",
+        "q": "Which statement is correct about Velocity-time graphs?",
         "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
         "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वेग-समय आलेख' से मेल खाता है?",
+        "q": "'वेग-समय आलेख' के बारे में कौन-सा कथन सही है?",
         "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 0,
         "why": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"
       },
       "explain": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement.",
       "explainHi": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।",
-      "vocab": [["Motion", "On a velocity-time graph the slope is the acceleration and"], ["Displacement", "On a velocity-time graph the slope is the acceleration and"], ["Velocity", "On a velocity-time graph the slope is the acceleration and"]],
-      "vocabHi": [["गति", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "], ["विस्थापन", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "], ["वेग", "वेग-समय आलेख की ढाल त्वरण होती है और रेखा तथा समय अक्ष के "]],
+      "vocab": [["Motion", "A velocity–time graph shows how velocity changes with time"], ["Displacement", "A velocity–time graph shows how velocity changes with time"], ["Velocity", "A velocity–time graph shows how velocity changes with time"]],
+      "vocabHi": [["गति", "वेग-समय ग्राफ दिखाता है कि वेग समय के साथ कैसे बदलता है। क"], ["विस्थापन", "वेग-समय ग्राफ दिखाता है कि वेग समय के साथ कैसे बदलता है। क"], ["वेग", "वेग-समय ग्राफ दिखाता है कि वेग समय के साथ कैसे बदलता है। क"]],
       "fig": "3D graph · Velocity-time graphs · u → v → Area → Displacement",
       "figHi": "3D graph चित्र · वेग-समय आलेख · u / v / Area",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2819,12 +2581,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Velocity-time graphs?",
-        "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
-        "a": 0,
-        "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2836,37 +2592,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_8",
       "section": "4.8",
       "title": "Kinematic equations by graphical method",
       "titleHi": "आलेखी विधि से गति के समीकरण",
       "short": "Kinematic equations by",
-      "concept": "v = u + at comes from the slope of a velocity-time line, s = ut + ½at² from its area, and v² = u² + 2as by removing t.",
-      "conceptHi": "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½at², और t हटाने पर v² = u² + 2as।",
+      "concept": "For motion in a straight line with uniform acceleration, three equations link velocity, acceleration, distance and time: v = u + at, s = ut + ½at², and v² = u² + 2as. Here u is the initial velocity, v the final velocity, a the acceleration and s the displacement.",
+      "conceptHi": "एकसमान त्वरण से सरल रेखा में गति के लिए तीन समीकरण होते हैं: v = u + at, s = ut + ½at² और v² = u² + 2as। यहाँ u प्रारंभिक वेग, v अंतिम वेग, a त्वरण और s विस्थापन है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Kinematic equations by graphical method?",
+        "q": "Which statement is correct about Kinematic equations by graphical method?",
         "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
         "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आलेखी विधि से गति के समीकरण' से मेल खाता है?",
+        "q": "'आलेखी विधि से गति के समीकरण' के बारे में कौन-सा कथन सही है?",
         "options": ["एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"],
         "a": 1,
         "why": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।"
       },
       "explain": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.",
       "explainHi": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।",
-      "vocab": [["Displacement", "v = u + at comes from the slope of a velocity-time line, s"], ["Velocity", "v = u + at comes from the slope of a velocity-time line, s"], ["Acceleration", "v = u + at comes from the slope of a velocity-time line, s"]],
-      "vocabHi": [["विस्थापन", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"], ["वेग", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"], ["त्वरण", "वेग-समय रेखा की ढाल से v = u + at, क्षेत्रफल से s = ut + ½"]],
+      "vocab": [["Displacement", "For motion in a straight line with uniform acceleration, t"], ["Velocity", "For motion in a straight line with uniform acceleration, t"], ["Acceleration", "For motion in a straight line with uniform acceleration, t"]],
+      "vocabHi": [["विस्थापन", "एकसमान त्वरण से सरल रेखा में गति के लिए तीन समीकरण होते है"], ["वेग", "एकसमान त्वरण से सरल रेखा में गति के लिए तीन समीकरण होते है"], ["त्वरण", "एकसमान त्वरण से सरल रेखा में गति के लिए तीन समीकरण होते है"]],
       "fig": "3D graph · Kinematic equations by graphical method · u+at → Area → v² → Constant a",
       "figHi": "3D graph चित्र · आलेखी विधि से गति के समीकरण · u+at / Area / v²",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2880,12 +2635,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Kinematic equations by graphical method?",
-        "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
-        "a": 1,
-        "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2897,37 +2646,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_motion_4_9",
       "section": "4.9",
       "title": "Uniform circular motion",
       "titleHi": "एकसमान वृत्तीय गति",
       "short": "Uniform circular motio",
-      "concept": "In uniform circular motion speed stays constant but the velocity turns along the tangent, so the motion is accelerated.",
-      "conceptHi": "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा के अनुसार घूमता रहता है, इसलिए गति त्वरित होती है।",
+      "concept": "When a body moves in a circle with constant speed, its direction keeps changing, so its velocity changes and it is accelerating. This acceleration is called centripetal acceleration and it acts towards the centre; the force providing it is the centripetal force.",
+      "conceptHi": "जब कोई वस्तु स्थिर चाल से वृत्त में चलती है तो उसकी दिशा बदती रहती है, इसलिए उसका वेग बदलता है और वह त्वरित होती है। इस त्वरण को अभिकेंद्र त्वरण कहते हैं जो केंद्र की ओर लगता है।",
       "formula": {
         "label": "KINEMATICS · गतिकी",
         "eq": "v = u + at   ·   s = ut + ½at²",
         "note": "वेग, विस्थापन और त्वरण के समीकरण"
       },
       "predict": {
-        "q": "Which statement belongs to Uniform circular motion?",
+        "q": "Which statement is correct about Uniform circular motion?",
         "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
         "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'एकसमान वृत्तीय गति' से मेल खाता है?",
+        "q": "'एकसमान वृत्तीय गति' के बारे में कौन-सा कथन सही है?",
         "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 2,
         "why": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"
       },
       "explain": "One revolution covers a distance of 2πR yet the displacement is zero.",
       "explainHi": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।",
-      "vocab": [["Velocity", "In uniform circular motion speed stays constant but the ve"], ["Acceleration", "In uniform circular motion speed stays constant but the ve"], ["Graph", "In uniform circular motion speed stays constant but the ve"]],
-      "vocabHi": [["वेग", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"], ["त्वरण", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"], ["आलेख", "एकसमान वृत्तीय गति में चाल नियत रहती है पर वेग स्पर्श रेखा"]],
+      "vocab": [["Velocity", "When a body moves in a circle with constant speed, its dir"], ["Acceleration", "When a body moves in a circle with constant speed, its dir"], ["Graph", "When a body moves in a circle with constant speed, its dir"]],
+      "vocabHi": [["वेग", "जब कोई वस्तु स्थिर चाल से वृत्त में चलती है तो उसकी दिशा ब"], ["त्वरण", "जब कोई वस्तु स्थिर चाल से वृत्त में चलती है तो उसकी दिशा ब"], ["आलेख", "जब कोई वस्तु स्थिर चाल से वृत्त में चलती है तो उसकी दिशा ब"]],
       "fig": "3D cycle · Uniform circular motion · Position 1 → Position 2 → Velocity → Centre",
       "figHi": "3D cycle चित्र · एकसमान वृत्तीय गति · Position 1 / Position 2 / Velocity",
       "tryHint": "Move Time t in seconds and watch Final speed; touch two diagram cards.",
@@ -2941,12 +2689,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Uniform circular motion?",
-        "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
-        "a": 2,
-        "why": "One revolution covers a distance of 2πR yet the displacement is zero."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -2958,8 +2700,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_motion"] = {
       "id": "c9_motion",
@@ -3091,93 +2832,93 @@
         "desc": "One revolution covers a distance of 2πR yet the displacement is zero."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Rest, motion and frame of reference?",
+        "q": "Which statement is correct about Rest, motion and frame of reference?",
         "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 0,
         "why": "Along a straight line, right of the origin is positive and left negative."
       }, {
-        "q": "Which statement belongs to Distance and displacement?",
+        "q": "Which statement is correct about Distance and displacement?",
         "options": ["The Ganitakaumudi of the 14th century used speed to time a meeting.", "A ball thrown up and caught back at the same point has zero displacement.", "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."],
         "a": 1,
         "why": "A ball thrown up and caught back at the same point has zero displacement."
       }, {
-        "q": "Which statement belongs to Speed and average speed?",
+        "q": "Which statement is correct about Speed and average speed?",
         "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "The Ganitakaumudi of the 14th century used speed to time a meeting."],
         "a": 2,
         "why": "The Ganitakaumudi of the 14th century used speed to time a meeting."
       }, {
-        "q": "Which statement belongs to Velocity and uniform velocity?",
+        "q": "Which statement is correct about Velocity and uniform velocity?",
         "options": ["Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 0,
         "why": "Sarang swims 50 m in 50 s: average speed 1 m/s, average velocity 0."
       }, {
-        "q": "Which statement belongs to Acceleration and retardation?",
+        "q": "Which statement is correct about Acceleration and retardation?",
         "options": ["Steeper slope means greater speed; BC/CA from the graph gives 20 m/s.", "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s².", "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."],
         "a": 1,
         "why": "A bus going from 36 to 54 km/h in 10 s accelerates at 0.5 m/s²."
       }, {
-        "q": "Which statement belongs to Distance-time graphs?",
+        "q": "Which statement is correct about Distance-time graphs?",
         "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."],
         "a": 2,
         "why": "Steeper slope means greater speed; BC/CA from the graph gives 20 m/s."
       }, {
-        "q": "Which statement belongs to Velocity-time graphs?",
+        "q": "Which statement is correct about Velocity-time graphs?",
         "options": ["At 20 m/s for 6 s the rectangle's area is 120 m of displacement.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 0,
         "why": "At 20 m/s for 6 s the rectangle's area is 120 m of displacement."
       }, {
-        "q": "Which statement belongs to Kinematic equations by graphical method?",
+        "q": "Which statement is correct about Kinematic equations by graphical method?",
         "options": ["One revolution covers a distance of 2πR yet the displacement is zero.", "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m.", "Along a straight line, right of the origin is positive and left negative."],
         "a": 1,
         "why": "Doubling the speed quadruples the braking distance: 28.1 m becomes 112.5 m."
       }, {
-        "q": "Which statement belongs to Uniform circular motion?",
+        "q": "Which statement is correct about Uniform circular motion?",
         "options": ["Along a straight line, right of the origin is positive and left negative.", "A ball thrown up and caught back at the same point has zero displacement.", "One revolution covers a distance of 2πR yet the displacement is zero."],
         "a": 2,
         "why": "One revolution covers a distance of 2πR yet the displacement is zero."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'विराम, गति और सन्दर्भ फ़्रेम' से मेल खाता है?",
+        "q": "'विराम, गति और सन्दर्भ फ़्रेम' के बारे में कौन-सा कथन सही है?",
         "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 0,
         "why": "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"
       }, {
-        "q": "कौन-सा कथन 'दूरी और विस्थापन' से मेल खाता है?",
+        "q": "'दूरी और विस्थापन' के बारे में कौन-सा कथन सही है?",
         "options": ["चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"],
         "a": 1,
         "why": "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।"
       }, {
-        "q": "कौन-सा कथन 'चाल और औसत चाल' से मेल खाता है?",
+        "q": "'चाल और औसत चाल' के बारे में कौन-सा कथन सही है?",
         "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"],
         "a": 2,
         "why": "चौदहवीं शताब्दी की गणितकौमुदी में चाल से मुलाकात का समय निकाला गया।"
       }, {
-        "q": "कौन-सा कथन 'वेग और एकसमान वेग' से मेल खाता है?",
+        "q": "'वेग और एकसमान वेग' के बारे में कौन-सा कथन सही है?",
         "options": ["सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 0,
         "why": "सारंग 50 सेकंड में 50 मीटर तैरता है: औसत चाल 1 m/s, औसत वेग शून्य।"
       }, {
-        "q": "कौन-सा कथन 'त्वरण और मंदन' से मेल खाता है?",
+        "q": "'त्वरण और मंदन' के बारे में कौन-सा कथन सही है?",
         "options": ["ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।", "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।", "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"],
         "a": 1,
         "why": "36 से 54 km/h की बस 10 सेकंड में 0.5 m/s² से त्वरित होती है।"
       }, {
-        "q": "कौन-सा कथन 'दूरी-समय आलेख' से मेल खाता है?",
+        "q": "'दूरी-समय आलेख' के बारे में कौन-सा कथन सही है?",
         "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"],
         "a": 2,
         "why": "ढाल जितनी तीव्र, चाल उतनी अधिक; आलेख से BC/CA = 20 m/s मिलता है।"
       }, {
-        "q": "कौन-सा कथन 'वेग-समय आलेख' से मेल खाता है?",
+        "q": "'वेग-समय आलेख' के बारे में कौन-सा कथन सही है?",
         "options": ["20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 0,
         "why": "20 m/s पर 6 सेकंड में आयत का क्षेत्रफल 120 मीटर विस्थापन देता है।"
       }, {
-        "q": "कौन-सा कथन 'आलेखी विधि से गति के समीकरण' से मेल खाता है?",
+        "q": "'आलेखी विधि से गति के समीकरण' के बारे में कौन-सा कथन सही है?",
         "options": ["एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।", "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।", "सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।"],
         "a": 1,
         "why": "गति दोगुनी करने पर ब्रेकिंग दूरी चार गुनी: 28.1 मीटर से 112.5 मीटर।"
       }, {
-        "q": "कौन-सा कथन 'एकसमान वृत्तीय गति' से मेल खाता है?",
+        "q": "'एकसमान वृत्तीय गति' के बारे में कौन-सा कथन सही है?",
         "options": ["सरल रेखा में मूल बिंदु के दाएँ धनात्मक और बाएँ ऋणात्मक दिशा ली जाती है।", "ऊपर फेंकी गई और उसी बिंदु पर पकड़ी गई गेंद का विस्थापन शून्य होता है।", "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"],
         "a": 2,
         "why": "एक चक्कर में दूरी 2πR होती है, पर विस्थापन शून्य रहता है।"
@@ -3191,29 +2932,29 @@
       "title": "Homogeneous and heterogeneous mixtures",
       "titleHi": "समांगी और विषमांगी मिश्रण",
       "short": "Homogeneous and hetero",
-      "concept": "A mixture with the same composition everywhere is homogeneous; one whose parts can be told apart is heterogeneous.",
-      "conceptHi": "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भाग पहचाने जा सकें वह विषमांगी।",
+      "concept": "If you stir sugar in water, salt in water and sand in water, you get three different things. The first two are solutions, in which the particles are so small that they do not settle or scatter light. The third is a suspension, whose particles are large enough to be seen and to settle on standing.",
+      "conceptHi": "यदि जल में चीनी, जल में नमक और जल में रेत मिलाएँ, तो तीन भिन्न वस्तुएँ बनती हैं। पहली दो विलयन हैं जिनके कण इतने छोटे होते हैं कि न तो बैठते हैं और न प्रकाश फैलाते हैं। तीसरा निलंबन है जिसके कण रखने पर बैठ जाते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
+        "q": "Which statement is correct about Homogeneous and heterogeneous mixtures?",
         "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
         "why": "Sugar water is equally sweet in the first and the last sip."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'समांगी और विषमांगी मिश्रण' से मेल खाता है?",
+        "q": "'समांगी और विषमांगी मिश्रण' के बारे में कौन-सा कथन सही है?",
         "options": ["चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 0,
         "why": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।"
       },
       "explain": "Sugar water is equally sweet in the first and the last sip.",
       "explainHi": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।",
-      "vocab": [["Mixture", "A mixture with the same composition everywhere is homogene"], ["Solution", "A mixture with the same composition everywhere is homogene"], ["Solute", "A mixture with the same composition everywhere is homogene"]],
-      "vocabHi": [["मिश्रण", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"], ["विलयन", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"], ["विलेय", "हर जगह एकसमान संघटन वाला मिश्रण समांगी कहलाता है, जिसके भा"]],
+      "vocab": [["Mixture", "If you stir sugar in water, salt in water and sand in wate"], ["Solution", "If you stir sugar in water, salt in water and sand in wate"], ["Solute", "If you stir sugar in water, salt in water and sand in wate"]],
+      "vocabHi": [["मिश्रण", "यदि जल में चीनी, जल में नमक और जल में रेत मिलाएँ, तो तीन भ"], ["विलयन", "यदि जल में चीनी, जल में नमक और जल में रेत मिलाएँ, तो तीन भ"], ["विलेय", "यदि जल में चीनी, जल में नमक और जल में रेत मिलाएँ, तो तीन भ"]],
       "fig": "3D layers · Homogeneous and heterogeneous mixtures · Solution → Colloid → Suspension → Visible parts",
       "figHi": "3D layers चित्र · समांगी और विषमांगी मिश्रण · Solution / Colloid / Suspension",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3227,12 +2968,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
-        "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
-        "a": 0,
-        "why": "Sugar water is equally sweet in the first and the last sip."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3244,37 +2979,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_2",
       "section": "5.2",
       "title": "Solutions and their components",
       "titleHi": "विलयन और उसके घटक",
       "short": "Solutions and their co",
-      "concept": "A solution is a homogeneous mixture of a solute dissolved in a solvent; its particles are smaller than one nanometre.",
-      "conceptHi": "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनोमीटर से छोटे होते हैं।",
+      "concept": "A solution is a homogeneous mixture of two or more substances; the one dissolved is the solute and the one that dissolves it is the solvent. The particles are smaller than 1 nm, so the mixture is transparent, does not scatter light and cannot be separated by filtration.",
+      "conceptHi": "विलयन दो या अधिक पदार्थों का समांगी मिश्रण है; जो घुलता है वह विलेय है और जो घुलाता है वह विलायक। कण 1 nm से छोटे होते हैं, इसलिए मिश्रण पारदर्शी होता है, प्रकाश नहीं फैलाता और छानने से अलग नहीं होता।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Solutions and their components?",
+        "q": "Which statement is correct about Solutions and their components?",
         "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
         "why": "Concentration is the amount of solute in a given amount of solution."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विलयन और उसके घटक' से मेल खाता है?",
+        "q": "'विलयन और उसके घटक' के बारे में कौन-सा कथन सही है?",
         "options": ["गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"],
         "a": 1,
         "why": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"
       },
       "explain": "Concentration is the amount of solute in a given amount of solution.",
       "explainHi": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।",
-      "vocab": [["Solution", "A solution is a homogeneous mixture of a solute dissolved "], ["Solute", "A solution is a homogeneous mixture of a solute dissolved "], ["Solvent", "A solution is a homogeneous mixture of a solute dissolved "]],
-      "vocabHi": [["विलयन", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"], ["विलेय", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"], ["विलायक", "विलयन में विलेय विलायक में घुला होता है और उसके कण एक नैनो"]],
+      "vocab": [["Solution", "A solution is a homogeneous mixture of two or more substan"], ["Solute", "A solution is a homogeneous mixture of two or more substan"], ["Solvent", "A solution is a homogeneous mixture of two or more substan"]],
+      "vocabHi": [["विलयन", "विलयन दो या अधिक पदार्थों का समांगी मिश्रण है; जो घुलता है"], ["विलेय", "विलयन दो या अधिक पदार्थों का समांगी मिश्रण है; जो घुलता है"], ["विलायक", "विलयन दो या अधिक पदार्थों का समांगी मिश्रण है; जो घुलता है"]],
       "fig": "3D molecule · Solutions and their components · Solute → Solvent → Solution → Particle",
       "figHi": "3D molecule चित्र · विलयन और उसके घटक · Solute / Solvent / Solution",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3288,12 +3022,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Solutions and their components?",
-        "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
-        "a": 1,
-        "why": "Concentration is the amount of solute in a given amount of solution."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3305,37 +3033,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_3",
       "section": "5.3",
       "title": "Suspensions",
       "titleHi": "निलंबन",
       "short": "Suspensions",
-      "concept": "Suspension particles are large enough to be seen, stay suspended while stirred and settle out when left standing.",
-      "conceptHi": "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बने रहते हैं और रखने पर बैठ जाते हैं।",
+      "concept": "A suspension is a heterogeneous mixture in which insoluble particles stay suspended in a liquid. The particles are visible, they scatter a beam of light, and they settle on standing, which is why a suspension is unstable and can be separated by filtration.",
+      "conceptHi": "निलंबन विषमांगी मिश्रण है जिसमें अघुलनशील कण द्रव में निलंबित रहते हैं। कण दिखाई देते हैं, प्रकाश किरण को फैलाते हैं और रखने पर बैठ जाते हैं, इसलिए निलंबन अस्थायी होता है और छानकर अलग किया जा सकता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Suspensions?",
+        "q": "Which statement is correct about Suspensions?",
         "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
         "why": "Muddy water clears only partly on filtering: finer particles stay."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'निलंबन' से मेल खाता है?",
+        "q": "'निलंबन' के बारे में कौन-सा कथन सही है?",
         "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 2,
         "why": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"
       },
       "explain": "Muddy water clears only partly on filtering: finer particles stay.",
       "explainHi": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।",
-      "vocab": [["Solute", "Suspension particles are large enough to be seen, stay sus"], ["Solvent", "Suspension particles are large enough to be seen, stay sus"], ["Colloid", "Suspension particles are large enough to be seen, stay sus"]],
-      "vocabHi": [["विलेय", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"], ["विलायक", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"], ["कोलॉइड", "निलंबन के कण इतने बड़े होते हैं कि दिखते हैं, हिलाने पर बन"]],
+      "vocab": [["Solute", "A suspension is a heterogeneous mixture in which insoluble"], ["Solvent", "A suspension is a heterogeneous mixture in which insoluble"], ["Colloid", "A suspension is a heterogeneous mixture in which insoluble"]],
+      "vocabHi": [["विलेय", "निलंबन विषमांगी मिश्रण है जिसमें अघुलनशील कण द्रव में निलं"], ["विलायक", "निलंबन विषमांगी मिश्रण है जिसमें अघुलनशील कण द्रव में निलं"], ["कोलॉइड", "निलंबन विषमांगी मिश्रण है जिसमें अघुलनशील कण द्रव में निलं"]],
       "fig": "3D layers · Suspensions · Particle → Water → Settling → Sediment",
       "figHi": "3D layers चित्र · निलंबन · Particle / Water / Settling",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3349,12 +3076,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Suspensions?",
-        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
-        "a": 2,
-        "why": "Muddy water clears only partly on filtering: finer particles stay."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3366,37 +3087,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_4",
       "section": "5.4",
       "title": "Colloids and Tyndall effect",
       "titleHi": "कोलॉइड और टिण्डल प्रभाव",
       "short": "Colloids and Tyndall e",
-      "concept": "Colloid particles are 1 to 1000 nm across, never settle, and scatter a beam of light so its path becomes visible.",
-      "conceptHi": "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रकाश बिखेरकर किरण का मार्ग दिखा देते हैं।",
+      "concept": "A colloid is a mixture whose particles are larger than those of a solution but smaller than those of a suspension. They do not settle, yet they are big enough to scatter a beam of light: this scattering is the Tyndall effect, and it makes the path of the beam visible.",
+      "conceptHi": "कोलॉइड वह मिश्रण है जिसके कण विलयन के कणों से बड़े पर निलंबन के कणों से छोटे होते हैं। वे नहीं बैठते, पर प्रकाश किरण को फैलाने लायक बड़े होते हैं: इस फैलाव को टिंडल प्रभाव कहते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Colloids and Tyndall effect?",
+        "q": "Which statement is correct about Colloids and Tyndall effect?",
         "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
         "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कोलॉइड और टिण्डल प्रभाव' से मेल खाता है?",
+        "q": "'कोलॉइड और टिण्डल प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 0,
         "why": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"
       },
       "explain": "The Tyndall effect is light scattered by colloidal or suspended particles.",
       "explainHi": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।",
-      "vocab": [["Solvent", "Colloid particles are 1 to 1000 nm across, never settle, a"], ["Colloid", "Colloid particles are 1 to 1000 nm across, never settle, a"], ["Distillation", "Colloid particles are 1 to 1000 nm across, never settle, a"]],
-      "vocabHi": [["विलायक", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"], ["कोलॉइड", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"], ["आसवन", "कोलॉइड के कण 1 से 1000 nm होते हैं, कभी नहीं बैठते और प्रक"]],
+      "vocab": [["Solvent", "A colloid is a mixture whose particles are larger than tho"], ["Colloid", "A colloid is a mixture whose particles are larger than tho"], ["Distillation", "A colloid is a mixture whose particles are larger than tho"]],
+      "vocabHi": [["विलायक", "कोलॉइड वह मिश्रण है जिसके कण विलयन के कणों से बड़े पर निलं"], ["कोलॉइड", "कोलॉइड वह मिश्रण है जिसके कण विलयन के कणों से बड़े पर निलं"], ["आसवन", "कोलॉइड वह मिश्रण है जिसके कण विलयन के कणों से बड़े पर निलं"]],
       "fig": "3D rays · Colloids and Tyndall effect · Light → Colloid → Scatter → Observer",
       "figHi": "3D rays चित्र · कोलॉइड और टिण्डल प्रभाव · Light / Colloid / Scatter",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3410,12 +3130,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Colloids and Tyndall effect?",
-        "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
-        "a": 0,
-        "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3427,37 +3141,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_5",
       "section": "5.5",
       "title": "Mass by mass percentage",
       "titleHi": "द्रव्यमान-द्रव्यमान प्रतिशत",
       "short": "Mass by mass percentag",
-      "concept": "Mass by mass percentage is the mass of solute divided by the mass of solution, multiplied by 100.",
-      "conceptHi": "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान से भाग देकर 100 से गुणा करने पर मिलता है।",
+      "concept": "The concentration of a solution tells us how much solute is present in a given amount of solution. Mass by mass percent is the mass of the solute divided by the mass of the solution multiplied by 100. A 10% solution has 10 g of solute in 100 g of solution.",
+      "conceptHi": "विलयन की सांद्रता बताती है कि दी गई मात्रा में कितना विलेय है। द्रव्यमान प्रतिशत = विलेय का द्रव्यमान ÷ विलयन का द्रव्यमान × 100। 10% विलयन में 100 g विलयन में 10 g विलेय होता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Mass by mass percentage?",
+        "q": "Which statement is correct about Mass by mass percentage?",
         "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
         "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'द्रव्यमान-द्रव्यमान प्रतिशत' से मेल खाता है?",
+        "q": "'द्रव्यमान-द्रव्यमान प्रतिशत' के बारे में कौन-सा कथन सही है?",
         "options": ["अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"],
         "a": 1,
         "why": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।"
       },
       "explain": "10 g of salt in 90 g of water gives a 10% m/m solution.",
       "explainHi": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।",
-      "vocab": [["Colloid", "Mass by mass percentage is the mass of solute divided by t"], ["Distillation", "Mass by mass percentage is the mass of solute divided by t"], ["Mixture", "Mass by mass percentage is the mass of solute divided by t"]],
-      "vocabHi": [["कोलॉइड", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"], ["आसवन", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"], ["मिश्रण", "द्रव्यमान प्रतिशत विलेय के द्रव्यमान को विलयन के द्रव्यमान"]],
+      "vocab": [["Colloid", "The concentration of a solution tells us how much solute i"], ["Distillation", "The concentration of a solution tells us how much solute i"], ["Mixture", "The concentration of a solution tells us how much solute i"]],
+      "vocabHi": [["कोलॉइड", "विलयन की सांद्रता बताती है कि दी गई मात्रा में कितना विलेय"], ["आसवन", "विलयन की सांद्रता बताती है कि दी गई मात्रा में कितना विलेय"], ["मिश्रण", "विलयन की सांद्रता बताती है कि दी गई मात्रा में कितना विलेय"]],
       "fig": "3D bars · Mass by mass percentage · Solute → Solvent → Total → Percent",
       "figHi": "3D bars चित्र · द्रव्यमान-द्रव्यमान प्रतिशत · Solute / Solvent / Total",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3471,12 +3184,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Mass by mass percentage?",
-        "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
-        "a": 1,
-        "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3488,37 +3195,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_6",
       "section": "5.6",
       "title": "Mass by volume and volume by volume",
       "titleHi": "द्रव्यमान-आयतन और आयतन-आयतन",
       "short": "Mass by volume and vol",
-      "concept": "Mass by volume percentage is grams of solute per 100 mL of solution; volume by volume is mL per 100 mL.",
-      "conceptHi": "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं, आयतन-आयतन प्रतिशत 100 mL में mL।",
+      "concept": "Concentration can be expressed in several ways: mass by mass percent, mass by volume percent, volume by volume percent, and also as parts per million for very small quantities. For a dilute solution, parts per million is the mass of solute in a million parts of solution.",
+      "conceptHi": "सांद्रता को कई तरह से व्यक्त किया जा सकता है: द्रव्यमान-द्रव्यमान प्रतिशत, द्रव्यमान-आयतन प्रतिशत, आयतन-आयतन प्रतिशत और बहुत कम मात्रा के लिए प्रति लाख भाग।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Mass by volume and volume by volume?",
+        "q": "Which statement is correct about Mass by volume and volume by volume?",
         "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
         "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'द्रव्यमान-आयतन और आयतन-आयतन' से मेल खाता है?",
+        "q": "'द्रव्यमान-आयतन और आयतन-आयतन' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 2,
         "why": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"
       },
       "explain": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.",
       "explainHi": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।",
-      "vocab": [["Distillation", "Mass by volume percentage is grams of solute per 100 mL of"], ["Mixture", "Mass by volume percentage is grams of solute per 100 mL of"], ["Solution", "Mass by volume percentage is grams of solute per 100 mL of"]],
-      "vocabHi": [["आसवन", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"], ["मिश्रण", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"], ["विलयन", "द्रव्यमान-आयतन प्रतिशत 100 mL विलयन में विलेय के ग्राम हैं"]],
+      "vocab": [["Distillation", "Concentration can be expressed in several ways: mass by ma"], ["Mixture", "Concentration can be expressed in several ways: mass by ma"], ["Solution", "Concentration can be expressed in several ways: mass by ma"]],
+      "vocabHi": [["आसवन", "सांद्रता को कई तरह से व्यक्त किया जा सकता है: द्रव्यमान-द्"], ["मिश्रण", "सांद्रता को कई तरह से व्यक्त किया जा सकता है: द्रव्यमान-द्"], ["विलयन", "सांद्रता को कई तरह से व्यक्त किया जा सकता है: द्रव्यमान-द्"]],
       "fig": "3D bars · Mass by volume and volume by volume · Mass per vol → Vol per vol → Units → Use",
       "figHi": "3D bars चित्र · द्रव्यमान-आयतन और आयतन-आयतन · Mass per vol / Vol per vol / Units",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3532,12 +3238,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Mass by volume and volume by volume?",
-        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
-        "a": 2,
-        "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3549,37 +3249,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_7",
       "section": "5.7",
       "title": "Filtration, evaporation and sedimentation",
       "titleHi": "छानना, वाष्पन और अवसादन",
       "short": "Filtration, evaporatio",
-      "concept": "Separation exploits a difference in particle size, boiling point or density between the components of a mixture.",
-      "conceptHi": "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के अंतर का उपयोग करता है।",
+      "concept": "Common salt is obtained from sea water by evaporation in shallow pans. The sun and the wind evaporate the water and the salt is left behind, because salt is non-volatile and does not evaporate with the water. This is how salt is harvested on the coast.",
+      "conceptHi": "समुद्री जल से साधारण नमक उथले तालाबों में वाष्पीकरण द्वारा प्राप्त होता है। सूर्य और वायु जल को वाष्पित कर देते हैं और नमक पीछे बच जाता है, क्योंकि नमक अवाष्पशील होता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
+        "q": "Which statement is correct about Filtration, evaporation and sedimentation?",
         "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
         "why": "Evaporation drives off water and leaves common salt behind."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'छानना, वाष्पन और अवसादन' से मेल खाता है?",
+        "q": "'छानना, वाष्पन और अवसादन' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 0,
         "why": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"
       },
       "explain": "Evaporation drives off water and leaves common salt behind.",
       "explainHi": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।",
-      "vocab": [["Mixture", "Separation exploits a difference in particle size, boiling"], ["Solution", "Separation exploits a difference in particle size, boiling"], ["Solute", "Separation exploits a difference in particle size, boiling"]],
-      "vocabHi": [["मिश्रण", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "], ["विलयन", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "], ["विलेय", "पृथक्करण मिश्रण के घटकों के कण आकार, क्वथनांक या घनत्व के "]],
+      "vocab": [["Mixture", "Common salt is obtained from sea water by evaporation in s"], ["Solution", "Common salt is obtained from sea water by evaporation in s"], ["Solute", "Common salt is obtained from sea water by evaporation in s"]],
+      "vocabHi": [["मिश्रण", "समुद्री जल से साधारण नमक उथले तालाबों में वाष्पीकरण द्वारा"], ["विलयन", "समुद्री जल से साधारण नमक उथले तालाबों में वाष्पीकरण द्वारा"], ["विलेय", "समुद्री जल से साधारण नमक उथले तालाबों में वाष्पीकरण द्वारा"]],
       "fig": "3D flow · Filtration, evaporation and sedimentation · Mixture → Filter → Residue → Evaporate",
       "figHi": "3D flow चित्र · छानना, वाष्पन और अवसादन · Mixture / Filter / Residue",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3593,12 +3292,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
-        "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
-        "a": 0,
-        "why": "Evaporation drives off water and leaves common salt behind."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3610,37 +3303,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_8",
       "section": "5.8",
       "title": "Crystallisation and distillation",
       "titleHi": "क्रिस्टलीकरण और आसवन",
       "short": "Crystallisation and di",
-      "concept": "Crystallisation cools a saturated solution so pure crystals form; distillation boils off the liquid with the lower boiling point.",
-      "conceptHi": "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते हैं, आसवन में कम क्वथनांक वाला द्रव उड़ता है।",
+      "concept": "Distillation separates a mixture of two miscible liquids whose boiling points differ, or a solid dissolved in a liquid. The mixture is heated, the liquid with the lower boiling point vaporises first, and the vapour is cooled and collected in a separate vessel.",
+      "conceptHi": "आसवन दो मिश्रणीय द्रवों को अलग करता है जिनके क्वथनांक भिन्न होते हैं, या द्रव में घुले ठोस को। मिश्रण गर्म किया जाता है, कम क्वथनांक वाला द्रव पहले वाष्पित होता है, और वाष्प को ठंडा कर अलग बर्तन में एकत्र किया जाता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Crystallisation and distillation?",
+        "q": "Which statement is correct about Crystallisation and distillation?",
         "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
         "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'क्रिस्टलीकरण और आसवन' से मेल खाता है?",
+        "q": "'क्रिस्टलीकरण और आसवन' के बारे में कौन-सा कथन सही है?",
         "options": ["काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"],
         "a": 1,
         "why": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।"
       },
       "explain": "Acetone boils at 56 °C, water at 100 °C, so they distil apart.",
       "explainHi": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।",
-      "vocab": [["Solution", "Crystallisation cools a saturated solution so pure crystal"], ["Solute", "Crystallisation cools a saturated solution so pure crystal"], ["Solvent", "Crystallisation cools a saturated solution so pure crystal"]],
-      "vocabHi": [["विलयन", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"], ["विलेय", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"], ["विलायक", "क्रिस्टलीकरण में संतृप्त विलयन ठंडा कर शुद्ध क्रिस्टल बनते"]],
+      "vocab": [["Solution", "Distillation separates a mixture of two miscible liquids w"], ["Solute", "Distillation separates a mixture of two miscible liquids w"], ["Solvent", "Distillation separates a mixture of two miscible liquids w"]],
+      "vocabHi": [["विलयन", "आसवन दो मिश्रणीय द्रवों को अलग करता है जिनके क्वथनांक भिन्"], ["विलेय", "आसवन दो मिश्रणीय द्रवों को अलग करता है जिनके क्वथनांक भिन्"], ["विलायक", "आसवन दो मिश्रणीय द्रवों को अलग करता है जिनके क्वथनांक भिन्"]],
       "fig": "3D cycle · Crystallisation and distillation · Heat → Vapour → Condenser → Distillate",
       "figHi": "3D cycle चित्र · क्रिस्टलीकरण और आसवन · Heat / Vapour / Condenser",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3654,12 +3346,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Crystallisation and distillation?",
-        "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
-        "a": 1,
-        "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3671,37 +3357,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_9",
       "section": "5.9",
       "title": "Chromatography and sublimation",
       "titleHi": "वर्णलेखन और ऊर्ध्वपातन",
       "short": "Chromatography and sub",
-      "concept": "Paper chromatography carries dyes up a strip at different speeds; sublimation turns camphor straight into vapour.",
-      "conceptHi": "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपातन में कपूर सीधे वाष्प बन जाता है।",
+      "concept": "Chromatography separates the coloured components of a mixture on a strip of paper. A spot of the mixture is put near one end and the paper is dipped in a solvent; the components rise with the solvent at different speeds and appear as separate spots.",
+      "conceptHi": "क्रोमैटोग्राफी कागज की पट्टी पर मिश्रण के रंगी घटकों को अलग करती है। मिश्रण की एक बूँद पट्टी के एक सिरे पर लगाई जाती है और पट्टी विलायक में डुबोई जाती है; घटक भिन्न गति से ऊपर चढ़ते हैं और अलग-अलग धब्बों में दिखते हैं।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Chromatography and sublimation?",
+        "q": "Which statement is correct about Chromatography and sublimation?",
         "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
         "why": "A black ink spot splits into several colours as water rises."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वर्णलेखन और ऊर्ध्वपातन' से मेल खाता है?",
+        "q": "'वर्णलेखन और ऊर्ध्वपातन' के बारे में कौन-सा कथन सही है?",
         "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 2,
         "why": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"
       },
       "explain": "A black ink spot splits into several colours as water rises.",
       "explainHi": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।",
-      "vocab": [["Solute", "Paper chromatography carries dyes up a strip at different "], ["Solvent", "Paper chromatography carries dyes up a strip at different "], ["Colloid", "Paper chromatography carries dyes up a strip at different "]],
-      "vocabHi": [["विलेय", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"], ["विलायक", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"], ["कोलॉइड", "कागज़ वर्णलेखन में रंजक अलग गति से ऊपर चढ़ते हैं, ऊर्ध्वपा"]],
+      "vocab": [["Solute", "Chromatography separates the coloured components of a mixt"], ["Solvent", "Chromatography separates the coloured components of a mixt"], ["Colloid", "Chromatography separates the coloured components of a mixt"]],
+      "vocabHi": [["विलेय", "क्रोमैटोग्राफी कागज की पट्टी पर मिश्रण के रंगी घटकों को अल"], ["विलायक", "क्रोमैटोग्राफी कागज की पट्टी पर मिश्रण के रंगी घटकों को अल"], ["कोलॉइड", "क्रोमैटोग्राफी कागज की पट्टी पर मिश्रण के रंगी घटकों को अल"]],
       "fig": "3D layers · Chromatography and sublimation · Spot → Solvent front → Dyes → Sublimate",
       "figHi": "3D layers चित्र · वर्णलेखन और ऊर्ध्वपातन · Spot / Solvent front / Dyes",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3715,12 +3400,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Chromatography and sublimation?",
-        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
-        "a": 2,
-        "why": "A black ink spot splits into several colours as water rises."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3732,37 +3411,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_mixtures_5_10",
       "section": "5.10",
       "title": "Centrifugation and coagulation",
       "titleHi": "अपकेन्द्रण और स्कंदन",
       "short": "Centrifugation and coa",
-      "concept": "Centrifugation spins heavier particles to the bottom of a tube; alum coagulates fine mud so it settles.",
-      "conceptHi": "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद के महीन कण जोड़कर बैठा देती है।",
+      "concept": "A centrifuge spins a mixture at high speed, so that the denser particles are pushed to the bottom of the tube and the lighter liquid stays on top. It is used to separate cream from milk and to separate blood plasma from blood cells in a laboratory.",
+      "conceptHi": "अपकेंद्रित्र मिश्रण को तेज गति से घुमाता है, जिससे भारी कण नली के तल पर चले जाते हैं और हल्का द्रव ऊपर रहता है। इससे दूध से मलाई और रक्त से प्लाज्मा अलग किया जाता है।",
       "formula": {
         "label": "CONCENTRATION · सान्द्रता",
         "eq": "mass % = (solute / solution) × 100",
         "note": "विलेय और विलयन के द्रव्यमान का अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Centrifugation and coagulation?",
+        "q": "Which statement is correct about Centrifugation and coagulation?",
         "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
         "why": "Blood separates into plasma and cells in a centrifuge."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अपकेन्द्रण और स्कंदन' से मेल खाता है?",
+        "q": "'अपकेन्द्रण और स्कंदन' के बारे में कौन-सा कथन सही है?",
         "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"],
         "a": 0,
         "why": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"
       },
       "explain": "Blood separates into plasma and cells in a centrifuge.",
       "explainHi": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।",
-      "vocab": [["Solvent", "Centrifugation spins heavier particles to the bottom of a "], ["Colloid", "Centrifugation spins heavier particles to the bottom of a "], ["Distillation", "Centrifugation spins heavier particles to the bottom of a "]],
-      "vocabHi": [["विलायक", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"], ["कोलॉइड", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"], ["आसवन", "अपकेन्द्रण में भारी कण नली के तले बैठ जाते हैं, फिटकरी गाद"]],
+      "vocab": [["Solvent", "A centrifuge spins a mixture at high speed, so that the de"], ["Colloid", "A centrifuge spins a mixture at high speed, so that the de"], ["Distillation", "A centrifuge spins a mixture at high speed, so that the de"]],
+      "vocabHi": [["विलायक", "अपकेंद्रित्र मिश्रण को तेज गति से घुमाता है, जिससे भारी कण"], ["कोलॉइड", "अपकेंद्रित्र मिश्रण को तेज गति से घुमाता है, जिससे भारी कण"], ["आसवन", "अपकेंद्रित्र मिश्रण को तेज गति से घुमाता है, जिससे भारी कण"]],
       "fig": "3D cycle · Centrifugation and coagulation · Spin → Pellet → Supernatant → Coagulate",
       "figHi": "3D cycle चित्र · अपकेन्द्रण और स्कंदन · Spin / Pellet / Supernatant",
       "tryHint": "Move Solute mass in g and watch Mass percent; touch two diagram cards.",
@@ -3776,12 +3454,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Centrifugation and coagulation?",
-        "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
-        "a": 0,
-        "why": "Blood separates into plasma and cells in a centrifuge."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -3793,8 +3465,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_mixtures"] = {
       "id": "c9_mixtures",
@@ -3939,103 +3610,103 @@
         "desc": "Blood separates into plasma and cells in a centrifuge."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Homogeneous and heterogeneous mixtures?",
+        "q": "Which statement is correct about Homogeneous and heterogeneous mixtures?",
         "options": ["Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 0,
         "why": "Sugar water is equally sweet in the first and the last sip."
       }, {
-        "q": "Which statement belongs to Solutions and their components?",
+        "q": "Which statement is correct about Solutions and their components?",
         "options": ["Muddy water clears only partly on filtering: finer particles stay.", "Concentration is the amount of solute in a given amount of solution.", "The Tyndall effect is light scattered by colloidal or suspended particles."],
         "a": 1,
         "why": "Concentration is the amount of solute in a given amount of solution."
       }, {
-        "q": "Which statement belongs to Suspensions?",
+        "q": "Which statement is correct about Suspensions?",
         "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Muddy water clears only partly on filtering: finer particles stay."],
         "a": 2,
         "why": "Muddy water clears only partly on filtering: finer particles stay."
       }, {
-        "q": "Which statement belongs to Colloids and Tyndall effect?",
+        "q": "Which statement is correct about Colloids and Tyndall effect?",
         "options": ["The Tyndall effect is light scattered by colloidal or suspended particles.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 0,
         "why": "The Tyndall effect is light scattered by colloidal or suspended particles."
       }, {
-        "q": "Which statement belongs to Mass by mass percentage?",
+        "q": "Which statement is correct about Mass by mass percentage?",
         "options": ["A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL.", "10 g of salt in 90 g of water gives a 10% m/m solution.", "Evaporation drives off water and leaves common salt behind."],
         "a": 1,
         "why": "10 g of salt in 90 g of water gives a 10% m/m solution."
       }, {
-        "q": "Which statement belongs to Mass by volume and volume by volume?",
+        "q": "Which statement is correct about Mass by volume and volume by volume?",
         "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."],
         "a": 2,
         "why": "A hospital saline drip is 0.9% m/v salt: 0.9 g in 100 mL."
       }, {
-        "q": "Which statement belongs to Filtration, evaporation and sedimentation?",
+        "q": "Which statement is correct about Filtration, evaporation and sedimentation?",
         "options": ["Evaporation drives off water and leaves common salt behind.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "A black ink spot splits into several colours as water rises."],
         "a": 0,
         "why": "Evaporation drives off water and leaves common salt behind."
       }, {
-        "q": "Which statement belongs to Crystallisation and distillation?",
+        "q": "Which statement is correct about Crystallisation and distillation?",
         "options": ["A black ink spot splits into several colours as water rises.", "Acetone boils at 56 °C, water at 100 °C, so they distil apart.", "Blood separates into plasma and cells in a centrifuge."],
         "a": 1,
         "why": "Acetone boils at 56 °C, water at 100 °C, so they distil apart."
       }, {
-        "q": "Which statement belongs to Chromatography and sublimation?",
+        "q": "Which statement is correct about Chromatography and sublimation?",
         "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "A black ink spot splits into several colours as water rises."],
         "a": 2,
         "why": "A black ink spot splits into several colours as water rises."
       }, {
-        "q": "Which statement belongs to Centrifugation and coagulation?",
+        "q": "Which statement is correct about Centrifugation and coagulation?",
         "options": ["Blood separates into plasma and cells in a centrifuge.", "Sugar water is equally sweet in the first and the last sip.", "Concentration is the amount of solute in a given amount of solution."],
         "a": 0,
         "why": "Blood separates into plasma and cells in a centrifuge."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'समांगी और विषमांगी मिश्रण' से मेल खाता है?",
+        "q": "'समांगी और विषमांगी मिश्रण' के बारे में कौन-सा कथन सही है?",
         "options": ["चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 0,
         "why": "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।"
       }, {
-        "q": "कौन-सा कथन 'विलयन और उसके घटक' से मेल खाता है?",
+        "q": "'विलयन और उसके घटक' के बारे में कौन-सा कथन सही है?",
         "options": ["गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।", "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"],
         "a": 1,
         "why": "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"
       }, {
-        "q": "कौन-सा कथन 'निलंबन' से मेल खाता है?",
+        "q": "'निलंबन' के बारे में कौन-सा कथन सही है?",
         "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"],
         "a": 2,
         "why": "गाद का पानी छानने पर भी पूरी तरह साफ नहीं होता।"
       }, {
-        "q": "कौन-सा कथन 'कोलॉइड और टिण्डल प्रभाव' से मेल खाता है?",
+        "q": "'कोलॉइड और टिण्डल प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 0,
         "why": "टिण्डल प्रभाव कोलॉइडी या निलंबित कणों द्वारा प्रकाश का बिखराव है।"
       }, {
-        "q": "कौन-सा कथन 'द्रव्यमान-द्रव्यमान प्रतिशत' से मेल खाता है?",
+        "q": "'द्रव्यमान-द्रव्यमान प्रतिशत' के बारे में कौन-सा कथन सही है?",
         "options": ["अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।", "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।", "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"],
         "a": 1,
         "why": "90 ग्राम पानी में 10 ग्राम नमक से 10% m/m विलयन बनता है।"
       }, {
-        "q": "कौन-सा कथन 'द्रव्यमान-आयतन और आयतन-आयतन' से मेल खाता है?",
+        "q": "'द्रव्यमान-आयतन और आयतन-आयतन' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"],
         "a": 2,
         "why": "अस्पताल का सैलाइन 0.9% m/v नमक होता है: 100 mL में 0.9 ग्राम।"
       }, {
-        "q": "कौन-सा कथन 'छानना, वाष्पन और अवसादन' से मेल खाता है?",
+        "q": "'छानना, वाष्पन और अवसादन' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 0,
         "why": "वाष्पन से पानी उड़ जाता है और नमक पीछे बच जाता है।"
       }, {
-        "q": "कौन-सा कथन 'क्रिस्टलीकरण और आसवन' से मेल खाता है?",
+        "q": "'क्रिस्टलीकरण और आसवन' के बारे में कौन-सा कथन सही है?",
         "options": ["काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।", "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।", "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"],
         "a": 1,
         "why": "एसीटोन 56 °C और पानी 100 °C पर उबलते हैं, इसलिए अलग हो जाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'वर्णलेखन और ऊर्ध्वपातन' से मेल खाता है?",
+        "q": "'वर्णलेखन और ऊर्ध्वपातन' के बारे में कौन-सा कथन सही है?",
         "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"],
         "a": 2,
         "why": "काली स्याही का धब्बा पानी चढ़ने पर कई रंगों में बँट जाता है।"
       }, {
-        "q": "कौन-सा कथन 'अपकेन्द्रण और स्कंदन' से मेल खाता है?",
+        "q": "'अपकेन्द्रण और स्कंदन' के बारे में कौन-सा कथन सही है?",
         "options": ["अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।", "चीनी-पानी पहली और आखिरी चुस्की में बराबर मीठा होता है।", "सान्द्रता निश्चित मात्रा के विलयन में घुले विलेय की मात्रा है।"],
         "a": 0,
         "why": "अपकेन्द्रण से रक्त प्लाज्मा और कोशिकाओं में बँट जाता है।"
@@ -4049,29 +3720,29 @@
       "title": "Force as a push or a pull",
       "titleHi": "धक्का या खिंचाव के रूप में बल",
       "short": "Force as a push or a p",
-      "concept": "A force is a push or a pull arising from an interaction between two objects; it has both magnitude and direction and is measured in newtons.",
-      "conceptHi": "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव है; इसमें परिमाण और दिशा दोनों होते हैं।",
+      "concept": "A force is a push or a pull that one object exerts on another. It can make a ball at rest move, change the speed or direction of a moving ball, or change the shape of a lemon when you squeeze it. Force has both magnitude and direction, so it is a vector quantity; its SI unit is the newton (N), and a spring balance measures it.",
+      "conceptHi": "बल कोई धक्का या खिंचाव है जो एक वस्तु दूसरी पर लगाती है। यह स्थिर गेंद को चला सकती है, गतिमान गेंद की चाल या दिशा बदल सकती है, और नींबू को निचोड़ने पर उसका आकार बदल सकती है। बल में परिमाण और दिशा दोनों होते हैं, इसलिए यह सदिश राशि है; इसका मात्रक न्यूटन (N) है।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Force as a push or a pull?",
+        "q": "Which statement is correct about Force as a push or a pull?",
         "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "A tug of war rope stays still while both teams pull equally."],
         "a": 0,
         "why": "A spring balance measures the magnitude of a force in newtons."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'धक्का या खिंचाव के रूप में बल' से मेल खाता है?",
+        "q": "'धक्का या खिंचाव के रूप में बल' के बारे में कौन-सा कथन सही है?",
         "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 0,
         "why": "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"
       },
       "explain": "A spring balance measures the magnitude of a force in newtons.",
       "explainHi": "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।",
-      "vocab": [["Force", "A force is a push or a pull arising from an interaction be"], ["Inertia", "A force is a push or a pull arising from an interaction be"], ["Friction", "A force is a push or a pull arising from an interaction be"]],
-      "vocabHi": [["बल", "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव"], ["जड़त्व", "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव"], ["घर्षण", "बल दो वस्तुओं के बीच अंतःक्रिया से उत्पन्न धक्का या खिंचाव"]],
+      "vocab": [["Force", "A force is a push or a pull that one object exerts on anot"], ["Inertia", "A force is a push or a pull that one object exerts on anot"], ["Friction", "A force is a push or a pull that one object exerts on anot"]],
+      "vocabHi": [["बल", "बल कोई धक्का या खिंचाव है जो एक वस्तु दूसरी पर लगाती है। य"], ["जड़त्व", "बल कोई धक्का या खिंचाव है जो एक वस्तु दूसरी पर लगाती है। य"], ["घर्षण", "बल कोई धक्का या खिंचाव है जो एक वस्तु दूसरी पर लगाती है। य"]],
       "fig": "3D field · Force as a push or a pull · Push → Pull → Shape → Speed",
       "figHi": "3D field चित्र · धक्का या खिंचाव के रूप में बल · Push / Pull / Shape",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4085,12 +3756,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Force as a push or a pull?",
-        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "A tug of war rope stays still while both teams pull equally."],
-        "a": 0,
-        "why": "A spring balance measures the magnitude of a force in newtons."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4102,37 +3767,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_2",
       "section": "6.2",
       "title": "Effects of force",
       "titleHi": "बल के प्रभाव",
       "short": "Effects of force",
-      "concept": "A force can set an object moving, stop it, turn it, or change its shape, and a change in magnitude or direction changes its effect.",
-      "conceptHi": "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार बदल सकता है; परिमाण या दिशा बदलने से प्रभाव बदलता है।",
+      "concept": "A force can set a resting object into motion, stop a moving object, speed it up or slow it down, turn it, or change its shape. A cricket bat turns a moving ball, the fingers squeeze a lemon out of shape, and a kick starts a stationary ball. The effect depends on the magnitude of the force and on the direction in which it acts.",
+      "conceptHi": "बल स्थिर वस्तु को चला सकती है, गतिमान वस्तु को रोक सकती है, उसकी चाल बढ़ा या घटा सकती है, दिशा बदल सकती है या आकार बदल सकती है। क्रिकेट का बल्ला गेंद की दिशा बदलता है, उंगलियाँ नींबू का आकार बदल देती हैं, और लात स्थिर गेंद को चला देती है।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Effects of force?",
+        "q": "Which statement is correct about Effects of force?",
         "options": ["A tug of war rope stays still while both teams pull equally.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "10 N and 6 N in opposite directions leave a net force of 4 N."],
         "a": 1,
         "why": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'बल के प्रभाव' से मेल खाता है?",
+        "q": "'बल के प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"],
         "a": 1,
         "why": "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।"
       },
       "explain": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.",
       "explainHi": "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।",
-      "vocab": [["Inertia", "A force can set an object moving, stop it, turn it, or cha"], ["Friction", "A force can set an object moving, stop it, turn it, or cha"], ["Momentum", "A force can set an object moving, stop it, turn it, or cha"]],
-      "vocabHi": [["जड़त्व", "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार"], ["घर्षण", "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार"], ["संवेग", "बल वस्तु को चला सकता है, रोक सकता है, मोड़ सकता है या आकार"]],
+      "vocab": [["Inertia", "A force can set a resting object into motion, stop a movin"], ["Friction", "A force can set a resting object into motion, stop a movin"], ["Momentum", "A force can set a resting object into motion, stop a movin"]],
+      "vocabHi": [["जड़त्व", "बल स्थिर वस्तु को चला सकती है, गतिमान वस्तु को रोक सकती है"], ["घर्षण", "बल स्थिर वस्तु को चला सकती है, गतिमान वस्तु को रोक सकती है"], ["संवेग", "बल स्थिर वस्तु को चला सकती है, गतिमान वस्तु को रोक सकती है"]],
       "fig": "3D tree · Effects of force · Force → Motion → Direction → Deformation",
       "figHi": "3D tree चित्र · बल के प्रभाव · Force / Motion / Direction",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4146,12 +3810,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Effects of force?",
-        "options": ["A tug of war rope stays still while both teams pull equally.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "10 N and 6 N in opposite directions leave a net force of 4 N."],
-        "a": 1,
-        "why": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4163,37 +3821,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_3",
       "section": "6.3",
       "title": "Balanced forces",
       "titleHi": "संतुलित बल",
       "short": "Balanced forces",
-      "concept": "Balanced forces cancel, so the object keeps resting or moving uniformly; unbalanced forces accelerate it.",
-      "conceptHi": "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विराम या एकसमान गति में रहती है; असंतुलित बल त्वरित करते हैं।",
+      "concept": "When two or more forces act on an object and cancel each other, the net force is zero and the object keeps resting or moving with constant velocity. In a tug of war the rope stays still while both teams pull equally; a ball floating on water is held up because its weight is balanced by the upthrust of the water.",
+      "conceptHi": "जब किसी वस्तु पर लगे दो या अधिक बल एक-दूसरे को निरस्त कर देते हैं, तो परिणामी बल शून्य होता है और वस्तु विराम या एकसमान वेग से चलती रहती है। रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी स्थिर रहती है; पानी पर तैरती गेंद इसलिए डूबती नहीं क्योंकि उसका भार उत्प्लावन बल से संतुलित हो जाता है।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Balanced forces?",
+        "q": "Which statement is correct about Balanced forces?",
         "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "A tug of war rope stays still while both teams pull equally."],
         "a": 2,
         "why": "A tug of war rope stays still while both teams pull equally."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'संतुलित बल' से मेल खाता है?",
+        "q": "'संतुलित बल' के बारे में कौन-सा कथन सही है?",
         "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 2,
         "why": "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"
       },
       "explain": "A tug of war rope stays still while both teams pull equally.",
       "explainHi": "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।",
-      "vocab": [["Friction", "Balanced forces cancel, so the object keeps resting or mov"], ["Momentum", "Balanced forces cancel, so the object keeps resting or mov"], ["Net force", "Balanced forces cancel, so the object keeps resting or mov"]],
-      "vocabHi": [["घर्षण", "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विर"], ["संवेग", "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विर"], ["परिणामी बल", "संतुलित बल एक-दूसरे को निरस्त कर देते हैं, इसलिए वस्तु विर"]],
+      "vocab": [["Friction", "When two or more forces act on an object and cancel each o"], ["Momentum", "When two or more forces act on an object and cancel each o"], ["Net force", "When two or more forces act on an object and cancel each o"]],
+      "vocabHi": [["घर्षण", "जब किसी वस्तु पर लगे दो या अधिक बल एक-दूसरे को निरस्त कर द"], ["संवेग", "जब किसी वस्तु पर लगे दो या अधिक बल एक-दूसरे को निरस्त कर द"], ["परिणामी बल", "जब किसी वस्तु पर लगे दो या अधिक बल एक-दूसरे को निरस्त कर द"]],
       "fig": "3D bars · Balanced forces · Left force → Right force → Net zero → No change",
       "figHi": "3D bars चित्र · संतुलित बल · Left force / Right force / Net zero",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4207,12 +3864,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Balanced forces?",
-        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "A tug of war rope stays still while both teams pull equally."],
-        "a": 2,
-        "why": "A tug of war rope stays still while both teams pull equally."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4224,37 +3875,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_4",
       "section": "6.4",
       "title": "Unbalanced forces change motion",
       "titleHi": "असंतुलित बल गति बदलते हैं",
       "short": "Unbalanced forces chan",
-      "concept": "Forces add as vectors — same direction they add, opposite they subtract — and the unbalanced net force accelerates the object along it.",
-      "conceptHi": "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म का परिणामी बल वस्तु को बड़े बल की दिशा में त्वरित करता है।",
+      "concept": "When the forces on an object do not cancel, their vector sum leaves a net force and the object accelerates in the direction of that net force. Two forces acting in the same direction add, so 10 N and 6 N together give 16 N; acting in opposite directions they subtract, so 10 N and 6 N leave 4 N along the larger force.",
+      "conceptHi": "जब वस्तु पर लगे बल निरस्त नहीं होते, तो उनका सदिश योग एक परिणामी बल देता है और वस्तु उसी दिशा में त्वरित होती है। समान दिशा के 10 N और 6 N जुड़कर 16 N बनते हैं; विपरीत दिशाओं में वे घटकर 4 N रह जाते हैं, जो बड़े बल की दिशा में होता है।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Unbalanced forces change motion?",
+        "q": "Which statement is correct about Unbalanced forces change motion?",
         "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "With zero friction a moving object would never stop on its own."],
         "a": 0,
         "why": "10 N and 6 N in opposite directions leave a net force of 4 N."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'असंतुलित बल गति बदलते हैं' से मेल खाता है?",
+        "q": "'असंतुलित बल गति बदलते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 0,
         "why": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"
       },
       "explain": "10 N and 6 N in opposite directions leave a net force of 4 N.",
       "explainHi": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।",
-      "vocab": [["Momentum", "Forces add as vectors — same direction they add, opposite "], ["Net force", "Forces add as vectors — same direction they add, opposite "], ["Newton", "Forces add as vectors — same direction they add, opposite "]],
-      "vocabHi": [["संवेग", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "], ["परिणामी बल", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "], ["न्यूटन", "एक वस्तु पर लगे बल सदिश की तरह जुड़ते हैं, असंतुलित युग्म "]],
+      "vocab": [["Momentum", "When the forces on an object do not cancel, their vector s"], ["Net force", "When the forces on an object do not cancel, their vector s"], ["Newton", "When the forces on an object do not cancel, their vector s"]],
+      "vocabHi": [["संवेग", "जब वस्तु पर लगे बल निरस्त नहीं होते, तो उनका सदिश योग एक प"], ["परिणामी बल", "जब वस्तु पर लगे बल निरस्त नहीं होते, तो उनका सदिश योग एक प"], ["न्यूटन", "जब वस्तु पर लगे बल निरस्त नहीं होते, तो उनका सदिश योग एक प"]],
       "fig": "3D field · Unbalanced forces change motion · Net force → Acceleration → Velocity → New path",
       "figHi": "3D field चित्र · असंतुलित बल गति बदलते हैं · Net force / Acceleration / Velocity",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4268,12 +3918,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Unbalanced forces change motion?",
-        "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "With zero friction a moving object would never stop on its own."],
-        "a": 0,
-        "why": "10 N and 6 N in opposite directions leave a net force of 4 N."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4285,37 +3929,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_5",
       "section": "6.5",
       "title": "Friction opposes relative motion",
       "titleHi": "घर्षण सापेक्ष गति का विरोध करता है",
       "short": "Friction opposes relat",
-      "concept": "Friction acts along the surfaces in contact, opposite to motion, and a box moves only when the applied force exceeds it.",
-      "conceptHi": "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण से अधिक होने पर ही बक्सा चलता है।",
+      "concept": "Friction is the force that acts along the surfaces in contact, opposite to the direction of motion or the tendency to move. It is why a box does not move until the applied force exceeds it. Smoother surfaces produce less friction, so in Activity 6.1 the coins slide much farther on marble than on wood.",
+      "conceptHi": "घर्षण वह बल है जो संपर्क सतहों के बीच गति या गति की प्रवृत्ति के विपरीत लगता है। इसीलिए बक्सा तब तक नहीं चलता जब तक लगाया गया बल घर्षण से अधिक न हो। चिकनी सतह पर घर्षण कम होता है, इसलिए क्रियाकलाप 6.1 में सिक्के लकड़ी की अपेक्षा संगमरमर पर कहीं अधिक दूर चलते हैं।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Friction opposes relative motion?",
+        "q": "Which statement is correct about Friction opposes relative motion?",
         "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
         "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'घर्षण सापेक्ष गति का विरोध करता है' से मेल खाता है?",
+        "q": "'घर्षण सापेक्ष गति का विरोध करता है' के बारे में कौन-सा कथन सही है?",
         "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"],
         "a": 1,
         "why": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।"
       },
       "explain": "Smoother surfaces mean smaller friction, so the coins travel farther.",
       "explainHi": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।",
-      "vocab": [["Net force", "Friction acts along the surfaces in contact, opposite to m"], ["Newton", "Friction acts along the surfaces in contact, opposite to m"], ["Force", "Friction acts along the surfaces in contact, opposite to m"]],
-      "vocabHi": [["परिणामी बल", "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण "], ["न्यूटन", "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण "], ["बल", "घर्षण संपर्क सतहों के बीच गति के विपरीत लगता है, बल घर्षण "]],
+      "vocab": [["Net force", "Friction is the force that acts along the surfaces in cont"], ["Newton", "Friction is the force that acts along the surfaces in cont"], ["Force", "Friction is the force that acts along the surfaces in cont"]],
+      "vocabHi": [["परिणामी बल", "घर्षण वह बल है जो संपर्क सतहों के बीच गति या गति की प्रवृत"], ["न्यूटन", "घर्षण वह बल है जो संपर्क सतहों के बीच गति या गति की प्रवृत"], ["बल", "घर्षण वह बल है जो संपर्क सतहों के बीच गति या गति की प्रवृत"]],
       "fig": "3D layers · Friction opposes relative motion · Surface → Static → Sliding → Rolling",
       "figHi": "3D layers चित्र · घर्षण सापेक्ष गति का विरोध करता है · Surface / Static / Sliding",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4329,12 +3972,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Friction opposes relative motion?",
-        "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
-        "a": 1,
-        "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4346,37 +3983,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_6",
       "section": "6.6",
       "title": "Newton's first law and inertia",
       "titleHi": "न्यूटन का प्रथम नियम और जड़त्व",
       "short": "Newton's first law and",
-      "concept": "An object stays at rest or in uniform straight-line motion unless a net external force acts on it — that is inertia.",
-      "conceptHi": "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रेखीय गति में रहती है — यही जड़त्व है।",
+      "concept": "Newton's first law states that an object at rest stays at rest and an object in motion keeps moving with constant velocity unless a net external force acts on it. This resistance to a change in state is called inertia. On a perfectly frictionless floor a moving ball would never stop on its own, as Galileo's thought experiment shows.",
+      "conceptHi": "न्यूटन का प्रथम नियम कहता है कि वस्तु विराम में रहती है और गतिमान वस्तु एकसमान वेग से चलती रहती है, जब तक उस पर बाह्य परिणामी बल न लगे। अवस्था बदलने के इस प्रतिरोध को जड़त्व कहते हैं। पूर्णतः घर्षणरहित फर्श पर चलती गेंद अपने आप कभी न रुकती।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Newton's first law and inertia?",
+        "q": "Which statement is correct about Newton's first law and inertia?",
         "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
         "why": "With zero friction a moving object would never stop on its own."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'न्यूटन का प्रथम नियम और जड़त्व' से मेल खाता है?",
+        "q": "'न्यूटन का प्रथम नियम और जड़त्व' के बारे में कौन-सा कथन सही है?",
         "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 2,
         "why": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"
       },
       "explain": "With zero friction a moving object would never stop on its own.",
       "explainHi": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।",
-      "vocab": [["Newton", "An object stays at rest or in uniform straight-line motion"], ["Force", "An object stays at rest or in uniform straight-line motion"], ["Inertia", "An object stays at rest or in uniform straight-line motion"]],
-      "vocabHi": [["न्यूटन", "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रे"], ["बल", "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रे"], ["जड़त्व", "जब तक बाह्य परिणामी बल न लगे, वस्तु विराम या एकसमान सरल रे"]],
+      "vocab": [["Newton", "Newton's first law states that an object at rest stays at "], ["Force", "Newton's first law states that an object at rest stays at "], ["Inertia", "Newton's first law states that an object at rest stays at "]],
+      "vocabHi": [["न्यूटन", "न्यूटन का प्रथम नियम कहता है कि वस्तु विराम में रहती है और"], ["बल", "न्यूटन का प्रथम नियम कहता है कि वस्तु विराम में रहती है और"], ["जड़त्व", "न्यूटन का प्रथम नियम कहता है कि वस्तु विराम में रहती है और"]],
       "fig": "3D flow · Newton's first law and inertia · Rest → No net force → Uniform motion → Inertia",
       "figHi": "3D flow चित्र · न्यूटन का प्रथम नियम और जड़त्व · Rest / No net force / Uniform motion",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4390,12 +4026,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Newton's first law and inertia?",
-        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
-        "a": 2,
-        "why": "With zero friction a moving object would never stop on its own."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4407,37 +4037,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_7",
       "section": "6.7",
       "title": "Newton's second law and momentum",
       "titleHi": "न्यूटन का दूसरा नियम और संवेग",
       "short": "Newton's second law an",
-      "concept": "A net force accelerates an object along itself, F = ma, and equals the rate of change of momentum; near Earth weight W = mg.",
-      "conceptHi": "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, और संवेग परिवर्तन की दर के बराबर है; पृथ्वी के निकट भार W = mg।",
+      "concept": "Newton's second law says a net force accelerates an object in its own direction: doubling the force doubles the acceleration and doubling the mass halves it, so F = ma. In momentum form the same law is F = Δp/Δt, where p = mv. Near the Earth's surface the weight of a body is W = mg with g = 9.8 m s⁻².",
+      "conceptHi": "न्यूटन का दूसरा नियम कहता है कि परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है: बल दोगुना करने पर त्वरण दोगुना और द्रव्यमान दोगुना करने पर त्वरण आधा हो जाता है, अर्थात F = ma। संवेग रूप में यही नियम F = Δp/Δt है, जहाँ p = mv। पृथ्वी के निकट भार W = mg होता है।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Newton's second law and momentum?",
+        "q": "Which statement is correct about Newton's second law and momentum?",
         "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
         "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'न्यूटन का दूसरा नियम और संवेग' से मेल खाता है?",
+        "q": "'न्यूटन का दूसरा नियम और संवेग' के बारे में कौन-सा कथन सही है?",
         "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 0,
         "why": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"
       },
       "explain": "Two boxes joined by a string move as one system: a = F/(m1 + m2).",
       "explainHi": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।",
-      "vocab": [["Force", "A net force accelerates an object along itself, F = ma, an"], ["Inertia", "A net force accelerates an object along itself, F = ma, an"], ["Friction", "A net force accelerates an object along itself, F = ma, an"]],
-      "vocabHi": [["बल", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "], ["जड़त्व", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "], ["घर्षण", "परिणामी बल वस्तु को अपनी दिशा में त्वरित करता है, F = ma, "]],
+      "vocab": [["Force", "Newton's second law says a net force accelerates an object"], ["Inertia", "Newton's second law says a net force accelerates an object"], ["Friction", "Newton's second law says a net force accelerates an object"]],
+      "vocabHi": [["बल", "न्यूटन का दूसरा नियम कहता है कि परिणामी बल वस्तु को अपनी द"], ["जड़त्व", "न्यूटन का दूसरा नियम कहता है कि परिणामी बल वस्तु को अपनी द"], ["घर्षण", "न्यूटन का दूसरा नियम कहता है कि परिणामी बल वस्तु को अपनी द"]],
       "fig": "3D graph · Newton's second law and momentum · m → F → a → p = mv",
       "figHi": "3D graph चित्र · न्यूटन का दूसरा नियम और संवेग · m / F / a",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4451,12 +4080,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Newton's second law and momentum?",
-        "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
-        "a": 0,
-        "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4468,37 +4091,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_8",
       "section": "6.8",
       "title": "Newton's third law",
       "titleHi": "न्यूटन का तृतीय नियम",
       "short": "Newton's third law",
-      "concept": "For every action an equal and opposite reaction acts on the other body, so the pair never cancels.",
-      "conceptHi": "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लगती है, इसलिए युग्म कभी निरस्त नहीं होता।",
+      "concept": "Newton's third law says that for every action there is an equal and opposite reaction on the other body. The two forces never cancel because they act on different objects: the foot pushes the ground backward and the ground pushes the foot forward; a gun recoils because the bullet pushes back on it.",
+      "conceptHi": "न्यूटन का तृतीय नियम कहता है कि हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लगती है। दोनों बल कभी निरस्त नहीं होते क्योंकि वे अलग-अलग वस्तुओं पर लगते हैं: पैर ज़मीन को पीछे धकेलता है और ज़मीन पैर को आगे धकेलती है।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Newton's third law?",
+        "q": "Which statement is correct about Newton's third law?",
         "options": ["Chandrayaan-3's Vikram lander fired forward to slow itself down.", "A gun recoils because the bullet pushes back on it with 2 N.", "A spring balance measures the magnitude of a force in newtons."],
         "a": 1,
         "why": "A gun recoils because the bullet pushes back on it with 2 N."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'न्यूटन का तृतीय नियम' से मेल खाता है?",
+        "q": "'न्यूटन का तृतीय नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"],
         "a": 1,
         "why": "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।"
       },
       "explain": "A gun recoils because the bullet pushes back on it with 2 N.",
       "explainHi": "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।",
-      "vocab": [["Inertia", "For every action an equal and opposite reaction acts on th"], ["Friction", "For every action an equal and opposite reaction acts on th"], ["Momentum", "For every action an equal and opposite reaction acts on th"]],
-      "vocabHi": [["जड़त्व", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लग"], ["घर्षण", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लग"], ["संवेग", "हर क्रिया के बराबर और विपरीत प्रतिक्रिया दूसरी वस्तु पर लग"]],
+      "vocab": [["Inertia", "Newton's third law says that for every action there is an "], ["Friction", "Newton's third law says that for every action there is an "], ["Momentum", "Newton's third law says that for every action there is an "]],
+      "vocabHi": [["जड़त्व", "न्यूटन का तृतीय नियम कहता है कि हर क्रिया के बराबर और विपर"], ["घर्षण", "न्यूटन का तृतीय नियम कहता है कि हर क्रिया के बराबर और विपर"], ["संवेग", "न्यूटन का तृतीय नियम कहता है कि हर क्रिया के बराबर और विपर"]],
       "fig": "3D rays · Newton's third law · Body A → Action → Body B → Reaction",
       "figHi": "3D rays चित्र · न्यूटन का तृतीय नियम · Body A / Action / Body B",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4512,12 +4134,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Newton's third law?",
-        "options": ["Chandrayaan-3's Vikram lander fired forward to slow itself down.", "A gun recoils because the bullet pushes back on it with 2 N.", "A spring balance measures the magnitude of a force in newtons."],
-        "a": 1,
-        "why": "A gun recoils because the bullet pushes back on it with 2 N."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4529,37 +4145,36 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_forces_6_9",
       "section": "6.9",
       "title": "Conservation of momentum",
       "titleHi": "संवेग संरक्षण",
       "short": "Conservation of moment",
-      "concept": "In an isolated system the total momentum stays constant: a rocket throws gas down and gains momentum up.",
-      "conceptHi": "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फेंकता है और ऊपर संवेग पाता है।",
+      "concept": "In an isolated system the total momentum stays constant. A rocket throws gas downward and gains an equal momentum upward; the same idea slows a rocket that must land, so Chandrayaan-3's Vikram lander fired its engines forward to reduce its speed before touching down.",
+      "conceptHi": "विलगित निकाय में कुल संवेग नियत रहता है। रॉकेट गैस नीचे फेंकता है और उतना ही संवेग ऊपर पा लेता है; इसी सिद्धांत से उतरने वाला रॉकेट धीमा होता है, इसलिए चंद्रयान-3 के विक्रम लैंडर ने उतरने से पहले गति की दिशा में इंजन चलाकर गति घटाई।",
       "formula": {
         "label": "NEWTON'S LAWS OF MOTION · न्यूटन के गति के नियम",
         "eq": "F = ma   ·   p = mv",
         "note": "बल, द्रव्यमान, त्वरण और संवेग"
       },
       "predict": {
-        "q": "Which statement belongs to Conservation of momentum?",
+        "q": "Which statement is correct about Conservation of momentum?",
         "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 2,
         "why": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'संवेग संरक्षण' से मेल खाता है?",
+        "q": "'संवेग संरक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 2,
         "why": "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"
       },
       "explain": "Chandrayaan-3's Vikram lander fired forward to slow itself down.",
       "explainHi": "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।",
-      "vocab": [["Friction", "In an isolated system the total momentum stays constant: a"], ["Momentum", "In an isolated system the total momentum stays constant: a"], ["Net force", "In an isolated system the total momentum stays constant: a"]],
-      "vocabHi": [["घर्षण", "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फे"], ["संवेग", "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फे"], ["परिणामी बल", "विलगित निकाय में कुल संवेग नियत रहता है: रॉकेट गैस नीचे फे"]],
+      "vocab": [["Friction", "In an isolated system the total momentum stays constant. A"], ["Momentum", "In an isolated system the total momentum stays constant. A"], ["Net force", "In an isolated system the total momentum stays constant. A"]],
+      "vocabHi": [["घर्षण", "विलगित निकाय में कुल संवेग नियत रहता है। रॉकेट गैस नीचे फे"], ["संवेग", "विलगित निकाय में कुल संवेग नियत रहता है। रॉकेट गैस नीचे फे"], ["परिणामी बल", "विलगित निकाय में कुल संवेग नियत रहता है। रॉकेट गैस नीचे फे"]],
       "fig": "3D cycle · Conservation of momentum · Before → Collision → After → Total p",
       "figHi": "3D cycle चित्र · संवेग संरक्षण · Before / Collision / After",
       "tryHint": "Move Force F in newtons and watch Acceleration; touch two diagram cards.",
@@ -4573,12 +4188,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Conservation of momentum?",
-        "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
-        "a": 2,
-        "why": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4590,8 +4199,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_forces"] = {
       "id": "c9_forces",
@@ -4723,93 +4331,93 @@
         "desc": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Force as a push or a pull?",
+        "q": "Which statement is correct about Force as a push or a pull?",
         "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "A tug of war rope stays still while both teams pull equally."],
         "a": 0,
         "why": "A spring balance measures the magnitude of a force in newtons."
       }, {
-        "q": "Which statement belongs to Effects of force?",
+        "q": "Which statement is correct about Effects of force?",
         "options": ["A tug of war rope stays still while both teams pull equally.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "10 N and 6 N in opposite directions leave a net force of 4 N."],
         "a": 1,
         "why": "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball."
       }, {
-        "q": "Which statement belongs to Balanced forces?",
+        "q": "Which statement is correct about Balanced forces?",
         "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "A tug of war rope stays still while both teams pull equally."],
         "a": 2,
         "why": "A tug of war rope stays still while both teams pull equally."
       }, {
-        "q": "Which statement belongs to Unbalanced forces change motion?",
+        "q": "Which statement is correct about Unbalanced forces change motion?",
         "options": ["10 N and 6 N in opposite directions leave a net force of 4 N.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "With zero friction a moving object would never stop on its own."],
         "a": 0,
         "why": "10 N and 6 N in opposite directions leave a net force of 4 N."
       }, {
-        "q": "Which statement belongs to Friction opposes relative motion?",
+        "q": "Which statement is correct about Friction opposes relative motion?",
         "options": ["With zero friction a moving object would never stop on its own.", "Smoother surfaces mean smaller friction, so the coins travel farther.", "Two boxes joined by a string move as one system: a = F/(m1 + m2)."],
         "a": 1,
         "why": "Smoother surfaces mean smaller friction, so the coins travel farther."
       }, {
-        "q": "Which statement belongs to Newton's first law and inertia?",
+        "q": "Which statement is correct about Newton's first law and inertia?",
         "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "With zero friction a moving object would never stop on its own."],
         "a": 2,
         "why": "With zero friction a moving object would never stop on its own."
       }, {
-        "q": "Which statement belongs to Newton's second law and momentum?",
+        "q": "Which statement is correct about Newton's second law and momentum?",
         "options": ["Two boxes joined by a string move as one system: a = F/(m1 + m2).", "A gun recoils because the bullet pushes back on it with 2 N.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 0,
         "why": "Two boxes joined by a string move as one system: a = F/(m1 + m2)."
       }, {
-        "q": "Which statement belongs to Newton's third law?",
+        "q": "Which statement is correct about Newton's third law?",
         "options": ["Chandrayaan-3's Vikram lander fired forward to slow itself down.", "A gun recoils because the bullet pushes back on it with 2 N.", "A spring balance measures the magnitude of a force in newtons."],
         "a": 1,
         "why": "A gun recoils because the bullet pushes back on it with 2 N."
       }, {
-        "q": "Which statement belongs to Conservation of momentum?",
+        "q": "Which statement is correct about Conservation of momentum?",
         "options": ["A spring balance measures the magnitude of a force in newtons.", "A bat turns a ball, fingers squeeze a lemon, a kick starts a ball.", "Chandrayaan-3's Vikram lander fired forward to slow itself down."],
         "a": 2,
         "why": "Chandrayaan-3's Vikram lander fired forward to slow itself down."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'धक्का या खिंचाव के रूप में बल' से मेल खाता है?",
+        "q": "'धक्का या खिंचाव के रूप में बल' के बारे में कौन-सा कथन सही है?",
         "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 0,
         "why": "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"
       }, {
-        "q": "कौन-सा कथन 'बल के प्रभाव' से मेल खाता है?",
+        "q": "'बल के प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"],
         "a": 1,
         "why": "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।"
       }, {
-        "q": "कौन-सा कथन 'संतुलित बल' से मेल खाता है?",
+        "q": "'संतुलित बल' के बारे में कौन-सा कथन सही है?",
         "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"],
         "a": 2,
         "why": "रस्साकशी में दोनों टीमें बराबर खींचें तो रस्सी नहीं हिलती।"
       }, {
-        "q": "कौन-सा कथन 'असंतुलित बल गति बदलते हैं' से मेल खाता है?",
+        "q": "'असंतुलित बल गति बदलते हैं' के बारे में कौन-सा कथन सही है?",
         "options": ["10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 0,
         "why": "10 N और 6 N विपरीत दिशाओं में लगने पर 4 N परिणामी बल बचता है।"
       }, {
-        "q": "कौन-सा कथन 'घर्षण सापेक्ष गति का विरोध करता है' से मेल खाता है?",
+        "q": "'घर्षण सापेक्ष गति का विरोध करता है' के बारे में कौन-सा कथन सही है?",
         "options": ["घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।", "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।", "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"],
         "a": 1,
         "why": "चिकनी सतह पर घर्षण कम, इसलिए सिक्के अधिक दूर चलते हैं।"
       }, {
-        "q": "कौन-सा कथन 'न्यूटन का प्रथम नियम और जड़त्व' से मेल खाता है?",
+        "q": "'न्यूटन का प्रथम नियम और जड़त्व' के बारे में कौन-सा कथन सही है?",
         "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"],
         "a": 2,
         "why": "घर्षण शून्य हो तो चलती वस्तु अपने आप कभी न रुके।"
       }, {
-        "q": "कौन-सा कथन 'न्यूटन का दूसरा नियम और संवेग' से मेल खाता है?",
+        "q": "'न्यूटन का दूसरा नियम और संवेग' के बारे में कौन-सा कथन सही है?",
         "options": ["डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 0,
         "why": "डोरी से जुड़े दो बक्से एक निकाय की तरह चलते हैं: a = F/(m1 + m2)।"
       }, {
-        "q": "कौन-सा कथन 'न्यूटन का तृतीय नियम' से मेल खाता है?",
+        "q": "'न्यूटन का तृतीय नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।", "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।", "स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।"],
         "a": 1,
         "why": "गोली बंदूक पर 2 N बल लगाती है, इसलिए बंदूक पीछे झटकती है।"
       }, {
-        "q": "कौन-सा कथन 'संवेग संरक्षण' से मेल खाता है?",
+        "q": "'संवेग संरक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["स्प्रिंग संतुलन बल का परिमाण न्यूटन में मापता है।", "बल्ला गेंद मोड़ता है, उंगलियाँ नींबू निचोड़ती हैं, लात गेंद चलाती है।", "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"],
         "a": 2,
         "why": "चंद्रयान-3 के विक्रम लैंडर ने गति की दिशा में ही फायर करके गति घटाई।"
@@ -4831,13 +4439,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Work done by a constant force?",
+        "q": "Which statement is correct about Work done by a constant force?",
         "options": ["One joule is the work of one newton through one metre.", "A coolie carrying a load horizontally does zero mechanical work on it.", "Doubling speed makes kinetic energy four times larger."],
         "a": 0,
         "why": "One joule is the work of one newton through one metre."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'स्थिर बल द्वारा किया गया कार्य' से मेल खाता है?",
+        "q": "'स्थिर बल द्वारा किया गया कार्य' के बारे में कौन-सा कथन सही है?",
         "options": ["एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।", "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।", "चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।"],
         "a": 0,
         "why": "एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।"
@@ -4859,12 +4467,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Work done by a constant force?",
-        "options": ["One joule is the work of one newton through one metre.", "A coolie carrying a load horizontally does zero mechanical work on it.", "Doubling speed makes kinetic energy four times larger."],
-        "a": 0,
-        "why": "One joule is the work of one newton through one metre."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4876,8 +4478,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_2",
       "section": "7.2",
@@ -4892,13 +4493,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Positive, negative and zero work?",
+        "q": "Which statement is correct about Positive, negative and zero work?",
         "options": ["Doubling speed makes kinetic energy four times larger.", "A coolie carrying a load horizontally does zero mechanical work on it.", "Raising an object increases its gravitational potential energy."],
         "a": 1,
         "why": "A coolie carrying a load horizontally does zero mechanical work on it."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'धनात्मक, ऋणात्मक और शून्य कार्य' से मेल खाता है?",
+        "q": "'धनात्मक, ऋणात्मक और शून्य कार्य' के बारे में कौन-सा कथन सही है?",
         "options": ["चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।", "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।", "वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।"],
         "a": 1,
         "why": "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।"
@@ -4920,12 +4521,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Positive, negative and zero work?",
-        "options": ["Doubling speed makes kinetic energy four times larger.", "A coolie carrying a load horizontally does zero mechanical work on it.", "Raising an object increases its gravitational potential energy."],
-        "a": 1,
-        "why": "A coolie carrying a load horizontally does zero mechanical work on it."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4937,8 +4532,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_3",
       "section": "7.3",
@@ -4953,13 +4547,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Kinetic energy?",
+        "q": "Which statement is correct about Kinetic energy?",
         "options": ["Raising an object increases its gravitational potential energy.", "Brakes do negative work and remove kinetic energy.", "Doubling speed makes kinetic energy four times larger."],
         "a": 2,
         "why": "Doubling speed makes kinetic energy four times larger."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'गतिज ऊर्जा' से मेल खाता है?",
+        "q": "'गतिज ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।", "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।", "चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।"],
         "a": 2,
         "why": "चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।"
@@ -4981,12 +4575,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Kinetic energy?",
-        "options": ["Raising an object increases its gravitational potential energy.", "Brakes do negative work and remove kinetic energy.", "Doubling speed makes kinetic energy four times larger."],
-        "a": 2,
-        "why": "Doubling speed makes kinetic energy four times larger."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -4998,8 +4586,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_4",
       "section": "7.4",
@@ -5014,13 +4601,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Potential energy?",
+        "q": "Which statement is correct about Potential energy?",
         "options": ["Raising an object increases its gravitational potential energy.", "Brakes do negative work and remove kinetic energy.", "A falling body converts potential energy into kinetic energy."],
         "a": 0,
         "why": "Raising an object increases its gravitational potential energy."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'स्थितिज ऊर्जा' से मेल खाता है?",
+        "q": "'स्थितिज ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।", "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।", "गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।"],
         "a": 0,
         "why": "वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।"
@@ -5042,12 +4629,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Potential energy?",
-        "options": ["Raising an object increases its gravitational potential energy.", "Brakes do negative work and remove kinetic energy.", "A falling body converts potential energy into kinetic energy."],
-        "a": 0,
-        "why": "Raising an object increases its gravitational potential energy."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5059,8 +4640,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_5",
       "section": "7.5",
@@ -5075,13 +4655,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Work-energy theorem?",
+        "q": "Which statement is correct about Work-energy theorem?",
         "options": ["A falling body converts potential energy into kinetic energy.", "Brakes do negative work and remove kinetic energy.", "Two equal jobs done in different times need different power."],
         "a": 1,
         "why": "Brakes do negative work and remove kinetic energy."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कार्य-ऊर्जा प्रमेय' से मेल खाता है?",
+        "q": "'कार्य-ऊर्जा प्रमेय' के बारे में कौन-सा कथन सही है?",
         "options": ["गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।", "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।", "एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।"],
         "a": 1,
         "why": "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।"
@@ -5103,12 +4683,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Work-energy theorem?",
-        "options": ["A falling body converts potential energy into kinetic energy.", "Brakes do negative work and remove kinetic energy.", "Two equal jobs done in different times need different power."],
-        "a": 1,
-        "why": "Brakes do negative work and remove kinetic energy."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5120,8 +4694,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_6",
       "section": "7.6",
@@ -5136,13 +4709,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Conservation of energy?",
+        "q": "Which statement is correct about Conservation of energy?",
         "options": ["Two equal jobs done in different times need different power.", "Machines do not reduce total work; friction makes output less than input.", "A falling body converts potential energy into kinetic energy."],
         "a": 2,
         "why": "A falling body converts potential energy into kinetic energy."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ऊर्जा का संरक्षण' से मेल खाता है?",
+        "q": "'ऊर्जा का संरक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।", "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।", "गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।"],
         "a": 2,
         "why": "गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।"
@@ -5164,12 +4737,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Conservation of energy?",
-        "options": ["Two equal jobs done in different times need different power.", "Machines do not reduce total work; friction makes output less than input.", "A falling body converts potential energy into kinetic energy."],
-        "a": 2,
-        "why": "A falling body converts potential energy into kinetic energy."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5181,8 +4748,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_7",
       "section": "7.7",
@@ -5197,13 +4763,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Power and its unit?",
+        "q": "Which statement is correct about Power and its unit?",
         "options": ["Two equal jobs done in different times need different power.", "Machines do not reduce total work; friction makes output less than input.", "An inclined plane reduces effort by increasing the distance travelled."],
         "a": 0,
         "why": "Two equal jobs done in different times need different power."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'शक्ति और उसकी इकाई' से मेल खाता है?",
+        "q": "'शक्ति और उसकी इकाई' के बारे में कौन-सा कथन सही है?",
         "options": ["एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।", "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।", "आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।"],
         "a": 0,
         "why": "एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।"
@@ -5225,12 +4791,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Power and its unit?",
-        "options": ["Two equal jobs done in different times need different power.", "Machines do not reduce total work; friction makes output less than input.", "An inclined plane reduces effort by increasing the distance travelled."],
-        "a": 0,
-        "why": "Two equal jobs done in different times need different power."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5242,8 +4802,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_8",
       "section": "7.8",
@@ -5258,13 +4817,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Simple machines and mechanical advantage?",
+        "q": "Which statement is correct about Simple machines and mechanical advantage?",
         "options": ["An inclined plane reduces effort by increasing the distance travelled.", "Machines do not reduce total work; friction makes output less than input.", "One joule is the work of one newton through one metre."],
         "a": 1,
         "why": "Machines do not reduce total work; friction makes output less than input."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सरल मशीनें और यांत्रिक लाभ' से मेल खाता है?",
+        "q": "'सरल मशीनें और यांत्रिक लाभ' के बारे में कौन-सा कथन सही है?",
         "options": ["आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।", "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।", "एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।"],
         "a": 1,
         "why": "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।"
@@ -5286,12 +4845,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Simple machines and mechanical advantage?",
-        "options": ["An inclined plane reduces effort by increasing the distance travelled.", "Machines do not reduce total work; friction makes output less than input.", "One joule is the work of one newton through one metre."],
-        "a": 1,
-        "why": "Machines do not reduce total work; friction makes output less than input."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5303,8 +4856,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_work_energy_7_9",
       "section": "7.9",
@@ -5319,13 +4871,13 @@
         "note": "कार्य, शक्ति और गतिज ऊर्जा"
       },
       "predict": {
-        "q": "Which statement belongs to Lever, pulley and inclined plane?",
+        "q": "Which statement is correct about Lever, pulley and inclined plane?",
         "options": ["One joule is the work of one newton through one metre.", "A coolie carrying a load horizontally does zero mechanical work on it.", "An inclined plane reduces effort by increasing the distance travelled."],
         "a": 2,
         "why": "An inclined plane reduces effort by increasing the distance travelled."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'उत्तोलक, घिरनी और आनत तल' से मेल खाता है?",
+        "q": "'उत्तोलक, घिरनी और आनत तल' के बारे में कौन-सा कथन सही है?",
         "options": ["एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।", "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।", "आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।"],
         "a": 2,
         "why": "आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।"
@@ -5347,12 +4899,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Lever, pulley and inclined plane?",
-        "options": ["One joule is the work of one newton through one metre.", "A coolie carrying a load horizontally does zero mechanical work on it.", "An inclined plane reduces effort by increasing the distance travelled."],
-        "a": 2,
-        "why": "An inclined plane reduces effort by increasing the distance travelled."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5364,8 +4910,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_work_energy"] = {
       "id": "c9_work_energy",
@@ -5497,93 +5042,93 @@
         "desc": "An inclined plane reduces effort by increasing the distance travelled."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Work done by a constant force?",
+        "q": "Which statement is correct about Work done by a constant force?",
         "options": ["One joule is the work of one newton through one metre.", "A coolie carrying a load horizontally does zero mechanical work on it.", "Doubling speed makes kinetic energy four times larger."],
         "a": 0,
         "why": "One joule is the work of one newton through one metre."
       }, {
-        "q": "Which statement belongs to Positive, negative and zero work?",
+        "q": "Which statement is correct about Positive, negative and zero work?",
         "options": ["Doubling speed makes kinetic energy four times larger.", "A coolie carrying a load horizontally does zero mechanical work on it.", "Raising an object increases its gravitational potential energy."],
         "a": 1,
         "why": "A coolie carrying a load horizontally does zero mechanical work on it."
       }, {
-        "q": "Which statement belongs to Kinetic energy?",
+        "q": "Which statement is correct about Kinetic energy?",
         "options": ["Raising an object increases its gravitational potential energy.", "Brakes do negative work and remove kinetic energy.", "Doubling speed makes kinetic energy four times larger."],
         "a": 2,
         "why": "Doubling speed makes kinetic energy four times larger."
       }, {
-        "q": "Which statement belongs to Potential energy?",
+        "q": "Which statement is correct about Potential energy?",
         "options": ["Raising an object increases its gravitational potential energy.", "Brakes do negative work and remove kinetic energy.", "A falling body converts potential energy into kinetic energy."],
         "a": 0,
         "why": "Raising an object increases its gravitational potential energy."
       }, {
-        "q": "Which statement belongs to Work-energy theorem?",
+        "q": "Which statement is correct about Work-energy theorem?",
         "options": ["A falling body converts potential energy into kinetic energy.", "Brakes do negative work and remove kinetic energy.", "Two equal jobs done in different times need different power."],
         "a": 1,
         "why": "Brakes do negative work and remove kinetic energy."
       }, {
-        "q": "Which statement belongs to Conservation of energy?",
+        "q": "Which statement is correct about Conservation of energy?",
         "options": ["Two equal jobs done in different times need different power.", "Machines do not reduce total work; friction makes output less than input.", "A falling body converts potential energy into kinetic energy."],
         "a": 2,
         "why": "A falling body converts potential energy into kinetic energy."
       }, {
-        "q": "Which statement belongs to Power and its unit?",
+        "q": "Which statement is correct about Power and its unit?",
         "options": ["Two equal jobs done in different times need different power.", "Machines do not reduce total work; friction makes output less than input.", "An inclined plane reduces effort by increasing the distance travelled."],
         "a": 0,
         "why": "Two equal jobs done in different times need different power."
       }, {
-        "q": "Which statement belongs to Simple machines and mechanical advantage?",
+        "q": "Which statement is correct about Simple machines and mechanical advantage?",
         "options": ["An inclined plane reduces effort by increasing the distance travelled.", "Machines do not reduce total work; friction makes output less than input.", "One joule is the work of one newton through one metre."],
         "a": 1,
         "why": "Machines do not reduce total work; friction makes output less than input."
       }, {
-        "q": "Which statement belongs to Lever, pulley and inclined plane?",
+        "q": "Which statement is correct about Lever, pulley and inclined plane?",
         "options": ["One joule is the work of one newton through one metre.", "A coolie carrying a load horizontally does zero mechanical work on it.", "An inclined plane reduces effort by increasing the distance travelled."],
         "a": 2,
         "why": "An inclined plane reduces effort by increasing the distance travelled."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'स्थिर बल द्वारा किया गया कार्य' से मेल खाता है?",
+        "q": "'स्थिर बल द्वारा किया गया कार्य' के बारे में कौन-सा कथन सही है?",
         "options": ["एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।", "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।", "चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।"],
         "a": 0,
         "why": "एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।"
       }, {
-        "q": "कौन-सा कथन 'धनात्मक, ऋणात्मक और शून्य कार्य' से मेल खाता है?",
+        "q": "'धनात्मक, ऋणात्मक और शून्य कार्य' के बारे में कौन-सा कथन सही है?",
         "options": ["चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।", "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।", "वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।"],
         "a": 1,
         "why": "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।"
       }, {
-        "q": "कौन-सा कथन 'गतिज ऊर्जा' से मेल खाता है?",
+        "q": "'गतिज ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।", "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।", "चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।"],
         "a": 2,
         "why": "चाल दुगनी करने पर गतिज ऊर्जा चार गुना हो जाती है।"
       }, {
-        "q": "कौन-सा कथन 'स्थितिज ऊर्जा' से मेल खाता है?",
+        "q": "'स्थितिज ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।", "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।", "गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।"],
         "a": 0,
         "why": "वस्तु ऊपर उठाने पर उसकी गुरुत्वीय स्थितिज ऊर्जा बढ़ती है।"
       }, {
-        "q": "कौन-सा कथन 'कार्य-ऊर्जा प्रमेय' से मेल खाता है?",
+        "q": "'कार्य-ऊर्जा प्रमेय' के बारे में कौन-सा कथन सही है?",
         "options": ["गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।", "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।", "एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।"],
         "a": 1,
         "why": "ब्रेक ऋणात्मक कार्य कर गतिज ऊर्जा कम करते हैं।"
       }, {
-        "q": "कौन-सा कथन 'ऊर्जा का संरक्षण' से मेल खाता है?",
+        "q": "'ऊर्जा का संरक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।", "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।", "गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।"],
         "a": 2,
         "why": "गिरती वस्तु स्थितिज ऊर्जा को गतिज ऊर्जा में बदलती है।"
       }, {
-        "q": "कौन-सा कथन 'शक्ति और उसकी इकाई' से मेल खाता है?",
+        "q": "'शक्ति और उसकी इकाई' के बारे में कौन-सा कथन सही है?",
         "options": ["एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।", "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।", "आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।"],
         "a": 0,
         "why": "एकसमान कार्य अलग समय में करने पर शक्ति अलग होती है।"
       }, {
-        "q": "कौन-सा कथन 'सरल मशीनें और यांत्रिक लाभ' से मेल खाता है?",
+        "q": "'सरल मशीनें और यांत्रिक लाभ' के बारे में कौन-सा कथन सही है?",
         "options": ["आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।", "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।", "एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।"],
         "a": 1,
         "why": "मशीनें कुल कार्य नहीं घटातीं, घर्षण से निर्गम निवेश से कम होता है।"
       }, {
-        "q": "कौन-सा कथन 'उत्तोलक, घिरनी और आनत तल' से मेल खाता है?",
+        "q": "'उत्तोलक, घिरनी और आनत तल' के बारे में कौन-सा कथन सही है?",
         "options": ["एक जूल एक न्यूटन बल से एक मीटर विस्थापन पर हुआ कार्य है।", "भार क्षैतिज ले जाता कुली उस पर शून्य यांत्रिक कार्य करता है।", "आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।"],
         "a": 2,
         "why": "आनत तल दूरी बढ़ाकर आवश्यक प्रयास घटाता है।"
@@ -5605,13 +5150,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Atoms as basic units of elements?",
+        "q": "Which statement is correct about Atoms as basic units of elements?",
         "options": ["An atom is the smallest particle of an element that can take part in a reaction.", "Electrons are negatively charged and are present in all atoms.", "Protons give the nucleus its positive charge and atomic number."],
         "a": 0,
         "why": "An atom is the smallest particle of an element that can take part in a reaction."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'तत्वों की मूल इकाई परमाणु' से मेल खाता है?",
+        "q": "'तत्वों की मूल इकाई परमाणु' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।", "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।", "प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।"],
         "a": 0,
         "why": "परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।"
@@ -5633,12 +5178,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Atoms as basic units of elements?",
-        "options": ["An atom is the smallest particle of an element that can take part in a reaction.", "Electrons are negatively charged and are present in all atoms.", "Protons give the nucleus its positive charge and atomic number."],
-        "a": 0,
-        "why": "An atom is the smallest particle of an element that can take part in a reaction."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5650,8 +5189,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_2",
       "section": "8.2",
@@ -5666,13 +5204,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Discovery of the electron?",
+        "q": "Which statement is correct about Discovery of the electron?",
         "options": ["Protons give the nucleus its positive charge and atomic number.", "Electrons are negatively charged and are present in all atoms.", "Thomson's model could not explain alpha-particle scattering."],
         "a": 1,
         "why": "Electrons are negatively charged and are present in all atoms."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'इलेक्ट्रॉन की खोज' से मेल खाता है?",
+        "q": "'इलेक्ट्रॉन की खोज' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।", "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।", "थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।"],
         "a": 1,
         "why": "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।"
@@ -5694,12 +5232,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Discovery of the electron?",
-        "options": ["Protons give the nucleus its positive charge and atomic number.", "Electrons are negatively charged and are present in all atoms.", "Thomson's model could not explain alpha-particle scattering."],
-        "a": 1,
-        "why": "Electrons are negatively charged and are present in all atoms."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5711,8 +5243,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_3",
       "section": "8.3",
@@ -5727,13 +5258,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Proton and neutron?",
+        "q": "Which statement is correct about Proton and neutron?",
         "options": ["Thomson's model could not explain alpha-particle scattering.", "Rutherford discovered the nucleus through alpha-particle scattering.", "Protons give the nucleus its positive charge and atomic number."],
         "a": 2,
         "why": "Protons give the nucleus its positive charge and atomic number."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रोटॉन और न्यूट्रॉन' से मेल खाता है?",
+        "q": "'प्रोटॉन और न्यूट्रॉन' के बारे में कौन-सा कथन सही है?",
         "options": ["थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।", "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।", "प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।"],
         "a": 2,
         "why": "प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।"
@@ -5755,12 +5286,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Proton and neutron?",
-        "options": ["Thomson's model could not explain alpha-particle scattering.", "Rutherford discovered the nucleus through alpha-particle scattering.", "Protons give the nucleus its positive charge and atomic number."],
-        "a": 2,
-        "why": "Protons give the nucleus its positive charge and atomic number."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5772,8 +5297,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_4",
       "section": "8.4",
@@ -5788,13 +5312,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Thomson's plum-pudding model?",
+        "q": "Which statement is correct about Thomson's plum-pudding model?",
         "options": ["Thomson's model could not explain alpha-particle scattering.", "Rutherford discovered the nucleus through alpha-particle scattering.", "Electrons occupy discrete shells labelled K, L, M and N."],
         "a": 0,
         "why": "Thomson's model could not explain alpha-particle scattering."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'थॉमसन का प्लम-पुडिंग प्रतिरूप' से मेल खाता है?",
+        "q": "'थॉमसन का प्लम-पुडिंग प्रतिरूप' के बारे में कौन-सा कथन सही है?",
         "options": ["थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।", "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।", "इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।"],
         "a": 0,
         "why": "थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।"
@@ -5816,12 +5340,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Thomson's plum-pudding model?",
-        "options": ["Thomson's model could not explain alpha-particle scattering.", "Rutherford discovered the nucleus through alpha-particle scattering.", "Electrons occupy discrete shells labelled K, L, M and N."],
-        "a": 0,
-        "why": "Thomson's model could not explain alpha-particle scattering."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5833,8 +5351,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_5",
       "section": "8.5",
@@ -5849,13 +5366,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Rutherford's nuclear model?",
+        "q": "Which statement is correct about Rutherford's nuclear model?",
         "options": ["Electrons occupy discrete shells labelled K, L, M and N.", "Rutherford discovered the nucleus through alpha-particle scattering.", "The outermost shell of an atom is called its valence shell."],
         "a": 1,
         "why": "Rutherford discovered the nucleus through alpha-particle scattering."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'रदरफ़ोर्ड का नाभिकीय प्रतिरूप' से मेल खाता है?",
+        "q": "'रदरफ़ोर्ड का नाभिकीय प्रतिरूप' के बारे में कौन-सा कथन सही है?",
         "options": ["इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।", "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।", "परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।"],
         "a": 1,
         "why": "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।"
@@ -5877,12 +5394,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Rutherford's nuclear model?",
-        "options": ["Electrons occupy discrete shells labelled K, L, M and N.", "Rutherford discovered the nucleus through alpha-particle scattering.", "The outermost shell of an atom is called its valence shell."],
-        "a": 1,
-        "why": "Rutherford discovered the nucleus through alpha-particle scattering."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5894,8 +5405,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_6",
       "section": "8.6",
@@ -5910,13 +5420,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Bohr's model and shells?",
+        "q": "Which statement is correct about Bohr's model and shells?",
         "options": ["The outermost shell of an atom is called its valence shell.", "Isotopes share Z but have different mass numbers.", "Electrons occupy discrete shells labelled K, L, M and N."],
         "a": 2,
         "why": "Electrons occupy discrete shells labelled K, L, M and N."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'बोहर का प्रतिरूप और कोश' से मेल खाता है?",
+        "q": "'बोहर का प्रतिरूप और कोश' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।", "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।", "इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।"],
         "a": 2,
         "why": "इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।"
@@ -5938,12 +5448,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Bohr's model and shells?",
-        "options": ["The outermost shell of an atom is called its valence shell.", "Isotopes share Z but have different mass numbers.", "Electrons occupy discrete shells labelled K, L, M and N."],
-        "a": 2,
-        "why": "Electrons occupy discrete shells labelled K, L, M and N."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -5955,8 +5459,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_7",
       "section": "8.7",
@@ -5971,13 +5474,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Electron distribution up to Z = 18?",
+        "q": "Which statement is correct about Electron distribution up to Z = 18?",
         "options": ["The outermost shell of an atom is called its valence shell.", "Isotopes share Z but have different mass numbers.", "Carbon-12 and carbon-14 are isotopes used in dating and medicine."],
         "a": 0,
         "why": "The outermost shell of an atom is called its valence shell."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'Z = 18 तक इलेक्ट्रॉन वितरण' से मेल खाता है?",
+        "q": "'Z = 18 तक इलेक्ट्रॉन वितरण' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।", "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।", "कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।"],
         "a": 0,
         "why": "परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।"
@@ -5999,12 +5502,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Electron distribution up to Z = 18?",
-        "options": ["The outermost shell of an atom is called its valence shell.", "Isotopes share Z but have different mass numbers.", "Carbon-12 and carbon-14 are isotopes used in dating and medicine."],
-        "a": 0,
-        "why": "The outermost shell of an atom is called its valence shell."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6016,8 +5513,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_8",
       "section": "8.8",
@@ -6032,13 +5528,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Atomic number and mass number?",
+        "q": "Which statement is correct about Atomic number and mass number?",
         "options": ["Carbon-12 and carbon-14 are isotopes used in dating and medicine.", "Isotopes share Z but have different mass numbers.", "An atom with a full valence shell has valency zero."],
         "a": 1,
         "why": "Isotopes share Z but have different mass numbers."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'परमाणु क्रमांक और द्रव्यमान संख्या' से मेल खाता है?",
+        "q": "'परमाणु क्रमांक और द्रव्यमान संख्या' के बारे में कौन-सा कथन सही है?",
         "options": ["कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।", "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।", "पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।"],
         "a": 1,
         "why": "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।"
@@ -6060,12 +5556,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Atomic number and mass number?",
-        "options": ["Carbon-12 and carbon-14 are isotopes used in dating and medicine.", "Isotopes share Z but have different mass numbers.", "An atom with a full valence shell has valency zero."],
-        "a": 1,
-        "why": "Isotopes share Z but have different mass numbers."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6077,8 +5567,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_9",
       "section": "8.9",
@@ -6093,13 +5582,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Isotopes and isobars?",
+        "q": "Which statement is correct about Isotopes and isobars?",
         "options": ["An atom with a full valence shell has valency zero.", "The first letter of a chemical symbol is always capital.", "Carbon-12 and carbon-14 are isotopes used in dating and medicine."],
         "a": 2,
         "why": "Carbon-12 and carbon-14 are isotopes used in dating and medicine."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'समस्थानिक और समभारिक' से मेल खाता है?",
+        "q": "'समस्थानिक और समभारिक' के बारे में कौन-सा कथन सही है?",
         "options": ["पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।", "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।", "कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।"],
         "a": 2,
         "why": "कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।"
@@ -6121,12 +5610,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Isotopes and isobars?",
-        "options": ["An atom with a full valence shell has valency zero.", "The first letter of a chemical symbol is always capital.", "Carbon-12 and carbon-14 are isotopes used in dating and medicine."],
-        "a": 2,
-        "why": "Carbon-12 and carbon-14 are isotopes used in dating and medicine."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6138,8 +5621,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_10",
       "section": "8.10",
@@ -6154,13 +5636,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Valency and combining capacity?",
+        "q": "Which statement is correct about Valency and combining capacity?",
         "options": ["An atom with a full valence shell has valency zero.", "The first letter of a chemical symbol is always capital.", "A formula shows the fixed ratio of atoms in a compound."],
         "a": 0,
         "why": "An atom with a full valence shell has valency zero."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'संयोजकता और संयोजन क्षमता' से मेल खाता है?",
+        "q": "'संयोजकता और संयोजन क्षमता' के बारे में कौन-सा कथन सही है?",
         "options": ["पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।", "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।", "सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।"],
         "a": 0,
         "why": "पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।"
@@ -6182,12 +5664,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Valency and combining capacity?",
-        "options": ["An atom with a full valence shell has valency zero.", "The first letter of a chemical symbol is always capital.", "A formula shows the fixed ratio of atoms in a compound."],
-        "a": 0,
-        "why": "An atom with a full valence shell has valency zero."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6199,8 +5675,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_11",
       "section": "8.11",
@@ -6215,13 +5690,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Symbols of elements?",
+        "q": "Which statement is correct about Symbols of elements?",
         "options": ["A formula shows the fixed ratio of atoms in a compound.", "The first letter of a chemical symbol is always capital.", "An atom is the smallest particle of an element that can take part in a reaction."],
         "a": 1,
         "why": "The first letter of a chemical symbol is always capital."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'तत्वों के प्रतीक' से मेल खाता है?",
+        "q": "'तत्वों के प्रतीक' के बारे में कौन-सा कथन सही है?",
         "options": ["सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।", "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।", "परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।"],
         "a": 1,
         "why": "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।"
@@ -6243,12 +5718,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Symbols of elements?",
-        "options": ["A formula shows the fixed ratio of atoms in a compound.", "The first letter of a chemical symbol is always capital.", "An atom is the smallest particle of an element that can take part in a reaction."],
-        "a": 1,
-        "why": "The first letter of a chemical symbol is always capital."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6260,8 +5729,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atom_8_12",
       "section": "8.12",
@@ -6276,13 +5744,13 @@
         "note": "परमाणु संख्या और द्रव्यमान संख्या"
       },
       "predict": {
-        "q": "Which statement belongs to Symbols, valency and formulae?",
+        "q": "Which statement is correct about Symbols, valency and formulae?",
         "options": ["An atom is the smallest particle of an element that can take part in a reaction.", "Electrons are negatively charged and are present in all atoms.", "A formula shows the fixed ratio of atoms in a compound."],
         "a": 2,
         "why": "A formula shows the fixed ratio of atoms in a compound."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रतीक, संयोजकता और सूत्र' से मेल खाता है?",
+        "q": "'प्रतीक, संयोजकता और सूत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।", "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।", "सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।"],
         "a": 2,
         "why": "सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।"
@@ -6304,12 +5772,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Symbols, valency and formulae?",
-        "options": ["An atom is the smallest particle of an element that can take part in a reaction.", "Electrons are negatively charged and are present in all atoms.", "A formula shows the fixed ratio of atoms in a compound."],
-        "a": 2,
-        "why": "A formula shows the fixed ratio of atoms in a compound."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6321,8 +5783,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_atom"] = {
       "id": "c9_atom",
@@ -6493,123 +5954,123 @@
         "desc": "A formula shows the fixed ratio of atoms in a compound."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Atoms as basic units of elements?",
+        "q": "Which statement is correct about Atoms as basic units of elements?",
         "options": ["An atom is the smallest particle of an element that can take part in a reaction.", "Electrons are negatively charged and are present in all atoms.", "Protons give the nucleus its positive charge and atomic number."],
         "a": 0,
         "why": "An atom is the smallest particle of an element that can take part in a reaction."
       }, {
-        "q": "Which statement belongs to Discovery of the electron?",
+        "q": "Which statement is correct about Discovery of the electron?",
         "options": ["Protons give the nucleus its positive charge and atomic number.", "Electrons are negatively charged and are present in all atoms.", "Thomson's model could not explain alpha-particle scattering."],
         "a": 1,
         "why": "Electrons are negatively charged and are present in all atoms."
       }, {
-        "q": "Which statement belongs to Proton and neutron?",
+        "q": "Which statement is correct about Proton and neutron?",
         "options": ["Thomson's model could not explain alpha-particle scattering.", "Rutherford discovered the nucleus through alpha-particle scattering.", "Protons give the nucleus its positive charge and atomic number."],
         "a": 2,
         "why": "Protons give the nucleus its positive charge and atomic number."
       }, {
-        "q": "Which statement belongs to Thomson's plum-pudding model?",
+        "q": "Which statement is correct about Thomson's plum-pudding model?",
         "options": ["Thomson's model could not explain alpha-particle scattering.", "Rutherford discovered the nucleus through alpha-particle scattering.", "Electrons occupy discrete shells labelled K, L, M and N."],
         "a": 0,
         "why": "Thomson's model could not explain alpha-particle scattering."
       }, {
-        "q": "Which statement belongs to Rutherford's nuclear model?",
+        "q": "Which statement is correct about Rutherford's nuclear model?",
         "options": ["Electrons occupy discrete shells labelled K, L, M and N.", "Rutherford discovered the nucleus through alpha-particle scattering.", "The outermost shell of an atom is called its valence shell."],
         "a": 1,
         "why": "Rutherford discovered the nucleus through alpha-particle scattering."
       }, {
-        "q": "Which statement belongs to Bohr's model and shells?",
+        "q": "Which statement is correct about Bohr's model and shells?",
         "options": ["The outermost shell of an atom is called its valence shell.", "Isotopes share Z but have different mass numbers.", "Electrons occupy discrete shells labelled K, L, M and N."],
         "a": 2,
         "why": "Electrons occupy discrete shells labelled K, L, M and N."
       }, {
-        "q": "Which statement belongs to Electron distribution up to Z = 18?",
+        "q": "Which statement is correct about Electron distribution up to Z = 18?",
         "options": ["The outermost shell of an atom is called its valence shell.", "Isotopes share Z but have different mass numbers.", "Carbon-12 and carbon-14 are isotopes used in dating and medicine."],
         "a": 0,
         "why": "The outermost shell of an atom is called its valence shell."
       }, {
-        "q": "Which statement belongs to Atomic number and mass number?",
+        "q": "Which statement is correct about Atomic number and mass number?",
         "options": ["Carbon-12 and carbon-14 are isotopes used in dating and medicine.", "Isotopes share Z but have different mass numbers.", "An atom with a full valence shell has valency zero."],
         "a": 1,
         "why": "Isotopes share Z but have different mass numbers."
       }, {
-        "q": "Which statement belongs to Isotopes and isobars?",
+        "q": "Which statement is correct about Isotopes and isobars?",
         "options": ["An atom with a full valence shell has valency zero.", "The first letter of a chemical symbol is always capital.", "Carbon-12 and carbon-14 are isotopes used in dating and medicine."],
         "a": 2,
         "why": "Carbon-12 and carbon-14 are isotopes used in dating and medicine."
       }, {
-        "q": "Which statement belongs to Valency and combining capacity?",
+        "q": "Which statement is correct about Valency and combining capacity?",
         "options": ["An atom with a full valence shell has valency zero.", "The first letter of a chemical symbol is always capital.", "A formula shows the fixed ratio of atoms in a compound."],
         "a": 0,
         "why": "An atom with a full valence shell has valency zero."
       }, {
-        "q": "Which statement belongs to Symbols of elements?",
+        "q": "Which statement is correct about Symbols of elements?",
         "options": ["A formula shows the fixed ratio of atoms in a compound.", "The first letter of a chemical symbol is always capital.", "An atom is the smallest particle of an element that can take part in a reaction."],
         "a": 1,
         "why": "The first letter of a chemical symbol is always capital."
       }, {
-        "q": "Which statement belongs to Symbols, valency and formulae?",
+        "q": "Which statement is correct about Symbols, valency and formulae?",
         "options": ["An atom is the smallest particle of an element that can take part in a reaction.", "Electrons are negatively charged and are present in all atoms.", "A formula shows the fixed ratio of atoms in a compound."],
         "a": 2,
         "why": "A formula shows the fixed ratio of atoms in a compound."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'तत्वों की मूल इकाई परमाणु' से मेल खाता है?",
+        "q": "'तत्वों की मूल इकाई परमाणु' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।", "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।", "प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।"],
         "a": 0,
         "why": "परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।"
       }, {
-        "q": "कौन-सा कथन 'इलेक्ट्रॉन की खोज' से मेल खाता है?",
+        "q": "'इलेक्ट्रॉन की खोज' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।", "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।", "थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।"],
         "a": 1,
         "why": "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'प्रोटॉन और न्यूट्रॉन' से मेल खाता है?",
+        "q": "'प्रोटॉन और न्यूट्रॉन' के बारे में कौन-सा कथन सही है?",
         "options": ["थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।", "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।", "प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।"],
         "a": 2,
         "why": "प्रोटॉन नाभिक को धनावेश और परमाणु क्रमांक देते हैं।"
       }, {
-        "q": "कौन-सा कथन 'थॉमसन का प्लम-पुडिंग प्रतिरूप' से मेल खाता है?",
+        "q": "'थॉमसन का प्लम-पुडिंग प्रतिरूप' के बारे में कौन-सा कथन सही है?",
         "options": ["थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।", "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।", "इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।"],
         "a": 0,
         "why": "थॉमसन का प्रतिरूप ऐल्फ़ा-कण प्रकीर्णन नहीं समझा सका।"
       }, {
-        "q": "कौन-सा कथन 'रदरफ़ोर्ड का नाभिकीय प्रतिरूप' से मेल खाता है?",
+        "q": "'रदरफ़ोर्ड का नाभिकीय प्रतिरूप' के बारे में कौन-सा कथन सही है?",
         "options": ["इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।", "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।", "परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।"],
         "a": 1,
         "why": "रदरफ़ोर्ड ने ऐल्फ़ा-कण प्रकीर्णन से नाभिक की खोज की।"
       }, {
-        "q": "कौन-सा कथन 'बोहर का प्रतिरूप और कोश' से मेल खाता है?",
+        "q": "'बोहर का प्रतिरूप और कोश' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।", "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।", "इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।"],
         "a": 2,
         "why": "इलेक्ट्रॉन K, L, M और N नाम के अलग-अलग कोशों में रहते हैं।"
       }, {
-        "q": "कौन-सा कथन 'Z = 18 तक इलेक्ट्रॉन वितरण' से मेल खाता है?",
+        "q": "'Z = 18 तक इलेक्ट्रॉन वितरण' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।", "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।", "कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।"],
         "a": 0,
         "why": "परमाणु के सबसे बाहरी कोश को संयोजकता कोश कहते हैं।"
       }, {
-        "q": "कौन-सा कथन 'परमाणु क्रमांक और द्रव्यमान संख्या' से मेल खाता है?",
+        "q": "'परमाणु क्रमांक और द्रव्यमान संख्या' के बारे में कौन-सा कथन सही है?",
         "options": ["कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।", "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।", "पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।"],
         "a": 1,
         "why": "समस्थानिकों का Z समान परंतु द्रव्यमान संख्या अलग होती है।"
       }, {
-        "q": "कौन-सा कथन 'समस्थानिक और समभारिक' से मेल खाता है?",
+        "q": "'समस्थानिक और समभारिक' के बारे में कौन-सा कथन सही है?",
         "options": ["पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।", "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।", "कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।"],
         "a": 2,
         "why": "कार्बन-12 और कार्बन-14 समस्थानिक हैं जो काल-निर्धारण और चिकित्सा में काम आते हैं।"
       }, {
-        "q": "कौन-सा कथन 'संयोजकता और संयोजन क्षमता' से मेल खाता है?",
+        "q": "'संयोजकता और संयोजन क्षमता' के बारे में कौन-सा कथन सही है?",
         "options": ["पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।", "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।", "सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।"],
         "a": 0,
         "why": "पूर्ण संयोजकता कोश वाले परमाणु की संयोजकता शून्य होती है।"
       }, {
-        "q": "कौन-सा कथन 'तत्वों के प्रतीक' से मेल खाता है?",
+        "q": "'तत्वों के प्रतीक' के बारे में कौन-सा कथन सही है?",
         "options": ["सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।", "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।", "परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।"],
         "a": 1,
         "why": "रासायनिक प्रतीक का पहला अक्षर सदैव बड़ा होता है।"
       }, {
-        "q": "कौन-सा कथन 'प्रतीक, संयोजकता और सूत्र' से मेल खाता है?",
+        "q": "'प्रतीक, संयोजकता और सूत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["परमाणु तत्व का वह सबसे छोटा कण है जो अभिक्रिया में भाग ले सकता है।", "इलेक्ट्रॉन ऋणावेशित होते हैं और सभी परमाणुओं में पाए जाते हैं।", "सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।"],
         "a": 2,
         "why": "सूत्र यौगिक में परमाणुओं का निश्चित अनुपात दर्शाता है।"
@@ -6631,13 +6092,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Law of conservation of mass?",
+        "q": "Which statement is correct about Law of conservation of mass?",
         "options": ["Atoms are rearranged, not created or destroyed, in a reaction.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "Dalton's theory explained both laws of chemical combination."],
         "a": 0,
         "why": "Atoms are rearranged, not created or destroyed, in a reaction."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'द्रव्यमान संरक्षण का नियम' से मेल खाता है?",
+        "q": "'द्रव्यमान संरक्षण का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।", "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।", "डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।"],
         "a": 0,
         "why": "अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।"
@@ -6659,12 +6120,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Law of conservation of mass?",
-        "options": ["Atoms are rearranged, not created or destroyed, in a reaction.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "Dalton's theory explained both laws of chemical combination."],
-        "a": 0,
-        "why": "Atoms are rearranged, not created or destroyed, in a reaction."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6676,8 +6131,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_2",
       "section": "9.2",
@@ -6692,13 +6146,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Law of constant proportion?",
+        "q": "Which statement is correct about Law of constant proportion?",
         "options": ["Dalton's theory explained both laws of chemical combination.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "Oxygen gas exists as diatomic O2 molecules."],
         "a": 1,
         "why": "Water always has hydrogen and oxygen in a 1 to 8 mass ratio."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'निश्चित अनुपात का नियम' से मेल खाता है?",
+        "q": "'निश्चित अनुपात का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।", "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।", "ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।"],
         "a": 1,
         "why": "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।"
@@ -6720,12 +6174,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Law of constant proportion?",
-        "options": ["Dalton's theory explained both laws of chemical combination.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "Oxygen gas exists as diatomic O2 molecules."],
-        "a": 1,
-        "why": "Water always has hydrogen and oxygen in a 1 to 8 mass ratio."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6737,8 +6185,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_3",
       "section": "9.3",
@@ -6753,13 +6200,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Dalton's atomic theory?",
+        "q": "Which statement is correct about Dalton's atomic theory?",
         "options": ["Oxygen gas exists as diatomic O2 molecules.", "A covalent molecule has a fixed number of each kind of atom.", "Dalton's theory explained both laws of chemical combination."],
         "a": 2,
         "why": "Dalton's theory explained both laws of chemical combination."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'डाल्टन का परमाणु सिद्धान्त' से मेल खाता है?",
+        "q": "'डाल्टन का परमाणु सिद्धान्त' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।", "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।", "डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।"],
         "a": 2,
         "why": "डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।"
@@ -6781,12 +6228,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Dalton's atomic theory?",
-        "options": ["Oxygen gas exists as diatomic O2 molecules.", "A covalent molecule has a fixed number of each kind of atom.", "Dalton's theory explained both laws of chemical combination."],
-        "a": 2,
-        "why": "Dalton's theory explained both laws of chemical combination."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6798,8 +6239,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_4",
       "section": "9.4",
@@ -6814,13 +6254,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Molecules of elements?",
+        "q": "Which statement is correct about Molecules of elements?",
         "options": ["Oxygen gas exists as diatomic O2 molecules.", "A covalent molecule has a fixed number of each kind of atom.", "Ionic compounds are electrically neutral overall."],
         "a": 0,
         "why": "Oxygen gas exists as diatomic O2 molecules."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'तत्वों के अणु' से मेल खाता है?",
+        "q": "'तत्वों के अणु' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।", "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।", "आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।"],
         "a": 0,
         "why": "ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।"
@@ -6842,12 +6282,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Molecules of elements?",
-        "options": ["Oxygen gas exists as diatomic O2 molecules.", "A covalent molecule has a fixed number of each kind of atom.", "Ionic compounds are electrically neutral overall."],
-        "a": 0,
-        "why": "Oxygen gas exists as diatomic O2 molecules."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6859,8 +6293,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_5",
       "section": "9.5",
@@ -6875,13 +6308,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Molecules of covalent compounds?",
+        "q": "Which statement is correct about Molecules of covalent compounds?",
         "options": ["Ionic compounds are electrically neutral overall.", "A covalent molecule has a fixed number of each kind of atom.", "The formula of magnesium chloride is MgCl2 because Mg is divalent."],
         "a": 1,
         "why": "A covalent molecule has a fixed number of each kind of atom."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सहसंयोजक यौगिकों के अणु' से मेल खाता है?",
+        "q": "'सहसंयोजक यौगिकों के अणु' के बारे में कौन-सा कथन सही है?",
         "options": ["आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।", "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।", "मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।"],
         "a": 1,
         "why": "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।"
@@ -6903,12 +6336,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Molecules of covalent compounds?",
-        "options": ["Ionic compounds are electrically neutral overall.", "A covalent molecule has a fixed number of each kind of atom.", "The formula of magnesium chloride is MgCl2 because Mg is divalent."],
-        "a": 1,
-        "why": "A covalent molecule has a fixed number of each kind of atom."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6920,8 +6347,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_6",
       "section": "9.6",
@@ -6936,13 +6362,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Ions and ionic compounds?",
+        "q": "Which statement is correct about Ions and ionic compounds?",
         "options": ["The formula of magnesium chloride is MgCl2 because Mg is divalent.", "The molecular mass of water is 18 u.", "Ionic compounds are electrically neutral overall."],
         "a": 2,
         "why": "Ionic compounds are electrically neutral overall."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आयन और आयनिक यौगिक' से मेल खाता है?",
+        "q": "'आयन और आयनिक यौगिक' के बारे में कौन-सा कथन सही है?",
         "options": ["मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।", "जल का अणु द्रव्यमान 18 u है।", "आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।"],
         "a": 2,
         "why": "आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।"
@@ -6964,12 +6390,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Ions and ionic compounds?",
-        "options": ["The formula of magnesium chloride is MgCl2 because Mg is divalent.", "The molecular mass of water is 18 u.", "Ionic compounds are electrically neutral overall."],
-        "a": 2,
-        "why": "Ionic compounds are electrically neutral overall."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -6981,8 +6401,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_7",
       "section": "9.7",
@@ -6997,13 +6416,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Writing chemical formulae?",
+        "q": "Which statement is correct about Writing chemical formulae?",
         "options": ["The formula of magnesium chloride is MgCl2 because Mg is divalent.", "The molecular mass of water is 18 u.", "NaCl has a formula unit mass of 58.5 u."],
         "a": 0,
         "why": "The formula of magnesium chloride is MgCl2 because Mg is divalent."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'रासायनिक सूत्र लिखना' से मेल खाता है?",
+        "q": "'रासायनिक सूत्र लिखना' के बारे में कौन-सा कथन सही है?",
         "options": ["मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।", "जल का अणु द्रव्यमान 18 u है।", "NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।"],
         "a": 0,
         "why": "मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।"
@@ -7025,12 +6444,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Writing chemical formulae?",
-        "options": ["The formula of magnesium chloride is MgCl2 because Mg is divalent.", "The molecular mass of water is 18 u.", "NaCl has a formula unit mass of 58.5 u."],
-        "a": 0,
-        "why": "The formula of magnesium chloride is MgCl2 because Mg is divalent."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7042,8 +6455,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_8",
       "section": "9.8",
@@ -7058,13 +6470,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Molecular mass?",
+        "q": "Which statement is correct about Molecular mass?",
         "options": ["NaCl has a formula unit mass of 58.5 u.", "The molecular mass of water is 18 u.", "Atoms are rearranged, not created or destroyed, in a reaction."],
         "a": 1,
         "why": "The molecular mass of water is 18 u."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अणु द्रव्यमान' से मेल खाता है?",
+        "q": "'अणु द्रव्यमान' के बारे में कौन-सा कथन सही है?",
         "options": ["NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।", "जल का अणु द्रव्यमान 18 u है।", "अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।"],
         "a": 1,
         "why": "जल का अणु द्रव्यमान 18 u है।"
@@ -7086,12 +6498,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Molecular mass?",
-        "options": ["NaCl has a formula unit mass of 58.5 u.", "The molecular mass of water is 18 u.", "Atoms are rearranged, not created or destroyed, in a reaction."],
-        "a": 1,
-        "why": "The molecular mass of water is 18 u."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7103,8 +6509,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_atomic_foundations_9_9",
       "section": "9.9",
@@ -7119,13 +6524,13 @@
         "note": "द्रव्यमान संरक्षण और निश्चित अनुपात"
       },
       "predict": {
-        "q": "Which statement belongs to Formula unit mass?",
+        "q": "Which statement is correct about Formula unit mass?",
         "options": ["Atoms are rearranged, not created or destroyed, in a reaction.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "NaCl has a formula unit mass of 58.5 u."],
         "a": 2,
         "why": "NaCl has a formula unit mass of 58.5 u."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सूत्र इकाई द्रव्यमान' से मेल खाता है?",
+        "q": "'सूत्र इकाई द्रव्यमान' के बारे में कौन-सा कथन सही है?",
         "options": ["अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।", "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।", "NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।"],
         "a": 2,
         "why": "NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।"
@@ -7147,12 +6552,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Formula unit mass?",
-        "options": ["Atoms are rearranged, not created or destroyed, in a reaction.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "NaCl has a formula unit mass of 58.5 u."],
-        "a": 2,
-        "why": "NaCl has a formula unit mass of 58.5 u."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7164,8 +6563,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_atomic_foundations"] = {
       "id": "c9_atomic_foundations",
@@ -7297,93 +6695,93 @@
         "desc": "NaCl has a formula unit mass of 58.5 u."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Law of conservation of mass?",
+        "q": "Which statement is correct about Law of conservation of mass?",
         "options": ["Atoms are rearranged, not created or destroyed, in a reaction.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "Dalton's theory explained both laws of chemical combination."],
         "a": 0,
         "why": "Atoms are rearranged, not created or destroyed, in a reaction."
       }, {
-        "q": "Which statement belongs to Law of constant proportion?",
+        "q": "Which statement is correct about Law of constant proportion?",
         "options": ["Dalton's theory explained both laws of chemical combination.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "Oxygen gas exists as diatomic O2 molecules."],
         "a": 1,
         "why": "Water always has hydrogen and oxygen in a 1 to 8 mass ratio."
       }, {
-        "q": "Which statement belongs to Dalton's atomic theory?",
+        "q": "Which statement is correct about Dalton's atomic theory?",
         "options": ["Oxygen gas exists as diatomic O2 molecules.", "A covalent molecule has a fixed number of each kind of atom.", "Dalton's theory explained both laws of chemical combination."],
         "a": 2,
         "why": "Dalton's theory explained both laws of chemical combination."
       }, {
-        "q": "Which statement belongs to Molecules of elements?",
+        "q": "Which statement is correct about Molecules of elements?",
         "options": ["Oxygen gas exists as diatomic O2 molecules.", "A covalent molecule has a fixed number of each kind of atom.", "Ionic compounds are electrically neutral overall."],
         "a": 0,
         "why": "Oxygen gas exists as diatomic O2 molecules."
       }, {
-        "q": "Which statement belongs to Molecules of covalent compounds?",
+        "q": "Which statement is correct about Molecules of covalent compounds?",
         "options": ["Ionic compounds are electrically neutral overall.", "A covalent molecule has a fixed number of each kind of atom.", "The formula of magnesium chloride is MgCl2 because Mg is divalent."],
         "a": 1,
         "why": "A covalent molecule has a fixed number of each kind of atom."
       }, {
-        "q": "Which statement belongs to Ions and ionic compounds?",
+        "q": "Which statement is correct about Ions and ionic compounds?",
         "options": ["The formula of magnesium chloride is MgCl2 because Mg is divalent.", "The molecular mass of water is 18 u.", "Ionic compounds are electrically neutral overall."],
         "a": 2,
         "why": "Ionic compounds are electrically neutral overall."
       }, {
-        "q": "Which statement belongs to Writing chemical formulae?",
+        "q": "Which statement is correct about Writing chemical formulae?",
         "options": ["The formula of magnesium chloride is MgCl2 because Mg is divalent.", "The molecular mass of water is 18 u.", "NaCl has a formula unit mass of 58.5 u."],
         "a": 0,
         "why": "The formula of magnesium chloride is MgCl2 because Mg is divalent."
       }, {
-        "q": "Which statement belongs to Molecular mass?",
+        "q": "Which statement is correct about Molecular mass?",
         "options": ["NaCl has a formula unit mass of 58.5 u.", "The molecular mass of water is 18 u.", "Atoms are rearranged, not created or destroyed, in a reaction."],
         "a": 1,
         "why": "The molecular mass of water is 18 u."
       }, {
-        "q": "Which statement belongs to Formula unit mass?",
+        "q": "Which statement is correct about Formula unit mass?",
         "options": ["Atoms are rearranged, not created or destroyed, in a reaction.", "Water always has hydrogen and oxygen in a 1 to 8 mass ratio.", "NaCl has a formula unit mass of 58.5 u."],
         "a": 2,
         "why": "NaCl has a formula unit mass of 58.5 u."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'द्रव्यमान संरक्षण का नियम' से मेल खाता है?",
+        "q": "'द्रव्यमान संरक्षण का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।", "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।", "डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।"],
         "a": 0,
         "why": "अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।"
       }, {
-        "q": "कौन-सा कथन 'निश्चित अनुपात का नियम' से मेल खाता है?",
+        "q": "'निश्चित अनुपात का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।", "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।", "ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।"],
         "a": 1,
         "why": "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।"
       }, {
-        "q": "कौन-सा कथन 'डाल्टन का परमाणु सिद्धान्त' से मेल खाता है?",
+        "q": "'डाल्टन का परमाणु सिद्धान्त' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।", "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।", "डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।"],
         "a": 2,
         "why": "डाल्टन के सिद्धान्त ने संयोजन के दोनों नियमों की व्याख्या की।"
       }, {
-        "q": "कौन-सा कथन 'तत्वों के अणु' से मेल खाता है?",
+        "q": "'तत्वों के अणु' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।", "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।", "आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।"],
         "a": 0,
         "why": "ऑक्सीजन गैस द्विपरमाणुक O2 अणुओं के रूप में रहती है।"
       }, {
-        "q": "कौन-सा कथन 'सहसंयोजक यौगिकों के अणु' से मेल खाता है?",
+        "q": "'सहसंयोजक यौगिकों के अणु' के बारे में कौन-सा कथन सही है?",
         "options": ["आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।", "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।", "मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।"],
         "a": 1,
         "why": "सहसंयोजक अणु में हर प्रकार के परमाणुओं की संख्या निश्चित होती है।"
       }, {
-        "q": "कौन-सा कथन 'आयन और आयनिक यौगिक' से मेल खाता है?",
+        "q": "'आयन और आयनिक यौगिक' के बारे में कौन-सा कथन सही है?",
         "options": ["मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।", "जल का अणु द्रव्यमान 18 u है।", "आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।"],
         "a": 2,
         "why": "आयनिक यौगिक समग्र रूप से विद्युत उदासीन होते हैं।"
       }, {
-        "q": "कौन-सा कथन 'रासायनिक सूत्र लिखना' से मेल खाता है?",
+        "q": "'रासायनिक सूत्र लिखना' के बारे में कौन-सा कथन सही है?",
         "options": ["मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।", "जल का अणु द्रव्यमान 18 u है।", "NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।"],
         "a": 0,
         "why": "मैग्नीशियम क्लोराइड का सूत्र MgCl2 है क्योंकि Mg द्विसंयोजी है।"
       }, {
-        "q": "कौन-सा कथन 'अणु द्रव्यमान' से मेल खाता है?",
+        "q": "'अणु द्रव्यमान' के बारे में कौन-सा कथन सही है?",
         "options": ["NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।", "जल का अणु द्रव्यमान 18 u है।", "अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।"],
         "a": 1,
         "why": "जल का अणु द्रव्यमान 18 u है।"
       }, {
-        "q": "कौन-सा कथन 'सूत्र इकाई द्रव्यमान' से मेल खाता है?",
+        "q": "'सूत्र इकाई द्रव्यमान' के बारे में कौन-सा कथन सही है?",
         "options": ["अभिक्रिया में परमाणु पुनर्व्यवस्थित होते हैं, बनते या नष्ट नहीं होते।", "जल में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात सदा 1 से 8 है।", "NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।"],
         "a": 2,
         "why": "NaCl का सूत्र इकाई द्रव्यमान 58.5 u है।"
@@ -7405,13 +6803,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Sound is produced by vibration?",
+        "q": "Which statement is correct about Sound is produced by vibration?",
         "options": ["A vibrating tuning fork produces sound until its prongs stop moving.", "No sound reaches us from a ringing bell inside an evacuated jar.", "Compressions are high-pressure regions and rarefactions low-pressure ones."],
         "a": 0,
         "why": "A vibrating tuning fork produces sound until its prongs stop moving."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ध्वनि कम्पन से उत्पन्न होती है' से मेल खाता है?",
+        "q": "'ध्वनि कम्पन से उत्पन्न होती है' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।", "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।", "संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।"],
         "a": 0,
         "why": "स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।"
@@ -7433,12 +6831,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Sound is produced by vibration?",
-        "options": ["A vibrating tuning fork produces sound until its prongs stop moving.", "No sound reaches us from a ringing bell inside an evacuated jar.", "Compressions are high-pressure regions and rarefactions low-pressure ones."],
-        "a": 0,
-        "why": "A vibrating tuning fork produces sound until its prongs stop moving."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7450,8 +6842,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_2",
       "section": "10.2",
@@ -7466,13 +6857,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Sound needs a material medium?",
+        "q": "Which statement is correct about Sound needs a material medium?",
         "options": ["Compressions are high-pressure regions and rarefactions low-pressure ones.", "No sound reaches us from a ringing bell inside an evacuated jar.", "The peak of the wave graph is a crest and the low point a trough."],
         "a": 1,
         "why": "No sound reaches us from a ringing bell inside an evacuated jar."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ध्वनि को माध्यम चाहिए' से मेल खाता है?",
+        "q": "'ध्वनि को माध्यम चाहिए' के बारे में कौन-सा कथन सही है?",
         "options": ["संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।", "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।", "तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।"],
         "a": 1,
         "why": "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।"
@@ -7494,12 +6885,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Sound needs a material medium?",
-        "options": ["Compressions are high-pressure regions and rarefactions low-pressure ones.", "No sound reaches us from a ringing bell inside an evacuated jar.", "The peak of the wave graph is a crest and the low point a trough."],
-        "a": 1,
-        "why": "No sound reaches us from a ringing bell inside an evacuated jar."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7511,8 +6896,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_3",
       "section": "10.3",
@@ -7527,13 +6911,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Longitudinal propagation and compressions?",
+        "q": "Which statement is correct about Longitudinal propagation and compressions?",
         "options": ["The peak of the wave graph is a crest and the low point a trough.", "Frequency and time period are reciprocals, T = 1/f.", "Compressions are high-pressure regions and rarefactions low-pressure ones."],
         "a": 2,
         "why": "Compressions are high-pressure regions and rarefactions low-pressure ones."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अनुदैर्घ्य संचरण और संपीडन' से मेल खाता है?",
+        "q": "'अनुदैर्घ्य संचरण और संपीडन' के बारे में कौन-सा कथन सही है?",
         "options": ["तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।", "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।", "संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।"],
         "a": 2,
         "why": "संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।"
@@ -7555,12 +6939,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Longitudinal propagation and compressions?",
-        "options": ["The peak of the wave graph is a crest and the low point a trough.", "Frequency and time period are reciprocals, T = 1/f.", "Compressions are high-pressure regions and rarefactions low-pressure ones."],
-        "a": 2,
-        "why": "Compressions are high-pressure regions and rarefactions low-pressure ones."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7572,8 +6950,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_4",
       "section": "10.4",
@@ -7588,13 +6965,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Graphical representation of a sound wave?",
+        "q": "Which statement is correct about Graphical representation of a sound wave?",
         "options": ["The peak of the wave graph is a crest and the low point a trough.", "Frequency and time period are reciprocals, T = 1/f.", "Loudness depends on amplitude while pitch depends on frequency."],
         "a": 0,
         "why": "The peak of the wave graph is a crest and the low point a trough."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ध्वनि तरंग का आलेखीय निरूपण' से मेल खाता है?",
+        "q": "'ध्वनि तरंग का आलेखीय निरूपण' के बारे में कौन-सा कथन सही है?",
         "options": ["तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।", "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।", "प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।"],
         "a": 0,
         "why": "तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।"
@@ -7616,12 +6993,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Graphical representation of a sound wave?",
-        "options": ["The peak of the wave graph is a crest and the low point a trough.", "Frequency and time period are reciprocals, T = 1/f.", "Loudness depends on amplitude while pitch depends on frequency."],
-        "a": 0,
-        "why": "The peak of the wave graph is a crest and the low point a trough."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7633,8 +7004,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_5",
       "section": "10.5",
@@ -7649,13 +7019,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Wavelength, frequency and time period?",
+        "q": "Which statement is correct about Wavelength, frequency and time period?",
         "options": ["Loudness depends on amplitude while pitch depends on frequency.", "Frequency and time period are reciprocals, T = 1/f.", "At 340 m/s a 170 Hz tone has a wavelength of 2 metres."],
         "a": 1,
         "why": "Frequency and time period are reciprocals, T = 1/f."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'तरंगदैर्घ्य, आवृत्ति और आवर्तकाल' से मेल खाता है?",
+        "q": "'तरंगदैर्घ्य, आवृत्ति और आवर्तकाल' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।", "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।", "340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।"],
         "a": 1,
         "why": "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।"
@@ -7677,12 +7047,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Wavelength, frequency and time period?",
-        "options": ["Loudness depends on amplitude while pitch depends on frequency.", "Frequency and time period are reciprocals, T = 1/f.", "At 340 m/s a 170 Hz tone has a wavelength of 2 metres."],
-        "a": 1,
-        "why": "Frequency and time period are reciprocals, T = 1/f."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7694,8 +7058,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_6",
       "section": "10.6",
@@ -7710,13 +7073,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Amplitude, intensity and speed?",
+        "q": "Which statement is correct about Amplitude, intensity and speed?",
         "options": ["At 340 m/s a 170 Hz tone has a wavelength of 2 metres.", "Sound travels about fifteen times faster in steel than in air.", "Loudness depends on amplitude while pitch depends on frequency."],
         "a": 2,
         "why": "Loudness depends on amplitude while pitch depends on frequency."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आयाम, तीव्रता और चाल' से मेल खाता है?",
+        "q": "'आयाम, तीव्रता और चाल' के बारे में कौन-सा कथन सही है?",
         "options": ["340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।", "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।", "प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।"],
         "a": 2,
         "why": "प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।"
@@ -7738,12 +7101,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Amplitude, intensity and speed?",
-        "options": ["At 340 m/s a 170 Hz tone has a wavelength of 2 metres.", "Sound travels about fifteen times faster in steel than in air.", "Loudness depends on amplitude while pitch depends on frequency."],
-        "a": 2,
-        "why": "Loudness depends on amplitude while pitch depends on frequency."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7755,8 +7112,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_7",
       "section": "10.7",
@@ -7771,13 +7127,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Wave speed v = fλ?",
+        "q": "Which statement is correct about Wave speed v = fλ?",
         "options": ["At 340 m/s a 170 Hz tone has a wavelength of 2 metres.", "Sound travels about fifteen times faster in steel than in air.", "A reflected sound heard after 0.1 s or more is called an echo."],
         "a": 0,
         "why": "At 340 m/s a 170 Hz tone has a wavelength of 2 metres."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'तरंग चाल v = fλ' से मेल खाता है?",
+        "q": "'तरंग चाल v = fλ' के बारे में कौन-सा कथन सही है?",
         "options": ["340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।", "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।", "0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।"],
         "a": 0,
         "why": "340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।"
@@ -7799,12 +7155,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Wave speed v = fλ?",
-        "options": ["At 340 m/s a 170 Hz tone has a wavelength of 2 metres.", "Sound travels about fifteen times faster in steel than in air.", "A reflected sound heard after 0.1 s or more is called an echo."],
-        "a": 0,
-        "why": "At 340 m/s a 170 Hz tone has a wavelength of 2 metres."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7816,8 +7166,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_8",
       "section": "10.8",
@@ -7832,13 +7181,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Sound in solids and liquids?",
+        "q": "Which statement is correct about Sound in solids and liquids?",
         "options": ["A reflected sound heard after 0.1 s or more is called an echo.", "Sound travels about fifteen times faster in steel than in air.", "Ultrasound above 20,000 Hz is used in medical imaging."],
         "a": 1,
         "why": "Sound travels about fifteen times faster in steel than in air."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ठोस और द्रव में ध्वनि' से मेल खाता है?",
+        "q": "'ठोस और द्रव में ध्वनि' के बारे में कौन-सा कथन सही है?",
         "options": ["0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।", "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।", "20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।"],
         "a": 1,
         "why": "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।"
@@ -7860,12 +7209,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Sound in solids and liquids?",
-        "options": ["A reflected sound heard after 0.1 s or more is called an echo.", "Sound travels about fifteen times faster in steel than in air.", "Ultrasound above 20,000 Hz is used in medical imaging."],
-        "a": 1,
-        "why": "Sound travels about fifteen times faster in steel than in air."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7877,8 +7220,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_9",
       "section": "10.9",
@@ -7893,13 +7235,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Reflection, echo and reverberation?",
+        "q": "Which statement is correct about Reflection, echo and reverberation?",
         "options": ["Ultrasound above 20,000 Hz is used in medical imaging.", "A vibrating tuning fork produces sound until its prongs stop moving.", "A reflected sound heard after 0.1 s or more is called an echo."],
         "a": 2,
         "why": "A reflected sound heard after 0.1 s or more is called an echo."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'परावर्तन, प्रतिध्वनि और अनुरणन' से मेल खाता है?",
+        "q": "'परावर्तन, प्रतिध्वनि और अनुरणन' के बारे में कौन-सा कथन सही है?",
         "options": ["20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।", "स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।", "0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।"],
         "a": 2,
         "why": "0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।"
@@ -7921,12 +7263,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Reflection, echo and reverberation?",
-        "options": ["Ultrasound above 20,000 Hz is used in medical imaging.", "A vibrating tuning fork produces sound until its prongs stop moving.", "A reflected sound heard after 0.1 s or more is called an echo."],
-        "a": 2,
-        "why": "A reflected sound heard after 0.1 s or more is called an echo."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7938,8 +7274,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_sound_10_10",
       "section": "10.10",
@@ -7954,13 +7289,13 @@
         "note": "वेग, आवृत्ति, तरंगदैर्घ्य और आवर्तकाल"
       },
       "predict": {
-        "q": "Which statement belongs to Pitch, loudness and echolocation?",
+        "q": "Which statement is correct about Pitch, loudness and echolocation?",
         "options": ["Ultrasound above 20,000 Hz is used in medical imaging.", "A vibrating tuning fork produces sound until its prongs stop moving.", "No sound reaches us from a ringing bell inside an evacuated jar."],
         "a": 0,
         "why": "Ultrasound above 20,000 Hz is used in medical imaging."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'तारत्व, प्रबलता और प्रतिध्वनि-स्थिति' से मेल खाता है?",
+        "q": "'तारत्व, प्रबलता और प्रतिध्वनि-स्थिति' के बारे में कौन-सा कथन सही है?",
         "options": ["20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।", "स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।", "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।"],
         "a": 0,
         "why": "20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।"
@@ -7982,12 +7317,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Pitch, loudness and echolocation?",
-        "options": ["Ultrasound above 20,000 Hz is used in medical imaging.", "A vibrating tuning fork produces sound until its prongs stop moving.", "No sound reaches us from a ringing bell inside an evacuated jar."],
-        "a": 0,
-        "why": "Ultrasound above 20,000 Hz is used in medical imaging."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -7999,8 +7328,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_sound"] = {
       "id": "c9_sound",
@@ -8145,103 +7473,103 @@
         "desc": "Ultrasound above 20,000 Hz is used in medical imaging."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Sound is produced by vibration?",
+        "q": "Which statement is correct about Sound is produced by vibration?",
         "options": ["A vibrating tuning fork produces sound until its prongs stop moving.", "No sound reaches us from a ringing bell inside an evacuated jar.", "Compressions are high-pressure regions and rarefactions low-pressure ones."],
         "a": 0,
         "why": "A vibrating tuning fork produces sound until its prongs stop moving."
       }, {
-        "q": "Which statement belongs to Sound needs a material medium?",
+        "q": "Which statement is correct about Sound needs a material medium?",
         "options": ["Compressions are high-pressure regions and rarefactions low-pressure ones.", "No sound reaches us from a ringing bell inside an evacuated jar.", "The peak of the wave graph is a crest and the low point a trough."],
         "a": 1,
         "why": "No sound reaches us from a ringing bell inside an evacuated jar."
       }, {
-        "q": "Which statement belongs to Longitudinal propagation and compressions?",
+        "q": "Which statement is correct about Longitudinal propagation and compressions?",
         "options": ["The peak of the wave graph is a crest and the low point a trough.", "Frequency and time period are reciprocals, T = 1/f.", "Compressions are high-pressure regions and rarefactions low-pressure ones."],
         "a": 2,
         "why": "Compressions are high-pressure regions and rarefactions low-pressure ones."
       }, {
-        "q": "Which statement belongs to Graphical representation of a sound wave?",
+        "q": "Which statement is correct about Graphical representation of a sound wave?",
         "options": ["The peak of the wave graph is a crest and the low point a trough.", "Frequency and time period are reciprocals, T = 1/f.", "Loudness depends on amplitude while pitch depends on frequency."],
         "a": 0,
         "why": "The peak of the wave graph is a crest and the low point a trough."
       }, {
-        "q": "Which statement belongs to Wavelength, frequency and time period?",
+        "q": "Which statement is correct about Wavelength, frequency and time period?",
         "options": ["Loudness depends on amplitude while pitch depends on frequency.", "Frequency and time period are reciprocals, T = 1/f.", "At 340 m/s a 170 Hz tone has a wavelength of 2 metres."],
         "a": 1,
         "why": "Frequency and time period are reciprocals, T = 1/f."
       }, {
-        "q": "Which statement belongs to Amplitude, intensity and speed?",
+        "q": "Which statement is correct about Amplitude, intensity and speed?",
         "options": ["At 340 m/s a 170 Hz tone has a wavelength of 2 metres.", "Sound travels about fifteen times faster in steel than in air.", "Loudness depends on amplitude while pitch depends on frequency."],
         "a": 2,
         "why": "Loudness depends on amplitude while pitch depends on frequency."
       }, {
-        "q": "Which statement belongs to Wave speed v = fλ?",
+        "q": "Which statement is correct about Wave speed v = fλ?",
         "options": ["At 340 m/s a 170 Hz tone has a wavelength of 2 metres.", "Sound travels about fifteen times faster in steel than in air.", "A reflected sound heard after 0.1 s or more is called an echo."],
         "a": 0,
         "why": "At 340 m/s a 170 Hz tone has a wavelength of 2 metres."
       }, {
-        "q": "Which statement belongs to Sound in solids and liquids?",
+        "q": "Which statement is correct about Sound in solids and liquids?",
         "options": ["A reflected sound heard after 0.1 s or more is called an echo.", "Sound travels about fifteen times faster in steel than in air.", "Ultrasound above 20,000 Hz is used in medical imaging."],
         "a": 1,
         "why": "Sound travels about fifteen times faster in steel than in air."
       }, {
-        "q": "Which statement belongs to Reflection, echo and reverberation?",
+        "q": "Which statement is correct about Reflection, echo and reverberation?",
         "options": ["Ultrasound above 20,000 Hz is used in medical imaging.", "A vibrating tuning fork produces sound until its prongs stop moving.", "A reflected sound heard after 0.1 s or more is called an echo."],
         "a": 2,
         "why": "A reflected sound heard after 0.1 s or more is called an echo."
       }, {
-        "q": "Which statement belongs to Pitch, loudness and echolocation?",
+        "q": "Which statement is correct about Pitch, loudness and echolocation?",
         "options": ["Ultrasound above 20,000 Hz is used in medical imaging.", "A vibrating tuning fork produces sound until its prongs stop moving.", "No sound reaches us from a ringing bell inside an evacuated jar."],
         "a": 0,
         "why": "Ultrasound above 20,000 Hz is used in medical imaging."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'ध्वनि कम्पन से उत्पन्न होती है' से मेल खाता है?",
+        "q": "'ध्वनि कम्पन से उत्पन्न होती है' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।", "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।", "संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।"],
         "a": 0,
         "why": "स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।"
       }, {
-        "q": "कौन-सा कथन 'ध्वनि को माध्यम चाहिए' से मेल खाता है?",
+        "q": "'ध्वनि को माध्यम चाहिए' के बारे में कौन-सा कथन सही है?",
         "options": ["संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।", "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।", "तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।"],
         "a": 1,
         "why": "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।"
       }, {
-        "q": "कौन-सा कथन 'अनुदैर्घ्य संचरण और संपीडन' से मेल खाता है?",
+        "q": "'अनुदैर्घ्य संचरण और संपीडन' के बारे में कौन-सा कथन सही है?",
         "options": ["तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।", "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।", "संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।"],
         "a": 2,
         "why": "संपीडन उच्च दाब और विरलन निम्न दाब के क्षेत्र हैं।"
       }, {
-        "q": "कौन-सा कथन 'ध्वनि तरंग का आलेखीय निरूपण' से मेल खाता है?",
+        "q": "'ध्वनि तरंग का आलेखीय निरूपण' के बारे में कौन-सा कथन सही है?",
         "options": ["तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।", "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।", "प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।"],
         "a": 0,
         "why": "तरंग आलेख का शिखर उत्थान और निम्न बिंदु गर्त कहलाता है।"
       }, {
-        "q": "कौन-सा कथन 'तरंगदैर्घ्य, आवृत्ति और आवर्तकाल' से मेल खाता है?",
+        "q": "'तरंगदैर्घ्य, आवृत्ति और आवर्तकाल' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।", "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।", "340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।"],
         "a": 1,
         "why": "आवृत्ति और आवर्तकाल व्युत्क्रम हैं, T = 1/f।"
       }, {
-        "q": "कौन-सा कथन 'आयाम, तीव्रता और चाल' से मेल खाता है?",
+        "q": "'आयाम, तीव्रता और चाल' के बारे में कौन-सा कथन सही है?",
         "options": ["340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।", "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।", "प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।"],
         "a": 2,
         "why": "प्रबलता आयाम पर और तारत्व आवृत्ति पर निर्भर करता है।"
       }, {
-        "q": "कौन-सा कथन 'तरंग चाल v = fλ' से मेल खाता है?",
+        "q": "'तरंग चाल v = fλ' के बारे में कौन-सा कथन सही है?",
         "options": ["340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।", "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।", "0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।"],
         "a": 0,
         "why": "340 मीटर प्रति सेकंड पर 170 हर्ट्ज़ स्वर का तरंगदैर्घ्य 2 मीटर है।"
       }, {
-        "q": "कौन-सा कथन 'ठोस और द्रव में ध्वनि' से मेल खाता है?",
+        "q": "'ठोस और द्रव में ध्वनि' के बारे में कौन-सा कथन सही है?",
         "options": ["0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।", "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।", "20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।"],
         "a": 1,
         "why": "ध्वनि इस्पात में वायु की तुलना में लगभग पंद्रह गुना तेज़ जाती है।"
       }, {
-        "q": "कौन-सा कथन 'परावर्तन, प्रतिध्वनि और अनुरणन' से मेल खाता है?",
+        "q": "'परावर्तन, प्रतिध्वनि और अनुरणन' के बारे में कौन-सा कथन सही है?",
         "options": ["20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।", "स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।", "0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।"],
         "a": 2,
         "why": "0.1 सेकंड या अधिक बाद सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है।"
       }, {
-        "q": "कौन-सा कथन 'तारत्व, प्रबलता और प्रतिध्वनि-स्थिति' से मेल खाता है?",
+        "q": "'तारत्व, प्रबलता और प्रतिध्वनि-स्थिति' के बारे में कौन-सा कथन सही है?",
         "options": ["20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।", "स्वरित्र-द्विभुज तब तक ध्वनि देता है जब तक उसकी भुजाएँ कम्पन करती हैं।", "निर्वातित घंटी-जार से कोई ध्वनि बाहर नहीं आती।"],
         "a": 0,
         "why": "20,000 हर्ट्ज़ से ऊपर की पराश्रव्य ध्वनि चिकित्सा चित्रण में प्रयोग होती है।"
@@ -8263,13 +7591,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Asexual reproduction?",
+        "q": "Which statement is correct about Asexual reproduction?",
         "options": ["Asexual reproduction needs only one parent and no gamete fusion.", "Spore formation lets fungi survive unfavourable conditions.", "Vegetative propagation gives plants identical to the parent."],
         "a": 0,
         "why": "Asexual reproduction needs only one parent and no gamete fusion."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अलैंगिक जनन' से मेल खाता है?",
+        "q": "'अलैंगिक जनन' के बारे में कौन-सा कथन सही है?",
         "options": ["अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।", "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।", "वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।"],
         "a": 0,
         "why": "अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।"
@@ -8291,12 +7619,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Asexual reproduction?",
-        "options": ["Asexual reproduction needs only one parent and no gamete fusion.", "Spore formation lets fungi survive unfavourable conditions.", "Vegetative propagation gives plants identical to the parent."],
-        "a": 0,
-        "why": "Asexual reproduction needs only one parent and no gamete fusion."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8308,8 +7630,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_2",
       "section": "11.2",
@@ -8324,13 +7645,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Budding, fragmentation and spores?",
+        "q": "Which statement is correct about Budding, fragmentation and spores?",
         "options": ["Vegetative propagation gives plants identical to the parent.", "Spore formation lets fungi survive unfavourable conditions.", "The carpel contains the ovary with ovules."],
         "a": 1,
         "why": "Spore formation lets fungi survive unfavourable conditions."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मुकुलन, खंडन और बीजाणु' से मेल खाता है?",
+        "q": "'मुकुलन, खंडन और बीजाणु' के बारे में कौन-सा कथन सही है?",
         "options": ["वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।", "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।", "स्त्रीकेसर में बीजांड सहित अंडाशय होता है।"],
         "a": 1,
         "why": "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।"
@@ -8352,12 +7673,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Budding, fragmentation and spores?",
-        "options": ["Vegetative propagation gives plants identical to the parent.", "Spore formation lets fungi survive unfavourable conditions.", "The carpel contains the ovary with ovules."],
-        "a": 1,
-        "why": "Spore formation lets fungi survive unfavourable conditions."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8369,8 +7684,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_3",
       "section": "11.3",
@@ -8385,13 +7699,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Vegetative propagation?",
+        "q": "Which statement is correct about Vegetative propagation?",
         "options": ["The carpel contains the ovary with ovules.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "Vegetative propagation gives plants identical to the parent."],
         "a": 2,
         "why": "Vegetative propagation gives plants identical to the parent."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वानस्पतिक प्रवर्धन' से मेल खाता है?",
+        "q": "'वानस्पतिक प्रवर्धन' के बारे में कौन-सा कथन सही है?",
         "options": ["स्त्रीकेसर में बीजांड सहित अंडाशय होता है।", "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।", "वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।"],
         "a": 2,
         "why": "वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।"
@@ -8413,12 +7727,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Vegetative propagation?",
-        "options": ["The carpel contains the ovary with ovules.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "Vegetative propagation gives plants identical to the parent."],
-        "a": 2,
-        "why": "Vegetative propagation gives plants identical to the parent."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8430,8 +7738,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_4",
       "section": "11.4",
@@ -8446,13 +7753,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Flower and its parts?",
+        "q": "Which statement is correct about Flower and its parts?",
         "options": ["The carpel contains the ovary with ovules.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "Dispersal reduces competition between parent and offspring."],
         "a": 0,
         "why": "The carpel contains the ovary with ovules."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पुष्प और उसके भाग' से मेल खाता है?",
+        "q": "'पुष्प और उसके भाग' के बारे में कौन-सा कथन सही है?",
         "options": ["स्त्रीकेसर में बीजांड सहित अंडाशय होता है।", "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।", "प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।"],
         "a": 0,
         "why": "स्त्रीकेसर में बीजांड सहित अंडाशय होता है।"
@@ -8474,12 +7781,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Flower and its parts?",
-        "options": ["The carpel contains the ovary with ovules.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "Dispersal reduces competition between parent and offspring."],
-        "a": 0,
-        "why": "The carpel contains the ovary with ovules."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8491,8 +7792,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_5",
       "section": "11.5",
@@ -8507,13 +7807,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Pollination and fertilisation in plants?",
+        "q": "Which statement is correct about Pollination and fertilisation in plants?",
         "options": ["Dispersal reduces competition between parent and offspring.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "The uterus is where the embryo implants and develops."],
         "a": 1,
         "why": "Double fertilisation produces the embryo and endosperm in flowering plants."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पादपों में परागण और निषेचन' से मेल खाता है?",
+        "q": "'पादपों में परागण और निषेचन' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।", "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।", "गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।"],
         "a": 1,
         "why": "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।"
@@ -8535,12 +7835,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Pollination and fertilisation in plants?",
-        "options": ["Dispersal reduces competition between parent and offspring.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "The uterus is where the embryo implants and develops."],
-        "a": 1,
-        "why": "Double fertilisation produces the embryo and endosperm in flowering plants."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8552,8 +7846,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_6",
       "section": "11.6",
@@ -8568,13 +7861,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Seed dispersal and germination?",
+        "q": "Which statement is correct about Seed dispersal and germination?",
         "options": ["The uterus is where the embryo implants and develops.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Dispersal reduces competition between parent and offspring."],
         "a": 2,
         "why": "Dispersal reduces competition between parent and offspring."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'बीज प्रकीर्णन और अंकुरण' से मेल खाता है?",
+        "q": "'बीज प्रकीर्णन और अंकुरण' के बारे में कौन-सा कथन सही है?",
         "options": ["गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।", "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।", "प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।"],
         "a": 2,
         "why": "प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।"
@@ -8596,12 +7889,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Seed dispersal and germination?",
-        "options": ["The uterus is where the embryo implants and develops.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Dispersal reduces competition between parent and offspring."],
-        "a": 2,
-        "why": "Dispersal reduces competition between parent and offspring."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8613,8 +7900,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_7",
       "section": "11.7",
@@ -8629,13 +7915,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Human male and female reproductive systems?",
+        "q": "Which statement is correct about Human male and female reproductive systems?",
         "options": ["The uterus is where the embryo implants and develops.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."],
         "a": 0,
         "why": "The uterus is where the embryo implants and develops."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव नर और मादा जनन तंत्र' से मेल खाता है?",
+        "q": "'मानव नर और मादा जनन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।", "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।", "जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।"],
         "a": 0,
         "why": "गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।"
@@ -8657,12 +7943,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Human male and female reproductive systems?",
-        "options": ["The uterus is where the embryo implants and develops.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."],
-        "a": 0,
-        "why": "The uterus is where the embryo implants and develops."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8674,8 +7954,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_8",
       "section": "11.8",
@@ -8690,13 +7969,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Gametes, menstrual cycle and pregnancy?",
+        "q": "Which statement is correct about Gametes, menstrual cycle and pregnancy?",
         "options": ["Birth control methods prevent pregnancy by blocking gamete meeting or implantation.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Asexual reproduction needs only one parent and no gamete fusion."],
         "a": 1,
         "why": "The placenta exchanges nutrients and wastes between mother and embryo."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'युग्मक, मासिक चक्र और गर्भावस्था' से मेल खाता है?",
+        "q": "'युग्मक, मासिक चक्र और गर्भावस्था' के बारे में कौन-सा कथन सही है?",
         "options": ["जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।", "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।", "अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।"],
         "a": 1,
         "why": "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।"
@@ -8718,12 +7997,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Gametes, menstrual cycle and pregnancy?",
-        "options": ["Birth control methods prevent pregnancy by blocking gamete meeting or implantation.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Asexual reproduction needs only one parent and no gamete fusion."],
-        "a": 1,
-        "why": "The placenta exchanges nutrients and wastes between mother and embryo."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8735,8 +8008,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_reproduction9_11_9",
       "section": "11.9",
@@ -8751,13 +8023,13 @@
         "note": "युग्मक से संतति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Reproductive health, hygiene and birth control?",
+        "q": "Which statement is correct about Reproductive health, hygiene and birth control?",
         "options": ["Asexual reproduction needs only one parent and no gamete fusion.", "Spore formation lets fungi survive unfavourable conditions.", "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."],
         "a": 2,
         "why": "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जनन स्वास्थ्य, स्वच्छता और जन्म नियंत्रन' से मेल खाता है?",
+        "q": "'जनन स्वास्थ्य, स्वच्छता और जन्म नियंत्रन' के बारे में कौन-सा कथन सही है?",
         "options": ["अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।", "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।", "जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।"],
         "a": 2,
         "why": "जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।"
@@ -8779,12 +8051,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Reproductive health, hygiene and birth control?",
-        "options": ["Asexual reproduction needs only one parent and no gamete fusion.", "Spore formation lets fungi survive unfavourable conditions.", "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."],
-        "a": 2,
-        "why": "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -8796,8 +8062,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_reproduction9"] = {
       "id": "c9_reproduction9",
@@ -8929,93 +8194,93 @@
         "desc": "Birth control methods prevent pregnancy by blocking gamete meeting or "
       }],
       "quiz": [{
-        "q": "Which statement belongs to Asexual reproduction?",
+        "q": "Which statement is correct about Asexual reproduction?",
         "options": ["Asexual reproduction needs only one parent and no gamete fusion.", "Spore formation lets fungi survive unfavourable conditions.", "Vegetative propagation gives plants identical to the parent."],
         "a": 0,
         "why": "Asexual reproduction needs only one parent and no gamete fusion."
       }, {
-        "q": "Which statement belongs to Budding, fragmentation and spores?",
+        "q": "Which statement is correct about Budding, fragmentation and spores?",
         "options": ["Vegetative propagation gives plants identical to the parent.", "Spore formation lets fungi survive unfavourable conditions.", "The carpel contains the ovary with ovules."],
         "a": 1,
         "why": "Spore formation lets fungi survive unfavourable conditions."
       }, {
-        "q": "Which statement belongs to Vegetative propagation?",
+        "q": "Which statement is correct about Vegetative propagation?",
         "options": ["The carpel contains the ovary with ovules.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "Vegetative propagation gives plants identical to the parent."],
         "a": 2,
         "why": "Vegetative propagation gives plants identical to the parent."
       }, {
-        "q": "Which statement belongs to Flower and its parts?",
+        "q": "Which statement is correct about Flower and its parts?",
         "options": ["The carpel contains the ovary with ovules.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "Dispersal reduces competition between parent and offspring."],
         "a": 0,
         "why": "The carpel contains the ovary with ovules."
       }, {
-        "q": "Which statement belongs to Pollination and fertilisation in plants?",
+        "q": "Which statement is correct about Pollination and fertilisation in plants?",
         "options": ["Dispersal reduces competition between parent and offspring.", "Double fertilisation produces the embryo and endosperm in flowering plants.", "The uterus is where the embryo implants and develops."],
         "a": 1,
         "why": "Double fertilisation produces the embryo and endosperm in flowering plants."
       }, {
-        "q": "Which statement belongs to Seed dispersal and germination?",
+        "q": "Which statement is correct about Seed dispersal and germination?",
         "options": ["The uterus is where the embryo implants and develops.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Dispersal reduces competition between parent and offspring."],
         "a": 2,
         "why": "Dispersal reduces competition between parent and offspring."
       }, {
-        "q": "Which statement belongs to Human male and female reproductive systems?",
+        "q": "Which statement is correct about Human male and female reproductive systems?",
         "options": ["The uterus is where the embryo implants and develops.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."],
         "a": 0,
         "why": "The uterus is where the embryo implants and develops."
       }, {
-        "q": "Which statement belongs to Gametes, menstrual cycle and pregnancy?",
+        "q": "Which statement is correct about Gametes, menstrual cycle and pregnancy?",
         "options": ["Birth control methods prevent pregnancy by blocking gamete meeting or implantation.", "The placenta exchanges nutrients and wastes between mother and embryo.", "Asexual reproduction needs only one parent and no gamete fusion."],
         "a": 1,
         "why": "The placenta exchanges nutrients and wastes between mother and embryo."
       }, {
-        "q": "Which statement belongs to Reproductive health, hygiene and birth control?",
+        "q": "Which statement is correct about Reproductive health, hygiene and birth control?",
         "options": ["Asexual reproduction needs only one parent and no gamete fusion.", "Spore formation lets fungi survive unfavourable conditions.", "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."],
         "a": 2,
         "why": "Birth control methods prevent pregnancy by blocking gamete meeting or implantation."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'अलैंगिक जनन' से मेल खाता है?",
+        "q": "'अलैंगिक जनन' के बारे में कौन-सा कथन सही है?",
         "options": ["अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।", "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।", "वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।"],
         "a": 0,
         "why": "अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।"
       }, {
-        "q": "कौन-सा कथन 'मुकुलन, खंडन और बीजाणु' से मेल खाता है?",
+        "q": "'मुकुलन, खंडन और बीजाणु' के बारे में कौन-सा कथन सही है?",
         "options": ["वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।", "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।", "स्त्रीकेसर में बीजांड सहित अंडाशय होता है।"],
         "a": 1,
         "why": "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।"
       }, {
-        "q": "कौन-सा कथन 'वानस्पतिक प्रवर्धन' से मेल खाता है?",
+        "q": "'वानस्पतिक प्रवर्धन' के बारे में कौन-सा कथन सही है?",
         "options": ["स्त्रीकेसर में बीजांड सहित अंडाशय होता है।", "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।", "वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।"],
         "a": 2,
         "why": "वानस्पतिक प्रवर्धन से जनक के समान पौधे मिलते हैं।"
       }, {
-        "q": "कौन-सा कथन 'पुष्प और उसके भाग' से मेल खाता है?",
+        "q": "'पुष्प और उसके भाग' के बारे में कौन-सा कथन सही है?",
         "options": ["स्त्रीकेसर में बीजांड सहित अंडाशय होता है।", "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।", "प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।"],
         "a": 0,
         "why": "स्त्रीकेसर में बीजांड सहित अंडाशय होता है।"
       }, {
-        "q": "कौन-सा कथन 'पादपों में परागण और निषेचन' से मेल खाता है?",
+        "q": "'पादपों में परागण और निषेचन' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।", "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।", "गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।"],
         "a": 1,
         "why": "द्वि-निषेचन से पुष्पी पादपों में भ्रूण और भ्रूणपोष बनते हैं।"
       }, {
-        "q": "कौन-सा कथन 'बीज प्रकीर्णन और अंकुरण' से मेल खाता है?",
+        "q": "'बीज प्रकीर्णन और अंकुरण' के बारे में कौन-सा कथन सही है?",
         "options": ["गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।", "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।", "प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।"],
         "a": 2,
         "why": "प्रकीर्णन से जनक और संतति के बीच प्रतिस्पर्धा घटती है।"
       }, {
-        "q": "कौन-सा कथन 'मानव नर और मादा जनन तंत्र' से मेल खाता है?",
+        "q": "'मानव नर और मादा जनन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।", "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।", "जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।"],
         "a": 0,
         "why": "गर्भाशय में भ्रूण स्थापित होकर विकसित होता है।"
       }, {
-        "q": "कौन-सा कथन 'युग्मक, मासिक चक्र और गर्भावस्था' से मेल खाता है?",
+        "q": "'युग्मक, मासिक चक्र और गर्भावस्था' के बारे में कौन-सा कथन सही है?",
         "options": ["जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।", "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।", "अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।"],
         "a": 1,
         "why": "अपरा माँ और भ्रूण के बीच पोषक तत्व और अपशिष्ट का आदान-प्रदान करती है।"
       }, {
-        "q": "कौन-सा कथन 'जनन स्वास्थ्य, स्वच्छता और जन्म नियंत्रन' से मेल खाता है?",
+        "q": "'जनन स्वास्थ्य, स्वच्छता और जन्म नियंत्रन' के बारे में कौन-सा कथन सही है?",
         "options": ["अलैंगिक जनन में एक जनक और युग्मक संलयन नहीं होता।", "बीजाणु निर्माण से कवक प्रतिकूल परिस्थिति में जीवित रहते हैं।", "जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।"],
         "a": 2,
         "why": "जन्म नियंत्रण युग्मक मिलन या स्थापना रोककर गर्भावस्था रोकता है।"
@@ -9037,13 +8302,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Why classification is needed?",
+        "q": "Which statement is correct about Why classification is needed?",
         "options": ["Grouping by shared characters reveals evolutionary relationships.", "Monera contains prokaryotic organisms without a true nucleus.", "Fungi have chitin cell walls and absorb nutrients from dead matter."],
         "a": 0,
         "why": "Grouping by shared characters reveals evolutionary relationships."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वर्गीकरण क्यों आवश्यक है' से मेल खाता है?",
+        "q": "'वर्गीकरण क्यों आवश्यक है' के बारे में कौन-सा कथन सही है?",
         "options": ["साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।", "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।", "कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।"],
         "a": 0,
         "why": "साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।"
@@ -9065,12 +8330,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Why classification is needed?",
-        "options": ["Grouping by shared characters reveals evolutionary relationships.", "Monera contains prokaryotic organisms without a true nucleus.", "Fungi have chitin cell walls and absorb nutrients from dead matter."],
-        "a": 0,
-        "why": "Grouping by shared characters reveals evolutionary relationships."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9082,8 +8341,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_diversity_12_2",
       "section": "12.2",
@@ -9098,13 +8356,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Five kingdoms and their features?",
+        "q": "Which statement is correct about Five kingdoms and their features?",
         "options": ["Fungi have chitin cell walls and absorb nutrients from dead matter.", "Monera contains prokaryotic organisms without a true nucleus.", "Angiosperms bear flowers and seeds enclosed inside fruits."],
         "a": 1,
         "why": "Monera contains prokaryotic organisms without a true nucleus."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पाँच जगत और उनके लक्षण' से मेल खाता है?",
+        "q": "'पाँच जगत और उनके लक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।", "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।", "एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।"],
         "a": 1,
         "why": "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।"
@@ -9126,12 +8384,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Five kingdoms and their features?",
-        "options": ["Fungi have chitin cell walls and absorb nutrients from dead matter.", "Monera contains prokaryotic organisms without a true nucleus.", "Angiosperms bear flowers and seeds enclosed inside fruits."],
-        "a": 1,
-        "why": "Monera contains prokaryotic organisms without a true nucleus."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9143,8 +8395,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_diversity_12_3",
       "section": "12.3",
@@ -9159,13 +8410,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Monera, Protista and Fungi?",
+        "q": "Which statement is correct about Monera, Protista and Fungi?",
         "options": ["Angiosperms bear flowers and seeds enclosed inside fruits.", "Vertebrates possess a vertebral column and an internal skeleton.", "Fungi have chitin cell walls and absorb nutrients from dead matter."],
         "a": 2,
         "why": "Fungi have chitin cell walls and absorb nutrients from dead matter."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मोनेरा, प्रोटिस्टा और फंजाई' से मेल खाता है?",
+        "q": "'मोनेरा, प्रोटिस्टा और फंजाई' के बारे में कौन-सा कथन सही है?",
         "options": ["एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।", "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।", "कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।"],
         "a": 2,
         "why": "कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।"
@@ -9187,12 +8438,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Monera, Protista and Fungi?",
-        "options": ["Angiosperms bear flowers and seeds enclosed inside fruits.", "Vertebrates possess a vertebral column and an internal skeleton.", "Fungi have chitin cell walls and absorb nutrients from dead matter."],
-        "a": 2,
-        "why": "Fungi have chitin cell walls and absorb nutrients from dead matter."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9204,8 +8449,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_diversity_12_4",
       "section": "12.4",
@@ -9220,13 +8464,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Major divisions of plants?",
+        "q": "Which statement is correct about Major divisions of plants?",
         "options": ["Angiosperms bear flowers and seeds enclosed inside fruits.", "Vertebrates possess a vertebral column and an internal skeleton.", "In Homo sapiens, Homo is the genus and sapiens the specific epithet."],
         "a": 0,
         "why": "Angiosperms bear flowers and seeds enclosed inside fruits."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पादपों के प्रमुख विभाग' से मेल खाता है?",
+        "q": "'पादपों के प्रमुख विभाग' के बारे में कौन-सा कथन सही है?",
         "options": ["एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।", "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।", "Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।"],
         "a": 0,
         "why": "एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।"
@@ -9248,12 +8492,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Major divisions of plants?",
-        "options": ["Angiosperms bear flowers and seeds enclosed inside fruits.", "Vertebrates possess a vertebral column and an internal skeleton.", "In Homo sapiens, Homo is the genus and sapiens the specific epithet."],
-        "a": 0,
-        "why": "Angiosperms bear flowers and seeds enclosed inside fruits."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9265,8 +8503,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_diversity_12_5",
       "section": "12.5",
@@ -9281,13 +8518,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Major divisions of animals?",
+        "q": "Which statement is correct about Major divisions of animals?",
         "options": ["In Homo sapiens, Homo is the genus and sapiens the specific epithet.", "Vertebrates possess a vertebral column and an internal skeleton.", "Species is the basic and most specific taxonomic unit."],
         "a": 1,
         "why": "Vertebrates possess a vertebral column and an internal skeleton."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्राणियों के प्रमुख विभाग' से मेल खाता है?",
+        "q": "'प्राणियों के प्रमुख विभाग' के बारे में कौन-सा कथन सही है?",
         "options": ["Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।", "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।", "जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।"],
         "a": 1,
         "why": "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।"
@@ -9309,12 +8546,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Major divisions of animals?",
-        "options": ["In Homo sapiens, Homo is the genus and sapiens the specific epithet.", "Vertebrates possess a vertebral column and an internal skeleton.", "Species is the basic and most specific taxonomic unit."],
-        "a": 1,
-        "why": "Vertebrates possess a vertebral column and an internal skeleton."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9326,8 +8557,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_diversity_12_6",
       "section": "12.6",
@@ -9342,13 +8572,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Binomial nomenclature?",
+        "q": "Which statement is correct about Binomial nomenclature?",
         "options": ["Species is the basic and most specific taxonomic unit.", "Viruses are regarded as a boundary between living and non-living.", "In Homo sapiens, Homo is the genus and sapiens the specific epithet."],
         "a": 2,
         "why": "In Homo sapiens, Homo is the genus and sapiens the specific epithet."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'द्विनाम पद्धति' से मेल खाता है?",
+        "q": "'द्विनाम पद्धति' के बारे में कौन-सा कथन सही है?",
         "options": ["जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।", "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।", "Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।"],
         "a": 2,
         "why": "Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।"
@@ -9370,12 +8600,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Binomial nomenclature?",
-        "options": ["Species is the basic and most specific taxonomic unit.", "Viruses are regarded as a boundary between living and non-living.", "In Homo sapiens, Homo is the genus and sapiens the specific epithet."],
-        "a": 2,
-        "why": "In Homo sapiens, Homo is the genus and sapiens the specific epithet."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9387,8 +8611,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_diversity_12_7",
       "section": "12.7",
@@ -9403,13 +8626,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Hierarchy of taxonomic ranks?",
+        "q": "Which statement is correct about Hierarchy of taxonomic ranks?",
         "options": ["Species is the basic and most specific taxonomic unit.", "Viruses are regarded as a boundary between living and non-living.", "Grouping by shared characters reveals evolutionary relationships."],
         "a": 0,
         "why": "Species is the basic and most specific taxonomic unit."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वर्गीकरण श्रेणियों का पदानुक्रम' से मेल खाता है?",
+        "q": "'वर्गीकरण श्रेणियों का पदानुक्रम' के बारे में कौन-सा कथन सही है?",
         "options": ["जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।", "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।", "साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।"],
         "a": 0,
         "why": "जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।"
@@ -9431,12 +8654,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Hierarchy of taxonomic ranks?",
-        "options": ["Species is the basic and most specific taxonomic unit.", "Viruses are regarded as a boundary between living and non-living.", "Grouping by shared characters reveals evolutionary relationships."],
-        "a": 0,
-        "why": "Species is the basic and most specific taxonomic unit."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9448,8 +8665,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_diversity_12_8",
       "section": "12.8",
@@ -9464,13 +8680,13 @@
         "note": "जगत से जाति तक"
       },
       "predict": {
-        "q": "Which statement belongs to Acellular entities: viruses?",
+        "q": "Which statement is correct about Acellular entities: viruses?",
         "options": ["Grouping by shared characters reveals evolutionary relationships.", "Viruses are regarded as a boundary between living and non-living.", "Monera contains prokaryotic organisms without a true nucleus."],
         "a": 1,
         "why": "Viruses are regarded as a boundary between living and non-living."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अकोशिकीय सत्ताएँ: विषाणु' से मेल खाता है?",
+        "q": "'अकोशिकीय सत्ताएँ: विषाणु' के बारे में कौन-सा कथन सही है?",
         "options": ["साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।", "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।", "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।"],
         "a": 1,
         "why": "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।"
@@ -9492,12 +8708,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Acellular entities: viruses?",
-        "options": ["Grouping by shared characters reveals evolutionary relationships.", "Viruses are regarded as a boundary between living and non-living.", "Monera contains prokaryotic organisms without a true nucleus."],
-        "a": 1,
-        "why": "Viruses are regarded as a boundary between living and non-living."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9509,8 +8719,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_diversity"] = {
       "id": "c9_diversity",
@@ -9629,83 +8838,83 @@
         "desc": "Viruses are regarded as a boundary between living and non-living."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Why classification is needed?",
+        "q": "Which statement is correct about Why classification is needed?",
         "options": ["Grouping by shared characters reveals evolutionary relationships.", "Monera contains prokaryotic organisms without a true nucleus.", "Fungi have chitin cell walls and absorb nutrients from dead matter."],
         "a": 0,
         "why": "Grouping by shared characters reveals evolutionary relationships."
       }, {
-        "q": "Which statement belongs to Five kingdoms and their features?",
+        "q": "Which statement is correct about Five kingdoms and their features?",
         "options": ["Fungi have chitin cell walls and absorb nutrients from dead matter.", "Monera contains prokaryotic organisms without a true nucleus.", "Angiosperms bear flowers and seeds enclosed inside fruits."],
         "a": 1,
         "why": "Monera contains prokaryotic organisms without a true nucleus."
       }, {
-        "q": "Which statement belongs to Monera, Protista and Fungi?",
+        "q": "Which statement is correct about Monera, Protista and Fungi?",
         "options": ["Angiosperms bear flowers and seeds enclosed inside fruits.", "Vertebrates possess a vertebral column and an internal skeleton.", "Fungi have chitin cell walls and absorb nutrients from dead matter."],
         "a": 2,
         "why": "Fungi have chitin cell walls and absorb nutrients from dead matter."
       }, {
-        "q": "Which statement belongs to Major divisions of plants?",
+        "q": "Which statement is correct about Major divisions of plants?",
         "options": ["Angiosperms bear flowers and seeds enclosed inside fruits.", "Vertebrates possess a vertebral column and an internal skeleton.", "In Homo sapiens, Homo is the genus and sapiens the specific epithet."],
         "a": 0,
         "why": "Angiosperms bear flowers and seeds enclosed inside fruits."
       }, {
-        "q": "Which statement belongs to Major divisions of animals?",
+        "q": "Which statement is correct about Major divisions of animals?",
         "options": ["In Homo sapiens, Homo is the genus and sapiens the specific epithet.", "Vertebrates possess a vertebral column and an internal skeleton.", "Species is the basic and most specific taxonomic unit."],
         "a": 1,
         "why": "Vertebrates possess a vertebral column and an internal skeleton."
       }, {
-        "q": "Which statement belongs to Binomial nomenclature?",
+        "q": "Which statement is correct about Binomial nomenclature?",
         "options": ["Species is the basic and most specific taxonomic unit.", "Viruses are regarded as a boundary between living and non-living.", "In Homo sapiens, Homo is the genus and sapiens the specific epithet."],
         "a": 2,
         "why": "In Homo sapiens, Homo is the genus and sapiens the specific epithet."
       }, {
-        "q": "Which statement belongs to Hierarchy of taxonomic ranks?",
+        "q": "Which statement is correct about Hierarchy of taxonomic ranks?",
         "options": ["Species is the basic and most specific taxonomic unit.", "Viruses are regarded as a boundary between living and non-living.", "Grouping by shared characters reveals evolutionary relationships."],
         "a": 0,
         "why": "Species is the basic and most specific taxonomic unit."
       }, {
-        "q": "Which statement belongs to Acellular entities: viruses?",
+        "q": "Which statement is correct about Acellular entities: viruses?",
         "options": ["Grouping by shared characters reveals evolutionary relationships.", "Viruses are regarded as a boundary between living and non-living.", "Monera contains prokaryotic organisms without a true nucleus."],
         "a": 1,
         "why": "Viruses are regarded as a boundary between living and non-living."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'वर्गीकरण क्यों आवश्यक है' से मेल खाता है?",
+        "q": "'वर्गीकरण क्यों आवश्यक है' के बारे में कौन-सा कथन सही है?",
         "options": ["साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।", "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।", "कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।"],
         "a": 0,
         "why": "साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।"
       }, {
-        "q": "कौन-सा कथन 'पाँच जगत और उनके लक्षण' से मेल खाता है?",
+        "q": "'पाँच जगत और उनके लक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।", "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।", "एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।"],
         "a": 1,
         "why": "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।"
       }, {
-        "q": "कौन-सा कथन 'मोनेरा, प्रोटिस्टा और फंजाई' से मेल खाता है?",
+        "q": "'मोनेरा, प्रोटिस्टा और फंजाई' के बारे में कौन-सा कथन सही है?",
         "options": ["एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।", "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।", "कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।"],
         "a": 2,
         "why": "कवक की भित्ति काइटिन की होती है और ये मृत पदार्थ से पोषण सोखते हैं।"
       }, {
-        "q": "कौन-सा कथन 'पादपों के प्रमुख विभाग' से मेल खाता है?",
+        "q": "'पादपों के प्रमुख विभाग' के बारे में कौन-सा कथन सही है?",
         "options": ["एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।", "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।", "Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।"],
         "a": 0,
         "why": "एंजियोस्पर्म में पुष्प होते हैं और बीज फल के भीतर रहते हैं।"
       }, {
-        "q": "कौन-सा कथन 'प्राणियों के प्रमुख विभाग' से मेल खाता है?",
+        "q": "'प्राणियों के प्रमुख विभाग' के बारे में कौन-सा कथन सही है?",
         "options": ["Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।", "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।", "जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।"],
         "a": 1,
         "why": "कशेरुकी जीवों में कशेरुक दंड और आंतरिक कंकाल होता है।"
       }, {
-        "q": "कौन-सा कथन 'द्विनाम पद्धति' से मेल खाता है?",
+        "q": "'द्विनाम पद्धति' के बारे में कौन-सा कथन सही है?",
         "options": ["जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।", "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।", "Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।"],
         "a": 2,
         "why": "Homo sapiens में Homo वंश और sapiens जाति-विशेषण है।"
       }, {
-        "q": "कौन-सा कथन 'वर्गीकरण श्रेणियों का पदानुक्रम' से मेल खाता है?",
+        "q": "'वर्गीकरण श्रेणियों का पदानुक्रम' के बारे में कौन-सा कथन सही है?",
         "options": ["जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।", "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।", "साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।"],
         "a": 0,
         "why": "जाति वर्गीकरण की मूल और सबसे विशिष्ट इकाई है।"
       }, {
-        "q": "कौन-सा कथन 'अकोशिकीय सत्ताएँ: विषाणु' से मेल खाता है?",
+        "q": "'अकोशिकीय सत्ताएँ: विषाणु' के बारे में कौन-सा कथन सही है?",
         "options": ["साझा लक्षणों से समूह बनाने पर विकासात्मक संबंध उभरते हैं।", "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।", "मोनेरा में सच्चे केन्द्रक के बिना प्रोकैरियोटी जीव आते हैं।"],
         "a": 1,
         "why": "विषाणुओं को सजीव और निर्जीव के बीच की सीमा माना जाता है।"
@@ -9727,13 +8936,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to Earth as an interconnected system?",
+        "q": "Which statement is correct about Earth as an interconnected system?",
         "options": ["A change in one Earth sphere affects the other spheres.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Differential heating of land and sea drives monsoon winds."],
         "a": 0,
         "why": "A change in one Earth sphere affects the other spheres."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पृथ्वी एक परस्पर जुड़ा तंत्र' से मेल खाता है?",
+        "q": "'पृथ्वी एक परस्पर जुड़ा तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।", "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।", "भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।"],
         "a": 0,
         "why": "एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।"
@@ -9755,12 +8964,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Earth as an interconnected system?",
-        "options": ["A change in one Earth sphere affects the other spheres.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Differential heating of land and sea drives monsoon winds."],
-        "a": 0,
-        "why": "A change in one Earth sphere affects the other spheres."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9772,8 +8975,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_2",
       "section": "13.2",
@@ -9788,13 +8990,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to Solar radiation and the electromagnetic spectrum?",
+        "q": "Which statement is correct about Solar radiation and the electromagnetic spectrum?",
         "options": ["Differential heating of land and sea drives monsoon winds.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Winds move from high-pressure to low-pressure regions."],
         "a": 1,
         "why": "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सौर विकिरण और विद्युतचुम्बकीय वर्णक्रम' से मेल खाता है?",
+        "q": "'सौर विकिरण और विद्युतचुम्बकीय वर्णक्रम' के बारे में कौन-सा कथन सही है?",
         "options": ["भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।", "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।", "पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।"],
         "a": 1,
         "why": "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।"
@@ -9816,12 +9018,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Solar radiation and the electromagnetic spectrum?",
-        "options": ["Differential heating of land and sea drives monsoon winds.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Winds move from high-pressure to low-pressure regions."],
-        "a": 1,
-        "why": "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9833,8 +9029,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_3",
       "section": "13.3",
@@ -9849,13 +9044,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to Interaction with the surface and differential heating?",
+        "q": "Which statement is correct about Interaction with the surface and differential heating?",
         "options": ["Winds move from high-pressure to low-pressure regions.", "Transpiration by plants also adds water vapour to the atmosphere.", "Differential heating of land and sea drives monsoon winds."],
         "a": 2,
         "why": "Differential heating of land and sea drives monsoon winds."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सतह से अंतःक्रिया और असमान तापन' से मेल खाता है?",
+        "q": "'सतह से अंतःक्रिया और असमान तापन' के बारे में कौन-सा कथन सही है?",
         "options": ["पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।", "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।", "भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।"],
         "a": 2,
         "why": "भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।"
@@ -9877,12 +9072,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Interaction with the surface and differential heating?",
-        "options": ["Winds move from high-pressure to low-pressure regions.", "Transpiration by plants also adds water vapour to the atmosphere.", "Differential heating of land and sea drives monsoon winds."],
-        "a": 2,
-        "why": "Differential heating of land and sea drives monsoon winds."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9894,8 +9083,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_4",
       "section": "13.4",
@@ -9910,13 +9098,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to Winds from differential warming?",
+        "q": "Which statement is correct about Winds from differential warming?",
         "options": ["Winds move from high-pressure to low-pressure regions.", "Transpiration by plants also adds water vapour to the atmosphere.", "Fossil fuel burning adds extra carbon dioxide to the atmosphere."],
         "a": 0,
         "why": "Winds move from high-pressure to low-pressure regions."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'असमान तापन से पवनें' से मेल खाता है?",
+        "q": "'असमान तापन से पवनें' के बारे में कौन-सा कथन सही है?",
         "options": ["पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।", "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।", "जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।"],
         "a": 0,
         "why": "पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।"
@@ -9938,12 +9126,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Winds from differential warming?",
-        "options": ["Winds move from high-pressure to low-pressure regions.", "Transpiration by plants also adds water vapour to the atmosphere.", "Fossil fuel burning adds extra carbon dioxide to the atmosphere."],
-        "a": 0,
-        "why": "Winds move from high-pressure to low-pressure regions."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -9955,8 +9137,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_5",
       "section": "13.5",
@@ -9971,13 +9152,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to The water cycle?",
+        "q": "Which statement is correct about The water cycle?",
         "options": ["Fossil fuel burning adds extra carbon dioxide to the atmosphere.", "Transpiration by plants also adds water vapour to the atmosphere.", "Nitrogen-fixing bacteria live in root nodules of legumes."],
         "a": 1,
         "why": "Transpiration by plants also adds water vapour to the atmosphere."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जल चक्र' से मेल खाता है?",
+        "q": "'जल चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।", "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।", "नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।"],
         "a": 1,
         "why": "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।"
@@ -9999,12 +9180,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to The water cycle?",
-        "options": ["Fossil fuel burning adds extra carbon dioxide to the atmosphere.", "Transpiration by plants also adds water vapour to the atmosphere.", "Nitrogen-fixing bacteria live in root nodules of legumes."],
-        "a": 1,
-        "why": "Transpiration by plants also adds water vapour to the atmosphere."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10016,8 +9191,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_6",
       "section": "13.6",
@@ -10032,13 +9206,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to The carbon cycle?",
+        "q": "Which statement is correct about The carbon cycle?",
         "options": ["Nitrogen-fixing bacteria live in root nodules of legumes.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "Fossil fuel burning adds extra carbon dioxide to the atmosphere."],
         "a": 2,
         "why": "Fossil fuel burning adds extra carbon dioxide to the atmosphere."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कार्बन चक्र' से मेल खाता है?",
+        "q": "'कार्बन चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।", "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।", "जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।"],
         "a": 2,
         "why": "जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।"
@@ -10060,12 +9234,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to The carbon cycle?",
-        "options": ["Nitrogen-fixing bacteria live in root nodules of legumes.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "Fossil fuel burning adds extra carbon dioxide to the atmosphere."],
-        "a": 2,
-        "why": "Fossil fuel burning adds extra carbon dioxide to the atmosphere."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10077,8 +9245,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_7",
       "section": "13.7",
@@ -10093,13 +9260,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to The nitrogen cycle?",
+        "q": "Which statement is correct about The nitrogen cycle?",
         "options": ["Nitrogen-fixing bacteria live in root nodules of legumes.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "Reducing emissions and restoring vegetation help rebalance Earth's cycles."],
         "a": 0,
         "why": "Nitrogen-fixing bacteria live in root nodules of legumes."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'नाइट्रोजन चक्र' से मेल खाता है?",
+        "q": "'नाइट्रोजन चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।", "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।", "उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।"],
         "a": 0,
         "why": "नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।"
@@ -10121,12 +9288,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to The nitrogen cycle?",
-        "options": ["Nitrogen-fixing bacteria live in root nodules of legumes.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "Reducing emissions and restoring vegetation help rebalance Earth's cycles."],
-        "a": 0,
-        "why": "Nitrogen-fixing bacteria live in root nodules of legumes."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10138,8 +9299,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_8",
       "section": "13.8",
@@ -10154,13 +9314,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to The oxygen cycle?",
+        "q": "Which statement is correct about The oxygen cycle?",
         "options": ["Reducing emissions and restoring vegetation help rebalance Earth's cycles.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "A change in one Earth sphere affects the other spheres."],
         "a": 1,
         "why": "Ozone forms from oxygen and shields Earth from ultraviolet radiation."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ऑक्सीजन चक्र' से मेल खाता है?",
+        "q": "'ऑक्सीजन चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।", "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।", "एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।"],
         "a": 1,
         "why": "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।"
@@ -10182,12 +9342,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to The oxygen cycle?",
-        "options": ["Reducing emissions and restoring vegetation help rebalance Earth's cycles.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "A change in one Earth sphere affects the other spheres."],
-        "a": 1,
-        "why": "Ozone forms from oxygen and shields Earth from ultraviolet radiation."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10199,8 +9353,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c9_earth_13_9",
       "section": "13.9",
@@ -10215,13 +9368,13 @@
         "note": "ऊर्जा प्रवाह और द्रव्य चक्र"
       },
       "predict": {
-        "q": "Which statement belongs to Human impact on Earth's system?",
+        "q": "Which statement is correct about Human impact on Earth's system?",
         "options": ["A change in one Earth sphere affects the other spheres.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Reducing emissions and restoring vegetation help rebalance Earth's cycles."],
         "a": 2,
         "why": "Reducing emissions and restoring vegetation help rebalance Earth's cycles."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पृथ्वी तंत्र पर मानव प्रभाव' से मेल खाता है?",
+        "q": "'पृथ्वी तंत्र पर मानव प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।", "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।", "उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।"],
         "a": 2,
         "why": "उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।"
@@ -10243,12 +9396,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Human impact on Earth's system?",
-        "options": ["A change in one Earth sphere affects the other spheres.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Reducing emissions and restoring vegetation help rebalance Earth's cycles."],
-        "a": 2,
-        "why": "Reducing emissions and restoring vegetation help rebalance Earth's cycles."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10260,8 +9407,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c9_earth"] = {
       "id": "c9_earth",
@@ -10393,93 +9539,93 @@
         "desc": "Reducing emissions and restoring vegetation help rebalance Earth's cyc"
       }],
       "quiz": [{
-        "q": "Which statement belongs to Earth as an interconnected system?",
+        "q": "Which statement is correct about Earth as an interconnected system?",
         "options": ["A change in one Earth sphere affects the other spheres.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Differential heating of land and sea drives monsoon winds."],
         "a": 0,
         "why": "A change in one Earth sphere affects the other spheres."
       }, {
-        "q": "Which statement belongs to Solar radiation and the electromagnetic spectrum?",
+        "q": "Which statement is correct about Solar radiation and the electromagnetic spectrum?",
         "options": ["Differential heating of land and sea drives monsoon winds.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Winds move from high-pressure to low-pressure regions."],
         "a": 1,
         "why": "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s."
       }, {
-        "q": "Which statement belongs to Interaction with the surface and differential heating?",
+        "q": "Which statement is correct about Interaction with the surface and differential heating?",
         "options": ["Winds move from high-pressure to low-pressure regions.", "Transpiration by plants also adds water vapour to the atmosphere.", "Differential heating of land and sea drives monsoon winds."],
         "a": 2,
         "why": "Differential heating of land and sea drives monsoon winds."
       }, {
-        "q": "Which statement belongs to Winds from differential warming?",
+        "q": "Which statement is correct about Winds from differential warming?",
         "options": ["Winds move from high-pressure to low-pressure regions.", "Transpiration by plants also adds water vapour to the atmosphere.", "Fossil fuel burning adds extra carbon dioxide to the atmosphere."],
         "a": 0,
         "why": "Winds move from high-pressure to low-pressure regions."
       }, {
-        "q": "Which statement belongs to The water cycle?",
+        "q": "Which statement is correct about The water cycle?",
         "options": ["Fossil fuel burning adds extra carbon dioxide to the atmosphere.", "Transpiration by plants also adds water vapour to the atmosphere.", "Nitrogen-fixing bacteria live in root nodules of legumes."],
         "a": 1,
         "why": "Transpiration by plants also adds water vapour to the atmosphere."
       }, {
-        "q": "Which statement belongs to The carbon cycle?",
+        "q": "Which statement is correct about The carbon cycle?",
         "options": ["Nitrogen-fixing bacteria live in root nodules of legumes.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "Fossil fuel burning adds extra carbon dioxide to the atmosphere."],
         "a": 2,
         "why": "Fossil fuel burning adds extra carbon dioxide to the atmosphere."
       }, {
-        "q": "Which statement belongs to The nitrogen cycle?",
+        "q": "Which statement is correct about The nitrogen cycle?",
         "options": ["Nitrogen-fixing bacteria live in root nodules of legumes.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "Reducing emissions and restoring vegetation help rebalance Earth's cycles."],
         "a": 0,
         "why": "Nitrogen-fixing bacteria live in root nodules of legumes."
       }, {
-        "q": "Which statement belongs to The oxygen cycle?",
+        "q": "Which statement is correct about The oxygen cycle?",
         "options": ["Reducing emissions and restoring vegetation help rebalance Earth's cycles.", "Ozone forms from oxygen and shields Earth from ultraviolet radiation.", "A change in one Earth sphere affects the other spheres."],
         "a": 1,
         "why": "Ozone forms from oxygen and shields Earth from ultraviolet radiation."
       }, {
-        "q": "Which statement belongs to Human impact on Earth's system?",
+        "q": "Which statement is correct about Human impact on Earth's system?",
         "options": ["A change in one Earth sphere affects the other spheres.", "Solar energy reaches Earth as electromagnetic radiation travelling at 3 × 10⁸ m/s.", "Reducing emissions and restoring vegetation help rebalance Earth's cycles."],
         "a": 2,
         "why": "Reducing emissions and restoring vegetation help rebalance Earth's cycles."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'पृथ्वी एक परस्पर जुड़ा तंत्र' से मेल खाता है?",
+        "q": "'पृथ्वी एक परस्पर जुड़ा तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।", "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।", "भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।"],
         "a": 0,
         "why": "एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।"
       }, {
-        "q": "कौन-सा कथन 'सौर विकिरण और विद्युतचुम्बकीय वर्णक्रम' से मेल खाता है?",
+        "q": "'सौर विकिरण और विद्युतचुम्बकीय वर्णक्रम' के बारे में कौन-सा कथन सही है?",
         "options": ["भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।", "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।", "पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।"],
         "a": 1,
         "why": "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।"
       }, {
-        "q": "कौन-सा कथन 'सतह से अंतःक्रिया और असमान तापन' से मेल खाता है?",
+        "q": "'सतह से अंतःक्रिया और असमान तापन' के बारे में कौन-सा कथन सही है?",
         "options": ["पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।", "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।", "भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।"],
         "a": 2,
         "why": "भूमि और समुद्र के असमान तापन से मानसूनी पवनें चलती हैं।"
       }, {
-        "q": "कौन-सा कथन 'असमान तापन से पवनें' से मेल खाता है?",
+        "q": "'असमान तापन से पवनें' के बारे में कौन-सा कथन सही है?",
         "options": ["पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।", "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।", "जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।"],
         "a": 0,
         "why": "पवनें उच्च दाब से निम्न दाब क्षेत्र की ओर बहती हैं।"
       }, {
-        "q": "कौन-सा कथन 'जल चक्र' से मेल खाता है?",
+        "q": "'जल चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।", "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।", "नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।"],
         "a": 1,
         "why": "पौधों की वाष्पोत्सर्जन से भी वायुमंडल में जलवाष्प जुड़ती है।"
       }, {
-        "q": "कौन-सा कथन 'कार्बन चक्र' से मेल खाता है?",
+        "q": "'कार्बन चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।", "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।", "जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।"],
         "a": 2,
         "why": "जीवाश्म ईंधन जलाने से वायुमंडल में अतिरिक्त कार्बन डाइऑक्साइड जुड़ती है।"
       }, {
-        "q": "कौन-सा कथन 'नाइट्रोजन चक्र' से मेल खाता है?",
+        "q": "'नाइट्रोजन चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।", "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।", "उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।"],
         "a": 0,
         "why": "नाइट्रोजन-स्थिरीकरण जीवाणु दलहनी पौधों की जड़ ग्रंथियों में रहते हैं।"
       }, {
-        "q": "कौन-सा कथन 'ऑक्सीजन चक्र' से मेल खाता है?",
+        "q": "'ऑक्सीजन चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।", "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।", "एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।"],
         "a": 1,
         "why": "ऑक्सीजन से ओज़ोन बनती है जो पराबैंगनी विकिरण से रक्षा करती है।"
       }, {
-        "q": "कौन-सा कथन 'पृथ्वी तंत्र पर मानव प्रभाव' से मेल खाता है?",
+        "q": "'पृथ्वी तंत्र पर मानव प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["एक मंडल में परिवर्तन से शेष मंडल भी प्रभावित होते हैं।", "सौर ऊर्जा पृथ्वी पर 3 × 10⁸ मीटर प्रति सेकंड की विद्युतचुम्बकीय विकिरण से पहुँचती है।", "उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।"],
         "a": 2,
         "why": "उत्सर्जन घटाना और वनस्पति बहाल करना पृथ्वी के चक्र संतुलित करता है।"
@@ -10501,13 +9647,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Chemical changes and their evidence?",
+        "q": "Which statement is correct about Chemical changes and their evidence?",
         "options": ["Formation of a new substance is the sure sign of a chemical reaction.", "Balancing follows conservation of mass, never changing subscripts.", "CaO + H2O gives Ca(OH)2 in an exothermic combination."],
         "a": 0,
         "why": "Formation of a new substance is the sure sign of a chemical reaction."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'रासायनिक परिवर्तन और उसके संकेत' से मेल खाता है?",
+        "q": "'रासायनिक परिवर्तन और उसके संकेत' के बारे में कौन-सा कथन सही है?",
         "options": ["नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।", "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।", "CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।"],
         "a": 0,
         "why": "नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।"
@@ -10529,12 +9675,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Chemical changes and their evidence?",
-        "options": ["Formation of a new substance is the sure sign of a chemical reaction.", "Balancing follows conservation of mass, never changing subscripts.", "CaO + H2O gives Ca(OH)2 in an exothermic combination."],
-        "a": 0,
-        "why": "Formation of a new substance is the sure sign of a chemical reaction."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10546,8 +9686,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_2",
       "section": "1.2",
@@ -10562,13 +9701,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Writing and balancing equations?",
+        "q": "Which statement is correct about Writing and balancing equations?",
         "options": ["CaO + H2O gives Ca(OH)2 in an exothermic combination.", "Balancing follows conservation of mass, never changing subscripts.", "Thermal, photolytic and electrolytic decomposition differ by the energy supplied."],
         "a": 1,
         "why": "Balancing follows conservation of mass, never changing subscripts."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'समीकरण लिखना और संतुलित करना' से मेल खाता है?",
+        "q": "'समीकरण लिखना और संतुलित करना' के बारे में कौन-सा कथन सही है?",
         "options": ["CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।", "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।", "तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।"],
         "a": 1,
         "why": "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।"
@@ -10590,12 +9729,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Writing and balancing equations?",
-        "options": ["CaO + H2O gives Ca(OH)2 in an exothermic combination.", "Balancing follows conservation of mass, never changing subscripts.", "Thermal, photolytic and electrolytic decomposition differ by the energy supplied."],
-        "a": 1,
-        "why": "Balancing follows conservation of mass, never changing subscripts."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10607,8 +9740,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_3",
       "section": "1.3",
@@ -10623,13 +9755,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Combination reactions?",
+        "q": "Which statement is correct about Combination reactions?",
         "options": ["Thermal, photolytic and electrolytic decomposition differ by the energy supplied.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "CaO + H2O gives Ca(OH)2 in an exothermic combination."],
         "a": 2,
         "why": "CaO + H2O gives Ca(OH)2 in an exothermic combination."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'संयोजन अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'संयोजन अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।", "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।", "CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।"],
         "a": 2,
         "why": "CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।"
@@ -10651,12 +9783,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Combination reactions?",
-        "options": ["Thermal, photolytic and electrolytic decomposition differ by the energy supplied.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "CaO + H2O gives Ca(OH)2 in an exothermic combination."],
-        "a": 2,
-        "why": "CaO + H2O gives Ca(OH)2 in an exothermic combination."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10668,8 +9794,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_4",
       "section": "1.4",
@@ -10684,13 +9809,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Decomposition reactions?",
+        "q": "Which statement is correct about Decomposition reactions?",
         "options": ["Thermal, photolytic and electrolytic decomposition differ by the energy supplied.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "A white BaSO4 precipitate confirms sulphate ions in solution."],
         "a": 0,
         "why": "Thermal, photolytic and electrolytic decomposition differ by the energy supplied."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विघटन अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'विघटन अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।", "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।", "सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।"],
         "a": 0,
         "why": "तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।"
@@ -10712,12 +9837,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Decomposition reactions?",
-        "options": ["Thermal, photolytic and electrolytic decomposition differ by the energy supplied.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "A white BaSO4 precipitate confirms sulphate ions in solution."],
-        "a": 0,
-        "why": "Thermal, photolytic and electrolytic decomposition differ by the energy supplied."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10729,8 +9848,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_5",
       "section": "1.5",
@@ -10745,13 +9863,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Displacement and double displacement?",
+        "q": "Which statement is correct about Displacement and double displacement?",
         "options": ["A white BaSO4 precipitate confirms sulphate ions in solution.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "The oxidising agent is reduced while the reducing agent is oxidised."],
         "a": 1,
         "why": "Fe + CuSO4 gives FeSO4 + Cu as a single displacement."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विस्थापन और द्वि-विस्थापन' से मेल खाता है?",
+        "q": "'विस्थापन और द्वि-विस्थापन' के बारे में कौन-सा कथन सही है?",
         "options": ["सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।", "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।", "ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।"],
         "a": 1,
         "why": "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।"
@@ -10773,12 +9891,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Displacement and double displacement?",
-        "options": ["A white BaSO4 precipitate confirms sulphate ions in solution.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "The oxidising agent is reduced while the reducing agent is oxidised."],
-        "a": 1,
-        "why": "Fe + CuSO4 gives FeSO4 + Cu as a single displacement."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10790,8 +9902,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_6",
       "section": "1.6",
@@ -10806,13 +9917,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Precipitation reactions?",
+        "q": "Which statement is correct about Precipitation reactions?",
         "options": ["The oxidising agent is reduced while the reducing agent is oxidised.", "Respiration is exothermic while photosynthesis absorbs energy.", "A white BaSO4 precipitate confirms sulphate ions in solution."],
         "a": 2,
         "why": "A white BaSO4 precipitate confirms sulphate ions in solution."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अवक्षेप अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'अवक्षेप अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।", "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।", "सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।"],
         "a": 2,
         "why": "सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।"
@@ -10834,12 +9945,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Precipitation reactions?",
-        "options": ["The oxidising agent is reduced while the reducing agent is oxidised.", "Respiration is exothermic while photosynthesis absorbs energy.", "A white BaSO4 precipitate confirms sulphate ions in solution."],
-        "a": 2,
-        "why": "A white BaSO4 precipitate confirms sulphate ions in solution."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10851,8 +9956,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_7",
       "section": "1.7",
@@ -10867,13 +9971,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Oxidation and reduction?",
+        "q": "Which statement is correct about Oxidation and reduction?",
         "options": ["The oxidising agent is reduced while the reducing agent is oxidised.", "Respiration is exothermic while photosynthesis absorbs energy.", "Keeping food in airtight nitrogen-filled packs prevents rancidity."],
         "a": 0,
         "why": "The oxidising agent is reduced while the reducing agent is oxidised."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ऑक्सीकरण और अपचयन' से मेल खाता है?",
+        "q": "'ऑक्सीकरण और अपचयन' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।", "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।", "नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।"],
         "a": 0,
         "why": "ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।"
@@ -10895,12 +9999,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Oxidation and reduction?",
-        "options": ["The oxidising agent is reduced while the reducing agent is oxidised.", "Respiration is exothermic while photosynthesis absorbs energy.", "Keeping food in airtight nitrogen-filled packs prevents rancidity."],
-        "a": 0,
-        "why": "The oxidising agent is reduced while the reducing agent is oxidised."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10912,8 +10010,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_8",
       "section": "1.8",
@@ -10928,13 +10025,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Exothermic and endothermic reactions?",
+        "q": "Which statement is correct about Exothermic and endothermic reactions?",
         "options": ["Keeping food in airtight nitrogen-filled packs prevents rancidity.", "Respiration is exothermic while photosynthesis absorbs energy.", "Formation of a new substance is the sure sign of a chemical reaction."],
         "a": 1,
         "why": "Respiration is exothermic while photosynthesis absorbs energy."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ऊष्माक्षेपी और ऊष्माशोषी अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'ऊष्माक्षेपी और ऊष्माशोषी अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।", "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।", "नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।"],
         "a": 1,
         "why": "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।"
@@ -10956,12 +10053,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Exothermic and endothermic reactions?",
-        "options": ["Keeping food in airtight nitrogen-filled packs prevents rancidity.", "Respiration is exothermic while photosynthesis absorbs energy.", "Formation of a new substance is the sure sign of a chemical reaction."],
-        "a": 1,
-        "why": "Respiration is exothermic while photosynthesis absorbs energy."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -10973,8 +10064,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_reactions_1_9",
       "section": "1.9",
@@ -10989,13 +10079,13 @@
         "note": "अभिकारक और उत्पाद में परमाणु बराबर"
       },
       "predict": {
-        "q": "Which statement belongs to Corrosion and rancidity?",
+        "q": "Which statement is correct about Corrosion and rancidity?",
         "options": ["Formation of a new substance is the sure sign of a chemical reaction.", "Balancing follows conservation of mass, never changing subscripts.", "Keeping food in airtight nitrogen-filled packs prevents rancidity."],
         "a": 2,
         "why": "Keeping food in airtight nitrogen-filled packs prevents rancidity."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'संक्षारण और विकृतगंधता' से मेल खाता है?",
+        "q": "'संक्षारण और विकृतगंधता' के बारे में कौन-सा कथन सही है?",
         "options": ["नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।", "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।", "नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।"],
         "a": 2,
         "why": "नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।"
@@ -11017,12 +10107,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Corrosion and rancidity?",
-        "options": ["Formation of a new substance is the sure sign of a chemical reaction.", "Balancing follows conservation of mass, never changing subscripts.", "Keeping food in airtight nitrogen-filled packs prevents rancidity."],
-        "a": 2,
-        "why": "Keeping food in airtight nitrogen-filled packs prevents rancidity."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11034,8 +10118,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_reactions"] = {
       "id": "c10_reactions",
@@ -11167,93 +10250,93 @@
         "desc": "Keeping food in airtight nitrogen-filled packs prevents rancidity."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Chemical changes and their evidence?",
+        "q": "Which statement is correct about Chemical changes and their evidence?",
         "options": ["Formation of a new substance is the sure sign of a chemical reaction.", "Balancing follows conservation of mass, never changing subscripts.", "CaO + H2O gives Ca(OH)2 in an exothermic combination."],
         "a": 0,
         "why": "Formation of a new substance is the sure sign of a chemical reaction."
       }, {
-        "q": "Which statement belongs to Writing and balancing equations?",
+        "q": "Which statement is correct about Writing and balancing equations?",
         "options": ["CaO + H2O gives Ca(OH)2 in an exothermic combination.", "Balancing follows conservation of mass, never changing subscripts.", "Thermal, photolytic and electrolytic decomposition differ by the energy supplied."],
         "a": 1,
         "why": "Balancing follows conservation of mass, never changing subscripts."
       }, {
-        "q": "Which statement belongs to Combination reactions?",
+        "q": "Which statement is correct about Combination reactions?",
         "options": ["Thermal, photolytic and electrolytic decomposition differ by the energy supplied.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "CaO + H2O gives Ca(OH)2 in an exothermic combination."],
         "a": 2,
         "why": "CaO + H2O gives Ca(OH)2 in an exothermic combination."
       }, {
-        "q": "Which statement belongs to Decomposition reactions?",
+        "q": "Which statement is correct about Decomposition reactions?",
         "options": ["Thermal, photolytic and electrolytic decomposition differ by the energy supplied.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "A white BaSO4 precipitate confirms sulphate ions in solution."],
         "a": 0,
         "why": "Thermal, photolytic and electrolytic decomposition differ by the energy supplied."
       }, {
-        "q": "Which statement belongs to Displacement and double displacement?",
+        "q": "Which statement is correct about Displacement and double displacement?",
         "options": ["A white BaSO4 precipitate confirms sulphate ions in solution.", "Fe + CuSO4 gives FeSO4 + Cu as a single displacement.", "The oxidising agent is reduced while the reducing agent is oxidised."],
         "a": 1,
         "why": "Fe + CuSO4 gives FeSO4 + Cu as a single displacement."
       }, {
-        "q": "Which statement belongs to Precipitation reactions?",
+        "q": "Which statement is correct about Precipitation reactions?",
         "options": ["The oxidising agent is reduced while the reducing agent is oxidised.", "Respiration is exothermic while photosynthesis absorbs energy.", "A white BaSO4 precipitate confirms sulphate ions in solution."],
         "a": 2,
         "why": "A white BaSO4 precipitate confirms sulphate ions in solution."
       }, {
-        "q": "Which statement belongs to Oxidation and reduction?",
+        "q": "Which statement is correct about Oxidation and reduction?",
         "options": ["The oxidising agent is reduced while the reducing agent is oxidised.", "Respiration is exothermic while photosynthesis absorbs energy.", "Keeping food in airtight nitrogen-filled packs prevents rancidity."],
         "a": 0,
         "why": "The oxidising agent is reduced while the reducing agent is oxidised."
       }, {
-        "q": "Which statement belongs to Exothermic and endothermic reactions?",
+        "q": "Which statement is correct about Exothermic and endothermic reactions?",
         "options": ["Keeping food in airtight nitrogen-filled packs prevents rancidity.", "Respiration is exothermic while photosynthesis absorbs energy.", "Formation of a new substance is the sure sign of a chemical reaction."],
         "a": 1,
         "why": "Respiration is exothermic while photosynthesis absorbs energy."
       }, {
-        "q": "Which statement belongs to Corrosion and rancidity?",
+        "q": "Which statement is correct about Corrosion and rancidity?",
         "options": ["Formation of a new substance is the sure sign of a chemical reaction.", "Balancing follows conservation of mass, never changing subscripts.", "Keeping food in airtight nitrogen-filled packs prevents rancidity."],
         "a": 2,
         "why": "Keeping food in airtight nitrogen-filled packs prevents rancidity."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'रासायनिक परिवर्तन और उसके संकेत' से मेल खाता है?",
+        "q": "'रासायनिक परिवर्तन और उसके संकेत' के बारे में कौन-सा कथन सही है?",
         "options": ["नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।", "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।", "CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।"],
         "a": 0,
         "why": "नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।"
       }, {
-        "q": "कौन-सा कथन 'समीकरण लिखना और संतुलित करना' से मेल खाता है?",
+        "q": "'समीकरण लिखना और संतुलित करना' के बारे में कौन-सा कथन सही है?",
         "options": ["CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।", "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।", "तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।"],
         "a": 1,
         "why": "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।"
       }, {
-        "q": "कौन-सा कथन 'संयोजन अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'संयोजन अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।", "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।", "CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।"],
         "a": 2,
         "why": "CaO + H2O से Ca(OH)2 बनना ऊष्माक्षेपी संयोजन है।"
       }, {
-        "q": "कौन-सा कथन 'विघटन अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'विघटन अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।", "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।", "सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।"],
         "a": 0,
         "why": "तापीय, प्रकाशीय और वैद्युत अपघटन में दी गई ऊर्जा अलग होती है।"
       }, {
-        "q": "कौन-सा कथन 'विस्थापन और द्वि-विस्थापन' से मेल खाता है?",
+        "q": "'विस्थापन और द्वि-विस्थापन' के बारे में कौन-सा कथन सही है?",
         "options": ["सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।", "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।", "ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।"],
         "a": 1,
         "why": "Fe + CuSO4 से FeSO4 + Cu बनना एकल विस्थापन है।"
       }, {
-        "q": "कौन-सा कथन 'अवक्षेप अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'अवक्षेप अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।", "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।", "सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।"],
         "a": 2,
         "why": "सफ़ेद BaSO4 अवक्षेप विलयन में सल्फ़ेट आयन की पुष्टि करता है।"
       }, {
-        "q": "कौन-सा कथन 'ऑक्सीकरण और अपचयन' से मेल खाता है?",
+        "q": "'ऑक्सीकरण और अपचयन' के बारे में कौन-सा कथन सही है?",
         "options": ["ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।", "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।", "नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।"],
         "a": 0,
         "why": "ऑक्सीकारक स्वयं अपचयित और अपचायक स्वयं ऑक्सीकृत होता है।"
       }, {
-        "q": "कौन-सा कथन 'ऊष्माक्षेपी और ऊष्माशोषी अभिक्रियाएँ' से मेल खाता है?",
+        "q": "'ऊष्माक्षेपी और ऊष्माशोषी अभिक्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।", "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।", "नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।"],
         "a": 1,
         "why": "श्वसन ऊष्माक्षेपी है जबकि प्रकाश-संश्लेषण ऊर्जा सोखता है।"
       }, {
-        "q": "कौन-सा कथन 'संक्षारण और विकृतगंधता' से मेल खाता है?",
+        "q": "'संक्षारण और विकृतगंधता' के बारे में कौन-सा कथन सही है?",
         "options": ["नए पदार्थ का बनना रासायनिक अभिक्रिया का निश्चित संकेत है।", "संतुलन द्रव्यमान संरक्षण से होता है, सूत्र के अधोलिखित अंक कभी नहीं बदलते।", "नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।"],
         "a": 2,
         "why": "नाइट्रोजन भरी वायुरोधी पैकिंग भोजन को विकृतगंध होने से बचाती है।"
@@ -11275,13 +10358,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to Acids and bases: properties?",
+        "q": "Which statement is correct about Acids and bases: properties?",
         "options": ["Bases soluble in water are called alkalis.", "Acidic behaviour appears only in the presence of water.", "Phenolphthalein is colourless in acid and pink in base."],
         "a": 0,
         "why": "Bases soluble in water are called alkalis."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अम्ल और क्षार के गुण' से मेल खाता है?",
+        "q": "'अम्ल और क्षार के गुण' के बारे में कौन-सा कथन सही है?",
         "options": ["जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।", "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।", "फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।"],
         "a": 0,
         "why": "जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।"
@@ -11303,12 +10386,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Acids and bases: properties?",
-        "options": ["Bases soluble in water are called alkalis.", "Acidic behaviour appears only in the presence of water.", "Phenolphthalein is colourless in acid and pink in base."],
-        "a": 0,
-        "why": "Bases soluble in water are called alkalis."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11320,8 +10397,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_2",
       "section": "2.2",
@@ -11336,13 +10412,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to H+ and OH- ions in water?",
+        "q": "Which statement is correct about H+ and OH- ions in water?",
         "options": ["Phenolphthalein is colourless in acid and pink in base.", "Acidic behaviour appears only in the presence of water.", "Neutralisation is exothermic and produces salt and water."],
         "a": 1,
         "why": "Acidic behaviour appears only in the presence of water."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जल में H+ और OH- आयन' से मेल खाता है?",
+        "q": "'जल में H+ और OH- आयन' के बारे में कौन-सा कथन सही है?",
         "options": ["फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।", "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।", "उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।"],
         "a": 1,
         "why": "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।"
@@ -11364,12 +10440,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to H+ and OH- ions in water?",
-        "options": ["Phenolphthalein is colourless in acid and pink in base.", "Acidic behaviour appears only in the presence of water.", "Neutralisation is exothermic and produces salt and water."],
-        "a": 1,
-        "why": "Acidic behaviour appears only in the presence of water."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11381,8 +10451,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_3",
       "section": "2.3",
@@ -11397,13 +10466,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to Indicators and their colours?",
+        "q": "Which statement is correct about Indicators and their colours?",
         "options": ["Neutralisation is exothermic and produces salt and water.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "Phenolphthalein is colourless in acid and pink in base."],
         "a": 2,
         "why": "Phenolphthalein is colourless in acid and pink in base."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सूचक और उनके रंग' से मेल खाता है?",
+        "q": "'सूचक और उनके रंग' के बारे में कौन-सा कथन सही है?",
         "options": ["उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।", "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।", "फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।"],
         "a": 2,
         "why": "फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।"
@@ -11425,12 +10494,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Indicators and their colours?",
-        "options": ["Neutralisation is exothermic and produces salt and water.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "Phenolphthalein is colourless in acid and pink in base."],
-        "a": 2,
-        "why": "Phenolphthalein is colourless in acid and pink in base."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11442,8 +10505,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_4",
       "section": "2.4",
@@ -11458,13 +10520,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to Neutralisation and salt formation?",
+        "q": "Which statement is correct about Neutralisation and salt formation?",
         "options": ["Neutralisation is exothermic and produces salt and water.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "Tooth enamel dissolves when mouth pH falls below 5.5."],
         "a": 0,
         "why": "Neutralisation is exothermic and produces salt and water."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'उदासीनीकरण और लवण निर्माण' से मेल खाता है?",
+        "q": "'उदासीनीकरण और लवण निर्माण' के बारे में कौन-सा कथन सही है?",
         "options": ["उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।", "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।", "मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।"],
         "a": 0,
         "why": "उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।"
@@ -11486,12 +10548,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Neutralisation and salt formation?",
-        "options": ["Neutralisation is exothermic and produces salt and water.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "Tooth enamel dissolves when mouth pH falls below 5.5."],
-        "a": 0,
-        "why": "Neutralisation is exothermic and produces salt and water."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11503,8 +10559,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_5",
       "section": "2.5",
@@ -11519,13 +10574,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to The pH scale and its importance?",
+        "q": "Which statement is correct about The pH scale and its importance?",
         "options": ["Tooth enamel dissolves when mouth pH falls below 5.5.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "The chlor-alkali process yields NaOH, Cl2 and H2 from brine."],
         "a": 1,
         "why": "Our body works in a narrow pH range of about 7.0 to 7.8."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'pH पैमाना और उसका महत्व' से मेल खाता है?",
+        "q": "'pH पैमाना और उसका महत्व' के बारे में कौन-सा कथन सही है?",
         "options": ["मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।", "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।", "क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।"],
         "a": 1,
         "why": "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।"
@@ -11547,12 +10602,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to The pH scale and its importance?",
-        "options": ["Tooth enamel dissolves when mouth pH falls below 5.5.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "The chlor-alkali process yields NaOH, Cl2 and H2 from brine."],
-        "a": 1,
-        "why": "Our body works in a narrow pH range of about 7.0 to 7.8."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11564,8 +10613,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_6",
       "section": "2.6",
@@ -11580,13 +10628,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to pH in everyday life?",
+        "q": "Which statement is correct about pH in everyday life?",
         "options": ["The chlor-alkali process yields NaOH, Cl2 and H2 from brine.", "Baking soda releases CO2 on heating and makes cakes rise.", "Tooth enamel dissolves when mouth pH falls below 5.5."],
         "a": 2,
         "why": "Tooth enamel dissolves when mouth pH falls below 5.5."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'दैनिक जीवन में पीएच' से मेल खाता है?",
+        "q": "'दैनिक जीवन में पीएच' के बारे में कौन-सा कथन सही है?",
         "options": ["क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।", "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।", "मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।"],
         "a": 2,
         "why": "मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।"
@@ -11608,12 +10656,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to pH in everyday life?",
-        "options": ["The chlor-alkali process yields NaOH, Cl2 and H2 from brine.", "Baking soda releases CO2 on heating and makes cakes rise.", "Tooth enamel dissolves when mouth pH falls below 5.5."],
-        "a": 2,
-        "why": "Tooth enamel dissolves when mouth pH falls below 5.5."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11625,8 +10667,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_7",
       "section": "2.7",
@@ -11641,13 +10682,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to Common salt and sodium hydroxide?",
+        "q": "Which statement is correct about Common salt and sodium hydroxide?",
         "options": ["The chlor-alkali process yields NaOH, Cl2 and H2 from brine.", "Baking soda releases CO2 on heating and makes cakes rise.", "Heating gypsum at 373 K gives Plaster of Paris."],
         "a": 0,
         "why": "The chlor-alkali process yields NaOH, Cl2 and H2 from brine."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'साधारण नमक और सोडियम हाइड्रॉक्साइड' से मेल खाता है?",
+        "q": "'साधारण नमक और सोडियम हाइड्रॉक्साइड' के बारे में कौन-सा कथन सही है?",
         "options": ["क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।", "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।", "जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।"],
         "a": 0,
         "why": "क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।"
@@ -11669,12 +10710,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Common salt and sodium hydroxide?",
-        "options": ["The chlor-alkali process yields NaOH, Cl2 and H2 from brine.", "Baking soda releases CO2 on heating and makes cakes rise.", "Heating gypsum at 373 K gives Plaster of Paris."],
-        "a": 0,
-        "why": "The chlor-alkali process yields NaOH, Cl2 and H2 from brine."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11686,8 +10721,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_8",
       "section": "2.8",
@@ -11702,13 +10736,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to Bleaching powder, baking soda and washing soda?",
+        "q": "Which statement is correct about Bleaching powder, baking soda and washing soda?",
         "options": ["Heating gypsum at 373 K gives Plaster of Paris.", "Baking soda releases CO2 on heating and makes cakes rise.", "Bases soluble in water are called alkalis."],
         "a": 1,
         "why": "Baking soda releases CO2 on heating and makes cakes rise."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विरंजक चूर्ण, खाने का सोडा और धोने का सोडा' से मेल खाता है?",
+        "q": "'विरंजक चूर्ण, खाने का सोडा और धोने का सोडा' के बारे में कौन-सा कथन सही है?",
         "options": ["जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।", "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।", "जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।"],
         "a": 1,
         "why": "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।"
@@ -11730,12 +10764,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Bleaching powder, baking soda and washing soda?",
-        "options": ["Heating gypsum at 373 K gives Plaster of Paris.", "Baking soda releases CO2 on heating and makes cakes rise.", "Bases soluble in water are called alkalis."],
-        "a": 1,
-        "why": "Baking soda releases CO2 on heating and makes cakes rise."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11747,8 +10775,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_acids_2_9",
       "section": "2.9",
@@ -11763,13 +10790,13 @@
         "note": "अम्ल, उदासीन और क्षार की पहचान"
       },
       "predict": {
-        "q": "Which statement belongs to Plaster of Paris and water of crystallisation?",
+        "q": "Which statement is correct about Plaster of Paris and water of crystallisation?",
         "options": ["Bases soluble in water are called alkalis.", "Acidic behaviour appears only in the presence of water.", "Heating gypsum at 373 K gives Plaster of Paris."],
         "a": 2,
         "why": "Heating gypsum at 373 K gives Plaster of Paris."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्लास्टर ऑफ़ पेरिस और क्रिस्टलन जल' से मेल खाता है?",
+        "q": "'प्लास्टर ऑफ़ पेरिस और क्रिस्टलन जल' के बारे में कौन-सा कथन सही है?",
         "options": ["जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।", "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।", "जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।"],
         "a": 2,
         "why": "जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।"
@@ -11791,12 +10818,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Plaster of Paris and water of crystallisation?",
-        "options": ["Bases soluble in water are called alkalis.", "Acidic behaviour appears only in the presence of water.", "Heating gypsum at 373 K gives Plaster of Paris."],
-        "a": 2,
-        "why": "Heating gypsum at 373 K gives Plaster of Paris."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -11808,8 +10829,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_acids"] = {
       "id": "c10_acids",
@@ -11941,93 +10961,93 @@
         "desc": "Heating gypsum at 373 K gives Plaster of Paris."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Acids and bases: properties?",
+        "q": "Which statement is correct about Acids and bases: properties?",
         "options": ["Bases soluble in water are called alkalis.", "Acidic behaviour appears only in the presence of water.", "Phenolphthalein is colourless in acid and pink in base."],
         "a": 0,
         "why": "Bases soluble in water are called alkalis."
       }, {
-        "q": "Which statement belongs to H+ and OH- ions in water?",
+        "q": "Which statement is correct about H+ and OH- ions in water?",
         "options": ["Phenolphthalein is colourless in acid and pink in base.", "Acidic behaviour appears only in the presence of water.", "Neutralisation is exothermic and produces salt and water."],
         "a": 1,
         "why": "Acidic behaviour appears only in the presence of water."
       }, {
-        "q": "Which statement belongs to Indicators and their colours?",
+        "q": "Which statement is correct about Indicators and their colours?",
         "options": ["Neutralisation is exothermic and produces salt and water.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "Phenolphthalein is colourless in acid and pink in base."],
         "a": 2,
         "why": "Phenolphthalein is colourless in acid and pink in base."
       }, {
-        "q": "Which statement belongs to Neutralisation and salt formation?",
+        "q": "Which statement is correct about Neutralisation and salt formation?",
         "options": ["Neutralisation is exothermic and produces salt and water.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "Tooth enamel dissolves when mouth pH falls below 5.5."],
         "a": 0,
         "why": "Neutralisation is exothermic and produces salt and water."
       }, {
-        "q": "Which statement belongs to The pH scale and its importance?",
+        "q": "Which statement is correct about The pH scale and its importance?",
         "options": ["Tooth enamel dissolves when mouth pH falls below 5.5.", "Our body works in a narrow pH range of about 7.0 to 7.8.", "The chlor-alkali process yields NaOH, Cl2 and H2 from brine."],
         "a": 1,
         "why": "Our body works in a narrow pH range of about 7.0 to 7.8."
       }, {
-        "q": "Which statement belongs to pH in everyday life?",
+        "q": "Which statement is correct about pH in everyday life?",
         "options": ["The chlor-alkali process yields NaOH, Cl2 and H2 from brine.", "Baking soda releases CO2 on heating and makes cakes rise.", "Tooth enamel dissolves when mouth pH falls below 5.5."],
         "a": 2,
         "why": "Tooth enamel dissolves when mouth pH falls below 5.5."
       }, {
-        "q": "Which statement belongs to Common salt and sodium hydroxide?",
+        "q": "Which statement is correct about Common salt and sodium hydroxide?",
         "options": ["The chlor-alkali process yields NaOH, Cl2 and H2 from brine.", "Baking soda releases CO2 on heating and makes cakes rise.", "Heating gypsum at 373 K gives Plaster of Paris."],
         "a": 0,
         "why": "The chlor-alkali process yields NaOH, Cl2 and H2 from brine."
       }, {
-        "q": "Which statement belongs to Bleaching powder, baking soda and washing soda?",
+        "q": "Which statement is correct about Bleaching powder, baking soda and washing soda?",
         "options": ["Heating gypsum at 373 K gives Plaster of Paris.", "Baking soda releases CO2 on heating and makes cakes rise.", "Bases soluble in water are called alkalis."],
         "a": 1,
         "why": "Baking soda releases CO2 on heating and makes cakes rise."
       }, {
-        "q": "Which statement belongs to Plaster of Paris and water of crystallisation?",
+        "q": "Which statement is correct about Plaster of Paris and water of crystallisation?",
         "options": ["Bases soluble in water are called alkalis.", "Acidic behaviour appears only in the presence of water.", "Heating gypsum at 373 K gives Plaster of Paris."],
         "a": 2,
         "why": "Heating gypsum at 373 K gives Plaster of Paris."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'अम्ल और क्षार के गुण' से मेल खाता है?",
+        "q": "'अम्ल और क्षार के गुण' के बारे में कौन-सा कथन सही है?",
         "options": ["जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।", "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।", "फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।"],
         "a": 0,
         "why": "जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।"
       }, {
-        "q": "कौन-सा कथन 'जल में H+ और OH- आयन' से मेल खाता है?",
+        "q": "'जल में H+ और OH- आयन' के बारे में कौन-सा कथन सही है?",
         "options": ["फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।", "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।", "उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।"],
         "a": 1,
         "why": "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।"
       }, {
-        "q": "कौन-सा कथन 'सूचक और उनके रंग' से मेल खाता है?",
+        "q": "'सूचक और उनके रंग' के बारे में कौन-सा कथन सही है?",
         "options": ["उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।", "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।", "फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।"],
         "a": 2,
         "why": "फ़िनॉलफ्थैलीन अम्ल में रंगहीन और क्षार में गुलाबी होता है।"
       }, {
-        "q": "कौन-सा कथन 'उदासीनीकरण और लवण निर्माण' से मेल खाता है?",
+        "q": "'उदासीनीकरण और लवण निर्माण' के बारे में कौन-सा कथन सही है?",
         "options": ["उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।", "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।", "मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।"],
         "a": 0,
         "why": "उदासीनीकरण ऊष्माक्षेपी होता है और लवण तथा जल देता है।"
       }, {
-        "q": "कौन-सा कथन 'pH पैमाना और उसका महत्व' से मेल खाता है?",
+        "q": "'pH पैमाना और उसका महत्व' के बारे में कौन-सा कथन सही है?",
         "options": ["मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।", "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।", "क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।"],
         "a": 1,
         "why": "हमारा शरीर लगभग 7.0 से 7.8 के संकरे पीएच पर काम करता है।"
       }, {
-        "q": "कौन-सा कथन 'दैनिक जीवन में पीएच' से मेल खाता है?",
+        "q": "'दैनिक जीवन में पीएच' के बारे में कौन-सा कथन सही है?",
         "options": ["क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।", "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।", "मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।"],
         "a": 2,
         "why": "मुँह का पीएच 5.5 से नीचे जाने पर दाँत का इनेमल घुलता है।"
       }, {
-        "q": "कौन-सा कथन 'साधारण नमक और सोडियम हाइड्रॉक्साइड' से मेल खाता है?",
+        "q": "'साधारण नमक और सोडियम हाइड्रॉक्साइड' के बारे में कौन-सा कथन सही है?",
         "options": ["क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।", "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।", "जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।"],
         "a": 0,
         "why": "क्लोर-क्षार प्रक्रिया में खारे जल से NaOH, Cl2 और H2 बनते हैं।"
       }, {
-        "q": "कौन-सा कथन 'विरंजक चूर्ण, खाने का सोडा और धोने का सोडा' से मेल खाता है?",
+        "q": "'विरंजक चूर्ण, खाने का सोडा और धोने का सोडा' के बारे में कौन-सा कथन सही है?",
         "options": ["जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।", "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।", "जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।"],
         "a": 1,
         "why": "गर्म करने पर खाने का सोडा CO2 छोड़ता है और केक फुलाता है।"
       }, {
-        "q": "कौन-सा कथन 'प्लास्टर ऑफ़ पेरिस और क्रिस्टलन जल' से मेल खाता है?",
+        "q": "'प्लास्टर ऑफ़ पेरिस और क्रिस्टलन जल' के बारे में कौन-सा कथन सही है?",
         "options": ["जल में घुलने वाले क्षारों को क्षारक या अल्कली कहते हैं।", "अम्लीय व्यवहार केवल जल की उपस्थिति में प्रकट होता है।", "जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।"],
         "a": 2,
         "why": "जिप्सम को 373 K पर गर्म करने से प्लास्टर ऑफ़ पेरिस मिलता है।"
@@ -12049,13 +11069,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Physical properties of metals and non-metals?",
+        "q": "Which statement is correct about Physical properties of metals and non-metals?",
         "options": ["Metals are sonorous and good conductors while non-metals are brittle and poor conductors.", "Metal oxides are generally basic and non-metal oxides acidic.", "A more reactive metal displaces a less reactive metal from its salt solution."],
         "a": 0,
         "why": "Metals are sonorous and good conductors while non-metals are brittle and poor conductors."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'धातु और अधातु के भौतिक गुण' से मेल खाता है?",
+        "q": "'धातु और अधातु के भौतिक गुण' के बारे में कौन-सा कथन सही है?",
         "options": ["धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।", "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।", "अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।"],
         "a": 0,
         "why": "धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।"
@@ -12077,12 +11097,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Physical properties of metals and non-metals?",
-        "options": ["Metals are sonorous and good conductors while non-metals are brittle and poor conductors.", "Metal oxides are generally basic and non-metal oxides acidic.", "A more reactive metal displaces a less reactive metal from its salt solution."],
-        "a": 0,
-        "why": "Metals are sonorous and good conductors while non-metals are brittle and poor conductors."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12094,8 +11108,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_metals_3_2",
       "section": "3.2",
@@ -12110,13 +11123,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Chemical properties: oxygen, water and acids?",
+        "q": "Which statement is correct about Chemical properties: oxygen, water and acids?",
         "options": ["A more reactive metal displaces a less reactive metal from its salt solution.", "Metal oxides are generally basic and non-metal oxides acidic.", "Ionic compounds have high melting points and conduct electricity when molten."],
         "a": 1,
         "why": "Metal oxides are generally basic and non-metal oxides acidic."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'रासायनिक गुण: ऑक्सीजन, जल और अम्ल' से मेल खाता है?",
+        "q": "'रासायनिक गुण: ऑक्सीजन, जल और अम्ल' के बारे में कौन-सा कथन सही है?",
         "options": ["अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।", "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।", "आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।"],
         "a": 1,
         "why": "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।"
@@ -12138,12 +11151,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Chemical properties: oxygen, water and acids?",
-        "options": ["A more reactive metal displaces a less reactive metal from its salt solution.", "Metal oxides are generally basic and non-metal oxides acidic.", "Ionic compounds have high melting points and conduct electricity when molten."],
-        "a": 1,
-        "why": "Metal oxides are generally basic and non-metal oxides acidic."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12155,8 +11162,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_metals_3_3",
       "section": "3.3",
@@ -12171,13 +11177,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Amphoteric oxides and the reactivity series?",
+        "q": "Which statement is correct about Amphoteric oxides and the reactivity series?",
         "options": ["Ionic compounds have high melting points and conduct electricity when molten.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "A more reactive metal displaces a less reactive metal from its salt solution."],
         "a": 2,
         "why": "A more reactive metal displaces a less reactive metal from its salt solution."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'उभयधर्मी ऑक्साइड और क्रियाशीलता श्रेणी' से मेल खाता है?",
+        "q": "'उभयधर्मी ऑक्साइड और क्रियाशीलता श्रेणी' के बारे में कौन-सा कथन सही है?",
         "options": ["आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।", "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।", "अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।"],
         "a": 2,
         "why": "अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।"
@@ -12199,12 +11205,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Amphoteric oxides and the reactivity series?",
-        "options": ["Ionic compounds have high melting points and conduct electricity when molten.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "A more reactive metal displaces a less reactive metal from its salt solution."],
-        "a": 2,
-        "why": "A more reactive metal displaces a less reactive metal from its salt solution."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12216,8 +11216,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_metals_3_4",
       "section": "3.4",
@@ -12232,13 +11231,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Ionic compounds and their properties?",
+        "q": "Which statement is correct about Ionic compounds and their properties?",
         "options": ["Ionic compounds have high melting points and conduct electricity when molten.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "Copper is purified by electrolysis with impure copper as anode."],
         "a": 0,
         "why": "Ionic compounds have high melting points and conduct electricity when molten."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आयनिक यौगिक और उनके गुण' से मेल खाता है?",
+        "q": "'आयनिक यौगिक और उनके गुण' के बारे में कौन-सा कथन सही है?",
         "options": ["आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।", "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।", "ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।"],
         "a": 0,
         "why": "आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।"
@@ -12260,12 +11259,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Ionic compounds and their properties?",
-        "options": ["Ionic compounds have high melting points and conduct electricity when molten.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "Copper is purified by electrolysis with impure copper as anode."],
-        "a": 0,
-        "why": "Ionic compounds have high melting points and conduct electricity when molten."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12277,8 +11270,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_metals_3_5",
       "section": "3.5",
@@ -12293,13 +11285,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Occurrence and extraction of metals?",
+        "q": "Which statement is correct about Occurrence and extraction of metals?",
         "options": ["Copper is purified by electrolysis with impure copper as anode.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "Rusting needs both oxygen and water together."],
         "a": 1,
         "why": "Roasting heats sulphide ores in air while calcination heats carbonate ores without air."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'धातुओं की प्राप्ति और निष्कर्षण' से मेल खाता है?",
+        "q": "'धातुओं की प्राप्ति और निष्कर्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।", "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।", "जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।"],
         "a": 1,
         "why": "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।"
@@ -12321,12 +11313,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Occurrence and extraction of metals?",
-        "options": ["Copper is purified by electrolysis with impure copper as anode.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "Rusting needs both oxygen and water together."],
-        "a": 1,
-        "why": "Roasting heats sulphide ores in air while calcination heats carbonate ores without air."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12338,8 +11324,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_metals_3_6",
       "section": "3.6",
@@ -12354,13 +11339,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Refining and electrolytic purification?",
+        "q": "Which statement is correct about Refining and electrolytic purification?",
         "options": ["Rusting needs both oxygen and water together.", "Stainless steel is an alloy of iron, nickel and chromium.", "Copper is purified by electrolysis with impure copper as anode."],
         "a": 2,
         "why": "Copper is purified by electrolysis with impure copper as anode."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'शोधन और वैद्युत परिष्करण' से मेल खाता है?",
+        "q": "'शोधन और वैद्युत परिष्करण' के बारे में कौन-सा कथन सही है?",
         "options": ["जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।", "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।", "ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।"],
         "a": 2,
         "why": "ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।"
@@ -12382,12 +11367,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Refining and electrolytic purification?",
-        "options": ["Rusting needs both oxygen and water together.", "Stainless steel is an alloy of iron, nickel and chromium.", "Copper is purified by electrolysis with impure copper as anode."],
-        "a": 2,
-        "why": "Copper is purified by electrolysis with impure copper as anode."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12399,8 +11378,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_metals_3_7",
       "section": "3.7",
@@ -12415,13 +11393,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Corrosion and its prevention?",
+        "q": "Which statement is correct about Corrosion and its prevention?",
         "options": ["Rusting needs both oxygen and water together.", "Stainless steel is an alloy of iron, nickel and chromium.", "Metals are sonorous and good conductors while non-metals are brittle and poor conductors."],
         "a": 0,
         "why": "Rusting needs both oxygen and water together."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'संक्षारण और उसकी रोकथाम' से मेल खाता है?",
+        "q": "'संक्षारण और उसकी रोकथाम' के बारे में कौन-सा कथन सही है?",
         "options": ["जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।", "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।", "धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।"],
         "a": 0,
         "why": "जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।"
@@ -12443,12 +11421,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Corrosion and its prevention?",
-        "options": ["Rusting needs both oxygen and water together.", "Stainless steel is an alloy of iron, nickel and chromium.", "Metals are sonorous and good conductors while non-metals are brittle and poor conductors."],
-        "a": 0,
-        "why": "Rusting needs both oxygen and water together."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12460,8 +11432,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_metals_3_8",
       "section": "3.8",
@@ -12476,13 +11447,13 @@
         "note": "सबसे क्रियाशील से निष्क्रिय तक"
       },
       "predict": {
-        "q": "Which statement belongs to Alloys and their uses?",
+        "q": "Which statement is correct about Alloys and their uses?",
         "options": ["Metals are sonorous and good conductors while non-metals are brittle and poor conductors.", "Stainless steel is an alloy of iron, nickel and chromium.", "Metal oxides are generally basic and non-metal oxides acidic."],
         "a": 1,
         "why": "Stainless steel is an alloy of iron, nickel and chromium."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मिश्रधातुएँ और उनके उपयोग' से मेल खाता है?",
+        "q": "'मिश्रधातुएँ और उनके उपयोग' के बारे में कौन-सा कथन सही है?",
         "options": ["धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।", "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।", "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।"],
         "a": 1,
         "why": "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।"
@@ -12504,12 +11475,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Alloys and their uses?",
-        "options": ["Metals are sonorous and good conductors while non-metals are brittle and poor conductors.", "Stainless steel is an alloy of iron, nickel and chromium.", "Metal oxides are generally basic and non-metal oxides acidic."],
-        "a": 1,
-        "why": "Stainless steel is an alloy of iron, nickel and chromium."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12521,8 +11486,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_metals"] = {
       "id": "c10_metals",
@@ -12641,83 +11605,83 @@
         "desc": "Stainless steel is an alloy of iron, nickel and chromium."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Physical properties of metals and non-metals?",
+        "q": "Which statement is correct about Physical properties of metals and non-metals?",
         "options": ["Metals are sonorous and good conductors while non-metals are brittle and poor conductors.", "Metal oxides are generally basic and non-metal oxides acidic.", "A more reactive metal displaces a less reactive metal from its salt solution."],
         "a": 0,
         "why": "Metals are sonorous and good conductors while non-metals are brittle and poor conductors."
       }, {
-        "q": "Which statement belongs to Chemical properties: oxygen, water and acids?",
+        "q": "Which statement is correct about Chemical properties: oxygen, water and acids?",
         "options": ["A more reactive metal displaces a less reactive metal from its salt solution.", "Metal oxides are generally basic and non-metal oxides acidic.", "Ionic compounds have high melting points and conduct electricity when molten."],
         "a": 1,
         "why": "Metal oxides are generally basic and non-metal oxides acidic."
       }, {
-        "q": "Which statement belongs to Amphoteric oxides and the reactivity series?",
+        "q": "Which statement is correct about Amphoteric oxides and the reactivity series?",
         "options": ["Ionic compounds have high melting points and conduct electricity when molten.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "A more reactive metal displaces a less reactive metal from its salt solution."],
         "a": 2,
         "why": "A more reactive metal displaces a less reactive metal from its salt solution."
       }, {
-        "q": "Which statement belongs to Ionic compounds and their properties?",
+        "q": "Which statement is correct about Ionic compounds and their properties?",
         "options": ["Ionic compounds have high melting points and conduct electricity when molten.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "Copper is purified by electrolysis with impure copper as anode."],
         "a": 0,
         "why": "Ionic compounds have high melting points and conduct electricity when molten."
       }, {
-        "q": "Which statement belongs to Occurrence and extraction of metals?",
+        "q": "Which statement is correct about Occurrence and extraction of metals?",
         "options": ["Copper is purified by electrolysis with impure copper as anode.", "Roasting heats sulphide ores in air while calcination heats carbonate ores without air.", "Rusting needs both oxygen and water together."],
         "a": 1,
         "why": "Roasting heats sulphide ores in air while calcination heats carbonate ores without air."
       }, {
-        "q": "Which statement belongs to Refining and electrolytic purification?",
+        "q": "Which statement is correct about Refining and electrolytic purification?",
         "options": ["Rusting needs both oxygen and water together.", "Stainless steel is an alloy of iron, nickel and chromium.", "Copper is purified by electrolysis with impure copper as anode."],
         "a": 2,
         "why": "Copper is purified by electrolysis with impure copper as anode."
       }, {
-        "q": "Which statement belongs to Corrosion and its prevention?",
+        "q": "Which statement is correct about Corrosion and its prevention?",
         "options": ["Rusting needs both oxygen and water together.", "Stainless steel is an alloy of iron, nickel and chromium.", "Metals are sonorous and good conductors while non-metals are brittle and poor conductors."],
         "a": 0,
         "why": "Rusting needs both oxygen and water together."
       }, {
-        "q": "Which statement belongs to Alloys and their uses?",
+        "q": "Which statement is correct about Alloys and their uses?",
         "options": ["Metals are sonorous and good conductors while non-metals are brittle and poor conductors.", "Stainless steel is an alloy of iron, nickel and chromium.", "Metal oxides are generally basic and non-metal oxides acidic."],
         "a": 1,
         "why": "Stainless steel is an alloy of iron, nickel and chromium."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'धातु और अधातु के भौतिक गुण' से मेल खाता है?",
+        "q": "'धातु और अधातु के भौतिक गुण' के बारे में कौन-सा कथन सही है?",
         "options": ["धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।", "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।", "अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।"],
         "a": 0,
         "why": "धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।"
       }, {
-        "q": "कौन-सा कथन 'रासायनिक गुण: ऑक्सीजन, जल और अम्ल' से मेल खाता है?",
+        "q": "'रासायनिक गुण: ऑक्सीजन, जल और अम्ल' के बारे में कौन-सा कथन सही है?",
         "options": ["अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।", "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।", "आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।"],
         "a": 1,
         "why": "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।"
       }, {
-        "q": "कौन-सा कथन 'उभयधर्मी ऑक्साइड और क्रियाशीलता श्रेणी' से मेल खाता है?",
+        "q": "'उभयधर्मी ऑक्साइड और क्रियाशीलता श्रेणी' के बारे में कौन-सा कथन सही है?",
         "options": ["आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।", "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।", "अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।"],
         "a": 2,
         "why": "अधिक क्रियाशील धातु कम क्रियाशील को उसके लवण विलयन से हटा देती है।"
       }, {
-        "q": "कौन-सा कथन 'आयनिक यौगिक और उनके गुण' से मेल खाता है?",
+        "q": "'आयनिक यौगिक और उनके गुण' के बारे में कौन-सा कथन सही है?",
         "options": ["आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।", "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।", "ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।"],
         "a": 0,
         "why": "आयनिक यौगिकों के गलनांक ऊँचे हैं और ये पिघली अवस्था में विद्युत चलाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'धातुओं की प्राप्ति और निष्कर्षण' से मेल खाता है?",
+        "q": "'धातुओं की प्राप्ति और निष्कर्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।", "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।", "जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।"],
         "a": 1,
         "why": "भर्जन में सल्फ़ाइड अयस्क वायु में और निस्तापन में कार्बोनेट बिना वायु गर्म होते हैं।"
       }, {
-        "q": "कौन-सा कथन 'शोधन और वैद्युत परिष्करण' से मेल खाता है?",
+        "q": "'शोधन और वैद्युत परिष्करण' के बारे में कौन-सा कथन सही है?",
         "options": ["जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।", "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।", "ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।"],
         "a": 2,
         "why": "ताँबे का परिष्करण विद्युत अपघटन से होता है जिसमें अशुद्ध ताँबा एनोड है।"
       }, {
-        "q": "कौन-सा कथन 'संक्षारण और उसकी रोकथाम' से मेल खाता है?",
+        "q": "'संक्षारण और उसकी रोकथाम' के बारे में कौन-सा कथन सही है?",
         "options": ["जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।", "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।", "धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।"],
         "a": 0,
         "why": "जंग लगने के लिए ऑक्सीजन और जल दोनों साथ चाहिए।"
       }, {
-        "q": "कौन-सा कथन 'मिश्रधातुएँ और उनके उपयोग' से मेल खाता है?",
+        "q": "'मिश्रधातुएँ और उनके उपयोग' के बारे में कौन-सा कथन सही है?",
         "options": ["धातु ध्वनिक और सुचालक, अधातु भंगुर और कुचालक होते हैं।", "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।", "धातु ऑक्साइड प्रायः क्षारीय और अधातु ऑक्साइड अम्लीय होते हैं।"],
         "a": 1,
         "why": "स्टेनलेस स्टील लोहे, निकल और क्रोमियम की मिश्रधातु है।"
@@ -12739,13 +11703,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Nutrition and autotrophic mode?",
+        "q": "Which statement is correct about Nutrition and autotrophic mode?",
         "options": ["Autotrophs convert inorganic carbon dioxide into glucose.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "Saprophytes digest food outside the body and then absorb it."],
         "a": 0,
         "why": "Autotrophs convert inorganic carbon dioxide into glucose."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पोषण और स्वपोषी पद्धति' से मेल खाता है?",
+        "q": "'पोषण और स्वपोषी पद्धति' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।", "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।", "मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।"],
         "a": 0,
         "why": "स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।"
@@ -12767,12 +11731,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Nutrition and autotrophic mode?",
-        "options": ["Autotrophs convert inorganic carbon dioxide into glucose.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "Saprophytes digest food outside the body and then absorb it."],
-        "a": 0,
-        "why": "Autotrophs convert inorganic carbon dioxide into glucose."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12784,8 +11742,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_2",
       "section": "5.2",
@@ -12800,13 +11757,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Photosynthesis and chlorophyll?",
+        "q": "Which statement is correct about Photosynthesis and chlorophyll?",
         "options": ["Saprophytes digest food outside the body and then absorb it.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "Villi in the small intestine increase the surface for absorption."],
         "a": 1,
         "why": "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रकाश-संश्लेषण और क्लोरोफ़िल' से मेल खाता है?",
+        "q": "'प्रकाश-संश्लेषण और क्लोरोफ़िल' के बारे में कौन-सा कथन सही है?",
         "options": ["मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।", "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।", "छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।"],
         "a": 1,
         "why": "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।"
@@ -12828,12 +11785,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Photosynthesis and chlorophyll?",
-        "options": ["Saprophytes digest food outside the body and then absorb it.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "Villi in the small intestine increase the surface for absorption."],
-        "a": 1,
-        "why": "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12845,8 +11796,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_3",
       "section": "5.3",
@@ -12861,13 +11811,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Heterotrophic nutrition?",
+        "q": "Which statement is correct about Heterotrophic nutrition?",
         "options": ["Villi in the small intestine increase the surface for absorption.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Saprophytes digest food outside the body and then absorb it."],
         "a": 2,
         "why": "Saprophytes digest food outside the body and then absorb it."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विषमपोषी पोषण' से मेल खाता है?",
+        "q": "'विषमपोषी पोषण' के बारे में कौन-सा कथन सही है?",
         "options": ["छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।", "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।", "मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।"],
         "a": 2,
         "why": "मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।"
@@ -12889,12 +11839,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Heterotrophic nutrition?",
-        "options": ["Villi in the small intestine increase the surface for absorption.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Saprophytes digest food outside the body and then absorb it."],
-        "a": 2,
-        "why": "Saprophytes digest food outside the body and then absorb it."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12906,8 +11850,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_4",
       "section": "5.4",
@@ -12922,13 +11865,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Digestion in humans?",
+        "q": "Which statement is correct about Digestion in humans?",
         "options": ["Villi in the small intestine increase the surface for absorption.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."],
         "a": 0,
         "why": "Villi in the small intestine increase the surface for absorption."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव में पाचन' से मेल खाता है?",
+        "q": "'मानव में पाचन' के बारे में कौन-सा कथन सही है?",
         "options": ["छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।", "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।", "वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।"],
         "a": 0,
         "why": "छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।"
@@ -12950,12 +11893,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Digestion in humans?",
-        "options": ["Villi in the small intestine increase the surface for absorption.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."],
-        "a": 0,
-        "why": "Villi in the small intestine increase the surface for absorption."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -12967,8 +11904,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_5",
       "section": "5.5",
@@ -12983,13 +11919,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Aerobic and anaerobic respiration?",
+        "q": "Which statement is correct about Aerobic and anaerobic respiration?",
         "options": ["Alveoli provide a large moist surface for oxygen and carbon dioxide exchange.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Transpiration pull drives the upward movement of water in xylem."],
         "a": 1,
         "why": "Fermentation in yeast gives ethanol and carbon dioxide."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वायवीय और अवायवीय श्वसन' से मेल खाता है?",
+        "q": "'वायवीय और अवायवीय श्वसन' के बारे में कौन-सा कथन सही है?",
         "options": ["वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।", "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।", "वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।"],
         "a": 1,
         "why": "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।"
@@ -13011,12 +11947,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Aerobic and anaerobic respiration?",
-        "options": ["Alveoli provide a large moist surface for oxygen and carbon dioxide exchange.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Transpiration pull drives the upward movement of water in xylem."],
-        "a": 1,
-        "why": "Fermentation in yeast gives ethanol and carbon dioxide."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13028,8 +11958,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_6",
       "section": "5.6",
@@ -13044,13 +11973,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Human respiratory system?",
+        "q": "Which statement is correct about Human respiratory system?",
         "options": ["Transpiration pull drives the upward movement of water in xylem.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."],
         "a": 2,
         "why": "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव श्वसन तंत्र' से मेल खाता है?",
+        "q": "'मानव श्वसन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।", "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।", "वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।"],
         "a": 2,
         "why": "वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।"
@@ -13072,12 +12001,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Human respiratory system?",
-        "options": ["Transpiration pull drives the upward movement of water in xylem.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."],
-        "a": 2,
-        "why": "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13089,8 +12012,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_7",
       "section": "5.7",
@@ -13105,13 +12027,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Transport in plants?",
+        "q": "Which statement is correct about Transport in plants?",
         "options": ["Transpiration pull drives the upward movement of water in xylem.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "A nephron filters blood and forms urine by reabsorption and secretion."],
         "a": 0,
         "why": "Transpiration pull drives the upward movement of water in xylem."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पादपों में परिवहन' से मेल खाता है?",
+        "q": "'पादपों में परिवहन' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।", "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।", "नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।"],
         "a": 0,
         "why": "वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।"
@@ -13133,12 +12055,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Transport in plants?",
-        "options": ["Transpiration pull drives the upward movement of water in xylem.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "A nephron filters blood and forms urine by reabsorption and secretion."],
-        "a": 0,
-        "why": "Transpiration pull drives the upward movement of water in xylem."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13150,8 +12066,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_8",
       "section": "5.8",
@@ -13166,13 +12081,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Human circulatory system?",
+        "q": "Which statement is correct about Human circulatory system?",
         "options": ["A nephron filters blood and forms urine by reabsorption and secretion.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "Autotrophs convert inorganic carbon dioxide into glucose."],
         "a": 1,
         "why": "Double circulation keeps oxygenated and deoxygenated blood separate."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव परिसंचरण तंत्र' से मेल खाता है?",
+        "q": "'मानव परिसंचरण तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।", "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।", "स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।"],
         "a": 1,
         "why": "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।"
@@ -13194,12 +12109,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Human circulatory system?",
-        "options": ["A nephron filters blood and forms urine by reabsorption and secretion.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "Autotrophs convert inorganic carbon dioxide into glucose."],
-        "a": 1,
-        "why": "Double circulation keeps oxygenated and deoxygenated blood separate."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13211,8 +12120,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_life_5_9",
       "section": "5.9",
@@ -13227,13 +12135,13 @@
         "note": "पोषण से उत्सर्जन तक"
       },
       "predict": {
-        "q": "Which statement belongs to Excretion in plants and humans?",
+        "q": "Which statement is correct about Excretion in plants and humans?",
         "options": ["Autotrophs convert inorganic carbon dioxide into glucose.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "A nephron filters blood and forms urine by reabsorption and secretion."],
         "a": 2,
         "why": "A nephron filters blood and forms urine by reabsorption and secretion."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पादपों और मानव में उत्सर्जन' से मेल खाता है?",
+        "q": "'पादपों और मानव में उत्सर्जन' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।", "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।", "नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।"],
         "a": 2,
         "why": "नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।"
@@ -13255,12 +12163,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Excretion in plants and humans?",
-        "options": ["Autotrophs convert inorganic carbon dioxide into glucose.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "A nephron filters blood and forms urine by reabsorption and secretion."],
-        "a": 2,
-        "why": "A nephron filters blood and forms urine by reabsorption and secretion."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13272,8 +12174,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_life"] = {
       "id": "c10_life",
@@ -13405,93 +12306,93 @@
         "desc": "A nephron filters blood and forms urine by reabsorption and secretion."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Nutrition and autotrophic mode?",
+        "q": "Which statement is correct about Nutrition and autotrophic mode?",
         "options": ["Autotrophs convert inorganic carbon dioxide into glucose.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "Saprophytes digest food outside the body and then absorb it."],
         "a": 0,
         "why": "Autotrophs convert inorganic carbon dioxide into glucose."
       }, {
-        "q": "Which statement belongs to Photosynthesis and chlorophyll?",
+        "q": "Which statement is correct about Photosynthesis and chlorophyll?",
         "options": ["Saprophytes digest food outside the body and then absorb it.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "Villi in the small intestine increase the surface for absorption."],
         "a": 1,
         "why": "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight."
       }, {
-        "q": "Which statement belongs to Heterotrophic nutrition?",
+        "q": "Which statement is correct about Heterotrophic nutrition?",
         "options": ["Villi in the small intestine increase the surface for absorption.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Saprophytes digest food outside the body and then absorb it."],
         "a": 2,
         "why": "Saprophytes digest food outside the body and then absorb it."
       }, {
-        "q": "Which statement belongs to Digestion in humans?",
+        "q": "Which statement is correct about Digestion in humans?",
         "options": ["Villi in the small intestine increase the surface for absorption.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."],
         "a": 0,
         "why": "Villi in the small intestine increase the surface for absorption."
       }, {
-        "q": "Which statement belongs to Aerobic and anaerobic respiration?",
+        "q": "Which statement is correct about Aerobic and anaerobic respiration?",
         "options": ["Alveoli provide a large moist surface for oxygen and carbon dioxide exchange.", "Fermentation in yeast gives ethanol and carbon dioxide.", "Transpiration pull drives the upward movement of water in xylem."],
         "a": 1,
         "why": "Fermentation in yeast gives ethanol and carbon dioxide."
       }, {
-        "q": "Which statement belongs to Human respiratory system?",
+        "q": "Which statement is correct about Human respiratory system?",
         "options": ["Transpiration pull drives the upward movement of water in xylem.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."],
         "a": 2,
         "why": "Alveoli provide a large moist surface for oxygen and carbon dioxide exchange."
       }, {
-        "q": "Which statement belongs to Transport in plants?",
+        "q": "Which statement is correct about Transport in plants?",
         "options": ["Transpiration pull drives the upward movement of water in xylem.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "A nephron filters blood and forms urine by reabsorption and secretion."],
         "a": 0,
         "why": "Transpiration pull drives the upward movement of water in xylem."
       }, {
-        "q": "Which statement belongs to Human circulatory system?",
+        "q": "Which statement is correct about Human circulatory system?",
         "options": ["A nephron filters blood and forms urine by reabsorption and secretion.", "Double circulation keeps oxygenated and deoxygenated blood separate.", "Autotrophs convert inorganic carbon dioxide into glucose."],
         "a": 1,
         "why": "Double circulation keeps oxygenated and deoxygenated blood separate."
       }, {
-        "q": "Which statement belongs to Excretion in plants and humans?",
+        "q": "Which statement is correct about Excretion in plants and humans?",
         "options": ["Autotrophs convert inorganic carbon dioxide into glucose.", "6CO2 + 6H2O gives C6H12O6 + 6O2 in sunlight.", "A nephron filters blood and forms urine by reabsorption and secretion."],
         "a": 2,
         "why": "A nephron filters blood and forms urine by reabsorption and secretion."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'पोषण और स्वपोषी पद्धति' से मेल खाता है?",
+        "q": "'पोषण और स्वपोषी पद्धति' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।", "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।", "मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।"],
         "a": 0,
         "why": "स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।"
       }, {
-        "q": "कौन-सा कथन 'प्रकाश-संश्लेषण और क्लोरोफ़िल' से मेल खाता है?",
+        "q": "'प्रकाश-संश्लेषण और क्लोरोफ़िल' के बारे में कौन-सा कथन सही है?",
         "options": ["मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।", "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।", "छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।"],
         "a": 1,
         "why": "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।"
       }, {
-        "q": "कौन-सा कथन 'विषमपोषी पोषण' से मेल खाता है?",
+        "q": "'विषमपोषी पोषण' के बारे में कौन-सा कथन सही है?",
         "options": ["छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।", "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।", "मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।"],
         "a": 2,
         "why": "मृतजीवी भोजन शरीर के बाहर पचाकर फिर सोखते हैं।"
       }, {
-        "q": "कौन-सा कथन 'मानव में पाचन' से मेल खाता है?",
+        "q": "'मानव में पाचन' के बारे में कौन-सा कथन सही है?",
         "options": ["छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।", "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।", "वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।"],
         "a": 0,
         "why": "छोटी आँत के अंकुर अवशोषण का क्षेत्रफल बढ़ाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'वायवीय और अवायवीय श्वसन' से मेल खाता है?",
+        "q": "'वायवीय और अवायवीय श्वसन' के बारे में कौन-सा कथन सही है?",
         "options": ["वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।", "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।", "वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।"],
         "a": 1,
         "why": "यीस्ट के किण्वन से एथेनॉल और कार्बन डाइऑक्साइड बनते हैं।"
       }, {
-        "q": "कौन-सा कथन 'मानव श्वसन तंत्र' से मेल खाता है?",
+        "q": "'मानव श्वसन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।", "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।", "वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।"],
         "a": 2,
         "why": "वायुकोष्ठिकाएँ ऑक्सीजन और कार्बन डाइऑक्साइड के आदान-प्रदान हेतु बड़ी नम सतह देती हैं।"
       }, {
-        "q": "कौन-सा कथन 'पादपों में परिवहन' से मेल खाता है?",
+        "q": "'पादपों में परिवहन' के बारे में कौन-सा कथन सही है?",
         "options": ["वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।", "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।", "नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।"],
         "a": 0,
         "why": "वाष्पोत्सर्जन खिंचाव जाइलम में जल को ऊपर खींचता है।"
       }, {
-        "q": "कौन-सा कथन 'मानव परिसंचरण तंत्र' से मेल खाता है?",
+        "q": "'मानव परिसंचरण तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।", "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।", "स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।"],
         "a": 1,
         "why": "दोहरा परिसंचरण ऑक्सीजन युक्त और विहीन रक्त को अलग रखता है।"
       }, {
-        "q": "कौन-सा कथन 'पादपों और मानव में उत्सर्जन' से मेल खाता है?",
+        "q": "'पादपों और मानव में उत्सर्जन' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वपोषी अकार्बनिक कार्बन डाइऑक्साइड को ग्लूकोज़ में बदलते हैं।", "सूर्य के प्रकाश में 6CO2 + 6H2O से C6H12O6 + 6O2 बनता है।", "नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।"],
         "a": 2,
         "why": "नेफ्रॉन रक्त छानकर पुनरवशोषण और स्रावण से मूत्र बनाता है।"
@@ -13513,13 +12414,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Tropic movements in plants?",
+        "q": "Which statement is correct about Tropic movements in plants?",
         "options": ["Tropic movements are slow growth movements, not immediate turgor changes.", "Auxin accumulates on the shaded side and bends the shoot toward light.", "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."],
         "a": 0,
         "why": "Tropic movements are slow growth movements, not immediate turgor changes."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पादपों में अनुवर्ती गतियाँ' से मेल खाता है?",
+        "q": "'पादपों में अनुवर्ती गतियाँ' के बारे में कौन-सा कथन सही है?",
         "options": ["अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।", "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।", "सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।"],
         "a": 0,
         "why": "अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।"
@@ -13541,12 +12442,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Tropic movements in plants?",
-        "options": ["Tropic movements are slow growth movements, not immediate turgor changes.", "Auxin accumulates on the shaded side and bends the shoot toward light.", "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."],
-        "a": 0,
-        "why": "Tropic movements are slow growth movements, not immediate turgor changes."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13558,8 +12453,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_control_6_2",
       "section": "6.2",
@@ -13574,13 +12468,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Plant hormones?",
+        "q": "Which statement is correct about Plant hormones?",
         "options": ["A synapse passes the impulse from the axon of one neuron to a dendrite of the next.", "Auxin accumulates on the shaded side and bends the shoot toward light.", "Reflex actions are mediated by the spinal cord without conscious thought."],
         "a": 1,
         "why": "Auxin accumulates on the shaded side and bends the shoot toward light."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पादप हॉर्मोन' से मेल खाता है?",
+        "q": "'पादप हॉर्मोन' के बारे में कौन-सा कथन सही है?",
         "options": ["सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।", "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।", "प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।"],
         "a": 1,
         "why": "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।"
@@ -13602,12 +12496,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Plant hormones?",
-        "options": ["A synapse passes the impulse from the axon of one neuron to a dendrite of the next.", "Auxin accumulates on the shaded side and bends the shoot toward light.", "Reflex actions are mediated by the spinal cord without conscious thought."],
-        "a": 1,
-        "why": "Auxin accumulates on the shaded side and bends the shoot toward light."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13619,8 +12507,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_control_6_3",
       "section": "6.3",
@@ -13635,13 +12522,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Nervous system and neuron?",
+        "q": "Which statement is correct about Nervous system and neuron?",
         "options": ["Reflex actions are mediated by the spinal cord without conscious thought.", "The cerebellum coordinates posture and precise voluntary movement.", "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."],
         "a": 2,
         "why": "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'तंत्रिका तंत्र और न्यूरॉन' से मेल खाता है?",
+        "q": "'तंत्रिका तंत्र और न्यूरॉन' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।", "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।", "सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।"],
         "a": 2,
         "why": "सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।"
@@ -13663,12 +12550,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Nervous system and neuron?",
-        "options": ["Reflex actions are mediated by the spinal cord without conscious thought.", "The cerebellum coordinates posture and precise voluntary movement.", "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."],
-        "a": 2,
-        "why": "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13680,8 +12561,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_control_6_4",
       "section": "6.4",
@@ -13696,13 +12576,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Reflex action and reflex arc?",
+        "q": "Which statement is correct about Reflex action and reflex arc?",
         "options": ["Reflex actions are mediated by the spinal cord without conscious thought.", "The cerebellum coordinates posture and precise voluntary movement.", "Heartbeat and peristalsis are involuntary autonomic actions."],
         "a": 0,
         "why": "Reflex actions are mediated by the spinal cord without conscious thought."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रतिवर्त क्रिया और प्रतिवर्त चाप' से मेल खाता है?",
+        "q": "'प्रतिवर्त क्रिया और प्रतिवर्त चाप' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।", "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।", "हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।"],
         "a": 0,
         "why": "प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।"
@@ -13724,12 +12604,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Reflex action and reflex arc?",
-        "options": ["Reflex actions are mediated by the spinal cord without conscious thought.", "The cerebellum coordinates posture and precise voluntary movement.", "Heartbeat and peristalsis are involuntary autonomic actions."],
-        "a": 0,
-        "why": "Reflex actions are mediated by the spinal cord without conscious thought."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13741,8 +12615,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_control_6_5",
       "section": "6.5",
@@ -13757,13 +12630,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Human brain and its parts?",
+        "q": "Which statement is correct about Human brain and its parts?",
         "options": ["Heartbeat and peristalsis are involuntary autonomic actions.", "The cerebellum coordinates posture and precise voluntary movement.", "Insulin from the pancreas lowers blood glucose."],
         "a": 1,
         "why": "The cerebellum coordinates posture and precise voluntary movement."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव मस्तिष्क और उसके भाग' से मेल खाता है?",
+        "q": "'मानव मस्तिष्क और उसके भाग' के बारे में कौन-सा कथन सही है?",
         "options": ["हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।", "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।", "अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।"],
         "a": 1,
         "why": "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।"
@@ -13785,12 +12658,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Human brain and its parts?",
-        "options": ["Heartbeat and peristalsis are involuntary autonomic actions.", "The cerebellum coordinates posture and precise voluntary movement.", "Insulin from the pancreas lowers blood glucose."],
-        "a": 1,
-        "why": "The cerebellum coordinates posture and precise voluntary movement."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13802,8 +12669,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_control_6_6",
       "section": "6.6",
@@ -13818,13 +12684,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Voluntary, involuntary and autonomic actions?",
+        "q": "Which statement is correct about Voluntary, involuntary and autonomic actions?",
         "options": ["Insulin from the pancreas lowers blood glucose.", "Rising blood sugar triggers more insulin until the level falls.", "Heartbeat and peristalsis are involuntary autonomic actions."],
         "a": 2,
         "why": "Heartbeat and peristalsis are involuntary autonomic actions."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ऐच्छिक, अनैच्छिक और स्वायत्त क्रियाएँ' से मेल खाता है?",
+        "q": "'ऐच्छिक, अनैच्छिक और स्वायत्त क्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।", "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।", "हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।"],
         "a": 2,
         "why": "हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।"
@@ -13846,12 +12712,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Voluntary, involuntary and autonomic actions?",
-        "options": ["Insulin from the pancreas lowers blood glucose.", "Rising blood sugar triggers more insulin until the level falls.", "Heartbeat and peristalsis are involuntary autonomic actions."],
-        "a": 2,
-        "why": "Heartbeat and peristalsis are involuntary autonomic actions."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13863,8 +12723,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_control_6_7",
       "section": "6.7",
@@ -13879,13 +12738,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Endocrine glands and animal hormones?",
+        "q": "Which statement is correct about Endocrine glands and animal hormones?",
         "options": ["Insulin from the pancreas lowers blood glucose.", "Rising blood sugar triggers more insulin until the level falls.", "Tropic movements are slow growth movements, not immediate turgor changes."],
         "a": 0,
         "why": "Insulin from the pancreas lowers blood glucose."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अंतःस्रावी ग्रंथियाँ और जन्तु हॉर्मोन' से मेल खाता है?",
+        "q": "'अंतःस्रावी ग्रंथियाँ और जन्तु हॉर्मोन' के बारे में कौन-सा कथन सही है?",
         "options": ["अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।", "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।", "अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।"],
         "a": 0,
         "why": "अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।"
@@ -13907,12 +12766,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Endocrine glands and animal hormones?",
-        "options": ["Insulin from the pancreas lowers blood glucose.", "Rising blood sugar triggers more insulin until the level falls.", "Tropic movements are slow growth movements, not immediate turgor changes."],
-        "a": 0,
-        "why": "Insulin from the pancreas lowers blood glucose."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13924,8 +12777,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_control_6_8",
       "section": "6.8",
@@ -13940,13 +12792,13 @@
         "note": "उद्दीपन से अनुक्रिया तक"
       },
       "predict": {
-        "q": "Which statement belongs to Feedback control and coordination?",
+        "q": "Which statement is correct about Feedback control and coordination?",
         "options": ["Tropic movements are slow growth movements, not immediate turgor changes.", "Rising blood sugar triggers more insulin until the level falls.", "Auxin accumulates on the shaded side and bends the shoot toward light."],
         "a": 1,
         "why": "Rising blood sugar triggers more insulin until the level falls."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पुनर्निवेश नियंत्रण और समन्वय' से मेल खाता है?",
+        "q": "'पुनर्निवेश नियंत्रण और समन्वय' के बारे में कौन-सा कथन सही है?",
         "options": ["अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।", "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।", "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।"],
         "a": 1,
         "why": "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।"
@@ -13968,12 +12820,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Feedback control and coordination?",
-        "options": ["Tropic movements are slow growth movements, not immediate turgor changes.", "Rising blood sugar triggers more insulin until the level falls.", "Auxin accumulates on the shaded side and bends the shoot toward light."],
-        "a": 1,
-        "why": "Rising blood sugar triggers more insulin until the level falls."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -13985,8 +12831,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_control"] = {
       "id": "c10_control",
@@ -14105,83 +12950,83 @@
         "desc": "Rising blood sugar triggers more insulin until the level falls."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Tropic movements in plants?",
+        "q": "Which statement is correct about Tropic movements in plants?",
         "options": ["Tropic movements are slow growth movements, not immediate turgor changes.", "Auxin accumulates on the shaded side and bends the shoot toward light.", "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."],
         "a": 0,
         "why": "Tropic movements are slow growth movements, not immediate turgor changes."
       }, {
-        "q": "Which statement belongs to Plant hormones?",
+        "q": "Which statement is correct about Plant hormones?",
         "options": ["A synapse passes the impulse from the axon of one neuron to a dendrite of the next.", "Auxin accumulates on the shaded side and bends the shoot toward light.", "Reflex actions are mediated by the spinal cord without conscious thought."],
         "a": 1,
         "why": "Auxin accumulates on the shaded side and bends the shoot toward light."
       }, {
-        "q": "Which statement belongs to Nervous system and neuron?",
+        "q": "Which statement is correct about Nervous system and neuron?",
         "options": ["Reflex actions are mediated by the spinal cord without conscious thought.", "The cerebellum coordinates posture and precise voluntary movement.", "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."],
         "a": 2,
         "why": "A synapse passes the impulse from the axon of one neuron to a dendrite of the next."
       }, {
-        "q": "Which statement belongs to Reflex action and reflex arc?",
+        "q": "Which statement is correct about Reflex action and reflex arc?",
         "options": ["Reflex actions are mediated by the spinal cord without conscious thought.", "The cerebellum coordinates posture and precise voluntary movement.", "Heartbeat and peristalsis are involuntary autonomic actions."],
         "a": 0,
         "why": "Reflex actions are mediated by the spinal cord without conscious thought."
       }, {
-        "q": "Which statement belongs to Human brain and its parts?",
+        "q": "Which statement is correct about Human brain and its parts?",
         "options": ["Heartbeat and peristalsis are involuntary autonomic actions.", "The cerebellum coordinates posture and precise voluntary movement.", "Insulin from the pancreas lowers blood glucose."],
         "a": 1,
         "why": "The cerebellum coordinates posture and precise voluntary movement."
       }, {
-        "q": "Which statement belongs to Voluntary, involuntary and autonomic actions?",
+        "q": "Which statement is correct about Voluntary, involuntary and autonomic actions?",
         "options": ["Insulin from the pancreas lowers blood glucose.", "Rising blood sugar triggers more insulin until the level falls.", "Heartbeat and peristalsis are involuntary autonomic actions."],
         "a": 2,
         "why": "Heartbeat and peristalsis are involuntary autonomic actions."
       }, {
-        "q": "Which statement belongs to Endocrine glands and animal hormones?",
+        "q": "Which statement is correct about Endocrine glands and animal hormones?",
         "options": ["Insulin from the pancreas lowers blood glucose.", "Rising blood sugar triggers more insulin until the level falls.", "Tropic movements are slow growth movements, not immediate turgor changes."],
         "a": 0,
         "why": "Insulin from the pancreas lowers blood glucose."
       }, {
-        "q": "Which statement belongs to Feedback control and coordination?",
+        "q": "Which statement is correct about Feedback control and coordination?",
         "options": ["Tropic movements are slow growth movements, not immediate turgor changes.", "Rising blood sugar triggers more insulin until the level falls.", "Auxin accumulates on the shaded side and bends the shoot toward light."],
         "a": 1,
         "why": "Rising blood sugar triggers more insulin until the level falls."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'पादपों में अनुवर्ती गतियाँ' से मेल खाता है?",
+        "q": "'पादपों में अनुवर्ती गतियाँ' के बारे में कौन-सा कथन सही है?",
         "options": ["अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।", "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।", "सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।"],
         "a": 0,
         "why": "अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।"
       }, {
-        "q": "कौन-सा कथन 'पादप हॉर्मोन' से मेल खाता है?",
+        "q": "'पादप हॉर्मोन' के बारे में कौन-सा कथन सही है?",
         "options": ["सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।", "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।", "प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।"],
         "a": 1,
         "why": "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।"
       }, {
-        "q": "कौन-सा कथन 'तंत्रिका तंत्र और न्यूरॉन' से मेल खाता है?",
+        "q": "'तंत्रिका तंत्र और न्यूरॉन' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।", "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।", "सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।"],
         "a": 2,
         "why": "सिनैप्स आवेग को एक न्यूरॉन के ऐक्सॉन से अगले के डेन्ड्राइट तक ले जाता है।"
       }, {
-        "q": "कौन-सा कथन 'प्रतिवर्त क्रिया और प्रतिवर्त चाप' से मेल खाता है?",
+        "q": "'प्रतिवर्त क्रिया और प्रतिवर्त चाप' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।", "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।", "हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।"],
         "a": 0,
         "why": "प्रतिवर्त क्रियाएँ मेरुरज्जु से बिना सोचे-समझे होती हैं।"
       }, {
-        "q": "कौन-सा कथन 'मानव मस्तिष्क और उसके भाग' से मेल खाता है?",
+        "q": "'मानव मस्तिष्क और उसके भाग' के बारे में कौन-सा कथन सही है?",
         "options": ["हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।", "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।", "अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।"],
         "a": 1,
         "why": "अनुमस्तिष्क मुद्रा और सटीक ऐच्छिक गति का समन्वय करता है।"
       }, {
-        "q": "कौन-सा कथन 'ऐच्छिक, अनैच्छिक और स्वायत्त क्रियाएँ' से मेल खाता है?",
+        "q": "'ऐच्छिक, अनैच्छिक और स्वायत्त क्रियाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।", "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।", "हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।"],
         "a": 2,
         "why": "हृदय स्पंदन और क्रमाकुंचन अनैच्छिक स्वायत्त क्रियाएँ हैं।"
       }, {
-        "q": "कौन-सा कथन 'अंतःस्रावी ग्रंथियाँ और जन्तु हॉर्मोन' से मेल खाता है?",
+        "q": "'अंतःस्रावी ग्रंथियाँ और जन्तु हॉर्मोन' के बारे में कौन-सा कथन सही है?",
         "options": ["अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।", "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।", "अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।"],
         "a": 0,
         "why": "अग्न्याशय का इंसुलिन रक्त में ग्लूकोज़ घटाता है।"
       }, {
-        "q": "कौन-सा कथन 'पुनर्निवेश नियंत्रण और समन्वय' से मेल खाता है?",
+        "q": "'पुनर्निवेश नियंत्रण और समन्वय' के बारे में कौन-सा कथन सही है?",
         "options": ["अनुवर्ती गतियाँ धीमी वृद्धि गतियाँ हैं, तुरंत स्फीति परिवर्तन नहीं।", "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।", "छाया वाली ओर ऑक्सिन जमा होकर तने को प्रकाश की ओर मोड़ता है।"],
         "a": 1,
         "why": "रक्त शर्करा बढ़ने पर इंसुलिन बढ़ता है जब तक स्तर न गिर जाए।"
@@ -14203,13 +13048,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Variation and the need for reproduction?",
+        "q": "Which statement is correct about Variation and the need for reproduction?",
         "options": ["Variation is greater in sexual reproduction than in cloning.", "Binary fission produces two identical daughter individuals.", "Tissue culture grows whole plants from a small explant in sterile medium."],
         "a": 0,
         "why": "Variation is greater in sexual reproduction than in cloning."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विभिन्नता और जनन की आवश्यकता' से मेल खाता है?",
+        "q": "'विभिन्नता और जनन की आवश्यकता' के बारे में कौन-सा कथन सही है?",
         "options": ["लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।", "द्वि-विखंडन से दो समान संतति जीव बनते हैं।", "ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।"],
         "a": 0,
         "why": "लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।"
@@ -14231,12 +13076,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Variation and the need for reproduction?",
-        "options": ["Variation is greater in sexual reproduction than in cloning.", "Binary fission produces two identical daughter individuals.", "Tissue culture grows whole plants from a small explant in sterile medium."],
-        "a": 0,
-        "why": "Variation is greater in sexual reproduction than in cloning."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14248,8 +13087,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_2",
       "section": "7.2",
@@ -14264,13 +13102,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Asexual reproduction: fission, budding, regeneration?",
+        "q": "Which statement is correct about Asexual reproduction: fission, budding, regeneration?",
         "options": ["Tissue culture grows whole plants from a small explant in sterile medium.", "Binary fission produces two identical daughter individuals.", "After fertilisation the ovule becomes a seed and the ovary a fruit."],
         "a": 1,
         "why": "Binary fission produces two identical daughter individuals."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अलैंगिक जनन: विखंडन, मुकुलन, पुनर्जनन' से मेल खाता है?",
+        "q": "'अलैंगिक जनन: विखंडन, मुकुलन, पुनर्जनन' के बारे में कौन-सा कथन सही है?",
         "options": ["ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।", "द्वि-विखंडन से दो समान संतति जीव बनते हैं।", "निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।"],
         "a": 1,
         "why": "द्वि-विखंडन से दो समान संतति जीव बनते हैं।"
@@ -14292,12 +13130,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Asexual reproduction: fission, budding, regeneration?",
-        "options": ["Tissue culture grows whole plants from a small explant in sterile medium.", "Binary fission produces two identical daughter individuals.", "After fertilisation the ovule becomes a seed and the ovary a fruit."],
-        "a": 1,
-        "why": "Binary fission produces two identical daughter individuals."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14309,8 +13141,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_3",
       "section": "7.3",
@@ -14325,13 +13156,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Vegetative propagation and tissue culture?",
+        "q": "Which statement is correct about Vegetative propagation and tissue culture?",
         "options": ["After fertilisation the ovule becomes a seed and the ovary a fruit.", "The scrotum keeps testes about two degrees cooler than body temperature.", "Tissue culture grows whole plants from a small explant in sterile medium."],
         "a": 2,
         "why": "Tissue culture grows whole plants from a small explant in sterile medium."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वानस्पतिक प्रवर्धन और ऊतक संवर्धन' से मेल खाता है?",
+        "q": "'वानस्पतिक प्रवर्धन और ऊतक संवर्धन' के बारे में कौन-सा कथन सही है?",
         "options": ["निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।", "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।", "ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।"],
         "a": 2,
         "why": "ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।"
@@ -14353,12 +13184,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Vegetative propagation and tissue culture?",
-        "options": ["After fertilisation the ovule becomes a seed and the ovary a fruit.", "The scrotum keeps testes about two degrees cooler than body temperature.", "Tissue culture grows whole plants from a small explant in sterile medium."],
-        "a": 2,
-        "why": "Tissue culture grows whole plants from a small explant in sterile medium."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14370,8 +13195,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_4",
       "section": "7.4",
@@ -14386,13 +13210,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Sexual reproduction in flowering plants?",
+        "q": "Which statement is correct about Sexual reproduction in flowering plants?",
         "options": ["After fertilisation the ovule becomes a seed and the ovary a fruit.", "The scrotum keeps testes about two degrees cooler than body temperature.", "Fertilisation normally occurs in the fallopian tube."],
         "a": 0,
         "why": "After fertilisation the ovule becomes a seed and the ovary a fruit."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पुष्पी पादपों में लैंगिक जनन' से मेल खाता है?",
+        "q": "'पुष्पी पादपों में लैंगिक जनन' के बारे में कौन-सा कथन सही है?",
         "options": ["निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।", "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।", "निषेचन सामान्यतः अंडवाहिनी में होता है।"],
         "a": 0,
         "why": "निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।"
@@ -14414,12 +13238,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Sexual reproduction in flowering plants?",
-        "options": ["After fertilisation the ovule becomes a seed and the ovary a fruit.", "The scrotum keeps testes about two degrees cooler than body temperature.", "Fertilisation normally occurs in the fallopian tube."],
-        "a": 0,
-        "why": "After fertilisation the ovule becomes a seed and the ovary a fruit."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14431,8 +13249,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_5",
       "section": "7.5",
@@ -14447,13 +13264,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Human male reproductive system?",
+        "q": "Which statement is correct about Human male reproductive system?",
         "options": ["Fertilisation normally occurs in the fallopian tube.", "The scrotum keeps testes about two degrees cooler than body temperature.", "The placenta supplies nutrients and removes wastes from the embryo."],
         "a": 1,
         "why": "The scrotum keeps testes about two degrees cooler than body temperature."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव नर जनन तंत्र' से मेल खाता है?",
+        "q": "'मानव नर जनन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["निषेचन सामान्यतः अंडवाहिनी में होता है।", "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।", "अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।"],
         "a": 1,
         "why": "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।"
@@ -14475,12 +13292,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Human male reproductive system?",
-        "options": ["Fertilisation normally occurs in the fallopian tube.", "The scrotum keeps testes about two degrees cooler than body temperature.", "The placenta supplies nutrients and removes wastes from the embryo."],
-        "a": 1,
-        "why": "The scrotum keeps testes about two degrees cooler than body temperature."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14492,8 +13303,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_6",
       "section": "7.6",
@@ -14508,13 +13318,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Human female reproductive system?",
+        "q": "Which statement is correct about Human female reproductive system?",
         "options": ["The placenta supplies nutrients and removes wastes from the embryo.", "Condoms also reduce the risk of sexually transmitted infections.", "Fertilisation normally occurs in the fallopian tube."],
         "a": 2,
         "why": "Fertilisation normally occurs in the fallopian tube."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव मादा जनन तंत्र' से मेल खाता है?",
+        "q": "'मानव मादा जनन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।", "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।", "निषेचन सामान्यतः अंडवाहिनी में होता है।"],
         "a": 2,
         "why": "निषेचन सामान्यतः अंडवाहिनी में होता है।"
@@ -14536,12 +13346,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Human female reproductive system?",
-        "options": ["The placenta supplies nutrients and removes wastes from the embryo.", "Condoms also reduce the risk of sexually transmitted infections.", "Fertilisation normally occurs in the fallopian tube."],
-        "a": 2,
-        "why": "Fertilisation normally occurs in the fallopian tube."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14553,8 +13357,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_7",
       "section": "7.7",
@@ -14569,13 +13372,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Fertilisation, embryo and menstrual cycle?",
+        "q": "Which statement is correct about Fertilisation, embryo and menstrual cycle?",
         "options": ["The placenta supplies nutrients and removes wastes from the embryo.", "Condoms also reduce the risk of sexually transmitted infections.", "Female foeticide and unsafe practices harm maternal and social health."],
         "a": 0,
         "why": "The placenta supplies nutrients and removes wastes from the embryo."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'निषेचन, भ्रूण और मासिक चक्र' से मेल खाता है?",
+        "q": "'निषेचन, भ्रूण और मासिक चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।", "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।", "भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।"],
         "a": 0,
         "why": "अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।"
@@ -14597,12 +13400,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Fertilisation, embryo and menstrual cycle?",
-        "options": ["The placenta supplies nutrients and removes wastes from the embryo.", "Condoms also reduce the risk of sexually transmitted infections.", "Female foeticide and unsafe practices harm maternal and social health."],
-        "a": 0,
-        "why": "The placenta supplies nutrients and removes wastes from the embryo."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14614,8 +13411,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_8",
       "section": "7.8",
@@ -14630,13 +13426,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to Reproductive health and contraception?",
+        "q": "Which statement is correct about Reproductive health and contraception?",
         "options": ["Female foeticide and unsafe practices harm maternal and social health.", "Condoms also reduce the risk of sexually transmitted infections.", "Variation is greater in sexual reproduction than in cloning."],
         "a": 1,
         "why": "Condoms also reduce the risk of sexually transmitted infections."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जनन स्वास्थ्य और गर्भनिरोध' से मेल खाता है?",
+        "q": "'जनन स्वास्थ्य और गर्भनिरोध' के बारे में कौन-सा कथन सही है?",
         "options": ["भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।", "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।", "लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।"],
         "a": 1,
         "why": "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।"
@@ -14658,12 +13454,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Reproductive health and contraception?",
-        "options": ["Female foeticide and unsafe practices harm maternal and social health.", "Condoms also reduce the risk of sexually transmitted infections.", "Variation is greater in sexual reproduction than in cloning."],
-        "a": 1,
-        "why": "Condoms also reduce the risk of sexually transmitted infections."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14675,8 +13465,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_repro_7_9",
       "section": "7.9",
@@ -14691,13 +13480,13 @@
         "note": "युग्मक से संतति"
       },
       "predict": {
-        "q": "Which statement belongs to HIV, AIDS and women's health?",
+        "q": "Which statement is correct about HIV, AIDS and women's health?",
         "options": ["Variation is greater in sexual reproduction than in cloning.", "Binary fission produces two identical daughter individuals.", "Female foeticide and unsafe practices harm maternal and social health."],
         "a": 2,
         "why": "Female foeticide and unsafe practices harm maternal and social health."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'HIV, AIDS और महिला स्वास्थ्य' से मेल खाता है?",
+        "q": "'HIV, AIDS और महिला स्वास्थ्य' के बारे में कौन-सा कथन सही है?",
         "options": ["लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।", "द्वि-विखंडन से दो समान संतति जीव बनते हैं।", "भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।"],
         "a": 2,
         "why": "भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।"
@@ -14719,12 +13508,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to HIV, AIDS and women's health?",
-        "options": ["Variation is greater in sexual reproduction than in cloning.", "Binary fission produces two identical daughter individuals.", "Female foeticide and unsafe practices harm maternal and social health."],
-        "a": 2,
-        "why": "Female foeticide and unsafe practices harm maternal and social health."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -14736,8 +13519,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_repro"] = {
       "id": "c10_repro",
@@ -14869,93 +13651,93 @@
         "desc": "Female foeticide and unsafe practices harm maternal and social health."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Variation and the need for reproduction?",
+        "q": "Which statement is correct about Variation and the need for reproduction?",
         "options": ["Variation is greater in sexual reproduction than in cloning.", "Binary fission produces two identical daughter individuals.", "Tissue culture grows whole plants from a small explant in sterile medium."],
         "a": 0,
         "why": "Variation is greater in sexual reproduction than in cloning."
       }, {
-        "q": "Which statement belongs to Asexual reproduction: fission, budding, regeneration?",
+        "q": "Which statement is correct about Asexual reproduction: fission, budding, regeneration?",
         "options": ["Tissue culture grows whole plants from a small explant in sterile medium.", "Binary fission produces two identical daughter individuals.", "After fertilisation the ovule becomes a seed and the ovary a fruit."],
         "a": 1,
         "why": "Binary fission produces two identical daughter individuals."
       }, {
-        "q": "Which statement belongs to Vegetative propagation and tissue culture?",
+        "q": "Which statement is correct about Vegetative propagation and tissue culture?",
         "options": ["After fertilisation the ovule becomes a seed and the ovary a fruit.", "The scrotum keeps testes about two degrees cooler than body temperature.", "Tissue culture grows whole plants from a small explant in sterile medium."],
         "a": 2,
         "why": "Tissue culture grows whole plants from a small explant in sterile medium."
       }, {
-        "q": "Which statement belongs to Sexual reproduction in flowering plants?",
+        "q": "Which statement is correct about Sexual reproduction in flowering plants?",
         "options": ["After fertilisation the ovule becomes a seed and the ovary a fruit.", "The scrotum keeps testes about two degrees cooler than body temperature.", "Fertilisation normally occurs in the fallopian tube."],
         "a": 0,
         "why": "After fertilisation the ovule becomes a seed and the ovary a fruit."
       }, {
-        "q": "Which statement belongs to Human male reproductive system?",
+        "q": "Which statement is correct about Human male reproductive system?",
         "options": ["Fertilisation normally occurs in the fallopian tube.", "The scrotum keeps testes about two degrees cooler than body temperature.", "The placenta supplies nutrients and removes wastes from the embryo."],
         "a": 1,
         "why": "The scrotum keeps testes about two degrees cooler than body temperature."
       }, {
-        "q": "Which statement belongs to Human female reproductive system?",
+        "q": "Which statement is correct about Human female reproductive system?",
         "options": ["The placenta supplies nutrients and removes wastes from the embryo.", "Condoms also reduce the risk of sexually transmitted infections.", "Fertilisation normally occurs in the fallopian tube."],
         "a": 2,
         "why": "Fertilisation normally occurs in the fallopian tube."
       }, {
-        "q": "Which statement belongs to Fertilisation, embryo and menstrual cycle?",
+        "q": "Which statement is correct about Fertilisation, embryo and menstrual cycle?",
         "options": ["The placenta supplies nutrients and removes wastes from the embryo.", "Condoms also reduce the risk of sexually transmitted infections.", "Female foeticide and unsafe practices harm maternal and social health."],
         "a": 0,
         "why": "The placenta supplies nutrients and removes wastes from the embryo."
       }, {
-        "q": "Which statement belongs to Reproductive health and contraception?",
+        "q": "Which statement is correct about Reproductive health and contraception?",
         "options": ["Female foeticide and unsafe practices harm maternal and social health.", "Condoms also reduce the risk of sexually transmitted infections.", "Variation is greater in sexual reproduction than in cloning."],
         "a": 1,
         "why": "Condoms also reduce the risk of sexually transmitted infections."
       }, {
-        "q": "Which statement belongs to HIV, AIDS and women's health?",
+        "q": "Which statement is correct about HIV, AIDS and women's health?",
         "options": ["Variation is greater in sexual reproduction than in cloning.", "Binary fission produces two identical daughter individuals.", "Female foeticide and unsafe practices harm maternal and social health."],
         "a": 2,
         "why": "Female foeticide and unsafe practices harm maternal and social health."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'विभिन्नता और जनन की आवश्यकता' से मेल खाता है?",
+        "q": "'विभिन्नता और जनन की आवश्यकता' के बारे में कौन-सा कथन सही है?",
         "options": ["लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।", "द्वि-विखंडन से दो समान संतति जीव बनते हैं।", "ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।"],
         "a": 0,
         "why": "लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।"
       }, {
-        "q": "कौन-सा कथन 'अलैंगिक जनन: विखंडन, मुकुलन, पुनर्जनन' से मेल खाता है?",
+        "q": "'अलैंगिक जनन: विखंडन, मुकुलन, पुनर्जनन' के बारे में कौन-सा कथन सही है?",
         "options": ["ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।", "द्वि-विखंडन से दो समान संतति जीव बनते हैं।", "निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।"],
         "a": 1,
         "why": "द्वि-विखंडन से दो समान संतति जीव बनते हैं।"
       }, {
-        "q": "कौन-सा कथन 'वानस्पतिक प्रवर्धन और ऊतक संवर्धन' से मेल खाता है?",
+        "q": "'वानस्पतिक प्रवर्धन और ऊतक संवर्धन' के बारे में कौन-सा कथन सही है?",
         "options": ["निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।", "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।", "ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।"],
         "a": 2,
         "why": "ऊतक संवर्धन में छोटे उद्भवन से निर्जीवाणु माध्यम में पूरा पौधा उगता है।"
       }, {
-        "q": "कौन-सा कथन 'पुष्पी पादपों में लैंगिक जनन' से मेल खाता है?",
+        "q": "'पुष्पी पादपों में लैंगिक जनन' के बारे में कौन-सा कथन सही है?",
         "options": ["निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।", "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।", "निषेचन सामान्यतः अंडवाहिनी में होता है।"],
         "a": 0,
         "why": "निषेचन के बाद बीजांड बीज और अंडाशय फल बनता है।"
       }, {
-        "q": "कौन-सा कथन 'मानव नर जनन तंत्र' से मेल खाता है?",
+        "q": "'मानव नर जनन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["निषेचन सामान्यतः अंडवाहिनी में होता है।", "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।", "अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।"],
         "a": 1,
         "why": "अंडकोष वृषण को शरीर से लगभग दो डिग्री ठंडा रखता है।"
       }, {
-        "q": "कौन-सा कथन 'मानव मादा जनन तंत्र' से मेल खाता है?",
+        "q": "'मानव मादा जनन तंत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।", "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।", "निषेचन सामान्यतः अंडवाहिनी में होता है।"],
         "a": 2,
         "why": "निषेचन सामान्यतः अंडवाहिनी में होता है।"
       }, {
-        "q": "कौन-सा कथन 'निषेचन, भ्रूण और मासिक चक्र' से मेल खाता है?",
+        "q": "'निषेचन, भ्रूण और मासिक चक्र' के बारे में कौन-सा कथन सही है?",
         "options": ["अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।", "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।", "भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।"],
         "a": 0,
         "why": "अपरा भ्रूण को पोषण देती और अपशिष्ट हटाती है।"
       }, {
-        "q": "कौन-सा कथन 'जनन स्वास्थ्य और गर्भनिरोध' से मेल खाता है?",
+        "q": "'जनन स्वास्थ्य और गर्भनिरोध' के बारे में कौन-सा कथन सही है?",
         "options": ["भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।", "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।", "लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।"],
         "a": 1,
         "why": "कंडोम यौन संचारित संक्रमण का खतरा भी घटाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'HIV, AIDS और महिला स्वास्थ्य' से मेल खाता है?",
+        "q": "'HIV, AIDS और महिला स्वास्थ्य' के बारे में कौन-सा कथन सही है?",
         "options": ["लैंगिक जनन में विभिन्नता क्लोनिंग से अधिक होती है।", "द्वि-विखंडन से दो समान संतति जीव बनते हैं।", "भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।"],
         "a": 2,
         "why": "भ्रूण-हत्या और असुरक्षित प्रथाएँ मातृ तथा सामाजिक स्वास्थ्य को नुकसान पहुँचाती हैं।"
@@ -14977,13 +13759,13 @@
         "note": "प्रभावी और अप्रभावी लक्षण"
       },
       "predict": {
-        "q": "Which statement belongs to Inheritance and variation?",
+        "q": "Which statement is correct about Inheritance and variation?",
         "options": ["Genes are segments of DNA passed from parents to offspring.", "Mendel used seven pairs of contrasting traits in garden pea.", "Alleles separate during gamete formation so each gamete carries one allele."],
         "a": 0,
         "why": "Genes are segments of DNA passed from parents to offspring."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आनुवंशिकता और विभिन्नता' से मेल खाता है?",
+        "q": "'आनुवंशिकता और विभिन्नता' के बारे में कौन-सा कथन सही है?",
         "options": ["जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।", "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।", "युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।"],
         "a": 0,
         "why": "जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।"
@@ -15005,12 +13787,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Inheritance and variation?",
-        "options": ["Genes are segments of DNA passed from parents to offspring.", "Mendel used seven pairs of contrasting traits in garden pea.", "Alleles separate during gamete formation so each gamete carries one allele."],
-        "a": 0,
-        "why": "Genes are segments of DNA passed from parents to offspring."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15022,8 +13798,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_heredity_8_2",
       "section": "8.2",
@@ -15038,13 +13813,13 @@
         "note": "प्रभावी और अप्रभावी लक्षण"
       },
       "predict": {
-        "q": "Which statement belongs to Mendel and his pea experiments?",
+        "q": "Which statement is correct about Mendel and his pea experiments?",
         "options": ["Alleles separate during gamete formation so each gamete carries one allele.", "Mendel used seven pairs of contrasting traits in garden pea.", "Independent assortment needs genes on different chromosomes."],
         "a": 1,
         "why": "Mendel used seven pairs of contrasting traits in garden pea."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मेंडेल और मटर के प्रयोग' से मेल खाता है?",
+        "q": "'मेंडेल और मटर के प्रयोग' के बारे में कौन-सा कथन सही है?",
         "options": ["युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।", "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।", "स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।"],
         "a": 1,
         "why": "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।"
@@ -15066,12 +13841,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Mendel and his pea experiments?",
-        "options": ["Alleles separate during gamete formation so each gamete carries one allele.", "Mendel used seven pairs of contrasting traits in garden pea.", "Independent assortment needs genes on different chromosomes."],
-        "a": 1,
-        "why": "Mendel used seven pairs of contrasting traits in garden pea."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15083,8 +13852,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_heredity_8_3",
       "section": "8.3",
@@ -15099,13 +13867,13 @@
         "note": "प्रभावी और अप्रभावी लक्षण"
       },
       "predict": {
-        "q": "Which statement belongs to Monohybrid cross and law of segregation?",
+        "q": "Which statement is correct about Monohybrid cross and law of segregation?",
         "options": ["Independent assortment needs genes on different chromosomes.", "Genotype Tt looks tall but still carries the dwarf allele.", "Alleles separate during gamete formation so each gamete carries one allele."],
         "a": 2,
         "why": "Alleles separate during gamete formation so each gamete carries one allele."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'एकसंकर संकरण और पृथक्करण का नियम' से मेल खाता है?",
+        "q": "'एकसंकर संकरण और पृथक्करण का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।", "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।", "युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।"],
         "a": 2,
         "why": "युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।"
@@ -15127,12 +13895,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Monohybrid cross and law of segregation?",
-        "options": ["Independent assortment needs genes on different chromosomes.", "Genotype Tt looks tall but still carries the dwarf allele.", "Alleles separate during gamete formation so each gamete carries one allele."],
-        "a": 2,
-        "why": "Alleles separate during gamete formation so each gamete carries one allele."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15144,8 +13906,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_heredity_8_4",
       "section": "8.4",
@@ -15160,13 +13921,13 @@
         "note": "प्रभावी और अप्रभावी लक्षण"
       },
       "predict": {
-        "q": "Which statement belongs to Dihybrid cross and independent assortment?",
+        "q": "Which statement is correct about Dihybrid cross and independent assortment?",
         "options": ["Independent assortment needs genes on different chromosomes.", "Genotype Tt looks tall but still carries the dwarf allele.", "A sperm carrying X gives a girl and one carrying Y gives a boy."],
         "a": 0,
         "why": "Independent assortment needs genes on different chromosomes."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'द्विसंकर संकरण और स्वतंत्र अपव्यूहन' से मेल खाता है?",
+        "q": "'द्विसंकर संकरण और स्वतंत्र अपव्यूहन' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।", "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।", "X वाला शुक्राणु बालिका और Y वाला बालक देता है।"],
         "a": 0,
         "why": "स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।"
@@ -15188,12 +13949,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Dihybrid cross and independent assortment?",
-        "options": ["Independent assortment needs genes on different chromosomes.", "Genotype Tt looks tall but still carries the dwarf allele.", "A sperm carrying X gives a girl and one carrying Y gives a boy."],
-        "a": 0,
-        "why": "Independent assortment needs genes on different chromosomes."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15205,8 +13960,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_heredity_8_5",
       "section": "8.5",
@@ -15221,13 +13975,13 @@
         "note": "प्रभावी और अप्रभावी लक्षण"
       },
       "predict": {
-        "q": "Which statement belongs to Dominant and recessive traits?",
+        "q": "Which statement is correct about Dominant and recessive traits?",
         "options": ["A sperm carrying X gives a girl and one carrying Y gives a boy.", "Genotype Tt looks tall but still carries the dwarf allele.", "Evolution is retained for portfolio work but excluded from the 2026-27 board exam."],
         "a": 1,
         "why": "Genotype Tt looks tall but still carries the dwarf allele."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रभावी और अप्रभावी लक्षण' से मेल खाता है?",
+        "q": "'प्रभावी और अप्रभावी लक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["X वाला शुक्राणु बालिका और Y वाला बालक देता है।", "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।", "विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।"],
         "a": 1,
         "why": "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।"
@@ -15249,12 +14003,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Dominant and recessive traits?",
-        "options": ["A sperm carrying X gives a girl and one carrying Y gives a boy.", "Genotype Tt looks tall but still carries the dwarf allele.", "Evolution is retained for portfolio work but excluded from the 2026-27 board exam."],
-        "a": 1,
-        "why": "Genotype Tt looks tall but still carries the dwarf allele."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15266,8 +14014,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_heredity_8_6",
       "section": "8.6",
@@ -15282,13 +14029,13 @@
         "note": "प्रभावी और अप्रभावी लक्षण"
       },
       "predict": {
-        "q": "Which statement belongs to Sex determination?",
+        "q": "Which statement is correct about Sex determination?",
         "options": ["Evolution is retained for portfolio work but excluded from the 2026-27 board exam.", "Genes are segments of DNA passed from parents to offspring.", "A sperm carrying X gives a girl and one carrying Y gives a boy."],
         "a": 2,
         "why": "A sperm carrying X gives a girl and one carrying Y gives a boy."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'लिंग निर्धारण' से मेल खाता है?",
+        "q": "'लिंग निर्धारण' के बारे में कौन-सा कथन सही है?",
         "options": ["विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।", "जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।", "X वाला शुक्राणु बालिका और Y वाला बालक देता है।"],
         "a": 2,
         "why": "X वाला शुक्राणु बालिका और Y वाला बालक देता है।"
@@ -15310,12 +14057,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Sex determination?",
-        "options": ["Evolution is retained for portfolio work but excluded from the 2026-27 board exam.", "Genes are segments of DNA passed from parents to offspring.", "A sperm carrying X gives a girl and one carrying Y gives a boy."],
-        "a": 2,
-        "why": "A sperm carrying X gives a girl and one carrying Y gives a boy."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15327,8 +14068,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_heredity_8_7",
       "section": "8.7",
@@ -15343,13 +14083,13 @@
         "note": "प्रभावी और अप्रभावी लक्षण"
       },
       "predict": {
-        "q": "Which statement belongs to Evolution: formative only, not board-assessed?",
+        "q": "Which statement is correct about Evolution: formative only, not board-assessed?",
         "options": ["Evolution is retained for portfolio work but excluded from the 2026-27 board exam.", "Genes are segments of DNA passed from parents to offspring.", "Mendel used seven pairs of contrasting traits in garden pea."],
         "a": 0,
         "why": "Evolution is retained for portfolio work but excluded from the 2026-27 board exam."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विकास: केवल सृजनात्मक मूल्यांकन, बोर्ड परीक्षा में नहीं' से मेल खाता है?",
+        "q": "'विकास: केवल सृजनात्मक मूल्यांकन, बोर्ड परीक्षा में नहीं' के बारे में कौन-सा कथन सही है?",
         "options": ["विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।", "जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।", "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।"],
         "a": 0,
         "why": "विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।"
@@ -15370,12 +14110,6 @@
           "value": 3.35,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Evolution: formative only, not board-assessed?",
-        "options": ["Evolution is retained for portfolio work but excluded from the 2026-27 board exam.", "Genes are segments of DNA passed from parents to offspring.", "Mendel used seven pairs of contrasting traits in garden pea."],
-        "a": 0,
-        "why": "Evolution is retained for portfolio work but excluded from the 2026-27 board exam."
       },
       "scene": {
         "type": "atlas",
@@ -15495,73 +14229,73 @@
         "desc": "Evolution is retained for portfolio work but excluded from the 2026-27"
       }],
       "quiz": [{
-        "q": "Which statement belongs to Inheritance and variation?",
+        "q": "Which statement is correct about Inheritance and variation?",
         "options": ["Genes are segments of DNA passed from parents to offspring.", "Mendel used seven pairs of contrasting traits in garden pea.", "Alleles separate during gamete formation so each gamete carries one allele."],
         "a": 0,
         "why": "Genes are segments of DNA passed from parents to offspring."
       }, {
-        "q": "Which statement belongs to Mendel and his pea experiments?",
+        "q": "Which statement is correct about Mendel and his pea experiments?",
         "options": ["Alleles separate during gamete formation so each gamete carries one allele.", "Mendel used seven pairs of contrasting traits in garden pea.", "Independent assortment needs genes on different chromosomes."],
         "a": 1,
         "why": "Mendel used seven pairs of contrasting traits in garden pea."
       }, {
-        "q": "Which statement belongs to Monohybrid cross and law of segregation?",
+        "q": "Which statement is correct about Monohybrid cross and law of segregation?",
         "options": ["Independent assortment needs genes on different chromosomes.", "Genotype Tt looks tall but still carries the dwarf allele.", "Alleles separate during gamete formation so each gamete carries one allele."],
         "a": 2,
         "why": "Alleles separate during gamete formation so each gamete carries one allele."
       }, {
-        "q": "Which statement belongs to Dihybrid cross and independent assortment?",
+        "q": "Which statement is correct about Dihybrid cross and independent assortment?",
         "options": ["Independent assortment needs genes on different chromosomes.", "Genotype Tt looks tall but still carries the dwarf allele.", "A sperm carrying X gives a girl and one carrying Y gives a boy."],
         "a": 0,
         "why": "Independent assortment needs genes on different chromosomes."
       }, {
-        "q": "Which statement belongs to Dominant and recessive traits?",
+        "q": "Which statement is correct about Dominant and recessive traits?",
         "options": ["A sperm carrying X gives a girl and one carrying Y gives a boy.", "Genotype Tt looks tall but still carries the dwarf allele.", "Evolution is retained for portfolio work but excluded from the 2026-27 board exam."],
         "a": 1,
         "why": "Genotype Tt looks tall but still carries the dwarf allele."
       }, {
-        "q": "Which statement belongs to Sex determination?",
+        "q": "Which statement is correct about Sex determination?",
         "options": ["Evolution is retained for portfolio work but excluded from the 2026-27 board exam.", "Genes are segments of DNA passed from parents to offspring.", "A sperm carrying X gives a girl and one carrying Y gives a boy."],
         "a": 2,
         "why": "A sperm carrying X gives a girl and one carrying Y gives a boy."
       }, {
-        "q": "Which statement belongs to Evolution: formative only, not board-assessed?",
+        "q": "Which statement is correct about Evolution: formative only, not board-assessed?",
         "options": ["Evolution is retained for portfolio work but excluded from the 2026-27 board exam.", "Genes are segments of DNA passed from parents to offspring.", "Mendel used seven pairs of contrasting traits in garden pea."],
         "a": 0,
         "why": "Evolution is retained for portfolio work but excluded from the 2026-27 board exam."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'आनुवंशिकता और विभिन्नता' से मेल खाता है?",
+        "q": "'आनुवंशिकता और विभिन्नता' के बारे में कौन-सा कथन सही है?",
         "options": ["जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।", "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।", "युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।"],
         "a": 0,
         "why": "जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।"
       }, {
-        "q": "कौन-सा कथन 'मेंडेल और मटर के प्रयोग' से मेल खाता है?",
+        "q": "'मेंडेल और मटर के प्रयोग' के बारे में कौन-सा कथन सही है?",
         "options": ["युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।", "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।", "स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।"],
         "a": 1,
         "why": "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।"
       }, {
-        "q": "कौन-सा कथन 'एकसंकर संकरण और पृथक्करण का नियम' से मेल खाता है?",
+        "q": "'एकसंकर संकरण और पृथक्करण का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।", "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।", "युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।"],
         "a": 2,
         "why": "युग्मक बनते समय एलील अलग होते हैं, हर युग्मक में एक एलील जाता है।"
       }, {
-        "q": "कौन-सा कथन 'द्विसंकर संकरण और स्वतंत्र अपव्यूहन' से मेल खाता है?",
+        "q": "'द्विसंकर संकरण और स्वतंत्र अपव्यूहन' के बारे में कौन-सा कथन सही है?",
         "options": ["स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।", "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।", "X वाला शुक्राणु बालिका और Y वाला बालक देता है।"],
         "a": 0,
         "why": "स्वतंत्र अपव्यूहन के लिए जीन अलग गुणसूत्रों पर होने चाहिए।"
       }, {
-        "q": "कौन-सा कथन 'प्रभावी और अप्रभावी लक्षण' से मेल खाता है?",
+        "q": "'प्रभावी और अप्रभावी लक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["X वाला शुक्राणु बालिका और Y वाला बालक देता है।", "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।", "विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।"],
         "a": 1,
         "why": "Tt जीनप्ररूप दिखने में लम्बा परंतु उसमें बौना एलील मौजूद है।"
       }, {
-        "q": "कौन-सा कथन 'लिंग निर्धारण' से मेल खाता है?",
+        "q": "'लिंग निर्धारण' के बारे में कौन-सा कथन सही है?",
         "options": ["विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।", "जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।", "X वाला शुक्राणु बालिका और Y वाला बालक देता है।"],
         "a": 2,
         "why": "X वाला शुक्राणु बालिका और Y वाला बालक देता है।"
       }, {
-        "q": "कौन-सा कथन 'विकास: केवल सृजनात्मक मूल्यांकन, बोर्ड परीक्षा में नहीं' से मेल खाता है?",
+        "q": "'विकास: केवल सृजनात्मक मूल्यांकन, बोर्ड परीक्षा में नहीं' के बारे में कौन-सा कथन सही है?",
         "options": ["विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।", "जीन DNA के वे खंड हैं जो जनक से संतति में जाते हैं।", "मेंडेल ने मटर में विपरीत लक्षणों के सात जोड़े प्रयोग किए।"],
         "a": 0,
         "why": "विकास पोर्टफ़ोलियो कार्य के लिए रखा गया है, 2026-27 बोर्ड परीक्षा से बाहर है।"
@@ -15583,13 +14317,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Structure of the human eye?",
+        "q": "Which statement is correct about Structure of the human eye?",
         "options": ["The eye lens forms a real inverted image on the retina.", "The least distance of distinct vision for a normal adult eye is 25 cm.", "A diverging concave lens of negative power corrects myopia."],
         "a": 0,
         "why": "The eye lens forms a real inverted image on the retina."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मानव नेत्र की संरचना' से मेल खाता है?",
+        "q": "'मानव नेत्र की संरचना' के बारे में कौन-सा कथन सही है?",
         "options": ["नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।", "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।", "ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।"],
         "a": 0,
         "why": "नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।"
@@ -15611,12 +14345,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Structure of the human eye?",
-        "options": ["The eye lens forms a real inverted image on the retina.", "The least distance of distinct vision for a normal adult eye is 25 cm.", "A diverging concave lens of negative power corrects myopia."],
-        "a": 0,
-        "why": "The eye lens forms a real inverted image on the retina."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15628,8 +14356,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_eye_10_2",
       "section": "10.2",
@@ -15644,13 +14371,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Accommodation and near point?",
+        "q": "Which statement is correct about Accommodation and near point?",
         "options": ["A diverging concave lens of negative power corrects myopia.", "The least distance of distinct vision for a normal adult eye is 25 cm.", "Presbyopia from ageing may need bifocal lenses."],
         "a": 1,
         "why": "The least distance of distinct vision for a normal adult eye is 25 cm."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'समंजन और निकट बिंदु' से मेल खाता है?",
+        "q": "'समंजन और निकट बिंदु' के बारे में कौन-सा कथन सही है?",
         "options": ["ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।", "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।", "उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।"],
         "a": 1,
         "why": "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।"
@@ -15672,12 +14399,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Accommodation and near point?",
-        "options": ["A diverging concave lens of negative power corrects myopia.", "The least distance of distinct vision for a normal adult eye is 25 cm.", "Presbyopia from ageing may need bifocal lenses."],
-        "a": 1,
-        "why": "The least distance of distinct vision for a normal adult eye is 25 cm."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15689,8 +14410,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_eye_10_3",
       "section": "10.3",
@@ -15705,13 +14425,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Myopia and its correction?",
+        "q": "Which statement is correct about Myopia and its correction?",
         "options": ["Presbyopia from ageing may need bifocal lenses.", "The angle of deviation is the angle between incident and emergent rays.", "A diverging concave lens of negative power corrects myopia."],
         "a": 2,
         "why": "A diverging concave lens of negative power corrects myopia."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'निकटदृष्टि और उसका सुधार' से मेल खाता है?",
+        "q": "'निकटदृष्टि और उसका सुधार' के बारे में कौन-सा कथन सही है?",
         "options": ["उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।", "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।", "ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।"],
         "a": 2,
         "why": "ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।"
@@ -15733,12 +14453,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Myopia and its correction?",
-        "options": ["Presbyopia from ageing may need bifocal lenses.", "The angle of deviation is the angle between incident and emergent rays.", "A diverging concave lens of negative power corrects myopia."],
-        "a": 2,
-        "why": "A diverging concave lens of negative power corrects myopia."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15750,8 +14464,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_eye_10_4",
       "section": "10.4",
@@ -15766,13 +14479,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Hypermetropia and presbyopia?",
+        "q": "Which statement is correct about Hypermetropia and presbyopia?",
         "options": ["Presbyopia from ageing may need bifocal lenses.", "The angle of deviation is the angle between incident and emergent rays.", "Violet deviates most and red least in a glass prism."],
         "a": 0,
         "why": "Presbyopia from ageing may need bifocal lenses."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'दूरदृष्टि और जरादूरदृष्टि' से मेल खाता है?",
+        "q": "'दूरदृष्टि और जरादूरदृष्टि' के बारे में कौन-सा कथन सही है?",
         "options": ["उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।", "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।", "काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।"],
         "a": 0,
         "why": "उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।"
@@ -15794,12 +14507,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Hypermetropia and presbyopia?",
-        "options": ["Presbyopia from ageing may need bifocal lenses.", "The angle of deviation is the angle between incident and emergent rays.", "Violet deviates most and red least in a glass prism."],
-        "a": 0,
-        "why": "Presbyopia from ageing may need bifocal lenses."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15811,8 +14518,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_eye_10_5",
       "section": "10.5",
@@ -15827,13 +14533,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Refraction through a prism?",
+        "q": "Which statement is correct about Refraction through a prism?",
         "options": ["Violet deviates most and red least in a glass prism.", "The angle of deviation is the angle between incident and emergent rays.", "Blue light scatters more than red because its wavelength is shorter."],
         "a": 1,
         "why": "The angle of deviation is the angle between incident and emergent rays."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रिज़्म से अपवर्तन' से मेल खाता है?",
+        "q": "'प्रिज़्म से अपवर्तन' के बारे में कौन-सा कथन सही है?",
         "options": ["काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।", "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।", "नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।"],
         "a": 1,
         "why": "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।"
@@ -15855,12 +14561,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Refraction through a prism?",
-        "options": ["Violet deviates most and red least in a glass prism.", "The angle of deviation is the angle between incident and emergent rays.", "Blue light scatters more than red because its wavelength is shorter."],
-        "a": 1,
-        "why": "The angle of deviation is the angle between incident and emergent rays."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15872,8 +14572,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_eye_10_6",
       "section": "10.6",
@@ -15888,13 +14587,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Dispersion and spectrum?",
+        "q": "Which statement is correct about Dispersion and spectrum?",
         "options": ["Blue light scatters more than red because its wavelength is shorter.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "Violet deviates most and red least in a glass prism."],
         "a": 2,
         "why": "Violet deviates most and red least in a glass prism."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विक्षेपण और वर्णक्रम' से मेल खाता है?",
+        "q": "'विक्षेपण और वर्णक्रम' के बारे में कौन-सा कथन सही है?",
         "options": ["नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।", "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।", "काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।"],
         "a": 2,
         "why": "काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।"
@@ -15916,12 +14615,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Dispersion and spectrum?",
-        "options": ["Blue light scatters more than red because its wavelength is shorter.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "Violet deviates most and red least in a glass prism."],
-        "a": 2,
-        "why": "Violet deviates most and red least in a glass prism."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15933,8 +14626,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_eye_10_7",
       "section": "10.7",
@@ -15949,13 +14641,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Scattering and the Tyndall effect?",
+        "q": "Which statement is correct about Scattering and the Tyndall effect?",
         "options": ["Blue light scatters more than red because its wavelength is shorter.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "The eye lens forms a real inverted image on the retina."],
         "a": 0,
         "why": "Blue light scatters more than red because its wavelength is shorter."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रकीर्णन और टिण्डल प्रभाव' से मेल खाता है?",
+        "q": "'प्रकीर्णन और टिण्डल प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।", "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।", "नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।"],
         "a": 0,
         "why": "नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।"
@@ -15977,12 +14669,6 @@
           "op": "lte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Scattering and the Tyndall effect?",
-        "options": ["Blue light scatters more than red because its wavelength is shorter.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "The eye lens forms a real inverted image on the retina."],
-        "a": 0,
-        "why": "Blue light scatters more than red because its wavelength is shorter."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -15994,8 +14680,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_eye_10_8",
       "section": "10.8",
@@ -16010,13 +14695,13 @@
         "note": "दृष्टि दोष और सुधार"
       },
       "predict": {
-        "q": "Which statement belongs to Twinkling, planets and atmospheric refraction?",
+        "q": "Which statement is correct about Twinkling, planets and atmospheric refraction?",
         "options": ["The eye lens forms a real inverted image on the retina.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "The least distance of distinct vision for a normal adult eye is 25 cm."],
         "a": 1,
         "why": "Sunrise colour explanation is excluded from the 2026-27 board assessment."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'टिमटिमाहट, ग्रह और वायुमंडलीय अपवर्तन' से मेल खाता है?",
+        "q": "'टिमटिमाहट, ग्रह और वायुमंडलीय अपवर्तन' के बारे में कौन-सा कथन सही है?",
         "options": ["नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।", "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।", "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।"],
         "a": 1,
         "why": "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।"
@@ -16037,12 +14722,6 @@
           "value": 50.0,
           "op": "lte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Twinkling, planets and atmospheric refraction?",
-        "options": ["The eye lens forms a real inverted image on the retina.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "The least distance of distinct vision for a normal adult eye is 25 cm."],
-        "a": 1,
-        "why": "Sunrise colour explanation is excluded from the 2026-27 board assessment."
       },
       "scene": {
         "type": "atlas",
@@ -16175,83 +14854,83 @@
         "desc": "Sunrise colour explanation is excluded from the 2026-27 board assessme"
       }],
       "quiz": [{
-        "q": "Which statement belongs to Structure of the human eye?",
+        "q": "Which statement is correct about Structure of the human eye?",
         "options": ["The eye lens forms a real inverted image on the retina.", "The least distance of distinct vision for a normal adult eye is 25 cm.", "A diverging concave lens of negative power corrects myopia."],
         "a": 0,
         "why": "The eye lens forms a real inverted image on the retina."
       }, {
-        "q": "Which statement belongs to Accommodation and near point?",
+        "q": "Which statement is correct about Accommodation and near point?",
         "options": ["A diverging concave lens of negative power corrects myopia.", "The least distance of distinct vision for a normal adult eye is 25 cm.", "Presbyopia from ageing may need bifocal lenses."],
         "a": 1,
         "why": "The least distance of distinct vision for a normal adult eye is 25 cm."
       }, {
-        "q": "Which statement belongs to Myopia and its correction?",
+        "q": "Which statement is correct about Myopia and its correction?",
         "options": ["Presbyopia from ageing may need bifocal lenses.", "The angle of deviation is the angle between incident and emergent rays.", "A diverging concave lens of negative power corrects myopia."],
         "a": 2,
         "why": "A diverging concave lens of negative power corrects myopia."
       }, {
-        "q": "Which statement belongs to Hypermetropia and presbyopia?",
+        "q": "Which statement is correct about Hypermetropia and presbyopia?",
         "options": ["Presbyopia from ageing may need bifocal lenses.", "The angle of deviation is the angle between incident and emergent rays.", "Violet deviates most and red least in a glass prism."],
         "a": 0,
         "why": "Presbyopia from ageing may need bifocal lenses."
       }, {
-        "q": "Which statement belongs to Refraction through a prism?",
+        "q": "Which statement is correct about Refraction through a prism?",
         "options": ["Violet deviates most and red least in a glass prism.", "The angle of deviation is the angle between incident and emergent rays.", "Blue light scatters more than red because its wavelength is shorter."],
         "a": 1,
         "why": "The angle of deviation is the angle between incident and emergent rays."
       }, {
-        "q": "Which statement belongs to Dispersion and spectrum?",
+        "q": "Which statement is correct about Dispersion and spectrum?",
         "options": ["Blue light scatters more than red because its wavelength is shorter.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "Violet deviates most and red least in a glass prism."],
         "a": 2,
         "why": "Violet deviates most and red least in a glass prism."
       }, {
-        "q": "Which statement belongs to Scattering and the Tyndall effect?",
+        "q": "Which statement is correct about Scattering and the Tyndall effect?",
         "options": ["Blue light scatters more than red because its wavelength is shorter.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "The eye lens forms a real inverted image on the retina."],
         "a": 0,
         "why": "Blue light scatters more than red because its wavelength is shorter."
       }, {
-        "q": "Which statement belongs to Twinkling, planets and atmospheric refraction?",
+        "q": "Which statement is correct about Twinkling, planets and atmospheric refraction?",
         "options": ["The eye lens forms a real inverted image on the retina.", "Sunrise colour explanation is excluded from the 2026-27 board assessment.", "The least distance of distinct vision for a normal adult eye is 25 cm."],
         "a": 1,
         "why": "Sunrise colour explanation is excluded from the 2026-27 board assessment."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'मानव नेत्र की संरचना' से मेल खाता है?",
+        "q": "'मानव नेत्र की संरचना' के बारे में कौन-सा कथन सही है?",
         "options": ["नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।", "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।", "ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।"],
         "a": 0,
         "why": "नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।"
       }, {
-        "q": "कौन-सा कथन 'समंजन और निकट बिंदु' से मेल खाता है?",
+        "q": "'समंजन और निकट बिंदु' के बारे में कौन-सा कथन सही है?",
         "options": ["ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।", "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।", "उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।"],
         "a": 1,
         "why": "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।"
       }, {
-        "q": "कौन-सा कथन 'निकटदृष्टि और उसका सुधार' से मेल खाता है?",
+        "q": "'निकटदृष्टि और उसका सुधार' के बारे में कौन-सा कथन सही है?",
         "options": ["उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।", "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।", "ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।"],
         "a": 2,
         "why": "ऋणात्मक क्षमता का अपसारी अवतल लेंस निकटदृष्टि सुधारता है।"
       }, {
-        "q": "कौन-सा कथन 'दूरदृष्टि और जरादूरदृष्टि' से मेल खाता है?",
+        "q": "'दूरदृष्टि और जरादूरदृष्टि' के बारे में कौन-सा कथन सही है?",
         "options": ["उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।", "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।", "काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।"],
         "a": 0,
         "why": "उम्र से होने वाली जरादूरदृष्टि में द्विफ़ोकसी लेंस लग सकते हैं।"
       }, {
-        "q": "कौन-सा कथन 'प्रिज़्म से अपवर्तन' से मेल खाता है?",
+        "q": "'प्रिज़्म से अपवर्तन' के बारे में कौन-सा कथन सही है?",
         "options": ["काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।", "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।", "नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।"],
         "a": 1,
         "why": "विचलन कोण आपतित और निर्गत किरणों के बीच का कोण है।"
       }, {
-        "q": "कौन-सा कथन 'विक्षेपण और वर्णक्रम' से मेल खाता है?",
+        "q": "'विक्षेपण और वर्णक्रम' के बारे में कौन-सा कथन सही है?",
         "options": ["नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।", "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।", "काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।"],
         "a": 2,
         "why": "काँच के प्रिज़्म में बैंगनी सबसे अधिक और लाल सबसे कम मुड़ता है।"
       }, {
-        "q": "कौन-सा कथन 'प्रकीर्णन और टिण्डल प्रभाव' से मेल खाता है?",
+        "q": "'प्रकीर्णन और टिण्डल प्रभाव' के बारे में कौन-सा कथन सही है?",
         "options": ["नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।", "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।", "नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।"],
         "a": 0,
         "why": "नीला प्रकाश लाल से अधिक बिखरता है क्योंकि इसकी तरंगदैर्घ्य छोटी है।"
       }, {
-        "q": "कौन-सा कथन 'टिमटिमाहट, ग्रह और वायुमंडलीय अपवर्तन' से मेल खाता है?",
+        "q": "'टिमटिमाहट, ग्रह और वायुमंडलीय अपवर्तन' के बारे में कौन-सा कथन सही है?",
         "options": ["नेत्र लेंस दृष्टिपटल पर वास्तविक उल्टा प्रतिबिंब बनाता है।", "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।", "सामान्य वयस्क नेत्र के लिए स्पष्ट दृष्टि की न्यूनतम दूरी 25 सेमी है।"],
         "a": 1,
         "why": "सूर्योदय-सूर्यास्त के रंग की व्याख्या 2026-27 बोर्ड मूल्यांकन से बाहर है।"
@@ -16273,13 +14952,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Electric current and potential difference?",
+        "q": "Which statement is correct about Electric current and potential difference?",
         "options": ["One ampere is one coulomb of charge flowing per second.", "An ammeter is in series and a voltmeter in parallel.", "A straight-line V-I graph through the origin means ohmic behaviour."],
         "a": 0,
         "why": "One ampere is one coulomb of charge flowing per second."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विद्युत धारा और विभवांतर' से मेल खाता है?",
+        "q": "'विद्युत धारा और विभवांतर' के बारे में कौन-सा कथन सही है?",
         "options": ["एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।", "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।", "मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।"],
         "a": 0,
         "why": "एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।"
@@ -16301,12 +14980,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Electric current and potential difference?",
-        "options": ["One ampere is one coulomb of charge flowing per second.", "An ammeter is in series and a voltmeter in parallel.", "A straight-line V-I graph through the origin means ohmic behaviour."],
-        "a": 0,
-        "why": "One ampere is one coulomb of charge flowing per second."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16318,8 +14991,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_2",
       "section": "11.2",
@@ -16334,13 +15006,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Circuit symbols and diagrams?",
+        "q": "Which statement is correct about Circuit symbols and diagrams?",
         "options": ["A straight-line V-I graph through the origin means ohmic behaviour.", "An ammeter is in series and a voltmeter in parallel.", "Resistivity is a material property and does not depend on wire shape."],
         "a": 1,
         "why": "An ammeter is in series and a voltmeter in parallel."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'परिपथ प्रतीक और आरेख' से मेल खाता है?",
+        "q": "'परिपथ प्रतीक और आरेख' के बारे में कौन-सा कथन सही है?",
         "options": ["मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।", "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।", "प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।"],
         "a": 1,
         "why": "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।"
@@ -16362,12 +15034,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Circuit symbols and diagrams?",
-        "options": ["A straight-line V-I graph through the origin means ohmic behaviour.", "An ammeter is in series and a voltmeter in parallel.", "Resistivity is a material property and does not depend on wire shape."],
-        "a": 1,
-        "why": "An ammeter is in series and a voltmeter in parallel."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16379,8 +15045,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_3",
       "section": "11.3",
@@ -16395,13 +15060,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Ohm's law and its graph?",
+        "q": "Which statement is correct about Ohm's law and its graph?",
         "options": ["Resistivity is a material property and does not depend on wire shape.", "Series resistance is larger than the largest individual resistor.", "A straight-line V-I graph through the origin means ohmic behaviour."],
         "a": 2,
         "why": "A straight-line V-I graph through the origin means ohmic behaviour."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ओम का नियम और उसका आलेख' से मेल खाता है?",
+        "q": "'ओम का नियम और उसका आलेख' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।", "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।", "मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।"],
         "a": 2,
         "why": "मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।"
@@ -16423,12 +15088,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Ohm's law and its graph?",
-        "options": ["Resistivity is a material property and does not depend on wire shape.", "Series resistance is larger than the largest individual resistor.", "A straight-line V-I graph through the origin means ohmic behaviour."],
-        "a": 2,
-        "why": "A straight-line V-I graph through the origin means ohmic behaviour."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16440,8 +15099,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_4",
       "section": "11.4",
@@ -16456,13 +15114,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Resistance and resistivity?",
+        "q": "Which statement is correct about Resistance and resistivity?",
         "options": ["Resistivity is a material property and does not depend on wire shape.", "Series resistance is larger than the largest individual resistor.", "Parallel equivalent resistance is smaller than the smallest branch."],
         "a": 0,
         "why": "Resistivity is a material property and does not depend on wire shape."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रतिरोध और प्रतिरोधकता' से मेल खाता है?",
+        "q": "'प्रतिरोध और प्रतिरोधकता' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।", "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।", "समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।"],
         "a": 0,
         "why": "प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।"
@@ -16484,12 +15142,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Resistance and resistivity?",
-        "options": ["Resistivity is a material property and does not depend on wire shape.", "Series resistance is larger than the largest individual resistor.", "Parallel equivalent resistance is smaller than the smallest branch."],
-        "a": 0,
-        "why": "Resistivity is a material property and does not depend on wire shape."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16501,8 +15153,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_5",
       "section": "11.5",
@@ -16517,13 +15168,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Series combination of resistors?",
+        "q": "Which statement is correct about Series combination of resistors?",
         "options": ["Parallel equivalent resistance is smaller than the smallest branch.", "Series resistance is larger than the largest individual resistor.", "Doubling current makes the heat four times greater."],
         "a": 1,
         "why": "Series resistance is larger than the largest individual resistor."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रतिरोधकों का श्रेणीक्रम संयोजन' से मेल खाता है?",
+        "q": "'प्रतिरोधकों का श्रेणीक्रम संयोजन' के बारे में कौन-सा कथन सही है?",
         "options": ["समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।", "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।", "धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।"],
         "a": 1,
         "why": "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।"
@@ -16545,12 +15196,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Series combination of resistors?",
-        "options": ["Parallel equivalent resistance is smaller than the smallest branch.", "Series resistance is larger than the largest individual resistor.", "Doubling current makes the heat four times greater."],
-        "a": 1,
-        "why": "Series resistance is larger than the largest individual resistor."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16562,8 +15207,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_6",
       "section": "11.6",
@@ -16578,13 +15222,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Parallel combination of resistors?",
+        "q": "Which statement is correct about Parallel combination of resistors?",
         "options": ["Doubling current makes the heat four times greater.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "Parallel equivalent resistance is smaller than the smallest branch."],
         "a": 2,
         "why": "Parallel equivalent resistance is smaller than the smallest branch."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'प्रतिरोधकों का समान्तर संयोजन' से मेल खाता है?",
+        "q": "'प्रतिरोधकों का समान्तर संयोजन' के बारे में कौन-सा कथन सही है?",
         "options": ["धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।", "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।", "समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।"],
         "a": 2,
         "why": "समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।"
@@ -16606,12 +15250,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Parallel combination of resistors?",
-        "options": ["Doubling current makes the heat four times greater.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "Parallel equivalent resistance is smaller than the smallest branch."],
-        "a": 2,
-        "why": "Parallel equivalent resistance is smaller than the smallest branch."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16623,8 +15261,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_7",
       "section": "11.7",
@@ -16639,13 +15276,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Heating effect and Joule's law?",
+        "q": "Which statement is correct about Heating effect and Joule's law?",
         "options": ["Doubling current makes the heat four times greater.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "A fuse melts when excessive current flows and breaks the circuit."],
         "a": 0,
         "why": "Doubling current makes the heat four times greater."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ऊष्मीय प्रभाव और जूल का नियम' से मेल खाता है?",
+        "q": "'ऊष्मीय प्रभाव और जूल का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।", "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।", "अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।"],
         "a": 0,
         "why": "धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।"
@@ -16667,12 +15304,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Heating effect and Joule's law?",
-        "options": ["Doubling current makes the heat four times greater.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "A fuse melts when excessive current flows and breaks the circuit."],
-        "a": 0,
-        "why": "Doubling current makes the heat four times greater."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16684,8 +15315,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_8",
       "section": "11.8",
@@ -16700,13 +15330,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Electric power and energy?",
+        "q": "Which statement is correct about Electric power and energy?",
         "options": ["A fuse melts when excessive current flows and breaks the circuit.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "One ampere is one coulomb of charge flowing per second."],
         "a": 1,
         "why": "One kilowatt-hour equals 3.6 × 10⁶ joules."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विद्युत शक्ति और ऊर्जा' से मेल खाता है?",
+        "q": "'विद्युत शक्ति और ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।", "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।", "एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।"],
         "a": 1,
         "why": "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।"
@@ -16728,12 +15358,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Electric power and energy?",
-        "options": ["A fuse melts when excessive current flows and breaks the circuit.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "One ampere is one coulomb of charge flowing per second."],
-        "a": 1,
-        "why": "One kilowatt-hour equals 3.6 × 10⁶ joules."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16745,8 +15369,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_electricity_11_9",
       "section": "11.9",
@@ -16761,13 +15384,13 @@
         "note": "विभवांतर, धारा, प्रतिरोध और शक्ति"
       },
       "predict": {
-        "q": "Which statement belongs to Domestic circuits and safety?",
+        "q": "Which statement is correct about Domestic circuits and safety?",
         "options": ["One ampere is one coulomb of charge flowing per second.", "An ammeter is in series and a voltmeter in parallel.", "A fuse melts when excessive current flows and breaks the circuit."],
         "a": 2,
         "why": "A fuse melts when excessive current flows and breaks the circuit."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'घरेलू परिपथ और सुरक्षा' से मेल खाता है?",
+        "q": "'घरेलू परिपथ और सुरक्षा' के बारे में कौन-सा कथन सही है?",
         "options": ["एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।", "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।", "अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।"],
         "a": 2,
         "why": "अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।"
@@ -16789,12 +15412,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Domestic circuits and safety?",
-        "options": ["One ampere is one coulomb of charge flowing per second.", "An ammeter is in series and a voltmeter in parallel.", "A fuse melts when excessive current flows and breaks the circuit."],
-        "a": 2,
-        "why": "A fuse melts when excessive current flows and breaks the circuit."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -16806,8 +15423,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_electricity"] = {
       "id": "c10_electricity",
@@ -16939,93 +15555,93 @@
         "desc": "A fuse melts when excessive current flows and breaks the circuit."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Electric current and potential difference?",
+        "q": "Which statement is correct about Electric current and potential difference?",
         "options": ["One ampere is one coulomb of charge flowing per second.", "An ammeter is in series and a voltmeter in parallel.", "A straight-line V-I graph through the origin means ohmic behaviour."],
         "a": 0,
         "why": "One ampere is one coulomb of charge flowing per second."
       }, {
-        "q": "Which statement belongs to Circuit symbols and diagrams?",
+        "q": "Which statement is correct about Circuit symbols and diagrams?",
         "options": ["A straight-line V-I graph through the origin means ohmic behaviour.", "An ammeter is in series and a voltmeter in parallel.", "Resistivity is a material property and does not depend on wire shape."],
         "a": 1,
         "why": "An ammeter is in series and a voltmeter in parallel."
       }, {
-        "q": "Which statement belongs to Ohm's law and its graph?",
+        "q": "Which statement is correct about Ohm's law and its graph?",
         "options": ["Resistivity is a material property and does not depend on wire shape.", "Series resistance is larger than the largest individual resistor.", "A straight-line V-I graph through the origin means ohmic behaviour."],
         "a": 2,
         "why": "A straight-line V-I graph through the origin means ohmic behaviour."
       }, {
-        "q": "Which statement belongs to Resistance and resistivity?",
+        "q": "Which statement is correct about Resistance and resistivity?",
         "options": ["Resistivity is a material property and does not depend on wire shape.", "Series resistance is larger than the largest individual resistor.", "Parallel equivalent resistance is smaller than the smallest branch."],
         "a": 0,
         "why": "Resistivity is a material property and does not depend on wire shape."
       }, {
-        "q": "Which statement belongs to Series combination of resistors?",
+        "q": "Which statement is correct about Series combination of resistors?",
         "options": ["Parallel equivalent resistance is smaller than the smallest branch.", "Series resistance is larger than the largest individual resistor.", "Doubling current makes the heat four times greater."],
         "a": 1,
         "why": "Series resistance is larger than the largest individual resistor."
       }, {
-        "q": "Which statement belongs to Parallel combination of resistors?",
+        "q": "Which statement is correct about Parallel combination of resistors?",
         "options": ["Doubling current makes the heat four times greater.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "Parallel equivalent resistance is smaller than the smallest branch."],
         "a": 2,
         "why": "Parallel equivalent resistance is smaller than the smallest branch."
       }, {
-        "q": "Which statement belongs to Heating effect and Joule's law?",
+        "q": "Which statement is correct about Heating effect and Joule's law?",
         "options": ["Doubling current makes the heat four times greater.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "A fuse melts when excessive current flows and breaks the circuit."],
         "a": 0,
         "why": "Doubling current makes the heat four times greater."
       }, {
-        "q": "Which statement belongs to Electric power and energy?",
+        "q": "Which statement is correct about Electric power and energy?",
         "options": ["A fuse melts when excessive current flows and breaks the circuit.", "One kilowatt-hour equals 3.6 × 10⁶ joules.", "One ampere is one coulomb of charge flowing per second."],
         "a": 1,
         "why": "One kilowatt-hour equals 3.6 × 10⁶ joules."
       }, {
-        "q": "Which statement belongs to Domestic circuits and safety?",
+        "q": "Which statement is correct about Domestic circuits and safety?",
         "options": ["One ampere is one coulomb of charge flowing per second.", "An ammeter is in series and a voltmeter in parallel.", "A fuse melts when excessive current flows and breaks the circuit."],
         "a": 2,
         "why": "A fuse melts when excessive current flows and breaks the circuit."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'विद्युत धारा और विभवांतर' से मेल खाता है?",
+        "q": "'विद्युत धारा और विभवांतर' के बारे में कौन-सा कथन सही है?",
         "options": ["एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।", "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।", "मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।"],
         "a": 0,
         "why": "एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।"
       }, {
-        "q": "कौन-सा कथन 'परिपथ प्रतीक और आरेख' से मेल खाता है?",
+        "q": "'परिपथ प्रतीक और आरेख' के बारे में कौन-सा कथन सही है?",
         "options": ["मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।", "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।", "प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।"],
         "a": 1,
         "why": "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।"
       }, {
-        "q": "कौन-सा कथन 'ओम का नियम और उसका आलेख' से मेल खाता है?",
+        "q": "'ओम का नियम और उसका आलेख' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।", "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।", "मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।"],
         "a": 2,
         "why": "मूल बिंदु से गुजरती सरल रेखा V-I आलेख ओमीय व्यवहार दर्शाता है।"
       }, {
-        "q": "कौन-सा कथन 'प्रतिरोध और प्रतिरोधकता' से मेल खाता है?",
+        "q": "'प्रतिरोध और प्रतिरोधकता' के बारे में कौन-सा कथन सही है?",
         "options": ["प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।", "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।", "समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।"],
         "a": 0,
         "why": "प्रतिरोधकता पदार्थ का गुण है और तार के आकार पर निर्भर नहीं करती।"
       }, {
-        "q": "कौन-सा कथन 'प्रतिरोधकों का श्रेणीक्रम संयोजन' से मेल खाता है?",
+        "q": "'प्रतिरोधकों का श्रेणीक्रम संयोजन' के बारे में कौन-सा कथन सही है?",
         "options": ["समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।", "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।", "धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।"],
         "a": 1,
         "why": "श्रेणीक्रम प्रतिरोध सबसे बड़े अकेले प्रतिरोधक से भी अधिक होता है।"
       }, {
-        "q": "कौन-सा कथन 'प्रतिरोधकों का समान्तर संयोजन' से मेल खाता है?",
+        "q": "'प्रतिरोधकों का समान्तर संयोजन' के बारे में कौन-सा कथन सही है?",
         "options": ["धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।", "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।", "समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।"],
         "a": 2,
         "why": "समान्तर तुल्य प्रतिरोध सबसे छोटी शाखा से भी कम होता है।"
       }, {
-        "q": "कौन-सा कथन 'ऊष्मीय प्रभाव और जूल का नियम' से मेल खाता है?",
+        "q": "'ऊष्मीय प्रभाव और जूल का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।", "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।", "अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।"],
         "a": 0,
         "why": "धारा दुगनी करने पर ऊष्मा चार गुना हो जाती है।"
       }, {
-        "q": "कौन-सा कथन 'विद्युत शक्ति और ऊर्जा' से मेल खाता है?",
+        "q": "'विद्युत शक्ति और ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।", "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।", "एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।"],
         "a": 1,
         "why": "एक किलोवाट-घंटा 3.6 × 10⁶ जूल के बराबर है।"
       }, {
-        "q": "कौन-सा कथन 'घरेलू परिपथ और सुरक्षा' से मेल खाता है?",
+        "q": "'घरेलू परिपथ और सुरक्षा' के बारे में कौन-सा कथन सही है?",
         "options": ["एक एम्पीयर प्रति सेकंड एक कूलॉम आवेश का प्रवाह है।", "अमीटर श्रेणीक्रम में और वोल्टमीटर समान्तर में लगता है।", "अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।"],
         "a": 2,
         "why": "अत्यधिक धारा बहने पर फ़्यूज़ पिघलकर परिपथ तोड़ देता है।"
@@ -17047,13 +15663,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Magnetic field and field lines?",
+        "q": "Which statement is correct about Magnetic field and field lines?",
         "options": ["A magnetic field is a vector with both direction and magnitude.", "Field strength grows with current and falls with distance from the wire.", "Reversing the current reverses the magnetic field direction."],
         "a": 0,
         "why": "A magnetic field is a vector with both direction and magnitude."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'चुम्बकीय क्षेत्र और क्षेत्र रेखाएँ' से मेल खाता है?",
+        "q": "'चुम्बकीय क्षेत्र और क्षेत्र रेखाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।", "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।", "धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।"],
         "a": 0,
         "why": "चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।"
@@ -17075,12 +15691,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Magnetic field and field lines?",
-        "options": ["A magnetic field is a vector with both direction and magnitude.", "Field strength grows with current and falls with distance from the wire.", "Reversing the current reverses the magnetic field direction."],
-        "a": 0,
-        "why": "A magnetic field is a vector with both direction and magnitude."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17092,8 +15702,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_2",
       "section": "12.2",
@@ -17108,13 +15717,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Field due to a straight current-carrying conductor?",
+        "q": "Which statement is correct about Field due to a straight current-carrying conductor?",
         "options": ["Reversing the current reverses the magnetic field direction.", "Field strength grows with current and falls with distance from the wire.", "Adding an iron core turns a solenoid into an electromagnet."],
         "a": 1,
         "why": "Field strength grows with current and falls with distance from the wire."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सीधे धारावाही चालक का क्षेत्र' से मेल खाता है?",
+        "q": "'सीधे धारावाही चालक का क्षेत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।", "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।", "लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।"],
         "a": 1,
         "why": "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।"
@@ -17136,12 +15745,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Field due to a straight current-carrying conductor?",
-        "options": ["Reversing the current reverses the magnetic field direction.", "Field strength grows with current and falls with distance from the wire.", "Adding an iron core turns a solenoid into an electromagnet."],
-        "a": 1,
-        "why": "Field strength grows with current and falls with distance from the wire."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17153,8 +15756,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_3",
       "section": "12.3",
@@ -17169,13 +15771,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Right-hand thumb rule?",
+        "q": "Which statement is correct about Right-hand thumb rule?",
         "options": ["Adding an iron core turns a solenoid into an electromagnet.", "Reversing current or field reverses the direction of the force.", "Reversing the current reverses the magnetic field direction."],
         "a": 2,
         "why": "Reversing the current reverses the magnetic field direction."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'दाहिने हाथ के अँगूठे का नियम' से मेल खाता है?",
+        "q": "'दाहिने हाथ के अँगूठे का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।", "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।", "धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।"],
         "a": 2,
         "why": "धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।"
@@ -17197,12 +15799,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Right-hand thumb rule?",
-        "options": ["Adding an iron core turns a solenoid into an electromagnet.", "Reversing current or field reverses the direction of the force.", "Reversing the current reverses the magnetic field direction."],
-        "a": 2,
-        "why": "Reversing the current reverses the magnetic field direction."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17214,8 +15810,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_4",
       "section": "12.4",
@@ -17230,13 +15825,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Field due to a circular loop and solenoid?",
+        "q": "Which statement is correct about Field due to a circular loop and solenoid?",
         "options": ["Adding an iron core turns a solenoid into an electromagnet.", "Reversing current or field reverses the direction of the force.", "Fleming's left-hand rule applies to motors and moving conductors."],
         "a": 0,
         "why": "Adding an iron core turns a solenoid into an electromagnet."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वृत्ताकार कुंडली और सोलेनॉइड का क्षेत्र' से मेल खाता है?",
+        "q": "'वृत्ताकार कुंडली और सोलेनॉइड का क्षेत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।", "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।", "फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।"],
         "a": 0,
         "why": "लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।"
@@ -17258,12 +15853,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Field due to a circular loop and solenoid?",
-        "options": ["Adding an iron core turns a solenoid into an electromagnet.", "Reversing current or field reverses the direction of the force.", "Fleming's left-hand rule applies to motors and moving conductors."],
-        "a": 0,
-        "why": "Adding an iron core turns a solenoid into an electromagnet."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17275,8 +15864,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_5",
       "section": "12.5",
@@ -17291,13 +15879,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Force on a current-carrying conductor?",
+        "q": "Which statement is correct about Force on a current-carrying conductor?",
         "options": ["Fleming's left-hand rule applies to motors and moving conductors.", "Reversing current or field reverses the direction of the force.", "AC is preferred for long-distance transmission because its voltage can be changed."],
         "a": 1,
         "why": "Reversing current or field reverses the direction of the force."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'धारावाही चालक पर बल' से मेल खाता है?",
+        "q": "'धारावाही चालक पर बल' के बारे में कौन-सा कथन सही है?",
         "options": ["फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।", "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।", "AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।"],
         "a": 1,
         "why": "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।"
@@ -17319,12 +15907,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Force on a current-carrying conductor?",
-        "options": ["Fleming's left-hand rule applies to motors and moving conductors.", "Reversing current or field reverses the direction of the force.", "AC is preferred for long-distance transmission because its voltage can be changed."],
-        "a": 1,
-        "why": "Reversing current or field reverses the direction of the force."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17336,8 +15918,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_6",
       "section": "12.6",
@@ -17352,13 +15933,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Fleming's left-hand rule?",
+        "q": "Which statement is correct about Fleming's left-hand rule?",
         "options": ["AC is preferred for long-distance transmission because its voltage can be changed.", "The earth wire connects the metal case to ground for safety.", "Fleming's left-hand rule applies to motors and moving conductors."],
         "a": 2,
         "why": "Fleming's left-hand rule applies to motors and moving conductors."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'फ़्लेमिंग का बायाँ-हाथ नियम' से मेल खाता है?",
+        "q": "'फ़्लेमिंग का बायाँ-हाथ नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।", "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।", "फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।"],
         "a": 2,
         "why": "फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।"
@@ -17380,12 +15961,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Fleming's left-hand rule?",
-        "options": ["AC is preferred for long-distance transmission because its voltage can be changed.", "The earth wire connects the metal case to ground for safety.", "Fleming's left-hand rule applies to motors and moving conductors."],
-        "a": 2,
-        "why": "Fleming's left-hand rule applies to motors and moving conductors."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17397,8 +15972,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_7",
       "section": "12.7",
@@ -17413,13 +15987,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Direct and alternating current?",
+        "q": "Which statement is correct about Direct and alternating current?",
         "options": ["AC is preferred for long-distance transmission because its voltage can be changed.", "The earth wire connects the metal case to ground for safety.", "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."],
         "a": 0,
         "why": "AC is preferred for long-distance transmission because its voltage can be changed."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'दिष्ट और प्रत्यावर्ती धारा' से मेल खाता है?",
+        "q": "'दिष्ट और प्रत्यावर्ती धारा' के बारे में कौन-सा कथन सही है?",
         "options": ["AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।", "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।", "मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।"],
         "a": 0,
         "why": "AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।"
@@ -17441,12 +16015,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Direct and alternating current?",
-        "options": ["AC is preferred for long-distance transmission because its voltage can be changed.", "The earth wire connects the metal case to ground for safety.", "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."],
-        "a": 0,
-        "why": "AC is preferred for long-distance transmission because its voltage can be changed."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17458,8 +16026,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_8",
       "section": "12.8",
@@ -17474,13 +16041,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Domestic wiring, earthing and fuse?",
+        "q": "Which statement is correct about Domestic wiring, earthing and fuse?",
         "options": ["Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27.", "The earth wire connects the metal case to ground for safety.", "A magnetic field is a vector with both direction and magnitude."],
         "a": 1,
         "why": "The earth wire connects the metal case to ground for safety."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'घरेलू तार-व्यवस्था, अर्थिंग और फ़्यूज़' से मेल खाता है?",
+        "q": "'घरेलू तार-व्यवस्था, अर्थिंग और फ़्यूज़' के बारे में कौन-सा कथन सही है?",
         "options": ["मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।", "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।", "चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।"],
         "a": 1,
         "why": "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।"
@@ -17502,12 +16069,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Domestic wiring, earthing and fuse?",
-        "options": ["Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27.", "The earth wire connects the metal case to ground for safety.", "A magnetic field is a vector with both direction and magnitude."],
-        "a": 1,
-        "why": "The earth wire connects the metal case to ground for safety."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17519,8 +16080,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_magnetism_12_9",
       "section": "12.9",
@@ -17535,13 +16095,13 @@
         "note": "धारा और दूरी पर चुम्बकीय क्षेत्र"
       },
       "predict": {
-        "q": "Which statement belongs to Electric motor, induction and generator: formative only?",
+        "q": "Which statement is correct about Electric motor, induction and generator: formative only?",
         "options": ["A magnetic field is a vector with both direction and magnitude.", "Field strength grows with current and falls with distance from the wire.", "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."],
         "a": 2,
         "why": "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'विद्युत मोटर, प्रेरण और जनित्र: केवल सृजनात्मक' से मेल खाता है?",
+        "q": "'विद्युत मोटर, प्रेरण और जनित्र: केवल सृजनात्मक' के बारे में कौन-सा कथन सही है?",
         "options": ["चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।", "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।", "मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।"],
         "a": 2,
         "why": "मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।"
@@ -17562,12 +16122,6 @@
           "value": 33.75,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Electric motor, induction and generator: formative only?",
-        "options": ["A magnetic field is a vector with both direction and magnitude.", "Field strength grows with current and falls with distance from the wire.", "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."],
-        "a": 2,
-        "why": "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."
       },
       "scene": {
         "type": "atlas",
@@ -17713,93 +16267,93 @@
         "desc": "Motor, electromagnetic induction and generator are portfolio topics, n"
       }],
       "quiz": [{
-        "q": "Which statement belongs to Magnetic field and field lines?",
+        "q": "Which statement is correct about Magnetic field and field lines?",
         "options": ["A magnetic field is a vector with both direction and magnitude.", "Field strength grows with current and falls with distance from the wire.", "Reversing the current reverses the magnetic field direction."],
         "a": 0,
         "why": "A magnetic field is a vector with both direction and magnitude."
       }, {
-        "q": "Which statement belongs to Field due to a straight current-carrying conductor?",
+        "q": "Which statement is correct about Field due to a straight current-carrying conductor?",
         "options": ["Reversing the current reverses the magnetic field direction.", "Field strength grows with current and falls with distance from the wire.", "Adding an iron core turns a solenoid into an electromagnet."],
         "a": 1,
         "why": "Field strength grows with current and falls with distance from the wire."
       }, {
-        "q": "Which statement belongs to Right-hand thumb rule?",
+        "q": "Which statement is correct about Right-hand thumb rule?",
         "options": ["Adding an iron core turns a solenoid into an electromagnet.", "Reversing current or field reverses the direction of the force.", "Reversing the current reverses the magnetic field direction."],
         "a": 2,
         "why": "Reversing the current reverses the magnetic field direction."
       }, {
-        "q": "Which statement belongs to Field due to a circular loop and solenoid?",
+        "q": "Which statement is correct about Field due to a circular loop and solenoid?",
         "options": ["Adding an iron core turns a solenoid into an electromagnet.", "Reversing current or field reverses the direction of the force.", "Fleming's left-hand rule applies to motors and moving conductors."],
         "a": 0,
         "why": "Adding an iron core turns a solenoid into an electromagnet."
       }, {
-        "q": "Which statement belongs to Force on a current-carrying conductor?",
+        "q": "Which statement is correct about Force on a current-carrying conductor?",
         "options": ["Fleming's left-hand rule applies to motors and moving conductors.", "Reversing current or field reverses the direction of the force.", "AC is preferred for long-distance transmission because its voltage can be changed."],
         "a": 1,
         "why": "Reversing current or field reverses the direction of the force."
       }, {
-        "q": "Which statement belongs to Fleming's left-hand rule?",
+        "q": "Which statement is correct about Fleming's left-hand rule?",
         "options": ["AC is preferred for long-distance transmission because its voltage can be changed.", "The earth wire connects the metal case to ground for safety.", "Fleming's left-hand rule applies to motors and moving conductors."],
         "a": 2,
         "why": "Fleming's left-hand rule applies to motors and moving conductors."
       }, {
-        "q": "Which statement belongs to Direct and alternating current?",
+        "q": "Which statement is correct about Direct and alternating current?",
         "options": ["AC is preferred for long-distance transmission because its voltage can be changed.", "The earth wire connects the metal case to ground for safety.", "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."],
         "a": 0,
         "why": "AC is preferred for long-distance transmission because its voltage can be changed."
       }, {
-        "q": "Which statement belongs to Domestic wiring, earthing and fuse?",
+        "q": "Which statement is correct about Domestic wiring, earthing and fuse?",
         "options": ["Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27.", "The earth wire connects the metal case to ground for safety.", "A magnetic field is a vector with both direction and magnitude."],
         "a": 1,
         "why": "The earth wire connects the metal case to ground for safety."
       }, {
-        "q": "Which statement belongs to Electric motor, induction and generator: formative only?",
+        "q": "Which statement is correct about Electric motor, induction and generator: formative only?",
         "options": ["A magnetic field is a vector with both direction and magnitude.", "Field strength grows with current and falls with distance from the wire.", "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."],
         "a": 2,
         "why": "Motor, electromagnetic induction and generator are portfolio topics, not board-exam topics in 2026-27."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'चुम्बकीय क्षेत्र और क्षेत्र रेखाएँ' से मेल खाता है?",
+        "q": "'चुम्बकीय क्षेत्र और क्षेत्र रेखाएँ' के बारे में कौन-सा कथन सही है?",
         "options": ["चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।", "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।", "धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।"],
         "a": 0,
         "why": "चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।"
       }, {
-        "q": "कौन-सा कथन 'सीधे धारावाही चालक का क्षेत्र' से मेल खाता है?",
+        "q": "'सीधे धारावाही चालक का क्षेत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।", "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।", "लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।"],
         "a": 1,
         "why": "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।"
       }, {
-        "q": "कौन-सा कथन 'दाहिने हाथ के अँगूठे का नियम' से मेल खाता है?",
+        "q": "'दाहिने हाथ के अँगूठे का नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।", "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।", "धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।"],
         "a": 2,
         "why": "धारा उलटने पर चुम्बकीय क्षेत्र की दिशा भी उलट जाती है।"
       }, {
-        "q": "कौन-सा कथन 'वृत्ताकार कुंडली और सोलेनॉइड का क्षेत्र' से मेल खाता है?",
+        "q": "'वृत्ताकार कुंडली और सोलेनॉइड का क्षेत्र' के बारे में कौन-सा कथन सही है?",
         "options": ["लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।", "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।", "फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।"],
         "a": 0,
         "why": "लोहे की क्रोड डालने पर सोलेनॉइड विद्युतचुम्बक बन जाता है।"
       }, {
-        "q": "कौन-सा कथन 'धारावाही चालक पर बल' से मेल खाता है?",
+        "q": "'धारावाही चालक पर बल' के बारे में कौन-सा कथन सही है?",
         "options": ["फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।", "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।", "AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।"],
         "a": 1,
         "why": "धारा या क्षेत्र उलटने पर बल की दिशा उलट जाती है।"
       }, {
-        "q": "कौन-सा कथन 'फ़्लेमिंग का बायाँ-हाथ नियम' से मेल खाता है?",
+        "q": "'फ़्लेमिंग का बायाँ-हाथ नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।", "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।", "फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।"],
         "a": 2,
         "why": "फ़्लेमिंग का बायाँ-हाथ नियम मोटर और गतिशील चालकों पर लागू होता है।"
       }, {
-        "q": "कौन-सा कथन 'दिष्ट और प्रत्यावर्ती धारा' से मेल खाता है?",
+        "q": "'दिष्ट और प्रत्यावर्ती धारा' के बारे में कौन-सा कथन सही है?",
         "options": ["AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।", "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।", "मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।"],
         "a": 0,
         "why": "AC को लंबी दूरी पर प्रेषण के लिए चुना जाता है क्योंकि इसका विभव बदला जा सकता है।"
       }, {
-        "q": "कौन-सा कथन 'घरेलू तार-व्यवस्था, अर्थिंग और फ़्यूज़' से मेल खाता है?",
+        "q": "'घरेलू तार-व्यवस्था, अर्थिंग और फ़्यूज़' के बारे में कौन-सा कथन सही है?",
         "options": ["मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।", "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।", "चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।"],
         "a": 1,
         "why": "भू-तार धातु के आवरण को धरती से जोड़कर सुरक्षा देता है।"
       }, {
-        "q": "कौन-सा कथन 'विद्युत मोटर, प्रेरण और जनित्र: केवल सृजनात्मक' से मेल खाता है?",
+        "q": "'विद्युत मोटर, प्रेरण और जनित्र: केवल सृजनात्मक' के बारे में कौन-सा कथन सही है?",
         "options": ["चुम्बकीय क्षेत्र एक सदिश है जिसमें दिशा और परिमाण दोनों होते हैं।", "क्षेत्र धारा बढ़ने पर बढ़ता और तार से दूरी बढ़ने पर घटता है।", "मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।"],
         "a": 2,
         "why": "मोटर, प्रेरण और जनित्र पोर्टफ़ोलियो विषय हैं, 2026-27 बोर्ड परीक्षा में नहीं।"
@@ -17821,13 +16375,13 @@
         "note": "आहार श्रृंखला और ऊर्जा ह्रास"
       },
       "predict": {
-        "q": "Which statement belongs to Ecosystem and its components?",
+        "q": "Which statement is correct about Ecosystem and its components?",
         "options": ["Decomposers recycle nutrients back into the soil.", "Each step of a food chain is a trophic level.", "Energy is lost as heat and never recycled in an ecosystem."],
         "a": 0,
         "why": "Decomposers recycle nutrients back into the soil."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पारिस्थितिक तंत्र और उसके घटक' से मेल खाता है?",
+        "q": "'पारिस्थितिक तंत्र और उसके घटक' के बारे में कौन-सा कथन सही है?",
         "options": ["अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।", "आहार श्रृंखला का हर चरण एक पोषी स्तर है।", "ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।"],
         "a": 0,
         "why": "अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।"
@@ -17849,12 +16403,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Ecosystem and its components?",
-        "options": ["Decomposers recycle nutrients back into the soil.", "Each step of a food chain is a trophic level.", "Energy is lost as heat and never recycled in an ecosystem."],
-        "a": 0,
-        "why": "Decomposers recycle nutrients back into the soil."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17866,8 +16414,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_env_13_2",
       "section": "13.2",
@@ -17882,13 +16429,13 @@
         "note": "आहार श्रृंखला और ऊर्जा ह्रास"
       },
       "predict": {
-        "q": "Which statement belongs to Food chains, webs and trophic levels?",
+        "q": "Which statement is correct about Food chains, webs and trophic levels?",
         "options": ["Energy is lost as heat and never recycled in an ecosystem.", "Each step of a food chain is a trophic level.", "The top consumer carries the highest concentration of a persistent pesticide."],
         "a": 1,
         "why": "Each step of a food chain is a trophic level."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आहार श्रृंखला, जाल और पोषी स्तर' से मेल खाता है?",
+        "q": "'आहार श्रृंखला, जाल और पोषी स्तर' के बारे में कौन-सा कथन सही है?",
         "options": ["ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।", "आहार श्रृंखला का हर चरण एक पोषी स्तर है।", "शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।"],
         "a": 1,
         "why": "आहार श्रृंखला का हर चरण एक पोषी स्तर है।"
@@ -17910,12 +16457,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Food chains, webs and trophic levels?",
-        "options": ["Energy is lost as heat and never recycled in an ecosystem.", "Each step of a food chain is a trophic level.", "The top consumer carries the highest concentration of a persistent pesticide."],
-        "a": 1,
-        "why": "Each step of a food chain is a trophic level."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17927,8 +16468,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_env_13_3",
       "section": "13.3",
@@ -17943,13 +16483,13 @@
         "note": "आहार श्रृंखला और ऊर्जा ह्रास"
       },
       "predict": {
-        "q": "Which statement belongs to Ten percent law and energy flow?",
+        "q": "Which statement is correct about Ten percent law and energy flow?",
         "options": ["The top consumer carries the highest concentration of a persistent pesticide.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Energy is lost as heat and never recycled in an ecosystem."],
         "a": 2,
         "why": "Energy is lost as heat and never recycled in an ecosystem."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'दस प्रतिशत नियम और ऊर्जा प्रवाह' से मेल खाता है?",
+        "q": "'दस प्रतिशत नियम और ऊर्जा प्रवाह' के बारे में कौन-सा कथन सही है?",
         "options": ["शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।", "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।", "ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।"],
         "a": 2,
         "why": "ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।"
@@ -17971,12 +16511,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Ten percent law and energy flow?",
-        "options": ["The top consumer carries the highest concentration of a persistent pesticide.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Energy is lost as heat and never recycled in an ecosystem."],
-        "a": 2,
-        "why": "Energy is lost as heat and never recycled in an ecosystem."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -17988,8 +16522,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_env_13_4",
       "section": "13.4",
@@ -18004,13 +16537,13 @@
         "note": "आहार श्रृंखला और ऊर्जा ह्रास"
       },
       "predict": {
-        "q": "Which statement belongs to Biological magnification?",
+        "q": "Which statement is correct about Biological magnification?",
         "options": ["The top consumer carries the highest concentration of a persistent pesticide.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Segregation at source makes recycling and composting possible."],
         "a": 0,
         "why": "The top consumer carries the highest concentration of a persistent pesticide."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जैव-आवर्धन' से मेल खाता है?",
+        "q": "'जैव-आवर्धन' के बारे में कौन-सा कथन सही है?",
         "options": ["शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।", "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।", "स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।"],
         "a": 0,
         "why": "शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।"
@@ -18032,12 +16565,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Biological magnification?",
-        "options": ["The top consumer carries the highest concentration of a persistent pesticide.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Segregation at source makes recycling and composting possible."],
-        "a": 0,
-        "why": "The top consumer carries the highest concentration of a persistent pesticide."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -18049,8 +16576,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_env_13_5",
       "section": "13.5",
@@ -18065,13 +16591,13 @@
         "note": "आहार श्रृंखला और ऊर्जा ह्रास"
       },
       "predict": {
-        "q": "Which statement belongs to Ozone layer and its depletion?",
+        "q": "Which statement is correct about Ozone layer and its depletion?",
         "options": ["Segregation at source makes recycling and composting possible.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Refilling and repairing usually save more resources than recycling alone."],
         "a": 1,
         "why": "The Montreal Protocol phased out CFCs to protect the ozone layer."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'ओज़ोन परत और उसका क्षरण' से मेल खाता है?",
+        "q": "'ओज़ोन परत और उसका क्षरण' के बारे में कौन-सा कथन सही है?",
         "options": ["स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।", "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।", "पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।"],
         "a": 1,
         "why": "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।"
@@ -18093,12 +16619,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Ozone layer and its depletion?",
-        "options": ["Segregation at source makes recycling and composting possible.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Refilling and repairing usually save more resources than recycling alone."],
-        "a": 1,
-        "why": "The Montreal Protocol phased out CFCs to protect the ozone layer."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -18110,8 +16630,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_env_13_6",
       "section": "13.6",
@@ -18126,13 +16645,13 @@
         "note": "आहार श्रृंखला और ऊर्जा ह्रास"
       },
       "predict": {
-        "q": "Which statement belongs to Waste: biodegradable and non-biodegradable?",
+        "q": "Which statement is correct about Waste: biodegradable and non-biodegradable?",
         "options": ["Refilling and repairing usually save more resources than recycling alone.", "Decomposers recycle nutrients back into the soil.", "Segregation at source makes recycling and composting possible."],
         "a": 2,
         "why": "Segregation at source makes recycling and composting possible."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'अपशिष्ट: जैव-अपघटनीय और अनपघटनीय' से मेल खाता है?",
+        "q": "'अपशिष्ट: जैव-अपघटनीय और अनपघटनीय' के बारे में कौन-सा कथन सही है?",
         "options": ["पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।", "अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।", "स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।"],
         "a": 2,
         "why": "स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।"
@@ -18154,12 +16673,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Waste: biodegradable and non-biodegradable?",
-        "options": ["Refilling and repairing usually save more resources than recycling alone.", "Decomposers recycle nutrients back into the soil.", "Segregation at source makes recycling and composting possible."],
-        "a": 2,
-        "why": "Segregation at source makes recycling and composting possible."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -18171,8 +16684,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }, {
       "id": "c10_env_13_7",
       "section": "13.7",
@@ -18187,13 +16699,13 @@
         "note": "आहार श्रृंखला और ऊर्जा ह्रास"
       },
       "predict": {
-        "q": "Which statement belongs to Reduce, reuse, recycle and our role?",
+        "q": "Which statement is correct about Reduce, reuse, recycle and our role?",
         "options": ["Refilling and repairing usually save more resources than recycling alone.", "Decomposers recycle nutrients back into the soil.", "Each step of a food chain is a trophic level."],
         "a": 0,
         "why": "Refilling and repairing usually save more resources than recycling alone."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कम करें, पुनः उपयोग, पुनर्चक्रण और हमारी भूमिका' से मेल खाता है?",
+        "q": "'कम करें, पुनः उपयोग, पुनर्चक्रण और हमारी भूमिका' के बारे में कौन-सा कथन सही है?",
         "options": ["पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।", "अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।", "आहार श्रृंखला का हर चरण एक पोषी स्तर है।"],
         "a": 0,
         "why": "पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।"
@@ -18215,12 +16727,6 @@
           "op": "gte"
         }
       },
-      "quiz": {
-        "q": "Which statement belongs to Reduce, reuse, recycle and our role?",
-        "options": ["Refilling and repairing usually save more resources than recycling alone.", "Decomposers recycle nutrients back into the soil.", "Each step of a food chain is a trophic level."],
-        "a": 0,
-        "why": "Refilling and repairing usually save more resources than recycling alone."
-      },
       "scene": {
         "type": "atlas",
         "fig": {
@@ -18232,8 +16738,7 @@
         "params": {
 
         }
-      },
-      "status": "assessed"
+      }
     }];
   CHAPTER_PACKS["c10_env"] = {
       "id": "c10_env",
@@ -18339,73 +16844,73 @@
         "desc": "Refilling and repairing usually save more resources than recycling alo"
       }],
       "quiz": [{
-        "q": "Which statement belongs to Ecosystem and its components?",
+        "q": "Which statement is correct about Ecosystem and its components?",
         "options": ["Decomposers recycle nutrients back into the soil.", "Each step of a food chain is a trophic level.", "Energy is lost as heat and never recycled in an ecosystem."],
         "a": 0,
         "why": "Decomposers recycle nutrients back into the soil."
       }, {
-        "q": "Which statement belongs to Food chains, webs and trophic levels?",
+        "q": "Which statement is correct about Food chains, webs and trophic levels?",
         "options": ["Energy is lost as heat and never recycled in an ecosystem.", "Each step of a food chain is a trophic level.", "The top consumer carries the highest concentration of a persistent pesticide."],
         "a": 1,
         "why": "Each step of a food chain is a trophic level."
       }, {
-        "q": "Which statement belongs to Ten percent law and energy flow?",
+        "q": "Which statement is correct about Ten percent law and energy flow?",
         "options": ["The top consumer carries the highest concentration of a persistent pesticide.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Energy is lost as heat and never recycled in an ecosystem."],
         "a": 2,
         "why": "Energy is lost as heat and never recycled in an ecosystem."
       }, {
-        "q": "Which statement belongs to Biological magnification?",
+        "q": "Which statement is correct about Biological magnification?",
         "options": ["The top consumer carries the highest concentration of a persistent pesticide.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Segregation at source makes recycling and composting possible."],
         "a": 0,
         "why": "The top consumer carries the highest concentration of a persistent pesticide."
       }, {
-        "q": "Which statement belongs to Ozone layer and its depletion?",
+        "q": "Which statement is correct about Ozone layer and its depletion?",
         "options": ["Segregation at source makes recycling and composting possible.", "The Montreal Protocol phased out CFCs to protect the ozone layer.", "Refilling and repairing usually save more resources than recycling alone."],
         "a": 1,
         "why": "The Montreal Protocol phased out CFCs to protect the ozone layer."
       }, {
-        "q": "Which statement belongs to Waste: biodegradable and non-biodegradable?",
+        "q": "Which statement is correct about Waste: biodegradable and non-biodegradable?",
         "options": ["Refilling and repairing usually save more resources than recycling alone.", "Decomposers recycle nutrients back into the soil.", "Segregation at source makes recycling and composting possible."],
         "a": 2,
         "why": "Segregation at source makes recycling and composting possible."
       }, {
-        "q": "Which statement belongs to Reduce, reuse, recycle and our role?",
+        "q": "Which statement is correct about Reduce, reuse, recycle and our role?",
         "options": ["Refilling and repairing usually save more resources than recycling alone.", "Decomposers recycle nutrients back into the soil.", "Each step of a food chain is a trophic level."],
         "a": 0,
         "why": "Refilling and repairing usually save more resources than recycling alone."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'पारिस्थितिक तंत्र और उसके घटक' से मेल खाता है?",
+        "q": "'पारिस्थितिक तंत्र और उसके घटक' के बारे में कौन-सा कथन सही है?",
         "options": ["अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।", "आहार श्रृंखला का हर चरण एक पोषी स्तर है।", "ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।"],
         "a": 0,
         "why": "अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।"
       }, {
-        "q": "कौन-सा कथन 'आहार श्रृंखला, जाल और पोषी स्तर' से मेल खाता है?",
+        "q": "'आहार श्रृंखला, जाल और पोषी स्तर' के बारे में कौन-सा कथन सही है?",
         "options": ["ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।", "आहार श्रृंखला का हर चरण एक पोषी स्तर है।", "शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।"],
         "a": 1,
         "why": "आहार श्रृंखला का हर चरण एक पोषी स्तर है।"
       }, {
-        "q": "कौन-सा कथन 'दस प्रतिशत नियम और ऊर्जा प्रवाह' से मेल खाता है?",
+        "q": "'दस प्रतिशत नियम और ऊर्जा प्रवाह' के बारे में कौन-सा कथन सही है?",
         "options": ["शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।", "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।", "ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।"],
         "a": 2,
         "why": "ऊर्जा ऊष्मा के रूप में खोती है और पारिस्थितिक तंत्र में पुनःचक्रित नहीं होती।"
       }, {
-        "q": "कौन-सा कथन 'जैव-आवर्धन' से मेल खाता है?",
+        "q": "'जैव-आवर्धन' के बारे में कौन-सा कथन सही है?",
         "options": ["शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।", "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।", "स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।"],
         "a": 0,
         "why": "शीर्ष उपभोक्ता में स्थायी कीटनाशक की सांद्रता सबसे अधिक होती है।"
       }, {
-        "q": "कौन-सा कथन 'ओज़ोन परत और उसका क्षरण' से मेल खाता है?",
+        "q": "'ओज़ोन परत और उसका क्षरण' के बारे में कौन-सा कथन सही है?",
         "options": ["स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।", "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।", "पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।"],
         "a": 1,
         "why": "मॉन्ट्रियल प्रोटोकॉल ने ओज़ोन बचाने हेतु CFC चरणबद्ध समाप्त किए।"
       }, {
-        "q": "कौन-सा कथन 'अपशिष्ट: जैव-अपघटनीय और अनपघटनीय' से मेल खाता है?",
+        "q": "'अपशिष्ट: जैव-अपघटनीय और अनपघटनीय' के बारे में कौन-सा कथन सही है?",
         "options": ["पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।", "अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।", "स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।"],
         "a": 2,
         "why": "स्रोत पर पृथक्करण से पुनर्चक्रण और खाद बनाना संभव होता है।"
       }, {
-        "q": "कौन-सा कथन 'कम करें, पुनः उपयोग, पुनर्चक्रण और हमारी भूमिका' से मेल खाता है?",
+        "q": "'कम करें, पुनः उपयोग, पुनर्चक्रण और हमारी भूमिका' के बारे में कौन-सा कथन सही है?",
         "options": ["पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।", "अपघटक पोषक तत्व मिट्टी में लौटा देते हैं।", "आहार श्रृंखला का हर चरण एक पोषी स्तर है।"],
         "a": 0,
         "why": "पुनर्भरण और मरम्मत से प्रायः अकेले पुनर्चक्रण से अधिक संसाधन बचते हैं।"
@@ -18427,13 +16932,13 @@
         "note": "आवर्त और समूह में गुण दोहराते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Döbereiner's triads?",
+        "q": "Which statement is correct about Döbereiner's triads?",
         "options": ["Only a few triads could be identified, so the rule was limited.", "The law of octaves worked only up to calcium.", "Mendeleev predicted eka-silicon, later discovered as germanium."],
         "a": 0,
         "why": "Only a few triads could be identified, so the rule was limited."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'डोबेराइनर के त्रिक' से मेल खाता है?",
+        "q": "'डोबेराइनर के त्रिक' के बारे में कौन-सा कथन सही है?",
         "options": ["कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।", "अष्टक नियम केवल कैल्शियम तक चला।", "मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।"],
         "a": 0,
         "why": "कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।"
@@ -18454,12 +16959,6 @@
           "value": 4.75,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Döbereiner's triads?",
-        "options": ["Only a few triads could be identified, so the rule was limited.", "The law of octaves worked only up to calcium.", "Mendeleev predicted eka-silicon, later discovered as germanium."],
-        "a": 0,
-        "why": "Only a few triads could be identified, so the rule was limited."
       },
       "scene": {
         "type": "atlas",
@@ -18488,13 +16987,13 @@
         "note": "आवर्त और समूह में गुण दोहराते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Newlands' law of octaves?",
+        "q": "Which statement is correct about Newlands' law of octaves?",
         "options": ["Mendeleev predicted eka-silicon, later discovered as germanium.", "The law of octaves worked only up to calcium.", "The modern table has 18 groups and 7 periods."],
         "a": 1,
         "why": "The law of octaves worked only up to calcium."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'न्यूलैंड का अष्टक नियम' से मेल खाता है?",
+        "q": "'न्यूलैंड का अष्टक नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।", "अष्टक नियम केवल कैल्शियम तक चला।", "आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।"],
         "a": 1,
         "why": "अष्टक नियम केवल कैल्शियम तक चला।"
@@ -18515,12 +17014,6 @@
           "value": 4.75,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Newlands' law of octaves?",
-        "options": ["Mendeleev predicted eka-silicon, later discovered as germanium.", "The law of octaves worked only up to calcium.", "The modern table has 18 groups and 7 periods."],
-        "a": 1,
-        "why": "The law of octaves worked only up to calcium."
       },
       "scene": {
         "type": "atlas",
@@ -18549,13 +17042,13 @@
         "note": "आवर्त और समूह में गुण दोहराते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Mendeleev's periodic table?",
+        "q": "Which statement is correct about Mendeleev's periodic table?",
         "options": ["The modern table has 18 groups and 7 periods.", "Valency first rises to four and then falls across a period.", "Mendeleev predicted eka-silicon, later discovered as germanium."],
         "a": 2,
         "why": "Mendeleev predicted eka-silicon, later discovered as germanium."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'मेंडेलीफ़ की आवर्त सारणी' से मेल खाता है?",
+        "q": "'मेंडेलीफ़ की आवर्त सारणी' के बारे में कौन-सा कथन सही है?",
         "options": ["आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।", "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।", "मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।"],
         "a": 2,
         "why": "मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।"
@@ -18576,12 +17069,6 @@
           "value": 4.75,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Mendeleev's periodic table?",
-        "options": ["The modern table has 18 groups and 7 periods.", "Valency first rises to four and then falls across a period.", "Mendeleev predicted eka-silicon, later discovered as germanium."],
-        "a": 2,
-        "why": "Mendeleev predicted eka-silicon, later discovered as germanium."
       },
       "scene": {
         "type": "atlas",
@@ -18610,13 +17097,13 @@
         "note": "आवर्त और समूह में गुण दोहराते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to The modern periodic law?",
+        "q": "Which statement is correct about The modern periodic law?",
         "options": ["The modern table has 18 groups and 7 periods.", "Valency first rises to four and then falls across a period.", "Only a few triads could be identified, so the rule was limited."],
         "a": 0,
         "why": "The modern table has 18 groups and 7 periods."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आधुनिक आवर्त नियम' से मेल खाता है?",
+        "q": "'आधुनिक आवर्त नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।", "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।", "कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।"],
         "a": 0,
         "why": "आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।"
@@ -18637,12 +17124,6 @@
           "value": 4.75,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to The modern periodic law?",
-        "options": ["The modern table has 18 groups and 7 periods.", "Valency first rises to four and then falls across a period.", "Only a few triads could be identified, so the rule was limited."],
-        "a": 0,
-        "why": "The modern table has 18 groups and 7 periods."
       },
       "scene": {
         "type": "atlas",
@@ -18671,13 +17152,13 @@
         "note": "आवर्त और समूह में गुण दोहराते हैं"
       },
       "predict": {
-        "q": "Which statement belongs to Trends in the modern table?",
+        "q": "Which statement is correct about Trends in the modern table?",
         "options": ["Only a few triads could be identified, so the rule was limited.", "Valency first rises to four and then falls across a period.", "The law of octaves worked only up to calcium."],
         "a": 1,
         "why": "Valency first rises to four and then falls across a period."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'आधुनिक सारणी में प्रवृत्तियाँ' से मेल खाता है?",
+        "q": "'आधुनिक सारणी में प्रवृत्तियाँ' के बारे में कौन-सा कथन सही है?",
         "options": ["कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।", "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।", "अष्टक नियम केवल कैल्शियम तक चला।"],
         "a": 1,
         "why": "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।"
@@ -18698,12 +17179,6 @@
           "value": 4.75,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Trends in the modern table?",
-        "options": ["Only a few triads could be identified, so the rule was limited.", "Valency first rises to four and then falls across a period.", "The law of octaves worked only up to calcium."],
-        "a": 1,
-        "why": "Valency first rises to four and then falls across a period."
       },
       "scene": {
         "type": "atlas",
@@ -18797,53 +17272,53 @@
         "desc": "Valency first rises to four and then falls across a period."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Döbereiner's triads?",
+        "q": "Which statement is correct about Döbereiner's triads?",
         "options": ["Only a few triads could be identified, so the rule was limited.", "The law of octaves worked only up to calcium.", "Mendeleev predicted eka-silicon, later discovered as germanium."],
         "a": 0,
         "why": "Only a few triads could be identified, so the rule was limited."
       }, {
-        "q": "Which statement belongs to Newlands' law of octaves?",
+        "q": "Which statement is correct about Newlands' law of octaves?",
         "options": ["Mendeleev predicted eka-silicon, later discovered as germanium.", "The law of octaves worked only up to calcium.", "The modern table has 18 groups and 7 periods."],
         "a": 1,
         "why": "The law of octaves worked only up to calcium."
       }, {
-        "q": "Which statement belongs to Mendeleev's periodic table?",
+        "q": "Which statement is correct about Mendeleev's periodic table?",
         "options": ["The modern table has 18 groups and 7 periods.", "Valency first rises to four and then falls across a period.", "Mendeleev predicted eka-silicon, later discovered as germanium."],
         "a": 2,
         "why": "Mendeleev predicted eka-silicon, later discovered as germanium."
       }, {
-        "q": "Which statement belongs to The modern periodic law?",
+        "q": "Which statement is correct about The modern periodic law?",
         "options": ["The modern table has 18 groups and 7 periods.", "Valency first rises to four and then falls across a period.", "Only a few triads could be identified, so the rule was limited."],
         "a": 0,
         "why": "The modern table has 18 groups and 7 periods."
       }, {
-        "q": "Which statement belongs to Trends in the modern table?",
+        "q": "Which statement is correct about Trends in the modern table?",
         "options": ["Only a few triads could be identified, so the rule was limited.", "Valency first rises to four and then falls across a period.", "The law of octaves worked only up to calcium."],
         "a": 1,
         "why": "Valency first rises to four and then falls across a period."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'डोबेराइनर के त्रिक' से मेल खाता है?",
+        "q": "'डोबेराइनर के त्रिक' के बारे में कौन-सा कथन सही है?",
         "options": ["कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।", "अष्टक नियम केवल कैल्शियम तक चला।", "मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।"],
         "a": 0,
         "why": "कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।"
       }, {
-        "q": "कौन-सा कथन 'न्यूलैंड का अष्टक नियम' से मेल खाता है?",
+        "q": "'न्यूलैंड का अष्टक नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।", "अष्टक नियम केवल कैल्शियम तक चला।", "आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।"],
         "a": 1,
         "why": "अष्टक नियम केवल कैल्शियम तक चला।"
       }, {
-        "q": "कौन-सा कथन 'मेंडेलीफ़ की आवर्त सारणी' से मेल खाता है?",
+        "q": "'मेंडेलीफ़ की आवर्त सारणी' के बारे में कौन-सा कथन सही है?",
         "options": ["आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।", "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।", "मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।"],
         "a": 2,
         "why": "मेंडेलीफ़ ने एका-सिलिकॉन की भविष्यवाणी की जो बाद में जर्मेनियम निकला।"
       }, {
-        "q": "कौन-सा कथन 'आधुनिक आवर्त नियम' से मेल खाता है?",
+        "q": "'आधुनिक आवर्त नियम' के बारे में कौन-सा कथन सही है?",
         "options": ["आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।", "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।", "कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।"],
         "a": 0,
         "why": "आधुनिक सारणी में 18 समूह और 7 आवर्त हैं।"
       }, {
-        "q": "कौन-सा कथन 'आधुनिक सारणी में प्रवृत्तियाँ' से मेल खाता है?",
+        "q": "'आधुनिक सारणी में प्रवृत्तियाँ' के बारे में कौन-सा कथन सही है?",
         "options": ["कुछ ही त्रिक मिल सके इसलिए यह नियम सीमित रहा।", "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।", "अष्टक नियम केवल कैल्शियम तक चला।"],
         "a": 1,
         "why": "आवर्त में संयोजकता पहले चार तक बढ़ती है फिर घटती है।"
@@ -18865,13 +17340,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Conventional and non-conventional sources?",
+        "q": "Which statement is correct about Conventional and non-conventional sources?",
         "options": ["Fossil fuels are finite and cause pollution on burning.", "A photovoltaic cell produces DC from sunlight without moving parts.", "Hydro power needs a dam and a large head of stored water."],
         "a": 0,
         "why": "Fossil fuels are finite and cause pollution on burning."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'परंपरागत और अपरंपरागत स्रोत' से मेल खाता है?",
+        "q": "'परंपरागत और अपरंपरागत स्रोत' के बारे में कौन-सा कथन सही है?",
         "options": ["जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।", "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।", "जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।"],
         "a": 0,
         "why": "जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।"
@@ -18892,12 +17367,6 @@
           "value": 6.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Conventional and non-conventional sources?",
-        "options": ["Fossil fuels are finite and cause pollution on burning.", "A photovoltaic cell produces DC from sunlight without moving parts.", "Hydro power needs a dam and a large head of stored water."],
-        "a": 0,
-        "why": "Fossil fuels are finite and cause pollution on burning."
       },
       "scene": {
         "type": "atlas",
@@ -18926,13 +17395,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Solar energy, panels and cookers?",
+        "q": "Which statement is correct about Solar energy, panels and cookers?",
         "options": ["Hydro power needs a dam and a large head of stored water.", "A photovoltaic cell produces DC from sunlight without moving parts.", "Nuclear fission of uranium-235 releases heat used to make steam."],
         "a": 1,
         "why": "A photovoltaic cell produces DC from sunlight without moving parts."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सौर ऊर्जा, पैनल और चूल्हा' से मेल खाता है?",
+        "q": "'सौर ऊर्जा, पैनल और चूल्हा' के बारे में कौन-सा कथन सही है?",
         "options": ["जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।", "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।", "यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।"],
         "a": 1,
         "why": "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।"
@@ -18953,12 +17422,6 @@
           "value": 6.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Solar energy, panels and cookers?",
-        "options": ["Hydro power needs a dam and a large head of stored water.", "A photovoltaic cell produces DC from sunlight without moving parts.", "Nuclear fission of uranium-235 releases heat used to make steam."],
-        "a": 1,
-        "why": "A photovoltaic cell produces DC from sunlight without moving parts."
       },
       "scene": {
         "type": "atlas",
@@ -18987,13 +17450,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Wind, hydro and tidal energy?",
+        "q": "Which statement is correct about Wind, hydro and tidal energy?",
         "options": ["Nuclear fission of uranium-235 releases heat used to make steam.", "Fossil fuels are finite and cause pollution on burning.", "Hydro power needs a dam and a large head of stored water."],
         "a": 2,
         "why": "Hydro power needs a dam and a large head of stored water."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'पवन, जल और ज्वारीय ऊर्जा' से मेल खाता है?",
+        "q": "'पवन, जल और ज्वारीय ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।", "जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।", "जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।"],
         "a": 2,
         "why": "जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।"
@@ -19014,12 +17477,6 @@
           "value": 6.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Wind, hydro and tidal energy?",
-        "options": ["Nuclear fission of uranium-235 releases heat used to make steam.", "Fossil fuels are finite and cause pollution on burning.", "Hydro power needs a dam and a large head of stored water."],
-        "a": 2,
-        "why": "Hydro power needs a dam and a large head of stored water."
       },
       "scene": {
         "type": "atlas",
@@ -19048,13 +17505,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Biomass, biogas and nuclear energy?",
+        "q": "Which statement is correct about Biomass, biogas and nuclear energy?",
         "options": ["Nuclear fission of uranium-235 releases heat used to make steam.", "Fossil fuels are finite and cause pollution on burning.", "A photovoltaic cell produces DC from sunlight without moving parts."],
         "a": 0,
         "why": "Nuclear fission of uranium-235 releases heat used to make steam."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जैवभार, बायोगैस और नाभिकीय ऊर्जा' से मेल खाता है?",
+        "q": "'जैवभार, बायोगैस और नाभिकीय ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।", "जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।", "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।"],
         "a": 0,
         "why": "यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।"
@@ -19075,12 +17532,6 @@
           "value": 6.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Biomass, biogas and nuclear energy?",
-        "options": ["Nuclear fission of uranium-235 releases heat used to make steam.", "Fossil fuels are finite and cause pollution on burning.", "A photovoltaic cell produces DC from sunlight without moving parts."],
-        "a": 0,
-        "why": "Nuclear fission of uranium-235 releases heat used to make steam."
       },
       "scene": {
         "type": "atlas",
@@ -19161,43 +17612,43 @@
         "desc": "Nuclear fission of uranium-235 releases heat used to make steam."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Conventional and non-conventional sources?",
+        "q": "Which statement is correct about Conventional and non-conventional sources?",
         "options": ["Fossil fuels are finite and cause pollution on burning.", "A photovoltaic cell produces DC from sunlight without moving parts.", "Hydro power needs a dam and a large head of stored water."],
         "a": 0,
         "why": "Fossil fuels are finite and cause pollution on burning."
       }, {
-        "q": "Which statement belongs to Solar energy, panels and cookers?",
+        "q": "Which statement is correct about Solar energy, panels and cookers?",
         "options": ["Hydro power needs a dam and a large head of stored water.", "A photovoltaic cell produces DC from sunlight without moving parts.", "Nuclear fission of uranium-235 releases heat used to make steam."],
         "a": 1,
         "why": "A photovoltaic cell produces DC from sunlight without moving parts."
       }, {
-        "q": "Which statement belongs to Wind, hydro and tidal energy?",
+        "q": "Which statement is correct about Wind, hydro and tidal energy?",
         "options": ["Nuclear fission of uranium-235 releases heat used to make steam.", "Fossil fuels are finite and cause pollution on burning.", "Hydro power needs a dam and a large head of stored water."],
         "a": 2,
         "why": "Hydro power needs a dam and a large head of stored water."
       }, {
-        "q": "Which statement belongs to Biomass, biogas and nuclear energy?",
+        "q": "Which statement is correct about Biomass, biogas and nuclear energy?",
         "options": ["Nuclear fission of uranium-235 releases heat used to make steam.", "Fossil fuels are finite and cause pollution on burning.", "A photovoltaic cell produces DC from sunlight without moving parts."],
         "a": 0,
         "why": "Nuclear fission of uranium-235 releases heat used to make steam."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'परंपरागत और अपरंपरागत स्रोत' से मेल खाता है?",
+        "q": "'परंपरागत और अपरंपरागत स्रोत' के बारे में कौन-सा कथन सही है?",
         "options": ["जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।", "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।", "जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।"],
         "a": 0,
         "why": "जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।"
       }, {
-        "q": "कौन-सा कथन 'सौर ऊर्जा, पैनल और चूल्हा' से मेल खाता है?",
+        "q": "'सौर ऊर्जा, पैनल और चूल्हा' के बारे में कौन-सा कथन सही है?",
         "options": ["जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।", "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।", "यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।"],
         "a": 1,
         "why": "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।"
       }, {
-        "q": "कौन-सा कथन 'पवन, जल और ज्वारीय ऊर्जा' से मेल खाता है?",
+        "q": "'पवन, जल और ज्वारीय ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।", "जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।", "जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।"],
         "a": 2,
         "why": "जलविद्युत हेतु बाँध और ऊँचाई पर संचित जल चाहिए।"
       }, {
-        "q": "कौन-सा कथन 'जैवभार, बायोगैस और नाभिकीय ऊर्जा' से मेल खाता है?",
+        "q": "'जैवभार, बायोगैस और नाभिकीय ऊर्जा' के बारे में कौन-सा कथन सही है?",
         "options": ["यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।", "जीवाश्म ईंधन सीमित हैं और जलाने पर प्रदूषण करते हैं।", "प्रकाश-वोल्टीय सेल बिना गतिशील भाग के धूप से DC देता है।"],
         "a": 0,
         "why": "यूरेनियम-235 के विखंडन से ऊष्मा मिलकर भाप बनती है।"
@@ -19219,13 +17670,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Why manage resources sustainably?",
+        "q": "Which statement is correct about Why manage resources sustainably?",
         "options": ["Equitable distribution is part of sustainable management.", "Chipko-style local participation reduces destructive logging.", "Ancient Indian tanks and stepwells are local water-harvesting designs."],
         "a": 0,
         "why": "Equitable distribution is part of sustainable management."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'सतत प्रबंधन क्यों' से मेल खाता है?",
+        "q": "'सतत प्रबंधन क्यों' के बारे में कौन-सा कथन सही है?",
         "options": ["समान वितरण सतत प्रबंधन का हिस्सा है।", "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।", "प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।"],
         "a": 0,
         "why": "समान वितरण सतत प्रबंधन का हिस्सा है।"
@@ -19246,12 +17697,6 @@
           "value": 3.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Why manage resources sustainably?",
-        "options": ["Equitable distribution is part of sustainable management.", "Chipko-style local participation reduces destructive logging.", "Ancient Indian tanks and stepwells are local water-harvesting designs."],
-        "a": 0,
-        "why": "Equitable distribution is part of sustainable management."
       },
       "scene": {
         "type": "atlas",
@@ -19280,13 +17725,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Forest and wildlife conservation?",
+        "q": "Which statement is correct about Forest and wildlife conservation?",
         "options": ["Ancient Indian tanks and stepwells are local water-harvesting designs.", "Chipko-style local participation reduces destructive logging.", "Reusing an article usually saves more energy than recycling it."],
         "a": 1,
         "why": "Chipko-style local participation reduces destructive logging."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'वन और वन्यजीव संरक्षण' से मेल खाता है?",
+        "q": "'वन और वन्यजीव संरक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।", "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।", "किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।"],
         "a": 1,
         "why": "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।"
@@ -19307,12 +17752,6 @@
           "value": 3.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Forest and wildlife conservation?",
-        "options": ["Ancient Indian tanks and stepwells are local water-harvesting designs.", "Chipko-style local participation reduces destructive logging.", "Reusing an article usually saves more energy than recycling it."],
-        "a": 1,
-        "why": "Chipko-style local participation reduces destructive logging."
       },
       "scene": {
         "type": "atlas",
@@ -19341,13 +17780,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Water harvesting and watershed management?",
+        "q": "Which statement is correct about Water harvesting and watershed management?",
         "options": ["Reusing an article usually saves more energy than recycling it.", "Equitable distribution is part of sustainable management.", "Ancient Indian tanks and stepwells are local water-harvesting designs."],
         "a": 2,
         "why": "Ancient Indian tanks and stepwells are local water-harvesting designs."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'जल संचयन और जलग्रहण प्रबंधन' से मेल खाता है?",
+        "q": "'जल संचयन और जलग्रहण प्रबंधन' के बारे में कौन-सा कथन सही है?",
         "options": ["किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।", "समान वितरण सतत प्रबंधन का हिस्सा है।", "प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।"],
         "a": 2,
         "why": "प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।"
@@ -19368,12 +17807,6 @@
           "value": 3.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Water harvesting and watershed management?",
-        "options": ["Reusing an article usually saves more energy than recycling it.", "Equitable distribution is part of sustainable management.", "Ancient Indian tanks and stepwells are local water-harvesting designs."],
-        "a": 2,
-        "why": "Ancient Indian tanks and stepwells are local water-harvesting designs."
       },
       "scene": {
         "type": "atlas",
@@ -19402,13 +17835,13 @@
         "note": "संदर्भ हेतु सुरक्षित"
       },
       "predict": {
-        "q": "Which statement belongs to Coal, petroleum and the 3Rs?",
+        "q": "Which statement is correct about Coal, petroleum and the 3Rs?",
         "options": ["Reusing an article usually saves more energy than recycling it.", "Equitable distribution is part of sustainable management.", "Chipko-style local participation reduces destructive logging."],
         "a": 0,
         "why": "Reusing an article usually saves more energy than recycling it."
       },
       "predictHi": {
-        "q": "कौन-सा कथन 'कोयला, पेट्रोलियम और तीन R' से मेल खाता है?",
+        "q": "'कोयला, पेट्रोलियम और तीन R' के बारे में कौन-सा कथन सही है?",
         "options": ["किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।", "समान वितरण सतत प्रबंधन का हिस्सा है।", "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।"],
         "a": 0,
         "why": "किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।"
@@ -19429,12 +17862,6 @@
           "value": 3.7,
           "op": "gte"
         }
-      },
-      "quiz": {
-        "q": "Which statement belongs to Coal, petroleum and the 3Rs?",
-        "options": ["Reusing an article usually saves more energy than recycling it.", "Equitable distribution is part of sustainable management.", "Chipko-style local participation reduces destructive logging."],
-        "a": 0,
-        "why": "Reusing an article usually saves more energy than recycling it."
       },
       "scene": {
         "type": "atlas",
@@ -19515,43 +17942,43 @@
         "desc": "Reusing an article usually saves more energy than recycling it."
       }],
       "quiz": [{
-        "q": "Which statement belongs to Why manage resources sustainably?",
+        "q": "Which statement is correct about Why manage resources sustainably?",
         "options": ["Equitable distribution is part of sustainable management.", "Chipko-style local participation reduces destructive logging.", "Ancient Indian tanks and stepwells are local water-harvesting designs."],
         "a": 0,
         "why": "Equitable distribution is part of sustainable management."
       }, {
-        "q": "Which statement belongs to Forest and wildlife conservation?",
+        "q": "Which statement is correct about Forest and wildlife conservation?",
         "options": ["Ancient Indian tanks and stepwells are local water-harvesting designs.", "Chipko-style local participation reduces destructive logging.", "Reusing an article usually saves more energy than recycling it."],
         "a": 1,
         "why": "Chipko-style local participation reduces destructive logging."
       }, {
-        "q": "Which statement belongs to Water harvesting and watershed management?",
+        "q": "Which statement is correct about Water harvesting and watershed management?",
         "options": ["Reusing an article usually saves more energy than recycling it.", "Equitable distribution is part of sustainable management.", "Ancient Indian tanks and stepwells are local water-harvesting designs."],
         "a": 2,
         "why": "Ancient Indian tanks and stepwells are local water-harvesting designs."
       }, {
-        "q": "Which statement belongs to Coal, petroleum and the 3Rs?",
+        "q": "Which statement is correct about Coal, petroleum and the 3Rs?",
         "options": ["Reusing an article usually saves more energy than recycling it.", "Equitable distribution is part of sustainable management.", "Chipko-style local participation reduces destructive logging."],
         "a": 0,
         "why": "Reusing an article usually saves more energy than recycling it."
       }],
       "quizHi": [{
-        "q": "कौन-सा कथन 'सतत प्रबंधन क्यों' से मेल खाता है?",
+        "q": "'सतत प्रबंधन क्यों' के बारे में कौन-सा कथन सही है?",
         "options": ["समान वितरण सतत प्रबंधन का हिस्सा है।", "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।", "प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।"],
         "a": 0,
         "why": "समान वितरण सतत प्रबंधन का हिस्सा है।"
       }, {
-        "q": "कौन-सा कथन 'वन और वन्यजीव संरक्षण' से मेल खाता है?",
+        "q": "'वन और वन्यजीव संरक्षण' के बारे में कौन-सा कथन सही है?",
         "options": ["प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।", "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।", "किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।"],
         "a": 1,
         "why": "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।"
       }, {
-        "q": "कौन-सा कथन 'जल संचयन और जलग्रहण प्रबंधन' से मेल खाता है?",
+        "q": "'जल संचयन और जलग्रहण प्रबंधन' के बारे में कौन-सा कथन सही है?",
         "options": ["किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।", "समान वितरण सतत प्रबंधन का हिस्सा है।", "प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।"],
         "a": 2,
         "why": "प्राचीन भारतीय टैंक और बावड़ियाँ स्थानीय जल संचयन रचनाएँ हैं।"
       }, {
-        "q": "कौन-सा कथन 'कोयला, पेट्रोलियम और तीन R' से मेल खाता है?",
+        "q": "'कोयला, पेट्रोलियम और तीन R' के बारे में कौन-सा कथन सही है?",
         "options": ["किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।", "समान वितरण सतत प्रबंधन का हिस्सा है।", "स्थानीय भागीदारी से वनों की अंधाधुंध कटाई घटती है।"],
         "a": 0,
         "why": "किसी वस्तु का पुनः उपयोग प्रायः पुनर्चक्रण से अधिक ऊर्जा बचाता है।"

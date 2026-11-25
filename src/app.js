@@ -287,9 +287,10 @@ function renderLesson() {
   }).join("");
   const eqHtml = sp.formula ? ((typeof SCIVERSE !== "undefined" && SCIVERSE.formatFormulaHtml) ? SCIVERSE.formatFormulaHtml(sp.formula.eq) : esc(sp.formula.eq)) : "";
   const formula = sp.formula ? `<div class="lc-formula"><span>${esc(sp.formula.label)}</span><strong>${eqHtml}</strong>${sp.formula.note ? `<small>${esc(sp.formula.note)}</small>` : ""}</div>` : "";
-  const vocab = VOC(sp).length ? `<div class="lc-vocab">${VOC(sp).slice(0, 4).map(v => `<div><b>${esc(v[0])}</b> — ${esc(v[1])}</div>`).join("")}</div>` : "";
   const rawV = sp.vocab || [], rawVHi = sp.vocabHi || [];
-  const terms = VOC(sp).slice(0, 3).map((v, i) => `<span title="${esc(v[1])}"><b>${EV.lang === "both" && rawVHi.length ? BX(rawV[i] && rawV[i][0], rawVHi[i] && rawVHi[i][0]) : esc(v[0])}</b></span>`).join(" · ");
+  /* Key terms list words only. build_chapters.py used to copy concept[:58] as
+     if it were a definition; a clipped sentence is noise, not a definition. */
+  const terms = VOC(sp).slice(0, 3).map((v, i) => `<span><b>${EV.lang === "both" && rawVHi.length ? BX(rawV[i] && rawV[i][0], rawVHi[i] && rawVHi[i][0]) : esc(v[0])}</b></span>`).join(" · ");
   html($("lessonCard"), `
     <div class="lc-head"><span>${esc(sp.section)} · ${esc(t("predict"))}</span>
       <span><button class="btn ghost tiny" id="btnNarrate" title="${esc(t("narrate"))}" data-i18n-title="narrate" data-i18n-aria="narrate">◖</button>
@@ -323,10 +324,10 @@ function renderLesson() {
     pg.locked = true; EVFSM.observe("prediction", "locked", "app.js:lockPredict", pkey(w, sp));
     saveProgress(); renderLesson(); renderMeters();
     toastKey(pg.answer === P(sp).a ? "toast.good" : "toast.locked",
-      pg.answer === P(sp).a ? "Good prediction! Now verify it on the model." : "Prediction locked — now test it on the model.", "ok");
+      pg.answer === P(sp).a ? "Correct answer. Now read the explanation." : "Answer recorded. Now read the explanation.", "ok");
   };
   $("flap").onclick = () => {
-    if (!pg.locked) { toastKey("toast.lockFirst", "Lock your prediction before lifting the flap", "warn"); return; }
+    if (!pg.locked) { toastKey("toast.lockFirst", "Answer the question first, then open the explanation", "warn"); return; }
     const fr = EVFSM.transition("prediction", "FLAP", { locked: pg.locked }, pkey(w, sp));
     if (EVFSM.strict() && !fr.ok) { toast(fr.reason, "warn"); return; }
     pg.flap = !pg.flap; EVFSM.observe("prediction", predictionState(pg), "app.js:flap", pkey(w, sp));
@@ -1921,7 +1922,7 @@ function renderPageBar() {
       <button class="btn ghost tiny sv-page-flip-btn" id="btnPageFlipbook" type="button" title="${esc(uiTxt("sv.flipbookSub"))}" data-i18n="sv.flipbookBtn">${esc(uiTxt("sv.flipbookBtn"))}</button>
       ${EVRASTER.has(w,w.spreads[idx]) ? `<button class="btn ghost tiny ${EVRASTER.enabled ? 'active' : ''}" id="btnAIDraft" type="button" aria-pressed="${EVRASTER.enabled}" data-i18n="draft.button" data-i18n-title="draft.toggle" data-i18n-aria="draft.toggle">${esc(uiTxt("draft.button"))}</button>` : ''}
       <button class="btn ghost tiny" id="btnZoomFigure" type="button" title="${esc(uiTxt("zoom.open"))}" data-i18n-title="zoom.open" data-i18n-aria="zoom.open" data-i18n="zoom.short">${esc(uiTxt("zoom.short"))}</button>
-      <button class="btn ghost tiny ${EV.panels.left ? "active" : ""}" data-panel="left" title="${esc(t("panelLeft"))}" data-i18n-title="panelLeft" data-i18n-aria="panelLeft">◧ ${esc(BI("Predict", "अनुमान"))}</button>
+      <button class="btn ghost tiny ${EV.panels.left ? "active" : ""}" data-panel="left" title="${esc(t("panelLeft"))}" data-i18n-title="panelLeft" data-i18n-aria="panelLeft">◧ ${esc(BI("Question", "प्रश्न"))}</button>
       <button class="btn ghost tiny ${EV.panels.right ? "active" : ""}" data-panel="right" title="${esc(t("panelRight"))}" data-i18n-title="panelRight" data-i18n-aria="panelRight">◨ ${esc(BI("Controls", "प्रयोग"))}</button>
       <button class="btn ghost tiny ${(!EV.panels.left && !EV.panels.right) ? "active" : ""}" data-panel="both" title="${esc(t("reader"))}" data-i18n-title="reader" data-i18n-aria="reader">⤢ ${esc(BI("Full Book", "पूरी किताब"))}</button>
     </div>`);

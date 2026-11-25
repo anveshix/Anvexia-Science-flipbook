@@ -31,6 +31,12 @@ async function state(page) {
       counter: document.querySelector('#svFlipCounter').textContent.split(' · ')[0],
       sec: visible?.querySelector('.svf-sec')?.textContent.trim() || '',
       scroll: !!visible?.querySelector('.svf-page-inner.svf-scrollable'),
+      /* "fits" = the page reached its minimum font scale without losing a line,
+         so it legitimately needs no scroll region. */
+      fits: (() => {
+        const inner = visible?.querySelector('.svf-page-inner');
+        return !!inner && inner.scrollHeight <= inner.clientHeight + 1 && inner.scrollWidth <= inner.clientWidth + 1;
+      })(),
       corners: visible ? visible.querySelectorAll('.svf-corner').length : 0
     };
   });
@@ -87,7 +93,7 @@ async function bookRect(page) {
       page.on('pageerror', e => errors.push(e.message));
       await openChapter(page);
       const start = await state(page);
-      assert.ok(start.scroll, 'expected a scrollable page at 1024x600');
+      assert.ok(start.scroll || start.fits, 'expected a scrollable or fully fitted page at 1024x600');
       assert.equal(start.corners, 4, 'scrollable page lost its corner targets');
       const b = await bookRect(page);
       await page.mouse.click(b.x + b.w - 30, b.y + b.h - 30);

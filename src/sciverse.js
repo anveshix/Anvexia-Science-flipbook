@@ -366,7 +366,7 @@ const SCIVERSE = (function () {
           <p class="svf-cover-tag">${esc(BI("Science, brought to life.", "विज्ञान को जीवंत देखिए।"))}</p>
           <div class="svf-cover-pills">
             <span>${w.spreads.length} ${esc(BI("Illustrated Spreads", "सचित्र स्प्रेड"))}</span>
-            <span>★ ${stamps}/${w.spreads.length} ${esc(BI("Stamped", "पूर्ण"))}</span>
+            <span>${esc(BI("Completed", "पूर्ण"))} ${stamps}/${w.spreads.length}</span>
           </div>
           <div class="svf-cover-foot">${esc(BI("Peel corner or click Next → to open flipbook", "पन्ना पलटने के लिए कोना खींचें या आगे दबाएँ →"))}</div>
         </div>
@@ -382,7 +382,7 @@ const SCIVERSE = (function () {
           <div class="svf-phead"><span>${esc(BI("Chapter overview", "अध्याय परिचय"))}</span><span>${esc(subjLabel)}</span></div>
           ${heroSrc ? `<figure class="svf-hero"><img src="${heroSrc}" alt="${esc(BI(w.title, w.titleHi))}" decoding="async" draggable="false"></figure>` : ""}
           <h3 class="svf-title">${EV.lang === "both" ? BX(w.title, w.titleHi) : esc(BI(w.title, w.titleHi))}</h3>
-          <p class="svf-concept">${esc(BI("Each spread pairs one NCERT section (left) with its illustrated 2D plate (right). Tap labels on a plate for bilingual notes, predict, then turn the page.", "हर स्प्रेड में बाईं ओर NCERT खंड और दाईं ओर उसका 2D चित्र है। द्विभाषी नोट्स के लिए लेबल दबाएँ, अनुमान लगाएँ, फिर पन्ना पलटें।"))}</p>
+          <p class="svf-concept">${esc(BI("Each spread pairs one NCERT section (left) with its illustrated plate (right). Tap labels on the plate for bilingual notes, answer the question in the check strip, then turn the page.", "हर स्प्रेड में बाईं ओर NCERT खंड और दाईं ओर उसका चित्र है। द्विभाषी नोट्स के लिए लेबल दबाएँ, नीचे दिए प्रश्न का उत्तर दें, फिर पन्ना पलटें।"))}</p>
           <div class="svf-pnum">2</div>
         </div>
       </div>`;
@@ -435,7 +435,7 @@ const SCIVERSE = (function () {
           <p class="svf-concept">${EV.lang === "both" ? BX(sp.concept, sp.conceptHi) : esc(BI(sp.concept, sp.conceptHi))}</p>
           ${formulaHtml}
           <div class="svf-predict" data-svf-predict="${i}">
-            <div class="svf-pq"><span class="svf-pq-tag">${esc(t("predict"))}</span>${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
+            <div class="svf-pq"><span class="svf-pq-tag">${esc(t("checkTag"))}</span>${EV.lang === "both" && rawHi ? BX(raw.q, rawHi.q) : esc(pr.q)}</div>
             <div class="svf-popts">${optsHtml}</div>
             ${pg.locked ? `<div class="svf-explain">${EV.lang === "both" ? BX(sp.explain, sp.explainHi) : esc(BI(sp.explain, sp.explainHi))}</div>` : ""}
           </div>
@@ -473,11 +473,11 @@ const SCIVERSE = (function () {
     pages += `
       <div class="svf-page svf-cover svf-back svf-hard" data-density="hard">
         <div class="svf-cover-inner">
-          <div class="svf-cover-kicker">ANVEXIA · CHAPTER COMPLETE</div>
-          <h2 class="svf-cover-title">${esc(BI("Ready to Test Your Mastery?", "अपनी समझ जाँचने के लिए तैयार?"))}</h2>
-          <p class="svf-cover-tag">★ ${stamps} / ${w.spreads.length} ${esc(BI("Discovery Stamps Earned", "डिस्कवरी स्टैम्प अर्जित"))}</p>
+          <div class="svf-cover-kicker">ANVEXIA · END OF CHAPTER</div>
+          <h2 class="svf-cover-title">${esc(BI("Chapter Questions", "अध्याय के प्रश्न"))}</h2>
+          <p class="svf-cover-tag">${esc(BI("Sections completed", "पूर्ण खंड"))} · ${stamps} / ${w.spreads.length}</p>
           <div class="svf-back-actions svf-interactive">
-            <button type="button" class="btn primary" id="svfStartQuiz">${esc(BI("Take Chapter Quiz →", "अध्याय प्रश्नोत्तरी दें →"))}</button>
+            <button type="button" class="btn primary" id="svfStartQuiz">${esc(BI("Answer Chapter Questions →", "अध्याय के प्रश्न हल करें →"))}</button>
           </div>
         </div>
       </div>`;
@@ -539,8 +539,8 @@ const SCIVERSE = (function () {
           fitLive(box.closest(".svf-page"));
         }
         if (ok) celebrate("stamp");
-        toast(ok ? BI("Correct prediction! Study the plate to confirm why.", "सही अनुमान! कारण समझने के लिए चित्र देखें।")
-                 : BI("Prediction locked — read the explanation below.", "अनुमान दर्ज — नीचे स्पष्टीकरण पढ़ें।"), "ok");
+        toast(ok ? BI("Correct answer. Study the figure to confirm why.", "सही उत्तर। कारण समझने के लिए चित्र देखें।")
+                 : BI("Answer recorded — read the explanation below.", "उत्तर दर्ज — नीचे व्याख्या पढ़ें।"), "ok");
       };
     });
 
@@ -1008,7 +1008,7 @@ Refraction at Spherical Surfaces and Lensmaker's Formula: Thin lenses obey 1/f =
       <div class="sv-higher-compiler-cta">
         <div>
           <strong>⚙ ${esc(BI("Paste Any Class XI or XII NCERT Chapter", "कोई भी कक्षा XI या XII का अध्याय पेस्ट करें"))}</strong>
-          <small>${esc(BI("Deterministic offline compiler builds interactive 3D spreads, predictions & quizzes.", "ऑफ़लाइन कंपाइलर तुरंत 3D स्प्रेड, अनुमान और प्रश्नोत्तरी बनाता है।"))}</small>
+          <small>${esc(BI("Deterministic offline compiler builds illustrated spreads, questions & quizzes.", "ऑफ़लाइन कंपाइलर तुरंत सचित्र स्प्रेड, प्रश्न और प्रश्नोत्तरी बनाता है।"))}</small>
         </div>
         <button type="button" class="btn primary small" id="svOpenCompilerXI">${esc(BI("Open XI–XII Compiler →", "XI–XII कंपाइलर खोलें →"))}</button>
       </div>`;
