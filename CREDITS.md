@@ -20,6 +20,7 @@ Shared single-copy WebP plates (`1408×768`) covering **266 / 266** NCERT Class 
 - 193 plates imported from `anveshix/ifinite-horizon` (`main`) by `tools/import_realistic_plates.py`.
 - 73 bespoke 3D & studio plates authored in-repo (`tools/plates_73/`).
 - 12 additional AI-generated local drafts (`rx/local_*`), with mappings and bilingual hotspots in `src/local_illustrations.json`.
+- 10 Class IX chapter plates (`rx/c9_cell_2_1_hooke_microscope.webp`, `rx/c9_cell_2_2_plant_animal_cell.webp`, `rx/c9_cell_2_3_prokaryote_eukaryote.webp`, `rx/c9_cell_2_4_plasma_membrane.webp`, `rx/c9_cell_2_5_cell_wall_vacuole.webp`, `rx/c9_cell_2_6_nucleus_chromosomes.webp`, `rx/c9_cell_2_7_mitochondria_chloroplast.webp`, `rx/c9_cell_2_8_er_golgi_lysosome.webp`, `rx/c9_cell_2_9_cell_division.webp`, `rx/c9_cell_2_10_biomolecules.webp`) — original AI illustrations authored in-repo for the Class IX chapter upgrade, with bilingual anchored hotspots in `src/realistic_plates.json`.
 Illustrative teaching images, not to scale and not micrographs. The local drafts and their labels await scientific and language review.
 
 These anatomy renders are adapted from BodyParts3D and Z-Anatomy and are shared under **CC BY-SA 4.0**:

@@ -533,8 +533,8 @@
       "title": "Discovery of the cell",
       "titleHi": "कोशिका की खोज",
       "short": "Discovery of the cell",
-      "concept": "Robert Hooke saw box-like spaces in cork in 1665 and named them cells; Leeuwenhoek later saw living cells.",
-      "conceptHi": "रॉबर्ट हुक ने 1665 में बाक़ में खानों जैसी संरचना देखी और उन्हें कोशिका कहा, ल्यूवेनहॉक ने जीवित कोशिकाएँ देखीं।",
+      "concept": "Robert Hooke built his own microscope and in 1665 saw box-like compartments in a thin cork slice. He named them cells.",
+      "conceptHi": "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन में बक्से जैसी खानें देखीं और उन्हें कोशिका कहा।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -542,20 +542,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Discovery of the cell?",
-        "options": ["Hooke coined the term cell while observing dead cork tissue.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
+        "options": ["Hooke coined the term cell after observing dead cork tissue.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 0,
-        "why": "Hooke coined the term cell while observing dead cork tissue."
+        "why": "Hooke coined the term cell after observing dead cork tissue."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कोशिका की खोज' से मेल खाता है?",
-        "options": ["हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
+        "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 0,
-        "why": "हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।"
+        "why": "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"
       },
-      "explain": "Hooke coined the term cell while observing dead cork tissue.",
-      "explainHi": "हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।",
-      "vocab": [["Cell", "Robert Hooke saw box-like spaces in cork in 1665 and named"], ["Nucleus", "Robert Hooke saw box-like spaces in cork in 1665 and named"], ["Membrane", "Robert Hooke saw box-like spaces in cork in 1665 and named"]],
-      "vocabHi": [["कोशिका", "रॉबर्ट हुक ने 1665 में बाक़ में खानों जैसी संरचना देखी और "], ["केन्द्रक", "रॉबर्ट हुक ने 1665 में बाक़ में खानों जैसी संरचना देखी और "], ["झिल्ली", "रॉबर्ट हुक ने 1665 में बाक़ में खानों जैसी संरचना देखी और "]],
+      "explain": "Hooke coined the term cell after observing dead cork tissue.",
+      "explainHi": "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।",
+      "vocab": [["Cell", "Robert Hooke built his own microscope and in 1665 saw box-"], ["Nucleus", "Robert Hooke built his own microscope and in 1665 saw box-"], ["Membrane", "Robert Hooke built his own microscope and in 1665 saw box-"]],
+      "vocabHi": [["कोशिका", "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन म"], ["केन्द्रक", "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन म"], ["झिल्ली", "रॉबर्ट हुक ने 1665 में अपने सूक्ष्मदर्शी से बाक़ की कतरन म"]],
       "fig": "3D flow · Discovery of the cell · Cork → Lens → Boxes → Cell name",
       "figHi": "3D flow चित्र · कोशिका की खोज · Cork / Lens / Boxes",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -571,9 +571,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Discovery of the cell?",
-        "options": ["Hooke coined the term cell while observing dead cork tissue.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
+        "options": ["Hooke coined the term cell after observing dead cork tissue.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 0,
-        "why": "Hooke coined the term cell while observing dead cork tissue."
+        "why": "Hooke coined the term cell after observing dead cork tissue."
       },
       "scene": {
         "type": "atlas",
@@ -594,8 +594,8 @@
       "title": "Plant cell and animal cell",
       "titleHi": "पादप कोशिका और जन्तु कोशिका",
       "short": "Plant cell and animal ",
-      "concept": "Plant cells have a cell wall, chloroplasts and a large vacuole; animal cells lack these but have centrioles.",
-      "conceptHi": "पादप कोशिका में कोशिका भित्ति, हरितलवक और बड़ी रिक्तिका होती है, जन्तु कोशिका में ये नहीं होते।",
+      "concept": "Onion peel cells are box-shaped and regularly arranged, cheek cells are irregular. Plant cells keep a wall, chloroplasts and a large vacuole.",
+      "conceptHi": "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अनियमित। पादप कोशिका में भित्ति और हरितलवक होते हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -603,20 +603,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Plant cell and animal cell?",
-        "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell.", "Selective permeability lets the cell control what enters and leaves."],
+        "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "Osmosis is the diffusion of water across a selectively permeable membrane."],
         "a": 1,
-        "why": "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell."
+        "why": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'पादप कोशिका और जन्तु कोशिका' से मेल खाता है?",
-        "options": ["केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।", "चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।"],
+        "options": ["केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"],
         "a": 1,
-        "why": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।"
+        "why": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"
       },
-      "explain": "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell.",
-      "explainHi": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।",
-      "vocab": [["Nucleus", "Plant cells have a cell wall, chloroplasts and a large vac"], ["Membrane", "Plant cells have a cell wall, chloroplasts and a large vac"], ["Organelle", "Plant cells have a cell wall, chloroplasts and a large vac"]],
-      "vocabHi": [["केन्द्रक", "पादप कोशिका में कोशिका भित्ति, हरितलवक और बड़ी रिक्तिका हो"], ["झिल्ली", "पादप कोशिका में कोशिका भित्ति, हरितलवक और बड़ी रिक्तिका हो"], ["अंगक", "पादप कोशिका में कोशिका भित्ति, हरितलवक और बड़ी रिक्तिका हो"]],
+      "explain": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.",
+      "explainHi": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।",
+      "vocab": [["Nucleus", "Onion peel cells are box-shaped and regularly arranged, ch"], ["Membrane", "Onion peel cells are box-shaped and regularly arranged, ch"], ["Organelle", "Onion peel cells are box-shaped and regularly arranged, ch"]],
+      "vocabHi": [["केन्द्रक", "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अ"], ["झिल्ली", "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अ"], ["अंगक", "प्याज़ की कोशिकाएँ बक्से जैसी और नियमित होती हैं, गाल की अ"]],
       "fig": "3D cell · Plant cell and animal cell · Wall → Membrane → Nucleus → Chloroplast",
       "figHi": "3D cell चित्र · पादप कोशिका और जन्तु कोशिका · Wall / Membrane / Nucleus",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -632,9 +632,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Plant cell and animal cell?",
-        "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell.", "Selective permeability lets the cell control what enters and leaves."],
+        "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "Osmosis is the diffusion of water across a selectively permeable membrane."],
         "a": 1,
-        "why": "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell."
+        "why": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."
       },
       "scene": {
         "type": "atlas",
@@ -655,8 +655,8 @@
       "title": "Prokaryotic and eukaryotic cells",
       "titleHi": "प्रोकैरियोटी और यूकैरियोटी कोशिका",
       "short": "Prokaryotic and eukary",
-      "concept": "Prokaryotes have no nuclear membrane and no membrane-bound organelles; eukaryotes have both.",
-      "conceptHi": "प्रोकैरियोटी में केन्द्रक झिल्ली और झिल्ली-बद्ध अंगक नहीं होते, यूकैरियोटी में दोनों होते हैं।",
+      "concept": "A bacterial cell has no membrane-bound nucleus and its DNA lies in the nucleoid. Plant and animal cells keep a true nucleus and organelles.",
+      "conceptHi": "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड में। पादप और जनतु कोशिका में सच्चा केन्द्रक होता है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -664,20 +664,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Prokaryotic and eukaryotic cells?",
-        "options": ["Selective permeability lets the cell control what enters and leaves.", "A plant cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
+        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 2,
         "why": "A true nucleus with a nuclear membrane defines a eukaryotic cell."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'प्रोकैरियोटी और यूकैरियोटी कोशिका' से मेल खाता है?",
-        "options": ["चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।", "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
+        "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 2,
         "why": "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"
       },
       "explain": "A true nucleus with a nuclear membrane defines a eukaryotic cell.",
       "explainHi": "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।",
-      "vocab": [["Membrane", "Prokaryotes have no nuclear membrane and no membrane-bound"], ["Organelle", "Prokaryotes have no nuclear membrane and no membrane-bound"], ["Osmosis", "Prokaryotes have no nuclear membrane and no membrane-bound"]],
-      "vocabHi": [["झिल्ली", "प्रोकैरियोटी में केन्द्रक झिल्ली और झिल्ली-बद्ध अंगक नहीं "], ["अंगक", "प्रोकैरियोटी में केन्द्रक झिल्ली और झिल्ली-बद्ध अंगक नहीं "], ["परासरण", "प्रोकैरियोटी में केन्द्रक झिल्ली और झिल्ली-बद्ध अंगक नहीं "]],
+      "vocab": [["Membrane", "A bacterial cell has no membrane-bound nucleus and its DNA"], ["Organelle", "A bacterial cell has no membrane-bound nucleus and its DNA"], ["Osmosis", "A bacterial cell has no membrane-bound nucleus and its DNA"]],
+      "vocabHi": [["झिल्ली", "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड"], ["अंगक", "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड"], ["परासरण", "जीवाणु में झिल्ली-बद्ध केन्द्रक नहीं, उसका DNA न्यूक्लिऑइड"]],
       "fig": "3D tree · Prokaryotic and eukaryotic cells · Cell → Prokaryote → Eukaryote → Nucleus",
       "figHi": "3D tree चित्र · प्रोकैरियोटी और यूकैरियोटी कोशिका · Cell / Prokaryote / Eukaryote",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -693,7 +693,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Prokaryotic and eukaryotic cells?",
-        "options": ["Selective permeability lets the cell control what enters and leaves.", "A plant cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
+        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 2,
         "why": "A true nucleus with a nuclear membrane defines a eukaryotic cell."
       },
@@ -716,8 +716,8 @@
       "title": "Plasma membrane and permeability",
       "titleHi": "जीवद्रव्य झिल्ली और पारगम्यता",
       "short": "Plasma membrane and pe",
-      "concept": "The plasma membrane is selectively permeable; diffusion and osmosis move substances across it.",
-      "conceptHi": "जीवद्रव्य झिल्ली चयनात्मक पारगम्य है, विसरण और परासरण से पदार्थ इसके आर-पार जाते हैं।",
+      "concept": "The plasma membrane is 7-10 nm thick, a fluid mosaic of lipid and protein. Water crosses it by osmosis, while salt and sugar are held back.",
+      "conceptHi": "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मोज़ेक। जल परासरण से निकलता है, लवण रुक जाता है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -725,20 +725,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Plasma membrane and permeability?",
-        "options": ["Selective permeability lets the cell control what enters and leaves.", "A plant cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
+        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 0,
-        "why": "Selective permeability lets the cell control what enters and leaves."
+        "why": "Osmosis is the diffusion of water across a selectively permeable membrane."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'जीवद्रव्य झिल्ली और पारगम्यता' से मेल खाता है?",
-        "options": ["चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।", "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
+        "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 0,
-        "why": "चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।"
+        "why": "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"
       },
-      "explain": "Selective permeability lets the cell control what enters and leaves.",
-      "explainHi": "चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।",
-      "vocab": [["Organelle", "The plasma membrane is selectively permeable; diffusion an"], ["Osmosis", "The plasma membrane is selectively permeable; diffusion an"], ["Mitochondrion", "The plasma membrane is selectively permeable; diffusion an"]],
-      "vocabHi": [["अंगक", "जीवद्रव्य झिल्ली चयनात्मक पारगम्य है, विसरण और परासरण से प"], ["परासरण", "जीवद्रव्य झिल्ली चयनात्मक पारगम्य है, विसरण और परासरण से प"], ["माइटोकॉन्ड्रिया", "जीवद्रव्य झिल्ली चयनात्मक पारगम्य है, विसरण और परासरण से प"]],
+      "explain": "Osmosis is the diffusion of water across a selectively permeable membrane.",
+      "explainHi": "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।",
+      "vocab": [["Organelle", "The plasma membrane is 7-10 nm thick, a fluid mosaic of li"], ["Osmosis", "The plasma membrane is 7-10 nm thick, a fluid mosaic of li"], ["Mitochondrion", "The plasma membrane is 7-10 nm thick, a fluid mosaic of li"]],
+      "vocabHi": [["अंगक", "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मो"], ["परासरण", "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मो"], ["माइटोकॉन्ड्रिया", "जीवद्रव्य झिल्ली 7-10 nm मोटी है, वसा और प्रोटीन का तरल मो"]],
       "fig": "3D layers · Plasma membrane and permeability · Outside → Lipid bilayer → Channel → Inside",
       "figHi": "3D layers चित्र · जीवद्रव्य झिल्ली और पारगम्यता · Outside / Lipid bilayer / Channel",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -754,9 +754,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Plasma membrane and permeability?",
-        "options": ["Selective permeability lets the cell control what enters and leaves.", "A plant cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
+        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 0,
-        "why": "Selective permeability lets the cell control what enters and leaves."
+        "why": "Osmosis is the diffusion of water across a selectively permeable membrane."
       },
       "scene": {
         "type": "atlas",
@@ -777,8 +777,8 @@
       "title": "Cell wall and vacuoles",
       "titleHi": "कोशिका भित्ति और रिक्तिका",
       "short": "Cell wall and vacuoles",
-      "concept": "The cellulose cell wall gives shape and protection; vacuoles store water, salts and waste.",
-      "conceptHi": "सेलुलोज की कोशिका भित्ति आकार और सुरक्षा देती है, रिक्तिका जल, लवण और अपशिष्ट संग्रह करती है।",
+      "concept": "Plant cells have a cellulose wall outside the membrane. It is rigid but permeable, so roots still absorb water and leaves stay firm in wind.",
+      "conceptHi": "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारगम्य है, इसलिए जड़ें जल ले पाती हैं और पत्तियाँ तनी रहती हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -786,20 +786,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Cell wall and vacuoles?",
-        "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "A plant cell wall is freely permeable and made mainly of cellulose.", "Mitochondria are the powerhouses of the cell and chloroplasts its solar panels."],
+        "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "The cell wall is freely permeable and made mainly of cellulose.", "Mitochondria release energy by respiration and store it as ATP."],
         "a": 1,
-        "why": "A plant cell wall is freely permeable and made mainly of cellulose."
+        "why": "The cell wall is freely permeable and made mainly of cellulose."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कोशिका भित्ति और रिक्तिका' से मेल खाता है?",
-        "options": ["केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।", "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।", "माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।"],
+        "options": ["केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"],
         "a": 1,
-        "why": "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।"
+        "why": "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।"
       },
-      "explain": "A plant cell wall is freely permeable and made mainly of cellulose.",
-      "explainHi": "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।",
-      "vocab": [["Osmosis", "The cellulose cell wall gives shape and protection; vacuol"], ["Mitochondrion", "The cellulose cell wall gives shape and protection; vacuol"], ["Cell", "The cellulose cell wall gives shape and protection; vacuol"]],
-      "vocabHi": [["परासरण", "सेलुलोज की कोशिका भित्ति आकार और सुरक्षा देती है, रिक्तिका"], ["माइटोकॉन्ड्रिया", "सेलुलोज की कोशिका भित्ति आकार और सुरक्षा देती है, रिक्तिका"], ["कोशिका", "सेलुलोज की कोशिका भित्ति आकार और सुरक्षा देती है, रिक्तिका"]],
+      "explain": "The cell wall is freely permeable and made mainly of cellulose.",
+      "explainHi": "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।",
+      "vocab": [["Osmosis", "Plant cells have a cellulose wall outside the membrane. It"], ["Mitochondrion", "Plant cells have a cellulose wall outside the membrane. It"], ["Cell", "Plant cells have a cellulose wall outside the membrane. It"]],
+      "vocabHi": [["परासरण", "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारग"], ["माइटोकॉन्ड्रिया", "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारग"], ["कोशिका", "झिल्ली के बाहर सेलुलोज़ की भित्ति होती है। यह कठोर पर पारग"]],
       "fig": "3D layers · Cell wall and vacuoles · Wall → Membrane → Cytoplasm → Vacuole",
       "figHi": "3D layers चित्र · कोशिका भित्ति और रिक्तिका · Wall / Membrane / Cytoplasm",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -815,9 +815,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Cell wall and vacuoles?",
-        "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "A plant cell wall is freely permeable and made mainly of cellulose.", "Mitochondria are the powerhouses of the cell and chloroplasts its solar panels."],
+        "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "The cell wall is freely permeable and made mainly of cellulose.", "Mitochondria release energy by respiration and store it as ATP."],
         "a": 1,
-        "why": "A plant cell wall is freely permeable and made mainly of cellulose."
+        "why": "The cell wall is freely permeable and made mainly of cellulose."
       },
       "scene": {
         "type": "atlas",
@@ -838,8 +838,8 @@
       "title": "Nucleus and chromosomes",
       "titleHi": "केन्द्रक और गुणसूत्र",
       "short": "Nucleus and chromosome",
-      "concept": "The nucleus carries chromosomes made of DNA and controls growth, metabolism and inheritance.",
-      "conceptHi": "केन्द्रक में DNA के गुणसूत्र होते हैं जो वृद्धि, उपापचय और आनुवंशिकता नियंत्रित करते हैं।",
+      "concept": "The nucleus has a double membrane with pores and a dense nucleolus. Its chromosomes carry DNA, coiled from chromatin before division.",
+      "conceptHi": "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती है। गुणसूत्रों में DNA रहता है, विभाजन से पहले क्रोमैटिन सिकुड़ता है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -847,20 +847,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Nucleus and chromosomes?",
-        "options": ["Mitochondria are the powerhouses of the cell and chloroplasts its solar panels.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
+        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 2,
         "why": "Chromosomes inside the nucleus carry hereditary information as DNA."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'केन्द्रक और गुणसूत्र' से मेल खाता है?",
-        "options": ["माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
+        "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 2,
         "why": "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"
       },
       "explain": "Chromosomes inside the nucleus carry hereditary information as DNA.",
       "explainHi": "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।",
-      "vocab": [["Mitochondrion", "The nucleus carries chromosomes made of DNA and controls g"], ["Cell", "The nucleus carries chromosomes made of DNA and controls g"], ["Nucleus", "The nucleus carries chromosomes made of DNA and controls g"]],
-      "vocabHi": [["माइटोकॉन्ड्रिया", "केन्द्रक में DNA के गुणसूत्र होते हैं जो वृद्धि, उपापचय और"], ["कोशिका", "केन्द्रक में DNA के गुणसूत्र होते हैं जो वृद्धि, उपापचय और"], ["केन्द्रक", "केन्द्रक में DNA के गुणसूत्र होते हैं जो वृद्धि, उपापचय और"]],
+      "vocab": [["Mitochondrion", "The nucleus has a double membrane with pores and a dense n"], ["Cell", "The nucleus has a double membrane with pores and a dense n"], ["Nucleus", "The nucleus has a double membrane with pores and a dense n"]],
+      "vocabHi": [["माइटोकॉन्ड्रिया", "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती ह"], ["कोशिका", "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती ह"], ["केन्द्रक", "केन्द्रक के चारों ओर छिद्रों वाली द्विस्तरीय झिल्ली होती ह"]],
       "fig": "3D cell · Nucleus and chromosomes · Nucleus → Nuclear membrane → Chromosome → DNA",
       "figHi": "3D cell चित्र · केन्द्रक और गुणसूत्र · Nucleus / Nuclear membrane / Chromosome",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -876,7 +876,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Nucleus and chromosomes?",
-        "options": ["Mitochondria are the powerhouses of the cell and chloroplasts its solar panels.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
+        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 2,
         "why": "Chromosomes inside the nucleus carry hereditary information as DNA."
       },
@@ -899,8 +899,8 @@
       "title": "Mitochondria and chloroplast",
       "titleHi": "माइटोकॉन्ड्रिया और हरितलवक",
       "short": "Mitochondria and chlor",
-      "concept": "Mitochondria release energy by respiration; chloroplasts trap light energy for photosynthesis.",
-      "conceptHi": "माइटोकॉन्ड्रिया श्वसन से ऊर्जा मुक्त करते हैं, हरितलवक प्रकाश ऊर्जा पकड़कर प्रकाश-संश्लेषण करते हैं।",
+      "concept": "Mitochondria fold their inner membrane into cristae, raising the surface for respiration that releases energy as ATP. Chloroplasts trap light.",
+      "conceptHi": "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन की सतह बढ़ाती है और ऊर्जा ATP में छोड़ती है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -908,20 +908,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Mitochondria and chloroplast?",
-        "options": ["Mitochondria are the powerhouses of the cell and chloroplasts its solar panels.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
+        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
         "a": 0,
-        "why": "Mitochondria are the powerhouses of the cell and chloroplasts its solar panels."
+        "why": "Mitochondria release energy by respiration and store it as ATP."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'माइटोकॉन्ड्रिया और हरितलवक' से मेल खाता है?",
-        "options": ["माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
+        "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 0,
-        "why": "माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।"
+        "why": "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"
       },
-      "explain": "Mitochondria are the powerhouses of the cell and chloroplasts its solar panels.",
-      "explainHi": "माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।",
-      "vocab": [["Cell", "Mitochondria release energy by respiration; chloroplasts t"], ["Nucleus", "Mitochondria release energy by respiration; chloroplasts t"], ["Membrane", "Mitochondria release energy by respiration; chloroplasts t"]],
-      "vocabHi": [["कोशिका", "माइटोकॉन्ड्रिया श्वसन से ऊर्जा मुक्त करते हैं, हरितलवक प्र"], ["केन्द्रक", "माइटोकॉन्ड्रिया श्वसन से ऊर्जा मुक्त करते हैं, हरितलवक प्र"], ["झिल्ली", "माइटोकॉन्ड्रिया श्वसन से ऊर्जा मुक्त करते हैं, हरितलवक प्र"]],
+      "explain": "Mitochondria release energy by respiration and store it as ATP.",
+      "explainHi": "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।",
+      "vocab": [["Cell", "Mitochondria fold their inner membrane into cristae, raisi"], ["Nucleus", "Mitochondria fold their inner membrane into cristae, raisi"], ["Membrane", "Mitochondria fold their inner membrane into cristae, raisi"]],
+      "vocabHi": [["कोशिका", "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन "], ["केन्द्रक", "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन "], ["झिल्ली", "माइटोकॉन्ड्रिया की भीतरी झिल्ली क्रिस्टा में मुड़कर श्वसन "]],
       "fig": "3D molecule · Mitochondria and chloroplast · Light → Chloroplast → Sugar → Mitochondrion",
       "figHi": "3D molecule चित्र · माइटोकॉन्ड्रिया और हरितलवक · Light / Chloroplast / Sugar",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -937,9 +937,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Mitochondria and chloroplast?",
-        "options": ["Mitochondria are the powerhouses of the cell and chloroplasts its solar panels.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
+        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
         "a": 0,
-        "why": "Mitochondria are the powerhouses of the cell and chloroplasts its solar panels."
+        "why": "Mitochondria release energy by respiration and store it as ATP."
       },
       "scene": {
         "type": "atlas",
@@ -960,8 +960,8 @@
       "title": "Endoplasmic reticulum, Golgi and lysosomes",
       "titleHi": "अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम",
       "short": "Endoplasmic reticulum,",
-      "concept": "ER transports proteins and lipids, the Golgi packages them, and lysosomes digest worn-out parts.",
-      "conceptHi": "अंतर्द्रव्यी जालिका प्रोटीन और वसा पहुँचाती है, गॉल्जी पैक करता है, लाइसोसोम घिसे भाग पचाते हैं।",
+      "concept": "Rough ER studded with ribosomes makes proteins, smooth ER makes fats. Golgi stacks package them into vesicles and lysosomes digest worn parts.",
+      "conceptHi": "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों में पैक करता है और लाइसोसोम घिसे भाग पचाते हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -981,8 +981,8 @@
       },
       "explain": "The Golgi apparatus modifies and packages material for transport.",
       "explainHi": "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।",
-      "vocab": [["Nucleus", "ER transports proteins and lipids, the Golgi packages them"], ["Membrane", "ER transports proteins and lipids, the Golgi packages them"], ["Organelle", "ER transports proteins and lipids, the Golgi packages them"]],
-      "vocabHi": [["केन्द्रक", "अंतर्द्रव्यी जालिका प्रोटीन और वसा पहुँचाती है, गॉल्जी पैक"], ["झिल्ली", "अंतर्द्रव्यी जालिका प्रोटीन और वसा पहुँचाती है, गॉल्जी पैक"], ["अंगक", "अंतर्द्रव्यी जालिका प्रोटीन और वसा पहुँचाती है, गॉल्जी पैक"]],
+      "vocab": [["Nucleus", "Rough ER studded with ribosomes makes proteins, smooth ER "], ["Membrane", "Rough ER studded with ribosomes makes proteins, smooth ER "], ["Organelle", "Rough ER studded with ribosomes makes proteins, smooth ER "]],
+      "vocabHi": [["केन्द्रक", "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों "], ["झिल्ली", "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों "], ["अंगक", "खुरदरी जालिका प्रोटीन बनाती है, चिकनी वसा। गॉल्जी थैलियों "]],
       "fig": "3D flow · Endoplasmic reticulum, Golgi and lysosomes · Rough ER → Smooth ER → Golgi → Vesicle",
       "figHi": "3D flow चित्र · अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम · Rough ER / Smooth ER / Golgi",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -1021,8 +1021,8 @@
       "title": "Cell division: mitosis and meiosis",
       "titleHi": "कोशिका विभाजन: समसूत्री और अर्धसूत्री",
       "short": "Cell division: mitosis",
-      "concept": "Mitosis gives two identical daughter cells for growth and repair; meiosis halves chromosome number for gametes.",
-      "conceptHi": "समसूत्री विभाजन से वृद्धि और मरम्मत हेतु दो समान कोशिकाएँ मिलती हैं, अर्धसूत्री में गुणसूत्र आधे होकर युग्मक बनते हैं।",
+      "concept": "A cell copies its chromosomes before dividing. Mitosis gives two identical cells for growth and repair, meiosis halves the number for gametes.",
+      "conceptHi": "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्री विभाजन से दो समान कोशिकाएँ मिलती हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -1036,14 +1036,14 @@
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कोशिका विभाजन: समसूत्री और अर्धसूत्री' से मेल खाता है?",
-        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
+        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 2,
         "why": "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"
       },
       "explain": "Meiosis reduces the chromosome number by half to form gametes.",
       "explainHi": "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।",
-      "vocab": [["Membrane", "Mitosis gives two identical daughter cells for growth and "], ["Organelle", "Mitosis gives two identical daughter cells for growth and "], ["Osmosis", "Mitosis gives two identical daughter cells for growth and "]],
-      "vocabHi": [["झिल्ली", "समसूत्री विभाजन से वृद्धि और मरम्मत हेतु दो समान कोशिकाएँ "], ["अंगक", "समसूत्री विभाजन से वृद्धि और मरम्मत हेतु दो समान कोशिकाएँ "], ["परासरण", "समसूत्री विभाजन से वृद्धि और मरम्मत हेतु दो समान कोशिकाएँ "]],
+      "vocab": [["Membrane", "A cell copies its chromosomes before dividing. Mitosis giv"], ["Organelle", "A cell copies its chromosomes before dividing. Mitosis giv"], ["Osmosis", "A cell copies its chromosomes before dividing. Mitosis giv"]],
+      "vocabHi": [["झिल्ली", "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्"], ["अंगक", "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्"], ["परासरण", "विभाजन से पहले कोशिका गुणसूत्रों की प्रति बनाती है। समसूत्"]],
       "fig": "3D cycle · Cell division: mitosis and meiosis · Parent → Replication → Mitosis → Meiosis",
       "figHi": "3D cycle चित्र · कोशिका विभाजन: समसूत्री और अर्धसूत्री · Parent / Replication / Mitosis",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -1082,8 +1082,8 @@
       "title": "Biomolecules and cell functions",
       "titleHi": "जैव-अणु और कोशिका कार्य",
       "short": "Biomolecules and cell ",
-      "concept": "Carbohydrates, proteins, lipids and nucleic acids build structures and run reactions inside the cell.",
-      "conceptHi": "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल संरचना बनाते और कोशिका की अभिक्रियाएँ चलाते हैं।",
+      "concept": "Carbohydrates, proteins, lipids and nucleic acids build the cell and run its reactions. Ribosomes assemble proteins, some of them enzymes.",
+      "conceptHi": "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनाते और अभिक्रियाएँ चलाते हैं। राइबोसोम प्रोटीन जोड़ते हैं।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -1091,20 +1091,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Biomolecules and cell functions?",
-        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell while observing dead cork tissue."],
+        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell after observing dead cork tissue."],
         "a": 0,
         "why": "Proteins built at ribosomes act as enzymes and structural material."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'जैव-अणु और कोशिका कार्य' से मेल खाता है?",
-        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।", "हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।"],
+        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"],
         "a": 0,
         "why": "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।"
       },
       "explain": "Proteins built at ribosomes act as enzymes and structural material.",
       "explainHi": "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।",
-      "vocab": [["Organelle", "Carbohydrates, proteins, lipids and nucleic acids build st"], ["Osmosis", "Carbohydrates, proteins, lipids and nucleic acids build st"], ["Mitochondrion", "Carbohydrates, proteins, lipids and nucleic acids build st"]],
-      "vocabHi": [["अंगक", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल संरचना बनात"], ["परासरण", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल संरचना बनात"], ["माइटोकॉन्ड्रिया", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल संरचना बनात"]],
+      "vocab": [["Organelle", "Carbohydrates, proteins, lipids and nucleic acids build th"], ["Osmosis", "Carbohydrates, proteins, lipids and nucleic acids build th"], ["Mitochondrion", "Carbohydrates, proteins, lipids and nucleic acids build th"]],
+      "vocabHi": [["अंगक", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनात"], ["परासरण", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनात"], ["माइटोकॉन्ड्रिया", "कार्बोहाइड्रेट, प्रोटीन, वसा और न्यूक्लिक अम्ल कोशिका बनात"]],
       "fig": "3D molecule · Biomolecules and cell functions · Carbohydrate → Protein → Lipid → Nucleic acid",
       "figHi": "3D molecule चित्र · जैव-अणु और कोशिका कार्य · Carbohydrate / Protein / Lipid",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -1120,7 +1120,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Biomolecules and cell functions?",
-        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell while observing dead cork tissue."],
+        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell after observing dead cork tissue."],
         "a": 0,
         "why": "Proteins built at ribosomes act as enzymes and structural material."
       },
@@ -1143,8 +1143,8 @@
       "title": "Recent advances, cell division and cancer",
       "titleHi": "नई खोजें, विभाजन और कैंसर",
       "short": "Recent advances, cell ",
-      "concept": "Uncontrolled cell division causes cancer; advances in microscopy and stem-cell research help understand and treat it.",
-      "conceptHi": "अनियंत्रित कोशिका विभाजन से कैंसर होता है, सूक्ष्मदर्शी और स्टेम-कोशिका अनुसंधान से समझ और उपचार बढ़ा है।",
+      "concept": "Checkpoints control cell division. When they fail, cells divide without limit and form a tumour, which is why cancer is a disease of division.",
+      "conceptHi": "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना सीमा बाँटती हैं और गाँठ बनती है।",
       "formula": {
         "label": "CELL ORGANISATION · कोशिका संगठन",
         "eq": "Cell → Tissue → Organ → System",
@@ -1152,20 +1152,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Recent advances, cell division and cancer?",
-        "options": ["Hooke coined the term cell while observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell."],
+        "options": ["Hooke coined the term cell after observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."],
         "a": 1,
         "why": "Cancer arises when checkpoints controlling cell division fail."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'नई खोजें, विभाजन और कैंसर' से मेल खाता है?",
-        "options": ["हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।", "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।"],
+        "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"],
         "a": 1,
-        "why": "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।"
+        "why": "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।"
       },
       "explain": "Cancer arises when checkpoints controlling cell division fail.",
-      "explainHi": "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।",
-      "vocab": [["Osmosis", "Uncontrolled cell division causes cancer; advances in micr"], ["Mitochondrion", "Uncontrolled cell division causes cancer; advances in micr"], ["Cell", "Uncontrolled cell division causes cancer; advances in micr"]],
-      "vocabHi": [["परासरण", "अनियंत्रित कोशिका विभाजन से कैंसर होता है, सूक्ष्मदर्शी और"], ["माइटोकॉन्ड्रिया", "अनियंत्रित कोशिका विभाजन से कैंसर होता है, सूक्ष्मदर्शी और"], ["कोशिका", "अनियंत्रित कोशिका विभाजन से कैंसर होता है, सूक्ष्मदर्शी और"]],
+      "explainHi": "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।",
+      "vocab": [["Osmosis", "Checkpoints control cell division. When they fail, cells d"], ["Mitochondrion", "Checkpoints control cell division. When they fail, cells d"], ["Cell", "Checkpoints control cell division. When they fail, cells d"]],
+      "vocabHi": [["परासरण", "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना "], ["माइटोकॉन्ड्रिया", "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना "], ["कोशिका", "जाँच-बिंदु विभाजन रोकते हैं। ये फेल होने पर कोशिकाएँ बिना "]],
       "fig": "3D cycle · Recent advances, cell division and cancer · Normal division → Checkpoint → Mutation → Tumour",
       "figHi": "3D cycle चित्र · नई खोजें, विभाजन और कैंसर · Normal division / Checkpoint / Mutation",
       "tryHint": "Move Organelles seen and watch Parts identified; touch two diagram cards.",
@@ -1181,7 +1181,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Recent advances, cell division and cancer?",
-        "options": ["Hooke coined the term cell while observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell."],
+        "options": ["Hooke coined the term cell after observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."],
         "a": 1,
         "why": "Cancer arises when checkpoints controlling cell division fail."
       },
@@ -1282,14 +1282,14 @@
         "hi": "कोशिका की खोज",
         "color": "#3aa981",
         "spread": 0,
-        "desc": "Hooke coined the term cell while observing dead cork tissue."
+        "desc": "Hooke coined the term cell after observing dead cork tissue."
       }, {
         "id": "2.2",
         "en": "Plant cell and animal cell",
         "hi": "पादप कोशिका और जन्तु कोशिका",
         "color": "#3aa981",
         "spread": 1,
-        "desc": "A rigid cell wall and chloroplast distinguish a plant cell from an ani"
+        "desc": "A rigid cell wall and chloroplasts distinguish a plant cell from an an"
       }, {
         "id": "2.3",
         "en": "Prokaryotic and eukaryotic cells",
@@ -1303,14 +1303,14 @@
         "hi": "जीवद्रव्य झिल्ली और पारगम्यता",
         "color": "#3aa981",
         "spread": 3,
-        "desc": "Selective permeability lets the cell control what enters and leaves."
+        "desc": "Osmosis is the diffusion of water across a selectively permeable membr"
       }, {
         "id": "2.5",
         "en": "Cell wall and vacuoles",
         "hi": "कोशिका भित्ति और रिक्तिका",
         "color": "#3aa981",
         "spread": 4,
-        "desc": "A plant cell wall is freely permeable and made mainly of cellulose."
+        "desc": "The cell wall is freely permeable and made mainly of cellulose."
       }, {
         "id": "2.6",
         "en": "Nucleus and chromosomes",
@@ -1324,7 +1324,7 @@
         "hi": "माइटोकॉन्ड्रिया और हरितलवक",
         "color": "#3aa981",
         "spread": 6,
-        "desc": "Mitochondria are the powerhouses of the cell and chloroplasts its sola"
+        "desc": "Mitochondria release energy by respiration and store it as ATP."
       }, {
         "id": "2.8",
         "en": "Endoplasmic reticulum, Golgi and lysosomes",
@@ -1356,39 +1356,39 @@
       }],
       "quiz": [{
         "q": "Which statement belongs to Discovery of the cell?",
-        "options": ["Hooke coined the term cell while observing dead cork tissue.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
+        "options": ["Hooke coined the term cell after observing dead cork tissue.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 0,
-        "why": "Hooke coined the term cell while observing dead cork tissue."
+        "why": "Hooke coined the term cell after observing dead cork tissue."
       }, {
         "q": "Which statement belongs to Plant cell and animal cell?",
-        "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell.", "Selective permeability lets the cell control what enters and leaves."],
+        "options": ["A true nucleus with a nuclear membrane defines a eukaryotic cell.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell.", "Osmosis is the diffusion of water across a selectively permeable membrane."],
         "a": 1,
-        "why": "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell."
+        "why": "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."
       }, {
         "q": "Which statement belongs to Prokaryotic and eukaryotic cells?",
-        "options": ["Selective permeability lets the cell control what enters and leaves.", "A plant cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
+        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "A true nucleus with a nuclear membrane defines a eukaryotic cell."],
         "a": 2,
         "why": "A true nucleus with a nuclear membrane defines a eukaryotic cell."
       }, {
         "q": "Which statement belongs to Plasma membrane and permeability?",
-        "options": ["Selective permeability lets the cell control what enters and leaves.", "A plant cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
+        "options": ["Osmosis is the diffusion of water across a selectively permeable membrane.", "The cell wall is freely permeable and made mainly of cellulose.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 0,
-        "why": "Selective permeability lets the cell control what enters and leaves."
+        "why": "Osmosis is the diffusion of water across a selectively permeable membrane."
       }, {
         "q": "Which statement belongs to Cell wall and vacuoles?",
-        "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "A plant cell wall is freely permeable and made mainly of cellulose.", "Mitochondria are the powerhouses of the cell and chloroplasts its solar panels."],
+        "options": ["Chromosomes inside the nucleus carry hereditary information as DNA.", "The cell wall is freely permeable and made mainly of cellulose.", "Mitochondria release energy by respiration and store it as ATP."],
         "a": 1,
-        "why": "A plant cell wall is freely permeable and made mainly of cellulose."
+        "why": "The cell wall is freely permeable and made mainly of cellulose."
       }, {
         "q": "Which statement belongs to Nucleus and chromosomes?",
-        "options": ["Mitochondria are the powerhouses of the cell and chloroplasts its solar panels.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
+        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Chromosomes inside the nucleus carry hereditary information as DNA."],
         "a": 2,
         "why": "Chromosomes inside the nucleus carry hereditary information as DNA."
       }, {
         "q": "Which statement belongs to Mitochondria and chloroplast?",
-        "options": ["Mitochondria are the powerhouses of the cell and chloroplasts its solar panels.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
+        "options": ["Mitochondria release energy by respiration and store it as ATP.", "The Golgi apparatus modifies and packages material for transport.", "Meiosis reduces the chromosome number by half to form gametes."],
         "a": 0,
-        "why": "Mitochondria are the powerhouses of the cell and chloroplasts its solar panels."
+        "why": "Mitochondria release energy by respiration and store it as ATP."
       }, {
         "q": "Which statement belongs to Endoplasmic reticulum, Golgi and lysosomes?",
         "options": ["Meiosis reduces the chromosome number by half to form gametes.", "The Golgi apparatus modifies and packages material for transport.", "Proteins built at ribosomes act as enzymes and structural material."],
@@ -1401,50 +1401,50 @@
         "why": "Meiosis reduces the chromosome number by half to form gametes."
       }, {
         "q": "Which statement belongs to Biomolecules and cell functions?",
-        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell while observing dead cork tissue."],
+        "options": ["Proteins built at ribosomes act as enzymes and structural material.", "Cancer arises when checkpoints controlling cell division fail.", "Hooke coined the term cell after observing dead cork tissue."],
         "a": 0,
         "why": "Proteins built at ribosomes act as enzymes and structural material."
       }, {
         "q": "Which statement belongs to Recent advances, cell division and cancer?",
-        "options": ["Hooke coined the term cell while observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplast distinguish a plant cell from an animal cell."],
+        "options": ["Hooke coined the term cell after observing dead cork tissue.", "Cancer arises when checkpoints controlling cell division fail.", "A rigid cell wall and chloroplasts distinguish a plant cell from an animal cell."],
         "a": 1,
         "why": "Cancer arises when checkpoints controlling cell division fail."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'कोशिका की खोज' से मेल खाता है?",
-        "options": ["हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
+        "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 0,
-        "why": "हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।"
+        "why": "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"
       }, {
         "q": "कौन-सा कथन 'पादप कोशिका और जन्तु कोशिका' से मेल खाता है?",
-        "options": ["केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।", "चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।"],
+        "options": ["केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।", "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"],
         "a": 1,
-        "why": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।"
+        "why": "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"
       }, {
         "q": "कौन-सा कथन 'प्रोकैरियोटी और यूकैरियोटी कोशिका' से मेल खाता है?",
-        "options": ["चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।", "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
+        "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"],
         "a": 2,
         "why": "केन्द्रक झिल्ली वाला सच्चा केन्द्रक यूकैरियोटी कोशिका की पहचान है।"
       }, {
         "q": "कौन-सा कथन 'जीवद्रव्य झिल्ली और पारगम्यता' से मेल खाता है?",
-        "options": ["चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।", "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
+        "options": ["परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 0,
-        "why": "चयनात्मक पारगम्यता से कोशिका भीतर आने और बाहर जाने वाले पदार्थ नियंत्रित करती है।"
+        "why": "परासरण चयनात्मक पारगम्य झिल्ली के आर-पार जल का विसरण है।"
       }, {
         "q": "कौन-सा कथन 'कोशिका भित्ति और रिक्तिका' से मेल खाता है?",
-        "options": ["केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।", "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।", "माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।"],
+        "options": ["केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।", "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।", "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"],
         "a": 1,
-        "why": "पादप कोशिका भित्ति मुख्यतः सेलुलोज की बनती है और पूर्णतः पारगम्य होती है।"
+        "why": "कोशिका भित्ति पूर्णतः पारगम्य और मुख्यतः सेलुलोज़ की बनी होती है।"
       }, {
         "q": "कौन-सा कथन 'केन्द्रक और गुणसूत्र' से मेल खाता है?",
-        "options": ["माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
+        "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"],
         "a": 2,
         "why": "केन्द्रक के गुणसूत्र DNA के रूप में आनुवंशिक सूचना ले जाते हैं।"
       }, {
         "q": "कौन-सा कथन 'माइटोकॉन्ड्रिया और हरितलवक' से मेल खाता है?",
-        "options": ["माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
+        "options": ["माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 0,
-        "why": "माइटोकॉन्ड्रिया कोशिका के ऊर्जा घर और हरितलवक सौर पैनल हैं।"
+        "why": "माइटोकॉन्ड्रिया श्वसन से ऊर्जा छोड़ते हैं और उसे ATP के रूप में संग्रहित करते हैं।"
       }, {
         "q": "कौन-सा कथन 'अंतर्द्रव्यी जालिका, गॉल्जी और लाइसोसोम' से मेल खाता है?",
         "options": ["अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।", "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।", "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।"],
@@ -1452,19 +1452,19 @@
         "why": "गॉल्जी उपकरण पदार्थों को संशोधित कर भेजने के लिए पैक करता है।"
       }, {
         "q": "कौन-सा कथन 'कोशिका विभाजन: समसूत्री और अर्धसूत्री' से मेल खाता है?",
-        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
+        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"],
         "a": 2,
         "why": "अर्धसूत्री विभाजन युग्मक बनाते समय गुणसूत्र संख्या आधी कर देता है।"
       }, {
         "q": "कौन-सा कथन 'जैव-अणु और कोशिका कार्य' से मेल खाता है?",
-        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।", "हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।"],
+        "options": ["राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।"],
         "a": 0,
         "why": "राइबोसोम पर बने प्रोटीन एंजाइम और संरचनात्मक पदार्थ का काम करते हैं।"
       }, {
         "q": "कौन-सा कथन 'नई खोजें, विभाजन और कैंसर' से मेल खाता है?",
-        "options": ["हुक ने निर्जीव बाक़ ऊतक देखते हुए कोशिका शब्द दिया।", "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जन्तु कोशिका से अलग करते हैं।"],
+        "options": ["हुक ने निर्जीव बाक़ ऊतक देखकर कोशिका शब्द दिया।", "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।", "कठोर कोशिका भित्ति और हरितलवक पादप कोशिका को जनतु कोशिका से अलग करते हैं।"],
         "a": 1,
-        "why": "विभाजन नियंत्रित करने वाली जाँच बिंदु विफल होने पर कैंसर होता है।"
+        "why": "विभाजन नियंत्रित करने वाले जाँच-बिंदु फेल होने पर कैंसर होता है।"
       }],
       "status": "assessed"
     };
