@@ -1972,13 +1972,13 @@
       },
       "predict": {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
-        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       },
@@ -2001,7 +2001,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       },
@@ -2033,13 +2033,13 @@
       },
       "predict": {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A tissue is a group of similar cells performing one shared function."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
         "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
-        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
         "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       },
@@ -2062,7 +2062,7 @@
       },
       "quiz": {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A tissue is a group of similar cells performing one shared function."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
         "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       },
@@ -2085,8 +2085,8 @@
       "title": "Injury, posture, nutrition and exercise",
       "titleHi": "चोट, मुद्रा, पोषण और व्यायाम",
       "short": "Injury, posture, nutri",
-      "concept": "Calcium, vitamin D, warm-up and safe loading protect the musculoskeletal system, while poor posture and repeated sprains wear joints down.",
-      "conceptHi": "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपेशियों को बचाते हैं, गलत मुद्रा जोड़ों को घिसती है।",
+      "concept": "Correct posture, calcium-rich food, exercise and yoga keep bones strong and joints flexible; a slouched spine or a torn ligament stiffens them.",
+      "conceptHi": "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबूत व जोड़ लचीले रखते हैं; कुबड़ी रीढ़ व फटा स्नायुबंध जोड़ जकड़ता है।",
       "formula": {
         "label": "LEVELS OF ORGANISATION · संगठन के स्तर",
         "eq": "Cell → Tissue → Organ → Organ system → Organism",
@@ -2094,20 +2094,20 @@
       },
       "predict": {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["A tissue is a group of similar cells performing one shared function.", "Calcium, vitamin D and warm-up protect bones and joints.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Calcium, vitamin D and warm-up protect bones and joints."
+        "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       },
       "predictHi": {
         "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
-        "why": "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।"
+        "why": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।"
       },
-      "explain": "Calcium, vitamin D and warm-up protect bones and joints.",
-      "explainHi": "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।",
-      "vocab": [["Epithelium", "Calcium, vitamin D, warm-up and safe loading protect the m"], ["Neuron", "Calcium, vitamin D, warm-up and safe loading protect the m"], ["Tissue", "Calcium, vitamin D, warm-up and safe loading protect the m"]],
-      "vocabHi": [["उपकला", "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपे"], ["न्यूरॉन", "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपे"], ["ऊतक", "कैल्शियम, विटामिन D, वार्म-अप और सुरक्षित भार हड्डी-मांसपे"]],
+      "explain": "Cartilage discs cushion the vertebrae; ribs let the chest expand.",
+      "explainHi": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।",
+      "vocab": [["Epithelium", "Correct posture, calcium-rich food, exercise and yoga keep"], ["Neuron", "Correct posture, calcium-rich food, exercise and yoga keep"], ["Tissue", "Correct posture, calcium-rich food, exercise and yoga keep"]],
+      "vocabHi": [["उपकला", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"], ["न्यूरॉन", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"], ["ऊतक", "सही मुद्रा, कैल्शियम युक्त भोजन, व्यायाम और योग अस्थि मजबू"]],
       "fig": "3D cycle · Injury, posture, nutrition and exercise · Nutrition → Exercise → Rest → Posture",
       "figHi": "3D cycle चित्र · चोट, मुद्रा, पोषण और व्यायाम · Nutrition / Exercise / Rest",
       "tryHint": "Move Tissue layers and watch Layers; touch two diagram cards.",
@@ -2123,9 +2123,9 @@
       },
       "quiz": {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["A tissue is a group of similar cells performing one shared function.", "Calcium, vitamin D and warm-up protect bones and joints.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Calcium, vitamin D and warm-up protect bones and joints."
+        "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       },
       "scene": {
         "type": "atlas",
@@ -2294,7 +2294,7 @@
         "hi": "चोट, मुद्रा, पोषण और व्यायाम",
         "color": "#4f9c6b",
         "spread": 10,
-        "desc": "Calcium, vitamin D and warm-up protect bones and joints."
+        "desc": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       }],
       "quiz": [{
         "q": "Which statement belongs to What a tissue is?",
@@ -2338,19 +2338,19 @@
         "why": "Blood is a fluid connective tissue with plasma and suspended cells."
       }, {
         "q": "Which statement belongs to Muscular and nervous tissue?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A neuron has a cell body, dendrites and a long axon."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A neuron has a cell body, dendrites and a long axon."],
         "a": 2,
         "why": "A neuron has a cell body, dendrites and a long axon."
       }, {
         "q": "Which statement belongs to Musculoskeletal system and its care?",
-        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Calcium, vitamin D and warm-up protect bones and joints.", "A tissue is a group of similar cells performing one shared function."],
+        "options": ["Tendons connect muscle to bone and ligaments connect bone to bone.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "A tissue is a group of similar cells performing one shared function."],
         "a": 0,
         "why": "Tendons connect muscle to bone and ligaments connect bone to bone."
       }, {
         "q": "Which statement belongs to Injury, posture, nutrition and exercise?",
-        "options": ["A tissue is a group of similar cells performing one shared function.", "Calcium, vitamin D and warm-up protect bones and joints.", "Division of labour increases from cell level to organ-system level."],
+        "options": ["A tissue is a group of similar cells performing one shared function.", "Cartilage discs cushion the vertebrae; ribs let the chest expand.", "Division of labour increases from cell level to organ-system level."],
         "a": 1,
-        "why": "Calcium, vitamin D and warm-up protect bones and joints."
+        "why": "Cartilage discs cushion the vertebrae; ribs let the chest expand."
       }],
       "quizHi": [{
         "q": "कौन-सा कथन 'ऊतक क्या है' से मेल खाता है?",
@@ -2394,19 +2394,19 @@
         "why": "रक्त एक तरल संयोजी ऊतक है जिसमें प्लाज़्मा और कोशिकाएँ होती हैं।"
       }, {
         "q": "कौन-सा कथन 'पेशी और तंत्रिका ऊतक' से मेल खाता है?",
-        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"],
         "a": 2,
         "why": "न्यूरॉन में कोशिका काय, डेन्ड्राइट और लम्बा ऐक्सॉन होता है।"
       }, {
         "q": "कौन-सा कथन 'कंकाल-पेशी तंत्र और उसकी देखभाल' से मेल खाता है?",
-        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
+        "options": ["स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।"],
         "a": 0,
         "why": "स्नायु पेशी को अस्थि से और स्नायुबंध अस्थि को अस्थि से जोड़ते हैं।"
       }, {
         "q": "कौन-सा कथन 'चोट, मुद्रा, पोषण और व्यायाम' से मेल खाता है?",
-        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
+        "options": ["एक साझा कार्य करने वाली समान कोशिकाएँ ऊतक बनाती हैं।", "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।", "कोशिका से तंत्र तक पहुँचते हुए श्रम-विभाजन बढ़ता जाता है।"],
         "a": 1,
-        "why": "कैल्शियम, विटामिन D और वार्म-अप अस्थि और जोड़ों की रक्षा करते हैं।"
+        "why": "उपास्थि डिस्क कशेरुकाओं को गद्दी देती है, लचीली पसलियाँ वक्ष फैलाती हैं।"
       }],
       "status": "assessed"
     };

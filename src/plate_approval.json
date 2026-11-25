@@ -4,7 +4,7 @@
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1331 labels, all with Devanagari Hindi",
+   "detail": "1335 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "299 unique SHA-256",
+   "detail": "300 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "299 plates",
+   "detail": "300 plates",
    "ok": true
   }
  },
@@ -567,6 +567,22 @@
     }
    ],
    "sha256": "6fff05e82f5298ede48ffe6899e84587a884b3f75e1f0e72db5aa65e04fa7b04",
+   "width": 1376
+  },
+  {
+   "bytes": 59892,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+   "file": "rx/c9_tissues_3_11_care_posture_yoga.webp",
+   "height": 768,
+   "id": "c9_tissues_3_11_care_posture_yoga",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_tissues",
+     "section": "3.11"
+    }
+   ],
+   "sha256": "4c99c3e91e2216be66caeb084e3c4e1d843a6330e55276c37a941e528f48241b",
    "width": 1376
   },
   {
@@ -5185,17 +5201,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 18130706,
+  "bytes": 18190598,
   "chapters": 33,
-  "creditsRecorded": 102,
+  "creditsRecorded": 103,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 23,
+   "1376x768": 24,
    "1408x768": 198
   },
-  "labels": 1331,
-  "plates": 299,
+  "labels": 1335,
+  "plates": 300,
   "sections": 266,
-  "uniqueSha256": 299
+  "uniqueSha256": 300
  }
 }

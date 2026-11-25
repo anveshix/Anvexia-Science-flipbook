@@ -921,6 +921,7 @@
     "rx/skeleton_joint--2.webp"
    ],
    "3.11": [
+    "rx/c9_tissues_3_11_care_posture_yoga.webp",
     "rx/balanced_diet.webp"
    ],
    "3.2": [
@@ -1092,7 +1093,8 @@
   "rx/c9_tissues_3_7_epithelial_types.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_tissues_3_8_connective_tissues.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_tissues_3_9_muscle_nerve.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_tissues_3_10_knee_joint.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_tissues_3_10_knee_joint.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_tissues_3_11_care_posture_yoga.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -17663,6 +17665,56 @@
     "hi": "स्नायुबंध",
     "info_en": "Ligament: labelled part of the illustration “The Knee Joint”. Illustrative, not to scale.",
     "info_hi": "स्नायुबंध: “घुटने का जोड़” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_tissues_3_11_care_posture_yoga.webp": [
+   {
+    "x": 14,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 215,
+    "anchor_y": 330,
+    "en": "Slouched spine",
+    "hi": "कुबड़ी रीढ़",
+    "info_en": "Slouched spine: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "कुबड़ी रीढ़: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 272,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 395,
+    "anchor_y": 330,
+    "en": "Upright spine",
+    "hi": "सीधी रीढ़",
+    "info_en": "Upright spine: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "सीधी रीढ़: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 530,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 820,
+    "anchor_y": 300,
+    "en": "Yoga pose",
+    "hi": "योग मुद्रा",
+    "info_en": "Yoga pose: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "योग मुद्रा: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   },
+   {
+    "x": 788,
+    "y": 14,
+    "w": 250,
+    "h": 66,
+    "anchor_x": 1120,
+    "anchor_y": 430,
+    "en": "Calcium-rich food",
+    "hi": "कैल्शियम युक्त भोजन",
+    "info_en": "Calcium-rich food: labelled part of the illustration “Posture, Yoga and Bone Care”. Illustrative, not to scale.",
+    "info_hi": "कैल्शियम युक्त भोजन: “मुद्रा, योग और अस्थि की देखभाल” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
    }
   ]
  },

@@ -1,6 +1,6 @@
 # Plate approval — 2026-11-24
 
-All **299** realistic 2D plates shown by the reader are approved by the Anvexia repository owner, covering **266 sections** in **33 chapters** with **1331** anchored bilingual labels.
+All **300** realistic 2D plates shown by the reader are approved by the Anvexia repository owner, covering **266 sections** in **33 chapters** with **1335** anchored bilingual labels.
 
 ## What approval means
 
@@ -8,10 +8,10 @@ A plate is approved when it passes automated technical verification:
 
 | Check | Result |
 | --- | --- |
-| `webpHeaderAndDimensions` | PASS — 299 plates |
-| `uniqueContent` | PASS — 299 unique SHA-256 |
+| `webpHeaderAndDimensions` | PASS — 300 plates |
+| `uniqueContent` | PASS — 300 unique SHA-256 |
 | `sectionMapping` | PASS — 33 chapters / 266 sections |
-| `bilingualLabels` | PASS — 1331 labels, all with Devanagari Hindi |
+| `bilingualLabels` | PASS — 1335 labels, all with Devanagari Hindi |
 | `labelGeometry` | PASS — all boxes inside 1408x768 |
 | `noLineArtFallback` | PASS — only rx/*.webp mapped; composite JPEGs never offered |
 
@@ -19,12 +19,12 @@ Approval is **not** a claim of scientific, medical or teacher review. Illustrati
 
 ## Summary
 
-- Plates: 299 (all unique SHA-256)
+- Plates: 300 (all unique SHA-256)
 - Sections: 266 covered across 33 chapters
-- Labels: 1331 bilingual, all in bounds
-- Bytes: 18,130,706
-- Dimensions: 1258x698 × 78, 1376x768 × 23, 1408x768 × 198
-- Credits recorded: 102 / 299 (remaining plates are repository-generated AI drafts)
+- Labels: 1335 bilingual, all in bounds
+- Bytes: 18,190,598
+- Dimensions: 1258x698 × 78, 1376x768 × 24, 1408x768 × 198
+- Credits recorded: 103 / 300 (remaining plates are repository-generated AI drafts)
 
 ## Label corrected during verification
 
@@ -65,7 +65,7 @@ Approval is **not** a claim of scientific, medical or teacher review. Illustrati
 | `c9_pure` | 3 | 3 | 16 |
 | `c9_reproduction9` | 9 | 9 | 52 |
 | `c9_sound` | 10 | 5 | 68 |
-| `c9_tissues` | 11 | 25 | 115 |
+| `c9_tissues` | 11 | 26 | 119 |
 | `c9_work_energy` | 9 | 7 | 48 |
 
 ## Reproduce
@@ -75,4 +75,4 @@ python3 qa/plate_approval.py --check      # static verification + register parit
 node qa/plate_approval_browser.js         # Chromium decode proof for every plate
 ```
 
-Register: `src/plate_approval.json` (SHA-256 `45829ab4c217db3caf720568b344703d89b20ec525f018640b9246bf09c76d22`).
+Register: `src/plate_approval.json` (SHA-256 `745918eb9667161639eb9e075543cff1492e6903b6d6df763cf0eef650e19b77`).
