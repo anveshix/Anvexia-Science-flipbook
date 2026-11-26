@@ -46,11 +46,6 @@
    "5.2": [
     "rx/local_c9_mixtures_5_2.webp"
    ]
-  },
-  "c9_work_energy": {
-   "7.7": [
-    "rx/local_c9_work_energy_7_7.webp"
-   ]
   }
  },
  "labels": {
@@ -467,44 +462,6 @@
     "hi": "विलायक",
     "info_en": "The solvent dissolves the solute; here water is an example.",
     "info_hi": "विलायक विलेय को घोलता है; यहाँ जल एक उदाहरण है।",
-    "w": 450,
-    "x": 944,
-    "y": 14
-   }
-  ],
-  "rx/local_c9_work_energy_7_7.webp": [
-   {
-    "anchor_x": 433,
-    "anchor_y": 535,
-    "en": "Time",
-    "h": 66,
-    "hi": "समय",
-    "info_en": "A stopwatch can measure the time taken; no particular time is shown here.",
-    "info_hi": "स्टॉपवॉच में लगा समय मापा जा सकता है; यहाँ कोई निश्चित समय नहीं दिखाया गया है।",
-    "w": 450,
-    "x": 14,
-    "y": 14
-   },
-   {
-    "anchor_x": 838,
-    "anchor_y": 422,
-    "en": "Climbing",
-    "h": 66,
-    "hi": "सीढ़ी चढ़ना",
-    "info_en": "Climbing raises the person and bag against gravity.",
-    "info_hi": "सीढ़ी चढ़ने पर व्यक्ति और बैग गुरुत्व के विरुद्ध ऊपर उठते हैं।",
-    "w": 450,
-    "x": 479,
-    "y": 14
-   },
-   {
-    "anchor_x": 957,
-    "anchor_y": 645,
-    "en": "Power",
-    "h": 66,
-    "hi": "शक्ति",
-    "info_en": "Average power is work done divided by time taken; its SI unit is the watt.",
-    "info_hi": "औसत शक्ति किया गया कार्य भाग लगे हुए समय है; इसका SI मात्रक वाट है।",
     "w": 450,
     "x": 944,
     "y": 14

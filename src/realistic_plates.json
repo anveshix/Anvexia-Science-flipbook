@@ -992,31 +992,40 @@
   },
   "c9_work_energy": {
    "7.1": [
-    "rx/work_energy.webp"
+    "rx/c9_work_energy_7_1.webp",
+    "rx/work_energy_theorem_cart.webp"
    ],
    "7.2": [
+    "rx/c9_work_energy_7_2.webp",
     "rx/positive_negative_zero_work.webp"
    ],
    "7.3": [
-    "rx/work_energy.webp"
+    "rx/c9_work_energy_7_3.webp",
+    "rx/work_energy_theorem_cart.webp"
    ],
    "7.4": [
-    "rx/hookes_law_spring.webp"
+    "rx/c9_work_energy_7_4.webp",
+    "rx/work_energy.webp"
    ],
    "7.5": [
+    "rx/c9_work_energy_7_5.webp",
     "rx/work_energy_theorem_cart.webp"
    ],
    "7.6": [
-    "rx/work_energy.webp"
+    "rx/c9_work_energy_7_6.webp",
+    "rx/hookes_law_spring.webp"
    ],
    "7.7": [
-    "rx/local_c9_work_energy_7_7.webp",
-    "rx/mechanical_power_watt.webp"
+    "rx/c9_work_energy_7_7.webp",
+    "rx/work_energy.webp"
    ],
    "7.8": [
-    "rx/simple_machines.webp"
+    "rx/c9_work_energy_7_8.webp",
+    "rx/mechanical_power_watt.webp"
    ],
    "7.9": [
+    "rx/c9_work_energy_7_9.webp",
+    "rx/c9_work_energy_7_10.webp",
     "rx/simple_machines.webp"
    ]
   }
@@ -1154,7 +1163,17 @@
   "rx/c9_forces_6_9_rocket.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_3_tug_of_war.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
   "rx/c9_forces_6_4_net_force_arrows.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
-  "rx/c9_forces_6_7_cart_pulley.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)"
+  "rx/c9_forces_6_7_cart_pulley.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-24)",
+  "rx/c9_work_energy_7_1.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_10.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_2.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_3.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_4.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_5.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_6.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_7.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_8.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+  "rx/c9_work_energy_7_9.webp": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)"
  },
  "labels": {
   "rx/absorption_roots.webp": [
@@ -9838,44 +9857,6 @@
     "hi": "विलायक",
     "info_en": "The solvent dissolves the solute; here water is an example.",
     "info_hi": "विलायक विलेय को घोलता है; यहाँ जल एक उदाहरण है।",
-    "w": 450,
-    "x": 944,
-    "y": 14
-   }
-  ],
-  "rx/local_c9_work_energy_7_7.webp": [
-   {
-    "anchor_x": 433,
-    "anchor_y": 535,
-    "en": "Time",
-    "h": 66,
-    "hi": "समय",
-    "info_en": "A stopwatch can measure the time taken; no particular time is shown here.",
-    "info_hi": "स्टॉपवॉच में लगा समय मापा जा सकता है; यहाँ कोई निश्चित समय नहीं दिखाया गया है।",
-    "w": 450,
-    "x": 14,
-    "y": 14
-   },
-   {
-    "anchor_x": 838,
-    "anchor_y": 422,
-    "en": "Climbing",
-    "h": 66,
-    "hi": "सीढ़ी चढ़ना",
-    "info_en": "Climbing raises the person and bag against gravity.",
-    "info_hi": "सीढ़ी चढ़ने पर व्यक्ति और बैग गुरुत्व के विरुद्ध ऊपर उठते हैं।",
-    "w": 450,
-    "x": 479,
-    "y": 14
-   },
-   {
-    "anchor_x": 957,
-    "anchor_y": 645,
-    "en": "Power",
-    "h": 66,
-    "hi": "शक्ति",
-    "info_en": "Average power is work done divided by time taken; its SI unit is the watt.",
-    "info_hi": "औसत शक्ति किया गया कार्य भाग लगे हुए समय है; इसका SI मात्रक वाट है।",
     "w": 450,
     "x": 944,
     "y": 14
@@ -19275,6 +19256,542 @@
     "hi": "घिरनी",
     "info_en": "Pulley: labelled part of the illustration “Newton's second law and momentum”. Illustrative, not to scale.",
     "info_hi": "घिरनी: “न्यूटन का दूसरा नियम और संवेग” चित्र का अंकित भाग। सांकेतिक चित्र, पैमाने पर नहीं।"
+   }
+  ],
+  "rx/c9_work_energy_7_1.webp": [
+   {
+    "anchor_x": 812,
+    "anchor_y": 520,
+    "en": "Upward force",
+    "h": 66,
+    "hi": "ऊपर लगाया बल",
+    "info_en": "The worker lifts the sack, so his force acts straight up on it.",
+    "info_hi": "मज़दूर बोरी को उठा रहा है, इसलिए उसका बल बोरी पर सीधे ऊपर लगता है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 956,
+    "anchor_y": 600,
+    "en": "Vertical displacement",
+    "h": 66,
+    "hi": "ऊर्ध्वाधर विस्थापन",
+    "info_en": "The sack moves through the height of the platform, in the same direction as the force.",
+    "info_hi": "बोरी चबूतरे की ऊँचाई तक जाती है, अर्थात् बल की ही दिशा में विस्थापित होती है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 860,
+    "anchor_y": 690,
+    "en": "Wheat bag of mass m",
+    "h": 66,
+    "hi": "गेहूँ की बोरी, द्रव्यमान m",
+    "info_en": "The pull of gravity mg on the bag is what the upward force has to balance.",
+    "info_hi": "बोरी पर नीचे लगता गुरुत्व बल mg ही है जिसे ऊपर का बल संतुलित करता है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 1250,
+    "anchor_y": 460,
+    "en": "Platform",
+    "h": 66,
+    "hi": "चबूतरा",
+    "info_en": "The work done does not depend on the platform, only on the force and the height.",
+    "info_hi": "कार्य चबूतरे पर नहीं, केवल बल और ऊँचाई पर निर्भर करता है।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_10.webp": [
+   {
+    "anchor_x": 250,
+    "anchor_y": 355,
+    "en": "Fulcrum in the middle",
+    "h": 66,
+    "hi": "आधार बीच में",
+    "info_en": "In the tongs the hinge lies between the effort at the handles and the load at the tips.",
+    "info_hi": "चिमटे में कब्जा (आधार) हत्थों के प्रयास और सिरों के भार के बीच है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 790,
+    "anchor_y": 480,
+    "en": "Load in the middle",
+    "h": 66,
+    "hi": "भार बीच में",
+    "info_en": "In the wheelbarrow the soil lies between the wheel and the handles being lifted.",
+    "info_hi": "ठेले में मिट्टी पहिये और उठाए जाते हत्थों के बीच है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 1110,
+    "anchor_y": 300,
+    "en": "Effort in the middle",
+    "h": 66,
+    "hi": "प्रयास बीच में",
+    "info_en": "In the tweezers the fingers squeeze the middle while the tips do the gripping.",
+    "info_hi": "चिमटी में उँगलियाँ बीच दबाती हैं जबकि सिरे पकड़ बनाते हैं।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 390,
+    "anchor_y": 520,
+    "en": "Class I lever",
+    "h": 66,
+    "hi": "प्रथम वर्ग उत्तोलक",
+    "info_en": "The tongs stand for a first-class lever, with the fulcrum between load and effort.",
+    "info_hi": "चिमटा प्रथम वर्ग के उत्तोलक का उदाहरण है, जिसमें आधार भार और प्रयास के बीच होता है।",
+    "w": 300,
+    "x": 500,
+    "y": 700
+   },
+   {
+    "anchor_x": 1180,
+    "anchor_y": 560,
+    "en": "Class III lever",
+    "h": 66,
+    "hi": "तृतीय वर्ग उत्तोलक",
+    "info_en": "The tweezers stand for a third-class lever, with the effort between fulcrum and load.",
+    "info_hi": "चिमटी तृतीय वर्ग के उत्तोलक का उदाहरण है, जिसमें प्रयास आधार और भार के बीच होता है।",
+    "w": 300,
+    "x": 900,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_2.webp": [
+   {
+    "anchor_x": 392,
+    "anchor_y": 60,
+    "en": "Force on the load",
+    "h": 66,
+    "hi": "भार पर लगा बल",
+    "info_en": "The porter pushes the suitcase up to balance its weight while he walks.",
+    "info_hi": "कुली चलते समय सूटकेस को ऊपर का बल देकर उसका भार संतुलित करता है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 470,
+    "anchor_y": 385,
+    "en": "Displacement",
+    "h": 66,
+    "hi": "विस्थापन",
+    "info_en": "The load moves forward, at right angles to the upward force, so the work is zero.",
+    "info_hi": "भार आगे बढ़ता है, ऊपर के बल के लम्बवत्, इसलिए कार्य शून्य है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 836,
+    "anchor_y": 460,
+    "en": "Goalkeeper's force",
+    "h": 66,
+    "hi": "गोलकीपर का बल",
+    "info_en": "The goalkeeper pushes the ball opposite to its motion, so her work on it is negative.",
+    "info_hi": "गोलकीपर गेंद को उसकी गति के विपरीत धकेलती है, इसलिए गेंद पर उसका कार्य ऋणात्मक है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 1090,
+    "anchor_y": 350,
+    "en": "Ball's motion",
+    "h": 66,
+    "hi": "गेंद की गति",
+    "info_en": "The ball travels one way while the force acts the other way: the two are opposite.",
+    "info_hi": "गेंद एक दिशा में जाती है और बल दूसरी दिशा में लगता हैः दोनों विपरीत हैं।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_3.webp": [
+   {
+    "anchor_x": 700,
+    "anchor_y": 330,
+    "en": "Ball in motion",
+    "h": 66,
+    "hi": "गतिमान गेंद",
+    "info_en": "The work done by the fielder gave the ball its kinetic energy.",
+    "info_hi": "फील्डर के कार्य ने गेंद को गतिज ऊर्जा दी।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 300,
+    "anchor_y": 430,
+    "en": "Motion trail",
+    "h": 66,
+    "hi": "गति की लकीर",
+    "info_en": "The trail shows the displacement over which the ball was accelerated.",
+    "info_hi": "यह लकीर वह विस्थापन दिखाती है जिसमें गेंद को त्वरण मिला।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 790,
+    "anchor_y": 200,
+    "en": "Toppling stumps",
+    "h": 66,
+    "hi": "गिरते विकेट",
+    "info_en": "The ball transfers its energy to the stumps by doing work on them.",
+    "info_hi": "गेंद विकेट पर कार्य करके अपनी ऊर्जा उन्हें दे देती है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 560,
+    "anchor_y": 600,
+    "en": "Pitch",
+    "h": 66,
+    "hi": "पिच",
+    "info_en": "The ground stays still, so no work is done on it by the ball's weight.",
+    "info_hi": "धरातल स्थिर रहता है, इसलिए गेंद का भार उस पर कोई कार्य नहीं करता।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_4.webp": [
+   {
+    "anchor_x": 200,
+    "anchor_y": 220,
+    "en": "Light energy",
+    "h": 66,
+    "hi": "प्रकाश ऊर्जा",
+    "info_en": "The glowing bulb sends out light, which is one form of energy.",
+    "info_hi": "चमकता बल्ब प्रकाश देता है, जो ऊर्जा का एक रूप है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 215,
+    "anchor_y": 610,
+    "en": "Chemical energy",
+    "h": 66,
+    "hi": "रासायनिक ऊर्जा",
+    "info_en": "The burning wood stores chemical energy in its bonds and releases it as heat and light.",
+    "info_hi": "जलती लकड़ी में रासायनिक ऊर्जा बंधों में संचित है, जो ऊष्मा और प्रकाश के रूप में निकलती है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 880,
+    "anchor_y": 380,
+    "en": "Mechanical energy",
+    "h": 66,
+    "hi": "यांत्रिक ऊर्जा",
+    "info_en": "The spinning fan blade is in motion, so it carries mechanical energy.",
+    "info_hi": "घूमता पंखा गति में है, इसलिए उसमें यांत्रिक ऊर्जा है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 1210,
+    "anchor_y": 500,
+    "en": "Sound energy",
+    "h": 66,
+    "hi": "ध्वनि ऊर्जा",
+    "info_en": "The loudspeaker sets the air vibrating, which is sound energy.",
+    "info_hi": "लाउडस्पीकर हवा को कंपित करता है, और यही ध्वनि ऊर्जा है।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   },
+   {
+    "anchor_x": 350,
+    "anchor_y": 320,
+    "en": "Electrical energy",
+    "h": 66,
+    "hi": "विद्युत ऊर्जा",
+    "info_en": "The dynamo on the bicycle changes mechanical energy into electrical energy for the lamp.",
+    "info_hi": "साइकिल का डायनमो यांत्रिक ऊर्जा को लैंप के लिए विद्युत ऊर्जा में बदलता है।",
+    "w": 300,
+    "x": 700,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_5.webp": [
+   {
+    "anchor_x": 700,
+    "anchor_y": 190,
+    "en": "Cricket ball",
+    "h": 66,
+    "hi": "क्रिकेट गेंद",
+    "info_en": "The ball has small mass but high speed, so its kinetic energy is half m v squared.",
+    "info_hi": "गेंद का द्रव्यमान कम पर चाल अधिक है, इसलिए उसकी गतिज ऊर्जा आधा m v2 है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 520,
+    "anchor_y": 300,
+    "en": "Speed streak",
+    "h": 66,
+    "hi": "चाल की लकीर",
+    "info_en": "The length of the glowing streak shows how fast the ball is moving.",
+    "info_hi": "चमकती लकीर की लंबाई बताती है कि गेंद कितनी तेज़ चल रही है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 1140,
+    "anchor_y": 330,
+    "en": "Cyclist",
+    "h": 66,
+    "hi": "साइकिल चालक",
+    "info_en": "The cyclist and bicycle together have a much larger mass, so they carry more kinetic energy at the same speed.",
+    "info_hi": "साइकिल और चालक का द्रव्यमान बहुत अधिक है, इसलिए उसी चाल पर उनकी गतिज ऊर्जा अधिक होती है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 900,
+    "anchor_y": 640,
+    "en": "Road",
+    "h": 66,
+    "hi": "सड़क",
+    "info_en": "Friction of the road does negative work on the wheels and slowly removes kinetic energy.",
+    "info_hi": "सड़क का घर्षण पहियों पर ऋणात्मक कार्य करके गतिज ऊर्जा धीरे-धीरे घटाता है।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_6.webp": [
+   {
+    "anchor_x": 600,
+    "anchor_y": 300,
+    "en": "Drawn bow",
+    "h": 66,
+    "hi": "तानी हुई धनुष",
+    "info_en": "Bending the bow stores elastic potential energy in its arms and string.",
+    "info_hi": "धनुष मोड़ने पर उसकी भुजाओं और डोरी में प्रत्यास्थ स्थितिज ऊर्जा संचित होती है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 430,
+    "anchor_y": 360,
+    "en": "Arrow",
+    "h": 66,
+    "hi": "तीर",
+    "info_en": "When released, the stored energy becomes the kinetic energy of the arrow.",
+    "info_hi": "छोड़ने पर संचित ऊर्जा तीर की गतिज ऊर्जा बन जाती है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 1065,
+    "anchor_y": 110,
+    "en": "Iron ball at height h",
+    "h": 66,
+    "hi": "ऊँचाई h पर लोहे की गेंद",
+    "info_en": "The ball is raised above the ground, so it stores gravitational potential energy mgh.",
+    "info_hi": "गेंद धरातल से ऊपर उठी है, इसलिए उसमें गुरुत्वीय स्थितिज ऊर्जा mgh संचित है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 1090,
+    "anchor_y": 620,
+    "en": "Height from the ground",
+    "h": 66,
+    "hi": "धरातल से ऊँचाई",
+    "info_en": "The dashed line marks the height h used in U = mgh.",
+    "info_hi": "बिंदुवार रेखा वही ऊँचाई h दिखाती है जो U = mgh में लगती है।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_7.webp": [
+   {
+    "anchor_x": 330,
+    "anchor_y": 200,
+    "en": "Height h at the top",
+    "h": 66,
+    "hi": "शीर्ष की ऊँचाई h",
+    "info_en": "At the top of the slide the child has potential energy mgh and no kinetic energy.",
+    "info_hi": "फिसलपट्टी के शीर्ष पर बच्चे की गतिज ऊर्जा शून्य और स्थितिज ऊर्जा mgh होती है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 700,
+    "anchor_y": 330,
+    "en": "Falling child",
+    "h": 66,
+    "hi": "उतरता बच्चा",
+    "info_en": "As she comes down she loses height and gains speed: potential energy becomes kinetic energy.",
+    "info_hi": "नीचे आते समय वह ऊँचाई खोती और चाल पाती हैः स्थितिज ऊर्जा गतिज ऊर्जा बन जाती है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 1150,
+    "anchor_y": 620,
+    "en": "At the bottom",
+    "h": 66,
+    "hi": "नीचे पहुँचकर",
+    "info_en": "At the bottom the whole mgh has become kinetic energy, so v is the square root of 2gh.",
+    "info_hi": "नीचे पहुँचने पर पूरी mgh गतिज ऊर्जा बन जाती है, इसलिए v, 2gh का वर्गमूल होता है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 135,
+    "anchor_y": 400,
+    "en": "Height marker",
+    "h": 66,
+    "hi": "ऊँचाई का चिह्न",
+    "info_en": "The marked height is all that decides the final speed, not the shape of the slide.",
+    "info_hi": "अंतिम चाल केवल यही ऊँचाई तय करती है, फिसलपट्टी का आकार नहीं।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_8.webp": [
+   {
+    "anchor_x": 455,
+    "anchor_y": 400,
+    "en": "Running up",
+    "h": 66,
+    "hi": "दौड़कर चढ़ना",
+    "info_en": "The running student reaches the top in less time, so his power is larger.",
+    "info_hi": "दौड़ता विद्यार्थी कम समय में ऊपर पहुँचता है, इसलिए उसकी शक्ति अधिक है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 1040,
+    "anchor_y": 300,
+    "en": "Walking up",
+    "h": 66,
+    "hi": "चलकर चढ़ना",
+    "info_en": "The walking student does the same work but takes longer, so his power is smaller.",
+    "info_hi": "चलता विद्यार्थी समान कार्य अधिक समय में करता है, इसलिए उसकी शक्ति कम है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 1120,
+    "anchor_y": 600,
+    "en": "Same stairs",
+    "h": 66,
+    "hi": "वही सीढ़ियाँ",
+    "info_en": "Both climb the same height, so the work mgh done by each is the same.",
+    "info_hi": "दोनों एक ही ऊँचाई चढ़ते हैं, इसलिए दोनों का कार्य mgh समान है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 770,
+    "anchor_y": 640,
+    "en": "Speed streak",
+    "h": 66,
+    "hi": "चाल की लकीर",
+    "info_en": "The streaks mark the short time in which the run is completed.",
+    "info_hi": "ये लकीरें वह कम समय दिखाती हैं जिसमें दौड़ पूरी होती है।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   }
+  ],
+  "rx/c9_work_energy_7_9.webp": [
+   {
+    "anchor_x": 205,
+    "anchor_y": 175,
+    "en": "Fixed pulley",
+    "h": 66,
+    "hi": "स्थिर घिरनी",
+    "info_en": "The pulley only changes the direction of the pull, so its mechanical advantage is 1.",
+    "info_hi": "घिरनी केवल खिंचाव की दिशा बदलती है, इसलिए उसका यांत्रिक लाभ 1 है।",
+    "w": 300,
+    "x": 14,
+    "y": 14
+   },
+   {
+    "anchor_x": 205,
+    "anchor_y": 470,
+    "en": "Load",
+    "h": 66,
+    "hi": "भार",
+    "info_en": "The bucket is the load that has to be raised against gravity.",
+    "info_hi": "बाल्टी वह भार है जिसे गुरुत्व के विरुद्ध उठाना है।",
+    "w": 300,
+    "x": 460,
+    "y": 14
+   },
+   {
+    "anchor_x": 655,
+    "anchor_y": 500,
+    "en": "Inclined plane",
+    "h": 66,
+    "hi": "आनत तल",
+    "info_en": "The plank lets the crate be pushed up a longer distance with a smaller effort.",
+    "info_hi": "लकड़ी की ढाल कम प्रयास से पेटी को अधिक दूरी तक ऊपर पहुँचाती है।",
+    "w": 300,
+    "x": 906,
+    "y": 14
+   },
+   {
+    "anchor_x": 1000,
+    "anchor_y": 655,
+    "en": "Fulcrum",
+    "h": 66,
+    "hi": "आधार",
+    "info_en": "The stone under the crowbar is the fixed point about which the bar turns.",
+    "info_hi": "सब्बल के नीचे रखा पत्थर वह स्थिर बिंदु है जिसके चारों ओर डंडा घूमता है।",
+    "w": 300,
+    "x": 14,
+    "y": 700
+   },
+   {
+    "anchor_x": 1330,
+    "anchor_y": 640,
+    "en": "Effort",
+    "h": 66,
+    "hi": "प्रयास",
+    "info_en": "The man pushes down a long effort arm to lift the heavy rock a short distance.",
+    "info_hi": "व्यक्ति लंबी प्रयास भुजा पर नीचे बल देकर भारी पत्थर को थोड़ी दूरी तक उठाता है।",
+    "w": 300,
+    "x": 700,
+    "y": 700
    }
   ]
  },
