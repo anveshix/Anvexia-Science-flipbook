@@ -33,7 +33,7 @@ const audit = () => {
         inner.scrollTop = previous;
       }
     }
-    pg.querySelectorAll(".svf-opt,.svf-term,.svf-caption,.ev-label-chip").forEach(el => {
+    pg.querySelectorAll(".svf-qopt,.svf-qstem,.svf-qwhy,.svf-caption,.svf-points li,.ev-key-item,.ev-label-pin").forEach(el => {
       if (el.scrollWidth > el.clientWidth + 2 || el.scrollHeight > el.clientHeight + 2) out.push("clipped " + el.className.split(" ")[0] + ": " + el.textContent.trim().slice(0, 40));
     });
     if (/ParseError/.test(pg.textContent)) out.push("formula ParseError");

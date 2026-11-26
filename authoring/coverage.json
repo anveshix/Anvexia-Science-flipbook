@@ -432,44 +432,44 @@
         },
         {
           "id": "7.3",
+          "en": "The work-energy theorem",
+          "hi": "कार्य-ऊर्जा प्रमेय",
+          "status": "assessed"
+        },
+        {
+          "id": "7.4",
+          "en": "Forms of energy",
+          "hi": "ऊर्जा के रूप",
+          "status": "assessed"
+        },
+        {
+          "id": "7.5",
           "en": "Kinetic energy",
           "hi": "गतिज ऊर्जा",
           "status": "assessed"
         },
         {
-          "id": "7.4",
+          "id": "7.6",
           "en": "Potential energy",
           "hi": "स्थितिज ऊर्जा",
           "status": "assessed"
         },
         {
-          "id": "7.5",
-          "en": "Work-energy theorem",
-          "hi": "कार्य-ऊर्जा प्रमेय",
-          "status": "assessed"
-        },
-        {
-          "id": "7.6",
-          "en": "Conservation of energy",
-          "hi": "ऊर्जा का संरक्षण",
-          "status": "assessed"
-        },
-        {
           "id": "7.7",
-          "en": "Power and its unit",
-          "hi": "शक्ति और उसकी इकाई",
+          "en": "Conservation of mechanical energy",
+          "hi": "यांत्रिक ऊर्जा का संरक्षण",
           "status": "assessed"
         },
         {
           "id": "7.8",
-          "en": "Simple machines and mechanical advantage",
-          "hi": "सरल मशीनें और यांत्रिक लाभ",
+          "en": "Power and its unit",
+          "hi": "शक्ति और उसका मात्रक",
           "status": "assessed"
         },
         {
           "id": "7.9",
-          "en": "Lever, pulley and inclined plane",
-          "hi": "उत्तोलक, घिरनी और आनत तल",
+          "en": "Pulley, inclined plane and lever",
+          "hi": "घिरनी, आनत तल और उत्तोलक",
           "status": "assessed"
         }
       ]

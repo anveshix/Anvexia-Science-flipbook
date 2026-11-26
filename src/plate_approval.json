@@ -1,10 +1,10 @@
 {
- "approvedAt": "2026-11-25",
+ "approvedAt": "2026-11-26",
  "approvedBy": "Anvexia repository owner",
  "basis": "Approved after automated technical verification: WebP header and dimensions, unique content hash, runtime section mapping, and in-bounds bilingual labels. This is not a claim of scientific, medical or teacher review; that remains a separate track.",
  "checks": {
   "bilingualLabels": {
-   "detail": "1455 labels, all with Devanagari Hindi",
+   "detail": "1495 labels, all with Devanagari Hindi",
    "ok": true
   },
   "labelGeometry": {
@@ -20,11 +20,11 @@
    "ok": true
   },
   "uniqueContent": {
-   "detail": "330 unique SHA-256",
+   "detail": "339 unique SHA-256",
    "ok": true
   },
   "webpHeaderAndDimensions": {
-   "detail": "330 plates",
+   "detail": "339 plates",
    "ok": true
   }
  },
@@ -1207,6 +1207,166 @@
     }
    ],
    "sha256": "a15ced764d7a8a5c0a849303b0f8dcb877802a2ead1d2c695ea7bcf540fe2965",
+   "width": 1376
+  },
+  {
+   "bytes": 58828,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_1.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_1",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.1"
+    }
+   ],
+   "sha256": "eaf49ae95ac1177a2c4581503caf6e2033af034cdbe8847767636c57708d3dc9",
+   "width": 1376
+  },
+  {
+   "bytes": 49762,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_10.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_10",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.9"
+    }
+   ],
+   "sha256": "daf24f6cc35bdaa4a41795f29c2fd6fb1d313bc30bbd3aa35c3e0647638a1dec",
+   "width": 1376
+  },
+  {
+   "bytes": 96344,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_2.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_2",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.2"
+    }
+   ],
+   "sha256": "361fcc63ae42a927edfd076440acfe51c253b49966d32c62ffbe46352a896c01",
+   "width": 1376
+  },
+  {
+   "bytes": 74770,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_3.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_3",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.3"
+    }
+   ],
+   "sha256": "d1cf2c741e4706ddeecc88bf9afeb3cd3a26db2a7af2d60551cb16bbbde4943c",
+   "width": 1376
+  },
+  {
+   "bytes": 76462,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_4.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_4",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.4"
+    }
+   ],
+   "sha256": "c8e34cc8cce65ed040d6dcd30a8c376127887f03774d8538a2ff6078500996cf",
+   "width": 1376
+  },
+  {
+   "bytes": 89656,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_5.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_5",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.5"
+    }
+   ],
+   "sha256": "24536ba14a34d422c79c83e51d06d67ce1211e09e1d52d0e3dc34a3e7119a1d7",
+   "width": 1376
+  },
+  {
+   "bytes": 41542,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_6.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_6",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.6"
+    }
+   ],
+   "sha256": "1528520064860fcf739e5a8218eb94dc618936c34ad199f3761a589f3413ec14",
+   "width": 1376
+  },
+  {
+   "bytes": 83134,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_7.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_7",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.7"
+    }
+   ],
+   "sha256": "8d3efaa891f4adc0568b55967c55e6acc9350b79b4a0770cdd83ebcf8e375d61",
+   "width": 1376
+  },
+  {
+   "bytes": 56718,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_8.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_8",
+   "labels": 4,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.8"
+    }
+   ],
+   "sha256": "dd473eeee11880ef85446f9324870e019d513ac576feeb85b6872bf0f9489f7e",
+   "width": 1376
+  },
+  {
+   "bytes": 106732,
+   "credit": "Anvexia Class IX chapter plate · original AI illustration authored in-repo (2026-11-25)",
+   "file": "rx/c9_work_energy_7_9.webp",
+   "height": 768,
+   "id": "c9_work_energy_7_9",
+   "labels": 5,
+   "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.9"
+    }
+   ],
+   "sha256": "2214be629f668c5895b63cba74f123aec0f26188b9fea389b65093b455fb43a4",
    "width": 1376
   },
   {
@@ -2987,7 +3147,7 @@
     },
     {
      "chapter": "c9_work_energy",
-     "section": "7.4"
+     "section": "7.6"
     }
    ],
    "sha256": "8678b6b0285735c7b9ea5466059e37af694ae7e25a8e967ec03dba57f9c3106b",
@@ -3526,22 +3686,6 @@
    "width": 1408
   },
   {
-   "bytes": 64884,
-   "credit": "",
-   "file": "rx/local_c9_work_energy_7_7.webp",
-   "height": 768,
-   "id": "local_c9_work_energy_7_7",
-   "labels": 3,
-   "sections": [
-    {
-     "chapter": "c9_work_energy",
-     "section": "7.7"
-    }
-   ],
-   "sha256": "4b6653dc007df6d7ff71c3e96c04b57a29798c91cfad495fb9100a43bbce3ebc",
-   "width": 1408
-  },
-  {
    "bytes": 5730,
    "credit": "",
    "file": "rx/magnetic_field_lines--1.webp",
@@ -3663,7 +3807,7 @@
    "sections": [
     {
      "chapter": "c9_work_energy",
-     "section": "7.7"
+     "section": "7.8"
     }
    ],
    "sha256": "5e171cdeb57921aed6ff85bf75a6ec9fd85fd2ee5b5571604e14a5880aa36875",
@@ -5099,10 +5243,6 @@
    "sections": [
     {
      "chapter": "c9_work_energy",
-     "section": "7.8"
-    },
-    {
-     "chapter": "c9_work_energy",
      "section": "7.9"
     }
    ],
@@ -5631,15 +5771,11 @@
    "sections": [
     {
      "chapter": "c9_work_energy",
-     "section": "7.1"
+     "section": "7.4"
     },
     {
      "chapter": "c9_work_energy",
-     "section": "7.3"
-    },
-    {
-     "chapter": "c9_work_energy",
-     "section": "7.6"
+     "section": "7.7"
     }
    ],
    "sha256": "9b4a1c1a89e94ec011e3186758750d2367d10236b61e5596341c03d2767df044",
@@ -5653,6 +5789,14 @@
    "id": "work_energy_theorem_cart",
    "labels": 4,
    "sections": [
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.1"
+    },
+    {
+     "chapter": "c9_work_energy",
+     "section": "7.3"
+    },
     {
      "chapter": "c9_work_energy",
      "section": "7.5"
@@ -5681,17 +5825,17 @@
  "schema": "anvexia/plate-approval/v1",
  "scope": "All realistic 2D plates shown by the 2D-only reader.",
  "summary": {
-  "bytes": 19845830,
+  "bytes": 20514894,
   "chapters": 33,
-  "creditsRecorded": 133,
+  "creditsRecorded": 143,
   "dimensions": {
    "1258x698": 78,
-   "1376x768": 54,
-   "1408x768": 198
+   "1376x768": 64,
+   "1408x768": 197
   },
-  "labels": 1455,
-  "plates": 330,
+  "labels": 1495,
+  "plates": 339,
   "sections": 266,
-  "uniqueSha256": 330
+  "uniqueSha256": 339
  }
 }

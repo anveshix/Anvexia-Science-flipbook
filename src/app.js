@@ -547,60 +547,104 @@ function setPlateView(v) {
 }
 /* Approved local realistic raster plate. This is an HTML image
    layered over the 2D page: never sample file:// pixels into the WebGL canvas. */
-/* Image label information: authored positions, no guessed hotspots. */
+/* Image label information: authored positions, no guessed hotspots.
+   The artwork is never covered by a label: every entry becomes a small
+   numbered pin on its subject plus a numbered line in a figure key that sits
+   in the empty space under the plate. Pin and key line open the same note. */
 const EV_LABEL_DATA=__EV_LABEL_DATA__;
 const EVLABEL=(()=>{
   const active=new WeakMap(); let serial=0;
-  function destroy(host){const old=host&&active.get(host);if(!old)return;old.ro.disconnect();old.layer.remove();active.delete(host)}
-  /* shrink-to-fit: long bilingual names never clip inside their chip */
-  function fitChips(layer){layer.querySelectorAll('.ev-label-chip').forEach(ch=>{ch.style.fontSize='';if(!ch.clientHeight)return;let fs=parseFloat(getComputedStyle(ch).fontSize)||12;let guard=24;while(guard--&&fs>6.5&&(ch.scrollHeight>ch.clientHeight+1||ch.scrollWidth>ch.clientWidth+1)){fs-=0.5;ch.style.fontSize=fs+'px'}})}
-  function render(host,key){
+  function destroy(host){const old=host&&active.get(host);if(!old)return;old.ro.disconnect();if(old.layer)old.layer.remove();if(old.key&&old.key.parentNode)old.key.remove();active.delete(host)}
+  function render(host,key,opts){
+    opts=opts||{};
     if(!host)return; destroy(host);
     const specs=EV_LABEL_DATA[key]; const img=host.querySelector('img');
     if(!specs||!img)return;
     const layer=document.createElement('div');layer.className='ev-label-layer';
-    // Some illustrations have no baked-in text. Render authored bilingual
-    // chips with leader lines instead of invisible boxes over their subjects.
-    if(specs.some(s=>s.anchor_x!=null&&s.anchor_y!=null)){
-      const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
-      svg.setAttribute('viewBox','0 0 1408 768');svg.setAttribute('preserveAspectRatio','none');svg.classList.add('ev-label-leaders');
-      specs.filter(s=>s.anchor_x!=null&&s.anchor_y!=null).forEach(s=>{
-        const line=document.createElementNS(ns,'line');line.setAttribute('x1',s.x+s.w/2);line.setAttribute('y1',s.y+s.h);
-        line.setAttribute('x2',s.anchor_x);line.setAttribute('y2',s.anchor_y);svg.append(line);
-        const dot=document.createElementNS(ns,'circle');dot.setAttribute('cx',s.anchor_x);dot.setAttribute('cy',s.anchor_y);dot.setAttribute('r','8');svg.append(dot);
-      });layer.append(svg);
-    }
+    const keyEl=document.createElement('div');keyEl.className='ev-label-key';
+    keyEl.setAttribute('role','group');keyEl.setAttribute('aria-label',BI('Figure key','चित्र कुंजी'));
+    const popInKey=!!opts.popInKey;
     const info=document.createElement('div');info.className='ev-label-pop';info.id='evLabelInfo'+(++serial);info.hidden=true;info.setAttribute('role','region');info.setAttribute('aria-live','polite');info.tabIndex=0;
     const heading=document.createElement('strong'),body=document.createElement('span'),close=document.createElement('button');
     close.type='button';close.className='ev-label-close';close.textContent='×';close.setAttribute('aria-label',BI('Close information','जानकारी बंद करें'));
-    // Find the largest vertical band clear of all label buttons; some labels
-    // are low in the picture, so simply placing info below the last one fails.
-    const occupied=specs.map(s=>[Math.max(0,s.y/768*100-1),Math.min(100,(s.y+s.h)/768*100+1)]).sort((a,b)=>a[0]-b[0]);
-    let cursor=1,best=[1,1];
-    for(const [a,b] of occupied){if(a-cursor>best[1]-best[0])best=[cursor,a];cursor=Math.max(cursor,b)}
-    if(99-cursor>best[1]-best[0])best=[cursor,99];
-    info.style.top=best[0]+'%';info.style.maxHeight=(best[1]-best[0])+'%';
-    info.append(heading,body,close); let selected=null; const buttons=[];
+    if(!popInKey){
+      /* inside the plate: the note opens in the widest band clear of labels */
+      const occupied=specs.map(s=>[Math.max(0,s.y/768*100-1),Math.min(100,(s.y+s.h)/768*100+1)]).sort((a,b)=>a[0]-b[0]);
+      let cursor=1,best=[1,1];
+      for(const [a,b] of occupied){if(a-cursor>best[1]-best[0])best=[cursor,a];cursor=Math.max(cursor,b)}
+      if(99-cursor>best[1]-best[0])best=[cursor,99];
+      info.style.top=best[0]+'%';info.style.maxHeight=(best[1]-best[0])+'%';
+    }
+    info.append(heading,body,close);
+    let selected=null;
     function closeInfo(){info.hidden=true;if(selected){selected.setAttribute('aria-expanded','false');selected=null}}
     close.addEventListener('click',e=>{e.stopPropagation();const prior=selected;closeInfo();if(prior)prior.focus({preventScroll:true})});
     info.addEventListener('click',e=>e.stopPropagation());
+    function show(spec,pin,item){
+      if(selected===pin&&!info.hidden){closeInfo();return}
+      closeInfo();selected=pin;
+      pin.setAttribute('aria-expanded','true');item.setAttribute('aria-expanded','true');
+      heading.textContent=BI(spec.en,spec.hi);body.textContent=BI(spec.info_en,spec.info_hi);
+      info.hidden=false;
+      if(popInKey&&info.scrollIntoView)info.scrollIntoView({block:'nearest'});
+    }
+    /* pins sit on the authored anchor (or the centre of the authored box) */
+    const pts=specs.map(spec=>({x:spec.anchor_x!=null?spec.anchor_x:spec.x+spec.w/2,y:spec.anchor_y!=null?spec.anchor_y:spec.y+spec.h/2}));
+    /* two labels may name the same spot: nudge the pins apart so both numbers stay readable */
+    for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){
+      let dx=pts[j].x-pts[i].x,dy=pts[j].y-pts[i].y,d=Math.hypot(dx,dy);
+      if(d<30){if(d<0.01){dx=0;dy=1;d=1}const push=(30-d)/2;pts[i].x-=dx/d*push;pts[i].y-=dy/d*push;pts[j].x+=dx/d*push;pts[j].y+=dy/d*push}
+    }
+    pts.forEach(p=>{p.x=Math.max(0,Math.min(1408,p.x));p.y=Math.max(0,Math.min(768,p.y))});
     specs.forEach((spec,i)=>{
-      const hit=document.createElement('button');hit.type='button';hit.className='ev-label-hit';hit.dataset.labelIndex=String(i);
-      if(spec.anchor_x!=null&&spec.anchor_y!=null){hit.classList.add('ev-label-chip');hit.textContent=BI(spec.en,spec.hi);hit.dataset.n=String(specs.indexOf(spec)+1)}
-      let right=spec.x+spec.w;
-      for(const other of specs)if(other!==spec&&other.x>spec.x&&other.x<right&&other.y<spec.y+spec.h&&spec.y<other.y+other.h)right=other.x-2;
-      hit.style.left=(spec.x/1408*100)+'%';hit.style.top=(spec.y/768*100)+'%';hit.style.width=((right-spec.x)/1408*100)+'%';hit.style.height=(spec.h/768*100)+'%';
-      hit.setAttribute('aria-label',BI(spec.en,spec.hi)+' · '+BI('more information','और जानकारी'));hit.setAttribute('aria-controls',info.id);hit.setAttribute('aria-expanded','false');
-      hit.addEventListener('click',e=>{e.stopPropagation();if(selected===hit&&!info.hidden){closeInfo();return}closeInfo();selected=hit;hit.setAttribute('aria-expanded','true');heading.textContent=BI(spec.en,spec.hi);body.textContent=BI(spec.info_en,spec.info_hi);info.hidden=false});
-      layer.append(hit);buttons.push(hit);
+      const pin=document.createElement('button');pin.type='button';pin.className='ev-label-pin';pin.dataset.labelIndex=String(i);
+      pin.innerHTML='<b>'+(i+1)+'</b>';
+      pin.style.left=(pts[i].x/1408*100)+'%';pin.style.top=(pts[i].y/768*100)+'%';
+      const item=document.createElement('button');item.type='button';item.className='ev-key-item';item.dataset.labelIndex=String(i);
+      const n=document.createElement('b');n.textContent=String(i+1);
+      const en=document.createElement('span');en.className='ev-key-en';en.textContent=spec.en||'';
+      const hi=document.createElement('span');hi.className='ev-key-hi';hi.textContent=spec.hi||'';
+      item.append(n,en,hi);
+      [pin,item].forEach(el=>{el.setAttribute('aria-label',BI(spec.en,spec.hi)+' · '+BI('more information','और जानकारी'));el.setAttribute('aria-controls',info.id);el.setAttribute('aria-expanded','false')});
+      pin.addEventListener('click',e=>{e.stopPropagation();show(spec,pin,item)});
+      item.addEventListener('click',e=>{e.stopPropagation();show(spec,pin,item)});
+      layer.append(pin);keyEl.append(item);
     });
-    layer.append(info);host.append(layer);
-    function size(){const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;const ar=(img.naturalWidth&&img.naturalHeight)?img.naturalWidth/img.naturalHeight:1408/768;const iw=Math.min(w,h*ar),ih=iw/ar;layer.style.width=iw+'px';layer.style.height=ih+'px';layer.style.left=(w-iw)/2+'px';layer.style.top=(h-ih)/2+'px';layer.style.setProperty('--ev-chip-font',Math.max(8,Math.min(16,iw/40))+'px');layer.classList.toggle('ev-compact',iw<560);if(iw>=560)fitChips(layer)}
-    const ro=new ResizeObserver(size);ro.observe(host);img.addEventListener('load',size,{once:true});size();active.set(host,{ro,layer,closeInfo});
+    if(popInKey) keyEl.append(info); else layer.append(info);
+    host.append(layer);
+    const keyHost=opts.keyHost||host;
+    if(opts.keyBefore&&opts.keyBefore.parentNode===keyHost) keyHost.insertBefore(keyEl,opts.keyBefore);
+    else keyHost.append(keyEl);
+    function size(){
+      const hr=host.getBoundingClientRect(),br=img.getBoundingClientRect();
+      if(!br.width||!br.height)return;
+      const ar=(img.naturalWidth&&img.naturalHeight)?img.naturalWidth/img.naturalHeight:1408/768;
+      const iw=Math.min(br.width,br.height*ar),ih=iw/ar;
+      layer.style.width=iw+'px';layer.style.height=ih+'px';
+      layer.style.left=(br.left-hr.left+(br.width-iw)/2)+'px';
+      layer.style.top=(br.top-hr.top+(br.height-ih)/2)+'px';
+      const pin=Math.max(14,Math.min(23,iw/28));
+      layer.style.setProperty('--ev-pin',pin.toFixed(1)+'px');
+      layer.style.setProperty('--ev-pin-font',Math.max(8,Math.min(11.5,pin*0.5)).toFixed(1)+'px');
+      layer.classList.toggle('ev-compact',iw<560);
+    }
+    const ro=new ResizeObserver(size);ro.observe(host);
+    if(img.parentElement&&img.parentElement!==host)ro.observe(img.parentElement);
+    img.addEventListener('load',size,{once:true});size();
+    active.set(host,{ro,layer,key:keyEl,info,closeInfo});
   }
-  function closeOpen(host){const item=host&&active.get(host);if(!item)return false;const p=item.layer.querySelector('.ev-label-pop');if(!p||p.hidden)return false;item.closeInfo();return true}
+  function closeOpen(host){const item=host&&active.get(host);if(!item)return false;const p=item.info;if(!p||p.hidden)return false;item.closeInfo();return true}
   return {render,destroy,closeOpen,has:key=>!!EV_LABEL_DATA[key]};
 })();
+/* The 3D draft plate carries its figure key between the picture and the
+   footer, so the artwork keeps its full size. */
+function EVLABEL_DRAFT(host,key){
+  if(typeof EVLABEL==='undefined'||!host)return;
+  /* remove the previous key first: otherwise the stale key becomes the
+     insertBefore anchor and the new one falls to the end of the plate */
+  EVLABEL.destroy(host);
+  EVLABEL.render(host,key,{keyHost:host.parentElement,keyBefore:host.nextElementSibling});
+}
 
 const EVRASTER = (() => {
   const assets = {
@@ -1758,10 +1802,10 @@ const EVRASTER = (() => {
     };
     probe.onload=() => {
       if(number!==token || !validContext()) return;
-      img.onload=() => { if(number===token) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();} };
+      img.onload=() => { if(number===token) {ready=true; EVLABEL_DRAFT(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();} };
       img.onerror=failed;
       img.src=src;
-      if(img.complete && img.naturalWidth) {ready=true; EVLABEL.render(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();}
+      if(img.complete && img.naturalWidth) {ready=true; EVLABEL_DRAFT(document.querySelector('.ai-draft-visual'),EVPLATE_KEY(EV.world.id,file)); EVZOOM.refreshDraft();}
     };
     probe.onerror=failed;
     probe.src=src;

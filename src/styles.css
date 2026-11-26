@@ -1244,16 +1244,31 @@ body[data-theme="classroom"] .pager-tools #btnAIDraft.active{background:#173d57;
 
 .evzoom-caption{margin:0;color:#fff;font:700 15px Arial,'Noto Sans Devanagari Embedded',sans-serif}
 
-/* Clickable annotations use the original rendered image coordinates. */
+/* Clickable annotations: the artwork carries only small numbered pins. Every
+   word lives in a figure key under the plate, so the illustration is never
+   covered by a label. Pins and key lines open the same bilingual note. */
 .ev-label-layer{position:absolute;z-index:4;pointer-events:none;overflow:hidden}
-.ev-label-hit{position:absolute;pointer-events:auto;padding:0;border:2px dashed #5ee8ff;border-radius:5px;background:transparent;cursor:pointer}
-.ev-label-hit:hover,.ev-label-hit:focus-visible,.ev-label-hit[aria-expanded="true"]{outline:3px solid #ffe878;outline-offset:0;background:rgba(255,255,255,.12)}
-.ev-label-leaders{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.ev-label-leaders line{stroke:#073858;stroke-width:2.5;vector-effect:non-scaling-stroke}.ev-label-leaders circle{fill:#fff;stroke:#073858;stroke-width:2;vector-effect:non-scaling-stroke}
-.ev-label-hit.ev-label-chip{display:flex;align-items:center;justify-content:center;padding:1px 3px;border:1px solid #06415e;border-radius:4px;background:#fff;color:#092d42;font:700 var(--ev-chip-font,12px)/1.1 Arial,'Noto Sans Devanagari Embedded',sans-serif;text-align:center;overflow:hidden}
-.ev-label-hit.ev-label-chip:hover,.ev-label-hit.ev-label-chip:focus-visible,.ev-label-hit.ev-label-chip[aria-expanded="true"]{background:#e5f8ff}
+.ev-label-pin{position:absolute;transform:translate(-50%,-50%);display:grid;place-items:center;width:var(--ev-pin,22px);height:var(--ev-pin,22px);padding:0;border-radius:50%;border:2px solid #0B3A5B;background:#fff;color:#0B3A5B;cursor:pointer;pointer-events:auto;box-shadow:0 1px 4px rgba(0,0,0,.42);font:800 var(--ev-pin-font,11px)/1 Arial,'Noto Sans Devanagari Embedded',sans-serif;-webkit-tap-highlight-color:transparent}
+.ev-label-pin b{font:inherit;pointer-events:none}
+.ev-label-pin:hover,.ev-label-pin:focus-visible,.ev-label-pin[aria-expanded="true"]{background:#1F5FBF;border-color:#1F5FBF;color:#fff;outline:none}
+/* the figure key sits in the empty space below the plate */
+.ev-label-key{position:relative;flex:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(104px,1fr));gap:3px;padding:4px;background:#F5F7FA;border:1px solid #DCE1E8;border-radius:8px;box-sizing:border-box}
+.ev-key-item{display:grid;grid-template-columns:17px minmax(0,1fr);grid-template-rows:auto auto;column-gap:6px;align-items:start;padding:3px 6px;border:1px solid transparent;border-radius:6px;background:#fff;color:#14213D;text-align:left;font:600 12.5px/1.18 Arial,'Noto Sans Devanagari Embedded',sans-serif;cursor:pointer;min-width:0}
+.ev-key-item b{grid-row:1/3;align-self:start;display:grid;place-items:center;width:17px;height:17px;border-radius:50%;background:#14213D;color:#fff;font-size:10px;font-weight:800}
+.ev-key-item .ev-key-en{display:block;min-width:0;overflow-wrap:anywhere;word-break:break-word}
+.ev-key-item .ev-key-hi{display:block;color:#6B2140;font-size:11.5px;line-height:1.18;overflow-wrap:anywhere;word-break:break-word}
+.ev-key-item:hover,.ev-key-item:focus-visible,.ev-key-item[aria-expanded="true"]{border-color:#1F5FBF;background:#EEF4FC;outline:none}
+/* the note opens under the key, never over the picture */
+.ev-label-key>.ev-label-pop{position:absolute;left:0;right:0;top:100%;margin-top:4px;width:auto;max-height:170px;overflow:auto;z-index:8}
 .ev-label-pop{position:absolute;left:53%;top:14%;width:45%;max-height:70%;overflow:auto;pointer-events:auto;background:#061c2a;color:#fff;border:2px solid #64dbed;border-radius:8px;padding:7px 36px 7px 9px;box-sizing:border-box;box-shadow:0 4px 15px #000a;font:600 clamp(12px,1vw,16px)/1.32 Arial,'Noto Sans Devanagari Embedded',sans-serif}
-.ev-label-pop[hidden]{display:none!important}.ev-label-pop strong{display:block;color:#bfefff;margin-bottom:3px}.ev-label-close{position:absolute;right:3px;top:3px;min-width:28px;min-height:28px;color:#fff;background:#24465b;border:1px solid #bce9f5;border-radius:5px;cursor:pointer}.ev-label-close:focus-visible{outline:2px solid #ffda70}
-.evzoom-picture{position:relative;display:inline-flex;max-width:100%;max-height:100%;flex:none}.evzoom-picture .evzoom-image{object-fit:contain}
+.ev-label-pop[hidden]{display:none!important}
+.ev-label-pop strong{display:block;color:#bfefff;margin-bottom:3px}
+.ev-label-close{position:absolute;right:3px;top:3px;min-width:28px;min-height:28px;color:#fff;background:#24465b;border:1px solid #bce9f5;border-radius:5px;cursor:pointer}
+.ev-label-close:focus-visible{outline:2px solid #ffda70}
+.evzoom-picture{position:relative;display:inline-flex;flex-direction:column;max-width:100%;max-height:100%;flex:none}.evzoom-picture .evzoom-image{object-fit:contain}
+/* leave room for the figure key under the enlarged plate */
+.evzoom-picture:has(.ev-label-key) .evzoom-image{max-height:calc(100vh - 330px)}
+.ai-draft-plate>.ev-label-key{flex:none;margin:4px 6px}
 .ev-label-hint{margin:0;color:#b8f2ff;font:600 13px Arial,'Noto Sans Devanagari Embedded',sans-serif}.ev-label-hint[hidden]{display:none!important}
 
 /* Classroom reading polish: keep the textbook and its 3D geometry intact. */
@@ -1465,38 +1480,18 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
 .svf-flabel{font-size:calc(13px * var(--fs));font-weight:700;color:var(--blue)}
 .svf-feq{font-size:calc(clamp(18px,1.5vw,22px) * var(--fs));font-weight:600;color:var(--ink);max-width:100%;overflow-x:auto;scrollbar-width:thin}
 .svf-formula small{font-size:calc(13.5px * var(--fs));color:var(--ink2)}
-/* check-your-understanding: a textbook's in-text question, not a game prompt.
-   It sits at the foot of the page in ONE compact three-column row so the
-   textbook paragraph above keeps the room it needs. The auto margin keeps it
-   on the page foot in single-language pages, where the paragraph is shorter. */
-.svf-predict{flex:none;margin-top:auto;border-top:2px solid var(--ink);padding-top:calc(10px * var(--fs));display:flex;flex-direction:column;gap:calc(8px * var(--fs))}
-.svf-pq{font-size:calc(clamp(14.5px,1.06vw,16.5px) * var(--fs));color:var(--ink);line-height:1.4;font-weight:600}
-.svf-pq .bi-hi{display:block;margin-top:3px}
-.svf-pq-tag{display:inline-block;margin-right:8px;color:#fff;background:var(--ink);font-size:.72em;font-weight:700;padding:1px 8px;border-radius:4px;vertical-align:2px;letter-spacing:.02em}
-.svf-popts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:calc(7px * var(--fs))}
-.svf-opt{
- display:flex;flex-direction:column;align-items:flex-start;gap:calc(4px * var(--fs));text-align:left;width:100%;box-sizing:border-box;
- padding:calc(7px * var(--fs)) calc(9px * var(--fs));border-radius:8px;border:1.5px solid #C9D1DC;background:#fff;color:var(--ink);
- font:inherit;font-size:calc(clamp(12.5px,0.92vw,14px) * var(--fs));line-height:1.35;cursor:pointer;
-}
-.svf-opt span{flex:1;min-width:0}
-.svf-opt .bi-hi{display:block;margin-top:2px}
-.svf-opt:hover:not(:disabled){border-color:var(--blue);background:#F3F7FD}
-.svf-opt:focus-visible,.svf-cycle:focus-visible,.svf-zoom:focus-visible,.svf-toc-row:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
-.svf-opt b{width:20px;height:20px;border-radius:50%;background:var(--wash);border:1.5px solid #C9D1DC;color:var(--ink);display:inline-grid;place-items:center;font-size:11px;flex:none}
-.svf-opt.correct{background:#E7F6EF;border-color:var(--ok);color:#0B4A35}
-.svf-opt.correct b{background:var(--ok);border-color:var(--ok);color:#fff}
-.svf-opt.wrong{background:#FDECEA;border-color:var(--bad);color:#7A1A12}
-.svf-opt.wrong b{background:var(--bad);border-color:var(--bad);color:#fff}
-/* after answering keep the correct answer and the student's pick; other options step aside */
-.svf-opt.dim{display:none}
-.svf-explain{font-size:calc(14.5px * var(--fs));line-height:1.55;color:#0B4A35;background:#E7F6EF;padding:calc(10px * var(--fs)) calc(13px * var(--fs));border-radius:8px}
-.svf-explain .bi-hi{display:block;margin-top:4px;color:#0B4A35}
-.svf-predict + .svf-pnum{margin-top:0}
-.svf-pnum{margin-top:auto;padding-top:6px;font-size:13px;color:#64748B;text-align:center;font-weight:600;flex:none}
+/* NCERT points: the extra text a textbook page carries under the paragraph.
+   A definition, a number, an example — one line each, EN then HI. */
+.svf-points{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:calc(5px * var(--fs));flex:none}
+.svf-points li{position:relative;padding-left:calc(15px * var(--fs));font-size:calc(clamp(14px,1.02vw,16px) * var(--fs));line-height:1.5;color:var(--ink)}
+.svf-points li::before{content:"—";position:absolute;left:0;top:0;color:var(--blue);font-weight:700}
+.svf-points li span{display:block}
+.svf-points li .bi-hi{color:var(--hi);font-weight:500}
 
+.svf-pnum{margin-top:auto;padding-top:calc(2px * var(--fs));font-size:calc(12.5px * var(--fs));line-height:1.2;color:#7C8A9A;font-weight:600;text-align:left}
+.svf-right-page .svf-pnum{text-align:right}
 /* figure page: the plate is the hero and takes every spare pixel */
-.svf-plate-wrap{flex:0 1 auto;margin:0;display:flex;flex-direction:column;gap:calc(8px * var(--fs))}
+.svf-plate-wrap{flex:0 1 auto;margin:0;display:flex;flex-direction:column;gap:calc(7px * var(--fs))}
 .svf-plate-host{
  flex:0 1 auto;aspect-ratio:1408/768;min-height:calc(170px * var(--fs));position:relative;width:100%;display:flex;align-items:center;justify-content:center;
  overflow:hidden;border-radius:10px;background:#0E1A2B;box-shadow:inset 0 0 0 1px rgba(20,33,61,.18);
@@ -1510,14 +1505,33 @@ body.p4-on .p4-bar{top:auto;right:12px;bottom:12px;width:min(760px,calc(100vw - 
 .svf-plate-fallback{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;background:var(--wash);border:1.5px dashed #C9D1DC;border-radius:10px;color:var(--ink2);font-size:calc(15px * var(--fs));line-height:1.5}
 .svf-plate-wrap.svf-missing .svf-plate-host img,.svf-hero.svf-missing img{visibility:hidden}
 .svf-plate-wrap.svf-missing .svf-plate-host::after{content:"Illustration unavailable · चित्र उपलब्ध नहीं";color:#C9D6E6;font-size:14px;position:absolute}
-/* key terms: a definition list under the figure */
-.svf-terms{flex:none;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(6px * var(--fs)) calc(18px * var(--fs));padding-top:calc(10px * var(--fs));border-top:1px solid var(--rule)}
-.svf-terms-h{grid-column:1/-1;font-size:calc(13.5px * var(--fs));font-weight:700;color:var(--ink2)}
-.svf-term{min-width:0}
-.svf-term dt{font-weight:700;color:var(--ink);font-size:calc(14.5px * var(--fs));line-height:1.35}
-.svf-term dt .bi-hi{font-weight:600}
-.svf-term dt .bi-hi::before{content:" · ";color:#94A3B8}
-.svf-term dd{margin:2px 0 0;color:var(--ink2);font-size:calc(13.5px * var(--fs));line-height:1.45}
+/* figure note: says what the plate shows and how it matches the paragraph */
+.svf-fignote{flex:none;margin:0;padding-top:calc(8px * var(--fs));border-top:1px solid var(--rule);font-size:calc(clamp(13.5px,1vw,15.5px) * var(--fs));line-height:1.5;color:var(--ink2)}
+.svf-fignote .bi-hi{display:block;margin-top:3px}
+
+/* chapter exercises: the end-of-chapter question pages */
+.svf-qtitle{margin:0;font-size:calc(clamp(17px,1.35vw,21px) * var(--fs));line-height:1.25;font-weight:800;color:var(--ink)}
+.svf-qlist{display:flex;flex-direction:column;gap:calc(8px * var(--fs));flex:1 1 auto;min-height:0}
+.svf-q{border:1.5px solid #C9D1DC;border-radius:9px;padding:calc(8px * var(--fs)) calc(10px * var(--fs));background:#fff;flex:none}
+.svf-qh{display:flex;gap:8px;align-items:baseline;font-size:calc(12.5px * var(--fs));color:var(--ink2);font-weight:600;line-height:1.3}
+.svf-qh b{display:inline-grid;place-items:center;min-width:19px;height:19px;border-radius:50%;background:var(--ink);color:#fff;font-size:10.5px;flex:none}
+.svf-qstem{margin:calc(4px * var(--fs)) 0 calc(6px * var(--fs));font-size:calc(clamp(13.5px,1vw,15px) * var(--fs));line-height:1.4;font-weight:600;color:var(--ink)}
+.svf-qstem .bi-hi{display:block;margin-top:2px}
+.svf-qopts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:calc(5px * var(--fs))}
+.svf-qopt{
+ display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;width:100%;box-sizing:border-box;
+ padding:calc(5px * var(--fs)) calc(7px * var(--fs));border-radius:7px;border:1.5px solid #C9D1DC;background:#fff;color:var(--ink);
+ font:inherit;font-size:calc(clamp(11.8px,0.88vw,13.5px) * var(--fs));line-height:1.35;cursor:pointer;
+}
+.svf-qopt b{width:17px;height:17px;border-radius:50%;background:var(--wash);border:1.5px solid #C9D1DC;display:inline-grid;place-items:center;font-size:10px;flex:none}
+.svf-qopt .bi-hi{display:block;margin-top:1px}
+.svf-qopt:hover:not(:disabled){border-color:var(--blue);background:#F3F7FD}
+.svf-qopt:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.svf-qopt.correct{background:#E7F6EF;border-color:var(--ok);color:#0B4A35}
+.svf-qopt.wrong{background:#FDECEA;border-color:var(--bad);color:#7A1A12}
+.svf-qopt.dim{opacity:.55}
+.svf-qwhy{margin-top:calc(6px * var(--fs));font-size:calc(13px * var(--fs));line-height:1.5;color:#0B4A35;background:#E7F6EF;padding:calc(6px * var(--fs)) calc(9px * var(--fs));border-radius:7px}
+.svf-qwhy .bi-hi{display:block;margin-top:3px}
 
 /* covers */
 .svf-cover{background:radial-gradient(circle at 50% 30%,#1D3E73,#0E1F3D 78%)!important;color:#F8FAFC!important;border:2px solid #C9A24A!important}
@@ -1628,8 +1642,7 @@ body.mode-2d .stage.screen-mode{background:#0c1422}
  .sv-flip-foot .btn{padding:6px 9px;font-size:12px;white-space:nowrap}
  .sv-flip-foot .btn span{display:none}
  .svf-page-inner{padding:calc(16px * var(--fs)) calc(18px * var(--fs)) calc(10px * var(--fs))}
- .svf-terms{grid-template-columns:1fr}
- .svf-popts{grid-template-columns:1fr}
+ .svf-qopts{grid-template-columns:1fr}
 }
 
 /* ---- Far-read mode (#btnFar): book fills the screen, large type, no clipped chrome ---- */
@@ -1648,10 +1661,7 @@ body.mode-2d #btnFar{display:none!important}
 
 /* Narrow figures (phones): chips become numbered callouts on the same leader
    lines; tapping one opens its full bilingual name and note. */
-.ev-label-layer.ev-compact .ev-label-hit.ev-label-chip{font-size:0!important;padding:0}
-.ev-label-layer.ev-compact .ev-label-hit.ev-label-chip::after{content:attr(data-n);font:800 12px/1 Arial,sans-serif;color:#092d42}
-.ev-label-layer.ev-compact .ev-label-pop{font-size:11.5px;line-height:1.35;overflow-y:auto;padding:6px 26px 6px 8px}
-.ev-label-layer.ev-compact .ev-label-pop strong{font-size:12.5px}
+@media(max-width:1100px){.ev-key-item{font-size:11.5px;padding:2px 5px}.ev-key-item .ev-key-hi{font-size:10.5px}.ev-label-key{grid-template-columns:repeat(auto-fit,minmax(96px,1fr));padding:4px}}
 .svf-fsep{color:#94A3B8;margin:0 .35em}
 
 /* Field-notebook palette: warm paper, forest green and clay instead of a

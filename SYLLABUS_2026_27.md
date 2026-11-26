@@ -132,13 +132,13 @@
 |---|---|---|---|
 | 7.1 | Work done by a constant force | स्थिर बल द्वारा किया गया कार्य | assessed |
 | 7.2 | Positive, negative and zero work | धनात्मक, ऋणात्मक और शून्य कार्य | assessed |
-| 7.3 | Kinetic energy | गतिज ऊर्जा | assessed |
-| 7.4 | Potential energy | स्थितिज ऊर्जा | assessed |
-| 7.5 | Work-energy theorem | कार्य-ऊर्जा प्रमेय | assessed |
-| 7.6 | Conservation of energy | ऊर्जा का संरक्षण | assessed |
-| 7.7 | Power and its unit | शक्ति और उसकी इकाई | assessed |
-| 7.8 | Simple machines and mechanical advantage | सरल मशीनें और यांत्रिक लाभ | assessed |
-| 7.9 | Lever, pulley and inclined plane | उत्तोलक, घिरनी और आनत तल | assessed |
+| 7.3 | The work-energy theorem | कार्य-ऊर्जा प्रमेय | assessed |
+| 7.4 | Forms of energy | ऊर्जा के रूप | assessed |
+| 7.5 | Kinetic energy | गतिज ऊर्जा | assessed |
+| 7.6 | Potential energy | स्थितिज ऊर्जा | assessed |
+| 7.7 | Conservation of mechanical energy | यांत्रिक ऊर्जा का संरक्षण | assessed |
+| 7.8 | Power and its unit | शक्ति और उसका मात्रक | assessed |
+| 7.9 | Pulley, inclined plane and lever | घिरनी, आनत तल और उत्तोलक | assessed |
 
 ### IX · Journey Inside the Atom (`c9_atom`) — 12 spreads · STUDENT
 
